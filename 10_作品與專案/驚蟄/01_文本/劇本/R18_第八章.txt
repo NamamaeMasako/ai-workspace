@@ -1,0 +1,327 @@
+﻿# R18｜第八章｜春雷
+# 檔案用途：供 R18 版插入（同章節多段 R18 可集中在此檔）
+# 插入點：劇本_第八章.txt
+#   # [R18插入點] 參照：R18_第八章.txt / Part A
+#
+# 注意：本段為成人內容（全員成年且自願）。
+
+# Part A — 事後親密（3P）
+
+scene bg inn_hall_night
+with fade
+
+narrator "月下庄的燈重新點起來。"
+
+narrator "雨還在下，但屋裡很暖。"
+
+show jingzhe neutral
+narrator "驚蟄坐在榻榻米邊，背靠著牆。"
+
+narrator "他的傷被簡單處理過，疼痛被影之魔女抽走了一半，剩下的像提醒：他還活著。"
+
+show hanami sad
+narrator "花見跪在他身旁，眼角還紅。"
+
+show yumemi sad
+narrator "夢見也靠近，手指碰著他的袖口，像怕一眨眼他又會消失。"
+
+hanami "你真的很過分。"
+
+jingzhe "……嗯。"
+
+narrator "他沒有辯解。"
+
+narrator "辯解太廉價。"
+
+yumemi "你剛剛……是不是以為自己會死？"
+
+jingzhe "我只是……不想再看到你們倒下。"
+
+narrator "這句話說出口時，他的聲音很低。"
+
+narrator "像把某個結局踩碎。"
+
+show hanami sad
+hanami "那你就把自己丟出去？"
+
+jingzhe "……我習慣了。"
+
+narrator "花見的手掌貼上他的臉。"
+
+narrator "力道不重，卻像要把他從『習慣』裡拉出來。"
+
+hanami "你不准再用習慣當藉口。"
+
+narrator "驚蟄想笑，又忍住了。"
+
+jingzhe "……知道了。"
+
+narrator "夢見靠過來，額頭輕輕抵著他的肩。"
+
+yumemi "那現在……輪到我們選。"
+
+narrator "驚蟄一怔。"
+
+narrator "他抬眼，看見夢見的臉紅得很淡，卻沒有躲。"
+
+narrator "花見的眼神更直接。"
+
+hanami "你不是一直寫官能小說嗎？"
+
+hanami "你想要被愛……那就別躲。"
+
+narrator "驚蟄的喉結滾了一下。"
+
+jingzhe "……我沒有躲。"
+
+hanami "你有。"
+
+narrator "她說得很肯定。"
+
+narrator "像在揭穿他的壞習慣。"
+
+narrator "夢見的手指慢慢滑進他的掌心。"
+
+yumemi "可以嗎？"
+
+narrator "驚蟄看著她。"
+
+narrator "他忽然想起自己一直以為：他不會被留下。"
+
+narrator "而此刻，兩個人正在用同一個答案包住他。"
+
+jingzhe "……可以。"
+
+narrator "花見的笑像放鬆下來的刀。"
+
+narrator "她先吻上去。"
+
+narrator "那個吻不溫柔，也不粗暴。"
+
+narrator "像是把他從『等死』裡拖回來。"
+
+narrator "夢見的吻跟在旁邊，很輕。"
+
+narrator "輕到像在確認：他真的在。"
+
+narrator "驚蟄的手指抓住榻榻米邊緣。"
+
+narrator "他本能想要保持距離。"
+
+narrator "花見按住他的手腕。"
+
+hanami "別把我們推開。"
+
+jingzhe "……我沒有。"
+
+hanami "那就放開。"
+
+narrator "他慢慢鬆開手。"
+
+narrator "夢見把他的煙斗拿走，放到一旁。"
+
+yumemi "今晚不用它。"
+
+narrator "驚蟄低笑一聲。"
+
+jingzhe "……好。"
+
+narrator "花見先解開他的衣襟。"
+
+narrator "指尖掃過胸口時，驚蟄的肩微微一縮。"
+
+narrator "那不是怕疼，是怕太真。"
+
+hanami "會痛嗎？"
+
+jingzhe "不痛。"
+
+narrator "他說謊。"
+
+narrator "花見看得出來。"
+
+hanami "那就慢一點。"
+
+narrator "夢見的手掌貼在他的背上，從肩一路滑下去。"
+
+narrator "她的觸碰很溫，像在把他一片一片撿回來。"
+
+narrator "衣物被一件件褪下。"
+
+narrator "驚蟄的呼吸越來越亂。"
+
+narrator "他想要說話，卻只剩喘息。"
+
+show hanami smile
+hanami "看吧。你還是想要。"
+
+jingzhe "……閉嘴。"
+
+narrator "花見笑出聲。"
+
+narrator "夢見也笑了一下，聲音很小。"
+
+yumemi "姐姐不要欺負他。"
+
+hanami "我是在教他。"
+
+narrator "花見跪坐在他腿邊，低下頭。"
+
+narrator "她的唇碰上去的瞬間，驚蟄整個人一顫。"
+
+jingzhe "……！"
+
+narrator "他想撐住，卻被夢見的吻堵住。"
+
+narrator "夢見坐到他身側，手指也跟著幫忙。"
+
+narrator "兩人的節奏一快一慢，把他的意志磨得很薄。"
+
+narrator "驚蟄的手掌握住夢見的腰。"
+
+jingzhe "夢見……"
+
+yumemi "嗯。"
+
+narrator "她沒有躲，反而把身體貼得更近。"
+
+narrator "花見抬眼看他，像在確認他沒逞強。"
+
+hanami "可以繼續嗎？"
+
+narrator "驚蟄的喉間發出一聲很低的『嗯』。"
+
+narrator "夢見先跨坐上來。"
+
+narrator "她的臉紅得更深，卻沒有退。"
+
+narrator "驚蟄扶住她的腰，動作很小心。"
+
+narrator "當她慢慢坐下去時，他忍不住吸了一口氣。"
+
+jingzhe "……太深。"
+
+yumemi "那我慢一點。"
+
+narrator "她的聲音很軟，卻帶著決定。"
+
+narrator "她開始動。"
+
+narrator "一開始很慢。"
+
+narrator "慢到像是在把他重新學會呼吸。"
+
+narrator "花見在旁邊吻著他，舌尖帶著一點挑釁。"
+
+hanami "你還敢逞強嗎？"
+
+jingzhe "……不敢。"
+
+narrator "花見笑得更滿意。"
+
+narrator "她的手滑到夢見身上，順著胸口往下。"
+
+narrator "夢見的身體一抖，動作亂了一下。"
+
+yumemi "姐……姐……"
+
+hanami "乖。"
+
+narrator "花見的吻落在夢見的肩。"
+
+narrator "她一邊引導夢見的節奏，一邊把驚蟄的手拉過去。"
+
+hanami "你也要做。"
+
+narrator "驚蟄的指尖碰上夢見時，夢見低低喘了一聲。"
+
+narrator "那聲音像一把鎖被打開。"
+
+narrator "驚蟄的眼神變深。"
+
+narrator "他忽然明白："
+
+narrator "他不是被迫接受。"
+
+narrator "他是在被允許。"
+
+narrator "夢見的節奏慢慢變快。"
+
+narrator "花見把額頭抵著驚蟄，低聲在他耳邊說。"
+
+hanami "你要記得。"
+
+hanami "你是我們的。"
+
+narrator "驚蟄的呼吸一亂，手掌收緊。"
+
+jingzhe "……別說這種話。"
+
+hanami "為什麼？"
+
+jingzhe "我會信。"
+
+narrator "花見愣了一下，然後笑得更溫柔。"
+
+hanami "那就信。"
+
+narrator "夢見抬頭，看著他。"
+
+yumemi "我們會一起留著你。"
+
+narrator "那句話像釘子，把他釘在此刻。"
+
+narrator "驚蟄的身體繃得很緊。"
+
+narrator "他在快要失控之前，先扶住夢見的腰。"
+
+jingzhe "可以……停一下嗎？"
+
+narrator "夢見點頭。"
+
+narrator "花見卻不放過他。"
+
+hanami "不行。"
+
+narrator "她把他推倒在榻榻米上。"
+
+narrator "夢見被她拉著一起。"
+
+narrator "兩個人把他包在中間。"
+
+narrator "吻落下來，像密密的雨。"
+
+narrator "驚蟄終於放任自己沉下去。"
+
+narrator "呼吸、聲音、身體，全都交出去。"
+
+narrator "他在她們之間射出時，幾乎是咬著牙。"
+
+jingzhe "……"
+
+narrator "花見吻住他的唇，不讓他把那聲音吞回去。"
+
+narrator "夢見靠在他胸口，呼吸還亂。"
+
+narrator "三個人的心跳在同一個地方撞。"
+
+narrator "過了很久，花見才開口。"
+
+show hanami smile
+hanami "你看。"
+
+hanami "你沒有被丟下。"
+
+narrator "驚蟄閉上眼。"
+
+jingzhe "……嗯。"
+
+narrator "夢見輕輕親了他一下。"
+
+yumemi "晚安。"
+
+narrator "驚蟄沒有回答。"
+
+narrator "但他的手臂收緊，像回應。"
+
+# END T8-01

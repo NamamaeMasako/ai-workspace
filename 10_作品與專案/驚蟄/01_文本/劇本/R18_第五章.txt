@@ -1,0 +1,717 @@
+﻿# R18｜第五章｜牽絲
+# 檔案用途：供 R18 版插入（同章節多段 R18 集中在此檔）
+# 對應主劇本：劇本_第五章.txt
+#
+# 注意：本檔為成人內容（全員成年且自願）。
+
+# Part A — 花見夜訪延伸（解除控制後的自願親密）
+# 插入點：劇本_第五章.txt
+#   # [R18插入點] 參照：R18_第五章.txt / Part A
+
+scene bg inn_room_night
+with fade
+
+narrator "冷風從窗縫鑽進來，像把房間裡多餘的氣味刮淡。"
+
+show hanami sad
+narrator "花見站在那裡，眼神還有一點迷茫，呼吸也還有些亂。"
+
+hanami "……我剛剛在做什麼？"
+
+show jingzhe neutral
+jingzhe "妳被牽著走。"
+
+narrator "他沒有說『被控制』。"
+
+narrator "那個詞太刺，也太容易讓人把自己壓碎。"
+
+show hanami sad
+hanami "我……我明明——"
+
+narrator "她低頭看著自己的手。"
+narrator "那隻手剛剛還碰著他的衣帶。"
+
+narrator "她的指尖抓住衣襟，像是想把剛才那段自己從皮膚上扯下來。"
+
+jingzhe "不是妳的錯。"
+
+narrator "他說得很平。"
+
+narrator "平到像是在替她把責任接走。"
+
+narrator "花見抬起頭，看著他。"
+
+narrator "那一瞬間，她的眼神終於找回了光，終於重新像她自己。"
+
+show hanami determined
+hanami "你剛剛……是在救我？"
+
+jingzhe "嗯。"
+
+hanami "那你現在還要救一次。"
+
+show jingzhe neutral
+narrator "驚蟄皺了下眉。"
+
+jingzhe "什麼？"
+
+narrator "花見走近一步。"
+
+narrator "她的動作很慢，像是在給他時間拒絕。"
+
+hanami "我不喜歡剛才那樣。"
+
+hanami "像被拿來當工具。"
+
+hanami "所以……我想要一個『我自己選的』。"
+
+narrator "她說完，耳尖紅得發亮。"
+
+narrator "但她沒有退。"
+
+show jingzhe neutral
+narrator "驚蟄看著花見。"
+
+narrator "他一直擅長把人推遠。"
+
+narrator "可花見從來就不是那種會乖乖被推開的人。"
+
+jingzhe "……妳確定？"
+
+hanami "我很確定。"
+
+narrator "她伸手，先碰到的是他的手背。"
+
+narrator "然後是指節。"
+
+narrator "最後才慢慢扣住他的掌心。"
+
+narrator "像把某個答案安放進去。"
+
+narrator "驚蟄沒有抽開。"
+
+narrator "花見抬頭，輕輕吻了他一下。"
+
+narrator "吻很短。"
+
+narrator "短到像試探。"
+
+narrator "下一秒，她就自己笑了。"
+
+show hanami smile
+
+hanami "你怎麼這個表情？"
+hanami "看你平常一副什麼都不在乎的樣子，原來也會緊張喔？"
+
+jingzhe "……閉嘴。"
+
+narrator "他嘴上這麼說，手卻還是扣住她的腰。"
+
+narrator "花見像逮到什麼一樣，笑意更深。"
+narrator "她貼上來，額頭幾乎碰到他的。"
+
+hanami "你看。"
+
+hanami "你也沒有想把我推開。"
+narrator "她說得很篤定。"
+narrator "可驚蟄的手掌碰上她後腰時，卻察覺到另一件事。"
+
+narrator "花見在發抖。"
+
+narrator "不是很明顯的那種顫。"
+narrator "只是肌肉還繃著，呼吸也還沒真正穩下來。"
+narrator "像她人已經站回來了，身體卻還有一半困在剛才那陣亂流裡。"
+
+narrator "驚蟄沒有拆穿。"
+
+narrator "他只是把她往自己這邊帶近一點，低頭吻回去。"
+narrator "這次的吻比剛才更深，卻比剛才更慢。"
+
+narrator "花見先是怔了一下。"
+narrator "然後才慢慢放鬆肩膀，把重量交給他。"
+
+scene bg inn_room_night
+with dissolve
+
+narrator "此時，屋裡只剩兩個人的呼吸。"
+
+show hanami smile
+narrator "她把他推到榻榻米邊。"
+
+narrator "不是強硬，是很熟練地把主導權拿回來。"
+
+hanami "怎麼，現在要逃還來得及喔？"
+
+show jingzhe neutral
+jingzhe "……妳話很多。"
+
+
+narrator "花見笑了一下，低頭解開他的衣襟。"
+
+narrator "但她的手才剛滑過他的頸側，驚蟄的肩卻微微一縮。"
+
+hanami "嗯？"
+
+narrator "她抬眼看他。"
+
+jingzhe "……沒事。"
+
+narrator "沒事才怪。"
+
+hanami "會痛嗎？"
+narrator "花見輕撫著驚蟄頸上那剛被壓過的痕跡。"
+
+jingzhe "……有一點。"
+
+narrator "他第一次沒有逞強。"
+
+narrator "花見的眼神軟了一點，眼底有一瞬間很明顯的懊惱。"
+narrator "像是剛剛才努力把自己撐回來，現在卻又被提醒了一次。"
+
+narrator "驚蟄抬手，碰了碰她的臉。"
+narrator "動作很輕。"
+
+jingzhe "不是妳弄的。"
+
+narrator "他沒有多說。"
+narrator "也沒有順勢去安慰她。"
+
+narrator "他只是沿著她的耳後、側頸、肩，慢慢吻下去。"
+narrator "節奏放得很慢，像在告訴她：現在已經安全了。"
+
+narrator "花見原本還有點繃著的呼吸，也在這樣的碰觸裡慢慢鬆開。"
+
+show hanami sad
+hanami "……你這樣很犯規耶。"
+jingzhe "妳先開始的。"
+
+narrator "花見低低笑了一下。"
+narrator "這次笑聲沒有剛才那麼亮，反而更軟。"
+
+narrator "她低頭吻住他，把剛才那點狼狽一起吞掉。"
+
+narrator "兩人的衣物一件件散開。"
+narrator "肌膚相貼的瞬間，花見的身體還是本能地緊了一下。"
+
+narrator "驚蟄察覺到了。"
+narrator "他沒有問她是不是還在怕。"
+
+narrator "只是用手掌慢慢順過她的背，像替她把殘留的寒意撫開。"
+jingzhe "如果不想，就停。"
+
+narrator "花見抬頭看他。"
+narrator "那句話像是終於讓她真正落回地面。"
+
+show hanami smile
+hanami "我想。"
+
+hanami "而且現在比剛剛更想。"
+
+narrator "她說完，主動跨坐到他腿上。"
+narrator "這一次，她的動作穩得多。"
+
+narrator "驚蟄抬眼看她。"
+narrator "花見臉還是紅的，眼神卻重新亮了起來。"
+hanami "剛才讓你照顧一下就夠了。"
+
+hanami "接下來換我了。"
+
+narrator "她低頭親他，舌尖比剛才更主動。"
+narrator "手也沿著他的肩、胸口慢慢往下滑。"
+
+narrator "驚蟄的呼吸很快就亂了。"
+narrator "花見察覺後，嘴角又翹起來。"
+
+hanami "你真的很不會藏耶。"
+
+jingzhe "……少說兩句。"
+hanami "不要。"
+
+narrator "她一邊笑，一邊故意放慢動作折磨他。"
+narrator "像是在確認，他現在是真的被她牽著走。"
+
+narrator "等到他掌心收緊，終於扶住她的腰，花見才慢慢往下坐。"
+
+narrator "兩人真正結合的瞬間，驚蟄喉間溢出一聲很低的喘息。"
+narrator "花見也輕輕抖了一下，手指抓住他的肩。"
+
+hanami "……可以嗎？"
+
+jingzhe "可以。"
+
+narrator "她沒有立刻加快。"
+narrator "而是先用很慢的節奏適應，像是在確認這一次每一下都出自她自己的意志。"
+
+narrator "驚蟄扶著她，沒有催。"
+narrator "只是順著她的呼吸，一點一點陪她把剛才沒能退乾淨的驚悸磨掉。"
+
+narrator "直到花見終於徹底放鬆下來，整個人真正熱起來，她才抬起眼，看著他。"
+
+show hanami determined
+hanami "好。"
+
+hanami "現在你不准反悔了。"
+
+narrator "下一秒，她的節奏明顯變了。"
+
+narrator "剛才還帶著試探，現在卻一下子俐落起來。"
+narrator "像她終於把自己的場子完整拿了回去。"
+
+narrator "她伏低身體，在他耳邊笑。"
+
+hanami "不是很會忍嗎？"
+
+hanami "那你現在忍給我看。"
+
+narrator "驚蟄的手指一下收緊。"
+
+jingzhe "……妳。"
+
+hanami "嗯，我。"
+narrator "花見笑得更壞了。"
+narrator "可那份壞裡，已經沒有剛才那種慌。"
+
+narrator "她現在是真的在享受。"
+narrator "享受自己還能主動，享受他沒有退，享受這一切終於由她自己決定。"
+
+narrator "驚蟄被她逼得往後仰，喉結滾得厲害。"
+narrator "花見低頭吻住他，把他的喘息全吞進去。"
+
+narrator "房裡的節奏越來越快。"
+narrator "她的髮尾掃過他的手臂、胸口、腰側，像火一樣反覆撩過去。"
+
+narrator "到最後，花見終於撐不住地伏在他肩上，咬住一聲喘。"
+hanami "驚蟄……"
+
+narrator "他聽見自己的名字被她叫得很真。"
+
+narrator "真到他差點以為自己會被愛。"
+
+narrator "他們在榻榻米上交疊，動作越來越深。"
+
+narrator "花見咬住他的肩，像在把所有不安都咬碎。"
+
+narrator "驚蟄的手掌扣住她的後頸，讓她不必硬撐。"
+
+narrator "最後的瞬間來得很快。"
+
+narrator "他們幾乎同時失控。"
+
+narrator "花見伏在他胸口喘息，額頭抵著他。"
+
+show hanami sad
+hanami "……你要記得。"
+
+hanami "剛才那個不是我。"
+
+hanami "現在這個才是。"
+narrator "她的聲音還有點啞。"
+narrator "卻比剛才穩得多。"
+show jingzhe neutral
+
+jingzhe "……我知道。"
+
+narrator "驚蟄把滑到一旁的外衣拉過來，蓋到她肩上。"
+narrator "手掌停在她背上，輕輕拍了拍。"
+narrator "花見笑了。"
+narrator "這次的笑終於又像平常那個她。"
+
+hanami "你剛剛是不是在哄我？"
+
+jingzhe "沒有。"
+
+hanami "騙人。"
+
+narrator "窗外的夜仍然潮濕。"
+
+narrator "門外像有一點很淡的光，停了幾秒，又安靜退開。"
+
+narrator "但至少此刻，房間裡是乾淨的。"
+
+# END Part A
+
+
+# Part B — 夢見夜裡的確認（解除控制後的自願親密）
+# 插入點：劇本_第五章.txt
+#   # [R18插入點] 參照：R18_第五章.txt / Part B
+
+scene bg inn_room_night
+with fade
+
+narrator "夜深時，月下庄的走廊像一條沒有人的河。"
+
+show yumemi sad
+narrator "夢見坐在自己的房裡，手指抓著衣角。"
+
+narrator "她知道白天那一瞬間不是自己。"
+
+narrator "也知道自己差點做了什麼。"
+
+narrator "恐懼讓她的呼吸很淺。"
+
+narrator "可更讓她無法安靜下來的，不只是恐懼。"
+
+narrator "她也想靠近那個人。"
+
+narrator "而且那個念頭，不全是今天才有。"
+
+narrator "昨晚，她其實看見了。"
+
+narrator "看見花見從驚蟄房裡出來。"
+
+narrator "她不是不懂。"
+narrator "姐姐看著驚蟄時，眼神會變。"
+
+narrator "夢見一直都知道。"
+
+narrator "也正因為知道，她才更不想承認自己也一樣。"
+
+narrator "她愛姊姊。"
+narrator "可她也喜歡驚蟄。"
+
+narrator "兩種感情纏在一起，讓她連自己的心跳都覺得心虛。"
+
+scene bg inn_corridor_night
+with dissolve
+
+narrator "她提著燈，走到驚蟄門前。"
+
+narrator "抬手時，指尖發抖。"
+
+narrator "門內傳來很淡的煙草味。"
+
+narrator "那味道像界線，也像救命的繩。"
+
+show yumemi sad
+yumemi "……可以進去嗎？"
+
+scene bg inn_room_night
+with dissolve
+
+show jingzhe neutral
+narrator "驚蟄沒有立刻回答。"
+
+narrator "他把煙斗放下，才開口。"
+
+jingzhe "進來吧。"
+
+show yumemi sad
+narrator "夢見走進來時，不敢直視他。"
+
+yumemi "我白天……很奇怪。"
+
+jingzhe "嗯。"
+
+yumemi "我不是想拿你的東西。"
+
+jingzhe "我知道。"
+
+narrator "他回答得很短。"
+
+narrator "卻像先把她胸口那團慌亂按住了一半。"
+
+show yumemi sad
+yumemi "我只是想確認……"
+
+yumemi "確認我還是我。"
+
+narrator "驚蟄看著她。"
+
+narrator "他本來想說：回房睡。"
+
+narrator "但他看見夢見的眼神像是要碎。"
+
+narrator "他知道她需要的不是命令。"
+
+narrator "是允許。"
+
+jingzhe "那妳想怎麼確認？"
+
+narrator "夢見臉紅得更深。"
+
+narrator "她咬著唇，半天才說。"
+
+yumemi "……可以抱一下嗎？"
+
+narrator "驚蟄沉默了一秒。"
+
+narrator "然後，他張開手。"
+
+show yumemi sad
+narrator "夢見撲進去時，像終於找到一個能站穩的地方。"
+
+narrator "她的體溫很暖。"
+
+narrator "暖到驚蟄有一瞬間想把人推開。"
+
+narrator "太近了。"
+narrator "也太危險了。"
+
+narrator "可他最後只是把手落在她背上，沒有推。"
+
+narrator "夢見在他懷裡安靜了一會。"
+
+narrator "然後，她抬頭，輕輕吻了他一下。"
+
+narrator "那個吻很輕。"
+
+narrator "輕到像在問：可以嗎？"
+
+show jingzhe neutral
+jingzhe "……可以。"
+
+narrator "他沒有說更多。"
+
+
+narrator "夢見像終於得到允許，吻得更深。"
+
+narrator "她的手指探進他的衣襟，動作卻仍然小心。"
+
+narrator "只是那份小心裡，開始混進一點壓不住的執著。"
+
+yumemi "會痛嗎？"
+
+jingzhe "……會。"
+
+yumemi "那我慢慢來。"
+
+narrator "她真的放得很慢。"
+
+narrator "慢到像在一格一格地試探，也一格一格地確認，自己沒有越界。"
+
+narrator "她吻著他的頸側，避開了那道痕跡。"
+
+narrator "指尖順著肩、鎖骨、胸口慢慢滑下去。"
+
+narrator "像在記住他，確認這個人不是她白天差點傷到的對象，而是她想碰的人。"
+
+narrator "衣物被褪下後，夢見把他推倒在榻榻米上。"
+
+narrator "她跨坐上來，臉紅得發燙。"
+
+yumemi "我……如果不想，我會停。"
+
+yumemi "如果你不想，你也要說。"
+
+narrator "她的聲音很軟。"
+
+narrator "卻比任何命令都清楚。"
+
+jingzhe "……好。"
+
+narrator "夢見低頭吻住他。"
+
+narrator "她的身體慢慢貼上來。"
+
+narrator "當他們真正結合的瞬間，驚蟄吸了一口氣。"
+
+narrator "夢見停了一下，確認他的表情。"
+
+yumemi "可以嗎？"
+
+jingzhe "可以。"
+
+narrator "她才開始動。"
+
+narrator "一開始的節奏很慢。"
+narrator "慢得像她還在試圖把那些亂掉的心緒一點點理順。"
+
+narrator "可驚蟄很快就察覺到了另一件事。"
+narrator "夢見明明已經貼得很近，身體卻還沒有真正放鬆。"
+narrator "她的呼吸是亂的，手指也抓得太緊。"
+
+narrator "不像單純害羞。"
+narrator "更像是在不安。"
+
+jingzhe "……夢見。"
+
+narrator "夢見的動作頓了一下。"
+
+yumemi "嗯？"
+
+narrator "驚蟄看著她，沒有直接點破。"
+
+jingzhe "看著我。"
+narrator "夢見慢慢抬起眼。"
+
+narrator "她眼裡有羞，有慾望，還有一點藏不住的掙扎。"
+
+yumemi "我知道姐姐也喜歡你。"
+
+narrator "她終於還是說了。"
+
+yumemi "我一直都知道。"
+
+yumemi "所以我不應該這樣。"
+
+yumemi "可是我還是來了。"
+narrator "她說到最後，聲音一下低了下去。"
+
+yumemi "我明明最不想傷到姐姐。"
+
+yumemi "可是我看到她昨晚從你房裡出來……我還是會嫉妒。"
+
+narrator "她說『嫉妒』時，耳尖一下更紅了。"
+
+narrator "像是終於把最難承認的那一塊說出口。"
+
+yumemi "我是不是很糟糕？"
+
+narrator "驚蟄看著她。"
+
+narrator "他本來就不擅長安慰人。"
+narrator "尤其不擅長處理這麼柔軟的東西。"
+
+narrator "可他還是抬手，碰了碰她的臉。"
+
+jingzhe "不是。"
+
+narrator "夢見的眼睫顫了一下。"
+
+jingzhe "妳喜歡她，也喜歡我。"
+
+jingzhe "這不奇怪。"
+
+narrator "他的聲音一如既往地低。"
+narrator "低得沒有太多修飾。"
+narrator "卻正因為沒有修飾，反而更像真話。"
+
+yumemi "可是你呢……？"
+
+narrator "她問得很小聲。"
+
+narrator "像是連她自己都怕聽見答案。"
+
+narrator "驚蟄扶住她的腰，把她往自己這裡帶近。"
+
+jingzhe "對我來說，妳們一樣重要。"
+
+narrator "這句話落下時，夢見整個人都僵了一瞬。"
+
+narrator "像是撐了很久的某根線，終於被人輕輕剪開。"
+narrator "她低下頭，額頭抵住他的胸口。"
+narrator "呼吸一下子亂得更厲害。"
+
+yumemi "……你不要在這種時候說這種話。"
+
+jingzhe "為什麼？"
+
+yumemi "我會更想要你。"
+
+narrator "驚蟄的喉結滾了一下。"
+
+narrator "他沒有笑她。"
+narrator "只是把手掌放到她背上，一下一下順過去，像在讓她徹底安靜下來。"
+narrator "夢見在這樣的碰觸裡，終於慢慢鬆開肩膀。"
+
+narrator "她再抬起眼時，眼神已經不一樣了。"
+
+show yumemi shy
+narrator "那份原本藏著的不安還在。"
+narrator "可它底下，已經有另一種更明顯的東西浮了上來。"
+
+narrator "是想要。"
+narrator "而且是不打算退讓的那種。"
+
+narrator "夢見重新吻住了驚蟄。"
+
+narrator "這次比剛才更深。"
+narrator "也更貪。"
+narrator "她的節奏明顯變了。"
+
+narrator "原本還帶著小心試探，現在卻一下一下咬得更緊。"
+narrator "像終於不用再分心顧慮，於是本能整個浮了上來。"
+
+jingzhe "……夢見。"
+
+yumemi "你剛剛說了。"
+
+yumemi "對你來說，我跟姐姐一樣重要。"
+
+narrator "她伏在他耳邊，聲音很輕。"
+narrator "卻帶著一點從未在白天露出來的執著。"
+yumemi "那現在，你要只看著我。"
+
+narrator "她說完，還很輕地咬了一下他的耳側。"
+
+
+narrator "那一瞬間讓驚蟄微微一怔。"
+
+jingzhe "……妳。"
+
+yumemi "不行嗎？"
+
+narrator "她嘴上還是軟的。"
+narrator "可動作已經一點都不軟了。"
+
+narrator "她主動加深節奏，甚至有幾下快得完全沒顧他是不是跟得上。"
+narrator "像是平常壓得太久，一旦放出來就收不回去。"
+narrator "驚蟄被她這樣突然逼住，呼吸一下亂了。"
+
+narrator "夢見也立刻察覺。"
+narrator "可她這次沒有停。"
+
+yumemi "你自己說可以的。"
+
+narrator "她低頭看著他，臉紅得厲害，眼神卻黏得發亮。"
+
+narrator "那不是兇。"
+narrator "更像是她好不容易確認自己可以要，於是就真的不想再讓。"
+
+narrator "驚蟄抬手扶住她的腰。"
+narrator "本來像是想讓她慢一點。"
+
+narrator "可夢見反而更貼近，把他的手按在自己身上。"
+
+yumemi "不要收回去。"
+
+yumemi "也不要哄完我，就又把我放到一邊。"
+
+narrator "她說這句話時，聲音第一次真的帶了點顫。"
+
+narrator "驚蟄看著她，最後沒有讓她慢下來。"
+
+narrator "他只是抬頭吻住她，把她那些還沒完全說出口的不安一起堵回去。"
+
+narrator "夢見的呼吸一下碎掉。"
+narrator "接著，她整個人像終於徹底放開，動作也跟著更深、更急。"
+
+narrator "她咬住唇，還是壓不住零碎的喘息。"
+narrator "到後面，甚至低頭咬住他的肩。"
+
+narrator "力道不重。"
+narrator "卻很明顯。"
+
+jingzhe "……妳現在真的很不像白天。"
+
+narrator "夢見抬眼看他。"
+
+show yumemi shy
+yumemi "白天那個也是我。"
+yumemi "現在這個……也是。"
+
+yumemi "只是平常不讓你看而已。"
+
+narrator "她說完，又主動吻了上去。"
+
+narrator "夢見喘了一聲，節奏也跟著亂了。"
+
+narrator "最後，她伏在他胸口，整個人顫著。"
+
+narrator "驚蟄也在她的節奏裡失控。"
+
+narrator "過了好一會兒，夢見才慢慢抬頭。"
+
+show yumemi shy
+yumemi "我還是我嗎？"
+
+show jingzhe neutral
+jingzhe "……是。"
+
+narrator "他吻了她一下，像回答。"
+
+narrator "夢見這才終於笑了。"
+
+narrator "那笑很小，但很亮。"
+
+# END Part B

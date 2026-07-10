@@ -1,0 +1,131 @@
+﻿# 劇本｜驚蟄
+
+# 第六章｜先手
+
+scene bg inn_morning
+with dissolve
+
+narrator "清晨的風比前幾天更乾。"
+
+narrator "像是雨季尚未來臨，卻已經開始預告。"
+
+show jingzhe neutral
+narrator "驚蟄站在後院，指尖捏著一撮未點燃的香。"
+
+jingzhe "……"
+
+narrator "他知道自己不能再只是等。"
+
+narrator "等下去，就會有人被帶走。"
+
+scene bg inn_kitchen
+with dissolve
+
+show hanami smile
+hanami "你今天看起來精神多了。"
+
+jingzhe "嗯。"
+
+show yumemi shy
+yumemi "還有哪裡不舒服嗎？"
+
+jingzhe "沒有。"
+
+narrator "夢見的眼神依舊柔軟，但他注意到她會下意識避開某些角落。"
+
+narrator "像是那裡還殘著她不敢再看的東西。"
+
+scene bg inn_corridor_day
+with dissolve
+
+narrator "午後，他走到走廊盡頭，看見一點被踩過的灰。"
+
+narrator "灰裡混著極細的殼，像是小蜘蛛的遺骸。"
+
+show jingzhe neutral
+narrator "他沒有驚動別人，只是把灰掃進掌心。"
+
+narrator "那一刻，他明白了。"
+
+narrator "控制她們的，不只是人。"
+
+narrator "而他不能再假裝自己能置身事外。"
+
+scene bg inn_room_evening
+with dissolve
+
+narrator "入夜前，他在桌上攤開筆記。"
+
+narrator "不是小說，而是簡單的地圖。"
+
+narrator "月下庄、附近林道、能躲藏的洞窟與斷崖。"
+
+narrator "他把幾條路線畫得很慢。"
+
+show jingzhe neutral
+narrator "那不是猶豫，而是他在逼自己確定。"
+
+narrator "每一條線，都像在計算他可能失去的人。"
+
+narrator "畫完後，他把郵箱收進房梁的暗格。"
+
+narrator "又用淡淡的蟲香封住氣味，像是把訊號埋進霧裡。"
+
+scene bg inn_hall_evening
+with dissolve
+
+show hanami smile
+hanami "你今天一直在想事情。"
+
+jingzhe "……有事。"
+
+narrator "他終於開口。"
+
+narrator "沉默太久，就像一種背叛。"
+
+jingzhe "月底前，會有東西來。"
+
+hanami "什麼？"
+
+jingzhe "我不知道名字，但我知道牠們想找我。"
+
+show yumemi shy
+yumemi "那我們怎麼辦？"
+
+narrator "驚蟄看著她們。"
+
+narrator "他本來想說『離開』。"
+
+narrator "但他知道，她們不會走。"
+
+narrator "而他也不想再被迫選擇犧牲誰。"
+
+jingzhe "我會阻止牠們。"
+
+show hanami smile
+hanami "我跟你去。"
+
+narrator "花見的語氣沒有討論餘地。"
+
+narrator "她的眼神像已經把那條路先走完一遍。"
+
+jingzhe "……"
+
+narrator "她轉身回房，取出暮春大姊留下的薙刀。"
+
+show yumemi sad
+yumemi "那……我守著月下庄。"
+
+jingzhe "好。"
+
+narrator "他點頭。"
+
+narrator "但袖口中那張黑色卡片，似乎有意識地貼上了指尖。"
+
+narrator "卡片很冷，像是早已等著他把某個人推向安全的那一邊。"
+
+narrator "而另一邊，則必須由他自己去承擔。"
+
+narrator "那一刻，他已經選好了路。"
+
+# END 第六章

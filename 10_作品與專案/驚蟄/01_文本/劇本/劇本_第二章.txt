@@ -1,0 +1,118 @@
+﻿# 劇本｜驚蟄
+
+# 第二章｜煙與孤影
+
+scene bg inn_room_night
+with dissolve
+
+narrator "夜更深時，月下庄的走廊會安靜得像一條沒有人的河。"
+
+show jingzhe neutral
+narrator "驚蟄坐在房裡，桌上只有一盞燈、一盒菸草，還有他那本磨舊的筆記。"
+
+jingzhe "……"
+
+narrator "他一直都是這樣寫的。"
+narrator "不是因為誰要求，也不是因為誰期待。"
+narrator "只是因為他喜歡。"
+
+show jingzhe neutral_smoke
+narrator "煙草點燃時，房間裡的影子也跟著變深。"
+
+narrator "他聞到那股熟悉的味道，像是能把所有人隔在門外。"
+
+narrator "隔在門外也好。"
+
+narrator "從小到大，大家都怕他。"
+
+narrator "操蟲使是血脈傳下來的能力，強大，也讓人厭惡。"
+
+narrator "那些被排擠的日子，最後只教會他一件事："
+
+narrator "不要靠近別人。"
+
+narrator "靠近了，也只是讓自己更容易被討厭。"
+
+show jingzhe neutral
+narrator "他寫過很多這樣的角色。"
+
+narrator "孤獨、潮濕、帶著某種無法觸碰的欲望。"
+
+narrator "他總會在那欲望裡寫下一個名字，卻不敢讓任何人知道。"
+
+narrator "像是他自己。"
+
+scene bg inn_room_late
+with fade
+
+narrator "桌上有一個黑色的小盒子。"
+
+narrator "影之魔女送的魔法郵箱。"
+
+narrator "放進去的東西，會直接送到她的所在地。"
+
+narrator "她偶爾會回信。"
+
+narrator "短短幾行字裡，總會提到她不喜歡蟲子。"
+
+narrator "他不需要去找她，也不用親眼承受那種討厭。"
+
+narrator "這樣很好。"
+
+show jingzhe neutral
+narrator "他把今天寫好的一頁紙折起，放進郵箱。"
+
+narrator "盒蓋闔上的瞬間，紙就消失了。"
+
+narrator "有時候，他會想："
+
+narrator "如果沒有這個盒子，自己還會不會寫下去。"
+
+narrator "答案他不願意去想。"
+
+narrator "雖然父親總是期待他的新稿，也會替他拿去出版，但真正能讀到最新一頁的，也就只剩影之魔女了。"
+
+narrator "可不管有沒有人在等，他都還是會寫。"
+
+narrator "因為寫作是他唯一的紓壓方式。"
+narrator "也是他還沒沉下去的理由。"
+
+scene bg inn_room_night
+with dissolve
+
+narrator "他合上筆記本時，窗外傳來幾聲蟲鳴。"
+
+narrator "那聲音沒有惡意，反而像是在提醒他："
+
+narrator "你並不孤單。"
+
+jingzhe "……"
+
+narrator "此時門外傳來很輕的腳步聲。"
+
+yumemi "我放一壺茶在門邊。"
+
+jingzhe "……不用特地沏茶的。"
+
+narrator "夢見沒有立刻離開。"
+
+yumemi "希望您別介意，是我願意幫您沏的。"
+
+narrator "她的視線落在桌上的黑色小盒子，又很快移開。"
+
+yumemi "如果有任何事，只要您願意說，我都願意聽。"
+
+narrator "她停了一下，聲音放得更輕。"
+
+yumemi "即便是難以啟齒或是危險的事……我都會沏好茶等您說的。"
+
+jingzhe "……"
+
+jingzhe "知道了。"
+
+narrator "他看著窗外的夜色，沒有回應。"
+
+narrator "但他知道，自己已經不是原來那個只會躲起來的人了。"
+narrator "至少，在這間旅店裡，他還願意留下。"
+
+# END 第二章

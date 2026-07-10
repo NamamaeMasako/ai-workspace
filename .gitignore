@@ -1,0 +1,29 @@
+# 生成快取類，不進版本控管（清單見 AGENTS.md 第 8 節）
+
+# Godot
+.godot/
+
+# Ren'Py（編譯檔與執行期生成檔）
+*.rpyc
+*.rpyb
+**/JingZhe/log.txt
+**/JingZhe/errors.txt
+**/JingZhe/traceback.txt
+**/game/cache/
+
+# LoRA / 訓練快取
+**/tensorboard/
+events.out.tfevents.*
+
+# 通用開發快取
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Windows / OneDrive 雜項
+Thumbs.db
+desktop.ini
+~$*
+*.tmp

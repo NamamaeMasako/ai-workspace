@@ -1,0 +1,102 @@
+﻿# 劇本｜驚蟄
+
+# 第四章｜蛛影
+
+scene bg inn_exterior_twilight
+with dissolve
+
+narrator "入夜前的風變得濕。"
+
+narrator "月下庄的燈在風裡輕晃，像是有人用指尖撥動。"
+
+show jingzhe neutral
+narrator "驚蟄站在門口，煙斗沒有點。"
+
+jingzhe "……"
+
+narrator "他聽見了。"
+
+narrator "不是聲音，而是一種被注視的重量。"
+
+scene bg forest_path
+with fade
+
+narrator "同一時間，遠處的林道上，有東西正在移動。"
+
+narrator "泥土被壓得很深，卻沒有腳印留下。"
+
+show tsuchigumo shadow
+narrator "土蜘蛛貼著林道旁的樹幹移動。"
+narrator "牠巨大得像一座黑丘，枝葉卻沒有因牠的重量發出半點聲響。"
+narrator "只有偶爾垂落的蛛腳，從月光邊緣一閃而過。"
+
+show jorogumo shadow
+narrator "土蜘蛛的身上，站著一名白衣女人。"
+narrator "她的輪廓像披著白無垢的新娘，頭上的棉帽低低壓著，其下透出數點陰森的光。"
+narrator "月光落在她身上時，沒有照出衣縫，只照出一層無聲、且濕冷的白。"
+narrator "她有節奏地轉著頭，像是焦急地尋找著某個人；可那銳利的視線裡沒有思念，只有捕食前的冷意——她要找的，絕不會是她的夫君。"
+
+narrator "當月下庄進入牠們的視野時，絡新婦抬起袖口，在空中停了一瞬 ，土蜘蛛也停了下來。"
+narrator "從絡新婦的袖口中，爬出細得幾乎看不見的東西，無聲落進草叢。"
+
+narrator "牠們都知道目的。"
+narrator "那個帶著煙草味的男人。"
+narrator "以及他身上的郵箱。"
+
+scene bg inn_hall_evening
+with dissolve
+
+show hanami smile
+hanami "你今天有點安靜喔？"
+
+jingzhe "……嗯。"
+
+narrator "花見把餐盤放下，順手替他把燈拉亮了一點。"
+
+show yumemi shy
+yumemi "是不是睡不好？"
+
+jingzhe "沒有。只是……"
+
+narrator "他停了一下。"
+
+narrator "他其實說得出口：有東西靠近了。"
+
+narrator "但這句話太像怪談，也太像麻煩。"
+
+jingzhe "只是風變了。"
+
+narrator "夢見點點頭，沒有再問。"
+narrator "她們都很自然地接受他的沉默。"
+
+scene bg inn_corridor_night
+with fade
+
+narrator "夜更深時，走廊裡的燈滅了一盞。"
+
+narrator "不是故障，像是被什麼不小心遮住。"
+
+show jingzhe neutral
+narrator "驚蟄走過時，指尖掠過牆面。"
+
+narrator "牆上有一點極細的白線，像蜘蛛絲，又像劃痕。"
+
+jingzhe "……"
+
+narrator "他沒有去碰。"
+narrator "也沒有告訴任何人。"
+
+scene bg inn_room_night
+with dissolve
+
+narrator "回到房裡，他把窗關上。"
+
+narrator "煙斗在掌心被握了一下，沒有點火。"
+
+narrator "他知道，真正靠近的不是今晚。"
+
+narrator "而是再過不久的某個夜晚。"
+
+narrator "他只是還不知道，那夜要付出的代價會是誰。"
+
+# END 第四章

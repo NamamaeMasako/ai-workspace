@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { background: #050510; display: flex; flex-direction: column; align-items: center; min-height: 100vh; margin: 0; font-family: sans-serif; padding: 20px; color: #d0d0ff; }
+        .container { display: flex; gap: 50px; justify-content: center; flex-wrap: wrap; }
+        .drawing-canvas { width: 300px; height: 600px; position: relative; border: 1px solid #303060; border-radius: 10px; background: rgba(255,255,255,0.02); }
+        .label { text-align: center; margin-bottom: 10px; font-weight: bold; color: #80a0ff; }
+        
+        /* Rin SVG Drawing */
+        .rin-svg { width: 100%; height: 100%; filter: drop-shadow(0 0 15px rgba(0, 162, 255, 0.2)); }
+        
+        .overlay-info { width: 100%; max-width: 800px; margin-bottom: 30px; border-left: 5px solid #4040ff; padding-left: 20px; }
+        .data-stocking { position: absolute; bottom: 150px; right: 80px; width: 30px; height: 80px; background: rgba(0, 255, 255, 0.1); border: 1px solid cyan; font-family: monospace; font-size: 6px; color: cyan; overflow: hidden; }
+        
+        @keyframes scroll { 0% { transform: translateY(0); } 100% { transform: translateY(-50%); } }
+        .scrolling-text { animation: scroll 5s linear infinite; }
+    </style>
+</head>
+<body>
+    <div class="overlay-info">
+        <h1 style="margin:0; font-size: 28px;">RIN_ENTITY_V1.2_DUAL_MODE</h1>
+        <p style="margin:5px 0; font-size: 16px;">Status: Multi-view Blueprint Ready. (Trench Coat Toggle Concept)</p>
+    </div>
+
+    <div class="container">
+        <!-- View 1: With Coat -->
+        <div>
+            <div class="label">【型態一：風衣特務】</div>
+            <div class="drawing-canvas">
+                <svg class="rin-svg" viewBox="0 0 400 800" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="200" cy="300" r="150" fill="rgba(64,64,255,0.1)" />
+                    <!-- Hair & Ahoge -->
+                    <path d="M150 150 Q200 100 250 150 L260 250 L200 230 L140 250 Z" fill="#b0e0ff" />
+                    <path d="M200 115 Q210 80 230 100" stroke="#80c8ff" stroke-width="3" fill="none" />
+                    <!-- Face & Neck -->
+                    <path d="M160 150 L240 150 L230 230 Q200 260 170 230 Z" fill="#fff0f5" />
+                    <path d="M175 230 L225 230 L225 250 L175 250 Z" fill="#101030" />
+                    <!-- Long Trench Coat -->
+                    <path d="M130 250 H270 L285 700 H115 Z" fill="#0a0a20" stroke="#4040ff" stroke-width="2" />
+                    <path d="M180 250 V700 M220 250 V700" stroke="#1a1a3a" stroke-width="2" />
+                    <!-- Legs -->
+                    <path d="M160 700 H190 L185 750 H165 Z" fill="#ffffff" />
+                    <path d="M210 700 H240 L245 750 H225 Z" fill="#102040" />
+                    <!-- Boots -->
+                    <path d="M160 740 H195 L195 780 Q177 795 160 780 Z" fill="#101020" />
+                    <path d="M215 740 H250 L250 780 Q232 795 215 780 Z" fill="#101020" />
+                </svg>
+            </div>
+        </div>
+
+        <!-- View 2: Inner Only -->
+        <div>
+            <div class="label">【型態二：室內工程師】</div>
+            <div class="drawing-canvas">
+                <svg class="rin-svg" viewBox="0 0 400 800" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="200" cy="300" r="150" fill="rgba(64,64,255,0.1)" />
+                    <!-- Hair & Ahoge -->
+                    <path d="M150 150 Q200 100 250 150 L260 250 L200 230 L140 250 Z" fill="#b0e0ff" />
+                    <path d="M200 115 Q210 80 230 100" stroke="#80c8ff" stroke-width="3" fill="none" />
+                    <!-- Face -->
+                    <path d="M160 150 L240 150 L230 230 Q200 260 170 230 Z" fill="#fff0f5" />
+                    <!-- Inner Bodysuit (Sleeveless) -->
+                    <path d="M170 230 L230 230 L230 260 L170 260 Z" fill="#101030" />
+                    <path d="M150 260 H250 L240 450 H160 Z" fill="#101030" stroke="#4040ff" />
+                    <!-- Exposed Arms -->
+                    <path d="M140 260 L130 450" stroke="#fff0f5" stroke-width="12" stroke-linecap="round" />
+                    <path d="M260 260 L270 450" stroke="#fff0f5" stroke-width="12" stroke-linecap="round" />
+                    <!-- Skirt -->
+                    <path d="M130 450 H270 L290 550 H110 Z" fill="#050515" stroke="#303060" />
+                    <!-- Legs (Adjusted Heights) -->
+                    <path d="M160 500 H190 L185 750 H165 Z" fill="#ffffff" /> <!-- White Thigh-high -->
+                    <path d="M210 600 H240 L245 750 H225 Z" fill="#102040" /> <!-- Blue Mid-calf -->
+                    <!-- Boots -->
+                    <path d="M160 740 H195 L195 780 Q177 795 160 780 Z" fill="#101020" />
+                    <path d="M215 740 H250 L250 780 Q232 795 215 780 Z" fill="#101020" />
+                </svg>
+            </div>
+        </div>
+    </div>
+    
+    <div class="data-stocking">
+        <div class="scrolling-text">
+            LOAD: 42%<br>PING: 15ms<br>MEM: 88%<br>CORE: STABLE<br>TEMP: 34C<br>
+            LOAD: 42%<br>PING: 15ms<br>MEM: 88%<br>CORE: STABLE<br>TEMP: 34C<br>
+        </div>
+    </div>
+</body>
+</html>

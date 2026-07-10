@@ -1,0 +1,6 @@
+{
+  "id": "mio-desktop-pet",
+  "displayName": "Mio Desktop Pet",
+  "description": "A desktop pet version of Mio, based on her pale blue moonlit character design.",
+  "spritesheetPath": "spritesheet.webp"
+}

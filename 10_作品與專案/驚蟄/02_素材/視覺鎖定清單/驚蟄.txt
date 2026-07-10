@@ -1,0 +1,228 @@
+《驚蟄》｜驚蟄視覺鎖定清單 v1
+
+用途：
+- 作為 AI 生圖、畫師溝通、角色立繪修正時的基準清單
+- 每次產圖後，可依本清單逐條檢查，確認角色是否仍然是「驚蟄」
+- 不是每一條都要 100% 極致誇張，而是整體氣質與辨識度必須成立
+
+＝＝＝＝＝＝＝＝＝＝
+【一、必守外觀特徵】
+＝＝＝＝＝＝＝＝＝＝
+
+1. 年齡感
+- 約 30 歲左右
+- 不能太少年，也不能太老
+- 應該是成熟、略帶疲憊的青年男性
+
+2. 體型
+- 瘦長、略顯病弱、偏文弱
+- 不能壯、不能厚、不能太有訓練痕跡
+- 肩線可略窄，整體重心偏輕
+
+3. 臉部輪廓
+- 臉偏瘦長
+- 下巴偏收，不是圓潤型
+- 有點被生活磨薄的感覺
+
+4. 眼睛
+- 三白眼傾向要成立
+- 眼神偏窄、偏疲憊、偏冷淡
+- 不是銳利反派眼，也不是溫柔王子眼
+- 重點是「沒睡飽、情緒淡、內收」
+
+5. 黑眼圈
+- 必須明顯
+- 這是驚蟄辨識度很高的關鍵特徵之一
+- 不能只是淡淡陰影，應該一眼能感覺到他長期睡眠不足
+
+6. 眼鏡
+- 細框黑邊眼鏡
+- 不限定一定要圓框，但必須是低存在感、偏文弱氣質的細框
+- 不能變成太粗重、太時尚、太潮的框型
+- 存在感要有，但不是主角配件式的誇張設計
+
+7. 髮型
+- 黑髮或非常深的暗色髮
+- 髮型散亂、不修邊幅
+- 前髮偏長且不整齊
+- 後方有低位鬆散的細辮子
+- 辮子位置要低，量感偏細，像是隨手綁起來的習慣，而不是精緻造型
+- 辮子不能太整齊、太精緻、太像刻意造型
+- 若真的無法穩定生成辮子，才考慮退而求其次改成低位鬆散馬尾，但辮子仍為優先設定
+
+＝＝＝＝＝＝＝＝＝＝
+【二、服裝與物件必守要素】
+＝＝＝＝＝＝＝＝＝＝
+
+8. 浴衣
+- 墨綠色為主
+- 是母親親手做的，所以應有「舊、貼身、被長久穿著」的感覺
+- 不能太華麗、太高級、太像舞台裝
+- 應偏樸素、個人化、帶生活痕跡
+
+9. 浴衣圖案
+- 有非常淡的蝗蟲圖案
+- 可低調，但不能完全消失
+- 底色應比圖案深，圖案則應比底色更淺，像隱約浮出的織紋或暗紋
+- 比較像織紋、暗紋，而不是大面積花俏印花
+
+10. 木屐
+- 傳統木屐即可
+- 不需要太多裝飾
+
+11. 煙斗
+- 細長型東方煙斗
+- 明確參考 East Asian kiseru 類型，而不是西式煙斗
+- 細煙桿、小而收斂的金屬煙鍋、金屬吸嘴或金屬尾端
+- 整體修長、樸素、老派、實用，有被長年使用與保存的舊物感
+- 不可有吊飾、煙袋、流蘇、華麗金屬裝飾
+- 不能畫成厚重西式煙斗或裝飾過多的收藏品
+
+＝＝＝＝＝＝＝＝＝＝
+【三、氣質關鍵詞】
+＝＝＝＝＝＝＝＝＝＝
+
+驚蟄的核心不是「帥」，而是以下幾種氣質的疊加：
+
+- 陰鬱
+- 疲倦
+- 病氣
+- 情緒淡
+- 不修邊幅
+- 安靜
+- 文學感
+- 內收
+- 有距離感
+- 帶一點壓抑感
+- 隱約有危險感
+- 淡淡的色氣，但不是張揚型
+
+正確感覺：
+- 像長期睡眠不足的小說家
+- 像靠寫作和某些執念吊著命的人
+- 像不太照顧自己，但不是髒亂
+- 像並不想討人喜歡，卻還是會讓人移不開視線
+- 雖然陰鬱病弱，仍然要有一點主角感：不是耀眼型，而是安靜卻讓人無法忽視的存在感
+
+＝＝＝＝＝＝＝＝＝＝
+【四、絕對不能跑掉的錯誤方向】
+＝＝＝＝＝＝＝＝＝＝
+
+以下任一點太重，都會讓角色偏離驚蟄：
+
+- 太健康
+- 太陽光
+- 太有精神
+- 太像少年漫主角
+- 太像乙女遊戲王子
+- 太像牛郎／過度妖豔
+- 太潮、太時尚
+- 太整齊、太乾淨、太有精緻打理感
+- 太肌肉
+- 太厚實
+- 太英雄型
+- 太冷酷反派型
+- 太可愛
+- 太年輕
+
+一句話來說：
+不能把驚蟄畫成「很漂亮的模板美男」。
+他應該是「有點病、有點舊、有點淡、卻非常有味道的人」。
+
+＝＝＝＝＝＝＝＝＝＝
+【五、可調整區域】
+＝＝＝＝＝＝＝＝＝＝
+
+以下項目可以依風格需求微調：
+
+1. 色氣強度
+- 可偏淡
+- 可略強
+- 但不能變成露骨賣弄
+
+2. 病弱程度
+- 可偏文弱
+- 可偏明顯憔悴
+- 但不能畫到像即將昏倒的病人
+
+3. 髮型凌亂程度
+- 可小亂
+- 可較明顯散亂
+- 但不能亂到像流浪漢
+
+4. 臉部美型程度
+- 可保留一定美感
+- 但不能變成過度標準帥哥模板
+
+＝＝＝＝＝＝＝＝＝＝
+【六、每次看圖時的檢查方式】
+＝＝＝＝＝＝＝＝＝＝
+
+若要快速判斷一張圖是不是驚蟄，可問自己：
+
+1. 我第一眼看到的是「病弱陰鬱文學男」嗎？
+2. 還是我第一眼看到的是「普通帥哥」？
+3. 黑眼圈夠不夠明顯？
+4. 頭髮有沒有太整齊？
+5. 辮子有沒有太刻意、太時尚？
+6. 浴衣有沒有太華麗？
+7. 煙斗有沒有太花俏或太西式？
+8. 他看起來像會好好睡覺、好好吃飯、好好活著的人嗎？
+   - 如果答案是「像」，那多半就不夠驚蟄
+
+＝＝＝＝＝＝＝＝＝＝
+【七、判定標準】
+＝＝＝＝＝＝＝＝＝＝
+
+若一張圖同時滿足以下條件，就可視為高度接近驚蟄：
+
+- 年齡感正確
+- 體型瘦長病弱
+- 黑眼圈明顯
+- 三白眼或相近眼神成立
+- 散亂黑髮＋低辮成立
+- 細框黑眼鏡成立
+- 墨綠浴衣成立
+- 蝗蟲暗紋有保留
+- 細長東方煙斗成立
+- 整體氣質偏陰鬱、疲憊、內收、文學感
+- 沒有往帥哥模板、乙遊王子、健康少年方向歪掉
+
+當以上大多數條件成立時，就可視為「這是驚蟄」。
+
+＝＝＝＝＝＝＝＝＝＝
+【八、目前採用的生圖基準 prompt（Banana 2）】
+＝＝＝＝＝＝＝＝＝＝
+
+用途：
+- 作為後續繼續微調驚蟄立繪時的基準版本
+- 若之後對話重置、模型更換、或需重新開始修圖，可直接從這版續修
+- 目前已知這版能較穩定產出接近驚蟄第一印象的結果
+
+建議比例：
+- 2:3
+
+Prompt：
+A full-body standing portrait of Jingzhe, a mature East Asian male protagonist for a dark Japanese visual novel, early 30s, slim and slightly fragile build, fair skin with a slightly tired complexion and muted natural warmth, clearly visible dark circles under the eyes, narrow sanpaku eyes, tired and emotionally distant expression, gloomy and withdrawn literary presence. He must look sleep-deprived, worn down by life, quiet, and difficult to approach, but still have subtle main-character presence: not flashy, not heroic, but quietly impossible to ignore.
+
+He has messy black hair, long uneven bangs, and a loosely tied thin low braid at the back, placed low and looking like a habitual quick tie rather than a styled hairstyle. His hair must look slightly unkempt. He wears thin black-framed glasses, understated and intellectual.
+
+He wears a plain old dark ink-green yukata made by his mother, softly draped over a thin frame, frequently worn, personal and slightly worn rather than luxurious. The fabric has a faint but visible woven grasshopper motif, with the base fabric darker and the motif lighter, like a subtle woven pattern. He wears simple wooden geta sandals.
+
+He holds only one long slender traditional East Asian kiseru-style tobacco pipe, with a thin dark stem, a small restrained metal bowl, and a metal mouthpiece, simple, worn, old-fashioned, practical, sentimental, with no tassels, no pouch, no hanging ornaments, and absolutely not a thick western smoking pipe.
+
+Mature anime visual novel character art, dark literary mood, refined line art, soft shading, muted colors, plain light background, official standing sprite.
+
+Negative Prompt：
+two pipes, extra pipe, duplicate object, healthy athletic body, muscular, cheerful, energetic, bright smile, youthful shounen, polished ikemen, idol vibe, handsome prince, neat stylish braid, glamorous accessories, modern fashion, western smoking pipe, decorative ornaments, heroic pose, overly pale corpse-like skin, dead skin tone, lifeless skin
+
+目前已知仍可能出現的問題：
+- 模型有時會把辮子畫得不夠像隨手綁的細低辮
+- 模型有時會自行把浴衣圖案改成較深色
+- 模型偶爾會出現重複物件（例如重複煙斗）
+
+下次若要繼續修，建議優先修正：
+1. 煙斗只保留一根，並更明確偏向東方 kiseru
+2. 辮子更細、更低、更像隨手綁
+3. 浴衣維持深底淺紋
+4. 在保留病感的前提下，維持偏白但有生命感的膚色

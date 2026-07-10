@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 1517: expected statement.
+    "卡我自己留著":
+       ^
+
+Ren'Py Version: Ren'Py 8.5.2.26010301
+Mon Mar 16 01:20:20 2026

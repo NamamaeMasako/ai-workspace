@@ -1,0 +1,570 @@
+﻿# 劇本｜驚蟄
+
+# 第八章｜春雷
+# SCENE 08 — 真結局（自己留著卡）
+# 位置：回溯點（把卡交出去前一刻）之後，第三次出現新選項
+
+scene bg inn_hall_evening
+with dissolve
+
+narrator "同樣的走廊，同樣的燈。"
+
+narrator "同樣的呼吸聲。"
+
+show jingzhe neutral
+narrator "驚蟄站在原地，手裡握著那張全黑的卡片。"
+
+narrator "他沒有立刻看花見，也沒有看夢見。"
+
+narrator "因為他知道，只要視線一偏，就會再次被拖進某個結局。"
+
+narrator "耳邊有聲音，像灰裡的火。"
+
+narrator "『再選一次。』"
+
+narrator "他聽過了。"
+
+narrator "也受夠了。"
+
+show hanami smile
+hanami "怎麼了？你臉色很差。"
+
+show yumemi shy
+yumemi "驚蟄先生……你還好嗎？"
+
+narrator "驚蟄低頭，看著手裡的卡。"
+
+narrator "它很輕。"
+
+narrator "卻像能壓垮一整個三月。"
+
+jingzhe "……這次不選你們。"
+
+show hanami surprised
+hanami "欸？什麼意思？"
+
+show yumemi sad
+yumemi "是那、那張卡嗎？"
+
+narrator "他把卡收進袖口，像把一把刀藏回鞘裡。"
+
+jingzhe "卡我自己留著。"
+
+jingzhe "你們留在月下庄。"
+
+show hanami determined
+hanami "不行。我說了我跟你去。"
+
+show jingzhe neutral
+narrator "驚蟄的視線終於落到花見身上。"
+
+narrator "他很想說『別逞強』。"
+
+narrator "卻又覺得自己沒有資格。"
+
+jingzhe "這不是逞強。"
+
+jingzhe "是分工。"
+
+narrator "他說得很冷。"
+
+narrator "冷到連自己都覺得像是在推開人。"
+
+show yumemi sad
+yumemi "可是……我們也可以一起……"
+
+jingzhe "不。"
+
+narrator "他拒絕得太快。"
+
+narrator "像是如果慢一拍，就會被某段記憶拖走。"
+
+narrator "他沒有解釋他看見了什麼。"
+
+narrator "他只知道："
+
+narrator "這一次，他要把結局留在自己身上。"
+
+show hanami angry
+hanami "你把我當什麼？"
+
+jingzhe "……我把你當活著的人。"
+
+narrator "花見的怒氣卡在喉間。"
+
+narrator "她握著薙刀的手緊了一下，又鬆開。"
+
+show yumemi sad
+yumemi "那我做什麼？"
+
+jingzhe "守門。"
+
+narrator "驚蟄看向夢見。"
+
+narrator "那雙眼睛太溫柔，溫柔到讓人想逃。"
+
+jingzhe "如果有任何不對勁，就把窗打開。"
+
+jingzhe "讓風進來。"
+
+narrator "他沒有說『讓我聞得到』。"
+
+narrator "但她們都懂，那句話背後是什麼。"
+
+show hanami determined
+hanami "那你呢？"
+
+jingzhe "我去把牠們的月底，提前到今晚。"
+
+narrator "他轉身前停了一下。"
+
+show jingzhe neutral
+jingzhe "……我袖口那張卡。"
+
+jingzhe "把卡片給他的人只說過一句：撕開會保護持有它的人。"
+
+jingzhe "我不知道它到底怎麼保護。"
+
+jingzhe "但我知道一件事——別碰它。"
+
+show hanami surprised
+hanami "那你為什麼還帶著？"
+
+jingzhe "因為我不想再把命交給它替我選。"
+
+narrator "他沒有把『也不想再看你們死』說出口。"
+
+scene bg inn_room_night
+with fade
+
+narrator "回到房裡，他把郵箱從暗格取出，又放回去。"
+
+narrator "他在門上留了淡淡的蟲香。"
+
+narrator "不是用來召喚，而是用來遮蔽。"
+
+show jingzhe neutral
+narrator "他點燃煙斗。"
+
+narrator "這次燃的不是平常那種。"
+
+narrator "味道更苦，更沉，像是把夜色咬碎。"
+
+narrator "這種香會讓髮切與大百足變得更兇、更快。"
+
+narrator "代價是毒性。"
+
+narrator "第一口下去，他就覺得喉嚨像被砂紙磨過。"
+
+narrator "第二口開始，胸腔會慢半拍，像心臟被人用指尖按住。"
+
+narrator "他知道自己會變慢。"
+
+narrator "只是他選擇把那個『慢』留給自己。"
+
+narrator "髮切與大百足在陰影裡醒來。"
+
+jingzhe "走。"
+
+scene bg forest_path_night
+with dissolve
+
+narrator "林道的黑像一盆水。"
+
+narrator "他踏進去時，連呼吸都被濕度磨鈍。"
+
+narrator "他知道牠們在等。"
+
+narrator "也知道，這次只有他。"
+
+scene bg forest_clearing_night
+with fade
+
+show tsuchigumo shadow
+narrator "土蜘蛛先現身。"
+
+narrator "牠的身影像一座移動的丘，沉得讓樹枝都不敢搖。"
+
+show jorogumo shadow
+narrator "絡新婦沒有立刻現形。"
+
+narrator "她藏在更高的地方，像一根看不見的線。"
+
+show jingzhe neutral
+narrator "驚蟄吐出一口煙。"
+
+narrator "髮切的鐮光先到。"
+
+narrator "比平常更快，更狠，像貼著他的呼吸在切。"
+
+narrator "大百足的撞擊緊跟其後。"
+
+narrator "土蜘蛛迎上來，節肢拍地，震得泥土翻起。"
+
+narrator "他不退。"
+
+narrator "因為退一步，後面就會有人死。"
+
+narrator "他聞到了那股細尖的味道。"
+
+narrator "絡新婦在移動。"
+
+jingzhe "……在上面。"
+
+narrator "他沒有抬頭。"
+
+narrator "抬頭就會露出喉嚨。"
+
+narrator "他把煙斗轉了個角度。"
+
+narrator "香味變了。"
+
+narrator "髮切忽然一折，像聽見了另一個命令，鐮刃往樹梢一掃。"
+
+show jorogumo shadow
+narrator "黑影被逼出半寸。"
+
+narrator "絡新婦的身形在月光裡顫了一下。"
+
+narrator "她笑。"
+
+narrator "那笑聲沒有溫度。"
+
+narrator "然後，她消失。"
+
+narrator "下一瞬，細影已經在他背後。"
+
+show jingzhe neutral
+narrator "驚蟄的肩一沉。"
+
+narrator "像被絲線套住。"
+
+narrator "他咬住一口氣，沒讓自己發出聲音。"
+
+narrator "大百足猛地回身，把那道影子撞開。"
+
+narrator "他趁空隙把煙吸進肺裡。"
+
+narrator "苦到像把人拉回現實。"
+
+narrator "土蜘蛛趁機衝撞。"
+
+narrator "他被逼退半步。"
+
+narrator "腳跟踩到一塊濕滑的石。"
+
+narrator "那一瞬間，他第一次感覺到："
+
+narrator "自己可能會死。"
+
+jingzhe "……很好。"
+
+narrator "他說得很輕。"
+
+narrator "像是在說服誰。"
+
+narrator "他把香捏碎。"
+
+narrator "味道陡然變烈。"
+
+narrator "髮切的鐮刃刺入土蜘蛛節肢的縫。"
+
+narrator "大百足用整個身軀壓上去。"
+
+narrator "土蜘蛛的嘶聲像碎木。"
+
+narrator "牠倒下時，地面像沉了一口氣。"
+
+narrator "髮切與大百足像還沒盡興，氣息比剛才更兇。"
+
+narrator "代價也同時回到驚蟄身上。"
+
+narrator "他吐出一口煙，胸口卻像被撕開一條細縫。"
+
+narrator "但驚蟄沒有鬆一口氣。"
+
+narrator "因為最陰的那一隻還在。"
+
+narrator "絡新婦。"
+
+narrator "他聞到她靠近。"
+
+narrator "比剛才更快。"
+
+narrator "他轉身，煙斗的火光像一點星。"
+
+show jorogumo shadow
+narrator "絡新婦終於現形。"
+
+narrator "她的指尖像要去拿走他袖口裡的卡。"
+
+narrator "驚蟄本能地想閃。"
+
+narrator "但毒性讓他的身體慢了半拍。"
+
+show jingzhe neutral
+narrator "他抬手擋住，卻只來得及擋掉一半。"
+
+narrator "另一半落在他的肋側。"
+
+narrator "鈍痛先到，溫熱才跟上。"
+
+narrator "他聽見自己呼吸裡有一聲很輕的破裂。"
+
+narrator "那一下讓他的手腕也發出一聲鈍響。"
+
+narrator "痛像白光。"
+
+narrator "他沒有退。"
+
+narrator "他吐出最後一口煙。"
+
+narrator "髮切從她側面切入。"
+
+narrator "黑影碎開，像被剪斷的絲。"
+
+narrator "絡新婦倒下時，還在笑。"
+
+narrator "像是在說：你以為這樣就結束了嗎？"
+
+narrator "驚蟄跪下去。"
+
+narrator "膝蓋撞到石頭，痛得他眼前發黑。"
+
+narrator "他摸到自己的肋側。"
+
+narrator "溫熱的東西正在流。"
+
+narrator "他想起那張卡。"
+
+narrator "『會保護持有它的人。』"
+
+narrator "他笑了一下。"
+
+jingzhe "……騙子。"
+
+scene bg forest_clearing_night
+with dissolve
+
+narrator "遠處有腳步聲。"
+
+narrator "兩道。"
+
+show hanami sad
+narrator "花見的聲音先到。"
+
+hanami "驚蟄！"
+
+show yumemi sad
+narrator "夢見跟在後面，喘得很急。"
+
+yumemi "你、你怎麼可以一個人……"
+
+narrator "驚蟄想說『回去』。"
+
+narrator "嘴唇卻只吐出一點氣。"
+
+show hanami sad
+narrator "花見看到他身上的血時，臉色瞬間白了。"
+
+narrator "她伸手去摸他的袖口。"
+
+hanami "卡——！"
+
+narrator "她要撕。"
+
+show jingzhe neutral
+narrator "驚蟄抓住她的手腕。"
+
+jingzhe "不要。"
+
+narrator "他說得很慢。"
+
+narrator "慢到像是把每個音節都吞過一遍。"
+
+jingzhe "我不想再……選。"
+
+narrator "花見的眼睛紅得發亮。"
+
+hanami "你會死！"
+
+jingzhe "……我知道。"
+
+narrator "他抬眼看她。"
+
+narrator "那眼神沒有討好，也沒有求救。"
+
+narrator "只有一種終於停下來的疲倦。"
+
+jingzhe "這樣……就好。"
+
+narrator "夢見捂住嘴，像怕自己哭出聲就會把他推走。"
+
+show yumemi sad
+yumemi "可是我們……"
+
+jingzhe "你們活著。"
+
+narrator "他說完這句話，像把最後一口氣也交出去。"
+
+narrator "他靠著樹根，眼皮沉下來。"
+
+narrator "他聽見花見在罵。"
+
+narrator "聽見夢見在哭。"
+
+narrator "但那些聲音都像隔著水。"
+
+narrator "就在他準備把自己沉下去時——"
+
+narrator "卡片忽然變輕。"
+
+narrator "像是被誰抽走。"
+
+show jingzhe neutral
+narrator "驚蟄睜開一點眼。"
+
+narrator "黑色的卡片不見了。"
+
+jingzhe "……"
+
+narrator "下一瞬，夜色被撕開一條縫。"
+
+scene bg forest_clearing_night
+with flash
+
+show shadow_witch neutral
+narrator "影之魔女站在那裡。"
+
+narrator "她的披風像夜本身。"
+
+narrator "她皺著眉，像在看一件很麻煩的事。"
+
+shadow_witch "我不是說過，別把卡片交給別人嗎。"
+
+narrator "驚蟄想笑。"
+
+narrator "卻咳出一口血。"
+
+shadow_witch "……真會添麻煩。"
+
+narrator "她的手指一點。"
+
+narrator "像按掉一盞燈。"
+
+narrator "痛忽然被抽走一半。"
+
+narrator "他的呼吸重新回到胸腔。"
+
+show hanami surprised
+hanami "你、你是——"
+
+show yumemi surprised
+yumemi "影之……魔女……"
+
+shadow_witch "別靠近。"
+
+narrator "她說得很冷。"
+
+narrator "像是怕沾到什麼。"
+
+narrator "視線卻落在驚蟄身上。"
+
+shadow_witch "你也真敢。"
+
+jingzhe "……卡片沒有保護我。"
+
+narrator "他說得很平。"
+
+narrator "像抱怨一件日用品壞了。"
+
+shadow_witch "它保護的從來不是肉身。"
+
+shadow_witch "是你把命運握回自己手裡的那一刻。"
+
+narrator "她把卡片收回袖中。"
+
+shadow_witch "受傷這種事，不在它的仁慈裡。"
+
+narrator "驚蟄閉上眼。"
+
+narrator "他忽然很想說一句話。"
+
+narrator "但他沒有。"
+
+narrator "因為他知道，她不需要。"
+
+shadow_witch "你寫的最新一章，我還沒收到。"
+
+narrator "那句話像針。"
+
+narrator "又像某種奇怪的溫柔。"
+
+jingzhe "……我會寫。"
+
+shadow_witch "最好。"
+
+narrator "她轉身，夜色跟著收束。"
+
+shadow_witch "還有。"
+
+narrator "她停了一下。"
+
+shadow_witch "別再讓我跑第二趟。"
+
+narrator "她消失得像沒來過。"
+
+scene bg forest_clearing_night
+with dissolve
+
+narrator "風回來了。"
+
+narrator "雨也回來了。"
+
+show hanami sad
+narrator "花見的手顫著，終於敢去摸驚蟄的臉。"
+
+show yumemi sad
+narrator "夢見也靠近，像怕一眨眼他又會被帶走。"
+
+show jingzhe neutral
+narrator "驚蟄吸了一口氣。"
+
+narrator "這一次，他沒有把她們推開。"
+
+jingzhe "回去吧。"
+
+narrator "他說得很輕。"
+
+narrator "像把整個三月都放下。"
+
+scene bg inn_hall_night
+with fade
+
+narrator "月下庄的燈重新點起來。"
+
+narrator "三個人的影子靠得很近。"
+
+narrator "近得像只要誰先鬆手，今夜就會重新碎開。"
+
+narrator "可這一次，沒有人先放。"
+
+narrator "他們誰都沒有說今天結束了。"
+
+narrator "但他們都知道："
+
+narrator "至少，這次會一起走到明天。"
+
+# [R18插入點] 參照：R18_第八章.txt / Part A
+# 全年齡版處理：淡出到隔日清晨。
+
+scene bg inn_morning
+with dissolve
+
+narrator "清晨的風很淡。"
+
+narrator "像是昨夜從沒流過血。"
+
+narrator "只有桌上的煙斗，還留著一點苦味。"
+
+# END SCENE 08

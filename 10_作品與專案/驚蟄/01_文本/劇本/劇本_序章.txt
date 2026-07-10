@@ -1,0 +1,58 @@
+﻿# 劇本｜驚蟄
+
+# 序章｜月下庄
+
+scene bg road_twilight
+with fade
+
+narrator "春末，紅原州的風帶著穀物的甜味，藍川州的潮氣則在遠處的山腳盤旋。"
+narrator "驚蟄踩著木屐，沿著兩州交界的舊道向前。"
+
+show jingzhe neutral
+narrator "他看起來不像適合長途旅行的人：眼下烏黑，髮尾散亂，煙斗的煙在風裡斷斷續續。"
+
+jingzhe "……"
+
+narrator "煙草燃起時，他沒有想太多。"
+narrator "只是因為他喜歡。"
+
+show jingzhe neutral_smoke
+narrator "他寫的故事總帶著陰影，卻又在陰影裡留一點溫度。"
+narrator "不是為了取悅誰，只是因為他喜歡。"
+
+narrator "遠處山腰間，一間旅店的屋簷在暮色裡浮出輪廓。"
+narrator "月下庄。"
+
+scene bg inn_exterior
+with dissolve
+
+narrator "旅店比他想像得更安靜。"
+narrator "他推門而入時，木鈴輕輕響了一下，像有人貼在耳邊低聲說：『來了。』"
+
+show hanami smile
+hanami "歡迎光臨！旅人先生，要住店嗎？"
+
+show jingzhe neutral
+jingzhe "……一晚。"
+
+hanami "一晚也行，不過這裡很安靜，很多人住了就捨不得走喔。"
+
+narrator "女孩的聲音帶著一點笑意，像是對陌生人天生就沒什麼距離。"
+narrator "他不討厭這種距離。"
+
+show yumemi shy
+yumemi "姐姐，茶已經煮好了。"
+
+hanami "啊，對。先坐一下，我們給你倒茶。"
+
+narrator "另一名女孩把茶端來，視線不敢多停留，卻又忍不住在他手上的煙斗停了半秒。"
+narrator "驚蟄注意到了。"
+
+jingzhe "……你們不討厭煙？"
+
+yumemi "不會。只是……有點特別。"
+
+narrator "他很輕地笑了一下。"
+narrator "然後他知道，自己大概會在這裡住上一陣子。"
+
+# END 序章

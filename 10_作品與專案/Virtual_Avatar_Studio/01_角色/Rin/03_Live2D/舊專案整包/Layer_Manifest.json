@@ -1,0 +1,11 @@
+{
+  "project": "Rin_Live2D_Model",
+  "version": "v0.1_WIP",
+  "status": "Ready_for_Export",
+  "layers": [
+    { "group": "Head", "sub": ["Hair_Front", "Hair_Sides", "Hair_Back", "Cowlick_Technology", "Face_Base", "Eye_L", "Eye_R", "Mouth_Group", "Loading_Overlay"] },
+    { "group": "Body", "sub": ["Collar_GlacierWhite", "Shoulder_Armor_L", "Shoulder_Armor_R", "Jacket_Base", "Skirt_Pleated", "Hand_L", "Hand_R"] },
+    { "group": "Legs", "sub": ["Stocking_White_L", "Stocking_DataBlue_R", "Boot_L_Base", "Boot_R_Base", "Boot_R_Window"] }
+  ],
+  "last_update": "2026-02-13 08:15"
+}

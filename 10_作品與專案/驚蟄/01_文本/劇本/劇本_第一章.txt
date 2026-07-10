@@ -1,0 +1,154 @@
+﻿# 劇本｜驚蟄
+
+# 第一章｜留宿
+
+scene bg inn_morning
+with dissolve
+
+narrator "清晨的月下庄有一種乾淨的味道。"
+narrator "木地板的光澤被擦得剛剛好，既不刺眼，也不讓人覺得刻意。"
+
+show jingzhe neutral
+narrator "驚蟄醒得比自己想像中還早。"
+
+jingzhe "……"
+
+narrator "他坐起身，手摸到床邊的煙斗，卻停了半秒。"
+narrator "這裡的空氣太淡，淡得很適合不去抽。"
+
+show hanami smile
+hanami "早安！今天的早餐有紅玉粥跟醃漬魚，要不要試試看？"
+
+jingzhe "……都可以。"
+
+narrator "他不習慣被人用這種熱度對待。"
+narrator "但花見笑得理所當然，像世界上本來就該有人在早晨問你要不要吃粥。"
+
+show yumemi shy
+yumemi "我也煮了清茶，如果你不喜歡甜味，可以配這個。"
+
+yumemi "還有……你這件浴衣很好看。顏色很特別。"
+
+jingzhe "……我母親做的。"
+
+jingzhe "所以才一直穿著。"
+
+narrator "夢見怔了一下，像是沒想到他會這樣直接回答。"
+
+jingzhe "謝謝。"
+
+narrator "夢見的聲音像一點點柔軟的霧，停在每個音節之間。"
+
+scene bg inn_dining
+with dissolve
+
+narrator "早餐結束後，花見忙著打掃、換被單，夢見去整理後院的花草。"
+narrator "驚蟄坐在走廊邊，筆記本攤在膝上。"
+
+show jingzhe neutral
+narrator "他沒有立刻寫字，只是讓煙斗的火慢慢燒著。"
+
+jingzhe "……"
+
+narrator "他記得自己的喜好。"
+narrator "陰鬱、潮濕、帶著孤獨的溫度。"
+
+narrator "那是他最熟悉的東西。"
+
+narrator "但他偶爾還是會在結尾留一個人，像是還在等誰。"
+
+show hanami smile
+hanami "欸，你在寫小說對吧？"
+
+jingzhe "……嗯。"
+
+hanami "很厲害耶。這裡偶爾會有旅人帶小說來換故事，你的名字我好像看過。"
+
+jingzhe "不一定是我。"
+
+narrator "他不太喜歡被認出來。"
+narrator "但花見沒有追問，只是把抹布搭在肩上，靠著欄杆看他。"
+
+hanami "反正你喜歡這裡就好。住久一點也可以。"
+
+narrator "她說這句話時，像邀請，也像通知。"
+
+show yumemi shy
+narrator "夢見端著洗好的杯子路過，視線落在他的筆記本上。"
+
+yumemi "……如果你需要安靜的地方，後院有一棵老樹。坐在那裡很好寫東西。"
+
+jingzhe "知道了。"
+
+scene bg inn_backyard
+with dissolve
+
+narrator "後院比前院更安靜，只有水聲和風聲。"
+
+show jingzhe neutral
+narrator "他坐在老樹下，翻開本子。"
+
+narrator "『他總是被討厭。』"
+
+narrator "他在第一行寫下這句話，又劃掉。"
+
+narrator "太直白了。"
+
+narrator "他重新寫："
+
+narrator "『他一直覺得，自己很難被好好留下。』"
+
+narrator "這句話比較像他自己。"
+narrator "也比較像這個世界。"
+
+show hanami smile
+hanami "哎呀，你在這裡。"
+
+narrator "花見帶著一把長形的包布，像是習慣性背著。"
+
+jingzhe "那是？"
+
+hanami "薙刀。暮春大姊留下來的，平常不太用，怕生鏽。"
+
+jingzhe "妳能使？"
+
+hanami "會一點。"
+
+narrator "她說『一點』時，眼睛裡有那種很乾脆的自信。"
+narrator "像是承認自己會輸，卻不會怕。"
+
+narrator "花見低頭擦過刀柄，指腹在舊傷似的刻痕上停了一下。"
+
+hanami "春姊很厲害，以前我總覺得，只要有危險，春姊都會保護我們。"
+
+hanami "後來春姊去了北方才發現，不是每次都能躲在春姊後面。"
+
+jingzhe "……所以妳才練？"
+
+hanami "嗯，春姊很會教呢。這樣至少真的有事的時候，我想讓自己能夠往前站。"
+
+scene bg inn_hall_evening
+with dissolve
+
+narrator "傍晚時分，月下庄的燈被點起來。"
+
+show yumemi shy
+yumemi "今晚要不要試試甜酒？我調得比較淡。"
+
+jingzhe "……好。"
+
+narrator "他喝了一口，味道柔軟，像一個讓人放鬆的理由。"
+
+show hanami smile
+hanami "你看吧，住久一點也不會吃虧。"
+
+jingzhe "……也許。"
+
+narrator "他本來想說『再看看』。"
+narrator "但最後說出口的，只是一句含糊的肯定。"
+
+narrator "月下庄的夜很安靜。"
+
+narrator "安靜到他聽見自己的呼吸，聽見煙草的聲音，也聽見某種看不見的東西在遠處蠢動。"
+
+# END 第一章

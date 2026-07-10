@@ -1,0 +1,217 @@
+﻿# 劇本｜驚蟄
+
+# 第七章｜錯路・花見
+
+# SCENE 07A — 給花見
+
+scene bg inn_hall_evening
+with dissolve
+
+narrator "驚蟄從袖中取出那張黑色卡片，交到花見手裡。"
+
+jingzhe "這是影之魔女的卡片，它會保護你。"
+
+show hanami smile
+hanami "只保護我？"
+
+jingzhe "嗯。"
+
+show yumemi sad
+yumemi "那你呢？"
+
+narrator "驚蟄沒有立刻回答。"
+
+jingzhe "我會想辦法。"
+
+narrator "花見嘆了口氣，接著把卡片收進衣內，像是收下一種承諾。"
+
+hanami "我會保管好。"
+
+# [R18插入點] 參照：R18_第七章.txt / Part A
+# 全年齡版處理：若不插入 R18，直接銜接出發夜戰。
+
+narrator "驚蟄沒有再多看，轉身走向夜色。"
+
+narrator "他不想讓自己猶豫。"
+
+scene bg forest_path_night
+with fade
+
+narrator "林道很黑，只有煙斗的火光在一點一點前行。"
+
+show jingzhe neutral
+narrator "他吹起煙草。"
+
+narrator "髮切與大百足在黑暗中竄出，像是應召而來的影。"
+
+show hanami determined
+narrator "花見下意識抬薙刀，眼神一瞬間變冷。"
+
+jingzhe "是同伴。"
+
+narrator "他只說了三個字。"
+
+narrator "花見的手稍稍放鬆，但仍保持戒備。"
+
+narrator "髮切是披著人形的螳螂妖怪，雙手如鐮。"
+
+narrator "大百足的殼厚得像甲，衝撞時帶著低沉的震響。"
+
+narrator "他們抵達林道盡頭的空地。"
+
+narrator "風在枯樹間打旋，地面有被翻動過的痕跡。"
+
+show tsuchigumo shadow
+narrator "土蜘蛛先現身，像一堵牆，從樹影中慢慢逼近。"
+
+narrator "牠每一步都讓地面微震，像在逼近判決。"
+
+narrator "髮切先衝上去，鐮刃交錯，逼得牠抬頭防守。"
+
+narrator "牠的節肢拍地，揚起一層灰。"
+
+narrator "大百足自側面猛撞，震得地面一沉。"
+
+show hanami determined
+narrator "花見趁空隙切入，薙刀的刃光在牠的節肢上割出白痕。"
+
+narrator "她的呼吸短促，卻不退。"
+
+narrator "驚蟄的蟲影纏住牠的視線，逼得土蜘蛛退到樹根間。"
+
+scene bg inn_exterior_night
+with dissolve
+
+narrator "另一邊，月下庄靜得像沒有住人。"
+
+show jorogumo shadow
+narrator "絡新婦無聲地穿過屋簷，在屋內搜尋。"
+
+narrator "抽屜被拉開，又被無聲地推回原處。"
+
+narrator "桌下、床底、櫃後，凡是能藏東西的地方，都被她一一確認過。"
+
+narrator "沒有。"
+
+narrator "絡新婦停在房中央，指尖仍按著櫃門的邊緣。"
+
+narrator "她像是不信，又重新翻了一遍。"
+
+narrator "同樣的位置，同樣的空無。"
+
+narrator "那份從容終於在沉默裡裂開一線。"
+
+narrator "木框被推回去時，發出一聲很輕的悶響。"
+
+scene bg inn_corridor_night
+with fade
+
+show yumemi sad
+narrator "夢見提著燈走出房門。"
+
+narrator "她望向走廊盡頭，低聲問了一句。"
+
+yumemi "誰在那裡？"
+
+narrator "沒有人回答。"
+
+narrator "只有一道細影，從梁上掠過。"
+
+scene bg inn_room_night
+with dissolve
+
+show yumemi sad
+narrator "夢見還來不及退後，燈火便猛地一晃。"
+
+show jorogumo shadow
+narrator "絡新婦將她拖進房裡，手掌覆住她的口鼻。"
+
+narrator "夢見的指尖抓住她的手腕，細微地掙動著。"
+
+narrator "絡新婦貼近她，聲音低得像絲線勒進耳中。"
+
+narrator "『郵箱在哪？』"
+
+narrator "夢見睜大眼睛，艱難地搖了搖頭。"
+
+narrator "那一瞬間，絡新婦眼底最後一點耐性也沉了下去。"
+
+narrator "她不是來空手而回的。"
+
+narrator "更不是來被一個無關緊要的人撞見的。"
+
+narrator "夢見像是想喊出花見的名字。"
+
+narrator "但聲音還沒成形，就被截斷了。"
+
+narrator "燈盞落在地上，火光晃了晃，沒有翻倒。"
+
+narrator "夢見倒下時，幾乎沒有發出聲音。"
+
+narrator "屋裡很安靜，像是什麼都沒有發生。"
+
+scene bg forest_path_night
+with dissolve
+
+narrator "土蜘蛛終於倒下。"
+
+narrator "花見喘著氣，髮絲黏在臉側。"
+
+show hanami sad
+hanami "回去吧……我很擔心夢見。"
+
+narrator "她的聲音發抖，像是早就知道會出事。"
+
+scene bg inn_gate_night
+with fade
+
+narrator "他們趕回月下庄。"
+
+show jorogumo shadow
+narrator "門口的影子還沒散，絡新婦正要退走。"
+
+narrator "花見的動作很大，很急，像把所有痛都甩出去。"
+
+narrator "驚蟄的蟲影從側面纏住她的腳。"
+
+narrator "一息之間，黑影碎成兩半。"
+
+narrator "那一瞬間，他們都明白了。"
+
+narrator "夢見——恐怕已經出事。"
+
+scene bg inn_hall_night
+with dissolve
+
+narrator "他們衝進屋裡。"
+
+narrator "看到的是夢見的身體。"
+
+show hanami sad
+narrator "花見跪在地上，像被抽走了骨頭。"
+
+narrator "她的肩開始發抖，像在用力把聲音吞回去。"
+
+show jingzhe neutral
+narrator "驚蟄沒有安慰。"
+
+narrator "他知道，說什麼都沒用。"
+
+narrator "但他仍然把手放在她背上，短短一秒。"
+
+narrator "那一秒像是在告訴她：我在。"
+
+narrator "他把卡片從花見身上取回。"
+
+show jingzhe neutral
+narrator "撕開。"
+
+narrator "風停了一瞬。"
+
+narrator "他聽見了耳語，像從很遠的地方飄來。"
+
+narrator "「再做一次選擇。」"
+
+narrator "他閉上眼。"
+
+# END SCENE 07A

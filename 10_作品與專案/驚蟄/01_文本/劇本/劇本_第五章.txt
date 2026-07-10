@@ -1,0 +1,287 @@
+﻿# 劇本｜驚蟄
+
+# 第五章｜牽絲
+
+scene bg inn_hall_evening
+with dissolve
+
+narrator "那幾天，月下庄的空氣比平常更黏。"
+
+narrator "像是有什麼看不見的絲，繞在走廊與房門之間。"
+
+show jingzhe neutral
+narrator "驚蟄沒說出口，但他知道，這不是天氣的問題。"
+narrator "連風都像被誰收窄了。"
+
+scene bg inn_hall_evening
+with dissolve
+
+show hanami smile
+hanami "你今天也在寫？"
+
+jingzhe "……嗯。"
+
+narrator "花見的聲音依舊明亮，但那份熱度裡，多了一點刻意。"
+
+narrator "她沒有像平常那樣站在欄杆旁，而是直接繞到他身側。"
+
+narrator "近得像只要他一轉頭，就會碰到她的髮尾。"
+
+hanami "你最近都不怎麼看我。"
+
+jingzhe "……有嗎。"
+
+narrator "花見低下身，手指落在他肩上。"
+
+narrator "力道不重，卻像在確認他會不會照著她要的方向轉頭。"
+
+hanami "有啊。"
+
+hanami "還是你比較喜歡人家再靠近一點？"
+
+narrator "她笑著說。"
+narrator "笑得太甜，甜得像不是她。"
+
+jingzhe "……妳還好嗎？"
+
+hanami "當然好呀。"
+
+narrator "回答太快，像背好的句子。"
+
+narrator "驚蟄的指尖輕輕敲了兩下桌面，像在確認某個節拍。"
+
+narrator "他瞥見她袖口邊緣有一點極細的白絲。"
+
+narrator "像不小心沾上的。"
+narrator "又像是誰故意留下的記號。"
+
+narrator "他沒有戳破，只是把視線移開。"
+
+narrator "他知道，一旦說出『不對勁』三個字，就會把她們推進更危險的中心。"
+
+scene bg inn_room_night
+with dissolve
+
+narrator "夜裡，花見敲了他的門。"
+
+show hanami smile
+hanami "可以進來嗎？"
+
+jingzhe "……進來吧。"
+
+narrator "她走進來時沒有先說話。"
+
+narrator "只把門輕輕帶上。"
+
+narrator "那個動作讓房裡忽然太安靜了。"
+
+narrator "她的步伐很輕，眼神卻像被線牽著。"
+
+narrator "她一路走到他面前，膝蓋幾乎碰上他的腿。"
+
+hanami "你今天身上……好香。"
+
+narrator "她低頭去聞他衣領邊的味道。"
+
+narrator "下一秒，一隻手摸上他的衣帶。"
+
+narrator "另一隻手卻沒有停在他身上。"
+narrator "而是沿著桌邊，往那個黑色小盒子的方向慢慢探去。"
+
+show jingzhe neutral
+narrator "那一瞬間，他很想伸手把她拉回來。"
+
+narrator "但他知道，碰觸太近只會讓對方陷得更深。"
+
+narrator "驚蟄聞到那股更細、更尖的味道。"
+
+narrator "不是花見平常會有的氣味。"
+
+narrator "像潮濕角落裡，很多小東西同時醒著。"
+
+hanami "你不喜歡我碰你嗎？"
+
+narrator "她抬眼看他。"
+
+narrator "那個眼神太直，也太空。"
+narrator "像她正在努力扮演自己。"
+
+narrator "但她指尖的方向出賣了她。"
+
+narrator "她真正想碰的，不是他。"
+
+show jingzhe neutral
+narrator "他把煙斗放到唇邊，沒有點燃。"
+
+narrator "只用指尖摩挲著煙草。"
+
+narrator "房間裡的氣味微微變了。"
+
+narrator "花見的動作一頓。"
+
+narrator "她摸著他衣帶的手停住。"
+
+narrator "而那隻快要碰到盒子的手，忽然一緊。"
+
+narrator "下一瞬，指尖的角度變了。"
+
+narrator "不是去拿。"
+narrator "而是猛地往他喉間一壓。"
+
+narrator "香味再重一點。"
+
+narrator "窗邊傳來一聲極細的裂響。"
+
+narrator "像有什麼小東西從梁上掉下去。"
+
+show hanami sad
+hanami "……我剛剛在做什麼？"
+
+narrator "她的眼神清了一點，像是終於從深水裡浮上來。"
+
+narrator "等她看見自己的手正抓著他的衣帶時，整張臉都白了一下。"
+
+jingzhe "不是妳。"
+
+narrator "驚蟄沒有多說，只把窗開了一道縫，讓冷風進來。"
+
+narrator "花見站在原地，像還沒從某場夢裡完全醒過來。"
+
+# [R18插入點] 參照：R18_第五章.txt / Part A
+# 全年齡版處理：本章維持到此，後續直接銜接隔天。
+
+scene bg inn_hall_evening
+with dissolve
+
+narrator "隔天，輪到夢見變得不自然。"
+
+show yumemi shy
+yumemi "我……可以幫你整理行李嗎？"
+
+jingzhe "不用。"
+
+narrator "夢見點頭，卻沒有退開。"
+
+narrator "她的視線落在桌上那個黑色的小盒子上，停得太久。"
+
+narrator "和昨晚花見不同。"
+
+narrator "夢見沒有繞，也沒有演。"
+
+narrator "那股控制落在她身上，顯得更急、更粗糙，像只想快點把東西拿到手。"
+
+yumemi "那個……很重要嗎？"
+
+jingzhe "嗯。"
+
+narrator "她走近一步。"
+
+narrator "步子很輕，輕得像怕驚動誰。"
+
+narrator "但她的眼神卻不像在看一個盒子。"
+narrator "比較像在看某個被人下令一定要帶走的東西。"
+
+narrator "她的手指伸出去。"
+
+narrator "這一次，不是試探。"
+narrator "而是直接去拿。"
+
+show jingzhe neutral
+narrator "驚蟄伸手按住了她的手腕。"
+
+jingzhe "……那不是妳的。"
+
+narrator "夢見的身體僵了一下，像是被誰猛地拉住。"
+
+narrator "她抬頭看他，眼裡閃過一瞬間的慌。"
+
+narrator "她像想靠近，又像不知道自己為什麼會想靠近。"
+
+narrator "肩膀只輕輕碰到他的手臂，就停住了。"
+
+show yumemi sad
+yumemi "那你……抱我一下，好不好？"
+
+narrator "她的聲音發顫。"
+
+narrator "不是平常那種害羞。"
+narrator "更像是有人在背後提著線，要她繼續做下去。"
+
+narrator "她的另一隻手還想去碰那個盒子。"
+
+narrator "驚蟄看見她指尖上黏著一點極淡的白絲。"
+
+narrator "和昨晚花見袖口上的一模一樣。"
+
+narrator "他再一次摩挲煙草。"
+
+narrator "那股細尖的味道被壓下去。"
+
+narrator "夢見像被人從背後剪斷了線，整個人晃了一下。"
+
+narrator "她收回手，指尖發抖，連呼吸都亂了。"
+
+show yumemi sad
+yumemi "我不知道……為什麼會想拿。"
+
+narrator "她的聲音帶著恐懼，也帶著困惑。"
+
+narrator "等她意識到自己剛才還說了什麼，耳尖一下紅得發燙。"
+
+narrator "可那紅不是害羞。"
+narrator "更像羞恥。"
+
+jingzhe "不是妳的意思。"
+
+narrator "驚蟄這次說得更直接。"
+
+narrator "因為再不說，她可能會把所有責任都往自己身上背。"
+
+# [R18插入點] 參照：R18_第五章.txt / Part B
+# 全年齡版處理：本章維持到此，後續直接銜接走廊夜景。
+
+scene bg inn_corridor_night
+with fade
+
+narrator "那晚，走廊的燈滅了一盞。"
+
+narrator "驚蟄在門縫下看見一截細細的影子。"
+
+narrator "像是蜘蛛的腳，又像是被風拉長的黑線。"
+
+narrator "他這次沒有立刻追出去。"
+
+narrator "因為他知道，對方已經開始急了。"
+
+show jorogumo shadow
+narrator "屋簷之外，白影停在月光照不到的地方。"
+
+narrator "棉帽低低垂著，其下數點陰森的光微微轉動。"
+
+narrator "她像是在確認剛才那些身體說出的話，也像是在學習人的表情。"
+
+narrator "袖口深處，有什麼極細的東西輕輕縮了回去。"
+
+narrator "她沒有失望。"
+
+narrator "只是換了一種尋找的方法。"
+
+scene bg inn_room_late
+with dissolve
+
+narrator "他坐到天快亮。"
+
+narrator "腦中反覆的是同一個問題：他到底能保住多少人，又會失去誰。"
+
+show jingzhe neutral
+narrator "他沒有追問。"
+
+narrator "但他知道，有人正在用她們接近他。"
+
+narrator "而那個人，極可能就在月下庄附近。"
+
+narrator "至於真正的目的——"
+
+narrator "他還沒完全摸清。"
+
+# END 第五章

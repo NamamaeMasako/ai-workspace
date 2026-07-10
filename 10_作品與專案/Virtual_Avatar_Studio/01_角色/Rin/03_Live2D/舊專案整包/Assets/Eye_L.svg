@@ -1,0 +1,27 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="irisGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3A0088;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00D4FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sclera -->
+  <path d="M 50,250 Q 250,150 450,250 Q 250,350 50,250 Z" fill="#FFFFFF"/>
+  
+  <!-- Iris -->
+  <circle cx="250" cy="250" r="80" fill="url(#irisGrad)"/>
+  
+  <!-- Pupil -->
+  <circle cx="250" cy="250" r="30" fill="#100030"/>
+  
+  <!-- Highlights -->
+  <circle cx="220" cy="220" r="15" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="270" cy="270" r="8" fill="#FFFFFF" opacity="0.6"/>
+  
+  <!-- Eyelash Top -->
+  <path d="M 40,240 Q 250,120 460,240 L 470,230 Q 250,100 30,230 Z" fill="#202020"/>
+  
+  <!-- Eyelash Side details -->
+  <path d="M 460,240 L 480,220 L 465,250 Z" fill="#202020"/>
+</svg>

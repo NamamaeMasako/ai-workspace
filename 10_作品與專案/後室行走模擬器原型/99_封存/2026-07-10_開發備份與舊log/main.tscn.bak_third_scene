@@ -1,0 +1,651 @@
+[gd_scene load_steps=24 format=3]
+
+[ext_resource type="Script" path="res://scripts/player.gd" id="1_player"]
+[ext_resource type="Script" path="res://scripts/interactable.gd" id="2_interactable"]
+[ext_resource type="AudioStream" path="res://assets/audio/ambient_fluorescent_hum.wav" id="3_hum"]
+[ext_resource type="AudioStream" path="res://assets/audio/pool_water_loop.wav" id="4_pool_water"]
+[ext_resource type="Script" path="res://scripts/looping_audio.gd" id="5_looping_audio"]
+
+[sub_resource type="StandardMaterial3D" id="Mat_wall"]
+albedo_color = Color(0.72, 0.63, 0.32, 1)
+roughness = 0.9
+
+[sub_resource type="StandardMaterial3D" id="Mat_carpet"]
+albedo_color = Color(0.42, 0.34, 0.18, 1)
+roughness = 1.0
+
+[sub_resource type="StandardMaterial3D" id="Mat_light"]
+albedo_color = Color(0.9, 0.86, 0.58, 1)
+emission_enabled = true
+emission = Color(1, 0.92, 0.55, 1)
+emission_energy_multiplier = 1.5
+
+[sub_resource type="StandardMaterial3D" id="Mat_paper"]
+albedo_color = Color(0.88, 0.82, 0.62, 1)
+roughness = 0.8
+
+[sub_resource type="StandardMaterial3D" id="Mat_exit_door"]
+albedo_color = Color(0.08, 0.11, 0.13, 1)
+roughness = 0.35
+emission_enabled = true
+emission = Color(0.25, 0.8, 1, 1)
+emission_energy_multiplier = 0.35
+
+[sub_resource type="StandardMaterial3D" id="Mat_exit_glow"]
+albedo_color = Color(0.35, 0.9, 1, 1)
+emission_enabled = true
+emission = Color(0.35, 0.9, 1, 1)
+emission_energy_multiplier = 2.5
+
+[sub_resource type="StandardMaterial3D" id="Mat_interact_glow"]
+albedo_color = Color(1, 1, 1, 1)
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+emission_energy_multiplier = 1.2
+
+[sub_resource type="StandardMaterial3D" id="Mat_key"]
+albedo_color = Color(1, 0.78, 0.2, 1)
+metallic = 0.8
+roughness = 0.25
+emission_enabled = true
+emission = Color(0.7, 0.45, 0.05, 1)
+emission_energy_multiplier = 0.25
+
+[sub_resource type="StandardMaterial3D" id="Mat_pool_tile"]
+albedo_color = Color(0.88, 0.94, 0.96, 1)
+roughness = 0.18
+metallic = 0.0
+
+[sub_resource type="StandardMaterial3D" id="Mat_pool_water"]
+albedo_color = Color(0.25, 0.68, 0.88, 0.62)
+transparency = 1
+roughness = 0.03
+emission_enabled = true
+emission = Color(0.05, 0.22, 0.3, 1)
+emission_energy_multiplier = 0.25
+
+[sub_resource type="StandardMaterial3D" id="Mat_pool_dark"]
+albedo_color = Color(0.08, 0.14, 0.17, 1)
+roughness = 0.55
+
+[sub_resource type="StandardMaterial3D" id="Mat_fairy_floor"]
+albedo_color = Color(1, 0.68, 0.82, 1)
+roughness = 0.55
+
+[sub_resource type="StandardMaterial3D" id="Mat_fairy_wall"]
+albedo_color = Color(1, 0.78, 0.9, 1)
+roughness = 0.45
+
+[sub_resource type="StandardMaterial3D" id="Mat_cloud"]
+albedo_color = Color(0.92, 0.95, 1, 0.72)
+transparency = 1
+roughness = 0.9
+emission_enabled = true
+emission = Color(0.3, 0.4, 0.55, 1)
+emission_energy_multiplier = 0.2
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_player"]
+size = Vector3(0.7, 1.7, 0.7)
+
+[sub_resource type="BoxShape3D" id="InteractShape"]
+size = Vector3(2.0, 1.8, 1.2)
+
+[sub_resource type="BoxShape3D" id="DoorInteractShape"]
+size = Vector3(2.0, 2.4, 0.7)
+
+[sub_resource type="BoxShape3D" id="KeyInteractShape"]
+size = Vector3(1.2, 1.0, 1.2)
+
+[node name="Main" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+
+[node name="AmbientHum" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_hum")
+volume_db = -12.0
+autoplay = true
+
+[node name="PoolWaterLoop" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_pool_water")
+volume_db = 0.0
+script = ExtResource("5_looping_audio")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.707107, 0.707107, 0, -0.707107, 0.707107, 0, 5, 0)
+light_energy = 0.12
+
+[node name="Floor" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(18, 0.2, 18)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.1, 0)
+material_override = SubResource("Mat_carpet")
+
+[node name="Ceiling" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(18, 0.2, 18)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.05, 0)
+material_override = SubResource("Mat_wall")
+
+[node name="BackWall" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(18, 3, 0.3)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, -9)
+material_override = SubResource("Mat_wall")
+
+[node name="FrontWall" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(18, 3, 0.3)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, 9)
+material_override = SubResource("Mat_wall")
+
+[node name="LeftWall" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(0.3, 3, 18)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9, 1.5, 0)
+material_override = SubResource("Mat_wall")
+
+[node name="RightWall" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(0.3, 3, 18)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 1.5, 0)
+material_override = SubResource("Mat_wall")
+
+[node name="InnerWallA" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(0.3, 3, 10)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5, 1.5, -1.5)
+material_override = SubResource("Mat_wall")
+
+[node name="InnerWallB" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(9, 3, 0.3)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 1.5, -3.5)
+material_override = SubResource("Mat_wall")
+
+[node name="LightPanel1" type="CSGBox3D" parent="."]
+size = Vector3(2.2, 0.05, 0.45)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.2, 2.93, 2.5)
+material_override = SubResource("Mat_light")
+
+[node name="LightPanel2" type="CSGBox3D" parent="."]
+size = Vector3(2.2, 0.05, 0.45)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.0, 2.93, -6.2)
+material_override = SubResource("Mat_light")
+
+[node name="FluorescentGlow1" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.2, 2.7, 2.5)
+light_color = Color(1, 0.92, 0.55, 1)
+light_energy = 0.65
+omni_range = 7.0
+
+[node name="FluorescentGlow2" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.0, 2.7, -6.2)
+light_color = Color(1, 0.88, 0.5, 1)
+light_energy = 0.35
+omni_range = 5.0
+
+[node name="PaperNoteMesh" type="CSGBox3D" parent="."]
+size = Vector3(0.03, 0.65, 0.9)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.82, 1.45, 1.7)
+material_override = SubResource("Mat_paper")
+
+[node name="PaperNote" type="Area3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.25, 1.45, 1.7)
+script = ExtResource("2_interactable")
+prompt = "Paper note: Press E to read"
+message = "The note says: Do not trust the exit you see for the second time."
+highlight_path = NodePath("../PaperNoteOutline")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="PaperNote"]
+shape = SubResource("InteractShape")
+
+[node name="PaperNoteOutline" type="Node3D" parent="."]
+visible = false
+
+[node name="Top" type="CSGBox3D" parent="PaperNoteOutline"]
+size = Vector3(0.025, 0.035, 1.02)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.78, 1.8, 1.7)
+material_override = SubResource("Mat_interact_glow")
+
+[node name="Bottom" type="CSGBox3D" parent="PaperNoteOutline"]
+size = Vector3(0.025, 0.035, 1.02)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.78, 1.1, 1.7)
+material_override = SubResource("Mat_interact_glow")
+
+[node name="Left" type="CSGBox3D" parent="PaperNoteOutline"]
+size = Vector3(0.025, 0.76, 0.035)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.78, 1.45, 1.18)
+material_override = SubResource("Mat_interact_glow")
+
+[node name="Right" type="CSGBox3D" parent="PaperNoteOutline"]
+size = Vector3(0.025, 0.76, 0.035)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.78, 1.45, 2.22)
+material_override = SubResource("Mat_interact_glow")
+
+[node name="BrokenLight" type="Area3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 1.8, -6.2)
+script = ExtResource("2_interactable")
+prompt = "Broken light: Press E to listen"
+message = "The fluorescent light flickers. Beneath the hum, something knocks three times, pauses, then knocks again."
+highlight_path = NodePath("../BrokenLightOutline")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="BrokenLight"]
+shape = SubResource("InteractShape")
+
+[node name="BrokenLightOutline" type="CSGBox3D" parent="."]
+visible = false
+size = Vector3(2.45, 0.08, 0.65)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.0, 2.88, -6.2)
+material_override = SubResource("Mat_interact_glow")
+
+[node name="KeyVisual" type="Node3D" parent="."]
+transform = Transform3D(0.965926, 0, -0.258819, 0, 1, 0, 0.258819, 0, 0.965926, -5.8, 0.18, -1.2)
+
+[node name="KeyRing" type="CSGTorus3D" parent="KeyVisual"]
+use_collision = false
+inner_radius = 0.16
+outer_radius = 0.28
+sides = 32
+ring_sides = 10
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+material_override = SubResource("Mat_key")
+
+[node name="Key" type="Area3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.8, 0.35, -1.2)
+script = ExtResource("2_interactable")
+prompt = "Ring key: Press E to pick up"
+message = "You pick up a cold brass ring. It is not a real key, but it glows faintly near the exit."
+highlight_path = NodePath("../KeyOutline")
+is_key = true
+key_id = "backrooms"
+consume_on_interact = true
+consume_visual_paths = [NodePath("../KeyVisual"), NodePath("../KeyOutline")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Key"]
+shape = SubResource("KeyInteractShape")
+
+[node name="KeyOutline" type="Node3D" parent="."]
+visible = false
+transform = Transform3D(0.965926, 0, -0.258819, 0, 1, 0, 0.258819, 0, 0.965926, -5.8, 0.185, -1.2)
+
+[node name="RingOutline" type="CSGTorus3D" parent="KeyOutline"]
+use_collision = false
+inner_radius = 0.285
+outer_radius = 0.325
+sides = 40
+ring_sides = 4
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+material_override = SubResource("Mat_interact_glow")
+
+[node name="ExitDoor" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(1.6, 2.3, 0.15)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.8, 1.15, -8.8)
+material_override = SubResource("Mat_exit_door")
+
+[node name="ExitDoorGlowFrameTop" type="CSGBox3D" parent="."]
+size = Vector3(1.95, 0.12, 0.08)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.8, 2.34, -8.68)
+material_override = SubResource("Mat_exit_glow")
+
+[node name="ExitDoorGlowFrameLeft" type="CSGBox3D" parent="."]
+size = Vector3(0.12, 2.45, 0.08)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.93, 1.2, -8.68)
+material_override = SubResource("Mat_exit_glow")
+
+[node name="ExitDoorGlowFrameRight" type="CSGBox3D" parent="."]
+size = Vector3(0.12, 2.45, 0.08)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.67, 1.2, -8.68)
+material_override = SubResource("Mat_exit_glow")
+
+[node name="ExitDoorLight" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.8, 1.35, -8.2)
+light_color = Color(0.35, 0.9, 1, 1)
+light_energy = 0.85
+omni_range = 3.5
+
+[node name="FarDoor" type="Area3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.8, 1.2, -8.45)
+script = ExtResource("2_interactable")
+prompt = "騾｡・ｰ陝ｶ・ｸ陷・ｽｺ陷ｿ・｣繝ｻ螢ｽ貎・E 隶呻ｽ｢隴滂ｽ･"
+message = "The ring fits into the lock. Blue light ripples across the frame, and a damp white space waits beyond."
+highlight_path = NodePath("../ExitDoorInteractOutline")
+is_exit_door = true
+required_key_id = "backrooms"
+destination = "pool"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="FarDoor"]
+shape = SubResource("DoorInteractShape")
+
+[node name="ExitDoorInteractOutline" type="Node3D" parent="."]
+visible = false
+
+[node name="Top" type="CSGBox3D" parent="ExitDoorInteractOutline"]
+size = Vector3(1.95, 0.08, 0.08)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.8, 2.46, -8.58)
+material_override = SubResource("Mat_interact_glow")
+
+[node name="Left" type="CSGBox3D" parent="ExitDoorInteractOutline"]
+size = Vector3(0.08, 2.55, 0.08)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.88, 1.22, -8.58)
+material_override = SubResource("Mat_interact_glow")
+
+[node name="Right" type="CSGBox3D" parent="ExitDoorInteractOutline"]
+size = Vector3(0.08, 2.55, 0.08)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.72, 1.22, -8.58)
+material_override = SubResource("Mat_interact_glow")
+
+[node name="Player" type="CharacterBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 4)
+script = ExtResource("1_player")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Player"]
+shape = SubResource("BoxShape3D_player")
+
+[node name="Head" type="Node3D" parent="Player"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.7, 0)
+
+[node name="Camera3D" type="Camera3D" parent="Player/Head"]
+current = true
+fov = 78.0
+
+[node name="InteractionRay" type="RayCast3D" parent="Player/Head"]
+target_position = Vector3(0, 0, -4.5)
+collide_with_areas = true
+collide_with_bodies = false
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="PromptLabel" type="Label" parent="UI"]
+unique_name_in_owner = true
+offset_left = 24.0
+offset_top = 650.0
+offset_right = 760.0
+offset_bottom = 690.0
+theme_override_font_sizes/font_size = 24
+text = ""
+
+[node name="MessageLabel" type="Label" parent="UI"]
+unique_name_in_owner = true
+offset_left = 24.0
+offset_top = 24.0
+offset_right = 900.0
+offset_bottom = 120.0
+theme_override_font_sizes/font_size = 22
+autowrap_mode = 3
+text = ""
+
+[node name="Crosshair" type="Label" parent="UI"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -8.0
+offset_top = -12.0
+offset_right = 8.0
+offset_bottom = 12.0
+theme_override_font_sizes/font_size = 24
+text = "+"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="PoolScene" type="Node3D" parent="."]
+
+[node name="PoolFloor" type="CSGBox3D" parent="PoolScene"]
+use_collision = true
+size = Vector3(20, 0.2, 20)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28, -0.1, 0)
+material_override = SubResource("Mat_pool_tile")
+
+[node name="PoolCeiling" type="CSGBox3D" parent="PoolScene"]
+use_collision = true
+size = Vector3(20, 0.2, 20)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28, 4.2, 0)
+material_override = SubResource("Mat_pool_tile")
+
+[node name="PoolBackWall" type="CSGBox3D" parent="PoolScene"]
+use_collision = true
+size = Vector3(20, 4.2, 0.25)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28, 2.1, -10)
+material_override = SubResource("Mat_pool_tile")
+
+[node name="PoolFrontWall" type="CSGBox3D" parent="PoolScene"]
+use_collision = true
+size = Vector3(20, 4.2, 0.25)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28, 2.1, 10)
+material_override = SubResource("Mat_pool_tile")
+
+[node name="PoolLeftWall" type="CSGBox3D" parent="PoolScene"]
+use_collision = true
+size = Vector3(0.25, 4.2, 20)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 2.1, 0)
+material_override = SubResource("Mat_pool_tile")
+
+[node name="PoolRightWall" type="CSGBox3D" parent="PoolScene"]
+use_collision = true
+size = Vector3(0.25, 4.2, 20)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 38, 2.1, 0)
+material_override = SubResource("Mat_pool_tile")
+
+[node name="PoolBasin" type="CSGBox3D" parent="PoolScene"]
+use_collision = false
+size = Vector3(10, 0.08, 6)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30.5, 0.005, -1.2)
+material_override = SubResource("Mat_pool_dark")
+
+[node name="PoolWater" type="CSGBox3D" parent="PoolScene"]
+use_collision = false
+size = Vector3(9.6, 0.035, 5.6)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30.5, 0.055, -1.2)
+material_override = SubResource("Mat_pool_water")
+
+[node name="PoolColumnA" type="CSGBox3D" parent="PoolScene"]
+use_collision = true
+size = Vector3(0.55, 4.0, 0.55)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.5, 2, -6.4)
+material_override = SubResource("Mat_pool_tile")
+
+[node name="PoolColumnB" type="CSGBox3D" parent="PoolScene"]
+use_collision = true
+size = Vector3(0.55, 4.0, 0.55)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 34.5, 2, 6.4)
+material_override = SubResource("Mat_pool_tile")
+
+[node name="PoolLightA" type="OmniLight3D" parent="PoolScene"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25, 3.7, -4)
+light_color = Color(0.72, 0.9, 1, 1)
+light_energy = 1.1
+omni_range = 8.0
+
+[node name="PoolLightB" type="OmniLight3D" parent="PoolScene"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 33, 3.7, 4)
+light_color = Color(0.72, 0.9, 1, 1)
+light_energy = 0.85
+omni_range = 8.0
+
+[node name="PoolMessageTrigger" type="Area3D" parent="PoolScene"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28, 1.2, 0)
+script = ExtResource("2_interactable")
+prompt = "White pool: Press E to observe"
+message = "Water sound folds back and forth between white tiles. There is no wind here, only an overly quiet blue."
+highlight_path = NodePath("")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="PoolScene/PoolMessageTrigger"]
+shape = SubResource("DoorInteractShape")
+
+[node name="PoolWristbandVisual" type="Node3D" parent="PoolScene"]
+transform = Transform3D(0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, 33.8, 0.18, -5.8)
+
+[node name="PoolWristbandRing" type="CSGTorus3D" parent="PoolScene/PoolWristbandVisual"]
+use_collision = false
+inner_radius = 0.16
+outer_radius = 0.28
+sides = 32
+ring_sides = 10
+material_override = SubResource("Mat_pool_water")
+
+[node name="PoolWristband" type="Area3D" parent="PoolScene"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 33.8, 0.35, -5.8)
+script = ExtResource("2_interactable")
+prompt = "Pool wristband: Press E to pick up"
+message = "You pick up a damp blue wristband. It has no number, only a white line like a water stain."
+highlight_path = NodePath("../PoolWristbandOutline")
+is_key = true
+key_id = "pool"
+consume_on_interact = true
+consume_visual_paths = [NodePath("../PoolWristbandVisual"), NodePath("../PoolWristbandOutline")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="PoolScene/PoolWristband"]
+shape = SubResource("KeyInteractShape")
+
+[node name="PoolWristbandOutline" type="Node3D" parent="PoolScene"]
+visible = false
+transform = Transform3D(0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, 33.8, 0.185, -5.8)
+
+[node name="RingOutline" type="CSGTorus3D" parent="PoolScene/PoolWristbandOutline"]
+use_collision = false
+inner_radius = 0.285
+outer_radius = 0.325
+sides = 40
+ring_sides = 4
+material_override = SubResource("Mat_interact_glow")
+
+[node name="PoolExitDoor" type="CSGBox3D" parent="PoolScene"]
+use_collision = true
+size = Vector3(0.15, 2.6, 1.8)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 37.85, 1.3, 6.6)
+material_override = SubResource("Mat_exit_door")
+
+[node name="PoolExitGlowTop" type="CSGBox3D" parent="PoolScene"]
+size = Vector3(0.08, 0.1, 2.1)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 37.72, 2.65, 6.6)
+material_override = SubResource("Mat_exit_glow")
+
+[node name="PoolExitGlowLeft" type="CSGBox3D" parent="PoolScene"]
+size = Vector3(0.08, 2.7, 0.1)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 37.72, 1.35, 5.63)
+material_override = SubResource("Mat_exit_glow")
+
+[node name="PoolExitGlowRight" type="CSGBox3D" parent="PoolScene"]
+size = Vector3(0.08, 2.7, 0.1)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 37.72, 1.35, 7.57)
+material_override = SubResource("Mat_exit_glow")
+
+[node name="PoolExit" type="Area3D" parent="PoolScene"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 37.45, 1.25, 6.6)
+script = ExtResource("2_interactable")
+prompt = "Changing-room door: Press E to open"
+message = "The wristband touches the lock, and the water sound is swallowed by pink walls."
+highlight_path = NodePath("../PoolExitOutline")
+is_exit_door = true
+required_key_id = "pool"
+destination = "fairy_preview"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="PoolScene/PoolExit"]
+shape = SubResource("DoorInteractShape")
+
+[node name="PoolExitOutline" type="Node3D" parent="PoolScene"]
+visible = false
+
+[node name="Top" type="CSGBox3D" parent="PoolScene/PoolExitOutline"]
+size = Vector3(0.06, 0.06, 2.1)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 37.6, 2.72, 6.6)
+material_override = SubResource("Mat_interact_glow")
+
+[node name="Left" type="CSGBox3D" parent="PoolScene/PoolExitOutline"]
+size = Vector3(0.06, 2.85, 0.06)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 37.6, 1.35, 5.55)
+material_override = SubResource("Mat_interact_glow")
+
+[node name="Right" type="CSGBox3D" parent="PoolScene/PoolExitOutline"]
+size = Vector3(0.06, 2.85, 0.06)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 37.6, 1.35, 7.65)
+material_override = SubResource("Mat_interact_glow")
+
+
+[node name="FairyScene" type="Node3D" parent="."]
+
+[node name="FairyFloor" type="CSGBox3D" parent="FairyScene"]
+use_collision = true
+size = Vector3(15, 0.25, 15)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 48, -0.12, 0)
+material_override = SubResource("Mat_fairy_floor")
+
+[node name="FairyBackWall" type="CSGBox3D" parent="FairyScene"]
+use_collision = true
+size = Vector3(15, 3.2, 0.25)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 48, 1.6, -7.5)
+material_override = SubResource("Mat_fairy_wall")
+
+[node name="FairyLeftWall" type="CSGBox3D" parent="FairyScene"]
+use_collision = true
+size = Vector3(0.25, 3.2, 15)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40.5, 1.6, 0)
+material_override = SubResource("Mat_fairy_wall")
+
+[node name="FairyShortRightWall" type="CSGBox3D" parent="FairyScene"]
+use_collision = true
+size = Vector3(0.25, 2.5, 5.5)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 55.5, 1.25, -4.8)
+material_override = SubResource("Mat_fairy_wall")
+
+[node name="FairyLowRail" type="CSGBox3D" parent="FairyScene"]
+use_collision = false
+size = Vector3(15, 0.35, 0.2)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 48, 0.28, 7.45)
+material_override = SubResource("Mat_fairy_wall")
+
+[node name="CloudA" type="CSGSphere3D" parent="FairyScene"]
+use_collision = false
+radius = 1.4
+radial_segments = 16
+rings = 8
+transform = Transform3D(1.8, 0, 0, 0, 0.45, 0, 0, 0, 0.9, 46, -5.5, 13)
+material_override = SubResource("Mat_cloud")
+
+[node name="CloudB" type="CSGSphere3D" parent="FairyScene"]
+use_collision = false
+radius = 1.1
+radial_segments = 16
+rings = 8
+transform = Transform3D(2.1, 0, 0, 0, 0.45, 0, 0, 0, 0.8, 53, -8, 18)
+material_override = SubResource("Mat_cloud")
+
+[node name="CloudC" type="CSGSphere3D" parent="FairyScene"]
+use_collision = false
+radius = 1.2
+radial_segments = 16
+rings = 8
+transform = Transform3D(2.4, 0, 0, 0, 0.5, 0, 0, 0, 0.75, 41, -10, 20)
+material_override = SubResource("Mat_cloud")
+
+[node name="SlidePlatform" type="CSGBox3D" parent="FairyScene"]
+use_collision = true
+size = Vector3(2.4, 0.35, 2.4)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 45.5, 0.65, -2.8)
+material_override = SubResource("Mat_fairy_wall")
+
+[node name="SlideRamp" type="CSGBox3D" parent="FairyScene"]
+use_collision = true
+size = Vector3(1.7, 0.18, 4.2)
+transform = Transform3D(1, 0, 0, 0, 0.906308, -0.422618, 0, 0.422618, 0.906308, 45.5, 0.42, -0.2)
+material_override = SubResource("Mat_fairy_floor")
+
+[node name="PlayBlockA" type="CSGBox3D" parent="FairyScene"]
+use_collision = true
+size = Vector3(1.2, 1.2, 1.2)
+transform = Transform3D(0.965926, 0, -0.258819, 0, 1, 0, 0.258819, 0, 0.965926, 51.8, 0.6, -2.2)
+material_override = SubResource("Mat_fairy_wall")
+
+[node name="PlayBlockB" type="CSGBox3D" parent="FairyScene"]
+use_collision = true
+size = Vector3(1.0, 1.0, 1.0)
+transform = Transform3D(0.866025, 0, 0.5, 0, 1, 0, -0.5, 0, 0.866025, 52.8, 0.5, -0.8)
+material_override = SubResource("Mat_fairy_floor")
+
+[node name="FairyLight" type="OmniLight3D" parent="FairyScene"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 48, 4.2, -1)
+light_color = Color(1, 0.72, 0.9, 1)
+light_energy = 1.15
+omni_range = 12.0

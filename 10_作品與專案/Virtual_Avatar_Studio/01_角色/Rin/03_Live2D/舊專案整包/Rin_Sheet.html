@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>Rin Live2D Character Sheet</title>
+    <style>
+        body { background: #0a0a0f; color: #d0d0ff; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 20px; overflow: hidden; }
+        .container { display: flex; gap: 40px; }
+        .full-body { width: 400px; height: 800px; background: linear-gradient(180deg, #101020 0%, #050510 100%); border: 1px solid #303060; position: relative; border-radius: 10px; box-shadow: 0 0 20px rgba(0,0,255,0.2); }
+        .details { flex: 1; }
+        h1 { color: #80a0ff; text-shadow: 0 0 10px #4040ff; border-bottom: 2px solid #303060; padding-bottom: 10px; }
+        .part { margin-bottom: 20px; padding: 10px; background: rgba(255,255,255,0.05); border-radius: 5px; }
+        .part h2 { font-size: 1.2em; color: #b0c0ff; margin-top: 0; }
+        .specs { font-family: monospace; color: #80ff80; }
+        
+        /* Visual elements for Rin */
+        .rin-placeholder { 
+            position: absolute; top: 10%; left: 50%; transform: translateX(-50%);
+            width: 250px; height: 600px; border: 2px dashed #4040ff; display: flex; 
+            align-items: center; justify-content: center; text-align: center;
+            font-weight: bold; color: #4040ff;
+        }
+        .data-stream { 
+            position: absolute; bottom: 20%; right: 10px; width: 60px; height: 150px;
+            background: rgba(0,100,255,0.1); border-left: 2px solid #00f;
+            font-size: 8px; color: #00f; overflow: hidden; padding: 2px;
+        }
+        .halo { 
+            position: absolute; top: 5%; left: 50%; transform: translateX(-50%);
+            width: 150px; height: 30px; border: 2px solid rgba(128,200,255,0.5);
+            border-radius: 50%; box-shadow: 0 0 15px #80c8ff;
+        }
+    </style>
+</head>
+<body>
+    <h1>💠 Rin (凛) - Live2D Character Sheet v1.0</h1>
+    <div class="container">
+        <div class="full-body">
+            <div class="halo"></div>
+            <div class="rin-placeholder">
+                [ 冰藍色短髮 ]<br>
+                [ 科技呆毛 ]<br>
+                [ 高領科技制服 ]<br>
+                [ 戰術百褶裙 ]<br>
+                [ 數據長襪 (右) ]<br>
+                [ 透明視窗短靴 (A) ]
+            </div>
+            <div class="data-stream">
+                LOAD: 42%<br>PING: 15ms<br>TEMP: 32C<br>MEM: 85%<br>INIT: OK<br>...
+            </div>
+        </div>
+        <div class="details">
+            <div class="part">
+                <h2>核心設定 (Core Concept)</h2>
+                <p>高冷外殼 x 天然呆核心 (反差萌)</p>
+            </div>
+            <div class="part">
+                <h2>表情差分 (Expressions)</h2>
+                <ul>
+                    <li><span class="specs">Standard:</span> 高冷、眼神銳利</li>
+                    <li><span class="specs">Loading:</span> 眼睛變圓、Loading字樣 (呆滯)</li>
+                    <li><span class="specs">Surprised:</span> 呆毛直立、光環過載閃爍</li>
+                </ul>
+            </div>
+            <div class="part">
+                <h2>技術規格 (Tech Specs)</h2>
+                <p>構圖: A-Pose (正面對稱)<br>
+                   風格: Cyberpunk Anime (Ref: Current Avatar)<br>
+                   細節: 半透明數位發光材質</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

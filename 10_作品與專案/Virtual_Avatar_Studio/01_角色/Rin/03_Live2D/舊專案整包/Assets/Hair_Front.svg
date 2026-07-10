@@ -1,0 +1,11 @@
+<svg width="1000" height="800" viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hime-cut Bangs -->
+  <path d="M 300,100 Q 500,50 700,100 V 350 L 700,450 L 650,450 L 650,250 Q 500,280 350,250 L 350,450 L 300,450 Z" fill="#1A1A1A"/>
+  
+  <!-- Side strands (short layer) -->
+  <path d="M 280,120 L 280,500 L 300,500 L 300,120 Z" fill="#1A1A1A"/>
+  <path d="M 720,120 L 720,500 L 700,500 L 700,120 Z" fill="#1A1A1A"/>
+  
+  <!-- Highlight band -->
+  <path d="M 320,200 Q 500,220 680,200" stroke="#444444" stroke-width="10" fill="none" opacity="0.5"/>
+</svg>

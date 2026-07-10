@@ -1,0 +1,98 @@
+﻿# 劇本｜驚蟄
+
+# 第三章｜黑卡
+
+scene bg tavern_night
+with fade
+
+narrator "半年前的夜晚，比現在更悶熱。"
+narrator "驚蟄坐在小酒館的角落，煙斗裡的火光忽明忽暗。"
+
+show jingzhe neutral
+narrator "那天他沒有特別想喝酒，只是需要一個不會被打擾的地方。"
+
+jingzhe "……"
+
+narrator "杯底見光時，有人坐到了他的對面。"
+
+show achirichi calm
+achirichi "介意嗎？"
+
+jingzhe "……隨便。"
+
+narrator "對方看起來不像醉漢，衣著整齊，眼神也太乾淨。"
+
+achirichi "我叫亞奇里奇。"
+
+jingzhe "聽起來不像本地名。"
+
+achirichi "不是。"
+
+narrator "他把一張全黑的卡片放在桌上。"
+
+achirichi "我來，是因為你會需要它。"
+
+jingzhe "這種推銷很老套。"
+
+achirichi "不是推銷。"
+
+narrator "亞奇里奇的聲音很穩，像是早就把某件事算好了。"
+
+achirichi "影之魔女是我的老師。"
+
+jingzhe "……"
+
+narrator "驚蟄沒有抬頭，但手指停在煙斗上。"
+
+achirichi "她很喜歡你的小說。"
+
+jingzhe "她不喜歡蟲。"
+
+achirichi "所以她才用郵箱。"
+
+narrator "那句話像提醒，也像確認。"
+
+achirichi "卡片會保護持有它的人。"
+
+jingzhe "怎麼保護？"
+
+achirichi "撕開就知道了。"
+
+narrator "他沒有伸手去拿。"
+
+jingzhe "我不想欠她人情。"
+
+achirichi "你不欠她。"
+
+achirichi "她只是想讓你繼續寫。"
+
+narrator "那句話落下時，驚蟄的喉嚨動了一下。"
+narrator "他不確定那是不是自己的軟肋。"
+
+jingzhe "我會自己照顧自己。"
+
+achirichi "我知道。"
+
+narrator "亞奇里奇把卡片推近了一點。"
+
+achirichi "但你不是每次都能照顧好你自己。"
+
+narrator "桌面上那張黑色的卡，像一塊沒有溫度的夜。"
+
+narrator "驚蟄終於把它收進袖口。"
+
+jingzhe "……這筆帳記在她身上。"
+
+achirichi "不，記在你自己身上。"
+
+narrator "亞奇里奇站起身。"
+
+achirichi "不要把卡片交給別人。"
+
+narrator "驚蟄沒有回答，只是低頭續火。"
+
+narrator "等他再抬頭時，人已經走了。"
+
+narrator "那晚，酒意散得很慢，熱氣卻一點也沒退。"
+
+# END 第三章
