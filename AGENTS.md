@@ -101,7 +101,7 @@ AGENTS.md       本規則檔
 ```text
 00_共用參考\世界觀\暫名世界一          世界觀資料（暫名；未來世界二、世界三比照新增）
 00_共用參考\操作流程\AI協作            跨 AI 協作流程（含 Discord規則範本）
-00_共用參考\AI\skills                  AI 共用 skill（如 project-creator）
+00_共用參考\AI\skills                  AI 共用 skill（project-creator、workspace-audit）
 ```
 
 未來若新增「素材規格」等共用分類，直接在本層建立，並同步更新本節。
@@ -406,18 +406,22 @@ AI 在此 workspace 工作時：
 10. 不要刪除資料；需要移除時優先放 `99_封存`。
 11. 涉及本地工具、模型、服務時，要確認是哪台設備／哪位 AI 的環境。
 12. 進入 workspace 工作時，若發現 `00_ToSort` 內有存放超過 14 天的項目，應主動列出並向生前提出歸檔建議；不要放著不管，也不要未經確認就自行歸檔。
+13. 完成一批有意義的變動後，commit 到 workspace repo（規範見第 8 節）。
 
 ## 8. 版本控制、同步與備份
 
 ### 版本控制現況
 
-- 本 workspace 目前**不使用 git**（2026-07-10 已移除失效的空 `.git` 資料夾）。
-- AI 不要假設此處是 git repo，也不要擅自 `git init`。
-- 未來若要導入 git，先與生前確認策略。建議方向：各開發專案（`03_開發` 內的工程資料夾）各自建 repo，而不是整個 workspace 一個大 repo；且要留意 git 與 OneDrive 同步互相干擾的風險（本次 `.git` 失效即為案例）。
+- 本 workspace 自 2026-07-10 起是**單一 git repo**（repo 根＝workspace 根，分支 `main`），涵蓋規則、文本、素材與開發專案。
+- 生成快取由根目錄 `.gitignore` 排除（清單見下節）。
+- `.git` 內容已設定 OneDrive「一律保留在此裝置」（Pinned 屬性），防止檔案隨選把 repo 抽成雲端佔位符——2026-07-10 之前的舊 `.git` 就是這樣失效的。若日後發現 `.git` 內出現雲端佔位符，重跑：`attrib +P "<本機workspace路徑>\.git\*" /S /D`。
+- 不要在專案資料夾內另外 `git init`；新專案直接由 workspace repo 涵蓋。
+- AI 完成一批有意義的變動後應 commit，訊息用中文簡述；不要 force push、不要改寫已存在的歷史。
+- 尚未設定遠端。待生前提供私有遠端（如 GitHub private repo）後加上 `origin` 並定期 push，即完成異地備份的最後一塊。
 
 ### 不需同步／備份的生成快取
 
-以下是工具自動生成、可隨時重生的快取，不需備份，未來若上 git 應加入 `.gitignore`；新增同類資料時比照辦理：
+以下是工具自動生成、可隨時重生的快取，不需備份，已列入根目錄 `.gitignore`；新增同類資料時比照辦理（同步更新 `.gitignore` 與本節）：
 
 - Godot：`.godot/`
 - Ren'Py：`game/cache/`、`*.rpyc`、`*.rpyb`、`log.txt`、`errors.txt`、`traceback.txt`
@@ -428,13 +432,12 @@ OneDrive 無法單獨排除子資料夾同步。目前快取量小（後室 `.go
 
 ### 備份策略
 
-- 各作品 `01_文本` 與 `00_共用參考\世界觀` 是不可再生資料，不能只依賴 OneDrive 同步。
-- 建議節奏：每月一次打包 zip，存到 OneDrive 以外的位置（另一顆硬碟或另一個雲端）。
-- 每次執行後，將日期記錄在 `00_Admin` 的管理文件中。
+- git repo 提供完整版本歷史；`.git` 經 OneDrive 同步後即有雲端副本（版本歷史 + 雲端，已優於單靠 OneDrive）。
+- 尚缺「OneDrive 以外」的第三份：待設定私有遠端後定期 push 即補齊；在那之前，過渡做法是每月把 workspace zip 一份到 OneDrive 以外的位置，並將日期記錄在 `00_Admin` 的管理文件中。
 
 ## 9. 目前待整理事項
 
 - ~~之後可補一個「建立新作品／新專案」專用 skill。~~ 已完成：`00_共用參考\AI\skills\project-creator`。
 - ~~後室行走模擬器原型尚無專屬 `AGENTS.md`。~~ 已補齊（2026-07-10）；目前五個專案皆有專屬 `AGENTS.md`，新專案建立時應一併建立。
 - ~~`.agents`、`.codex` 空資料夾來源待確認。~~ 確認為空後已於 2026-07-10 經生前同意移除。
-- 備份策略（見第 8 節）尚未實際執行第一次。
+- 設定 git 私有遠端並完成第一次 push——異地備份的最後一步（見第 8 節）。
