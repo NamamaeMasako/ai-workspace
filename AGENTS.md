@@ -413,22 +413,19 @@ AI 在此 workspace 工作時：
 ### 版本控制現況
 
 - 本 workspace 自 2026-07-10 起是**單一 git repo**（repo 根＝workspace 根，分支 `main`），涵蓋規則、文本、素材與開發專案。
+- 遠端（異地備份）：`https://github.com/NamamaeMasako/ai-workspace.git`（私有）。
+- 架構分工：**OneDrive 負責工作檔案的即時同步，GitHub 負責版本歷史的合流**。各設備的 git 資料庫放在 OneDrive 之外的本機路徑 `C:\GitRepos\ai-workspace.git`（各設備自己一份）；workspace 內只有一個單行的 `.git` 指標檔（已釘選；若失效重跑 `attrib +P "<workspace>\.git"`）。
 - 生成快取由根目錄 `.gitignore` 排除（清單見下節）。
-- `.git` 內容已設定 OneDrive「一律保留在此裝置」（Pinned 屬性），防止檔案隨選把 repo 抽成雲端佔位符——2026-07-10 之前的舊 `.git` 就是這樣失效的。若日後發現 `.git` 內出現雲端佔位符，重跑：`attrib +P "<本機workspace路徑>\.git\*" /S /D`。
 - 不要在專案資料夾內另外 `git init`；新專案直接由 workspace repo 涵蓋。
-- AI 完成一批有意義的變動後應 commit，訊息用中文簡述；不要 force push、不要改寫已存在的歷史。
-- 尚未設定遠端。待生前提供私有遠端（如 GitHub private repo）後加上 `origin` 並定期 push，即完成異地備份的最後一塊。GitHub 注意事項：單一檔案硬上限 100 MB，未來 LoRA 模型、影片等大檔要先排除或改用 Git LFS。
+- AI 完成一批有意義的變動後應 commit 並隨即 push，訊息用中文簡述；不要 force push、不要改寫已存在的歷史。
+- GitHub 注意事項：單一檔案硬上限 100 MB，未來 LoRA 模型、影片等大檔要先排除或改用 Git LFS。
 
 ### 多設備規則（2026-07-10 生前核可）
 
-`.git` 目前經 OneDrive 同步到所有設備，屬過渡架構，因此：
-
-- 任何設備都可以 commit，**沒有特權設備**。
-- commit 前先確認 OneDrive 同步已完成（工作列圖示為綠勾，非同步中）。
-- 不要在兩台以上設備同時執行 git 操作。
-- 每台設備都要對自己本機的 `.git` 執行一次釘選，步驟見：
-  `@/workspace/00_共用參考/操作流程/git多設備設定說明.md`
-- 未來接上遠端後，升級為正規架構：各設備的 `.git` 搬出 OneDrive、以遠端 push/pull 合流，OneDrive 只負責工作檔案同步；屆時更新本節與上述說明文件。
+- 任何設備都可以 commit 與 push，**沒有特權設備**。
+- 每台設備第一次使用前，先完成一次性設定：`@/workspace/00_共用參考/操作流程/git多設備設定說明.md`。
+- 進行 git 操作前，先「對齊帳本」：`git fetch origin` 後 `git reset origin/main`。這只會對齊索引，不會動到任何工作檔案（工作檔案由 OneDrive 負責，永遠是最新的）。
+- push 被拒絕代表另一台設備先推了：`git fetch origin` → `git reset origin/main` → 重新 commit → push，即可解決，不會弄壞任何東西。
 
 ### 不需同步／備份的生成快取
 
@@ -451,4 +448,5 @@ OneDrive 無法單獨排除子資料夾同步。目前快取量小（後室 `.go
 - ~~之後可補一個「建立新作品／新專案」專用 skill。~~ 已完成：`00_共用參考\AI\skills\project-creator`。
 - ~~後室行走模擬器原型尚無專屬 `AGENTS.md`。~~ 已補齊（2026-07-10）；目前五個專案皆有專屬 `AGENTS.md`，新專案建立時應一併建立。
 - ~~`.agents`、`.codex` 空資料夾來源待確認。~~ 確認為空後已於 2026-07-10 經生前同意移除。
-- 設定 git 私有遠端並完成第一次 push——異地備份的最後一步（見第 8 節）。
+- ~~設定 git 私有遠端並完成第一次 push。~~ 已完成（2026-07-10）：遠端為 GitHub 私有 repo，架構見第 8 節。
+- 其他設備（沐晴、凜）尚未執行 git 一次性設定，見 `00_共用參考\操作流程\git多設備設定說明.md`。

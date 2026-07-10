@@ -1,40 +1,59 @@
 # git 多設備設定說明
 
 適用對象：在自己設備上使用本 workspace 的每一位 AI（澪、沐晴、凜等）。
-背景：workspace 自 2026-07-10 起是單一 git repo，`.git` 目前經 OneDrive 同步到所有設備（過渡架構）。規則本文見 `@/workspace/AGENTS.md` 第 8 節。
+規則本文見 `@/workspace/AGENTS.md` 第 8 節；本檔是實際操作步驟。
 
-## 每台設備的一次性設定
+## 架構（2026-07-10 定案）
 
-在自己的設備上依序執行（把 `<workspace>` 換成該設備解析後的 `@/workspace` 實際路徑）：
+- **OneDrive**：負責工作檔案的即時同步（日常編輯照舊，不需理會 git）。
+- **GitHub**：負責版本歷史的合流。遠端：`https://github.com/NamamaeMasako/ai-workspace.git`（私有）。
+- **各設備的 git 資料庫**：放在 OneDrive 之外的本機路徑 `C:\GitRepos\ai-workspace.git`，每台設備自己一份。
+- workspace 根目錄的 `.git` 是一個單行指標檔（內容 `gitdir: C:/GitRepos/ai-workspace.git`），經 OneDrive 同步、所有設備共用同一內容——所以**每台設備都必須用同一個本機路徑** `C:\GitRepos\ai-workspace.git`。
 
-1. **確認 git 可用且 repo 健康**
+## 一次性設定（每台新設備做一次）
+
+澪的設備（首建 repo 的那台）已完成，其他設備依序執行；`<workspace>` 換成該設備解析後的 `@/workspace` 實際路徑：
+
+1. **確認 git 已安裝**：`git --version`。
+
+2. **把歷史從 GitHub 抓到本機**（第一次需要 GitHub 登入，會跳出瀏覽器視窗請生前完成）：
 
    ```powershell
-   git -C "<workspace>" status
+   New-Item -ItemType Directory -Force C:\GitRepos | Out-Null
+   git clone --bare https://github.com/NamamaeMasako/ai-workspace.git C:\GitRepos\ai-workspace.git
+   git -C C:\GitRepos\ai-workspace.git config core.bare false
+   git -C C:\GitRepos\ai-workspace.git config core.logallrefupdates true
+   git -C C:\GitRepos\ai-workspace.git config core.worktree "<workspace>"
+   git -C C:\GitRepos\ai-workspace.git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
    ```
 
-   應顯示分支與工作樹狀態。若回報 `not a git repository`，代表 `.git` 尚未同步完成或已被 OneDrive 抽空——先等 OneDrive 同步完畢再試；若仍失敗，回報生前，不要自行 `git init`。
+3. **確認指標檔存在**：`<workspace>\.git` 應是內容為 `gitdir: C:/GitRepos/ai-workspace.git` 的單行文字檔（會由 OneDrive 從其他設備同步過來；若沒有就自己建一個）。
 
-2. **釘選 `.git`（關鍵步驟）**
-
-   防止 OneDrive「檔案隨選」把 `.git` 內容抽成雲端佔位符（2026-07-10 之前的舊 repo 就是這樣失效的）：
+4. **對齊帳本**（把索引對到目前歷史；不會動到任何工作檔案）：
 
    ```powershell
-   attrib +P "<workspace>\.git\*" /S /D
+   git -C "<workspace>" fetch origin
+   git -C "<workspace>" reset origin/main
    ```
 
-   驗證：`attrib "<workspace>\.git\HEAD"` 的輸出應含 `P`。
+5. **釘選指標檔**，防止 OneDrive 把它抽成雲端佔位符：
 
-3. **不需要另外設定身分**——repo 的 user.name／user.email 存在 `.git\config`，已隨 OneDrive 同步。
+   ```powershell
+   attrib +P "<workspace>\.git"
+   ```
 
-## 日常規則（每次都要遵守）
+6. **驗證**：`git -C "<workspace>" status` 應能正常顯示；若有未 commit 的變動屬正常（那是 OneDrive 同步進來、還沒被任何設備 commit 的內容）。
 
-- 任何設備都可以 commit，沒有特權設備。
-- **commit 前確認 OneDrive 同步已完成**（工作列 OneDrive 圖示為綠勾，不是同步中）。
-- **不要在兩台以上設備同時執行 git 操作**（commit、checkout、reset 等）。編輯檔案不受此限，隨時可以。
-- 完成一批有意義的變動後 commit，訊息用中文簡述；不要 force push、不要改寫已存在的歷史。
-- 若在 `.git` 內看到 OneDrive 衝突副本檔（檔名含「的副本」或裝置名），停止 git 操作並回報生前。
+## 日常規則
 
-## 未來升級（接上遠端後）
+- 日常編輯檔案完全不受 git 影響，照舊即可。
+- 做任何 git 操作前，先對齊帳本：`git fetch origin` → `git reset origin/main`。
+- 完成一批有意義的變動後 commit（中文訊息）並**隨即 push**。
+- push 被拒絕＝另一台先推了：`git fetch origin` → `git reset origin/main` → 重新 commit → push。這個流程不會弄壞任何東西，工作檔案永遠以 OneDrive 的現況為準。
+- 不要 force push、不要改寫已存在的歷史、不要在專案資料夾內另外 `git init`。
 
-生前提供 GitHub 私有 repo 後，架構會升級為：各設備 `.git` 搬出 OneDrive（本機各持一份）、以遠端 push/pull 合流、OneDrive 只同步工作檔案。屆時本文件會改寫，各設備需重做設定。
+## 疑難排解
+
+- `git status` 回報 `not a git repository`：檢查指標檔是否存在、內容是否正確、`C:\GitRepos\ai-workspace.git` 是否存在（若無，重跑一次性設定第 2 步）。
+- 出現大量「已刪除」狀態：多半是帳本沒對齊，跑第 4 步的對齊指令。
+- 任何看不懂的 git 錯誤：停手回報生前，不要嘗試 force 類指令。歷史在 GitHub 上有完整副本，本機 git 資料庫壞了大不了重做一次性設定。
