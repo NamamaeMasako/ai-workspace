@@ -417,7 +417,18 @@ AI 在此 workspace 工作時：
 - `.git` 內容已設定 OneDrive「一律保留在此裝置」（Pinned 屬性），防止檔案隨選把 repo 抽成雲端佔位符——2026-07-10 之前的舊 `.git` 就是這樣失效的。若日後發現 `.git` 內出現雲端佔位符，重跑：`attrib +P "<本機workspace路徑>\.git\*" /S /D`。
 - 不要在專案資料夾內另外 `git init`；新專案直接由 workspace repo 涵蓋。
 - AI 完成一批有意義的變動後應 commit，訊息用中文簡述；不要 force push、不要改寫已存在的歷史。
-- 尚未設定遠端。待生前提供私有遠端（如 GitHub private repo）後加上 `origin` 並定期 push，即完成異地備份的最後一塊。
+- 尚未設定遠端。待生前提供私有遠端（如 GitHub private repo）後加上 `origin` 並定期 push，即完成異地備份的最後一塊。GitHub 注意事項：單一檔案硬上限 100 MB，未來 LoRA 模型、影片等大檔要先排除或改用 Git LFS。
+
+### 多設備規則（2026-07-10 生前核可）
+
+`.git` 目前經 OneDrive 同步到所有設備，屬過渡架構，因此：
+
+- 任何設備都可以 commit，**沒有特權設備**。
+- commit 前先確認 OneDrive 同步已完成（工作列圖示為綠勾，非同步中）。
+- 不要在兩台以上設備同時執行 git 操作。
+- 每台設備都要對自己本機的 `.git` 執行一次釘選，步驟見：
+  `@/workspace/00_共用參考/操作流程/git多設備設定說明.md`
+- 未來接上遠端後，升級為正規架構：各設備的 `.git` 搬出 OneDrive、以遠端 push/pull 合流，OneDrive 只負責工作檔案同步；屆時更新本節與上述說明文件。
 
 ### 不需同步／備份的生成快取
 
