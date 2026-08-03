@@ -1,4 +1,4 @@
-﻿# 驚蟄 / placeholders.rpy
+# 驚蟄 / placeholders.rpy
 
 init python:
     def zh_placeholder(label, color, width=760, height=920, text_color="#FFFFFF"):
@@ -51,7 +51,7 @@ image bg inn_gate_night = Solid("#394152")
 image bg inn_exterior_night = Solid("#313B4A")
 image bg inn_hall_night = Solid("#30273A")
 
-# 驚蟄預設立繪：02_素材/驚蟄/v3/驚蟄_日常平靜_四分之三側身大腿構圖_持菸斗無煙.png。
+# 驚蟄預設立繪：02_素材/驚蟄/v1.0/驚蟄_日常平靜_四分之三側身大腿構圖_持菸斗無煙.png。
 image jingzhe neutral = Transform("images/characters/jingzhe_daily_calm_3q_thigh_holding_kiseru_no_smoke.png", zoom=0.44)
 image jingzhe smoking = zh_placeholder("驚蟄\n抽菸", "#4C566A")
 image jingzhe pensive = zh_placeholder("驚蟄\n沉思", "#596579")
