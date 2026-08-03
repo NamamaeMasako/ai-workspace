@@ -332,7 +332,7 @@
 【九、正式製作順序】
 ＝＝＝＝＝＝＝＝＝＝
 
-第一批 P0（13 狀態）：
+第一批 P0（14 個狀態，其中 13 個尚待製作）：
 - 驚蟄：neutral、smoking、pensive、wary、stern、battle、grief
 - 花見：bright、concerned、determined、battle
 - 夢見：gentle、worried、determined
