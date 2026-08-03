@@ -18,9 +18,20 @@
 - 首次出現以 Ren'Py label 與本次整理時的行號記錄；label 是主要定位，行號只供快速查找。
 
 目前導入狀態：
-- `jingzhe neutral` 已使用正式圖 `images/characters/jingzhe_default_049.png`（來源：驚蟄 v3／049）。
+- `jingzhe neutral` 已使用正式圖 `images/characters/jingzhe_daily_calm_3q_thigh_holding_kiseru_no_smoke.png`。
+- 驚蟄 v3 另有已同步進遊戲的無菸斗版本：`images/characters/jingzhe_daily_calm_3q_thigh_no_kiseru.png`；目前未另設劇本標籤。
 - 其餘 44 個狀態目前仍由 `placeholders.rpy` 的色塊 placeholder 代替。
+- 生前於 2026-08-03 定案：`02_素材/驚蟄/v2` 全部不得直接作為遊戲立繪，不論個別檔案是否含透明通道；v2 只保留作為表情、服裝與構圖參考，也不得認列為完成狀態。
 - `02_素材/花見/v1` 與 `02_素材/夢見` 雖有既有圖，但尚未正式映射到以下 image 標籤；導入前仍須逐張核對角色一致性、表情與構圖。
+
+正式立繪檔名規格：
+- 素材庫中文檔名固定格式：`角色_情境情緒_鏡頭構圖_道具狀態.png`。
+- 情境情緒描述劇本用途，例如 `日常平靜`、`戰鬥警戒`、`真結局負傷`。
+- 鏡頭構圖描述觀看角度與裁切，例如 `四分之三側身大腿構圖`、`正面半身`。
+- 道具狀態必須寫實際畫面，例如 `無菸斗`、`持菸斗無煙`、`抽菸有煙`；不可只寫流水號或含糊的 `預設`。
+- 遊戲資料夾因 Ren'Py ZIP 發行相容性，使用等義 ASCII 檔名：`character_context_camera_prop.png`，例如 `jingzhe_daily_calm_3q_thigh_holding_kiseru_no_smoke.png`。
+- 素材庫中文名負責讓人直接辨識內容；遊戲 ASCII 名負責跨平台與發行包可靠性，兩者必須在清單中成對記錄。
+- 所有可認列完成的正式遊戲立繪都必須是透明背景 PNG。
 
 製作優先級：
 - P0：第一批。角色基準、日常高頻或主線核心狀態；優先替換 placeholder。
@@ -36,13 +47,14 @@
 - 首次出現：序章 `prologue`，第 50 行。
 - 使用次數：3
 - 優先級：P0
-- 現況：已導入 v3／049 正式圖。
+- 現況：已完成兩張 v3 正式圖：`驚蟄_日常平靜_四分之三側身大腿構圖_無菸斗.png`、`驚蟄_日常平靜_四分之三側身大腿構圖_持菸斗無煙.png`；遊戲目前使用後者的 ASCII 鏡像 `jingzhe_daily_calm_3q_thigh_holding_kiseru_no_smoke.png`。
 
 2. `jingzhe smoking`
 - 用途：旅途、休息與思考時持菸斗抽菸；屬角色辨識度很高的日常狀態。
 - 首次出現：序章 `prologue`，第 26 行。
 - 使用次數：5
 - 優先級：P0
+- 現況：未完成。v2 抽菸圖依定案不得使用；現有 v3 持菸斗圖明確為「無煙」，不能冒充正在抽菸。
 
 3. `jingzhe pensive`
 - 用途：內心獨白、寫作、觀察與沉思。

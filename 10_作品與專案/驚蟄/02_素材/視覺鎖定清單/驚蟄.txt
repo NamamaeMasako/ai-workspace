@@ -191,11 +191,11 @@
 當以上大多數條件成立時，就可視為「這是驚蟄」。
 
 ＝＝＝＝＝＝＝＝＝＝
-【八、目前採用的生圖基準 prompt（Banana 2）】
+【八、目前採用的生圖基準 prompt（Banana 2／v2）】
 ＝＝＝＝＝＝＝＝＝＝
 
 用途：
-- 作為後續繼續微調驚蟄立繪時的基準版本
+- 作為後續繼續微調驚蟄 v2 立繪時的基準版本
 - 若之後對話重置、模型更換、或需重新開始修圖，可直接從這版續修
 - 目前已知這版能較穩定產出接近驚蟄第一印象的結果
 
@@ -203,26 +203,97 @@
 - 2:3
 
 Prompt：
-A full-body standing portrait of Jingzhe, a mature East Asian male protagonist for a dark Japanese visual novel, early 30s, slim and slightly fragile build, fair skin with a slightly tired complexion and muted natural warmth, clearly visible dark circles under the eyes, narrow sanpaku eyes, tired and emotionally distant expression, gloomy and withdrawn literary presence. He must look sleep-deprived, worn down by life, quiet, and difficult to approach, but still have subtle main-character presence: not flashy, not heroic, but quietly impossible to ignore.
+A full-body standing portrait of Jingzhe, the same mature East Asian male protagonist established in the approved Jingzhe v1 reference, for a dark Japanese visual novel. He is in his early 30s, slim and slightly fragile, with fair skin that retains subtle natural warmth, visible dark circles, narrow tired eyes, thin black-framed glasses, and a calm emotionally distant expression. His presence is gloomy, withdrawn, sleep-deprived, literary, and difficult to approach; quiet and understated rather than heroic, glamorous, or conventionally handsome.
 
-He has messy black hair, long uneven bangs, and a loosely tied thin low braid at the back, placed low and looking like a habitual quick tie rather than a styled hairstyle. His hair must look slightly unkempt. He wears thin black-framed glasses, understated and intellectual.
+Keep his approved v1 face, facial proportions, narrow tired gaze, messy black hair, long uneven bangs, and long low ponytail tied loosely behind the shoulder. The ponytail must remain long, natural, slightly untidy, and casually tied; it must not become short hair, a short braid, neat styled hair, or an idol hairstyle.
 
-He wears a plain old dark ink-green yukata made by his mother, softly draped over a thin frame, frequently worn, personal and slightly worn rather than luxurious. The fabric has a faint but visible woven grasshopper motif, with the base fabric darker and the motif lighter, like a subtle woven pattern. He wears simple wooden geta sandals.
+Use the approved v2 costume: a plain, old, frequently worn dark ink-black and charcoal-gray Japanese yukata/kimono with a black obi, soft fabric thickness, restrained shading, and low-contrast woven textile texture. The clothing is modest, practical, worn, and made for personal use, never luxurious or ornate. Add only a small number of subtle dark-gold grasshopper motifs, clearly recognizable as grasshoppers but integrated into the fabric like quiet weaving, embroidery, or dye. The motifs must be sparse and leave most of the cloth visually calm. Simple wooden geta sandals.
 
-He holds only one long slender traditional East Asian kiseru-style tobacco pipe, with a thin dark stem, a small restrained metal bowl, and a metal mouthpiece, simple, worn, old-fashioned, practical, sentimental, with no tassels, no pouch, no hanging ornaments, and absolutely not a thick western smoking pipe.
+If the requested variation includes a smoking pipe, show exactly one long, thin, old-fashioned East Asian kiseru matching the approved v1 prop: slender dark stem, small restrained metal bowl, simple metal mouthpiece, practical and worn. It must never become a thick Western pipe, smoking pouch, tassel, charm, or decorative accessory. If the requested variation does not include a pipe, do not add one.
 
-Mature anime visual novel character art, dark literary mood, refined line art, soft shading, muted colors, plain light background, official standing sprite.
+Mature anime visual novel character art, dark literary mood, refined line art, soft restrained shading, muted colors, plain light background, official character sprite, consistent character design, consistent v2 costume design.
 
 Negative Prompt：
-two pipes, extra pipe, duplicate object, healthy athletic body, muscular, cheerful, energetic, bright smile, youthful shounen, polished ikemen, idol vibe, handsome prince, neat stylish braid, glamorous accessories, modern fashion, western smoking pipe, decorative ornaments, heroic pose, overly pale corpse-like skin, dead skin tone, lifeless skin
+short hair, short ponytail, short braid, neat styled ponytail, elaborate braid, idol hairstyle, different face, different facial proportions, youthful shounen, healthy athletic body, muscular body, broad shoulders, polished ikemen, handsome prince, idol vibe, cheerful expression, energetic expression, bright smile, heroic pose, glamorous accessories, ornate luxury kimono, expensive fashion, bright saturated clothing, modern fashion, floral pattern, dense all-over pattern, wallpaper pattern, grass leaves instead of grasshoppers, unrecognizable insect pattern, sticker-like motif, missing grasshopper motif, western smoking pipe, thick pipe, smoking pouch, tassel, charm, hanging ornament, two pipes, extra pipe, duplicate object, extra fingers, malformed hands, corpse-like skin, dead gray skin, lifeless skin
 
 目前已知仍可能出現的問題：
-- 模型有時會把辮子畫得不夠像隨手綁的細低辮
-- 模型有時會自行把浴衣圖案改成較深色
-- 模型偶爾會出現重複物件（例如重複煙斗）
+- 模型有時會把長髮低位束髮畫得過於整齊或縮短成辮子
+- 模型有時會把 v2 深色和服誤生成成高級華服或黑色西裝
+- 模型有時會把蝗蟲紋誤生成成草葉、普通花紋或滿版圖案
+- 模型偶爾會出現重複物件（例如重複菸斗）
 
-下次若要繼續修，建議優先修正：
-1. 煙斗只保留一根，並更明確偏向東方 kiseru
-2. 辮子更細、更低、更像隨手綁
-3. 浴衣維持深底淺紋
-4. 在保留病感的前提下，維持偏白但有生命感的膚色
+LORA 訓練前資料規則：
+1. v2 正式圖作為主資料；短髮測試圖、被刪除圖、蝗蟲紋錯誤圖不納入。
+2. 039 作為全身服裝與整體角色基準；003 作為 v2 和服布料、暗金蝗蟲紋與渲染參考。
+3. v1 只保留作為臉部、髮型、菸斗比例的參考，不把 v1 舊服裝當成 v2 服裝標準。
+4. 有菸斗與無菸斗差分都可以訓練，但 caption 必須如實標註；不要讓菸斗變成角色固定必備物件。
+5. 任何短髮、髮型錯誤、蝗蟲紋跑掉、重複菸斗或明顯崩壞圖，先剔除再開始訓練。
+
+【九、v2 LORA caption 基準】
+
+Trigger word：
+jingzhe_character
+
+Caption 原則：
+- 使用逗號分隔的 tag-style caption，不寫生圖 prompt 式長句。
+- 每張圖固定保留角色核心：`jingzhe_character, mature man, slim fragile build, tired eyes, dark circles, black hair, long uneven bangs, low ponytail, black-framed glasses, dark ink-black and charcoal-gray yukata, black obi, sparse dark-gold grasshopper motif, muted colors, anime visual novel character`。
+- 依圖片實際內容追加構圖、表情、姿勢與道具；沒有菸斗的圖不可加 `holding kiseru`。
+- 有菸斗時追加：`holding one slender kiseru, thin dark smoking pipe`。
+- 全身、半身、特寫、正面、側身、背面，以及情緒都要依實際圖片標註。
+- 不把 `v1`、`v2`、檔案編號或錯誤特徵寫進 caption；不要標註不存在的蝗蟲紋、菸斗或手部動作。
+
+Caption 範例（全身、無菸斗）：
+jingzhe_character, mature man, slim fragile build, tired eyes, dark circles, black hair, long uneven bangs, low ponytail, black-framed glasses, dark ink-black and charcoal-gray yukata, black obi, sparse dark-gold grasshopper motif, full body, standing, front view, calm expression, muted colors, anime visual novel character
+
+Caption 範例（半身、拿菸斗）：
+jingzhe_character, mature man, slim fragile build, tired eyes, dark circles, black hair, long uneven bangs, low ponytail, black-framed glasses, dark ink-black and charcoal-gray yukata, black obi, sparse dark-gold grasshopper motif, upper body, three-quarter view, calm expression, holding one slender kiseru, thin dark smoking pipe, muted colors, anime visual novel character
+
+Caption 範例（特寫）：
+jingzhe_character, mature man, tired eyes, dark circles, black hair, long uneven bangs, black-framed glasses, close-up, front view, solemn expression, muted colors, anime visual novel character
+【v2 正式立繪視覺鎖定｜2026-07-14】
+
+- 正式基準：以 `v2\\全身\\正面_平靜_手扶袖子_站姿_039.png` 作為目前正式立繪基準；短髮測試版移入封存，`002` 保留為備選，不作為主標準。
+- 臉部：沿用 v1 039 的臉型、窄長疲憊眼神、眼鏡與冷淡平靜的表情。維持成熟、陰鬱、疲憊的文學感，不往健康少年、乙遊王子或過度精緻帥哥模板偏移。
+- 髮型：沿用 v1 039 的凌亂黑長髮、長瀏海與長髮低位束髮。束髮要自然、略鬆散、像習慣性隨手綁起，不要改成短辮、精心編髮或偶像感造型。
+- v2 風格：採用 003 的深墨黑／深灰和服、黑色腰帶、低調布料紋理、柔和厚度與收斂的明暗渲染。服裝整體應舊、常穿、樸素，不要高級華服感。
+- 蝗蟲紋：採用 003 的低密度處理，只保留少量暗金色蝗蟲紋，讓大面積布面保持安靜；紋樣必須像織紋、刺繡或染紋一樣融入布料，不可像貼紙或滿版壁紙。
+- 蝗蟲紋固定版位（2026-07-27 定案）：
+  - 正面以 `02_素材\視覺鎖定清單\驚蟄_蝗蟲紋正面版位參考_2026-07-27.png` 為正式參考；蝗蟲紋的數量、大小比例、朝向與在衣料上的相對位置均以該圖為準，不任意增減或重新排列。
+  - 背面固定只保留一隻蝗蟲紋，位於角色自身的右側腰部，面向角色自身的左側；背面其他位置不再增加蝗蟲紋。
+  - 所有「左／右」均以角色自身方向為準，不以觀看者方向為準。
+  - 特寫、半身或其他裁切構圖只會改變畫面中可見的紋樣數量，不代表紋樣在衣服上的設定位置發生改變。
+  - AI 生圖若出現紋樣缺失、增殖、換位或朝向錯誤，視為生成誤差，應優先重抽、篩選或局部修正；不得反過來改寫正式設定。
+- 菸斗：有菸斗的立繪沿用 v1 的菸斗道具比例與外觀，維持細長、樸素、老派的單一 kiseru；不可改成厚重西式煙斗，也不可出現第二根、煙袋、流蘇或吊飾。
+- 膚色：偏白但保留自然暖度、黑眼圈與疲憊感；不可死灰、屍白或過度失血。要像長期睡不好但仍活著的人。
+
+＝＝＝＝＝＝＝＝＝＝
+【十、遊戲用版本與檔名規格｜2026-08-03】
+＝＝＝＝＝＝＝＝＝＝
+
+版本使用定案：
+- v2 仍可作為臉部、表情、服裝、蝗蟲紋與構圖參考，但 v2 全部不得直接作為遊戲立繪，也不得認列為已完成的劇本狀態。
+- 即使 v2 個別檔案含透明通道或外觀接近需求，仍服從上述整批禁用規則，不逐張開例外。
+- 正式遊戲立繪從 v3 起必須是透明背景 PNG、角色外觀符合本清單，並能直接放入 `game/images/characters` 使用。
+
+素材庫中文檔名固定格式：
+`角色_情境情緒_鏡頭構圖_道具狀態.png`
+
+欄位規則：
+- 角色：固定寫角色名，例如 `驚蟄`。
+- 情境情緒：寫劇本用途與可見情緒，例如 `日常平靜`、`戰鬥警戒`、`真結局負傷`。
+- 鏡頭構圖：寫角度與裁切，例如 `四分之三側身大腿構圖`、`正面半身`。
+- 道具狀態：如實寫 `無菸斗`、`持菸斗無煙`、`抽菸有煙`；持菸斗但無煙不可命名成抽菸。
+- 禁止只用流水號、`final`、`預設` 等無法判斷內容的檔名。
+
+遊戲檔名規格：
+- 複製到 `game/images/characters` 時改用等義 ASCII 名稱：`character_context_camera_prop.png`。
+- 此分層是為了避開 Ren'Py 對 ZIP 發行包中非 ASCII 檔名的相容性警告。
+- 素材庫中文名與遊戲 ASCII 名必須在立繪需求帳本成對記錄，不可只剩難以追溯的一邊。
+
+目前 v3 正式遊戲立繪：
+- 素材：`驚蟄_日常平靜_四分之三側身大腿構圖_無菸斗.png`
+  - 遊戲：`jingzhe_daily_calm_3q_thigh_no_kiseru.png`
+- 素材：`驚蟄_日常平靜_四分之三側身大腿構圖_持菸斗無煙.png`
+  - 遊戲：`jingzhe_daily_calm_3q_thigh_holding_kiseru_no_smoke.png`
+
+目前遊戲 `jingzhe neutral` 使用持菸斗無煙版；無菸斗版亦已同步到遊戲角色素材資料夾，但尚未另設劇本 image tag。
