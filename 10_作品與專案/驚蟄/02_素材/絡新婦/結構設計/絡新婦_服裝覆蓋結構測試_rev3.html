@@ -1,7 +1,7 @@
 <!doctype html>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>絡新婦｜服裝覆蓋結構測試 rev.3</title>
+<title>絡新婦｜服裝覆蓋結構測試 rev.3.1</title>
 <style>
   :root {
     --bg:#f3f4f3; --panel:#ffffff; --ink:#20252b; --muted:#68727c; --line:#a7afb7;
@@ -28,8 +28,8 @@
   <title id="title">絡新婦服裝覆蓋結構測試</title>
   <desc id="desc">把白無垢、頭罩、八眼與黑髮覆到已確認的骨架上，檢查副足與衣襬的承托關係。</desc>
   <rect width="1200" height="1600" fill="#f3f4f3"/><rect x="46" y="42" width="1108" height="1516" rx="26" class="panel"/>
-  <text x="86" y="104" class="title">絡新婦｜服裝覆蓋結構測試 rev.3</text>
-  <text x="88" y="142" class="subtitle">骨架保持 rev.2；本階段只檢查白無垢如何覆蓋、搭掛與分層，不視為正式立繪。</text>
+  <text x="86" y="104" class="title">絡新婦｜服裝覆蓋結構測試 rev.3.1</text>
+  <text x="88" y="142" class="subtitle">修正：袖口露出少量爪手；衣襬覆蓋下副足第二節，只留下受力折線。</text>
 
   <rect x="78" y="184" width="672" height="1304" rx="22" fill="#f8f9f8" stroke="#dce0e3" stroke-width="2"/>
   <text x="108" y="230" class="section">正面覆蓋測試｜骨架可透視</text>
@@ -71,15 +71,19 @@
   <path d="M374 724 Q414 746 454 724" class="robe-line"/>
 
   <!-- Wide white sleeves around the human arms -->
-  <path d="M354 394 Q326 410 309 472 L276 675 Q295 724 337 746 L350 635 Q329 583 336 516 L377 430 Z" class="robe"/>
-  <path d="M474 394 Q502 410 519 472 L552 675 Q533 724 491 746 L478 635 Q499 583 492 516 L451 430 Z" class="robe"/>
-  <path d="M302 676 Q317 694 337 706 M526 676 Q511 694 491 706" class="robe-line"/>
+  <path d="M354 394 Q326 410 309 472 L286 646 Q300 672 329 686 L346 628 Q329 583 336 516 L377 430 Z" class="robe"/>
+  <path d="M474 394 Q502 410 519 472 L542 646 Q528 672 499 686 L482 628 Q499 583 492 516 L451 430 Z" class="robe"/>
+  <path d="M296 648 Q311 668 329 674 M532 648 Q517 668 499 674" class="robe-line"/>
+
+  <!-- Small portions of the white spider-claw hands remain visible below the cuffs -->
+  <path d="M333 660 L332 708" class="shell-outline" style="stroke-width:27"/><path d="M333 660 L332 708" class="shell" style="stroke-width:21"/>
+  <path d="M495 660 L496 708" class="shell-outline" style="stroke-width:27"/><path d="M495 660 L496 708" class="shell" style="stroke-width:21"/>
+  <path d="M332 702 L314 739 M332 702 L332 746 M332 702 L351 736" fill="none" stroke="#9da5ad" stroke-width="6" stroke-linecap="round"/>
+  <path d="M496 702 L514 739 M496 702 L496 746 M496 702 L477 736" fill="none" stroke="#9da5ad" stroke-width="6" stroke-linecap="round"/>
 
   <!-- Layer 3: side hems visibly resting on the upward second segments -->
   <path d="M368 666 C326 720 282 794 244 865 L263 1035 Q302 1075 346 965 L366 890 Z" class="robe"/>
   <path d="M460 666 C502 720 546 794 584 865 L565 1035 Q526 1075 482 965 L462 890 Z" class="robe"/>
-  <path d="M244 865 L346 965" fill="none" stroke="#8a63c7" stroke-width="8" opacity=".75" stroke-linecap="round"/>
-  <path d="M584 865 L482 965" fill="none" stroke="#8a63c7" stroke-width="8" opacity=".75" stroke-linecap="round"/>
   <path d="M258 879 Q300 910 337 952 M570 879 Q528 910 491 952" class="robe-line"/>
 
   <!-- Hood shadow and eight eyes -->
@@ -112,7 +116,7 @@
 
   <!-- Contact and layer callouts -->
   <path d="M265 856 C190 812 154 800 118 802" class="leader"/>
-  <text x="106" y="766" class="label">衣襬搭在第二節上</text><text x="106" y="790" class="small">布料折線跟著承托角度改變</text>
+  <text x="106" y="766" class="label">第二節位於衣襬下方</text><text x="106" y="790" class="small">肢體被遮住，只保留承托折線</text>
   <path d="M204 973 C160 1000 132 1017 112 1040" class="leader"/>
   <text x="106" y="1067" class="label">第三節露出且不落地</text><text x="106" y="1091" class="small">常態不負責站立</text>
   <path d="M337 350 C260 400 198 424 134 426" class="leader"/>
@@ -132,7 +136,7 @@
   <text x="866" y="381" class="label">身體＋內層白無垢</text><text x="866" y="406" class="small">包覆軀幹與主足</text>
   <path d="M830 397 L830 432" stroke="#9aa2aa" stroke-width="5"/>
   <circle cx="830" cy="456" r="19" fill="var(--lower)"/><text x="830" y="457" class="num">3</text>
-  <text x="866" y="463" class="label">衣襬壓在上折第二節</text><text x="866" y="488" class="small">形成可見的承托折線</text>
+  <text x="866" y="463" class="label">衣襬覆蓋上折第二節</text><text x="866" y="488" class="small">只看見布料受力，不見整段肢體</text>
   <path d="M830 479 L830 514" stroke="#9aa2aa" stroke-width="5"/>
   <circle cx="830" cy="538" r="19" fill="var(--upper)"/><text x="830" y="539" class="num">4</text>
   <text x="866" y="545" class="label">越肩副足切到最前方</text><text x="866" y="570" class="small">肩線以上完整可見</text>
@@ -142,9 +146,9 @@
   <rect x="780" y="714" width="342" height="474" rx="22" class="panel"/>
   <text x="812" y="762" class="section">本階段驗收</text>
   <g fill="#267b69"><circle cx="826" cy="815" r="8"/><circle cx="826" cy="875" r="8"/><circle cx="826" cy="935" r="8"/><circle cx="826" cy="995" r="8"/><circle cx="826" cy="1055" r="8"/></g>
-  <text x="850" y="822" class="label">前襟完整包覆，不開高衩</text>
+  <text x="850" y="822" class="label">袖口露手；前襟不開高衩</text>
   <text x="850" y="882" class="label">腰窩／大腿根接點被遮住</text>
-  <text x="850" y="942" class="label">側衣襬由副足實際承托</text>
+  <text x="850" y="942" class="label">側衣襬遮住並由第二節承托</text>
   <text x="850" y="1002" class="label">下副足第三節保持短收</text>
   <text x="850" y="1062" class="label">頭罩、八眼、黑髮同時存在</text>
   <rect x="812" y="1101" width="278" height="60" rx="13" fill="#f8eeee" stroke="#e5b8b5"/>
