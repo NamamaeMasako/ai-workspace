@@ -94,7 +94,7 @@ image achirichi serious = zh_placeholder("亞奇里奇\n嚴肅", "#2F7C55")
 
 image tsuchigumo looming = zh_placeholder("土蜘蛛\n逼近", "#1A1A1A")
 image tsuchigumo attack = zh_placeholder("土蜘蛛\n攻擊", "#242424")
-image jorogumo watchful = zh_placeholder("絡新婦\n窺伺", "#2A2028")
+image jorogumo watchful = Transform("images/characters/jorogumo_watchful_front_full_no_prop.png", zoom=0.44)
 image jorogumo searching = zh_placeholder("絡新婦\n搜索", "#352631")
 image jorogumo attack = zh_placeholder("絡新婦\n襲擊", "#3F2533")
 image jorogumo enraged = zh_placeholder("絡新婦\n失去耐性", "#4A2435")

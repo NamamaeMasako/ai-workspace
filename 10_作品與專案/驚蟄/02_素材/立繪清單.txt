@@ -299,6 +299,7 @@
 - 首次出現：第四章 `chapter_4`，第 475 行。
 - 使用次數：3
 - 優先級：P1
+- 素材現況：已依 rev.2 視覺鎖定重製為 v2.0 正式透明立繪；素材庫檔名 `絡新婦_暗處監視_正面全身構圖_無道具.png`，遊戲鏡像檔名 `jorogumo_watchful_front_full_no_prop.png`。
 
 2. `jorogumo searching`
 - 用途：在月下庄搜索目標、尚未立即攻擊時的獵食者狀態。
@@ -359,6 +360,8 @@
 - 土蜘蛛：attack
 - 絡新婦：watchful、attack、enraged
 - 影之魔女：annoyed
+
+2026-08-06：絡新婦完成不相容的 rev.2 主視覺重構，新正式素材自 `v2.0` 起製作；`watchful` 已先替換為 `jorogumo_watchful_front_full_no_prop.png`，`attack`、`enraged` 暫沿用 v1.0，待依新骨架重製後再替換。v2.0 綠幕原圖封存於 `99_封存/2026-08-06_絡新婦v2.0立繪綠幕原圖`。
 
 第三批 P2（13 狀態）：
 - 驚蟄：faint_smile、shocked
