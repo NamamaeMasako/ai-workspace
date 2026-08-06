@@ -1,0 +1,161 @@
+<!doctype html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>絡新婦｜服裝覆蓋結構測試 rev.3</title>
+<style>
+  :root {
+    --bg:#f3f4f3; --panel:#ffffff; --ink:#20252b; --muted:#68727c; --line:#a7afb7;
+    --arm:#3b82c4; --upper:#e38b2c; --main:#209681; --lower:#8a63c7; --risk:#c84f4b;
+  }
+  *{box-sizing:border-box} html,body{margin:0;background:var(--bg)}
+  body{font-family:"Segoe UI","Microsoft JhengHei",sans-serif;color:var(--ink)}
+  main,svg{width:1200px;height:1600px;margin:0 auto;display:block}
+  .title{font-size:34px;font-weight:760;fill:var(--ink)} .subtitle{font-size:17px;fill:var(--muted)}
+  .section{font-size:22px;font-weight:730;fill:var(--ink)} .label{font-size:17px;font-weight:650;fill:var(--ink)}
+  .small{font-size:15px;fill:var(--muted)} .tiny{font-size:13px;fill:var(--muted)}
+  .panel{fill:#fff;stroke:#d8dde1;stroke-width:2}.guide{fill:none;stroke:#cbd0d5;stroke-width:2;stroke-dasharray:8 8}
+  .bone{fill:none;stroke-linecap:round;stroke-linejoin:round}.joint{stroke:#fff;stroke-width:3}
+  .hidden{stroke-dasharray:14 12;opacity:.45}.leader{fill:none;stroke:#8b949e;stroke-width:2.5;stroke-dasharray:7 6}
+  .robe{fill:#fbfbfa;fill-opacity:.88;stroke:#aeb5bb;stroke-width:3;stroke-linejoin:round}
+  .robe-line{fill:none;stroke:#b9bfc5;stroke-width:3;stroke-linecap:round}
+  .shell-outline{fill:none;stroke:#9da5ad;stroke-width:35;stroke-linecap:round;stroke-linejoin:round}
+  .shell{fill:none;stroke:#f7f7f5;stroke-width:29;stroke-linecap:round;stroke-linejoin:round}
+  .core{fill:none;stroke-width:7;stroke-linecap:round;stroke-linejoin:round}
+  .num{font-size:16px;font-weight:800;fill:#fff;text-anchor:middle;dominant-baseline:middle}
+</style>
+<main>
+<svg viewBox="0 0 1200 1600" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">絡新婦服裝覆蓋結構測試</title>
+  <desc id="desc">把白無垢、頭罩、八眼與黑髮覆到已確認的骨架上，檢查副足與衣襬的承托關係。</desc>
+  <rect width="1200" height="1600" fill="#f3f4f3"/><rect x="46" y="42" width="1108" height="1516" rx="26" class="panel"/>
+  <text x="86" y="104" class="title">絡新婦｜服裝覆蓋結構測試 rev.3</text>
+  <text x="88" y="142" class="subtitle">骨架保持 rev.2；本階段只檢查白無垢如何覆蓋、搭掛與分層，不視為正式立繪。</text>
+
+  <rect x="78" y="184" width="672" height="1304" rx="22" fill="#f8f9f8" stroke="#dce0e3" stroke-width="2"/>
+  <text x="108" y="230" class="section">正面覆蓋測試｜骨架可透視</text>
+  <line x1="414" y1="260" x2="414" y2="1400" class="guide"/>
+
+  <!-- Layer 1: hidden roots behind body and clothes -->
+  <path d="M388 548 C355 498 330 430 315 356" class="bone hidden" stroke="var(--upper)" stroke-width="14"/>
+  <path d="M440 548 C473 498 498 430 513 356" class="bone hidden" stroke="var(--upper)" stroke-width="14"/>
+  <path d="M380 635 C366 668 355 700 352 733" class="bone hidden" stroke="var(--lower)" stroke-width="14"/>
+  <path d="M448 635 C462 668 473 700 476 733" class="bone hidden" stroke="var(--lower)" stroke-width="14"/>
+
+  <!-- Hair behind the hood and robe -->
+  <path d="M365 290 C330 390 340 520 355 670 C375 615 382 480 388 345 Z" fill="#24272b" opacity=".9"/>
+  <path d="M463 290 C498 390 488 520 473 670 C453 615 446 480 440 345 Z" fill="#24272b" opacity=".9"/>
+
+  <!-- Faint full skeleton under the garment -->
+  <path d="M360 400 L321 520 L335 658" class="bone" stroke="var(--arm)" stroke-width="13" opacity=".38"/>
+  <path d="M468 400 L507 520 L493 658" class="bone" stroke="var(--arm)" stroke-width="13" opacity=".38"/>
+  <path d="M388 680 L385 910 L381 1240 L397 1322" class="bone" stroke="var(--main)" stroke-width="13" opacity=".42"/>
+  <path d="M440 680 L443 910 L447 1240 L431 1322" class="bone" stroke="var(--main)" stroke-width="13" opacity=".42"/>
+  <path d="M352 733 L346 965 L244 865 L202 970" class="bone" stroke="var(--lower)" stroke-width="13" opacity=".48"/>
+  <path d="M476 733 L482 965 L584 865 L626 970" class="bone" stroke="var(--lower)" stroke-width="13" opacity=".48"/>
+  <circle cx="388" cy="548" r="10" fill="var(--upper)" opacity=".55" class="joint"/><circle cx="440" cy="548" r="10" fill="var(--upper)" opacity=".55" class="joint"/>
+  <circle cx="380" cy="635" r="10" fill="var(--lower)" opacity=".55" class="joint"/><circle cx="448" cy="635" r="10" fill="var(--lower)" opacity=".55" class="joint"/>
+
+  <!-- White spider-limb shells below the robe -->
+  <path d="M352 733 L346 965 L244 865 L202 970" class="shell-outline"/><path d="M352 733 L346 965 L244 865 L202 970" class="shell"/>
+  <path d="M476 733 L482 965 L584 865 L626 970" class="shell-outline"/><path d="M476 733 L482 965 L584 865 L626 970" class="shell"/>
+  <path d="M352 733 L346 965 L244 865 L202 970" class="core" stroke="var(--lower)" opacity=".62"/>
+  <path d="M476 733 L482 965 L584 865 L626 970" class="core" stroke="var(--lower)" opacity=".62"/>
+  <circle cx="346" cy="965" r="12" fill="#f7f7f5" stroke="#9da5ad" stroke-width="3"/><circle cx="244" cy="865" r="12" fill="#f7f7f5" stroke="#9da5ad" stroke-width="3"/>
+  <circle cx="482" cy="965" r="12" fill="#f7f7f5" stroke="#9da5ad" stroke-width="3"/><circle cx="584" cy="865" r="12" fill="#f7f7f5" stroke="#9da5ad" stroke-width="3"/>
+
+  <!-- Layer 2: inner white kimono, closed and vertically wrapped -->
+  <path d="M350 390 Q414 358 478 390 L468 566 Q454 620 460 675 Q414 706 368 675 Q374 620 360 566 Z" class="robe"/>
+  <path d="M372 400 L425 495 L397 610 M456 400 L405 495 L431 610" class="robe-line"/>
+  <path d="M366 675 Q414 704 462 675 L494 1110 Q461 1170 414 1212 Q367 1170 334 1110 Z" class="robe"/>
+  <path d="M414 704 L414 1165" class="robe-line" opacity=".7"/>
+  <path d="M374 724 Q414 746 454 724" class="robe-line"/>
+
+  <!-- Wide white sleeves around the human arms -->
+  <path d="M354 394 Q326 410 309 472 L276 675 Q295 724 337 746 L350 635 Q329 583 336 516 L377 430 Z" class="robe"/>
+  <path d="M474 394 Q502 410 519 472 L552 675 Q533 724 491 746 L478 635 Q499 583 492 516 L451 430 Z" class="robe"/>
+  <path d="M302 676 Q317 694 337 706 M526 676 Q511 694 491 706" class="robe-line"/>
+
+  <!-- Layer 3: side hems visibly resting on the upward second segments -->
+  <path d="M368 666 C326 720 282 794 244 865 L263 1035 Q302 1075 346 965 L366 890 Z" class="robe"/>
+  <path d="M460 666 C502 720 546 794 584 865 L565 1035 Q526 1075 482 965 L462 890 Z" class="robe"/>
+  <path d="M244 865 L346 965" fill="none" stroke="#8a63c7" stroke-width="8" opacity=".75" stroke-linecap="round"/>
+  <path d="M584 865 L482 965" fill="none" stroke="#8a63c7" stroke-width="8" opacity=".75" stroke-linecap="round"/>
+  <path d="M258 879 Q300 910 337 952 M570 879 Q528 910 491 952" class="robe-line"/>
+
+  <!-- Hood shadow and eight eyes -->
+  <ellipse cx="414" cy="326" rx="61" ry="77" fill="#24272b"/>
+  <g fill="#cfd6da" stroke="#111417" stroke-width="2">
+    <circle cx="390" cy="304" r="7"/><circle cx="414" cy="298" r="7"/><circle cx="438" cy="304" r="7"/>
+    <circle cx="380" cy="326" r="7"/><circle cx="448" cy="326" r="7"/>
+    <circle cx="390" cy="348" r="7"/><circle cx="414" cy="354" r="7"/><circle cx="438" cy="348" r="7"/>
+  </g>
+  <!-- Low white bridal hood / wataboshi -->
+  <path d="M414 218 C338 218 302 285 316 398 Q342 365 365 350 Q414 333 463 350 Q486 365 512 398 C526 285 490 218 414 218 Z" class="robe"/>
+  <path d="M319 360 Q414 310 509 360" class="robe-line" opacity=".7"/>
+
+  <!-- Layer 4: upper auxiliary limbs cross over the shoulders into the front -->
+  <path d="M315 356 L282 270 L226 212 L286 310 L337 350" class="shell-outline"/>
+  <path d="M513 356 L546 270 L602 212 L542 310 L491 350" class="shell-outline"/>
+  <path d="M315 356 L282 270 L226 212 L286 310 L337 350" class="shell"/>
+  <path d="M513 356 L546 270 L602 212 L542 310 L491 350" class="shell"/>
+  <path d="M315 356 L282 270 L226 212 L286 310 L337 350" class="core" stroke="var(--upper)" opacity=".72"/>
+  <path d="M513 356 L546 270 L602 212 L542 310 L491 350" class="core" stroke="var(--upper)" opacity=".72"/>
+  <g fill="#f7f7f5" stroke="#9da5ad" stroke-width="3">
+    <circle cx="282" cy="270" r="12"/><circle cx="226" cy="212" r="12"/><circle cx="286" cy="310" r="12"/>
+    <circle cx="546" cy="270" r="12"/><circle cx="602" cy="212" r="12"/><circle cx="542" cy="310" r="12"/>
+  </g>
+
+  <!-- Main foot shells exposed below the central hem -->
+  <path d="M381 1240 L397 1322 M447 1240 L431 1322" class="shell-outline"/>
+  <path d="M381 1240 L397 1322 M447 1240 L431 1322" class="shell"/>
+  <path d="M381 1240 L397 1322 M447 1240 L431 1322" class="core" stroke="var(--main)" opacity=".65"/>
+
+  <!-- Contact and layer callouts -->
+  <path d="M265 856 C190 812 154 800 118 802" class="leader"/>
+  <text x="106" y="766" class="label">衣襬搭在第二節上</text><text x="106" y="790" class="small">布料折線跟著承托角度改變</text>
+  <path d="M204 973 C160 1000 132 1017 112 1040" class="leader"/>
+  <text x="106" y="1067" class="label">第三節露出且不落地</text><text x="106" y="1091" class="small">常態不負責站立</text>
+  <path d="M337 350 C260 400 198 424 134 426" class="leader"/>
+  <text x="106" y="458" class="label">越肩副足在最前層</text><text x="106" y="482" class="small">不是從袖口或肩膀長出</text>
+
+  <rect x="104" y="1366" width="620" height="86" rx="15" fill="#f3f0e7" stroke="#ded5b7"/>
+  <text x="126" y="1400" class="label">目前刻意保留半透明骨架</text>
+  <text x="126" y="1428" class="small">用來驗收接點與衣襬受力；正式立繪才會拿掉彩色骨架與標註。</text>
+
+  <!-- Right column -->
+  <rect x="780" y="184" width="342" height="500" rx="22" class="panel"/>
+  <text x="812" y="232" class="section">前後層順序</text>
+  <circle cx="830" cy="292" r="19" fill="#7e8791"/><text x="830" y="293" class="num">1</text>
+  <text x="866" y="299" class="label">後腰／大腿根隱藏根部</text><text x="866" y="324" class="small">藏在身體與衣服後方</text>
+  <path d="M830 315 L830 350" stroke="#9aa2aa" stroke-width="5"/>
+  <circle cx="830" cy="374" r="19" fill="#a8afb6"/><text x="830" y="375" class="num">2</text>
+  <text x="866" y="381" class="label">身體＋內層白無垢</text><text x="866" y="406" class="small">包覆軀幹與主足</text>
+  <path d="M830 397 L830 432" stroke="#9aa2aa" stroke-width="5"/>
+  <circle cx="830" cy="456" r="19" fill="var(--lower)"/><text x="830" y="457" class="num">3</text>
+  <text x="866" y="463" class="label">衣襬壓在上折第二節</text><text x="866" y="488" class="small">形成可見的承托折線</text>
+  <path d="M830 479 L830 514" stroke="#9aa2aa" stroke-width="5"/>
+  <circle cx="830" cy="538" r="19" fill="var(--upper)"/><text x="830" y="539" class="num">4</text>
+  <text x="866" y="545" class="label">越肩副足切到最前方</text><text x="866" y="570" class="small">肩線以上完整可見</text>
+  <rect x="812" y="610" width="278" height="50" rx="13" fill="#eef4f1" stroke="#b9d5ca"/>
+  <text x="832" y="642" class="label" fill="#256f61">沒有任何副足穿衣而出</text>
+
+  <rect x="780" y="714" width="342" height="474" rx="22" class="panel"/>
+  <text x="812" y="762" class="section">本階段驗收</text>
+  <g fill="#267b69"><circle cx="826" cy="815" r="8"/><circle cx="826" cy="875" r="8"/><circle cx="826" cy="935" r="8"/><circle cx="826" cy="995" r="8"/><circle cx="826" cy="1055" r="8"/></g>
+  <text x="850" y="822" class="label">前襟完整包覆，不開高衩</text>
+  <text x="850" y="882" class="label">腰窩／大腿根接點被遮住</text>
+  <text x="850" y="942" class="label">側衣襬由副足實際承托</text>
+  <text x="850" y="1002" class="label">下副足第三節保持短收</text>
+  <text x="850" y="1062" class="label">頭罩、八眼、黑髮同時存在</text>
+  <rect x="812" y="1101" width="278" height="60" rx="13" fill="#f8eeee" stroke="#e5b8b5"/>
+  <text x="832" y="1128" class="label" fill="var(--risk)">仍禁止新增背部腳</text>
+  <text x="832" y="1151" class="small">八肢總數保持不變</text>
+
+  <rect x="780" y="1218" width="342" height="270" rx="22" fill="#faf9f4" stroke="#dfdac5" stroke-width="2"/>
+  <text x="812" y="1266" class="section">尚未處理</text>
+  <text x="814" y="1318" class="label">• 正式布料紋樣與材質</text>
+  <text x="814" y="1358" class="label">• 寫實節肢厚度與關節造型</text>
+  <text x="814" y="1398" class="label">• 最終比例、光影與死寂氣氛</text>
+  <text x="812" y="1454" class="small">先確認服裝確實服從骨架，再進完整立繪。</text>
+</svg>
+</main>
