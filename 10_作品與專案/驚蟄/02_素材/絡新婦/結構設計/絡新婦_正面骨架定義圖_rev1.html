@@ -1,0 +1,194 @@
+<!doctype html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>絡新婦｜正面骨架定義圖 rev.1</title>
+<style>
+  :root {
+    --bg: #f7f7f5;
+    --panel: #ffffff;
+    --ink: #20252c;
+    --muted: #65707d;
+    --guide: #c7cdd4;
+    --body: #e7eaed;
+    --arm: #3b82c4;
+    --upper: #e38b2c;
+    --main: #209681;
+    --lower: #8a63c7;
+    --risk: #cf4b46;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); }
+  body {
+    font-family: "Segoe UI", "Microsoft JhengHei", sans-serif;
+    color: var(--ink);
+  }
+  main { width: 1200px; height: 1600px; margin: 0 auto; }
+  svg { display: block; width: 1200px; height: 1600px; }
+  .title { font-size: 34px; font-weight: 750; fill: var(--ink); }
+  .subtitle { font-size: 17px; fill: var(--muted); }
+  .section { font-size: 22px; font-weight: 720; fill: var(--ink); }
+  .label { font-size: 17px; font-weight: 650; fill: var(--ink); }
+  .small { font-size: 15px; fill: var(--muted); }
+  .tiny { font-size: 13px; fill: var(--muted); }
+  .body-fill { fill: var(--body); stroke: #8a939e; stroke-width: 3; }
+  .guide { fill: none; stroke: var(--guide); stroke-width: 2; stroke-dasharray: 8 8; }
+  .limb { fill: none; stroke-linecap: round; stroke-linejoin: round; stroke-width: 16; }
+  .hidden { stroke-dasharray: 16 14; opacity: .8; }
+  .joint { stroke: #fff; stroke-width: 4; }
+  .callout { fill: #fff; stroke: #d5d9de; stroke-width: 2; }
+  .risk { fill: none; stroke: var(--risk); stroke-width: 6; stroke-linecap: round; }
+  .leader { fill: none; stroke: #88919c; stroke-width: 2.5; stroke-dasharray: 7 6; }
+  .number { font-size: 16px; font-weight: 800; fill: #fff; text-anchor: middle; dominant-baseline: middle; }
+</style>
+<main>
+<svg viewBox="0 0 1200 1600" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">絡新婦正面骨架定義圖</title>
+  <desc id="desc">用不同顏色標示人類手臂、腰窩副足、主步足與大腿根副足，虛線表示藏在身體後方的根部。</desc>
+
+  <rect width="1200" height="1600" fill="#f7f7f5" />
+  <rect x="46" y="42" width="1108" height="1516" rx="26" fill="#fff" stroke="#d9dde2" stroke-width="2" />
+
+  <text x="86" y="104" class="title">絡新婦｜正面骨架定義圖 rev.1</text>
+  <text x="88" y="142" class="subtitle">只驗證八肢的接點、走向與遮擋；不處理服裝、八眼、材質或氣氛。</text>
+
+  <rect x="78" y="184" width="660" height="1304" rx="22" fill="#fafafa" stroke="#e0e3e7" stroke-width="2" />
+  <text x="108" y="230" class="section">正面骨架</text>
+  <line x1="408" y1="258" x2="408" y2="1390" class="guide" />
+  <line x1="148" y1="345" x2="668" y2="345" class="guide" />
+  <text x="118" y="337" class="tiny">肩線</text>
+  <line x1="148" y1="425" x2="668" y2="425" class="guide" />
+  <text x="112" y="417" class="tiny">約乳頭高度</text>
+  <line x1="148" y1="635" x2="668" y2="635" class="guide" />
+  <text x="112" y="627" class="tiny">大腿根</text>
+
+  <!-- connectors and hidden limb roots are drawn before the body -->
+  <!-- upper auxiliary limbs: roots at the rear waist, hidden behind torso -->
+  <path d="M 382 545 C 350 505, 325 457, 305 405" class="limb hidden" stroke="var(--upper)" />
+  <path d="M 434 545 C 466 505, 491 457, 511 405" class="limb hidden" stroke="var(--upper)" />
+
+  <!-- lower auxiliary limbs: branch from the outer upper-thigh roots, hidden by pelvis/upper thigh -->
+  <path d="M 374 632 C 360 665, 349 695, 346 728" class="limb hidden" stroke="var(--lower)" />
+  <path d="M 442 632 C 456 665, 467 695, 470 728" class="limb hidden" stroke="var(--lower)" />
+
+  <!-- neutral body mannequin -->
+  <ellipse cx="408" cy="316" rx="56" ry="72" class="body-fill" />
+  <path d="M 350 385 Q 408 356 466 385 L 454 545 Q 445 591 448 624 Q 408 654 368 624 Q 371 591 362 545 Z" class="body-fill" />
+  <path d="M 368 624 Q 386 611 408 612 Q 430 611 448 624 L 463 693 Q 408 720 353 693 Z" class="body-fill" />
+
+  <!-- human arms -->
+  <path d="M 354 397 L 315 515 L 329 653" class="limb" stroke="var(--arm)" />
+  <path d="M 462 397 L 501 515 L 487 653" class="limb" stroke="var(--arm)" />
+  <circle cx="315" cy="515" r="13" fill="var(--arm)" class="joint" />
+  <circle cx="501" cy="515" r="13" fill="var(--arm)" class="joint" />
+  <path d="M 329 653 l -10 38 M 329 653 l 2 41 M 487 653 l 10 38 M 487 653 l -2 41" fill="none" stroke="var(--arm)" stroke-width="7" stroke-linecap="round" />
+
+  <!-- main walking legs -->
+  <path d="M 382 675 L 379 905 L 375 1238 L 391 1320" class="limb" stroke="var(--main)" />
+  <path d="M 434 675 L 437 905 L 441 1238 L 425 1320" class="limb" stroke="var(--main)" />
+  <circle cx="379" cy="905" r="13" fill="var(--main)" class="joint" />
+  <circle cx="437" cy="905" r="13" fill="var(--main)" class="joint" />
+  <circle cx="375" cy="1238" r="11" fill="var(--main)" class="joint" />
+  <circle cx="441" cy="1238" r="11" fill="var(--main)" class="joint" />
+
+  <!-- upper auxiliary limbs: visible only after they clear the body silhouette -->
+  <path d="M 305 405 L 276 275 L 220 212 L 282 350" class="limb" stroke="var(--upper)" />
+  <path d="M 511 405 L 540 275 L 596 212 L 534 350" class="limb" stroke="var(--upper)" />
+  <circle cx="276" cy="275" r="13" fill="var(--upper)" class="joint" />
+  <circle cx="220" cy="212" r="13" fill="var(--upper)" class="joint" />
+  <circle cx="540" cy="275" r="13" fill="var(--upper)" class="joint" />
+  <circle cx="596" cy="212" r="13" fill="var(--upper)" class="joint" />
+  <circle cx="282" cy="350" r="8" fill="var(--upper)" />
+  <circle cx="534" cy="350" r="8" fill="var(--upper)" />
+
+  <!-- lower auxiliary limbs: continue beside the main leg, then fold outward in the lower section -->
+  <path d="M 346 728 L 340 936 L 245 1045 L 218 1300" class="limb" stroke="var(--lower)" />
+  <path d="M 470 728 L 476 936 L 571 1045 L 598 1300" class="limb" stroke="var(--lower)" />
+  <circle cx="340" cy="936" r="13" fill="var(--lower)" class="joint" />
+  <circle cx="245" cy="1045" r="13" fill="var(--lower)" class="joint" />
+  <circle cx="476" cy="936" r="13" fill="var(--lower)" class="joint" />
+  <circle cx="571" cy="1045" r="13" fill="var(--lower)" class="joint" />
+  <circle cx="218" cy="1300" r="8" fill="var(--lower)" />
+  <circle cx="598" cy="1300" r="8" fill="var(--lower)" />
+
+  <!-- root markers -->
+  <circle cx="382" cy="545" r="12" fill="var(--upper)" class="joint" />
+  <circle cx="434" cy="545" r="12" fill="var(--upper)" class="joint" />
+  <circle cx="374" cy="632" r="12" fill="var(--lower)" class="joint" />
+  <circle cx="442" cy="632" r="12" fill="var(--lower)" class="joint" />
+
+  <!-- direct labels -->
+  <path d="M 272 468 C 234 486, 207 516, 184 550" class="leader" />
+  <text x="116" y="570" class="label" fill="var(--upper)">腰窩根部</text>
+  <text x="116" y="594" class="small">藏在身後，故用虛線</text>
+
+  <path d="M 356 650 C 298 660, 252 679, 204 712" class="leader" />
+  <text x="112" y="734" class="label" fill="var(--lower)">大腿根外側分岔</text>
+  <text x="112" y="758" class="small">不是從膝蓋起始</text>
+
+  <!-- prohibited attachment points -->
+  <circle cx="354" cy="397" r="24" fill="#fff" opacity=".75" stroke="var(--risk)" stroke-width="3" stroke-dasharray="5 4" />
+  <path d="M 343 386 L 365 408 M 365 386 L 343 408" class="risk" />
+  <path d="M 282 891 L 354 408" class="leader" />
+  <text x="108" y="884" class="label" fill="var(--risk)">禁止接在肩膀</text>
+
+  <circle cx="476" cy="905" r="24" fill="#fff" opacity=".75" stroke="var(--risk)" stroke-width="3" stroke-dasharray="5 4" />
+  <path d="M 465 894 L 487 916 M 487 894 L 465 916" class="risk" />
+  <path d="M 566 846 L 490 892" class="leader" />
+  <text x="525" y="827" class="label" fill="var(--risk)">禁止接在膝蓋</text>
+
+  <text x="108" y="1440" class="small">正面剪影保持窄、長、垂直；副足貼近身體，不向背後增殖，也不放射成蜘蛛傘。</text>
+
+  <!-- right information column -->
+  <rect x="770" y="184" width="352" height="480" rx="22" class="callout" />
+  <text x="804" y="230" class="section">八肢構成</text>
+
+  <line x1="812" y1="278" x2="866" y2="278" class="limb" stroke="var(--arm)" />
+  <text x="890" y="285" class="label">人類手臂 × 2</text>
+  <text x="890" y="310" class="small">肩部正常連接</text>
+
+  <line x1="812" y1="357" x2="866" y2="357" class="limb" stroke="var(--upper)" />
+  <text x="890" y="364" class="label">上半身副足 × 2</text>
+  <text x="890" y="389" class="small">根部：後腰兩側腰窩</text>
+
+  <line x1="812" y1="436" x2="866" y2="436" class="limb" stroke="var(--main)" />
+  <text x="890" y="443" class="label">中央主步足 × 2</text>
+  <text x="890" y="468" class="small">主要站立與行走</text>
+
+  <line x1="812" y1="515" x2="866" y2="515" class="limb" stroke="var(--lower)" />
+  <text x="890" y="522" class="label">下半身副足 × 2</text>
+  <text x="890" y="547" class="small">根部：主足大腿根外側</text>
+
+  <line x1="812" y1="596" x2="866" y2="596" class="limb hidden" stroke="#7b8490" />
+  <text x="890" y="603" class="label">虛線＝被遮住</text>
+  <text x="890" y="628" class="small">不代表骨架中斷</text>
+
+  <rect x="770" y="694" width="352" height="472" rx="22" class="callout" />
+  <text x="804" y="740" class="section">下半身路徑驗收</text>
+
+  <circle cx="826" cy="800" r="19" fill="var(--lower)" /><text x="826" y="801" class="number">1</text>
+  <text x="862" y="807" class="label">大腿根外側分岔</text>
+  <path d="M 826 822 L 826 851" stroke="var(--lower)" stroke-width="5" />
+
+  <circle cx="826" cy="876" r="19" fill="var(--lower)" /><text x="826" y="877" class="number">2</text>
+  <text x="862" y="883" class="label">先貼主腿向下</text>
+  <path d="M 826 898 L 826 927" stroke="var(--lower)" stroke-width="5" />
+
+  <circle cx="826" cy="952" r="19" fill="var(--lower)" /><text x="826" y="953" class="number">3</text>
+  <text x="862" y="959" class="label">下段才向外折</text>
+  <path d="M 826 974 L 826 1003" stroke="var(--lower)" stroke-width="5" />
+
+  <circle cx="826" cy="1028" r="19" fill="var(--lower)" /><text x="826" y="1029" class="number">4</text>
+  <text x="862" y="1035" class="label">末端再向下延伸</text>
+
+  <rect x="804" y="1080" width="286" height="58" rx="14" fill="#f8eef0" stroke="#e7b8b5" />
+  <text x="826" y="1115" class="label" fill="var(--risk)">任一步錯位，就不進服裝階段</text>
+
+  <rect x="770" y="1196" width="352" height="292" rx="22" fill="#fbfaf4" stroke="#e4dfc8" stroke-width="2" />
+  <text x="804" y="1242" class="section">下一階段才加入</text>
+  <text x="806" y="1292" class="label">• 白無垢覆蓋固定骨架</text>
+  <text x="806" y="1331" class="label">• 衣襬搭掛在外折副足上</text>
+  <text x="806" y="1370" class="label">• 頭罩、八眼與黑髮</text>
+  <text x="806" y="1409" class="label">• 白／灰材質與死寂氣氛</text>
+  <text x="804" y="1460" class="small">本圖不是最終立繪；它是後續立繪不可違反的結構底稿。</text>
+</svg>
+</main>
