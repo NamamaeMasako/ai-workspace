@@ -306,18 +306,21 @@
 - 首次出現：第七章花見線前段 `chapter_7_hanami_1`，第 1060 行。
 - 使用次數：2
 - 優先級：P2
+- 素材現況：已依 rev.2 視覺鎖定製作為 v2.0 正式透明立繪；素材庫檔名 `絡新婦_屋內搜索_四分之三側身全身構圖_無道具.png`，遊戲鏡像檔名 `jorogumo_searching_3q_full_no_prop.png`。
 
 3. `jorogumo attack`
 - 用途：襲擊夢見、壓制眾人與真結局正面交戰。
 - 首次出現：第七章花見線前段 `chapter_7_hanami_1`，第 1099 行。
 - 使用次數：7
 - 優先級：P1
+- 素材現況：已依 rev.2 視覺鎖定重製為 v2.0 正式透明立繪；素材庫檔名 `絡新婦_突襲壓制_四分之三側身全身構圖_無道具.png`，遊戲鏡像檔名 `jorogumo_attack_3q_full_no_prop.png`。
 
 4. `jorogumo enraged`
 - 用途：攻擊受阻、失去耐性或被反制時的暴怒狀態。
 - 首次出現：第七章花見線前段 `chapter_7_hanami_1`，第 1111 行。
 - 使用次數：3
 - 優先級：P1
+- 素材現況：已依 rev.2 視覺鎖定重製為 v2.0 正式透明立繪；素材庫檔名 `絡新婦_暴怒現形_四分之三側身全身構圖_無道具.png`，遊戲鏡像檔名 `jorogumo_enraged_3q_full_no_prop.png`。
 
 ＝＝＝＝＝＝＝＝＝＝
 【八、影之魔女｜3 狀態／5 次】
@@ -361,7 +364,7 @@
 - 絡新婦：watchful、attack、enraged
 - 影之魔女：annoyed
 
-2026-08-06：絡新婦完成不相容的 rev.2 主視覺重構，新正式素材自 `v2.0` 起製作；`watchful` 已先替換為 `jorogumo_watchful_front_full_no_prop.png`，`attack`、`enraged` 暫沿用 v1.0，待依新骨架重製後再替換。v2.0 綠幕原圖封存於 `99_封存/2026-08-06_絡新婦v2.0立繪綠幕原圖`。
+2026-08-07：絡新婦 rev.2 的 `watchful`、`searching`、`attack`、`enraged` 四個劇本狀態已全部完成 v2.0 正式透明立繪並導入遊戲；v1.0 僅保留舊版參考。首張 `watchful` 原圖封存於 `99_封存/2026-08-06_絡新婦v2.0立繪綠幕原圖`，其餘三態原圖封存於 `99_封存/2026-08-07_絡新婦v2.0立繪綠幕原圖`。
 
 第三批 P2（13 狀態）：
 - 驚蟄：faint_smile、shocked
