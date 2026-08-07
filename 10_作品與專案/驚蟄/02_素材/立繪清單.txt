@@ -1,6 +1,6 @@
-《驚蟄》立繪清單｜劇本實際標籤版 rev.2
+《驚蟄》立繪清單｜劇本實際標籤版 rev.3
 
-更新日期：2026-08-03
+更新日期：2026-08-07
 資料來源：03_開發/JingZhe/game/script.rpy
 對應 image 定義：03_開發/JingZhe/game/placeholders.rpy
 
@@ -18,11 +18,10 @@
 - 首次出現以 Ren'Py label 與本次整理時的行號記錄；label 是主要定位，行號只供快速查找。
 
 目前導入狀態：
-- `jingzhe neutral` 已使用正式圖 `images/characters/jingzhe_daily_calm_3q_thigh_holding_kiseru_no_smoke.png`。
-- 驚蟄 v1.0 另有已同步進遊戲的無菸斗版本：`images/characters/jingzhe_daily_calm_3q_thigh_no_kiseru.png`；目前未另設劇本標籤。
-- 其餘 44 個狀態目前仍由 `placeholders.rpy` 的色塊 placeholder 代替。
+- 45 個劇本角色狀態目前都已映射至同角色的正式透明立繪；遊戲內不再使用角色色塊 placeholder。
+- 其中 26 個狀態已有專屬正式圖；其餘 19 個尚待製作專屬圖，目前以同角色最接近的既有正式圖暫代。暫代映射不等於該狀態素材已完成。
+- `jingzhe neutral` 使用無菸斗版 `images/characters/jingzhe_daily_calm_3q_thigh_no_kiseru.png`；`jingzhe smoking` 使用持菸斗無煙版 `images/characters/jingzhe_daily_calm_3q_thigh_holding_kiseru_no_smoke.png`。
 - 生前於 2026-08-03 定案：`02_素材/驚蟄/v0.2` 全部不得直接作為遊戲立繪，不論個別檔案是否含透明通道；v0.2 只保留作為表情、服裝與構圖參考，也不得認列為完成狀態。
-- `02_素材/花見/v0.1` 與 `02_素材/夢見` 雖有既有圖，但尚未正式映射到以下 image 標籤；導入前仍須逐張核對角色一致性、表情與構圖。
 
 正式立繪檔名規格：
 - 素材庫中文檔名固定格式：`角色_情境情緒_鏡頭構圖_道具狀態.png`。
