@@ -1,4 +1,4 @@
-《驚蟄》立繪清單｜劇本實際標籤版 rev.4
+《驚蟄》立繪清單｜劇本實際標籤版 rev.5
 
 更新日期：2026-08-07
 資料來源：03_開發/JingZhe/game/script.rpy
@@ -20,7 +20,8 @@
 目前導入狀態：
 - 45 個劇本角色狀態目前都已映射至同角色的正式透明立繪；遊戲內不再使用角色色塊 placeholder。
 - 其中 43 個狀態已有專屬正式圖；僅影之魔女 `cold`、`concerned` 兩個狀態依生前指示保留待製作，目前以同角色既有正式圖暫代。
-- `jingzhe neutral` 使用無菸斗版 `images/characters/jingzhe_daily_calm_3q_thigh_no_kiseru.png`；`jingzhe smoking` 使用持菸斗無煙版 `images/characters/jingzhe_daily_calm_3q_thigh_holding_kiseru_no_smoke.png`。
+- 遊戲顯示統一使用 `images/characters/thigh` 內的大腿鏡頭衍生圖；所有角色均由同一套裁切、置中、放大流程輸出，驚蟄也已重新處理。正式素材與原始遊戲鏡像維持不變。
+- `jingzhe neutral` 使用無菸斗版 `images/characters/thigh/jingzhe_daily_calm_3q_thigh_no_kiseru.png`；`jingzhe smoking` 使用持菸斗無煙版 `images/characters/thigh/jingzhe_daily_calm_3q_thigh_holding_kiseru_no_smoke.png`。
 - 生前於 2026-08-03 定案：`02_素材/驚蟄/v0.2` 全部不得直接作為遊戲立繪，不論個別檔案是否含透明通道；v0.2 只保留作為表情、服裝與構圖參考，也不得認列為完成狀態。
 
 正式立繪檔名規格：
