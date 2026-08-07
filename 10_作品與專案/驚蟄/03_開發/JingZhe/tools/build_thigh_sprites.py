@@ -13,15 +13,30 @@ PROJECT_DIR = Path(__file__).resolve().parents[1]
 SOURCE_DIR = PROJECT_DIR / "game" / "images" / "characters"
 OUTPUT_DIR = SOURCE_DIR / "thigh"
 OUTPUT_SIZE = (1024, 1536)
+FULL_OUTLINE_PREFIXES = ("jorogumo_", "tsuchigumo_")
 
 
 def framing_factor(filename: str) -> float:
     """Return the retained share of the visible subject's vertical extent."""
     if "_thigh_" in filename:
         return 1.0
-    if filename.startswith(("jorogumo_", "tsuchigumo_")):
-        return 0.82
     return 0.72
+
+
+def contain_full_outline(image: Image.Image) -> Image.Image:
+    """Fit a non-human silhouette without cutting limbs at the crop edges."""
+    scale = min(OUTPUT_SIZE[0] / image.width, OUTPUT_SIZE[1] / image.height)
+    fitted_size = (
+        max(1, round(image.width * scale)),
+        max(1, round(image.height * scale)),
+    )
+    fitted = image.resize(fitted_size, Image.Resampling.LANCZOS)
+    framed = Image.new("RGBA", OUTPUT_SIZE, (0, 0, 0, 0))
+    framed.alpha_composite(
+        fitted,
+        ((OUTPUT_SIZE[0] - fitted.width) // 2, OUTPUT_SIZE[1] - fitted.height),
+    )
+    return framed
 
 
 def build_sprite(source_path: Path, output_path: Path) -> tuple[int, int, int, int]:
@@ -29,6 +44,12 @@ def build_sprite(source_path: Path, output_path: Path) -> tuple[int, int, int, i
     alpha_box = image.getchannel("A").getbbox()
     if alpha_box is None:
         raise ValueError(f"Sprite has no visible pixels: {source_path.name}")
+
+    if source_path.name.startswith(FULL_OUTLINE_PREFIXES):
+        framed = contain_full_outline(image)
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        framed.save(output_path, optimize=True)
+        return (0, 0, image.width, image.height)
 
     factor = framing_factor(source_path.name)
     visible_height = alpha_box[3] - alpha_box[1]

@@ -1,5 +1,7 @@
 ﻿# 驚蟄 / script.rpy
 
+# 立繪演出以本檔的 show / hide 註記為準；立繪清單由實際使用標籤反向彙整。
+
 label splashscreen:
     return
 
@@ -21,7 +23,7 @@ label prologue:
     narrator "春末，紅原州的風帶著穀物的甜味，藍川州的潮氣則在遠處的山腳盤旋。"
     narrator "驚蟄踩著木屐，沿著兩州交界的舊道向前。"
 
-    show jingzhe neutral
+    show jingzhe smoking at zh_center
     narrator "他看起來不像適合長途旅行的人：眼下烏黑，髮尾散亂，煙斗的煙在風裡斷斷續續。"
 
     jingzhe "……"
@@ -29,7 +31,7 @@ label prologue:
     narrator "煙草燃起時，他沒有想太多。"
     narrator "只是因為他喜歡。"
 
-    show jingzhe neutral_smoke
+    show jingzhe pensive at zh_center
     narrator "他寫的故事總帶著陰影，卻又在陰影裡留一點溫度。"
     narrator "不是為了取悅誰，只是因為他喜歡。"
 
@@ -42,10 +44,10 @@ label prologue:
     narrator "旅店比他想像得更安靜。"
     narrator "他推門而入時，木鈴輕輕響了一下，像有人貼在耳邊低聲說：『來了。』"
 
-    show hanami smile
+    show hanami bright at zh_far_left
     hanami "歡迎光臨！旅人先生，要住店嗎？"
 
-    show jingzhe neutral
+    show jingzhe neutral at zh_center
     jingzhe "……一晚。"
 
     hanami "一晚也行，不過這裡很安靜，很多人住了就捨不得走喔。"
@@ -53,7 +55,7 @@ label prologue:
     narrator "女孩的聲音帶著一點笑意，像是對陌生人天生就沒什麼距離。"
     narrator "他不討厭這種距離。"
 
-    show yumemi shy
+    show yumemi shy at zh_far_right
     yumemi "姐姐，茶已經煮好了。"
 
     hanami "啊，對。先坐一下，我們給你倒茶。"
@@ -66,6 +68,7 @@ label prologue:
     yumemi "不會。只是……有點特別。"
 
     narrator "他很輕地笑了一下。"
+    show jingzhe faint_smile at zh_center
     narrator "然後他知道，自己大概會在這裡住上一陣子。"
 
     jump chapter_1
@@ -76,7 +79,7 @@ label chapter_1:
     narrator "清晨的月下庄有一種乾淨的味道。"
     narrator "木地板的光澤被擦得剛剛好，既不刺眼，也不讓人覺得刻意。"
 
-    show jingzhe neutral
+    show jingzhe pensive at zh_center
     narrator "驚蟄醒得比自己想像中還早。"
 
     jingzhe "……"
@@ -84,7 +87,7 @@ label chapter_1:
     narrator "他坐起身，手摸到床邊的煙斗，卻停了半秒。"
     narrator "這裡的空氣太淡，淡得很適合不去抽。"
 
-    show hanami smile
+    show hanami bright at zh_far_left
     hanami "早安！今天的早餐有紅玉粥跟醃漬魚，要不要試試看？"
 
     jingzhe "……都可以。"
@@ -92,7 +95,7 @@ label chapter_1:
     narrator "他不習慣被人用這種熱度對待。"
     narrator "但花見笑得理所當然，像世界上本來就該有人在早晨問你要不要吃粥。"
 
-    show yumemi shy
+    show yumemi gentle at zh_far_right
     yumemi "我也煮了清茶，如果你不喜歡甜味，可以配這個。"
 
     yumemi "還有……你這件浴衣很好看。顏色很特別。"
@@ -102,8 +105,10 @@ label chapter_1:
     jingzhe "所以才一直穿著。"
 
     narrator "夢見怔了一下，像是沒想到他會這樣直接回答。"
+    show yumemi surprised at zh_far_right
 
     jingzhe "謝謝。"
+    show jingzhe softened at zh_center
 
     narrator "夢見的聲音像一點點柔軟的霧，停在每個音節之間。"
 
@@ -113,7 +118,7 @@ label chapter_1:
     narrator "早餐結束後，花見忙著打掃、換被單，夢見去整理後院的花草。"
     narrator "驚蟄坐在走廊邊，筆記本攤在膝上。"
 
-    show jingzhe neutral
+    show jingzhe smoking at zh_center
     narrator "他沒有立刻寫字，只是讓煙斗的火慢慢燒著。"
 
     jingzhe "……"
@@ -125,7 +130,7 @@ label chapter_1:
 
     narrator "但他偶爾還是會在結尾留一個人，像是還在等誰。"
 
-    show hanami smile
+    show hanami curious at zh_far_left
     hanami "欸，你在寫小說對吧？"
 
     jingzhe "……嗯。"
@@ -141,7 +146,7 @@ label chapter_1:
 
     narrator "她說這句話時，像邀請，也像通知。"
 
-    show yumemi shy
+    show yumemi gentle at zh_far_right
     narrator "夢見端著洗好的杯子路過，視線落在他的筆記本上。"
 
     yumemi "……如果你需要安靜的地方，後院有一棵老樹。坐在那裡很好寫東西。"
@@ -153,7 +158,7 @@ label chapter_1:
 
     narrator "後院比前院更安靜，只有水聲和風聲。"
 
-    show jingzhe neutral
+    show jingzhe pensive at zh_right
     narrator "他坐在老樹下，翻開本子。"
 
     narrator "『他總是被討厭。』"
@@ -169,7 +174,7 @@ label chapter_1:
     narrator "這句話比較像他自己。"
     narrator "也比較像這個世界。"
 
-    show hanami smile
+    show hanami bright at zh_left
     hanami "哎呀，你在這裡。"
 
     narrator "花見帶著一把長形的包布，像是習慣性背著。"
@@ -184,8 +189,10 @@ label chapter_1:
 
     narrator "她說『一點』時，眼睛裡有那種很乾脆的自信。"
     narrator "像是承認自己會輸，卻不會怕。"
+    show hanami determined at zh_left
 
     narrator "花見低頭擦過刀柄，指腹在舊傷似的刻痕上停了一下。"
+    show hanami concerned at zh_left
 
     hanami "春姊很厲害，以前我總覺得，只要有危險，春姊都會保護我們。"
 
@@ -200,14 +207,15 @@ label chapter_1:
 
     narrator "傍晚時分，月下庄的燈被點起來。"
 
-    show yumemi shy
+    show yumemi gentle at zh_far_right
     yumemi "今晚要不要試試甜酒？我調得比較淡。"
 
+    show jingzhe neutral at zh_center
     jingzhe "……好。"
 
     narrator "他喝了一口，味道柔軟，像一個讓人放鬆的理由。"
 
-    show hanami smile
+    show hanami bright at zh_far_left
     hanami "你看吧，住久一點也不會吃虧。"
 
     jingzhe "……也許。"
@@ -226,7 +234,7 @@ label chapter_2:
 
     narrator "夜更深時，月下庄的走廊會安靜得像一條沒有人的河。"
 
-    show jingzhe neutral
+    show jingzhe smoking at zh_center
     narrator "驚蟄坐在房裡，桌上只有一盞燈、一盒菸草，還有他那本磨舊的筆記。"
 
     jingzhe "……"
@@ -235,7 +243,7 @@ label chapter_2:
     narrator "不是因為誰要求，也不是因為誰期待。"
     narrator "只是因為他喜歡。"
 
-    show jingzhe neutral_smoke
+    show jingzhe pensive at zh_center
     narrator "煙草點燃時，房間裡的影子也跟著變深。"
 
     narrator "他聞到那股熟悉的味道，像是能把所有人隔在門外。"
@@ -252,7 +260,7 @@ label chapter_2:
 
     narrator "靠近了，也只是讓自己更容易被討厭。"
 
-    show jingzhe neutral
+    show jingzhe grief at zh_center
     narrator "他寫過很多這樣的角色。"
 
     narrator "孤獨、潮濕、帶著某種無法觸碰的欲望。"
@@ -278,7 +286,7 @@ label chapter_2:
 
     narrator "這樣很好。"
 
-    show jingzhe neutral
+    show jingzhe pensive at zh_center
     narrator "他把今天寫好的一頁紙折起，放進郵箱。"
 
     narrator "盒蓋闔上的瞬間，紙就消失了。"
@@ -299,6 +307,7 @@ label chapter_2:
     scene bg inn_room_night
     with dissolve
 
+    show jingzhe pensive at zh_center
     narrator "他合上筆記本時，窗外傳來幾聲蟲鳴。"
 
     narrator "那聲音沒有惡意，反而像是在提醒他："
@@ -342,14 +351,14 @@ label chapter_3:
     narrator "半年前的夜晚，比現在更悶熱。"
     narrator "驚蟄坐在小酒館的角落，煙斗裡的火光忽明忽暗。"
 
-    show jingzhe neutral
+    show jingzhe smoking at zh_left
     narrator "那天他沒有特別想喝酒，只是需要一個不會被打擾的地方。"
 
     jingzhe "……"
 
     narrator "杯底見光時，有人坐到了他的對面。"
 
-    show achirichi calm
+    show achirichi calm at zh_right
     achirichi "介意嗎？"
 
     jingzhe "……隨便。"
@@ -374,6 +383,7 @@ label chapter_3:
 
     achirichi "影之魔女是我的老師。"
 
+    show jingzhe wary at zh_left
     jingzhe "……"
 
     narrator "驚蟄沒有抬頭，但手指停在煙斗上。"
@@ -387,6 +397,7 @@ label chapter_3:
     narrator "那句話像提醒，也像確認。"
 
     achirichi "卡片會保護持有它的人。"
+    show achirichi serious at zh_right
 
     jingzhe "怎麼保護？"
 
@@ -399,11 +410,13 @@ label chapter_3:
     achirichi "你不欠她。"
 
     achirichi "她只是想讓你繼續寫。"
+    show jingzhe shocked at zh_left
 
     narrator "那句話落下時，驚蟄的喉嚨動了一下。"
     narrator "他不確定那是不是自己的軟肋。"
 
     jingzhe "我會自己照顧自己。"
+    show jingzhe stern at zh_left
 
     achirichi "我知道。"
 
@@ -438,7 +451,7 @@ label chapter_4:
 
     narrator "月下庄的燈在風裡輕晃，像是有人用指尖撥動。"
 
-    show jingzhe neutral
+    show jingzhe wary at zh_center
     narrator "驚蟄站在門口，煙斗沒有點。"
 
     jingzhe "……"
@@ -454,12 +467,12 @@ label chapter_4:
 
     narrator "泥土被壓得很深，卻沒有腳印留下。"
 
-    show tsuchigumo shadow
+    show tsuchigumo looming at zh_left
     narrator "土蜘蛛貼著林道旁的樹幹移動。"
     narrator "牠巨大得像一座黑丘，枝葉卻沒有因牠的重量發出半點聲響。"
     narrator "只有偶爾垂落的蛛腳，從月光邊緣一閃而過。"
 
-    show jorogumo shadow
+    show jorogumo watchful at zh_right
     narrator "土蜘蛛的身上，站著一名白衣女人。"
     narrator "她的輪廓像披著白無垢的新娘，頭上的棉帽低低壓著，其下透出數點陰森的光。"
     narrator "月光落在她身上時，沒有照出衣縫，只照出一層無聲、且濕冷的白。"
@@ -475,14 +488,15 @@ label chapter_4:
     scene bg inn_hall_evening
     with dissolve
 
-    show hanami smile
+    show hanami concerned at zh_far_left
     hanami "你今天有點安靜喔？"
 
+    show jingzhe wary at zh_center
     jingzhe "……嗯。"
 
     narrator "花見把餐盤放下，順手替他把燈拉亮了一點。"
 
-    show yumemi shy
+    show yumemi worried at zh_far_right
     yumemi "是不是睡不好？"
 
     jingzhe "沒有。只是……"
@@ -505,7 +519,7 @@ label chapter_4:
 
     narrator "不是故障，像是被什麼不小心遮住。"
 
-    show jingzhe neutral
+    show jingzhe wary at zh_center
     narrator "驚蟄走過時，指尖掠過牆面。"
 
     narrator "牆上有一點極細的白線，像蜘蛛絲，又像劃痕。"
@@ -537,16 +551,17 @@ label chapter_5:
 
     narrator "像是有什麼看不見的絲，繞在走廊與房門之間。"
 
-    show jingzhe neutral
+    show jingzhe wary at zh_center
     narrator "驚蟄沒說出口，但他知道，這不是天氣的問題。"
     narrator "連風都像被誰收窄了。"
 
     scene bg inn_hall_evening
     with dissolve
 
-    show hanami smile
+    show hanami possessed_sweet at zh_left
     hanami "你今天也在寫？"
 
+    show jingzhe wary at zh_right
     jingzhe "……嗯。"
 
     narrator "花見的聲音依舊明亮，但那份熱度裡，多了一點刻意。"
@@ -560,6 +575,7 @@ label chapter_5:
     jingzhe "……有嗎。"
 
     narrator "花見低下身，手指落在他肩上。"
+    show hanami possessed_blank at zh_left
 
     narrator "力道不重，卻像在確認他會不會照著她要的方向轉頭。"
 
@@ -571,6 +587,7 @@ label chapter_5:
     narrator "笑得太甜，甜得像不是她。"
 
     jingzhe "……妳還好嗎？"
+    show jingzhe wary at zh_right
 
     hanami "當然好呀。"
 
@@ -592,10 +609,11 @@ label chapter_5:
 
     narrator "夜裡，花見敲了他的門。"
 
-    show hanami smile
+    show hanami possessed_sweet at zh_left
     hanami "可以進來嗎？"
 
     jingzhe "……進來吧。"
+    show jingzhe wary at zh_right
 
     narrator "她走進來時沒有先說話。"
 
@@ -604,6 +622,7 @@ label chapter_5:
     narrator "那個動作讓房裡忽然太安靜了。"
 
     narrator "她的步伐很輕，眼神卻像被線牽著。"
+    show hanami possessed_blank at zh_left
 
     narrator "她一路走到他面前，膝蓋幾乎碰上他的腿。"
 
@@ -616,7 +635,7 @@ label chapter_5:
     narrator "另一隻手卻沒有停在他身上。"
     narrator "而是沿著桌邊，往那個黑色小盒子的方向慢慢探去。"
 
-    show jingzhe neutral
+    show jingzhe stern at zh_right
     narrator "那一瞬間，他很想伸手把她拉回來。"
 
     narrator "但他知道，碰觸太近只會讓對方陷得更深。"
@@ -628,6 +647,7 @@ label chapter_5:
     narrator "像潮濕角落裡，很多小東西同時醒著。"
 
     hanami "你不喜歡我碰你嗎？"
+    show hanami possessed_sweet at zh_left
 
     narrator "她抬眼看他。"
 
@@ -638,7 +658,7 @@ label chapter_5:
 
     narrator "她真正想碰的，不是他。"
 
-    show jingzhe neutral
+    show jingzhe battle at zh_right
     narrator "他把煙斗放到唇邊，沒有點燃。"
 
     narrator "只用指尖摩挲著煙草。"
@@ -662,7 +682,7 @@ label chapter_5:
 
     narrator "像有什麼小東西從梁上掉下去。"
 
-    show hanami sad
+    show hanami shaken at zh_left
     hanami "……我剛剛在做什麼？"
 
     narrator "她的眼神清了一點，像是終於從深水裡浮上來。"
@@ -681,9 +701,10 @@ label chapter_5:
 
     narrator "隔天，輪到夢見變得不自然。"
 
-    show yumemi shy
+    show yumemi possessed_blank at zh_left
     yumemi "我……可以幫你整理行李嗎？"
 
+    show jingzhe wary at zh_right
     jingzhe "不用。"
 
     narrator "夢見點頭，卻沒有退開。"
@@ -712,7 +733,7 @@ label chapter_5:
     narrator "這一次，不是試探。"
     narrator "而是直接去拿。"
 
-    show jingzhe neutral
+    show jingzhe stern at zh_right
     narrator "驚蟄伸手按住了她的手腕。"
 
     jingzhe "……那不是妳的。"
@@ -725,7 +746,7 @@ label chapter_5:
 
     narrator "肩膀只輕輕碰到他的手臂，就停住了。"
 
-    show yumemi sad
+    show yumemi possessed_blank at zh_left
     yumemi "那你……抱我一下，好不好？"
 
     narrator "她的聲音發顫。"
@@ -744,10 +765,11 @@ label chapter_5:
     narrator "那股細尖的味道被壓下去。"
 
     narrator "夢見像被人從背後剪斷了線，整個人晃了一下。"
+    show yumemi frightened at zh_left
 
     narrator "她收回手，指尖發抖，連呼吸都亂了。"
 
-    show yumemi sad
+    show yumemi ashamed at zh_left
     yumemi "我不知道……為什麼會想拿。"
 
     narrator "她的聲音帶著恐懼，也帶著困惑。"
@@ -777,7 +799,7 @@ label chapter_5:
 
     narrator "因為他知道，對方已經開始急了。"
 
-    show jorogumo shadow
+    show jorogumo watchful at zh_center
     narrator "屋簷之外，白影停在月光照不到的地方。"
 
     narrator "棉帽低低垂著，其下數點陰森的光微微轉動。"
@@ -797,7 +819,7 @@ label chapter_5:
 
     narrator "腦中反覆的是同一個問題：他到底能保住多少人，又會失去誰。"
 
-    show jingzhe neutral
+    show jingzhe wary at zh_center
     narrator "他沒有追問。"
 
     narrator "但他知道，有人正在用她們接近他。"
@@ -817,7 +839,7 @@ label chapter_6:
 
     narrator "像是雨季尚未來臨，卻已經開始預告。"
 
-    show jingzhe neutral
+    show jingzhe stern at zh_center
     narrator "驚蟄站在後院，指尖捏著一撮未點燃的香。"
 
     jingzhe "……"
@@ -829,12 +851,13 @@ label chapter_6:
     scene bg inn_kitchen
     with dissolve
 
-    show hanami smile
+    show hanami concerned at zh_far_left
     hanami "你今天看起來精神多了。"
 
+    show jingzhe neutral at zh_center
     jingzhe "嗯。"
 
-    show yumemi shy
+    show yumemi worried at zh_far_right
     yumemi "還有哪裡不舒服嗎？"
 
     jingzhe "沒有。"
@@ -850,7 +873,7 @@ label chapter_6:
 
     narrator "灰裡混著極細的殼，像是小蜘蛛的遺骸。"
 
-    show jingzhe neutral
+    show jingzhe stern at zh_center
     narrator "他沒有驚動別人，只是把灰掃進掌心。"
 
     narrator "那一刻，他明白了。"
@@ -870,7 +893,7 @@ label chapter_6:
 
     narrator "他把幾條路線畫得很慢。"
 
-    show jingzhe neutral
+    show jingzhe pensive at zh_center
     narrator "那不是猶豫，而是他在逼自己確定。"
 
     narrator "每一條線，都像在計算他可能失去的人。"
@@ -882,9 +905,10 @@ label chapter_6:
     scene bg inn_hall_evening
     with dissolve
 
-    show hanami smile
+    show hanami concerned at zh_far_left
     hanami "你今天一直在想事情。"
 
+    show jingzhe stern at zh_center
     jingzhe "……有事。"
 
     narrator "他終於開口。"
@@ -897,7 +921,7 @@ label chapter_6:
 
     jingzhe "我不知道名字，但我知道牠們想找我。"
 
-    show yumemi shy
+    show yumemi worried at zh_far_right
     yumemi "那我們怎麼辦？"
 
     narrator "驚蟄看著她們。"
@@ -910,7 +934,7 @@ label chapter_6:
 
     jingzhe "我會阻止牠們。"
 
-    show hanami smile
+    show hanami determined at zh_far_left
     hanami "我跟你去。"
 
     narrator "花見的語氣沒有討論餘地。"
@@ -921,7 +945,7 @@ label chapter_6:
 
     narrator "她轉身回房，取出暮春大姊留下的薙刀。"
 
-    show yumemi sad
+    show yumemi determined at zh_far_right
     yumemi "那……我守著月下庄。"
 
     jingzhe "好。"
@@ -958,14 +982,15 @@ label chapter_7_hanami_1:
 
     narrator "驚蟄從袖中取出那張黑色卡片，交到花見手裡。"
 
+    show jingzhe stern at zh_center
     jingzhe "這是影之魔女的卡片，它會保護你。"
 
-    show hanami smile
+    show hanami concerned at zh_far_left
     hanami "只保護我？"
 
     jingzhe "嗯。"
 
-    show yumemi sad
+    show yumemi worried at zh_far_right
     yumemi "那你呢？"
 
     narrator "驚蟄沒有立刻回答。"
@@ -973,6 +998,7 @@ label chapter_7_hanami_1:
     jingzhe "我會想辦法。"
 
     narrator "花見嘆了口氣，接著把卡片收進衣內，像是收下一種承諾。"
+    show hanami determined at zh_far_left
 
     hanami "我會保管好。"
 
@@ -986,12 +1012,12 @@ label chapter_7_hanami_1:
 
     narrator "林道很黑，只有煙斗的火光在一點一點前行。"
 
-    show jingzhe neutral
+    show jingzhe battle at zh_left
     narrator "他吹起煙草。"
 
     narrator "髮切與大百足在黑暗中竄出，像是應召而來的影。"
 
-    show hanami determined
+    show hanami battle at zh_right
     narrator "花見下意識抬薙刀，眼神一瞬間變冷。"
 
     jingzhe "是同伴。"
@@ -1008,7 +1034,9 @@ label chapter_7_hanami_1:
 
     narrator "風在枯樹間打旋，地面有被翻動過的痕跡。"
 
-    show tsuchigumo shadow
+    show tsuchigumo attack at zh_group_center
+    show jingzhe battle at zh_group_left
+    show hanami battle at zh_group_right
     narrator "土蜘蛛先現身，像一堵牆，從樹影中慢慢逼近。"
 
     narrator "牠每一步都讓地面微震，像在逼近判決。"
@@ -1019,7 +1047,7 @@ label chapter_7_hanami_1:
 
     narrator "大百足自側面猛撞，震得地面一沉。"
 
-    show hanami determined
+    show hanami battle at zh_group_right
     narrator "花見趁空隙切入，薙刀的刃光在牠的節肢上割出白痕。"
 
     narrator "她的呼吸短促，卻不退。"
@@ -1031,7 +1059,7 @@ label chapter_7_hanami_1:
 
     narrator "另一邊，月下庄靜得像沒有住人。"
 
-    show jorogumo shadow
+    show jorogumo searching at zh_center
     narrator "絡新婦無聲地穿過屋簷，在屋內搜尋。"
 
     narrator "抽屜被拉開，又被無聲地推回原處。"
@@ -1053,7 +1081,7 @@ label chapter_7_hanami_1:
     scene bg inn_corridor_night
     with fade
 
-    show yumemi sad
+    show yumemi worried at zh_center
     narrator "夢見提著燈走出房門。"
 
     narrator "她望向走廊盡頭，低聲問了一句。"
@@ -1067,10 +1095,10 @@ label chapter_7_hanami_1:
     scene bg inn_room_night
     with dissolve
 
-    show yumemi sad
+    show yumemi frightened at zh_left
     narrator "夢見還來不及退後，燈火便猛地一晃。"
 
-    show jorogumo shadow
+    show jorogumo attack at zh_right
     narrator "絡新婦將她拖進房裡，手掌覆住她的口鼻。"
 
     narrator "夢見的指尖抓住她的手腕，細微地掙動著。"
@@ -1082,6 +1110,7 @@ label chapter_7_hanami_1:
     narrator "夢見睜大眼睛，艱難地搖了搖頭。"
 
     narrator "那一瞬間，絡新婦眼底最後一點耐性也沉了下去。"
+    show jorogumo enraged at zh_right
 
     narrator "她不是來空手而回的。"
 
@@ -1104,7 +1133,7 @@ label chapter_7_hanami_1:
 
     narrator "花見喘著氣，髮絲黏在臉側。"
 
-    show hanami sad
+    show hanami concerned at zh_center
     hanami "回去吧……我很擔心夢見。"
 
     narrator "她的聲音發抖，像是早就知道會出事。"
@@ -1114,7 +1143,9 @@ label chapter_7_hanami_1:
 
     narrator "他們趕回月下庄。"
 
-    show jorogumo shadow
+    show jorogumo attack at zh_group_center
+    show jingzhe battle at zh_group_left
+    show hanami battle at zh_group_right
     narrator "門口的影子還沒散，絡新婦正要退走。"
 
     narrator "花見的動作很大，很急，像把所有痛都甩出去。"
@@ -1134,12 +1165,12 @@ label chapter_7_hanami_1:
 
     narrator "看到的是夢見的身體。"
 
-    show hanami sad
+    show hanami grief at zh_left
     narrator "花見跪在地上，像被抽走了骨頭。"
 
     narrator "她的肩開始發抖，像在用力把聲音吞回去。"
 
-    show jingzhe neutral
+    show jingzhe grief at zh_right
     narrator "驚蟄沒有安慰。"
 
     narrator "他知道，說什麼都沒用。"
@@ -1150,7 +1181,7 @@ label chapter_7_hanami_1:
 
     narrator "他把卡片從花見身上取回。"
 
-    show jingzhe neutral
+    show jingzhe stern at zh_right
     narrator "撕開。"
 
     narrator "風停了一瞬。"
@@ -1169,27 +1200,27 @@ label chapter_7_yumemi_1:
 
     narrator "驚蟄從袖中取出那張黑色卡片，交到夢見手裡。"
 
-    show jingzhe neutral
+    show jingzhe stern at zh_center
     jingzhe "這是影之魔女的卡片，它會保護你。"
 
-    show yumemi shy
+    show yumemi worried at zh_far_right
     yumemi "只保護我……嗎？"
 
     jingzhe "嗯。"
 
-    show hanami smile
+    show hanami concerned at zh_far_left
     hanami "那你呢？"
 
     narrator "驚蟄沒有立刻回答。"
 
     jingzhe "我會想辦法。"
 
-    show yumemi shy
+    show yumemi determined at zh_far_right
     yumemi "我會小心的。"
 
     narrator "她把卡片收進衣內，像是抱著一件不能說的祕密。"
 
-    show jingzhe neutral
+    show jingzhe wary at zh_center
     narrator "驚蟄看著她的手指收緊，又鬆開。"
 
     narrator "那一瞬間，他差點想把卡抽回來。"
@@ -1203,12 +1234,12 @@ label chapter_7_yumemi_1:
 
     narrator "林道很黑，只有煙斗的火光在一點一點前行。"
 
-    show jingzhe neutral
+    show jingzhe battle at zh_left
     narrator "他吹起煙草。"
 
     narrator "髮切與大百足在黑暗中竄出，像是應召而來的影。"
 
-    show hanami determined
+    show hanami battle at zh_right
     narrator "花見下意識抬薙刀，眼神一瞬間變冷。"
 
     jingzhe "自己人。"
@@ -1225,14 +1256,16 @@ label chapter_7_yumemi_1:
 
     narrator "風在枯樹間打旋，地面有被翻動過的痕跡。"
 
-    show tsuchigumo shadow
+    show tsuchigumo attack at zh_group_center
+    show jingzhe battle at zh_group_left
+    show hanami battle at zh_group_right
     narrator "土蜘蛛先現身，像一座移動的山。"
 
     narrator "牠的影子蓋下來時，連空氣都變重。"
 
     narrator "髮切牽住牠的正面，大百足自側面猛撞。"
 
-    show hanami determined
+    show hanami battle at zh_group_right
     narrator "花見握緊薙刀，步伐大開大合。"
 
     narrator "她的攻勢猛烈，卻也留下空隙。"
@@ -1244,12 +1277,12 @@ label chapter_7_yumemi_1:
     scene bg forest_path_night
     with dissolve
 
-    show jorogumo shadow
+    show jorogumo attack at zh_left
     narrator "一抹細影掠過花見的肩。"
 
     narrator "像蜘蛛絲輕輕擦過皮膚，連痛都來得很晚。"
 
-    show hanami sad
+    show hanami injured at zh_right
     narrator "花見的身體晃了一下，像被拉住了線。"
 
     narrator "她咬住一聲喘息，還想把薙刀舉回原位。"
@@ -1277,12 +1310,12 @@ label chapter_7_yumemi_1:
     scene bg forest_path_night
     with dissolve
 
-    show hanami sad
+    show hanami injured at zh_center
     narrator "花見倒下的聲音很輕。"
 
     narrator "輕得像不該發生。"
 
-    show jingzhe neutral
+    show jingzhe grief at zh_right
     narrator "驚蟄回頭的瞬間，胸口像被敲了一下。"
 
     narrator "他蹲下身，手指碰到她的頸側。"
@@ -1311,7 +1344,7 @@ label chapter_7_yumemi_1:
 
     narrator "月下庄的門口亮著燈。"
 
-    show yumemi sad
+    show yumemi grief at zh_center
     narrator "夢見站在門邊，臉上全是雨。"
 
     narrator "她看見驚蟄懷裡的人時，整個人僵住。"
@@ -1329,10 +1362,10 @@ label chapter_7_yumemi_1:
 
     narrator "那一刻，夢見的聲音才真正從喉間掉出來。"
 
-    show yumemi sad
+    show yumemi grief at zh_left
     narrator "她跪下去，像是被抽走了力氣。"
 
-    show jingzhe neutral
+    show jingzhe grief at zh_right
     narrator "驚蟄站在旁邊，手掌還留著她的重量。"
 
     narrator "他想說什麼，卻一句也擠不出來。"
@@ -1374,15 +1407,15 @@ label chapter_7_hanami_2:
 
     narrator "驚蟄從袖中取出那張黑色卡片，交到花見手裡。"
 
-    show jingzhe neutral
+    show jingzhe wary at zh_center
     jingzhe "這是影之魔女的卡片，它會保護你。"
 
-    show hanami smile
+    show hanami concerned at zh_far_left
     hanami "只保護我？"
 
     jingzhe "嗯。"
 
-    show yumemi sad
+    show yumemi worried at zh_far_right
     yumemi "那你呢？"
 
     narrator "驚蟄沒有立刻回答。"
@@ -1397,7 +1430,7 @@ label chapter_7_hanami_2:
 
     hanami "我會保管好。"
 
-    show jingzhe neutral
+    show jingzhe grief at zh_center
     narrator "驚蟄盯著那個動作。"
 
     narrator "他說不出原因。"
@@ -1421,12 +1454,12 @@ label chapter_7_hanami_2:
 
     narrator "林道很黑，只有煙斗的火光在一點一點前行。"
 
-    show jingzhe neutral
+    show jingzhe battle at zh_left
     narrator "他吹起煙草。"
 
     narrator "髮切與大百足在黑暗中竄出，像是應召而來的影。"
 
-    show hanami determined
+    show hanami battle at zh_right
     narrator "花見下意識抬薙刀，眼神一瞬間變冷。"
 
     jingzhe "是同伴。"
@@ -1443,7 +1476,9 @@ label chapter_7_hanami_2:
 
     narrator "風在枯樹間打旋，地面有被翻動過的痕跡。"
 
-    show tsuchigumo shadow
+    show tsuchigumo attack at zh_group_center
+    show jingzhe battle at zh_group_left
+    show hanami battle at zh_group_right
     narrator "土蜘蛛先現身，像一堵牆，從樹影中慢慢逼近。"
 
     narrator "牠每一步都讓地面微震，像在逼近判決。"
@@ -1454,7 +1489,7 @@ label chapter_7_hanami_2:
 
     narrator "大百足自側面猛撞，震得地面一沉。"
 
-    show hanami determined
+    show hanami battle at zh_group_right
     narrator "花見趁空隙切入，薙刀的刃光在牠的節肢上割出白痕。"
 
     narrator "驚蟄下意識往前一步，像要把她往後推。"
@@ -1474,7 +1509,7 @@ label chapter_7_hanami_2:
 
     narrator "另一邊，月下庄靜得像沒有住人。"
 
-    show jorogumo shadow
+    show jorogumo searching at zh_center
     narrator "絡新婦無聲地穿過屋簷，在屋內搜尋。"
 
     narrator "抽屜被拉開，又被無聲地推回原處。"
@@ -1496,7 +1531,7 @@ label chapter_7_hanami_2:
     scene bg inn_corridor_night
     with fade
 
-    show yumemi sad
+    show yumemi worried at zh_center
     narrator "夢見提著燈走出房門。"
 
     narrator "她望向走廊盡頭，低聲問了一句。"
@@ -1510,10 +1545,10 @@ label chapter_7_hanami_2:
     scene bg inn_room_night
     with dissolve
 
-    show yumemi sad
+    show yumemi frightened at zh_left
     narrator "夢見還來不及退後，燈火便猛地一晃。"
 
-    show jorogumo shadow
+    show jorogumo attack at zh_right
     narrator "絡新婦將她拖進房裡，手掌覆住她的口鼻。"
 
     narrator "夢見的指尖抓住她的手腕，細微地掙動著。"
@@ -1525,6 +1560,7 @@ label chapter_7_hanami_2:
     narrator "夢見睜大眼睛，艱難地搖了搖頭。"
 
     narrator "那一瞬間，絡新婦眼底最後一點耐性也沉了下去。"
+    show jorogumo enraged at zh_right
 
     narrator "她不是來空手而回的。"
 
@@ -1547,7 +1583,7 @@ label chapter_7_hanami_2:
 
     narrator "花見喘著氣，髮絲黏在臉側。"
 
-    show hanami sad
+    show hanami concerned at zh_center
     hanami "回去吧……我很擔心夢見。"
 
     narrator "她的聲音發抖，像是早就知道會出事。"
@@ -1559,7 +1595,9 @@ label chapter_7_hanami_2:
 
     narrator "他們趕回月下庄。"
 
-    show jorogumo shadow
+    show jorogumo attack at zh_group_center
+    show jingzhe battle at zh_group_left
+    show hanami battle at zh_group_right
     narrator "門口的影子還沒散，絡新婦正要退走。"
 
     narrator "驚蟄甚至沒有讓花見先動。"
@@ -1587,12 +1625,12 @@ label chapter_7_hanami_2:
 
     narrator "看到的是夢見的身體。"
 
-    show hanami sad
+    show hanami grief at zh_left
     narrator "花見跪在地上，像被抽走了骨頭。"
 
     narrator "她的肩開始發抖，像在用力把聲音吞回去。"
 
-    show jingzhe neutral
+    show jingzhe grief at zh_right
     narrator "驚蟄伸手去扶她，手卻在半空停住。"
 
     narrator "他忽然想起自己曾經抱著一個人走過雨。"
@@ -1609,7 +1647,7 @@ label chapter_7_hanami_2:
 
     narrator "他把卡片從花見身上取回。"
 
-    show jingzhe neutral
+    show jingzhe stern at zh_right
     narrator "撕開。"
 
     narrator "風停了一瞬。"
@@ -1627,15 +1665,15 @@ label chapter_7_yumemi_2:
 
     narrator "驚蟄從袖中取出那張黑色卡片，交到夢見手裡。"
 
-    show jingzhe neutral
+    show jingzhe wary at zh_center
     jingzhe "這是影之魔女的卡片，它會保護你。"
 
-    show yumemi shy
+    show yumemi worried at zh_far_right
     yumemi "只保護我……嗎？"
 
     jingzhe "嗯。"
 
-    show hanami smile
+    show hanami concerned at zh_far_left
     hanami "那你呢？"
 
     narrator "驚蟄沒有立刻回答。"
@@ -1644,12 +1682,12 @@ label chapter_7_yumemi_2:
 
     jingzhe "我會想辦法。"
 
-    show yumemi shy
+    show yumemi determined at zh_far_right
     yumemi "我會小心的。"
 
     narrator "她把卡片收進衣內，像是抱著一件不能說的祕密。"
 
-    show jingzhe neutral
+    show jingzhe grief at zh_center
     narrator "驚蟄看著她的手指收緊，又鬆開。"
 
     narrator "像是有一段不屬於此刻的記憶，正隔著薄霧貼在他皮膚上。"
@@ -1669,12 +1707,12 @@ label chapter_7_yumemi_2:
 
     narrator "林道很黑，只有煙斗的火光在一點一點前行。"
 
-    show jingzhe neutral
+    show jingzhe battle at zh_left
     narrator "他吹起煙草。"
 
     narrator "髮切與大百足在黑暗中竄出，像是應召而來的影。"
 
-    show hanami determined
+    show hanami battle at zh_right
     narrator "花見下意識抬薙刀，眼神一瞬間變冷。"
 
     jingzhe "自己人。"
@@ -1691,14 +1729,16 @@ label chapter_7_yumemi_2:
 
     narrator "風在枯樹間打旋，地面有被翻動過的痕跡。"
 
-    show tsuchigumo shadow
+    show tsuchigumo attack at zh_group_center
+    show jingzhe battle at zh_group_left
+    show hanami battle at zh_group_right
     narrator "土蜘蛛先現身，像一座移動的山。"
 
     narrator "牠的影子蓋下來時，連空氣都變重。"
 
     narrator "髮切牽住牠的正面，大百足自側面猛撞。"
 
-    show hanami determined
+    show hanami battle at zh_group_right
     narrator "花見握緊薙刀，步伐大開大合。"
 
     narrator "她的攻勢猛烈，卻也留下空隙。"
@@ -1714,12 +1754,12 @@ label chapter_7_yumemi_2:
     scene bg forest_path_night
     with dissolve
 
-    show jorogumo shadow
+    show jorogumo attack at zh_left
     narrator "一抹細影掠過花見的肩。"
 
     narrator "像蜘蛛絲輕輕擦過皮膚，連痛都來得很晚。"
 
-    show hanami sad
+    show hanami injured at zh_right
     narrator "花見的身體晃了一下，像被拉住了線。"
 
     narrator "她咬住一聲喘息，還想把薙刀舉回原位。"
@@ -1757,10 +1797,10 @@ label chapter_7_yumemi_2:
 
     narrator "但這次，他幾乎是衝過去的。"
 
-    show hanami sad
+    show hanami injured at zh_center
     narrator "花見倒在濕冷的落葉上，薙刀躺在她指尖不遠處。"
 
-    show jingzhe neutral
+    show jingzhe grief at zh_right
     narrator "驚蟄蹲下身，手指碰到她的頸側。"
 
     narrator "那裡很冷。"
@@ -1793,7 +1833,7 @@ label chapter_7_yumemi_2:
 
     narrator "月下庄的門口亮著燈。"
 
-    show yumemi sad
+    show yumemi grief at zh_center
     narrator "夢見站在門邊，像是等了很久。"
 
     narrator "她看見驚蟄懷裡的人時，整個人僵住。"
@@ -1813,10 +1853,10 @@ label chapter_7_yumemi_2:
 
     narrator "那一刻，夢見的聲音才真正從喉間掉出來。"
 
-    show yumemi sad
+    show yumemi grief at zh_left
     narrator "她跪下去，像是被抽走了力氣。"
 
-    show jingzhe neutral
+    show jingzhe grief at zh_right
     narrator "驚蟄站在旁邊，手掌還留著她的重量。"
 
     narrator "他想說『對不起』，卻發不出聲。"
@@ -1850,7 +1890,7 @@ label chapter_8_choice:
 
     narrator "同樣的呼吸聲。"
 
-    show jingzhe neutral
+    show jingzhe grief at zh_center
     narrator "驚蟄站在原地，手裡握著那張全黑的卡片。"
 
     narrator "他沒有立刻看花見，也沒有看夢見。"
@@ -1872,10 +1912,10 @@ label chapter_8_choice:
         "把卡留給自己":
             jump chapter_8_true_end
 label chapter_8_true_end:
-    show hanami smile
+    show hanami concerned at zh_far_left
     hanami "怎麼了？你臉色很差。"
 
-    show yumemi shy
+    show yumemi worried at zh_far_right
     yumemi "驚蟄先生……你還好嗎？"
 
     narrator "驚蟄低頭，看著手裡的卡。"
@@ -1885,11 +1925,12 @@ label chapter_8_true_end:
     narrator "卻像能壓垮一整個三月。"
 
     jingzhe "……這次不選你們。"
+    show jingzhe stern at zh_center
 
-    show hanami surprised
+    show hanami surprised at zh_far_left
     hanami "欸？什麼意思？"
 
-    show yumemi sad
+    show yumemi worried at zh_far_right
     yumemi "是那、那張卡嗎？"
 
     narrator "他把卡收進袖口，像把一把刀藏回鞘裡。"
@@ -1898,10 +1939,10 @@ label chapter_8_true_end:
 
     jingzhe "你們留在月下庄。"
 
-    show hanami determined
+    show hanami determined at zh_far_left
     hanami "不行。我說了我跟你去。"
 
-    show jingzhe neutral
+    show jingzhe stern at zh_center
     narrator "驚蟄的視線終於落到花見身上。"
 
     narrator "他很想說『別逞強』。"
@@ -1916,7 +1957,7 @@ label chapter_8_true_end:
 
     narrator "冷到連自己都覺得像是在推開人。"
 
-    show yumemi sad
+    show yumemi worried at zh_far_right
     yumemi "可是……我們也可以一起……"
 
     jingzhe "不。"
@@ -1931,7 +1972,7 @@ label chapter_8_true_end:
 
     narrator "這一次，他要把結局留在自己身上。"
 
-    show hanami angry
+    show hanami angry at zh_far_left
     hanami "你把我當什麼？"
 
     jingzhe "……我把你當活著的人。"
@@ -1940,7 +1981,7 @@ label chapter_8_true_end:
 
     narrator "她握著薙刀的手緊了一下，又鬆開。"
 
-    show yumemi sad
+    show yumemi determined at zh_far_right
     yumemi "那我做什麼？"
 
     jingzhe "守門。"
@@ -1957,14 +1998,14 @@ label chapter_8_true_end:
 
     narrator "但她們都懂，那句話背後是什麼。"
 
-    show hanami determined
+    show hanami determined at zh_far_left
     hanami "那你呢？"
 
     jingzhe "我去把牠們的月底，提前到今晚。"
 
     narrator "他轉身前停了一下。"
 
-    show jingzhe neutral
+    show jingzhe softened at zh_center
     jingzhe "……我袖口那張卡。"
 
     jingzhe "把卡片給他的人只說過一句：撕開會保護持有它的人。"
@@ -1973,7 +2014,7 @@ label chapter_8_true_end:
 
     jingzhe "但我知道一件事——別碰它。"
 
-    show hanami surprised
+    show hanami surprised at zh_far_left
     hanami "那你為什麼還帶著？"
 
     jingzhe "因為我不想再把命交給它替我選。"
@@ -1989,8 +2030,9 @@ label chapter_8_true_end:
 
     narrator "不是用來召喚，而是用來遮蔽。"
 
-    show jingzhe neutral
+    show jingzhe pensive at zh_center
     narrator "他點燃煙斗。"
+    show jingzhe smoking at zh_center
 
     narrator "這次燃的不是平常那種。"
 
@@ -2010,6 +2052,7 @@ label chapter_8_true_end:
 
     narrator "髮切與大百足在陰影裡醒來。"
 
+    show jingzhe battle at zh_center
     jingzhe "走。"
 
     scene bg forest_path_night
@@ -2026,17 +2069,19 @@ label chapter_8_true_end:
     scene bg forest_clearing_night
     with fade
 
-    show tsuchigumo shadow
+    show tsuchigumo attack at zh_left
     narrator "土蜘蛛先現身。"
 
     narrator "牠的身影像一座移動的丘，沉得讓樹枝都不敢搖。"
 
-    show jorogumo shadow
+    show jorogumo watchful at zh_right
     narrator "絡新婦沒有立刻現形。"
 
     narrator "她藏在更高的地方，像一根看不見的線。"
 
-    show jingzhe neutral
+    show tsuchigumo attack at zh_group_left
+    show jorogumo watchful at zh_group_right
+    show jingzhe battle at zh_group_center
     narrator "驚蟄吐出一口煙。"
 
     narrator "髮切的鐮光先到。"
@@ -2067,7 +2112,7 @@ label chapter_8_true_end:
 
     narrator "髮切忽然一折，像聽見了另一個命令，鐮刃往樹梢一掃。"
 
-    show jorogumo shadow
+    show jorogumo attack at zh_group_right
     narrator "黑影被逼出半寸。"
 
     narrator "絡新婦的身形在月光裡顫了一下。"
@@ -2080,7 +2125,7 @@ label chapter_8_true_end:
 
     narrator "下一瞬，細影已經在他背後。"
 
-    show jingzhe neutral
+    show jingzhe injured at zh_group_center
     narrator "驚蟄的肩一沉。"
 
     narrator "像被絲線套住。"
@@ -2120,6 +2165,7 @@ label chapter_8_true_end:
     narrator "土蜘蛛的嘶聲像碎木。"
 
     narrator "牠倒下時，地面像沉了一口氣。"
+    hide tsuchigumo
 
     narrator "髮切與大百足像還沒盡興，氣息比剛才更兇。"
 
@@ -2139,7 +2185,7 @@ label chapter_8_true_end:
 
     narrator "他轉身，煙斗的火光像一點星。"
 
-    show jorogumo shadow
+    show jorogumo enraged at zh_right
     narrator "絡新婦終於現形。"
 
     narrator "她的指尖像要去拿走他袖口裡的卡。"
@@ -2148,7 +2194,7 @@ label chapter_8_true_end:
 
     narrator "但毒性讓他的身體慢了半拍。"
 
-    show jingzhe neutral
+    show jingzhe injured at zh_center
     narrator "他抬手擋住，卻只來得及擋掉一半。"
 
     narrator "另一半落在他的肋側。"
@@ -2172,6 +2218,7 @@ label chapter_8_true_end:
     narrator "絡新婦倒下時，還在笑。"
 
     narrator "像是在說：你以為這樣就結束了嗎？"
+    hide jorogumo
 
     narrator "驚蟄跪下去。"
 
@@ -2192,16 +2239,17 @@ label chapter_8_true_end:
     scene bg forest_clearing_night
     with dissolve
 
+    show jingzhe injured at zh_center
     narrator "遠處有腳步聲。"
 
     narrator "兩道。"
 
-    show hanami sad
+    show hanami tearful at zh_left
     narrator "花見的聲音先到。"
 
     hanami "驚蟄！"
 
-    show yumemi sad
+    show yumemi tearful at zh_right
     narrator "夢見跟在後面，喘得很急。"
 
     yumemi "你、你怎麼可以一個人……"
@@ -2210,7 +2258,7 @@ label chapter_8_true_end:
 
     narrator "嘴唇卻只吐出一點氣。"
 
-    show hanami sad
+    show hanami tearful at zh_left
     narrator "花見看到他身上的血時，臉色瞬間白了。"
 
     narrator "她伸手去摸他的袖口。"
@@ -2219,7 +2267,7 @@ label chapter_8_true_end:
 
     narrator "她要撕。"
 
-    show jingzhe neutral
+    show jingzhe injured at zh_center
     narrator "驚蟄抓住她的手腕。"
 
     jingzhe "不要。"
@@ -2246,7 +2294,7 @@ label chapter_8_true_end:
 
     narrator "夢見捂住嘴，像怕自己哭出聲就會把他推走。"
 
-    show yumemi sad
+    show yumemi tearful at zh_right
     yumemi "可是我們……"
 
     jingzhe "你們活著。"
@@ -2267,7 +2315,7 @@ label chapter_8_true_end:
 
     narrator "像是被誰抽走。"
 
-    show jingzhe neutral
+    show jingzhe injured at zh_center
     narrator "驚蟄睜開一點眼。"
 
     narrator "黑色的卡片不見了。"
@@ -2279,7 +2327,8 @@ label chapter_8_true_end:
     scene bg forest_clearing_night
     with flash
 
-    show shadow_witch neutral
+    show shadow_witch annoyed at zh_far_left
+    show jingzhe injured at zh_left
     narrator "影之魔女站在那裡。"
 
     narrator "她的披風像夜本身。"
@@ -2302,13 +2351,16 @@ label chapter_8_true_end:
 
     narrator "他的呼吸重新回到胸腔。"
 
-    show hanami surprised
+    show shadow_witch annoyed at zh_quad_far_left
+    show jingzhe injured at zh_quad_left
+    show hanami surprised at zh_quad_right
     hanami "你、你是——"
 
-    show yumemi surprised
+    show yumemi surprised at zh_quad_far_right
     yumemi "影之……魔女……"
 
     shadow_witch "別靠近。"
+    show shadow_witch cold at zh_quad_far_left
 
     narrator "她說得很冷。"
 
@@ -2317,6 +2369,7 @@ label chapter_8_true_end:
     narrator "視線卻落在驚蟄身上。"
 
     shadow_witch "你也真敢。"
+    show shadow_witch annoyed at zh_quad_far_left
 
     jingzhe "……卡片沒有保護我。"
 
@@ -2325,6 +2378,7 @@ label chapter_8_true_end:
     narrator "像抱怨一件日用品壞了。"
 
     shadow_witch "它保護的從來不是肉身。"
+    show shadow_witch concerned at zh_quad_far_left
 
     shadow_witch "是你把命運握回自己手裡的那一刻。"
 
@@ -2349,6 +2403,7 @@ label chapter_8_true_end:
     jingzhe "……我會寫。"
 
     shadow_witch "最好。"
+    show shadow_witch annoyed at zh_quad_far_left
 
     narrator "她轉身，夜色跟著收束。"
 
@@ -2363,17 +2418,18 @@ label chapter_8_true_end:
     scene bg forest_clearing_night
     with dissolve
 
+    show jingzhe injured at zh_center
     narrator "風回來了。"
 
     narrator "雨也回來了。"
 
-    show hanami sad
+    show hanami tearful at zh_left
     narrator "花見的手顫著，終於敢去摸驚蟄的臉。"
 
-    show yumemi sad
+    show yumemi tearful at zh_right
     narrator "夢見也靠近，像怕一眨眼他又會被帶走。"
 
-    show jingzhe neutral
+    show jingzhe softened at zh_center
     narrator "驚蟄吸了一口氣。"
 
     narrator "這一次，他沒有把她們推開。"

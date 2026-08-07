@@ -28,6 +28,44 @@ transform zh_far_right:
     xalign 0.90
     yalign 1.0
 
+# 三人戰鬥／怪物同框使用較寬的舞台。縮小後再分散站位，避免中央角色
+# 把兩側角色整張壓住；這些 transform 是演出排版，不是劇情上的遠近變化。
+transform zh_group_left:
+    xalign 0.04
+    yalign 1.0
+    zoom 0.74
+
+transform zh_group_center:
+    xalign 0.50
+    yalign 1.0
+    zoom 0.78
+
+transform zh_group_right:
+    xalign 0.96
+    yalign 1.0
+    zoom 0.74
+
+# 四人同框再退一級，保留每張臉與主要動作的閱讀空間。
+transform zh_quad_far_left:
+    xalign 0.00
+    yalign 1.0
+    zoom 0.62
+
+transform zh_quad_left:
+    xalign 0.32
+    yalign 1.0
+    zoom 0.66
+
+transform zh_quad_right:
+    xalign 0.68
+    yalign 1.0
+    zoom 0.66
+
+transform zh_quad_far_right:
+    xalign 1.00
+    yalign 1.0
+    zoom 0.62
+
 define flash = Fade(0.05, 0.0, 0.25, color="#FFFFFF")
 
 image bg road_twilight = Solid("#546A7B")
@@ -63,8 +101,9 @@ image jingzhe stern = Transform("images/characters/thigh/jingzhe_stern_3q_thigh_
 image jingzhe battle = Transform("images/characters/thigh/jingzhe_battle_3q_thigh_no_kiseru.png", zoom=0.44)
 image jingzhe shocked = Transform("images/characters/thigh/jingzhe_shocked_3q_thigh_no_kiseru.png", zoom=0.44)
 image jingzhe grief = Transform("images/characters/thigh/jingzhe_grief_3q_thigh_no_kiseru.png", zoom=0.44)
-image jingzhe injured = Transform("images/characters/thigh/jingzhe_true_end_injured_3q_full_no_kiseru.png", zoom=0.44)
-image jingzhe softened = Transform("images/characters/thigh/jingzhe_softened_3q_full_no_kiseru.png", zoom=0.44)
+image jingzhe injured = Transform("images/characters/thigh/jingzhe_true_end_injured_3q_full_no_kiseru.png", zoom=0.48)
+# softened 原圖的頭身尺度比其他驚蟄狀態大約兩成；在定義層校正，避免換圖時突然放大。
+image jingzhe softened = Transform("images/characters/thigh/jingzhe_softened_3q_full_no_kiseru.png", zoom=0.36)
 
 image hanami bright = Transform("images/characters/thigh/hanami_bright_3q_full_unarmed.png", zoom=0.44)
 image hanami curious = Transform("images/characters/thigh/hanami_curious_3q_full_unarmed.png", zoom=0.44)
@@ -94,8 +133,8 @@ image yumemi tearful = Transform("images/characters/thigh/yumemi_true_end_tearfu
 image achirichi calm = Transform("images/characters/thigh/achirichi_first_meeting_calm_3q_full_no_prop.png", zoom=0.44)
 image achirichi serious = Transform("images/characters/thigh/achirichi_serious_3q_full_no_prop.png", zoom=0.44)
 
-image tsuchigumo looming = Transform("images/characters/thigh/tsuchigumo_looming_full_no_prop.png", zoom=0.44)
-image tsuchigumo attack = Transform("images/characters/thigh/tsuchigumo_frontal_lunge_full_battle_no_prop.png", zoom=0.44)
+image tsuchigumo looming = Transform("images/characters/thigh/tsuchigumo_looming_full_no_prop.png", zoom=0.56)
+image tsuchigumo attack = Transform("images/characters/thigh/tsuchigumo_frontal_lunge_full_battle_no_prop.png", zoom=0.56)
 image jorogumo watchful = Transform("images/characters/thigh/jorogumo_watchful_front_full_no_prop.png", zoom=0.44)
 image jorogumo searching = Transform("images/characters/thigh/jorogumo_searching_3q_full_no_prop.png", zoom=0.44)
 image jorogumo attack = Transform("images/characters/thigh/jorogumo_attack_3q_full_no_prop.png", zoom=0.44)
