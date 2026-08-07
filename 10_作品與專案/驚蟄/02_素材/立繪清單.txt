@@ -1,4 +1,4 @@
-《驚蟄》立繪清單｜劇本實際標籤版 rev.3
+《驚蟄》立繪清單｜劇本實際標籤版 rev.4
 
 更新日期：2026-08-07
 資料來源：03_開發/JingZhe/game/script.rpy
@@ -19,7 +19,7 @@
 
 目前導入狀態：
 - 45 個劇本角色狀態目前都已映射至同角色的正式透明立繪；遊戲內不再使用角色色塊 placeholder。
-- 其中 26 個狀態已有專屬正式圖；其餘 19 個尚待製作專屬圖，目前以同角色最接近的既有正式圖暫代。暫代映射不等於該狀態素材已完成。
+- 其中 43 個狀態已有專屬正式圖；僅影之魔女 `cold`、`concerned` 兩個狀態依生前指示保留待製作，目前以同角色既有正式圖暫代。
 - `jingzhe neutral` 使用無菸斗版 `images/characters/jingzhe_daily_calm_3q_thigh_no_kiseru.png`；`jingzhe smoking` 使用持菸斗無煙版 `images/characters/jingzhe_daily_calm_3q_thigh_holding_kiseru_no_smoke.png`。
 - 生前於 2026-08-03 定案：`02_素材/驚蟄/v0.2` 全部不得直接作為遊戲立繪，不論個別檔案是否含透明通道；v0.2 只保留作為表情、服裝與構圖參考，也不得認列為完成狀態。
 
@@ -352,12 +352,12 @@
 【九、正式製作順序】
 ＝＝＝＝＝＝＝＝＝＝
 
-第一批 P0（14 個狀態，其中 13 個尚待製作）：
+第一批 P0（14 個狀態，已完成）：
 - 驚蟄：neutral、smoking、pensive、wary、stern、battle、grief
 - 花見：bright、concerned、determined、battle
 - 夢見：gentle、worried、determined
 
-註：`jingzhe neutral` 已有正式圖，因此實際待製作的 P0 為 13 張／狀態；若以「狀態總數」計算，P0 共 14 個。
+註：P0 需求均已完成專屬正式透明立繪並導入遊戲。
 
 第二批 P1（18 狀態，已於 2026-08-04 完成並導入遊戲）：
 - 驚蟄：softened、injured
@@ -376,14 +376,16 @@ P1 正式素材均為透明背景 PNG，素材庫位於各角色 `v1.0` 資料�
 
 2026-08-07：絡新婦 rev.2 的 `watchful`、`searching`、`attack`、`enraged` 四個劇本狀態已全部完成 v2.0 正式透明立繪並導入遊戲；v1.0 僅保留舊版參考。首張 `watchful` 原圖封存於 `99_封存/2026-08-06_絡新婦v2.0立繪綠幕原圖`，其餘三態原圖封存於 `99_封存/2026-08-07_絡新婦v2.0立繪綠幕原圖`。
 
-第三批 P2（13 狀態）：
+2026-08-07：補齊影之魔女以外的 17 張缺漏專屬立繪（驚蟄 2、花見 7、夢見 6、亞奇里奇 1、土蜘蛛 1），完成透明背景處理、ASCII 遊戲鏡像與 image 定義。綠幕原圖封存於 `99_封存/2026-08-07_缺漏立繪綠幕原圖`。
+
+第三批 P2（13 狀態；11 個已完成，2 個依指示保留）：
 - 驚蟄：faint_smile、shocked
 - 花見：curious、shaken、angry
 - 夢見：shy、surprised、ashamed
 - 亞奇里奇：serious
 - 土蜘蛛：looming
 - 絡新婦：searching
-- 影之魔女：cold、concerned
+- 影之魔女：cold、concerned（本輪排除，尚待專屬立繪）
 
 校正：P0 14 + P1 18 + P2 13 = 45。若上方分組人工調整優先級，必須同步修改此總數與各角色條目。
 
