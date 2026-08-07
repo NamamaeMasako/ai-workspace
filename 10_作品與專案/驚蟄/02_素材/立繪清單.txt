@@ -54,13 +54,14 @@
 - 首次出現：序章 `prologue`，第 26 行。
 - 使用次數：5
 - 優先級：P0
-- 現況：未完成。v0.2 抽菸圖依定案不得使用；現有 v1.0 持菸斗圖明確為「無煙」，不能冒充正在抽菸。
+- 現況：已完成角色底圖，使用 `驚蟄_日常平靜_四分之三側身大腿構圖_持菸斗無煙.png`；依 2026-08-04 定案，煙霧改為日後獨立特效處理，角色立繪一律維持無煙。
 
 3. `jingzhe pensive`
 - 用途：內心獨白、寫作、觀察與沉思。
 - 首次出現：序章 `prologue`，第 34 行。
 - 使用次數：8
 - 優先級：P0
+- 現況：已完成 v1.0 正式圖 `驚蟄_沉思_四分之三側身大腿構圖_無菸斗.png`，並已導入遊戲。
 
 4. `jingzhe faint_smile`
 - 用途：極淡、短暫的笑；表現他少見的柔和反應。
@@ -79,18 +80,21 @@
 - 首次出現：第三章 `chapter_3`，第 386 行。
 - 使用次數：13
 - 優先級：P0
+- 現況：已完成 v1.0 正式圖 `驚蟄_警戒_四分之三側身大腿構圖_無菸斗.png`，並已導入遊戲。
 
 7. `jingzhe stern`
 - 用途：冷硬拒絕、追問、下判斷與保護他人時的強勢狀態。
 - 首次出現：第三章 `chapter_3`，第 419 行。
 - 使用次數：12
 - 優先級：P0
+- 現況：已完成 v1.0 正式圖 `驚蟄_冷硬嚴肅_四分之三側身大腿構圖_無菸斗.png`，並已導入遊戲。
 
 8. `jingzhe battle`
 - 用途：術式發動、正面迎敵與戰鬥保護動作。
 - 首次出現：第五章 `chapter_5`，第 661 行。
 - 使用次數：9
 - 優先級：P0
+- 現況：已完成 v1.0 正式圖 `驚蟄_戰鬥術式_四分之三側身大腿構圖_無菸斗.png`，並已導入遊戲。
 
 9. `jingzhe shocked`
 - 用途：得知與母親、寫作執念相關真相時的罕見錯愕。
@@ -103,6 +107,7 @@
 - 首次出現：第二章 `chapter_2`，第 263 行。
 - 使用次數：10
 - 優先級：P0
+- 現況：已完成 v1.0 正式圖 `驚蟄_悲痛自責_四分之三側身大腿構圖_無菸斗.png`，並已導入遊戲。
 
 11. `jingzhe injured`
 - 用途：真結局戰鬥中受創、瀕危與倒下後的持續負傷狀態。
@@ -355,7 +360,7 @@
 
 註：`jingzhe neutral` 已有正式圖，因此實際待製作的 P0 為 13 張／狀態；若以「狀態總數」計算，P0 共 14 個。
 
-第二批 P1（18 狀態）：
+第二批 P1（18 狀態，已於 2026-08-04 完成並導入遊戲）：
 - 驚蟄：softened、injured
 - 花見：possessed_sweet、possessed_blank、grief、injured、surprised、tearful
 - 夢見：possessed_blank、frightened、grief、tearful
@@ -363,6 +368,12 @@
 - 土蜘蛛：attack
 - 絡新婦：watchful、attack、enraged
 - 影之魔女：annoyed
+
+P1 正式素材均為透明背景 PNG，素材庫位於各角色 `v1.0` 資料夾，並已以 ASCII 鏡像檔名複製到 `03_開發/JingZhe/game/images/characters`，完成對應 image 定義。綠幕原圖統一封存於 `99_封存/2026-08-04_P1立繪綠幕原圖`，不混放在正式素材資料夾：
+- 驚蟄：`jingzhe_softened_3q_full_no_kiseru.png`、`jingzhe_true_end_injured_3q_full_no_kiseru.png`
+- 花見：`hanami_possessed_sweet_3q_full_unarmed.png`、`hanami_possessed_blank_front_full_unarmed.png`、`hanami_grief_3q_full_unarmed.png`、`hanami_battle_injured_3q_full_unarmed.png`、`hanami_revelation_surprised_3q_full_unarmed.png`、`hanami_true_end_tearful_3q_full_unarmed.png`
+- 夢見：`yumemi_possessed_blank_3q_full_unarmed.png`、`yumemi_frightened_3q_full_unarmed.png`、`yumemi_grief_3q_full_unarmed.png`、`yumemi_true_end_tearful_3q_full_unarmed.png`
+- 亞奇里奇、土蜘蛛、絡新婦、影之魔女：`achirichi_first_meeting_calm_3q_full_no_prop.png`、`tsuchigumo_frontal_lunge_full_battle_no_prop.png`、`jorogumo_watchful_3q_full_no_prop.png`、`jorogumo_attack_3q_full_no_prop.png`、`jorogumo_enraged_3q_full_no_prop.png`、`shadow_witch_annoyed_3q_full_holding_card.png`
 
 2026-08-07：絡新婦 rev.2 的 `watchful`、`searching`、`attack`、`enraged` 四個劇本狀態已全部完成 v2.0 正式透明立繪並導入遊戲；v1.0 僅保留舊版參考。首張 `watchful` 原圖封存於 `99_封存/2026-08-06_絡新婦v2.0立繪綠幕原圖`，其餘三態原圖封存於 `99_封存/2026-08-07_絡新婦v2.0立繪綠幕原圖`。
 
