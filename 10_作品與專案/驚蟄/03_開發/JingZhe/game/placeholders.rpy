@@ -135,10 +135,12 @@ image achirichi serious = Transform("images/characters/thigh/achirichi_serious_3
 
 image tsuchigumo looming = Transform("images/characters/thigh/tsuchigumo_looming_full_no_prop.png", zoom=0.56)
 image tsuchigumo attack = Transform("images/characters/thigh/tsuchigumo_frontal_lunge_full_battle_no_prop.png", zoom=0.56)
-image jorogumo watchful = Transform("images/characters/thigh/jorogumo_watchful_front_full_no_prop.png", zoom=0.44)
-image jorogumo searching = Transform("images/characters/thigh/jorogumo_searching_3q_full_no_prop.png", zoom=0.44)
-image jorogumo attack = Transform("images/characters/thigh/jorogumo_attack_3q_full_no_prop.png", zoom=0.44)
-image jorogumo enraged = Transform("images/characters/thigh/jorogumo_enraged_3q_full_no_prop.png", zoom=0.44)
+# 絡新婦以人形頭身對齊一般角色；完整蜘蛛輪廓仍保留在素材內，畫面只允許
+# 大腿以下自然超出底邊，避免為了塞進全身而把人形軀幹縮成遠景。
+image jorogumo watchful = Transform("images/characters/thigh/jorogumo_watchful_front_full_no_prop.png", zoom=0.60, yoffset=190)
+image jorogumo searching = Transform("images/characters/thigh/jorogumo_searching_3q_full_no_prop.png", zoom=0.60, yoffset=190)
+image jorogumo attack = Transform("images/characters/thigh/jorogumo_attack_3q_full_no_prop.png", zoom=0.60, yoffset=190)
+image jorogumo enraged = Transform("images/characters/thigh/jorogumo_enraged_3q_full_no_prop.png", zoom=0.60, yoffset=190)
 image shadow_witch cold = Transform("images/characters/thigh/shadow_witch_annoyed_3q_full_holding_card.png", zoom=0.44)
 image shadow_witch annoyed = Transform("images/characters/thigh/shadow_witch_annoyed_3q_full_holding_card.png", zoom=0.44)
 image shadow_witch concerned = Transform("images/characters/thigh/shadow_witch_annoyed_3q_full_holding_card.png", zoom=0.44)
