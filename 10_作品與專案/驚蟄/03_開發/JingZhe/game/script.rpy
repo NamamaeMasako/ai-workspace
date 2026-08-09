@@ -467,12 +467,12 @@ label chapter_4:
 
     narrator "泥土被壓得很深，卻沒有腳印留下。"
 
-    show tsuchigumo looming at zh_left
+    show tsuchigumo looming at zh_far_left
     narrator "土蜘蛛貼著林道旁的樹幹移動。"
     narrator "牠巨大得像一座黑丘，枝葉卻沒有因牠的重量發出半點聲響。"
     narrator "只有偶爾垂落的蛛腳，從月光邊緣一閃而過。"
 
-    show jorogumo watchful at zh_right
+    show jorogumo watchful at zh_far_right
     narrator "土蜘蛛的身上，站著一名白衣女人。"
     narrator "她的輪廓像披著白無垢的新娘，頭上的棉帽低低壓著，其下透出數點陰森的光。"
     narrator "月光落在她身上時，沒有照出衣縫，只照出一層無聲、且濕冷的白。"
@@ -1034,9 +1034,9 @@ label chapter_7_hanami_1:
 
     narrator "風在枯樹間打旋，地面有被翻動過的痕跡。"
 
-    show tsuchigumo attack at zh_group_center
-    show jingzhe battle at zh_group_left
-    show hanami battle at zh_group_right
+    show tsuchigumo attack at zh_battle_monster_left
+    show jingzhe battle at zh_battle_party_mid
+    show hanami battle at zh_battle_party_right
     narrator "土蜘蛛先現身，像一堵牆，從樹影中慢慢逼近。"
 
     narrator "牠每一步都讓地面微震，像在逼近判決。"
@@ -1047,7 +1047,7 @@ label chapter_7_hanami_1:
 
     narrator "大百足自側面猛撞，震得地面一沉。"
 
-    show hanami battle at zh_group_right
+    show hanami battle at zh_battle_party_right
     narrator "花見趁空隙切入，薙刀的刃光在牠的節肢上割出白痕。"
 
     narrator "她的呼吸短促，卻不退。"
@@ -1143,9 +1143,9 @@ label chapter_7_hanami_1:
 
     narrator "他們趕回月下庄。"
 
-    show jorogumo attack at zh_group_center
-    show jingzhe battle at zh_group_left
-    show hanami battle at zh_group_right
+    show jorogumo attack at zh_battle_monster_left
+    show jingzhe battle at zh_battle_party_mid
+    show hanami battle at zh_battle_party_right
     narrator "門口的影子還沒散，絡新婦正要退走。"
 
     narrator "花見的動作很大，很急，像把所有痛都甩出去。"
@@ -1256,16 +1256,16 @@ label chapter_7_yumemi_1:
 
     narrator "風在枯樹間打旋，地面有被翻動過的痕跡。"
 
-    show tsuchigumo attack at zh_group_center
-    show jingzhe battle at zh_group_left
-    show hanami battle at zh_group_right
+    show tsuchigumo attack at zh_battle_monster_left
+    show jingzhe battle at zh_battle_party_mid
+    show hanami battle at zh_battle_party_right
     narrator "土蜘蛛先現身，像一座移動的山。"
 
     narrator "牠的影子蓋下來時，連空氣都變重。"
 
     narrator "髮切牽住牠的正面，大百足自側面猛撞。"
 
-    show hanami battle at zh_group_right
+    show hanami battle at zh_battle_party_right
     narrator "花見握緊薙刀，步伐大開大合。"
 
     narrator "她的攻勢猛烈，卻也留下空隙。"
@@ -1476,9 +1476,9 @@ label chapter_7_hanami_2:
 
     narrator "風在枯樹間打旋，地面有被翻動過的痕跡。"
 
-    show tsuchigumo attack at zh_group_center
-    show jingzhe battle at zh_group_left
-    show hanami battle at zh_group_right
+    show tsuchigumo attack at zh_battle_monster_left
+    show jingzhe battle at zh_battle_party_mid
+    show hanami battle at zh_battle_party_right
     narrator "土蜘蛛先現身，像一堵牆，從樹影中慢慢逼近。"
 
     narrator "牠每一步都讓地面微震，像在逼近判決。"
@@ -1489,7 +1489,7 @@ label chapter_7_hanami_2:
 
     narrator "大百足自側面猛撞，震得地面一沉。"
 
-    show hanami battle at zh_group_right
+    show hanami battle at zh_battle_party_right
     narrator "花見趁空隙切入，薙刀的刃光在牠的節肢上割出白痕。"
 
     narrator "驚蟄下意識往前一步，像要把她往後推。"
@@ -1595,9 +1595,9 @@ label chapter_7_hanami_2:
 
     narrator "他們趕回月下庄。"
 
-    show jorogumo attack at zh_group_center
-    show jingzhe battle at zh_group_left
-    show hanami battle at zh_group_right
+    show jorogumo attack at zh_battle_monster_left
+    show jingzhe battle at zh_battle_party_mid
+    show hanami battle at zh_battle_party_right
     narrator "門口的影子還沒散，絡新婦正要退走。"
 
     narrator "驚蟄甚至沒有讓花見先動。"
@@ -1729,16 +1729,16 @@ label chapter_7_yumemi_2:
 
     narrator "風在枯樹間打旋，地面有被翻動過的痕跡。"
 
-    show tsuchigumo attack at zh_group_center
-    show jingzhe battle at zh_group_left
-    show hanami battle at zh_group_right
+    show tsuchigumo attack at zh_battle_monster_left
+    show jingzhe battle at zh_battle_party_mid
+    show hanami battle at zh_battle_party_right
     narrator "土蜘蛛先現身，像一座移動的山。"
 
     narrator "牠的影子蓋下來時，連空氣都變重。"
 
     narrator "髮切牽住牠的正面，大百足自側面猛撞。"
 
-    show hanami battle at zh_group_right
+    show hanami battle at zh_battle_party_right
     narrator "花見握緊薙刀，步伐大開大合。"
 
     narrator "她的攻勢猛烈，卻也留下空隙。"
@@ -2079,9 +2079,9 @@ label chapter_8_true_end:
 
     narrator "她藏在更高的地方，像一根看不見的線。"
 
-    show tsuchigumo attack at zh_group_left
-    show jorogumo watchful at zh_group_right
-    show jingzhe battle at zh_group_center
+    show tsuchigumo attack at zh_battle_monster_left
+    show jorogumo watchful at zh_monster_cluster_mid
+    show jingzhe battle at zh_battle_party_right
     narrator "驚蟄吐出一口煙。"
 
     narrator "髮切的鐮光先到。"
@@ -2112,7 +2112,7 @@ label chapter_8_true_end:
 
     narrator "髮切忽然一折，像聽見了另一個命令，鐮刃往樹梢一掃。"
 
-    show jorogumo attack at zh_group_right
+    show jorogumo attack at zh_monster_cluster_mid
     narrator "黑影被逼出半寸。"
 
     narrator "絡新婦的身形在月光裡顫了一下。"
@@ -2125,7 +2125,7 @@ label chapter_8_true_end:
 
     narrator "下一瞬，細影已經在他背後。"
 
-    show jingzhe injured at zh_group_center
+    show jingzhe injured at zh_battle_party_right
     narrator "驚蟄的肩一沉。"
 
     narrator "像被絲線套住。"
@@ -2327,8 +2327,8 @@ label chapter_8_true_end:
     scene bg forest_clearing_night
     with flash
 
-    show shadow_witch annoyed at zh_far_left
-    show jingzhe injured at zh_left
+    show shadow_witch annoyed at zh_shadow_left
+    show jingzhe injured at zh_party_cluster_left
     narrator "影之魔女站在那裡。"
 
     narrator "她的披風像夜本身。"
@@ -2351,16 +2351,16 @@ label chapter_8_true_end:
 
     narrator "他的呼吸重新回到胸腔。"
 
-    show shadow_witch annoyed at zh_quad_far_left
-    show jingzhe injured at zh_quad_left
-    show hanami surprised at zh_quad_right
+    show shadow_witch annoyed at zh_shadow_left
+    show jingzhe injured at zh_party_cluster_left
+    show hanami surprised at zh_party_cluster_center
     hanami "你、你是——"
 
-    show yumemi surprised at zh_quad_far_right
+    show yumemi surprised at zh_party_cluster_right
     yumemi "影之……魔女……"
 
     shadow_witch "別靠近。"
-    show shadow_witch cold at zh_quad_far_left
+    show shadow_witch cold at zh_shadow_left
 
     narrator "她說得很冷。"
 
@@ -2369,7 +2369,7 @@ label chapter_8_true_end:
     narrator "視線卻落在驚蟄身上。"
 
     shadow_witch "你也真敢。"
-    show shadow_witch annoyed at zh_quad_far_left
+    show shadow_witch annoyed at zh_shadow_left
 
     jingzhe "……卡片沒有保護我。"
 
@@ -2378,7 +2378,7 @@ label chapter_8_true_end:
     narrator "像抱怨一件日用品壞了。"
 
     shadow_witch "它保護的從來不是肉身。"
-    show shadow_witch concerned at zh_quad_far_left
+    show shadow_witch concerned at zh_shadow_left
 
     shadow_witch "是你把命運握回自己手裡的那一刻。"
 
@@ -2403,7 +2403,7 @@ label chapter_8_true_end:
     jingzhe "……我會寫。"
 
     shadow_witch "最好。"
-    show shadow_witch annoyed at zh_quad_far_left
+    show shadow_witch annoyed at zh_shadow_left
 
     narrator "她轉身，夜色跟著收束。"
 

@@ -66,6 +66,42 @@ transform zh_quad_far_right:
     yalign 1.0
     zoom 0.62
 
+# 巨型敵人與一般角色同框時，不再把全員一起縮成遠景。敵人可由畫面邊界
+# 自然遮掉外側肢體；驚蟄與花見則集中在另一側，保留正常的人物尺度。
+transform zh_battle_monster_left:
+    xalign 0.00
+    yalign 1.0
+
+transform zh_battle_party_mid:
+    xalign 0.68
+    yalign 1.0
+
+transform zh_battle_party_right:
+    xalign 1.00
+    yalign 1.0
+
+# 雙怪同框時集中在左側，讓右側的驚蟄維持正常比例與清楚輪廓。
+transform zh_monster_cluster_mid:
+    xalign 0.34
+    yalign 1.0
+
+# 影之魔女獨立留在左側；其餘三人以正常大小靠攏在右側。
+transform zh_shadow_left:
+    xalign 0.00
+    yalign 1.0
+
+transform zh_party_cluster_left:
+    xalign 0.64
+    yalign 1.0
+
+transform zh_party_cluster_center:
+    xalign 0.82
+    yalign 1.0
+
+transform zh_party_cluster_right:
+    xalign 1.00
+    yalign 1.0
+
 define flash = Fade(0.05, 0.0, 0.25, color="#FFFFFF")
 
 image bg road_twilight = Solid("#546A7B")
@@ -101,9 +137,8 @@ image jingzhe stern = Transform("images/characters/thigh/jingzhe_stern_3q_thigh_
 image jingzhe battle = Transform("images/characters/thigh/jingzhe_battle_3q_thigh_no_kiseru.png", zoom=0.44)
 image jingzhe shocked = Transform("images/characters/thigh/jingzhe_shocked_3q_thigh_no_kiseru.png", zoom=0.44)
 image jingzhe grief = Transform("images/characters/thigh/jingzhe_grief_3q_thigh_no_kiseru.png", zoom=0.44)
-image jingzhe injured = Transform("images/characters/thigh/jingzhe_true_end_injured_3q_full_no_kiseru.png", zoom=0.48)
-# softened 原圖的頭身尺度比其他驚蟄狀態大約兩成；在定義層校正，避免換圖時突然放大。
-image jingzhe softened = Transform("images/characters/thigh/jingzhe_softened_3q_full_no_kiseru.png", zoom=0.36)
+image jingzhe injured = Transform("images/characters/thigh/jingzhe_true_end_injured_3q_full_no_kiseru.png", zoom=0.44)
+image jingzhe softened = Transform("images/characters/thigh/jingzhe_softened_3q_full_no_kiseru.png", zoom=0.44)
 
 image hanami bright = Transform("images/characters/thigh/hanami_bright_3q_full_unarmed.png", zoom=0.44)
 image hanami curious = Transform("images/characters/thigh/hanami_curious_3q_full_unarmed.png", zoom=0.44)
@@ -133,8 +168,10 @@ image yumemi tearful = Transform("images/characters/thigh/yumemi_true_end_tearfu
 image achirichi calm = Transform("images/characters/thigh/achirichi_first_meeting_calm_3q_full_no_prop.png", zoom=0.44)
 image achirichi serious = Transform("images/characters/thigh/achirichi_serious_3q_full_no_prop.png", zoom=0.44)
 
-image tsuchigumo looming = Transform("images/characters/thigh/tsuchigumo_looming_full_no_prop.png", zoom=0.56)
-image tsuchigumo attack = Transform("images/characters/thigh/tsuchigumo_frontal_lunge_full_battle_no_prop.png", zoom=0.56)
+# 土蜘蛛衍生圖保留完整輪廓；放大後只由遊戲畫面邊界自然遮擋。looming
+# 原圖的可見主體較扁，因此需要較大的顯示倍率；attack 則下移，優先遮腳而非身體。
+image tsuchigumo looming = Transform("images/characters/thigh/tsuchigumo_looming_full_no_prop.png", zoom=0.72)
+image tsuchigumo attack = Transform("images/characters/thigh/tsuchigumo_frontal_lunge_full_battle_no_prop.png", zoom=0.56, yoffset=140)
 # 絡新婦以人形頭身對齊一般角色；完整蜘蛛輪廓仍保留在素材內，畫面只允許
 # 大腿以下自然超出底邊，避免為了塞進全身而把人形軀幹縮成遠景。
 image jorogumo watchful = Transform("images/characters/thigh/jorogumo_watchful_front_full_no_prop.png", zoom=0.60, yoffset=190)
