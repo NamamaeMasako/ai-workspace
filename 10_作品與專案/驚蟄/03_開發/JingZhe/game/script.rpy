@@ -2429,7 +2429,7 @@ label chapter_8_true_end:
     show yumemi tearful at zh_right
     narrator "夢見也靠近，像怕一眨眼他又會被帶走。"
 
-    show jingzhe softened at zh_center
+    show jingzhe softened at zh_final_center
     narrator "驚蟄吸了一口氣。"
 
     narrator "這一次，他沒有把她們推開。"

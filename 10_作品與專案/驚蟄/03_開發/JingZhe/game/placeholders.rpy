@@ -20,6 +20,14 @@ transform zh_center:
     xalign 0.50
     yalign 1.0
 
+# 真結局三人靠攏時，驚蟄 softened 原圖的人物佔比比兩側角色大。
+# 只在該幕縮小並上移，讓三人的頭部尺度與頭頂高度一致。
+transform zh_final_center:
+    xalign 0.50
+    yalign 1.0
+    zoom 0.84
+    yoffset -105
+
 transform zh_right:
     xalign 0.73
     yalign 1.0
