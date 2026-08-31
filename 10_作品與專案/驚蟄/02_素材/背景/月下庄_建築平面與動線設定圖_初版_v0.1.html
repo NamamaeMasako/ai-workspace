@@ -1,0 +1,232 @@
+<!doctype html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>月下庄｜建築平面與動線設定圖 v0.1</title>
+<style>
+  :root {
+    --bg: #f3eee4;
+    --paper: #fffaf0;
+    --ink: #3f3027;
+    --muted: #76685d;
+    --line: #6f5a49;
+    --wood: #ead7b9;
+    --wood-deep: #d7b98d;
+    --outdoor: #dce8cf;
+    --water: #cfe0df;
+    --route: #c8794c;
+    --key: #d99a72;
+    --tentative: #dfe6e7;
+    --white: #fffdf8;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 14px/1.45 "Microsoft JhengHei", "Noto Sans TC", system-ui, sans-serif;
+  }
+  main { max-width: 1600px; margin: 0 auto; padding: 18px; }
+  svg { width: 100%; height: auto; display: block; background: var(--paper); }
+  .title { font-size: 30px; font-weight: 750; fill: var(--ink); letter-spacing: 2px; }
+  .subtitle { font-size: 14px; fill: var(--muted); }
+  .section { font-size: 19px; font-weight: 750; fill: var(--ink); }
+  .room { font-size: 15px; font-weight: 700; fill: var(--ink); }
+  .small { font-size: 12px; fill: var(--muted); }
+  .tiny { font-size: 10px; fill: var(--muted); }
+  .outline { fill: var(--white); stroke: var(--line); stroke-width: 2; }
+  .zone { fill: var(--wood); stroke: var(--line); stroke-width: 1.8; }
+  .zone-deep { fill: var(--wood-deep); stroke: var(--line); stroke-width: 1.8; }
+  .outdoor { fill: var(--outdoor); stroke: var(--line); stroke-width: 1.8; }
+  .water { fill: var(--water); stroke: var(--line); stroke-width: 1.5; }
+  .tentative { fill: var(--tentative); stroke: var(--line); stroke-width: 1.5; stroke-dasharray: 7 5; }
+  .wall { stroke: var(--ink); stroke-width: 4; fill: none; }
+  .thin { stroke: var(--line); stroke-width: 1.3; fill: none; }
+  .route { stroke: var(--route); stroke-width: 4; fill: none; marker-end: url(#arrow); }
+  .route-secondary { stroke: var(--route); stroke-width: 2.5; fill: none; marker-end: url(#arrow); stroke-dasharray: 8 6; }
+  .camera { fill: var(--key); stroke: var(--ink); stroke-width: 1.5; }
+  .camera-text { font-size: 12px; font-weight: 800; fill: var(--ink); text-anchor: middle; dominant-baseline: central; }
+  .callout { fill: #fff7e8; stroke: var(--line); stroke-width: 1.2; }
+  .legend-swatch { stroke: var(--line); stroke-width: 1.2; }
+  .moon { fill: none; stroke: var(--ink); stroke-width: 2; }
+</style>
+<main>
+<svg viewBox="0 0 1600 1050" role="img" aria-labelledby="title desc">
+  <title id="title">月下庄建築平面與動線設定圖初版</title>
+  <desc id="desc">以已定案的外觀與大廳為錨點，呈現一樓、二樓、前院、後院與主要劇情動線。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#c8794c" />
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1600" height="1050" fill="#fffaf0" />
+  <text x="52" y="54" class="title">月下庄｜建築平面與動線設定圖</text>
+  <text x="52" y="82" class="subtitle">初版 v0.1｜非施工比例｜外觀 v1.1、大廳傍晚 v1.0 為既定視覺錨點</text>
+  <g transform="translate(1440 34)">
+    <path class="moon" d="M 26 4 A 22 22 0 1 0 26 48 A 17 17 0 1 1 26 4" />
+    <text x="54" y="31" class="small">場景基準</text>
+  </g>
+
+  <!-- Connectors are drawn before rooms. -->
+  <path class="route" d="M 535 812 L 535 742 L 535 665 L 535 582" />
+  <path class="route-secondary" d="M 535 570 L 430 510 L 430 385 L 520 290" />
+  <path class="route-secondary" d="M 620 520 L 735 430 L 735 300" />
+  <path class="route" d="M 635 510 L 700 510 L 700 392" />
+
+  <!-- 1F and site plan -->
+  <text x="50" y="124" class="section">一樓＋基地配置</text>
+  <rect x="42" y="142" width="950" height="700" rx="12" class="outline" />
+  <text x="76" y="176" class="small">北／後山方向 ↑</text>
+
+  <!-- Rear yard -->
+  <rect x="145" y="190" width="760" height="155" rx="8" class="outdoor" />
+  <text x="170" y="218" class="room">後院｜安靜、花草、水聲</text>
+  <circle cx="330" cy="267" r="47" fill="#b9d0a6" stroke="#6f5a49" stroke-width="1.5" />
+  <circle cx="330" cy="267" r="16" fill="#8f7659" />
+  <text x="286" y="326" class="small">老樹／寫作點</text>
+  <ellipse cx="530" cy="264" rx="65" ry="30" class="water" />
+  <text x="490" y="271" class="small">水鉢／淺池</text>
+  <rect x="650" y="230" width="125" height="72" rx="8" fill="#c6d9b5" stroke="#6f5a49" />
+  <text x="672" y="259" class="small">香草、花圃</text>
+  <text x="675" y="279" class="tiny">夢見整理區</text>
+  <path d="M 805 205 L 872 205 L 872 328 L 830 328" class="thin" stroke-dasharray="5 4" />
+  <text x="796" y="223" class="tiny">側向工作動線</text>
+
+  <!-- Building footprint -->
+  <rect x="180" y="345" width="690" height="360" rx="3" fill="#f7ecda" stroke="#3f3027" stroke-width="5" />
+  <text x="188" y="369" class="tiny">木造二層旅店主體</text>
+
+  <!-- Rear veranda -->
+  <rect x="200" y="345" width="650" height="35" class="zone-deep" />
+  <text x="438" y="368" class="small">後側緣廊／後院出入口</text>
+
+  <!-- Dining -->
+  <rect x="200" y="380" width="210" height="175" class="zone" />
+  <text x="252" y="414" class="room">餐廳／用餐區</text>
+  <text x="236" y="438" class="small">早晨、日常互動</text>
+  <rect x="240" y="458" width="130" height="48" rx="10" fill="#f8e8cb" stroke="#6f5a49" />
+  <line x1="270" y1="450" x2="270" y2="514" class="thin" />
+  <line x1="340" y1="450" x2="340" y2="514" class="thin" />
+
+  <!-- Hall -->
+  <rect x="410" y="380" width="280" height="220" class="zone" />
+  <text x="530" y="418" class="room">大廳</text>
+  <text x="525" y="442" class="small">交流／多人立繪</text>
+  <rect x="590" y="462" width="72" height="120" class="zone-deep" />
+  <text x="601" y="486" class="small">櫃台</text>
+  <path class="moon" d="M 615 514 A 13 13 0 1 0 615 540 A 10 10 0 1 1 615 514" />
+  <circle cx="540" cy="522" r="24" fill="#f8e8cb" stroke="#6f5a49" />
+  <text x="512" y="560" class="tiny">低桌／坐墊</text>
+
+  <!-- Stairs -->
+  <rect x="410" y="380" width="105" height="98" class="zone-deep" />
+  <text x="430" y="405" class="small">樓梯 ↑</text>
+  <line x1="420" y1="420" x2="505" y2="420" class="thin" />
+  <line x1="420" y1="435" x2="505" y2="435" class="thin" />
+  <line x1="420" y1="450" x2="505" y2="450" class="thin" />
+  <line x1="420" y1="465" x2="505" y2="465" class="thin" />
+
+  <!-- Kitchen and utility -->
+  <rect x="690" y="380" width="160" height="135" class="zone" />
+  <text x="748" y="414" class="room">廚房</text>
+  <text x="710" y="438" class="small">餐廳、後院相連</text>
+  <rect x="710" y="458" width="120" height="26" fill="#f8e8cb" stroke="#6f5a49" />
+  <rect x="690" y="515" width="160" height="85" class="tentative" />
+  <text x="722" y="548" class="small">儲藏／備品</text>
+  <text x="711" y="570" class="tiny">暫定：被單、清潔用品</text>
+
+  <!-- Foyer and service -->
+  <rect x="200" y="555" width="210" height="130" class="zone-deep" />
+  <text x="268" y="592" class="room">玄關</text>
+  <text x="226" y="617" class="small">正門、鞋櫃、提燈</text>
+  <rect x="218" y="635" width="174" height="31" fill="#c7a574" stroke="#6f5a49" />
+  <rect x="410" y="600" width="280" height="85" class="zone" />
+  <text x="494" y="635" class="small">大廳前景留白／立繪站位</text>
+  <rect x="690" y="600" width="160" height="85" class="tentative" />
+  <text x="710" y="633" class="small">洗手／浴間</text>
+  <text x="716" y="655" class="tiny">位置與數量暫定</text>
+
+  <!-- Front yard -->
+  <rect x="145" y="705" width="760" height="115" rx="8" class="outdoor" />
+  <text x="170" y="734" class="room">前院｜迎客、燈籠、正門視覺</text>
+  <path d="M 535 820 L 535 705" stroke="#b99d77" stroke-width="36" fill="none" />
+  <path d="M 535 820 L 535 705" stroke="#fff3d6" stroke-width="2" stroke-dasharray="8 6" fill="none" />
+  <rect x="470" y="790" width="130" height="24" class="zone-deep" />
+  <text x="490" y="807" class="tiny">門牌「月下庄」</text>
+  <text x="475" y="839" class="small">街道／正門方向</text>
+
+  <!-- First-floor cameras -->
+  <g><circle cx="535" cy="774" r="16" class="camera" /><text x="535" y="774" class="camera-text">A</text></g>
+  <g><circle cx="470" cy="655" r="16" class="camera" /><text x="470" y="655" class="camera-text">B</text></g>
+  <g><circle cx="304" cy="535" r="16" class="camera" /><text x="304" y="535" class="camera-text">C</text></g>
+  <g><circle cx="814" cy="492" r="16" class="camera" /><text x="814" y="492" class="camera-text">D</text></g>
+  <g><circle cx="420" cy="267" r="16" class="camera" /><text x="420" y="267" class="camera-text">E</text></g>
+
+  <!-- Second floor -->
+  <text x="1035" y="124" class="section">二樓｜長走廊與客房</text>
+  <rect x="1027" y="142" width="531" height="700" rx="12" class="outline" />
+  <text x="1055" y="176" class="small">樓梯延續大廳後側位置；走廊需保有「望向盡頭」的長軸</text>
+
+  <rect x="1070" y="232" width="440" height="480" fill="#f7ecda" stroke="#3f3027" stroke-width="5" />
+  <!-- Corridor first, behind room labels -->
+  <rect x="1090" y="440" width="400" height="92" class="zone-deep" />
+  <text x="1226" y="478" class="room">二樓長走廊</text>
+  <text x="1190" y="503" class="small">提燈、梁影、兩端視線</text>
+  <path class="route" d="M 1435 682 L 1435 530 L 1290 486 L 1135 486" />
+
+  <!-- Upper rooms -->
+  <rect x="1090" y="252" width="126" height="188" class="zone" />
+  <text x="1125" y="285" class="room">夢見房</text>
+  <text x="1110" y="309" class="small">劇情重要</text>
+  <line x1="1153" y1="411" x2="1153" y2="440" stroke="#fffaf0" stroke-width="8" />
+  <rect x="1216" y="252" width="126" height="188" class="zone" />
+  <text x="1251" y="285" class="room">花見房</text>
+  <text x="1237" y="309" class="small">劇情重要</text>
+  <line x1="1279" y1="411" x2="1279" y2="440" stroke="#fffaf0" stroke-width="8" />
+  <rect x="1342" y="252" width="148" height="188" class="tentative" />
+  <text x="1372" y="285" class="small">備用客房</text>
+  <text x="1362" y="309" class="tiny">數量、用途暫定</text>
+  <line x1="1416" y1="411" x2="1416" y2="440" stroke="#fffaf0" stroke-width="8" />
+
+  <!-- Lower rooms -->
+  <rect x="1090" y="532" width="170" height="160" class="zone" />
+  <text x="1130" y="565" class="room">驚蟄房</text>
+  <text x="1112" y="590" class="small">書桌、窗、郵箱暗格</text>
+  <rect x="1110" y="610" width="76" height="25" fill="#f8e8cb" stroke="#6f5a49" />
+  <text x="1124" y="628" class="tiny">書桌</text>
+  <line x1="1175" y1="532" x2="1175" y2="548" stroke="#fffaf0" stroke-width="8" />
+  <rect x="1260" y="532" width="110" height="160" class="tentative" />
+  <text x="1280" y="567" class="small">備品室</text>
+  <text x="1275" y="589" class="tiny">被單／燈油</text>
+  <line x1="1315" y1="532" x2="1315" y2="548" stroke="#fffaf0" stroke-width="8" />
+  <rect x="1370" y="532" width="120" height="160" class="tentative" />
+  <text x="1395" y="567" class="small">浴廁</text>
+  <text x="1384" y="589" class="tiny">位置暫定</text>
+  <line x1="1430" y1="532" x2="1430" y2="548" stroke="#fffaf0" stroke-width="8" />
+
+  <!-- Stairs landing and corridor cameras -->
+  <rect x="1390" y="692" width="100" height="90" class="zone-deep" />
+  <text x="1406" y="722" class="small">樓梯口</text>
+  <line x1="1400" y1="740" x2="1480" y2="740" class="thin" />
+  <line x1="1400" y1="754" x2="1480" y2="754" class="thin" />
+  <line x1="1400" y1="768" x2="1480" y2="768" class="thin" />
+  <g><circle cx="1435" cy="486" r="16" class="camera" /><text x="1435" y="486" class="camera-text">F</text></g>
+  <g><circle cx="1145" cy="650" r="16" class="camera" /><text x="1145" y="650" class="camera-text">G</text></g>
+
+  <!-- Notes and legend -->
+  <rect x="42" y="865" width="1516" height="150" rx="10" class="callout" />
+  <text x="68" y="897" class="section">圖例與製作約束</text>
+  <rect x="70" y="918" width="24" height="18" class="legend-swatch" fill="#ead7b9" />
+  <text x="104" y="933" class="small">劇本已反覆使用／應固定的主要空間</text>
+  <rect x="400" y="918" width="24" height="18" class="legend-swatch" fill="#dfe6e7" stroke-dasharray="5 4" />
+  <text x="434" y="933" class="small">建築機能暫定；可調整但不可阻斷主要動線</text>
+  <rect x="785" y="918" width="24" height="18" class="legend-swatch" fill="#dce8cf" />
+  <text x="819" y="933" class="small">前後院／戶外空間</text>
+  <line x1="1035" y1="927" x2="1105" y2="927" class="route-secondary" />
+  <text x="1120" y="933" class="small">主要與次要行走動線</text>
+
+  <text x="68" y="967" class="small">攝影機：A 外觀正門　B 大廳　C 餐廳　D 廚房　E 後院　F 二樓走廊　G 驚蟄房</text>
+  <text x="68" y="992" class="small">下一步：先確認房間數量、浴廁位置與三人房門相對關係；確認後再依此製作餐廳、廚房、走廊、客房與後院背景。</text>
+  <text x="1442" y="996" class="tiny">v0.1｜2026-08-31</text>
+</svg>
+</main>
