@@ -24,8 +24,13 @@
 - 白天（可選）
 - 傍晚
 - 夜晚
+狀態：傍晚正式／已導入；夜晚待製作；白天可選
+正式素材：02_素材/背景/月下庄外觀_傍晚_v1.1.png
+遊戲素材：03_開發/JingZhe/game/images/backgrounds/inn_exterior_twilight.png
+遊戲引用：bg inn_exterior、bg inn_exterior_twilight
 說明：
 - 本作主場景門面
+- 傍晚正式版的入口招牌刻有「月下庄」，用於建立主場景辨識度
 - 建議優先做出有辨識度的旅店外觀
 
 ＝＝＝＝＝＝＝＝＝＝
