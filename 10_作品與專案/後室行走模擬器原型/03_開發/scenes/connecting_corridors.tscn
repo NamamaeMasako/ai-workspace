@@ -1,0 +1,251 @@
+[gd_scene load_steps=6 format=3]
+
+[sub_resource type="StandardMaterial3D" id="M0"]
+albedo_color = Color(0.72, 0.63, 0.32, 1)
+roughness = 0.7
+
+[sub_resource type="StandardMaterial3D" id="M1"]
+albedo_color = Color(0.79, 0.8, 0.7, 1)
+roughness = 0.7
+
+[sub_resource type="StandardMaterial3D" id="M2"]
+albedo_color = Color(0.88, 0.94, 0.96, 1)
+roughness = 0.7
+
+[sub_resource type="StandardMaterial3D" id="M3"]
+albedo_color = Color(0.96, 0.87, 0.94, 1)
+roughness = 0.7
+
+[sub_resource type="StandardMaterial3D" id="M4"]
+albedo_color = Color(1, 0.78, 0.9, 1)
+roughness = 0.7
+
+[node name="ConnectingCorridors" type="Node3D"]
+
+[node name="Floor0" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(2.2, 0.2, 5.1)
+position = Vector3(7.8, -0.1, -11.55)
+material_override = SubResource("M0")
+
+[node name="Ceiling1" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(2.2, 0.15, 5.1)
+position = Vector3(7.8, 2.975, -11.55)
+material_override = SubResource("M0")
+
+[node name="CorridorLight0" type="OmniLight3D" parent="."]
+position = Vector3(7.800000000000001, 2.55, -11.55)
+light_color = Color(0.72, 0.63, 0.32, 1)
+light_energy = 0.7
+omni_range = 4
+
+[node name="Floor2" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(12.2, 0.2, 2.2)
+position = Vector3(15, -0.1, -13)
+material_override = SubResource("M1")
+
+[node name="Ceiling3" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(12.2, 0.15, 2.2)
+position = Vector3(15, 2.975, -13)
+material_override = SubResource("M1")
+
+[node name="CorridorLight1" type="OmniLight3D" parent="."]
+position = Vector3(15, 2.55, -13)
+light_color = Color(0.79, 0.8, 0.7, 1)
+light_energy = 0.7
+omni_range = 8
+
+[node name="Floor4" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(2.2, 0.2, 1.9)
+position = Vector3(20, -0.1, -10.95)
+material_override = SubResource("M2")
+
+[node name="Ceiling5" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(2.2, 0.15, 1.9)
+position = Vector3(20, 2.975, -10.95)
+material_override = SubResource("M2")
+
+[node name="CorridorLight2" type="OmniLight3D" parent="."]
+position = Vector3(20, 2.55, -10.95)
+light_color = Color(0.88, 0.94, 0.96, 1)
+light_energy = 0.7
+omni_range = 4
+
+[node name="Floor6" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(2.15, 0.2, 1.8)
+position = Vector3(39.075, -0.1, 6.6)
+material_override = SubResource("M2")
+
+[node name="Ceiling7" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(2.15, 0.15, 1.8)
+position = Vector3(39.075, 2.975, 6.6)
+material_override = SubResource("M2")
+
+[node name="CorridorLight3" type="OmniLight3D" parent="."]
+position = Vector3(39.075, 2.55, 6.6)
+light_color = Color(0.88, 0.94, 0.96, 1)
+light_energy = 0.7
+omni_range = 4
+
+[node name="Floor8" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(1.8, 0.2, 2.8)
+position = Vector3(39.25, -0.1, 4.3)
+material_override = SubResource("M3")
+
+[node name="Ceiling9" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(1.8, 0.15, 2.8)
+position = Vector3(39.25, 2.975, 4.3)
+material_override = SubResource("M3")
+
+[node name="CorridorLight4" type="OmniLight3D" parent="."]
+position = Vector3(39.25, 2.55, 4.3)
+light_color = Color(0.96, 0.87, 0.94, 1)
+light_energy = 0.7
+omni_range = 4
+
+[node name="Floor10" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(2.15, 0.2, 1.8)
+position = Vector3(39.425, -0.1, 2)
+material_override = SubResource("M4")
+
+[node name="Ceiling11" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(2.15, 0.15, 1.8)
+position = Vector3(39.425, 2.975, 2)
+material_override = SubResource("M4")
+
+[node name="CorridorLight5" type="OmniLight3D" parent="."]
+position = Vector3(39.425, 2.55, 2)
+light_color = Color(1, 0.78, 0.9, 1)
+light_energy = 0.7
+omni_range = 4
+
+[node name="Wall12" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(0.12, 2.9, 5.1)
+position = Vector3(6.7, 1.45, -11.55)
+material_override = SubResource("M0")
+
+[node name="Wall13" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(0.12, 2.9, 2.9)
+position = Vector3(8.9, 1.45, -10.45)
+material_override = SubResource("M0")
+
+[node name="Wall14" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(2.2, 2.9, 0.12)
+position = Vector3(7.8, 1.45, -14.1)
+material_override = SubResource("M0")
+
+[node name="Wall15" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(0.3, 2.9, 0.12)
+position = Vector3(6.85, 1.45, -9)
+material_override = SubResource("M0")
+
+[node name="Wall16" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(0.3, 2.9, 0.12)
+position = Vector3(8.75, 1.45, -9)
+material_override = SubResource("M0")
+
+[node name="Wall17" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(0.12, 2.9, 2.2)
+position = Vector3(21.1, 1.45, -13)
+material_override = SubResource("M1")
+
+[node name="Wall18" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(12.2, 2.9, 0.12)
+position = Vector3(15, 1.45, -14.1)
+material_override = SubResource("M1")
+
+[node name="Wall19" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(10, 2.9, 0.12)
+position = Vector3(13.9, 1.45, -11.9)
+material_override = SubResource("M1")
+
+[node name="Wall20" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(0.12, 2.9, 1.9)
+position = Vector3(18.9, 1.45, -10.95)
+material_override = SubResource("M2")
+
+[node name="Wall21" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(0.12, 2.9, 1.9)
+position = Vector3(21.1, 1.45, -10.95)
+material_override = SubResource("M2")
+
+[node name="Wall22" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(0.2, 2.9, 0.12)
+position = Vector3(19, 1.45, -10)
+material_override = SubResource("M2")
+
+[node name="Wall23" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(0.2, 2.9, 0.12)
+position = Vector3(21, 1.45, -10)
+material_override = SubResource("M2")
+
+[node name="Wall24" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(0.12, 2.9, 1.8)
+position = Vector3(40.15, 1.45, 6.6)
+material_override = SubResource("M2")
+
+[node name="Wall25" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(0.35, 2.9, 0.12)
+position = Vector3(38.175, 1.45, 5.7)
+material_override = SubResource("M2")
+
+[node name="Wall26" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(2.15, 2.9, 0.12)
+position = Vector3(39.075, 1.45, 7.5)
+material_override = SubResource("M2")
+
+[node name="Wall27" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(0.12, 2.9, 2.8)
+position = Vector3(38.35, 1.45, 4.3)
+material_override = SubResource("M3")
+
+[node name="Wall28" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(0.12, 2.9, 2.8)
+position = Vector3(40.15, 1.45, 4.3)
+material_override = SubResource("M3")
+
+[node name="Wall29" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(0.12, 2.9, 1.8)
+position = Vector3(38.35, 1.45, 2)
+material_override = SubResource("M4")
+
+[node name="Wall30" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(2.15, 2.9, 0.12)
+position = Vector3(39.425, 1.45, 1.1)
+material_override = SubResource("M4")
+
+[node name="Wall31" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(0.35, 2.9, 0.12)
+position = Vector3(40.325, 1.45, 2.9)
+material_override = SubResource("M4")

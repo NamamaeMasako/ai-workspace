@@ -63,7 +63,6 @@ func _use_current_interactable() -> void:
 			message_label.text = "門把沒有反應。你還需要先找到這個區域的通行物。"
 			return
 		message_label.text = target.interact()
-		_go_to_destination(str(target.get("destination")))
 		return
 	message_label.text = target.interact()
 
@@ -78,36 +77,6 @@ func _check_fall_reset() -> void:
 		else:
 			global_position = Vector3(0.0, 1.0, 4.0)
 			velocity = Vector3.ZERO
-
-func _go_to_destination(destination: String) -> void:
-	if destination == "pool":
-		global_position = Vector3(28.0, 1.0, 0.0)
-		rotation = Vector3.ZERO
-		head.rotation = Vector3.ZERO
-		var hum := get_node_or_null("../AmbientHum")
-		if hum and hum.has_method("stop"):
-			hum.stop()
-		var fairy_audio := get_node_or_null("../FairyAmbientLoop")
-		if fairy_audio and fairy_audio.has_method("stop"):
-			fairy_audio.stop()
-		var pool_audio := get_node_or_null("../PoolWaterLoop")
-		if pool_audio and pool_audio.has_method("play"):
-			pool_audio.play()
-	elif destination == "fairy_preview":
-		global_position = Vector3(48.0, 1.0, 0.0)
-		rotation = Vector3.ZERO
-		head.rotation = Vector3.ZERO
-		var hum := get_node_or_null("../AmbientHum")
-		if hum and hum.has_method("stop"):
-			hum.stop()
-		var pool_audio := get_node_or_null("../PoolWaterLoop")
-		if pool_audio and pool_audio.has_method("stop"):
-			pool_audio.stop()
-		var fairy_audio := get_node_or_null("../FairyAmbientLoop")
-		if fairy_audio and fairy_audio.has_method("play"):
-			fairy_audio.stop()
-			fairy_audio.play()
-		message_label.text = "門後是一片粉色的光。你踏進一座蓋在高空上的童話遊樂場。"
 
 func _update_interaction_target() -> void:
 	previous_interactable = current_interactable

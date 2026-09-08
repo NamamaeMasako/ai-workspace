@@ -1,4 +1,4 @@
-[gd_scene load_steps=30 format=3]
+[gd_scene load_steps=37 format=3]
 
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_player"]
 [ext_resource type="Script" path="res://scripts/interactable.gd" id="2_interactable"]
@@ -7,6 +7,22 @@
 [ext_resource type="Script" path="res://scripts/looping_audio.gd" id="5_looping_audio"]
 [ext_resource type="Script" path="res://scripts/spin_marker.gd" id="6_spin"]
 [ext_resource type="AudioStream" path="res://assets/audio/fairy_ambient_loop.wav" id="7_fairy_ambient"]
+
+[ext_resource type="Script" path="res://scripts/hinged_door.gd" id="8_door"]
+[ext_resource type="Script" path="res://scripts/continuous_world.gd" id="9_continuous"]
+[ext_resource type="PackedScene" path="res://scenes/connecting_corridors.tscn" id="10_corridors"]
+
+[sub_resource type="BoxMesh" id="DoorMeshBackrooms"]
+size = Vector3(1.6, 2.3, 0.15)
+
+[sub_resource type="BoxShape3D" id="DoorShapeBackrooms"]
+size = Vector3(1.6, 2.3, 0.15)
+
+[sub_resource type="BoxMesh" id="DoorMeshPool"]
+size = Vector3(0.15, 2.6, 1.8)
+
+[sub_resource type="BoxShape3D" id="DoorShapePool"]
+size = Vector3(0.15, 2.6, 1.8)
 
 [sub_resource type="StandardMaterial3D" id="Mat_wall"]
 albedo_color = Color(0.72, 0.63, 0.32, 1)
@@ -130,6 +146,9 @@ ambient_light_color = Color(0.82, 0.78, 1, 1)
 ambient_light_energy = 0.45
 
 [node name="Main" type="Node3D"]
+script = ExtResource("9_continuous")
+
+[node name="ConnectingCorridors" parent="." instance=ExtResource("10_corridors")]
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Env_main")
@@ -167,8 +186,20 @@ material_override = SubResource("Mat_wall")
 
 [node name="BackWall" type="CSGBox3D" parent="."]
 use_collision = true
-size = Vector3(18, 3, 0.3)
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, -9)
+size = Vector3(16, 3, 0.3)
+position = Vector3(-1, 1.5, -9)
+material_override = SubResource("Mat_wall")
+
+[node name="BackWallDoorRight" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(0.4, 3, 0.3)
+position = Vector3(8.8, 1.5, -9)
+material_override = SubResource("Mat_wall")
+
+[node name="BackWallDoorLintel" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(1.6, 0.7, 0.3)
+position = Vector3(7.8, 2.65, -9)
 material_override = SubResource("Mat_wall")
 
 [node name="FrontWall" type="CSGBox3D" parent="."]
@@ -316,11 +347,17 @@ ring_sides = 4
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 material_override = SubResource("Mat_interact_glow")
 
-[node name="ExitDoor" type="CSGBox3D" parent="."]
-use_collision = true
-size = Vector3(1.6, 2.3, 0.15)
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.8, 1.15, -8.8)
+[node name="ExitDoor" type="AnimatableBody3D" parent="."]
+position = Vector3(7, 0, -8.8)
+
+[node name="Leaf" type="MeshInstance3D" parent="ExitDoor"]
+position = Vector3(0.8, 1.15, 0)
+mesh = SubResource("DoorMeshBackrooms")
 material_override = SubResource("Mat_exit_door")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ExitDoor"]
+position = Vector3(0.8, 1.15, 0)
+shape = SubResource("DoorShapeBackrooms")
 
 [node name="ExitDoorGlowFrameTop" type="CSGBox3D" parent="."]
 size = Vector3(1.95, 0.12, 0.08)
@@ -345,13 +382,15 @@ omni_range = 3.5
 
 [node name="FarDoor" type="Area3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.8, 1.2, -8.45)
-script = ExtResource("2_interactable")
+script = ExtResource("8_door")
 prompt = "藍色出口：按 E 開門"
 message = "圓環嵌進鎖孔。藍光沿著門框蕩開，另一側等著一片潮濕的白色空間。"
 highlight_path = NodePath("../ExitDoorInteractOutline")
 is_exit_door = true
 required_key_id = "backrooms"
 destination = "pool"
+
+leaf_path = NodePath("../ExitDoor")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="FarDoor"]
 shape = SubResource("DoorInteractShape")
@@ -445,8 +484,20 @@ material_override = SubResource("Mat_pool_tile")
 
 [node name="PoolBackWall" type="CSGBox3D" parent="PoolScene"]
 use_collision = true
-size = Vector3(20, 4.2, 0.25)
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28, 2.1, -10)
+size = Vector3(1.1, 4.2, 0.25)
+position = Vector3(18.55, 2.1, -10)
+material_override = SubResource("Mat_pool_tile")
+
+[node name="PoolBackWallRight" type="CSGBox3D" parent="PoolScene"]
+use_collision = true
+size = Vector3(17.1, 4.2, 0.25)
+position = Vector3(29.45, 2.1, -10)
+material_override = SubResource("Mat_pool_tile")
+
+[node name="PoolEntryLintel" type="CSGBox3D" parent="PoolScene"]
+use_collision = true
+size = Vector3(1.8, 1.6, 0.25)
+position = Vector3(20, 3.4, -10)
 material_override = SubResource("Mat_pool_tile")
 
 [node name="PoolFrontWall" type="CSGBox3D" parent="PoolScene"]
@@ -463,8 +514,20 @@ material_override = SubResource("Mat_pool_tile")
 
 [node name="PoolRightWall" type="CSGBox3D" parent="PoolScene"]
 use_collision = true
-size = Vector3(0.25, 4.2, 20)
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 38, 2.1, 0)
+size = Vector3(0.25, 4.2, 15.7)
+position = Vector3(38, 2.1, -2.15)
+material_override = SubResource("Mat_pool_tile")
+
+[node name="PoolRightWallSouth" type="CSGBox3D" parent="PoolScene"]
+use_collision = true
+size = Vector3(0.25, 4.2, 2.5)
+position = Vector3(38, 2.1, 8.75)
+material_override = SubResource("Mat_pool_tile")
+
+[node name="PoolExitLintel" type="CSGBox3D" parent="PoolScene"]
+use_collision = true
+size = Vector3(0.25, 1.6, 1.8)
+position = Vector3(38, 3.4, 6.6)
 material_override = SubResource("Mat_pool_tile")
 
 [node name="PoolBasin" type="CSGBox3D" parent="PoolScene"]
@@ -550,11 +613,17 @@ sides = 40
 ring_sides = 4
 material_override = SubResource("Mat_interact_glow")
 
-[node name="PoolExitDoor" type="CSGBox3D" parent="PoolScene"]
-use_collision = true
-size = Vector3(0.15, 2.6, 1.8)
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 37.85, 1.3, 6.6)
+[node name="PoolExitDoor" type="AnimatableBody3D" parent="PoolScene"]
+position = Vector3(37.85, 0, 7.5)
+
+[node name="Leaf" type="MeshInstance3D" parent="PoolScene/PoolExitDoor"]
+position = Vector3(0, 1.3, -0.9)
+mesh = SubResource("DoorMeshPool")
 material_override = SubResource("Mat_exit_door")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="PoolScene/PoolExitDoor"]
+position = Vector3(0, 1.3, -0.9)
+shape = SubResource("DoorShapePool")
 
 [node name="PoolExitGlowTop" type="CSGBox3D" parent="PoolScene"]
 size = Vector3(0.08, 0.1, 2.1)
@@ -573,13 +642,16 @@ material_override = SubResource("Mat_exit_glow")
 
 [node name="PoolExit" type="Area3D" parent="PoolScene"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 37.45, 1.25, 6.6)
-script = ExtResource("2_interactable")
+script = ExtResource("8_door")
 prompt = "更衣室門：按 E 開門"
-message = "手環碰上門鎖，水聲被粉色牆壁吞了進去。"
+message = "手環解開門鎖。門扇緩緩打開，轉角後透來柔和的粉色光。"
 highlight_path = NodePath("../PoolExitOutline")
 is_exit_door = true
 required_key_id = "pool"
 destination = "fairy_preview"
+
+leaf_path = NodePath("../PoolExitDoor")
+open_angle_degrees = -90.0
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="PoolScene/PoolExit"]
 shape = SubResource("DoorInteractShape")
@@ -608,7 +680,7 @@ material_override = SubResource("Mat_interact_glow")
 [node name="FairyFloor" type="CSGBox3D" parent="FairyScene"]
 use_collision = true
 size = Vector3(15, 0.25, 15)
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 48, -0.12, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 48, -0.125, 0)
 material_override = SubResource("Mat_fairy_floor")
 
 [node name="FairyBackWall" type="CSGBox3D" parent="FairyScene"]
@@ -619,8 +691,20 @@ material_override = SubResource("Mat_fairy_wall")
 
 [node name="FairyLeftWall" type="CSGBox3D" parent="FairyScene"]
 use_collision = true
-size = Vector3(0.25, 3.2, 15)
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40.5, 1.6, 0)
+size = Vector3(0.25, 3.2, 8.6)
+position = Vector3(40.5, 1.6, -3.2)
+material_override = SubResource("Mat_fairy_wall")
+
+[node name="FairyLeftWallSouth" type="CSGBox3D" parent="FairyScene"]
+use_collision = true
+size = Vector3(0.25, 3.2, 4.6)
+position = Vector3(40.5, 1.6, 5.2)
+material_override = SubResource("Mat_fairy_wall")
+
+[node name="FairyEntryLintel" type="CSGBox3D" parent="FairyScene"]
+use_collision = true
+size = Vector3(0.25, 0.6, 1.8)
+position = Vector3(40.5, 2.9, 2)
 material_override = SubResource("Mat_fairy_wall")
 
 [node name="FairyShortRightWall" type="CSGBox3D" parent="FairyScene"]
