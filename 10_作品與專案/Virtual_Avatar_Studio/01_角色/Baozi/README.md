@@ -1,6 +1,6 @@
 # 包子（Baozi）
 
-包子是 Virtual_Avatar_Studio 的角色，與凜（Rin）分開管理。Codex 角色對話名稱為 `v-skin｜包子（Baozi）`。
+包子是 Virtual_Avatar_Studio 的角色，與凜（Rin）分開管理。Codex 角色對話名稱為 `包子（Baozi）`。
 
 2026-10-06 依使用者指示，從 OpenClaw 本機工作區的外包 Live2D 資料整併至本專案。原資料曾依外包流程分類，此次整理不變更素材的來源、使用權或交付關係；不與其他角色素材混用。
 
