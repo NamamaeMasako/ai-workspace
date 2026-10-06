@@ -1,0 +1,1 @@
+Prototype Live2D layers. 00_base_full_cutout preserves the original approved image; copy layers duplicate movable parts for quick Cubism testing. For production, hidden areas behind eyes/mouth/book should be redrawn as clean base art.

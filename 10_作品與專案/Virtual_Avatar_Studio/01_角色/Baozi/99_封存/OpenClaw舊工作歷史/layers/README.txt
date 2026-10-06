@@ -1,0 +1,1 @@
+Bao Live2D draft layers from image_gen draft. Body layer intentionally has holes where foreground accessories/book/hands were removed; final Cubism-ready art may need redraw of hidden body areas. Closed-eye layers are guide drawings generated from eye positions.

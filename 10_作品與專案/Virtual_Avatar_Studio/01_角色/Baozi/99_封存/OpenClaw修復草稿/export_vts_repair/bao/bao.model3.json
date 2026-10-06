@@ -1,0 +1,11 @@
+﻿{
+    "Version":  3,
+    "FileReferences":  {
+                           "Moc":  "bao.moc3",
+                           "Textures":  [
+                                            "bao.2048/texture_00.png"
+                                        ],
+                           "DisplayInfo":  "bao.cdi3.json"
+                       }
+}
+

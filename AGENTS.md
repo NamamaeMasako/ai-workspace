@@ -119,7 +119,7 @@ AGENTS.md       本規則檔
 ```text
 10_作品與專案\驚蟄
 10_作品與專案\黑貓槍手與小公主魔法師
-10_作品與專案\Live2D_Rin
+10_作品與專案\Virtual_Avatar_Studio
 ```
 
 作品／專案資料夾本身原則上不加編號。  
@@ -139,6 +139,8 @@ AGENTS.md       本規則檔
 
 不是所有專案都必須完整使用上述資料夾；但如果資料開始變多，優先照這套結構整理。  
 若專案使用自訂編號（例如 `Virtual_Avatar_Studio` 的 `04_輸出版本`），必須在該專案的 `AGENTS.md` 內提供與本模板的編號對照，避免 AI 依全域編號慣例放錯位置。
+
+`v-skin` 是 `Virtual_Avatar_Studio` 的對話別名。處理 v-skin、凜（Rin）或包子（Baozi）的虛擬形象任務時，先讀 `10_作品與專案/Virtual_Avatar_Studio/AGENTS.md` 與對應的 `01_角色/<角色名>/README.md`；專案總覽與角色對話應分別對應專案根目錄與角色資料夾。
 
 ### 00_導覽與規則
 

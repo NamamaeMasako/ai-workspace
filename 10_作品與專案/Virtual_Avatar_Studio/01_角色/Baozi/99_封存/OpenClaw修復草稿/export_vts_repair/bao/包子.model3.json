@@ -1,0 +1,10 @@
+﻿{
+    "Version":  3,
+    "FileReferences":  {
+                           "Moc":  "包子.moc3",
+                           "Textures":  [
+                                            "包子.2048/texture_00.png"
+                                        ],
+                           "DisplayInfo":  "包子.cdi3.json"
+                       }
+}
