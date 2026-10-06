@@ -13,7 +13,12 @@ PROJECT_DIR = Path(__file__).resolve().parents[1]
 SOURCE_DIR = PROJECT_DIR / "game" / "images" / "characters"
 OUTPUT_DIR = SOURCE_DIR / "thigh"
 OUTPUT_SIZE = (1024, 1536)
-FULL_OUTLINE_PREFIXES = ("jorogumo_", "tsuchigumo_")
+FULL_OUTLINE_PREFIXES = ("jorogumo_", "tsuchigumo_", "kamikiri_", "omukade_")
+FIXED_CROP_BOXES = {
+    "shadow_witch_annoyed_3q_full_holding_staff.png": (139, 28, 836, 1074),
+    "shadow_witch_cold_3q_full_holding_staff.png": (139, 28, 836, 1074),
+    "shadow_witch_concerned_3q_full_holding_staff.png": (139, 28, 836, 1074),
+}
 
 
 def framing_factor(filename: str) -> float:
@@ -44,6 +49,13 @@ def build_sprite(source_path: Path, output_path: Path) -> tuple[int, int, int, i
     alpha_box = image.getchannel("A").getbbox()
     if alpha_box is None:
         raise ValueError(f"Sprite has no visible pixels: {source_path.name}")
+
+    fixed_crop = FIXED_CROP_BOXES.get(source_path.name)
+    if fixed_crop is not None:
+        framed = image.crop(fixed_crop).resize(OUTPUT_SIZE, Image.Resampling.LANCZOS)
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        framed.save(output_path, optimize=True)
+        return fixed_crop
 
     if source_path.name.startswith(FULL_OUTLINE_PREFIXES):
         framed = contain_full_outline(image)

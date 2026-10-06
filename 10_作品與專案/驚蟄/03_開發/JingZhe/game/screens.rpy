@@ -143,8 +143,12 @@ screen quick_menu():
             yalign 1.0
             textbutton _('返回') action Rollback()
             textbutton _('歷史') action ShowMenu('history')
-            textbutton _('快轉') action Skip() alternate Skip(fast=True, confirm=True)
-            textbutton _('自動') action Preference('auto-forward', 'toggle')
+            textbutton _('自動'):
+                action [
+                    If(preferences.afm_time == 0, SetField(preferences, 'afm_time', 15), NullAction()),
+                    Preference('auto-forward', 'toggle'),
+                ]
+                selected preferences.afm_enable and preferences.afm_time != 0
             textbutton _('存檔') action ShowMenu('save')
             textbutton _('快存') action QuickSave()
             textbutton _('快讀') action QuickLoad()
@@ -409,6 +413,10 @@ screen preferences():
                     bar value Preference('text speed')
                     label _('自動播放速度')
                     bar value Preference('auto-forward time')
+                if config.has_music:
+                    vbox:
+                        label _('音樂音量')
+                        bar value Preference('music volume')
 
 screen history():
     tag menu

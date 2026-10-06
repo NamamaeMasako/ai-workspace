@@ -9,10 +9,25 @@ label before_main_menu:
     return
 
 label start:
+    stop music fadeout 1.0
+
     scene black
     with fade
 
-    centered "《驚蟄》\n全年齡展示版\n\n目前收錄：序章～第六章\nR18 內容暫不收錄。"
+    # 短引：四段各自獨立停留，之後直接進入序章。
+    centered "有些人，總把自己留在最後。"
+
+    scene black
+    with dissolve
+    centered "他們把名字交給承諾，\n把傷口藏進沉默，\n也把唯一能護住自己的東西，遞給更需要的人。"
+
+    scene black
+    with dissolve
+    centered "可若連自己也被遺忘，\n那麼究竟還能守住什麼？"
+
+    scene black
+    with dissolve
+    centered "當影子漫過燈火，\n有人終於明白——\n把自己留下，\n才是所有故事得以迎來黎明的開始。"
 
     jump prologue
 
@@ -73,7 +88,9 @@ label prologue:
 
     jump chapter_1
 label chapter_1:
-    scene bg inn_morning
+    play music "audio/music/bgm_moon_inn_day.ogg" fadein 1.5
+
+    scene bg inn_room_morning
     with dissolve
 
     narrator "清晨的月下庄有一種乾淨的味道。"
@@ -87,6 +104,12 @@ label chapter_1:
     narrator "他坐起身，手摸到床邊的煙斗，卻停了半秒。"
     narrator "這裡的空氣太淡，淡得很適合不去抽。"
 
+    narrator "驚蟄簡單洗漱後，來到一樓的餐廳。"
+
+    scene bg inn_dining
+    with dissolve
+
+    show jingzhe pensive at zh_center
     show hanami bright at zh_far_left
     hanami "早安！今天的早餐有紅玉粥跟醃漬魚，要不要試試看？"
 
@@ -104,19 +127,19 @@ label chapter_1:
 
     jingzhe "所以才一直穿著。"
 
+    show yumemi mild_surprise at zh_far_right
     narrator "夢見怔了一下，像是沒想到他會這樣直接回答。"
-    show yumemi surprised at zh_far_right
 
     jingzhe "謝謝。"
-    show jingzhe softened at zh_center
+    show jingzhe softened at zh_breakfast_center
 
     narrator "夢見的聲音像一點點柔軟的霧，停在每個音節之間。"
 
-    scene bg inn_dining
+    scene bg inn_front_yard
     with dissolve
 
-    narrator "早餐結束後，花見忙著打掃、換被單，夢見去整理後院的花草。"
-    narrator "驚蟄坐在走廊邊，筆記本攤在膝上。"
+    narrator "早餐結束後，花見忙著打掃、換被單，夢見則收拾著早餐後的杯盤。"
+    narrator "驚蟄坐在前院樹下的長椅上，筆記本攤在膝上。"
 
     show jingzhe smoking at zh_center
     narrator "他沒有立刻寫字，只是讓煙斗的火慢慢燒著。"
@@ -140,14 +163,14 @@ label chapter_1:
     jingzhe "不一定是我。"
 
     narrator "他不太喜歡被認出來。"
-    narrator "但花見沒有追問，只是把抹布搭在肩上，靠著欄杆看他。"
+    narrator "但花見沒有追問，只是把抹布搭在肩上，站到樹蔭下看他。"
 
     hanami "反正你喜歡這裡就好。住久一點也可以。"
 
     narrator "她說這句話時，像邀請，也像通知。"
 
     show yumemi gentle at zh_far_right
-    narrator "夢見端著洗好的杯子路過，視線落在他的筆記本上。"
+    narrator "夢見端著洗好的杯子從廊下經過，視線落在他的筆記本上。"
 
     yumemi "……如果你需要安靜的地方，後院有一棵老樹。坐在那裡很好寫東西。"
 
@@ -177,6 +200,8 @@ label chapter_1:
     show hanami bright at zh_left
     hanami "哎呀，你在這裡。"
 
+    show event wrapped_naginata
+    with dissolve
     narrator "花見帶著一把長形的包布，像是習慣性背著。"
 
     jingzhe "那是？"
@@ -187,6 +212,8 @@ label chapter_1:
 
     hanami "會一點。"
 
+    hide event wrapped_naginata
+    with dissolve
     narrator "她說『一點』時，眼睛裡有那種很乾脆的自信。"
     narrator "像是承認自己會輸，卻不會怕。"
     show hanami determined at zh_left
@@ -194,13 +221,17 @@ label chapter_1:
     narrator "花見低頭擦過刀柄，指腹在舊傷似的刻痕上停了一下。"
     show hanami concerned at zh_left
 
+    show hanami proud at zh_left
     hanami "春姊很厲害，以前我總覺得，只要有危險，春姊都會保護我們。"
 
+    show hanami concerned at zh_left
     hanami "後來春姊去了北方才發現，不是每次都能躲在春姊後面。"
 
     jingzhe "……所以妳才練？"
 
     hanami "嗯，春姊很會教呢。這樣至少真的有事的時候，我想讓自己能夠往前站。"
+
+    play music "audio/music/bgm_moon_inn_night.ogg" loop fadeout 1.5 fadein 1.5
 
     scene bg inn_hall_evening
     with dissolve
@@ -272,6 +303,9 @@ label chapter_2:
     scene bg inn_room_late
     with fade
 
+    show event magic_mailbox
+    with dissolve
+
     narrator "桌上有一個黑色的小盒子。"
 
     narrator "影之魔女送的魔法郵箱。"
@@ -285,6 +319,9 @@ label chapter_2:
     narrator "他不需要去找她，也不用親眼承受那種討厭。"
 
     narrator "這樣很好。"
+
+    scene bg inn_room_late
+    with dissolve
 
     show jingzhe pensive at zh_center
     narrator "他把今天寫好的一頁紙折起，放進郵箱。"
@@ -318,6 +355,8 @@ label chapter_2:
 
     narrator "此時門外傳來很輕的腳步聲。"
 
+    show jingzhe pensive at zh_right
+    show yumemi gentle at zh_left
     yumemi "我放一壺茶在門邊。"
 
     jingzhe "……不用特地沏茶的。"
@@ -345,6 +384,8 @@ label chapter_2:
 
     jump chapter_3
 label chapter_3:
+    play music "audio/music/bgm_black_card_memory.ogg" loop fadeout 1.5 fadein 1.5
+
     scene bg tavern_night
     with fade
 
@@ -371,6 +412,11 @@ label chapter_3:
 
     achirichi "不是。"
 
+    play music "audio/music/bgm_black_card_memory_variant.ogg" loop fadeout 1.5 fadein 1.5
+
+    show event black_card
+    with dissolve
+
     narrator "他把一張全黑的卡片放在桌上。"
 
     achirichi "我來，是因為你會需要它。"
@@ -383,7 +429,7 @@ label chapter_3:
 
     achirichi "影之魔女是我的老師。"
 
-    show jingzhe wary at zh_left
+    show jingzhe wary_kiseru at zh_left
     jingzhe "……"
 
     narrator "驚蟄沒有抬頭，但手指停在煙斗上。"
@@ -403,6 +449,9 @@ label chapter_3:
 
     achirichi "撕開就知道了。"
 
+    hide event black_card
+    with dissolve
+
     narrator "他沒有伸手去拿。"
 
     jingzhe "我不想欠她人情。"
@@ -410,13 +459,13 @@ label chapter_3:
     achirichi "你不欠她。"
 
     achirichi "她只是想讓你繼續寫。"
-    show jingzhe shocked at zh_left
+    show jingzhe emotional_impact at zh_left
 
     narrator "那句話落下時，驚蟄的喉嚨動了一下。"
     narrator "他不確定那是不是自己的軟肋。"
 
     jingzhe "我會自己照顧自己。"
-    show jingzhe stern at zh_left
+    show jingzhe stern_kiseru at zh_left
 
     achirichi "我知道。"
 
@@ -444,6 +493,8 @@ label chapter_3:
 
     jump chapter_4
 label chapter_4:
+    play music "audio/music/bgm_moon_inn_night.ogg" loop fadeout 1.5 fadein 1.5
+
     scene bg inn_exterior_twilight
     with dissolve
 
@@ -459,6 +510,8 @@ label chapter_4:
     narrator "他聽見了。"
 
     narrator "不是聲音，而是一種被注視的重量。"
+
+    stop music fadeout 1.5
 
     scene bg forest_path
     with fade
@@ -484,6 +537,8 @@ label chapter_4:
     narrator "牠們都知道目的。"
     narrator "那個帶著煙草味的男人。"
     narrator "以及他身上的郵箱。"
+
+    play music "audio/music/bgm_moon_inn_night.ogg" loop fadein 1.5
 
     scene bg inn_hall_evening
     with dissolve
@@ -765,14 +820,15 @@ label chapter_5:
     narrator "那股細尖的味道被壓下去。"
 
     narrator "夢見像被人從背後剪斷了線，整個人晃了一下。"
-    show yumemi frightened at zh_left
+    show yumemi fearful_confused at zh_left
 
     narrator "她收回手，指尖發抖，連呼吸都亂了。"
 
-    show yumemi ashamed at zh_left
     yumemi "我不知道……為什麼會想拿。"
 
     narrator "她的聲音帶著恐懼，也帶著困惑。"
+
+    show yumemi ashamed at zh_left
 
     narrator "等她意識到自己剛才還說了什麼，耳尖一下紅得發燙。"
 
@@ -798,6 +854,9 @@ label chapter_5:
     narrator "他這次沒有立刻追出去。"
 
     narrator "因為他知道，對方已經開始急了。"
+
+    scene bg inn_exterior_night
+    with dissolve
 
     show jorogumo watchful at zh_center
     narrator "屋簷之外，白影停在月光照不到的地方。"
@@ -832,7 +891,9 @@ label chapter_5:
 
     jump chapter_6
 label chapter_6:
-    scene bg inn_morning
+    play music "audio/music/bgm_moon_inn_day.ogg" loop fadeout 1.5 fadein 1.5
+
+    scene bg inn_backyard
     with dissolve
 
     narrator "清晨的風比前幾天更乾。"
@@ -848,7 +909,7 @@ label chapter_6:
 
     narrator "等下去，就會有人被帶走。"
 
-    scene bg inn_kitchen
+    scene bg inn_dining
     with dissolve
 
     show hanami concerned at zh_far_left
@@ -866,6 +927,8 @@ label chapter_6:
 
     narrator "像是那裡還殘著她不敢再看的東西。"
 
+    stop music fadeout 1.5
+
     scene bg inn_corridor_day
     with dissolve
 
@@ -881,6 +944,8 @@ label chapter_6:
     narrator "控制她們的，不只是人。"
 
     narrator "而他不能再假裝自己能置身事外。"
+
+    play music "audio/music/bgm_moon_inn_night.ogg" loop fadein 1.5
 
     scene bg inn_room_evening
     with dissolve
@@ -960,6 +1025,8 @@ label chapter_6:
 
     narrator "那一刻，他已經選好了路。"
 
+    stop music fadeout 1.5
+
     jump chapter_7_choice_1
 label chapter_7_choice_1:
     $ first_route = None
@@ -1015,9 +1082,10 @@ label chapter_7_hanami_1:
     show jingzhe battle at zh_left
     narrator "他吹起煙草。"
 
+    show cg chapter7_shikigami_summon
+    with dissolve
     narrator "髮切與大百足在黑暗中竄出，像是應召而來的影。"
 
-    show hanami battle at zh_right
     narrator "花見下意識抬薙刀，眼神一瞬間變冷。"
 
     jingzhe "是同伴。"
@@ -1026,7 +1094,7 @@ label chapter_7_hanami_1:
 
     narrator "花見的手稍稍放鬆，但仍保持戒備。"
 
-    narrator "髮切是披著人形的螳螂妖怪，雙手如鐮。"
+    narrator "髮切是披著人形的螳螂妖怪，雙刃如螳螂的捕捉前足般交錯。"
 
     narrator "大百足的殼厚得像甲，衝撞時帶著低沉的震響。"
 
@@ -1034,20 +1102,24 @@ label chapter_7_hanami_1:
 
     narrator "風在枯樹間打旋，地面有被翻動過的痕跡。"
 
+    hide cg
     show tsuchigumo attack at zh_battle_monster_left
-    show jingzhe battle at zh_battle_party_mid
-    show hanami battle at zh_battle_party_right
+    show jingzhe battle at zh_battle_party_jingzhe_small zorder 3
+    show hanami battle_full at zh_battle_hanami_foreground zorder 3
     narrator "土蜘蛛先現身，像一堵牆，從樹影中慢慢逼近。"
 
     narrator "牠每一步都讓地面微震，像在逼近判決。"
 
+    show cg chapter7_tsuchigumo_assault zorder 100
+    with dissolve
+    show kamikiri attack at zh_battle_kamikiri_front zorder 5
     narrator "髮切先衝上去，鐮刃交錯，逼得牠抬頭防守。"
 
     narrator "牠的節肢拍地，揚起一層灰。"
 
+    show omukade ready at zh_battle_omukade_coiled_back zorder 1
     narrator "大百足自側面猛撞，震得地面一沉。"
 
-    show hanami battle at zh_battle_party_right
     narrator "花見趁空隙切入，薙刀的刃光在牠的節肢上割出白痕。"
 
     narrator "她的呼吸短促，卻不退。"
@@ -1237,9 +1309,10 @@ label chapter_7_yumemi_1:
     show jingzhe battle at zh_left
     narrator "他吹起煙草。"
 
+    show cg chapter7_shikigami_summon
+    with dissolve
     narrator "髮切與大百足在黑暗中竄出，像是應召而來的影。"
 
-    show hanami battle at zh_right
     narrator "花見下意識抬薙刀，眼神一瞬間變冷。"
 
     jingzhe "自己人。"
@@ -1248,7 +1321,7 @@ label chapter_7_yumemi_1:
 
     narrator "花見的手稍稍放鬆，但仍保持戒備。"
 
-    narrator "髮切是披著人形的螳螂妖怪，雙手如鐮。"
+    narrator "髮切是披著人形的螳螂妖怪，雙刃如螳螂的捕捉前足般交錯。"
 
     narrator "大百足的殼厚得像甲，衝撞時帶著低沉的震響。"
 
@@ -1256,16 +1329,20 @@ label chapter_7_yumemi_1:
 
     narrator "風在枯樹間打旋，地面有被翻動過的痕跡。"
 
+    hide cg
     show tsuchigumo attack at zh_battle_monster_left
-    show jingzhe battle at zh_battle_party_mid
-    show hanami battle at zh_battle_party_right
+    show jingzhe battle at zh_battle_party_jingzhe_small zorder 3
+    show hanami battle_full at zh_battle_hanami_foreground zorder 3
     narrator "土蜘蛛先現身，像一座移動的山。"
 
     narrator "牠的影子蓋下來時，連空氣都變重。"
 
+    show cg chapter7_tsuchigumo_assault zorder 100
+    with dissolve
+    show omukade ready at zh_battle_omukade_coiled_back zorder 1
+    show kamikiri attack at zh_battle_kamikiri_front zorder 5
     narrator "髮切牽住牠的正面，大百足自側面猛撞。"
 
-    show hanami battle at zh_battle_party_right
     narrator "花見握緊薙刀，步伐大開大合。"
 
     narrator "她的攻勢猛烈，卻也留下空隙。"
@@ -1274,13 +1351,15 @@ label chapter_7_yumemi_1:
 
     narrator "絡新婦就在那道空隙裡出現。"
 
-    scene bg forest_path_night
+    scene cg chapter7_jorogumo_ambush_hanami
     with dissolve
 
-    show jorogumo attack at zh_left
     narrator "一抹細影掠過花見的肩。"
 
     narrator "像蜘蛛絲輕輕擦過皮膚，連痛都來得很晚。"
+
+    scene bg forest_path_night
+    with dissolve
 
     show hanami injured at zh_right
     narrator "花見的身體晃了一下，像被拉住了線。"
@@ -1299,6 +1378,7 @@ label chapter_7_yumemi_1:
 
     jingzhe "……別想走。"
 
+    show kamikiri attack at zh_center
     narrator "髮切像被放出的刀光，追著那道細影竄上去。"
 
     narrator "鐮刃一閃，黑影斷成幾截，落地時只剩一圈散開的絲。"
@@ -1323,6 +1403,8 @@ label chapter_7_yumemi_1:
     narrator "雨水很冷。"
 
     narrator "那裡更冷。"
+
+    show hanami deceased at zh_center
 
     jingzhe "……花見。"
 
@@ -1457,9 +1539,10 @@ label chapter_7_hanami_2:
     show jingzhe battle at zh_left
     narrator "他吹起煙草。"
 
+    show cg chapter7_shikigami_summon
+    with dissolve
     narrator "髮切與大百足在黑暗中竄出，像是應召而來的影。"
 
-    show hanami battle at zh_right
     narrator "花見下意識抬薙刀，眼神一瞬間變冷。"
 
     jingzhe "是同伴。"
@@ -1468,7 +1551,7 @@ label chapter_7_hanami_2:
 
     narrator "花見的手稍稍放鬆，但仍保持戒備。"
 
-    narrator "髮切是披著人形的螳螂妖怪，雙手如鐮。"
+    narrator "髮切是披著人形的螳螂妖怪，雙刃如螳螂的捕捉前足般交錯。"
 
     narrator "大百足的殼厚得像甲，衝撞時帶著低沉的震響。"
 
@@ -1476,20 +1559,24 @@ label chapter_7_hanami_2:
 
     narrator "風在枯樹間打旋，地面有被翻動過的痕跡。"
 
+    hide cg
     show tsuchigumo attack at zh_battle_monster_left
-    show jingzhe battle at zh_battle_party_mid
-    show hanami battle at zh_battle_party_right
+    show jingzhe battle at zh_battle_party_jingzhe_small zorder 3
+    show hanami battle_full at zh_battle_hanami_foreground zorder 3
     narrator "土蜘蛛先現身，像一堵牆，從樹影中慢慢逼近。"
 
     narrator "牠每一步都讓地面微震，像在逼近判決。"
 
+    show cg chapter7_tsuchigumo_assault zorder 100
+    with dissolve
+    show kamikiri attack at zh_battle_kamikiri_front zorder 5
     narrator "髮切先衝上去，鐮刃交錯，逼得牠抬頭防守。"
 
     narrator "牠的節肢拍地，揚起一層灰。"
 
+    show omukade ready at zh_battle_omukade_coiled_back zorder 1
     narrator "大百足自側面猛撞，震得地面一沉。"
 
-    show hanami battle at zh_battle_party_right
     narrator "花見趁空隙切入，薙刀的刃光在牠的節肢上割出白痕。"
 
     narrator "驚蟄下意識往前一步，像要把她往後推。"
@@ -1710,9 +1797,10 @@ label chapter_7_yumemi_2:
     show jingzhe battle at zh_left
     narrator "他吹起煙草。"
 
+    show cg chapter7_shikigami_summon
+    with dissolve
     narrator "髮切與大百足在黑暗中竄出，像是應召而來的影。"
 
-    show hanami battle at zh_right
     narrator "花見下意識抬薙刀，眼神一瞬間變冷。"
 
     jingzhe "自己人。"
@@ -1721,7 +1809,7 @@ label chapter_7_yumemi_2:
 
     narrator "花見的手稍稍放鬆，但仍保持戒備。"
 
-    narrator "髮切是披著人形的螳螂妖怪，雙手如鐮。"
+    narrator "髮切是披著人形的螳螂妖怪，雙刃如螳螂的捕捉前足般交錯。"
 
     narrator "大百足的殼厚得像甲，衝撞時帶著低沉的震響。"
 
@@ -1729,16 +1817,20 @@ label chapter_7_yumemi_2:
 
     narrator "風在枯樹間打旋，地面有被翻動過的痕跡。"
 
+    hide cg
     show tsuchigumo attack at zh_battle_monster_left
-    show jingzhe battle at zh_battle_party_mid
-    show hanami battle at zh_battle_party_right
+    show jingzhe battle at zh_battle_party_jingzhe_small zorder 3
+    show hanami battle_full at zh_battle_hanami_foreground zorder 3
     narrator "土蜘蛛先現身，像一座移動的山。"
 
     narrator "牠的影子蓋下來時，連空氣都變重。"
 
+    show cg chapter7_tsuchigumo_assault zorder 100
+    with dissolve
+    show omukade ready at zh_battle_omukade_coiled_back zorder 1
+    show kamikiri attack at zh_battle_kamikiri_front zorder 5
     narrator "髮切牽住牠的正面，大百足自側面猛撞。"
 
-    show hanami battle at zh_battle_party_right
     narrator "花見握緊薙刀，步伐大開大合。"
 
     narrator "她的攻勢猛烈，卻也留下空隙。"
@@ -1751,13 +1843,15 @@ label chapter_7_yumemi_2:
 
     narrator "絡新婦就在那道空隙裡出現。"
 
-    scene bg forest_path_night
+    scene cg chapter7_jorogumo_ambush_hanami
     with dissolve
 
-    show jorogumo attack at zh_left
     narrator "一抹細影掠過花見的肩。"
 
     narrator "像蜘蛛絲輕輕擦過皮膚，連痛都來得很晚。"
+
+    scene bg forest_path_night
+    with dissolve
 
     show hanami injured at zh_right
     narrator "花見的身體晃了一下，像被拉住了線。"
@@ -1776,6 +1870,7 @@ label chapter_7_yumemi_2:
 
     jingzhe "……別想走。"
 
+    show kamikiri attack at zh_center
     narrator "髮切像被放出的刀光，追著那道細影竄上去。"
 
     narrator "鐮刃一閃，黑影斷成幾截，落地時只剩一圈散開的絲。"
@@ -1804,6 +1899,8 @@ label chapter_7_yumemi_2:
     narrator "驚蟄蹲下身，手指碰到她的頸側。"
 
     narrator "那裡很冷。"
+
+    show hanami deceased at zh_center
 
     jingzhe "花見……"
 
@@ -2005,7 +2102,7 @@ label chapter_8_true_end:
 
     narrator "他轉身前停了一下。"
 
-    show jingzhe softened at zh_center
+    show jingzhe softened_full at zh_final_center_full
     jingzhe "……我袖口那張卡。"
 
     jingzhe "把卡片給他的人只說過一句：撕開會保護持有它的人。"
@@ -2021,14 +2118,10 @@ label chapter_8_true_end:
 
     narrator "他沒有把『也不想再看你們死』說出口。"
 
-    scene bg inn_room_night
+    scene bg forest_path_night
     with fade
 
-    narrator "回到房裡，他把郵箱從暗格取出，又放回去。"
-
-    narrator "他在門上留了淡淡的蟲香。"
-
-    narrator "不是用來召喚，而是用來遮蔽。"
+    narrator "入夜後，驚蟄獨自來到林道。"
 
     show jingzhe pensive at zh_center
     narrator "他點燃煙斗。"
@@ -2050,13 +2143,12 @@ label chapter_8_true_end:
 
     narrator "只是他選擇把那個『慢』留給自己。"
 
-    narrator "髮切與大百足在陰影裡醒來。"
+    show omukade empowered at zh_empowered_omukade_back zorder 1
+    show kamikiri empowered at zh_empowered_kamikiri_front zorder 2
+    show jingzhe battle at zh_empowered_jingzhe_front zorder 3
+    narrator "髮切與大百足在林道兩側的陰影裡醒來。"
 
-    show jingzhe battle at zh_center
     jingzhe "走。"
-
-    scene bg forest_path_night
-    with dissolve
 
     narrator "林道的黑像一盆水。"
 
@@ -2079,10 +2171,13 @@ label chapter_8_true_end:
 
     narrator "她藏在更高的地方，像一根看不見的線。"
 
-    show tsuchigumo attack at zh_battle_monster_left
-    show jorogumo watchful at zh_monster_cluster_mid
-    show jingzhe battle at zh_battle_party_right
+    show tsuchigumo attack at zh_battle_monster_left zorder 0
+    show jorogumo watchful at zh_monster_cluster_mid zorder 0
+    show jingzhe battle at zh_true_battle_jingzhe_right zorder 3
     narrator "驚蟄吐出一口煙。"
+
+    scene cg chapter8_jingzhe_solo_battle
+    with dissolve
 
     narrator "髮切的鐮光先到。"
 
@@ -2092,6 +2187,14 @@ label chapter_8_true_end:
 
     narrator "土蜘蛛迎上來，節肢拍地，震得泥土翻起。"
 
+    scene bg forest_clearing_night
+    with dissolve
+
+    show tsuchigumo attack at zh_battle_monster_left zorder 0
+    show jorogumo watchful at zh_monster_cluster_mid zorder 0
+    show omukade empowered at zh_true_battle_omukade_coiled_back zorder 1
+    show kamikiri empowered_attack at zh_true_battle_kamikiri_attack_right zorder 2
+    show jingzhe battle at zh_true_battle_jingzhe_right zorder 3
     narrator "他不退。"
 
     narrator "因為退一步，後面就會有人死。"
@@ -2112,7 +2215,7 @@ label chapter_8_true_end:
 
     narrator "髮切忽然一折，像聽見了另一個命令，鐮刃往樹梢一掃。"
 
-    show jorogumo attack at zh_monster_cluster_mid
+    show jorogumo attack at zh_monster_cluster_mid zorder 0
     narrator "黑影被逼出半寸。"
 
     narrator "絡新婦的身形在月光裡顫了一下。"
@@ -2125,13 +2228,14 @@ label chapter_8_true_end:
 
     narrator "下一瞬，細影已經在他背後。"
 
-    show jingzhe injured at zh_battle_party_right
+    show jingzhe pressured at zh_true_battle_jingzhe_right zorder 3
     narrator "驚蟄的肩一沉。"
 
     narrator "像被絲線套住。"
 
     narrator "他咬住一口氣，沒讓自己發出聲音。"
 
+    show omukade empowered_charge at zh_true_battle_omukade_back zorder 1
     narrator "大百足猛地回身，把那道影子撞開。"
 
     narrator "他趁空隙把煙吸進肺裡。"
@@ -2158,6 +2262,8 @@ label chapter_8_true_end:
 
     narrator "味道陡然變烈。"
 
+    show omukade empowered_charge at zh_true_battle_omukade_back zorder 1
+    show kamikiri empowered_attack at zh_true_battle_kamikiri_attack_right zorder 2
     narrator "髮切的鐮刃刺入土蜘蛛節肢的縫。"
 
     narrator "大百足用整個身軀壓上去。"
@@ -2167,6 +2273,8 @@ label chapter_8_true_end:
     narrator "牠倒下時，地面像沉了一口氣。"
     hide tsuchigumo
 
+    show omukade empowered at zh_true_battle_omukade_ready_back zorder 1
+    show kamikiri empowered at zh_true_battle_kamikiri_front zorder 2
     narrator "髮切與大百足像還沒盡興，氣息比剛才更兇。"
 
     narrator "代價也同時回到驚蟄身上。"
@@ -2185,7 +2293,9 @@ label chapter_8_true_end:
 
     narrator "他轉身，煙斗的火光像一點星。"
 
-    show jorogumo enraged at zh_right
+    hide kamikiri
+    hide omukade
+    show jorogumo enraged at zh_true_duel_jorogumo_left zorder 1
     narrator "絡新婦終於現形。"
 
     narrator "她的指尖像要去拿走他袖口裡的卡。"
@@ -2194,7 +2304,7 @@ label chapter_8_true_end:
 
     narrator "但毒性讓他的身體慢了半拍。"
 
-    show jingzhe injured at zh_center
+    show jingzhe injured at zh_true_battle_jingzhe_right zorder 3
     narrator "他抬手擋住，卻只來得及擋掉一半。"
 
     narrator "另一半落在他的肋側。"
@@ -2211,6 +2321,7 @@ label chapter_8_true_end:
 
     narrator "他吐出最後一口煙。"
 
+    show kamikiri empowered_attack at zh_left zorder 2
     narrator "髮切從她側面切入。"
 
     narrator "黑影碎開，像被剪斷的絲。"
@@ -2219,6 +2330,8 @@ label chapter_8_true_end:
 
     narrator "像是在說：你以為這樣就結束了嗎？"
     hide jorogumo
+    hide kamikiri
+    hide omukade
 
     narrator "驚蟄跪下去。"
 
@@ -2267,7 +2380,8 @@ label chapter_8_true_end:
 
     narrator "她要撕。"
 
-    show jingzhe injured at zh_center
+    scene cg chapter8_jingzhe_stops_hanami_card
+    with dissolve
     narrator "驚蟄抓住她的手腕。"
 
     jingzhe "不要。"
@@ -2294,23 +2408,34 @@ label chapter_8_true_end:
 
     narrator "夢見捂住嘴，像怕自己哭出聲就會把他推走。"
 
-    show yumemi tearful at zh_right
     yumemi "可是我們……"
 
     jingzhe "你們活著。"
 
     narrator "他說完這句話，像把最後一口氣也交出去。"
 
+    scene bg forest_clearing_night
+    with dissolve
+    show jingzhe injured at zh_center
+    show hanami tearful at zh_left
+    show yumemi tearful at zh_right
+
+    camera at zh_vision_blur_1
     narrator "他靠著樹根，眼皮沉下來。"
 
+    camera at zh_vision_blur_2
     narrator "他聽見花見在罵。"
 
+    camera at zh_vision_blur_3
     narrator "聽見夢見在哭。"
 
+    camera at zh_vision_blur_4
     narrator "但那些聲音都像隔著水。"
 
+    camera at zh_vision_blur_5
     narrator "就在他準備把自己沉下去時——"
 
+    camera
     narrator "卡片忽然變輕。"
 
     narrator "像是被誰抽走。"
@@ -2429,7 +2554,7 @@ label chapter_8_true_end:
     show yumemi tearful at zh_right
     narrator "夢見也靠近，像怕一眨眼他又會被帶走。"
 
-    show jingzhe softened at zh_final_center
+    show jingzhe softened_full at zh_final_center_full
     narrator "驚蟄吸了一口氣。"
 
     narrator "這一次，他沒有把她們推開。"
@@ -2458,7 +2583,7 @@ label chapter_8_true_end:
     narrator "至少，這次會一起走到明天。"
 
 
-    scene bg inn_morning
+    scene bg inn_hall_morning
     with dissolve
 
     narrator "清晨的風很淡。"
