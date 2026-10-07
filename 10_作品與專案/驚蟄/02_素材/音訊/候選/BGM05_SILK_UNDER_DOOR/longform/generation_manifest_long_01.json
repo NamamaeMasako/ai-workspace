@@ -1,0 +1,218 @@
+{
+  "date": "2026-10-07",
+  "cue": "BGM05_SILK_UNDER_DOOR",
+  "candidates": [
+    {
+      "label": "低音單簧管／懸置弦音",
+      "short_candidate": 2,
+      "reference": {
+        "file": "candidate_02_bass_clarinet_seed3202_take02.ogg",
+        "sha256": "e786e0ac62237ed91b689921bde0befc5916e805356694bbc543d6034ba966bc",
+        "submission_method": "multipart reference_audio upload"
+      },
+      "request": {
+        "prompt": "Instrumental psychological suspense background music for quiet visual novel dialogue. An intimate small wooden inn after dusk, an unseen threat gradually approaching, unnaturally restrained stillness and delicate unease. Sparse unresolved chromatic phrases, soft sustained tension, small irregular gestures, spacious pauses with gently continuing musical tails. Consistently quiet and understated from beginning to end, no rhythmic drive or buildup, never a battle theme. Pure music only: no vocals, speech, choir, drums, percussion, regular beat, ostinato, jump scare, loud accent, riser, climax, environmental ambience or sound effects. Bass clarinet leads with hushed low sustained notes and brief hesitant phrases; muted cello harmonics and very sparse soft piano respond. Dark close-room intimacy, something subtly wrong behind a closed door. Develop the reference's subdued timbre and intimate tension into a continuous long background cue, with tiny phrase variations and sustained musical tails throughout. Maintain the same restrained mood and instrumentation. Avoid silence breaks and a final cadence; keep background texture flowing.",
+        "lyrics": "[Instrumental]",
+        "thinking": true,
+        "use_format": false,
+        "use_cot_caption": false,
+        "use_cot_language": false,
+        "bpm": 64,
+        "key_scale": "E minor",
+        "time_signature": "4",
+        "vocal_language": "unknown",
+        "audio_duration": 65,
+        "inference_steps": 8,
+        "batch_size": 1,
+        "use_random_seed": false,
+        "seed": 3202,
+        "model": "acestep-v15-turbo",
+        "lm_model_path": "acestep-5Hz-lm-0.6B",
+        "lm_backend": "vllm",
+        "audio_format": "wav",
+        "lm_negative_prompt": "vocals, singing, speech, choir, drums, percussion, beats, ostinato, jump scares, loud peaks, climax, environmental sounds, sound effects",
+        "task_type": "text2music",
+        "audio_cover_strength": 0.35
+      },
+      "processing": {
+        "excerpt": "first 60 seconds of 65-second raw generation",
+        "fade_in_seconds": 0.03,
+        "fade_out_seconds": 0.5,
+        "loudness_target_lufs": -16,
+        "true_peak_target_dbtp": -1.5,
+        "loop_processed": false
+      },
+      "task": {
+        "task_id": "84da70fa-23ee-4ff3-80ae-65cb2a27f784",
+        "status": "queued",
+        "queue_position": 1
+      },
+      "result": {
+        "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5C04907a94-f2d3-e430-bb3c-aeaff4e60c59.wav",
+        "wave": "",
+        "status": 1,
+        "create_time": 1791360546,
+        "env": "development",
+        "prompt": "Instrumental psychological suspense background music for quiet visual novel dialogue. An intimate small wooden inn after dusk, an unseen threat gradually approaching, unnaturally restrained stillness and delicate unease. Sparse unresolved chromatic phrases, soft sustained tension, small irregular gestures, spacious pauses with gently continuing musical tails. Consistently quiet and understated from beginning to end, no rhythmic drive or buildup, never a battle theme. Pure music only: no vocals, speech, choir, drums, percussion, regular beat, ostinato, jump scare, loud accent, riser, climax, environmental ambience or sound effects. Bass clarinet leads with hushed low sustained notes and brief hesitant phrases; muted cello harmonics and very sparse soft piano respond. Dark close-room intimacy, something subtly wrong behind a closed door. Develop the reference's subdued timbre and intimate tension into a continuous long background cue, with tiny phrase variations and sustained musical tails throughout. Maintain the same restrained mood and instrumentation. Avoid silence breaks and a final cadence; keep background texture flowing.",
+        "lyrics": "[Instrumental]",
+        "metas": {
+          "bpm": 64,
+          "duration": 65.0,
+          "genres": "N/A",
+          "keyscale": "E minor",
+          "timesignature": "4",
+          "prompt": "Instrumental psychological suspense background music for quiet visual novel dialogue. An intimate small wooden inn after dusk, an unseen threat gradually approaching, unnaturally restrained stillness and delicate unease. Sparse unresolved chromatic phrases, soft sustained tension, small irregular gestures, spacious pauses with gently continuing musical tails. Consistently quiet and understated from beginning to end, no rhythmic drive or buildup, never a battle theme. Pure music only: no vocals, speech, choir, drums, percussion, regular beat, ostinato, jump scare, loud accent, riser, climax, environmental ambience or sound effects. Bass clarinet leads with hushed low sustained notes and brief hesitant phrases; muted cello harmonics and very sparse soft piano respond. Dark close-room intimacy, something subtly wrong behind a closed door. Develop the reference's subdued timbre and intimate tension into a continuous long background cue, with tiny phrase variations and sustained musical tails throughout. Maintain the same restrained mood and instrumentation. Avoid silence breaks and a final cadence; keep background texture flowing.",
+          "lyrics": "[Instrumental]"
+        },
+        "generation_info": "**🎵 Total generation time (1 song): 11.60s**\n- 11.60s per song\n- LM phase (1 song): 3.29s\n- DiT phase (1 song): 8.31s",
+        "seed_value": "3202",
+        "lm_model": "acestep-5Hz-lm-0.6B",
+        "dit_model": "acestep-v15-turbo",
+        "progress": 1.0,
+        "stage": "succeeded"
+      },
+      "raw_wav": {
+        "file": "long_01_reference_guided_bass_clarinet_seed3202_raw.wav",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "65.000000"
+          }
+        },
+        "sha256": "e8d34a121718763a208efa56a03ec2848a28fe2cf53cacee661d3362287db6c2"
+      },
+      "ogg": {
+        "file": "long_01_reference_guided_bass_clarinet_seed3202.ogg",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "60.000000"
+          }
+        },
+        "sha256": "be8fb16501a0a17a60e7483e92dac4b72cdbb122468a1ba992c0bac69525b116"
+      }
+    },
+    {
+      "label": "悶音弦樂／細絲般不協和",
+      "short_candidate": 3,
+      "reference": {
+        "file": "candidate_03_muted_strings_seed3203_take02.ogg",
+        "sha256": "ce03394c7bfd1d61e80003552e328a863ddc741b82ec911f69367d394c1cd17c",
+        "submission_method": "multipart reference_audio upload"
+      },
+      "request": {
+        "prompt": "Instrumental psychological suspense background music for quiet visual novel dialogue. An intimate small wooden inn after dusk, an unseen threat gradually approaching, unnaturally restrained stillness and delicate unease. Sparse unresolved chromatic phrases, soft sustained tension, small irregular gestures, spacious pauses with gently continuing musical tails. Consistently quiet and understated from beginning to end, no rhythmic drive or buildup, never a battle theme. Pure music only: no vocals, speech, choir, drums, percussion, regular beat, ostinato, jump scare, loud accent, riser, climax, environmental ambience or sound effects. Con sordino viola and cello lead with thin airy harmonics and gently shifting dissonant sustained intervals; a few distant felt piano notes. Delicate threadlike tension, understated psychological unease without orchestral drama. Develop the reference's subdued timbre and intimate tension into a continuous long background cue, with tiny phrase variations and sustained musical tails throughout. Maintain the same restrained mood and instrumentation. Avoid silence breaks and a final cadence; keep background texture flowing.",
+        "lyrics": "[Instrumental]",
+        "thinking": true,
+        "use_format": false,
+        "use_cot_caption": false,
+        "use_cot_language": false,
+        "bpm": 64,
+        "key_scale": "E minor",
+        "time_signature": "4",
+        "vocal_language": "unknown",
+        "audio_duration": 65,
+        "inference_steps": 8,
+        "batch_size": 1,
+        "use_random_seed": false,
+        "seed": 3203,
+        "model": "acestep-v15-turbo",
+        "lm_model_path": "acestep-5Hz-lm-0.6B",
+        "lm_backend": "vllm",
+        "audio_format": "wav",
+        "lm_negative_prompt": "vocals, singing, speech, choir, drums, percussion, beats, ostinato, jump scares, loud peaks, climax, environmental sounds, sound effects",
+        "task_type": "text2music",
+        "audio_cover_strength": 0.35
+      },
+      "processing": {
+        "excerpt": "first 60 seconds of 65-second raw generation",
+        "fade_in_seconds": 0.03,
+        "fade_out_seconds": 0.5,
+        "loudness_target_lufs": -16,
+        "true_peak_target_dbtp": -1.5,
+        "loop_processed": false
+      },
+      "task": {
+        "task_id": "bf191412-d7d7-432c-9f4a-1cdab935b2cf",
+        "status": "queued",
+        "queue_position": 1
+      },
+      "result": {
+        "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5C4e130011-333e-4a21-e152-94ca1349e833.wav",
+        "wave": "",
+        "status": 1,
+        "create_time": 1791360740,
+        "env": "development",
+        "prompt": "Instrumental psychological suspense background music for quiet visual novel dialogue. An intimate small wooden inn after dusk, an unseen threat gradually approaching, unnaturally restrained stillness and delicate unease. Sparse unresolved chromatic phrases, soft sustained tension, small irregular gestures, spacious pauses with gently continuing musical tails. Consistently quiet and understated from beginning to end, no rhythmic drive or buildup, never a battle theme. Pure music only: no vocals, speech, choir, drums, percussion, regular beat, ostinato, jump scare, loud accent, riser, climax, environmental ambience or sound effects. Con sordino viola and cello lead with thin airy harmonics and gently shifting dissonant sustained intervals; a few distant felt piano notes. Delicate threadlike tension, understated psychological unease without orchestral drama. Develop the reference's subdued timbre and intimate tension into a continuous long background cue, with tiny phrase variations and sustained musical tails throughout. Maintain the same restrained mood and instrumentation. Avoid silence breaks and a final cadence; keep background texture flowing.",
+        "lyrics": "[Instrumental]",
+        "metas": {
+          "bpm": 64,
+          "duration": 65.0,
+          "genres": "N/A",
+          "keyscale": "E minor",
+          "timesignature": "4",
+          "prompt": "Instrumental psychological suspense background music for quiet visual novel dialogue. An intimate small wooden inn after dusk, an unseen threat gradually approaching, unnaturally restrained stillness and delicate unease. Sparse unresolved chromatic phrases, soft sustained tension, small irregular gestures, spacious pauses with gently continuing musical tails. Consistently quiet and understated from beginning to end, no rhythmic drive or buildup, never a battle theme. Pure music only: no vocals, speech, choir, drums, percussion, regular beat, ostinato, jump scare, loud accent, riser, climax, environmental ambience or sound effects. Con sordino viola and cello lead with thin airy harmonics and gently shifting dissonant sustained intervals; a few distant felt piano notes. Delicate threadlike tension, understated psychological unease without orchestral drama. Develop the reference's subdued timbre and intimate tension into a continuous long background cue, with tiny phrase variations and sustained musical tails throughout. Maintain the same restrained mood and instrumentation. Avoid silence breaks and a final cadence; keep background texture flowing.",
+          "lyrics": "[Instrumental]"
+        },
+        "generation_info": "**🎵 Total generation time (1 song): 6.52s**\n- 6.52s per song\n- LM phase (1 song): 2.51s\n- DiT phase (1 song): 4.02s",
+        "seed_value": "3203",
+        "lm_model": "acestep-5Hz-lm-0.6B",
+        "dit_model": "acestep-v15-turbo",
+        "progress": 1.0,
+        "stage": "succeeded"
+      },
+      "raw_wav": {
+        "file": "long_01_reference_guided_muted_strings_seed3203_raw.wav",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "65.000000"
+          }
+        },
+        "sha256": "8433fd2ab54afd030e8a08438610ccd1cd8617bcaf214aa5fad31c5708e39b92"
+      },
+      "ogg": {
+        "file": "long_01_reference_guided_muted_strings_seed3203.ogg",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "60.000000"
+          }
+        },
+        "sha256": "38dae0d424621ef40f127cfd660620f1e684a8f399b7b36f769a6fc0d85bd114"
+      }
+    }
+  ]
+}

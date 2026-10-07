@@ -1,0 +1,41 @@
+{
+  "label": "低音單簧管／懸置弦音",
+  "short_candidate": 2,
+  "reference": {
+    "file": "candidate_02_bass_clarinet_seed3202_take02.ogg",
+    "sha256": "e786e0ac62237ed91b689921bde0befc5916e805356694bbc543d6034ba966bc"
+  },
+  "request": {
+    "prompt": "Instrumental psychological suspense background music for quiet visual novel dialogue. An intimate small wooden inn after dusk, an unseen threat gradually approaching, unnaturally restrained stillness and delicate unease. Sparse unresolved chromatic phrases, soft sustained tension, small irregular gestures, spacious pauses with gently continuing musical tails. Consistently quiet and understated from beginning to end, no rhythmic drive or buildup, never a battle theme. Pure music only: no vocals, speech, choir, drums, percussion, regular beat, ostinato, jump scare, loud accent, riser, climax, environmental ambience or sound effects. Bass clarinet leads with hushed low sustained notes and brief hesitant phrases; muted cello harmonics and very sparse soft piano respond. Dark close-room intimacy, something subtly wrong behind a closed door. Develop the reference's subdued timbre and intimate tension into a continuous long background cue, with tiny phrase variations and sustained musical tails throughout. Maintain the same restrained mood and instrumentation. Avoid silence breaks and a final cadence; keep background texture flowing.",
+    "lyrics": "[Instrumental]",
+    "thinking": true,
+    "use_format": false,
+    "use_cot_caption": false,
+    "use_cot_language": false,
+    "bpm": 64,
+    "key_scale": "E minor",
+    "time_signature": "4",
+    "vocal_language": "unknown",
+    "audio_duration": 65,
+    "inference_steps": 8,
+    "batch_size": 1,
+    "use_random_seed": false,
+    "seed": 3202,
+    "model": "acestep-v15-turbo",
+    "lm_model_path": "acestep-5Hz-lm-0.6B",
+    "lm_backend": "vllm",
+    "audio_format": "wav",
+    "lm_negative_prompt": "vocals, singing, speech, choir, drums, percussion, beats, ostinato, jump scares, loud peaks, climax, environmental sounds, sound effects",
+    "task_type": "text2music",
+    "reference_audio_path": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\02_素材\\音訊\\候選\\BGM05_SILK_UNDER_DOOR\\candidate_02_bass_clarinet_seed3202_take02.ogg",
+    "audio_cover_strength": 0.35
+  },
+  "processing": {
+    "excerpt": "first 60 seconds of 65-second raw generation",
+    "fade_in_seconds": 0.03,
+    "fade_out_seconds": 0.5,
+    "loudness_target_lufs": -16,
+    "true_peak_target_dbtp": -1.5,
+    "loop_processed": false
+  }
+}
