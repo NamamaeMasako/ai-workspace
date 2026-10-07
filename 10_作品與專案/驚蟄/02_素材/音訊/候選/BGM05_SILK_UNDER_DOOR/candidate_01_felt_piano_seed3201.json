@@ -1,0 +1,90 @@
+{
+  "label": "柔鋼琴／微弱低弦",
+  "request": {
+    "prompt": "Instrumental psychological suspense background music for quiet visual novel dialogue. An intimate small wooden inn after dusk, an unseen threat gradually approaching, unnaturally restrained stillness and delicate unease. Sparse unresolved chromatic phrases, soft sustained tension, small irregular gestures, spacious pauses with gently continuing musical tails. Consistently quiet and understated from beginning to end, no rhythmic drive or buildup, never a battle theme. Pure music only: no vocals, speech, choir, drums, percussion, regular beat, ostinato, jump scare, loud accent, riser, climax, environmental ambience or sound effects. Felt piano leads with isolated soft notes and subtle semitone friction; faint low cello sustains and distant string harmonics provide an uneasy shadow. Fragile, inward, quietly alert, clear sparse piano identity.",
+    "lyrics": "[Instrumental]",
+    "thinking": true,
+    "use_format": false,
+    "use_cot_caption": false,
+    "use_cot_language": false,
+    "bpm": 64,
+    "key_scale": "E minor",
+    "time_signature": "4",
+    "vocal_language": "unknown",
+    "audio_duration": 20,
+    "inference_steps": 8,
+    "batch_size": 1,
+    "use_random_seed": false,
+    "seed": 3201,
+    "model": "acestep-v15-turbo",
+    "lm_model_path": "acestep-5Hz-lm-0.6B",
+    "lm_backend": "vllm",
+    "audio_format": "wav",
+    "lm_negative_prompt": "vocals, singing, speech, choir, drums, percussion, beats, ostinato, jump scares, loud peaks, climax, environmental sounds, sound effects"
+  },
+  "task": {
+    "task_id": "b3db5cf8-ba11-44f2-b66c-3033b91c2a67",
+    "status": "queued",
+    "queue_position": 1
+  },
+  "result": {
+    "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5Ca96263c6-b16f-3f52-e2b2-9120a8f3af2b.wav",
+    "wave": "",
+    "status": 1,
+    "create_time": 1791359366,
+    "env": "development",
+    "prompt": "Instrumental psychological suspense background music for quiet visual novel dialogue. An intimate small wooden inn after dusk, an unseen threat gradually approaching, unnaturally restrained stillness and delicate unease. Sparse unresolved chromatic phrases, soft sustained tension, small irregular gestures, spacious pauses with gently continuing musical tails. Consistently quiet and understated from beginning to end, no rhythmic drive or buildup, never a battle theme. Pure music only: no vocals, speech, choir, drums, percussion, regular beat, ostinato, jump scare, loud accent, riser, climax, environmental ambience or sound effects. Felt piano leads with isolated soft notes and subtle semitone friction; faint low cello sustains and distant string harmonics provide an uneasy shadow. Fragile, inward, quietly alert, clear sparse piano identity.",
+    "lyrics": "[Instrumental]",
+    "metas": {
+      "bpm": 64,
+      "duration": 20.0,
+      "genres": "N/A",
+      "keyscale": "E minor",
+      "timesignature": "4",
+      "prompt": "Instrumental psychological suspense background music for quiet visual novel dialogue. An intimate small wooden inn after dusk, an unseen threat gradually approaching, unnaturally restrained stillness and delicate unease. Sparse unresolved chromatic phrases, soft sustained tension, small irregular gestures, spacious pauses with gently continuing musical tails. Consistently quiet and understated from beginning to end, no rhythmic drive or buildup, never a battle theme. Pure music only: no vocals, speech, choir, drums, percussion, regular beat, ostinato, jump scare, loud accent, riser, climax, environmental ambience or sound effects. Felt piano leads with isolated soft notes and subtle semitone friction; faint low cello sustains and distant string harmonics provide an uneasy shadow. Fragile, inward, quietly alert, clear sparse piano identity.",
+      "lyrics": "[Instrumental]"
+    },
+    "generation_info": "**🎵 Total generation time (1 song): 14.32s**\n- 14.32s per song\n- LM phase (1 song): 2.60s\n- DiT phase (1 song): 11.72s",
+    "seed_value": "3201",
+    "lm_model": "acestep-5Hz-lm-0.6B",
+    "dit_model": "acestep-v15-turbo",
+    "progress": 1.0,
+    "stage": "succeeded"
+  },
+  "wav": {
+    "file": "candidate_01_felt_piano_seed3201.wav",
+    "sha256": "371805677ee8a3585d1fc4e6fff38a1fd33c52e07b9c8435b5bda60c3a32b644",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "ogg": {
+    "file": "candidate_01_felt_piano_seed3201.ogg",
+    "sha256": "f48cc68c783cc6227dbf4a588fd2b2e7427599876787cd3c2ab2f40c5ae64339",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  }
+}

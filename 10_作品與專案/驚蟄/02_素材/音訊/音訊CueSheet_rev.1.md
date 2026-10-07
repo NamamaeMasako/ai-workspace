@@ -1,6 +1,6 @@
 # 《驚蟄》音訊 Cue Sheet rev.1
 
-狀態：施工中；`BGM01_LANTERN`、`BGM02_MOON_INN_DAY` 與 `BGM03_MOON_INN_NIGHT` 已正式定案並導入遊戲，其餘項目尚待製作。  
+狀態：施工中；BGM01–04 已正式定案並導入遊戲，BGM05 四首短版候選待生前挑選，BGM06–07、環境音與 SFX 尚待製作。  
 範圍：BGM、環境音、關鍵 SFX；配音另案試鏡。  
 基準腳本：`03_開發/JingZhe/game/script.rpy` v0.1.2。
 
@@ -45,6 +45,7 @@ game/audio/sfx/battle/
 - `BGM05_SILK_UNDER_DOOR`／`bgm_silk_under_door.ogg`
   - 第四章怪物逼近、第五章受控、第六章調查。
   - 細碎壓迫，不先暴露完整戰鬥節奏。
+  - 2026-10-07：四首 20 秒短版候選完成，方向為柔鋼琴、低音單簧管、悶音弦樂與箏泛音（seed 3201–3204）；目前提供 `_take02` 試聽版本，待生前挑選後才製作長版及循環。詳見[候選製作紀錄](候選/BGM05_SILK_UNDER_DOOR/README.md)，尚未導入遊戲。
 - `BGM06_FOREST_ASSAULT`／`bgm_forest_assault.ogg`
   - 第七、八章戰鬥。
   - 同一主題可做一般／苦香強化兩段或兩個可無縫銜接版本。

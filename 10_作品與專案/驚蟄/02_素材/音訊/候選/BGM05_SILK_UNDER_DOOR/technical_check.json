@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-07",
+  "decode_check": "WAV and OGG fully decoded without errors",
+  "notes": "Technical checks do not replace the user's listening and artistic choice.",
+  "candidates": [
+    {
+      "file": "candidate_01_felt_piano_seed3201.ogg",
+      "duration": "20.000000",
+      "sample_rate": "44100",
+      "channels": 2,
+      "integrated_lufs": "-15.93",
+      "true_peak_dbtp": "-1.41",
+      "quiet_intervals_over_half_second": [
+        "silence_start: 14.790068",
+        "silence_end: 20",
+        "silence_duration: 5.209932"
+      ]
+    },
+    {
+      "file": "candidate_02_bass_clarinet_seed3202.ogg",
+      "duration": "20.000000",
+      "sample_rate": "44100",
+      "channels": 2,
+      "integrated_lufs": "-17.22",
+      "true_peak_dbtp": "-1.27",
+      "quiet_intervals_over_half_second": [
+        "silence_start: 14.989524",
+        "silence_end: 20",
+        "silence_duration: 5.010476"
+      ]
+    },
+    {
+      "file": "candidate_03_muted_strings_seed3203.ogg",
+      "duration": "20.000000",
+      "sample_rate": "44100",
+      "channels": 2,
+      "integrated_lufs": "-16.01",
+      "true_peak_dbtp": "-2.09",
+      "quiet_intervals_over_half_second": [
+        "silence_start: 14.793039",
+        "silence_end: 19.965011",
+        "silence_duration: 5.171973"
+      ]
+    },
+    {
+      "file": "candidate_04_guzheng_harmonics_seed3204.ogg",
+      "duration": "20.000000",
+      "sample_rate": "44100",
+      "channels": 2,
+      "integrated_lufs": "-17.13",
+      "true_peak_dbtp": "-1.05",
+      "quiet_intervals_over_half_second": [
+        "silence_start: 14.200771",
+        "silence_end: 20",
+        "silence_duration: 5.799229"
+      ]
+    }
+  ]
+}
