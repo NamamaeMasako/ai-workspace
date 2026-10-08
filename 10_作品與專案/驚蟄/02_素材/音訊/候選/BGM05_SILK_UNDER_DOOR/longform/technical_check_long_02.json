@@ -1,0 +1,28 @@
+[
+  {
+    "file": "long_02_suspense_bass_clarinet_seed3202.ogg",
+    "duration": "60.000000",
+    "sample_rate": "44100",
+    "channels": 2,
+    "integrated_lufs": "-15.77",
+    "true_peak_dbtp": "-1.08",
+    "quiet_events": [
+      "silence_start: 52.214422",
+      "silence_end: 52.737687 | silence_duration: 0.523265"
+    ]
+  },
+  {
+    "file": "long_02_suspense_muted_strings_seed3203.ogg",
+    "duration": "60.000000",
+    "sample_rate": "44100",
+    "channels": 2,
+    "integrated_lufs": "-15.18",
+    "true_peak_dbtp": "-2.05",
+    "quiet_events": [
+      "silence_start: 20.967188",
+      "silence_end: 22.010771 | silence_duration: 1.043583",
+      "silence_start: 37.365397",
+      "silence_end: 38.000862 | silence_duration: 0.635465"
+    ]
+  }
+]

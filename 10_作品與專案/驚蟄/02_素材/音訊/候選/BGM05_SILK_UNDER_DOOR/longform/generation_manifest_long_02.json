@@ -1,0 +1,212 @@
+{
+  "date": "2026-10-08",
+  "cue": "BGM05_SILK_UNDER_DOOR",
+  "candidates": [
+    {
+      "label": "低音單簧管／懸置弦音",
+      "short_candidate": 2,
+      "reference": {
+        "file": "candidate_02_bass_clarinet_seed3202_take02.ogg",
+        "sha256": "e786e0ac62237ed91b689921bde0befc5916e805356694bbc543d6034ba966bc",
+        "submission_method": "multipart reference_audio upload"
+      },
+      "request": {
+        "prompt": "Dark psychological horror underscore for a visual novel. An unseen creature is approaching a closed room; someone has lost control of their own actions. Oppressive, ominous, deeply suspicious, emotionally cold and serious. Quiet sustained dissonance from the first second. A low E pedal under unresolved minor-second and tritone friction. Slow chromatic drifting pitches, very long legato tones, unstable hovering harmony with no reassuring resolution. Continuous thin musical tension with tiny irregular changes, almost motionless, free-time pacing, low dynamic range, close claustrophobic room feeling. Sparse atmospheric acoustic music with a dark low-register center. Maintain this suspended uneasy texture throughout the entire long cue. No catchy tune, playful motif, jaunty phrasing, bouncing rhythm, swing, jazz, waltz, comedy, cute melody, dancing, plucking, pizzicato, staccato, repeated pulse, arpeggios, piano, bells, mallets, drums, percussion, vocals, speech, sound effects, environmental sounds, heroic buildup, jump scare, climax or final cadence. Bass clarinet holds hushed low breath-supported notes, slowly bending between adjacent chromatic pitches; muted low cello sustains a shadow. Long, connected, heavy phrases, an unresolved threatening presence, with sustained woodwind timbre rather than short melodic gestures.",
+        "lyrics": "[Instrumental]",
+        "thinking": false,
+        "use_format": false,
+        "use_cot_caption": false,
+        "use_cot_language": false,
+        "bpm": 48,
+        "key_scale": "E minor",
+        "time_signature": "4",
+        "vocal_language": "unknown",
+        "audio_duration": 65,
+        "inference_steps": 8,
+        "batch_size": 1,
+        "use_random_seed": false,
+        "seed": 3202,
+        "model": "acestep-v15-turbo",
+        "audio_format": "wav",
+        "task_type": "text2music",
+        "audio_cover_strength": 1.0
+      },
+      "processing": {
+        "excerpt": "first 60 seconds of 65-second raw generation",
+        "fade_in_seconds": 0.03,
+        "fade_out_seconds": 0.5,
+        "loudness_target_lufs": -16,
+        "true_peak_target_dbtp": -1.5,
+        "loop_processed": false
+      },
+      "task": {
+        "task_id": "6bc75e0e-def2-403a-a472-91826c058e6d",
+        "status": "queued",
+        "queue_position": 1
+      },
+      "result": {
+        "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5C7cb27677-84a1-5ca7-34cd-074ae7aa2483.wav",
+        "wave": "",
+        "status": 1,
+        "create_time": 1791457682,
+        "env": "development",
+        "prompt": "Dark psychological horror underscore for a visual novel. An unseen creature is approaching a closed room; someone has lost control of their own actions. Oppressive, ominous, deeply suspicious, emotionally cold and serious. Quiet sustained dissonance from the first second. A low E pedal under unresolved minor-second and tritone friction. Slow chromatic drifting pitches, very long legato tones, unstable hovering harmony with no reassuring resolution. Continuous thin musical tension with tiny irregular changes, almost motionless, free-time pacing, low dynamic range, close claustrophobic room feeling. Sparse atmospheric acoustic music with a dark low-register center. Maintain this suspended uneasy texture throughout the entire long cue. No catchy tune, playful motif, jaunty phrasing, bouncing rhythm, swing, jazz, waltz, comedy, cute melody, dancing, plucking, pizzicato, staccato, repeated pulse, arpeggios, piano, bells, mallets, drums, percussion, vocals, speech, sound effects, environmental sounds, heroic buildup, jump scare, climax or final cadence. Bass clarinet holds hushed low breath-supported notes, slowly bending between adjacent chromatic pitches; muted low cello sustains a shadow. Long, connected, heavy phrases, an unresolved threatening presence, with sustained woodwind timbre rather than short melodic gestures.",
+        "lyrics": "[Instrumental]",
+        "metas": {
+          "bpm": 48,
+          "duration": 65.0,
+          "genres": "N/A",
+          "keyscale": "E minor",
+          "timesignature": "4",
+          "prompt": "Dark psychological horror underscore for a visual novel. An unseen creature is approaching a closed room; someone has lost control of their own actions. Oppressive, ominous, deeply suspicious, emotionally cold and serious. Quiet sustained dissonance from the first second. A low E pedal under unresolved minor-second and tritone friction. Slow chromatic drifting pitches, very long legato tones, unstable hovering harmony with no reassuring resolution. Continuous thin musical tension with tiny irregular changes, almost motionless, free-time pacing, low dynamic range, close claustrophobic room feeling. Sparse atmospheric acoustic music with a dark low-register center. Maintain this suspended uneasy texture throughout the entire long cue. No catchy tune, playful motif, jaunty phrasing, bouncing rhythm, swing, jazz, waltz, comedy, cute melody, dancing, plucking, pizzicato, staccato, repeated pulse, arpeggios, piano, bells, mallets, drums, percussion, vocals, speech, sound effects, environmental sounds, heroic buildup, jump scare, climax or final cadence. Bass clarinet holds hushed low breath-supported notes, slowly bending between adjacent chromatic pitches; muted low cello sustains a shadow. Long, connected, heavy phrases, an unresolved threatening presence, with sustained woodwind timbre rather than short melodic gestures.",
+          "lyrics": "[Instrumental]"
+        },
+        "generation_info": "**🎵 Total generation time (1 song): 39.61s**\n- 39.61s per song\n- DiT phase (1 song): 39.61s",
+        "seed_value": "3202",
+        "lm_model": "acestep-5Hz-lm-0.6B",
+        "dit_model": "acestep-v15-turbo",
+        "progress": 1.0,
+        "stage": "succeeded"
+      },
+      "raw_wav": {
+        "file": "long_02_suspense_bass_clarinet_seed3202_raw.wav",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "65.000000"
+          }
+        },
+        "sha256": "9f719eb15dc7aa715fa7ec2ee59a357b8231175658a9fccebc20ae39171530e9"
+      },
+      "ogg": {
+        "file": "long_02_suspense_bass_clarinet_seed3202.ogg",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "60.000000"
+          }
+        },
+        "sha256": "84091cc9eddb3457a425397f8f7a73d23c3ba3d835556b52dd14578882d69a7a"
+      }
+    },
+    {
+      "label": "悶音弦樂／細絲般不協和",
+      "short_candidate": 3,
+      "reference": {
+        "file": "candidate_03_muted_strings_seed3203_take02.ogg",
+        "sha256": "ce03394c7bfd1d61e80003552e328a863ddc741b82ec911f69367d394c1cd17c",
+        "submission_method": "multipart reference_audio upload"
+      },
+      "request": {
+        "prompt": "Dark psychological horror underscore for a visual novel. An unseen creature is approaching a closed room; someone has lost control of their own actions. Oppressive, ominous, deeply suspicious, emotionally cold and serious. Quiet sustained dissonance from the first second. A low E pedal under unresolved minor-second and tritone friction. Slow chromatic drifting pitches, very long legato tones, unstable hovering harmony with no reassuring resolution. Continuous thin musical tension with tiny irregular changes, almost motionless, free-time pacing, low dynamic range, close claustrophobic room feeling. Sparse atmospheric acoustic music with a dark low-register center. Maintain this suspended uneasy texture throughout the entire long cue. No catchy tune, playful motif, jaunty phrasing, bouncing rhythm, swing, jazz, waltz, comedy, cute melody, dancing, plucking, pizzicato, staccato, repeated pulse, arpeggios, piano, bells, mallets, drums, percussion, vocals, speech, sound effects, environmental sounds, heroic buildup, jump scare, climax or final cadence. Con sordino viola and low cello hold long bowed tones and thin, cold harmonics. Slow microtonal glides and gently rubbing dissonant intervals suggest taut threads in a sealed room. Continuous bow texture, with no rhythmic bow strokes and no bright or romantic melodic release.",
+        "lyrics": "[Instrumental]",
+        "thinking": false,
+        "use_format": false,
+        "use_cot_caption": false,
+        "use_cot_language": false,
+        "bpm": 48,
+        "key_scale": "E minor",
+        "time_signature": "4",
+        "vocal_language": "unknown",
+        "audio_duration": 65,
+        "inference_steps": 8,
+        "batch_size": 1,
+        "use_random_seed": false,
+        "seed": 3203,
+        "model": "acestep-v15-turbo",
+        "audio_format": "wav",
+        "task_type": "text2music",
+        "audio_cover_strength": 1.0
+      },
+      "processing": {
+        "excerpt": "first 60 seconds of 65-second raw generation",
+        "fade_in_seconds": 0.03,
+        "fade_out_seconds": 0.5,
+        "loudness_target_lufs": -16,
+        "true_peak_target_dbtp": -1.5,
+        "loop_processed": false
+      },
+      "task": {
+        "task_id": "7a34f204-9482-4c46-8c95-5696e2fb9cee",
+        "status": "queued",
+        "queue_position": 1
+      },
+      "result": {
+        "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5C44fdae3e-349a-2e76-0cb0-69a454a8dd1b.wav",
+        "wave": "",
+        "status": 1,
+        "create_time": 1791457900,
+        "env": "development",
+        "prompt": "Dark psychological horror underscore for a visual novel. An unseen creature is approaching a closed room; someone has lost control of their own actions. Oppressive, ominous, deeply suspicious, emotionally cold and serious. Quiet sustained dissonance from the first second. A low E pedal under unresolved minor-second and tritone friction. Slow chromatic drifting pitches, very long legato tones, unstable hovering harmony with no reassuring resolution. Continuous thin musical tension with tiny irregular changes, almost motionless, free-time pacing, low dynamic range, close claustrophobic room feeling. Sparse atmospheric acoustic music with a dark low-register center. Maintain this suspended uneasy texture throughout the entire long cue. No catchy tune, playful motif, jaunty phrasing, bouncing rhythm, swing, jazz, waltz, comedy, cute melody, dancing, plucking, pizzicato, staccato, repeated pulse, arpeggios, piano, bells, mallets, drums, percussion, vocals, speech, sound effects, environmental sounds, heroic buildup, jump scare, climax or final cadence. Con sordino viola and low cello hold long bowed tones and thin, cold harmonics. Slow microtonal glides and gently rubbing dissonant intervals suggest taut threads in a sealed room. Continuous bow texture, with no rhythmic bow strokes and no bright or romantic melodic release.",
+        "lyrics": "[Instrumental]",
+        "metas": {
+          "bpm": 48,
+          "duration": 65.0,
+          "genres": "N/A",
+          "keyscale": "E minor",
+          "timesignature": "4",
+          "prompt": "Dark psychological horror underscore for a visual novel. An unseen creature is approaching a closed room; someone has lost control of their own actions. Oppressive, ominous, deeply suspicious, emotionally cold and serious. Quiet sustained dissonance from the first second. A low E pedal under unresolved minor-second and tritone friction. Slow chromatic drifting pitches, very long legato tones, unstable hovering harmony with no reassuring resolution. Continuous thin musical tension with tiny irregular changes, almost motionless, free-time pacing, low dynamic range, close claustrophobic room feeling. Sparse atmospheric acoustic music with a dark low-register center. Maintain this suspended uneasy texture throughout the entire long cue. No catchy tune, playful motif, jaunty phrasing, bouncing rhythm, swing, jazz, waltz, comedy, cute melody, dancing, plucking, pizzicato, staccato, repeated pulse, arpeggios, piano, bells, mallets, drums, percussion, vocals, speech, sound effects, environmental sounds, heroic buildup, jump scare, climax or final cadence. Con sordino viola and low cello hold long bowed tones and thin, cold harmonics. Slow microtonal glides and gently rubbing dissonant intervals suggest taut threads in a sealed room. Continuous bow texture, with no rhythmic bow strokes and no bright or romantic melodic release.",
+          "lyrics": "[Instrumental]"
+        },
+        "generation_info": "**🎵 Total generation time (1 song): 5.16s**\n- 5.16s per song\n- DiT phase (1 song): 5.16s",
+        "seed_value": "3203",
+        "lm_model": "acestep-5Hz-lm-0.6B",
+        "dit_model": "acestep-v15-turbo",
+        "progress": 1.0,
+        "stage": "succeeded"
+      },
+      "raw_wav": {
+        "file": "long_02_suspense_muted_strings_seed3203_raw.wav",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "65.000000"
+          }
+        },
+        "sha256": "c7a334bfc4c72c1933e71b3721f08f5b0892dd060c4b2a111dcfb18c9e9bf47b"
+      },
+      "ogg": {
+        "file": "long_02_suspense_muted_strings_seed3203.ogg",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "60.000000"
+          }
+        },
+        "sha256": "4b9aa6d9daba44dd475bf2abd5530d669e636a984b424db7222d989597c28411"
+      }
+    }
+  ]
+}
