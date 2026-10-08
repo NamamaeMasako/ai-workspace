@@ -1,0 +1,211 @@
+{
+  "date": "2026-10-08",
+  "candidates": [
+    {
+      "date": "2026-10-08",
+      "label": "03 樂句節奏一致修正版",
+      "request": {
+        "prompt": "Instrumental psychological suspense background music for quiet visual novel dialogue. An intimate small wooden inn after dusk, an unseen threat gradually approaching, unnaturally restrained stillness and delicate unease. Sparse unresolved chromatic phrases, soft sustained tension, small irregular gestures, spacious pauses with gently continuing musical tails. Consistently quiet and understated from beginning to end, no rhythmic drive or buildup, never a battle theme. Pure music only: no vocals, speech, choir, drums, percussion, regular beat, ostinato, jump scare, loud accent, riser, climax, environmental ambience or sound effects. Con sordino viola and cello lead with thin airy harmonics and gently shifting dissonant sustained intervals; a few distant felt piano notes. Delicate threadlike tension, understated psychological unease without orchestral drama. Follow the provided source's phrase timing, melodic contour, note spacing and instrumental layers closely throughout. Recur the same quiet string motif at the source phrase boundaries with only small tonal and expressive variations. Keep the original rhythmic feel and amount of space between gestures consistent from opening through ending. Same pulse, same note density, same phrasing. Maintain quiet restrained suspense, delicate bowed strings and a few distant felt piano notes. No change of rhythmic style, swing, dance, busy repeated notes, cheerful tune, percussion, voices, climax or new countermelody.",
+        "lyrics": "[Instrumental]",
+        "thinking": false,
+        "use_format": false,
+        "use_cot_caption": false,
+        "use_cot_language": false,
+        "bpm": 64,
+        "key_scale": "E minor",
+        "time_signature": "4",
+        "vocal_language": "unknown",
+        "audio_duration": 65,
+        "inference_steps": 8,
+        "batch_size": 1,
+        "use_random_seed": false,
+        "seed": 3203,
+        "model": "acestep-v15-turbo",
+        "audio_format": "wav",
+        "task_type": "cover",
+        "audio_cover_strength": 1.0,
+        "cover_noise_strength": 0.65
+      },
+      "reference": {
+        "file": "candidate_03_muted_strings_seed3203_take02.ogg",
+        "sha256": "ce03394c7bfd1d61e80003552e328a863ddc741b82ec911f69367d394c1cd17c"
+      },
+      "source_template": {
+        "file": "long_04_phrase_guided_muted_strings_seed3203_source_template.wav",
+        "structure": {
+          "duration_seconds": 65,
+          "phrase_starts_seconds": [
+            0.0,
+            18.75,
+            37.5,
+            56.25
+          ],
+          "phrase_period_seconds": 18.75,
+          "overlap_seconds": 1.25,
+          "period_basis": "fixed five-bar interval at the source's 64 BPM request hint",
+          "tempo_note": "64 BPM is a generation hint, not a measured beat guarantee",
+          "uniform_gain_db": -0.6612907929416612
+        },
+        "sha256": "8f35d90f9d100c911ee4332a2bad0ee26364e9a2539c21847b1eba76184bf3d6"
+      },
+      "review_basis": "long_03 continuation rhythm and phrasing felt inconsistent with opening",
+      "task": {
+        "task_id": "e133352f-31f8-43a6-8393-0fb9d083c327",
+        "status": "queued",
+        "queue_position": 1
+      },
+      "result": {
+        "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5C7ef26cf6-9a2c-2824-dacd-457c1064277d.wav",
+        "wave": "",
+        "status": 1,
+        "create_time": 1791460605,
+        "env": "development",
+        "prompt": "Instrumental psychological suspense background music for quiet visual novel dialogue. An intimate small wooden inn after dusk, an unseen threat gradually approaching, unnaturally restrained stillness and delicate unease. Sparse unresolved chromatic phrases, soft sustained tension, small irregular gestures, spacious pauses with gently continuing musical tails. Consistently quiet and understated from beginning to end, no rhythmic drive or buildup, never a battle theme. Pure music only: no vocals, speech, choir, drums, percussion, regular beat, ostinato, jump scare, loud accent, riser, climax, environmental ambience or sound effects. Con sordino viola and cello lead with thin airy harmonics and gently shifting dissonant sustained intervals; a few distant felt piano notes. Delicate threadlike tension, understated psychological unease without orchestral drama. Follow the provided source's phrase timing, melodic contour, note spacing and instrumental layers closely throughout. Recur the same quiet string motif at the source phrase boundaries with only small tonal and expressive variations. Keep the original rhythmic feel and amount of space between gestures consistent from opening through ending. Same pulse, same note density, same phrasing. Maintain quiet restrained suspense, delicate bowed strings and a few distant felt piano notes. No change of rhythmic style, swing, dance, busy repeated notes, cheerful tune, percussion, voices, climax or new countermelody.",
+        "lyrics": "[Instrumental]",
+        "metas": {
+          "bpm": 64,
+          "duration": 65.0,
+          "genres": "N/A",
+          "keyscale": "E minor",
+          "timesignature": "4",
+          "prompt": "Instrumental psychological suspense background music for quiet visual novel dialogue. An intimate small wooden inn after dusk, an unseen threat gradually approaching, unnaturally restrained stillness and delicate unease. Sparse unresolved chromatic phrases, soft sustained tension, small irregular gestures, spacious pauses with gently continuing musical tails. Consistently quiet and understated from beginning to end, no rhythmic drive or buildup, never a battle theme. Pure music only: no vocals, speech, choir, drums, percussion, regular beat, ostinato, jump scare, loud accent, riser, climax, environmental ambience or sound effects. Con sordino viola and cello lead with thin airy harmonics and gently shifting dissonant sustained intervals; a few distant felt piano notes. Delicate threadlike tension, understated psychological unease without orchestral drama. Follow the provided source's phrase timing, melodic contour, note spacing and instrumental layers closely throughout. Recur the same quiet string motif at the source phrase boundaries with only small tonal and expressive variations. Keep the original rhythmic feel and amount of space between gestures consistent from opening through ending. Same pulse, same note density, same phrasing. Maintain quiet restrained suspense, delicate bowed strings and a few distant felt piano notes. No change of rhythmic style, swing, dance, busy repeated notes, cheerful tune, percussion, voices, climax or new countermelody.",
+          "lyrics": "[Instrumental]"
+        },
+        "generation_info": "**🎵 Total generation time (1 song): 5.06s**\n- 5.06s per song\n- DiT phase (1 song): 5.06s",
+        "seed_value": "3203",
+        "lm_model": "acestep-5Hz-lm-0.6B",
+        "dit_model": "acestep-v15-turbo",
+        "progress": 1.0,
+        "stage": "succeeded"
+      },
+      "processing": {
+        "preserved_opening_seconds": 18,
+        "crossfade_start": 18,
+        "crossfade_end": 19,
+        "fade_out_seconds": 0.5,
+        "continuation_gain_db": 2.4578833816417807,
+        "uniform_master_gain_db": -4.678091771649909,
+        "opening_pcm_verified_before_encoding": true,
+        "preserved_pcm_sha256": "c27ce022e1487cf44067ca88e1b9b179dd061dc2b6e27e3acaf9f6a4d42165d1",
+        "loop_processed": false,
+        "audition_mastering": {
+          "fixed_gain_db": 3.8,
+          "peak_limiter_dbfs": -2,
+          "latency_compensation": true,
+          "opening_constant_gain_verified_seconds": 17.95,
+          "opening_pcm_max_error": 0.0,
+          "note": "18-second opening phrase retained; limiter handles high peaks later in the arrangement"
+        },
+        "preserved_pcm_stage": "premaster WAV before audition gain and limiter"
+      },
+      "source_wav": {
+        "file": "long_04_phrase_guided_muted_strings_seed3203_source_template.wav",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "65.000000"
+          }
+        },
+        "sha256": "8f35d90f9d100c911ee4332a2bad0ee26364e9a2539c21847b1eba76184bf3d6"
+      },
+      "raw_wav": {
+        "file": "long_04_phrase_guided_muted_strings_seed3203_raw.wav",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "65.000000"
+          }
+        },
+        "sha256": "d17edfc2cae0f65fa96c03ec147bd762cf5f5d3148d0ea32fea7e18131ea47ef"
+      },
+      "assembled_wav": {
+        "file": "long_04_phrase_guided_muted_strings_seed3203.wav",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "60.000000"
+          }
+        },
+        "sha256": "236ebabe5d0038fcd8a7239b36e9fe0c8e8ad697e6d8cff97f703c7784913480"
+      },
+      "ogg": {
+        "file": "long_04_phrase_guided_muted_strings_seed3203.ogg",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "60.000000"
+          }
+        },
+        "sha256": "b5aec92735853b1149f21fbb792ef86c2398d92e9f130397b8c18684ffc9ae3a"
+      },
+      "premaster_wav": {
+        "file": "long_04_phrase_guided_muted_strings_seed3203_premaster.wav",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "60.000000"
+          }
+        },
+        "sha256": "a761503cabb21fc5973f4b499bf9157653892d73e5d221bd40dc14172e2abcb9"
+      },
+      "premaster_ogg": {
+        "file": "long_04_phrase_guided_muted_strings_seed3203_premaster.ogg",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "60.000000"
+          }
+        },
+        "sha256": "c6a6d64233563d93471677688f88ce8af009837c95b53fbf9eccd3f8e5310c26"
+      }
+    }
+  ]
+}
