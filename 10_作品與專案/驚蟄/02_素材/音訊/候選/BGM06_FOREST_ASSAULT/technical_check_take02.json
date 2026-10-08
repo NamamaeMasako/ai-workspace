@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-09",
+  "files": [
+    {
+      "file": "candidate_01_oppressive_strings_seed3311_take02.ogg",
+      "decode": "passed",
+      "integrated_lufs": "-16.04",
+      "true_peak_dbtp": "-2.11",
+      "silence_intervals": [
+        "silence_start: 4.075601",
+        "silence_end: 5.117528 | silence_duration: 1.041927",
+        "silence_start: 9.389093",
+        "silence_end: 10.452494 | silence_duration: 1.063401"
+      ]
+    },
+    {
+      "file": "candidate_02_grave_drums_seed3312_take02.ogg",
+      "decode": "passed",
+      "integrated_lufs": "-16.11",
+      "true_peak_dbtp": "-2.10",
+      "silence_intervals": []
+    },
+    {
+      "file": "candidate_03_taut_bows_seed3313_take02.ogg",
+      "decode": "passed",
+      "integrated_lufs": "-16.01",
+      "true_peak_dbtp": "-2.27",
+      "silence_intervals": [
+        "silence_start: 18.873923",
+        "silence_end: 19.624218 | silence_duration: 0.750295"
+      ]
+    },
+    {
+      "file": "candidate_04_predatory_winds_seed3314_take02.ogg",
+      "decode": "passed",
+      "integrated_lufs": "-16.54",
+      "true_peak_dbtp": "-2.25",
+      "silence_intervals": []
+    }
+  ]
+}

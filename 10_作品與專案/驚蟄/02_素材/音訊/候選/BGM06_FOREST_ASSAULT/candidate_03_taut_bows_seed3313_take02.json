@@ -1,0 +1,146 @@
+{
+  "date": "2026-10-09",
+  "cue": "BGM06_FOREST_ASSAULT",
+  "label": "03 弓弦絞殺",
+  "request": {
+    "prompt": "Dark fantasy horror battle score, bleak psychological action thriller instrumental music. A deadly encounter against monstrous predators in a night forest; desperate resistance and mortal danger. Sinister, oppressive, threatening, grave, emotionally cold, suffocating and hostile from the first second. Low E pedal with unresolved minor-second clusters and tritone friction; unstable chromatic harmony, dissonant sustained tones and heavy deliberate slow combat momentum. Tension grows through bow pressure, dark sustained timbres and measured weight, never through a bright catchy tune. No comforting harmonic resolution, no playful note patterns, no jaunty melody, no bouncing rhythm, no cheerful folk dance, pentatonic festive melody, plucked strings, pizzicato, shamisen, koto, bells, mallets, swing, jazz, waltz, march, uplifting heroism, victorious fanfare, major-key release, EDM drop, rock guitar, busy drum fills, hand claps or trailer explosions. Keep a continuous oppressive musical bed for narration and action throughout the entire clip. Controlled low-to-medium dynamics, dark low-register focus, no silence break, no dramatic final cadence. Pure instrumental music only, no vocals, speech, choir, screams, breathing sound effects, forest ambience, monster sounds, weapon sounds or environmental effects. Taut violin and viola bows hold close chromatic clashes and tense trembling textures above a deep cello pedal. Slow rising and falling bow pressure creates a feeling of encirclement and deadly silk tightening. Cold abrasive but controlled musical dissonance, sporadic dark low bowed surges, no sweet lyrical melody, no plucks, fast arpeggios or jaunty rhythm.",
+    "lyrics": "[Instrumental]",
+    "thinking": false,
+    "use_format": false,
+    "use_cot_caption": false,
+    "use_cot_language": false,
+    "bpm": 72,
+    "key_scale": "E minor",
+    "time_signature": "4",
+    "vocal_language": "unknown",
+    "audio_duration": 25,
+    "inference_steps": 8,
+    "batch_size": 1,
+    "use_random_seed": false,
+    "seed": 3313,
+    "model": "acestep-v15-turbo",
+    "task_type": "text2music",
+    "audio_cover_strength": 1.0,
+    "audio_format": "wav"
+  },
+  "revision": "take02",
+  "review_basis": "all four first-round clips rejected by user as too cheerful",
+  "processing": {
+    "excerpt_seconds": 20,
+    "source_requested_seconds": 25,
+    "fade_in_seconds": 0.03,
+    "fade_out_seconds": 0.5,
+    "loop_processed": false,
+    "loudness_target_lufs": -16,
+    "true_peak_target_dbtp": -1.5,
+    "audition_mastering": {
+      "fixed_gain_db": -0.11999999999999922,
+      "limiter_dbfs": -2.5,
+      "limiter_attack_ms": 5,
+      "limiter_release_ms": 50,
+      "latency_compensation": true,
+      "composition_changed": false
+    }
+  },
+  "task": {
+    "task_id": "91d3403a-2a10-4c36-8927-8c81f4ed4855",
+    "status": "queued",
+    "queue_position": 1
+  },
+  "result": {
+    "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5C428c984a-84e4-f574-80fe-f91d43a48d08.wav",
+    "wave": "",
+    "status": 1,
+    "create_time": 1791478962,
+    "env": "development",
+    "prompt": "Dark fantasy horror battle score, bleak psychological action thriller instrumental music. A deadly encounter against monstrous predators in a night forest; desperate resistance and mortal danger. Sinister, oppressive, threatening, grave, emotionally cold, suffocating and hostile from the first second. Low E pedal with unresolved minor-second clusters and tritone friction; unstable chromatic harmony, dissonant sustained tones and heavy deliberate slow combat momentum. Tension grows through bow pressure, dark sustained timbres and measured weight, never through a bright catchy tune. No comforting harmonic resolution, no playful note patterns, no jaunty melody, no bouncing rhythm, no cheerful folk dance, pentatonic festive melody, plucked strings, pizzicato, shamisen, koto, bells, mallets, swing, jazz, waltz, march, uplifting heroism, victorious fanfare, major-key release, EDM drop, rock guitar, busy drum fills, hand claps or trailer explosions. Keep a continuous oppressive musical bed for narration and action throughout the entire clip. Controlled low-to-medium dynamics, dark low-register focus, no silence break, no dramatic final cadence. Pure instrumental music only, no vocals, speech, choir, screams, breathing sound effects, forest ambience, monster sounds, weapon sounds or environmental effects. Taut violin and viola bows hold close chromatic clashes and tense trembling textures above a deep cello pedal. Slow rising and falling bow pressure creates a feeling of encirclement and deadly silk tightening. Cold abrasive but controlled musical dissonance, sporadic dark low bowed surges, no sweet lyrical melody, no plucks, fast arpeggios or jaunty rhythm.",
+    "lyrics": "[Instrumental]",
+    "metas": {
+      "bpm": 72,
+      "duration": 25.0,
+      "genres": "N/A",
+      "keyscale": "E minor",
+      "timesignature": "4",
+      "prompt": "Dark fantasy horror battle score, bleak psychological action thriller instrumental music. A deadly encounter against monstrous predators in a night forest; desperate resistance and mortal danger. Sinister, oppressive, threatening, grave, emotionally cold, suffocating and hostile from the first second. Low E pedal with unresolved minor-second clusters and tritone friction; unstable chromatic harmony, dissonant sustained tones and heavy deliberate slow combat momentum. Tension grows through bow pressure, dark sustained timbres and measured weight, never through a bright catchy tune. No comforting harmonic resolution, no playful note patterns, no jaunty melody, no bouncing rhythm, no cheerful folk dance, pentatonic festive melody, plucked strings, pizzicato, shamisen, koto, bells, mallets, swing, jazz, waltz, march, uplifting heroism, victorious fanfare, major-key release, EDM drop, rock guitar, busy drum fills, hand claps or trailer explosions. Keep a continuous oppressive musical bed for narration and action throughout the entire clip. Controlled low-to-medium dynamics, dark low-register focus, no silence break, no dramatic final cadence. Pure instrumental music only, no vocals, speech, choir, screams, breathing sound effects, forest ambience, monster sounds, weapon sounds or environmental effects. Taut violin and viola bows hold close chromatic clashes and tense trembling textures above a deep cello pedal. Slow rising and falling bow pressure creates a feeling of encirclement and deadly silk tightening. Cold abrasive but controlled musical dissonance, sporadic dark low bowed surges, no sweet lyrical melody, no plucks, fast arpeggios or jaunty rhythm.",
+      "lyrics": "[Instrumental]"
+    },
+    "generation_info": "**🎵 Total generation time (1 song): 1.86s**\n- 1.86s per song\n- DiT phase (1 song): 1.86s",
+    "seed_value": "3313",
+    "lm_model": "acestep-5Hz-lm-0.6B",
+    "dit_model": "acestep-v15-turbo",
+    "progress": 1.0,
+    "stage": "succeeded"
+  },
+  "wav": {
+    "file": "candidate_03_taut_bows_seed3313_take02.wav",
+    "sha256": "7636d277e6883d46bde2ae62cd1705a5468bd74724b82bd2be5045671a9c5353",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "25.000000"
+      }
+    }
+  },
+  "ogg": {
+    "file": "candidate_03_taut_bows_seed3313_take02.ogg",
+    "sha256": "89ce95d1c27daf61564e2f6e2fb14ebca2be8b558835095b82fa9e5ac884d490",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.002902"
+      }
+    }
+  },
+  "technical_check": {
+    "decode": "passed",
+    "integrated_lufs": "-16.01",
+    "true_peak_dbtp": "-2.27",
+    "silence_intervals": [
+      "silence_start: 18.873923",
+      "silence_end: 19.624218 | silence_duration: 0.750295"
+    ]
+  },
+  "premaster_ogg": {
+    "file": "candidate_03_taut_bows_seed3313_take02_premaster.ogg",
+    "sha256": "fef08c781d40632758ccc9e3934ecb99ff61fe3d37efb953442d7d4cd2cff2bf",
+    "technical_check": {
+      "decode": "passed",
+      "integrated_lufs": "-15.88",
+      "true_peak_dbtp": "-1.41",
+      "silence_intervals": [
+        "silence_start: 18.87102",
+        "silence_end: 19.621338 | silence_duration: 0.750317"
+      ]
+    },
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  }
+}
