@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-09",
+  "cue": "BGM06_FOREST_ASSAULT",
+  "label": "01 低弦推進",
+  "request": {
+    "prompt": "Instrumental dark supernatural battle background music for a Japanese visual novel. A dangerous night forest ambush, insect familiars fighting a giant spider and a silk-controlling monster. Menacing minor-key tension, unresolved chromatic friction, urgent but measured forward movement. An immediately recognizable short musical motif and persistent restrained battle pulse from the first second. Deadly stakes, cold determination, mounting danger, neither playful nor triumphant. Compact instrumental ensemble, controlled dynamics, clear musical space for narrated action and dialogue. Maintain the same tension and musical activity throughout, no silence break or final cadence. Pure music only, no vocals, speech, choir, environmental sounds, monster sounds, weapon effects or impacts. No cheerful folk dance, swing, jazz, victory fanfare, heroic major melody, rock guitar, EDM drop, massive trailer hits, jump scares, explosive climax or excessively busy solos. Low cello and viola ostinato lead with short tense bowed phrases, uneasy violin tremolo above; quiet bass clarinet sustains and sparse muted low drum accents. A precise stalking pulse, mobile close combat, restrained and ominous orchestral chamber texture.",
+    "lyrics": "[Instrumental]",
+    "thinking": true,
+    "use_format": false,
+    "use_cot_caption": false,
+    "use_cot_language": false,
+    "bpm": 92,
+    "key_scale": "D minor",
+    "time_signature": "4",
+    "vocal_language": "unknown",
+    "audio_duration": 25,
+    "inference_steps": 8,
+    "batch_size": 1,
+    "use_random_seed": false,
+    "seed": 3301,
+    "model": "acestep-v15-turbo",
+    "lm_model_path": "acestep-5Hz-lm-0.6B",
+    "lm_backend": "vllm",
+    "audio_format": "wav",
+    "lm_negative_prompt": "vocals, singing, speech, choir, cheerful, playful, swing, jazz, heroic victory fanfare, EDM, rock guitar, explosive trailer hits, environmental sounds, sound effects"
+  },
+  "processing": {
+    "excerpt_seconds": 20,
+    "source_requested_seconds": 25,
+    "fade_in_seconds": 0.03,
+    "fade_out_seconds": 0.5,
+    "loop_processed": false,
+    "loudness_target_lufs": -16,
+    "true_peak_target_dbtp": -1.5
+  },
+  "task": {
+    "task_id": "52d7f5d5-1acd-4743-9084-80b470ab5718",
+    "status": "queued",
+    "queue_position": 1
+  },
+  "result": {
+    "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5Cf2b1674c-3b26-b29a-7f0a-431cc4168688.wav",
+    "wave": "",
+    "status": 1,
+    "create_time": 1791477609,
+    "env": "development",
+    "prompt": "Instrumental dark supernatural battle background music for a Japanese visual novel. A dangerous night forest ambush, insect familiars fighting a giant spider and a silk-controlling monster. Menacing minor-key tension, unresolved chromatic friction, urgent but measured forward movement. An immediately recognizable short musical motif and persistent restrained battle pulse from the first second. Deadly stakes, cold determination, mounting danger, neither playful nor triumphant. Compact instrumental ensemble, controlled dynamics, clear musical space for narrated action and dialogue. Maintain the same tension and musical activity throughout, no silence break or final cadence. Pure music only, no vocals, speech, choir, environmental sounds, monster sounds, weapon effects or impacts. No cheerful folk dance, swing, jazz, victory fanfare, heroic major melody, rock guitar, EDM drop, massive trailer hits, jump scares, explosive climax or excessively busy solos. Low cello and viola ostinato lead with short tense bowed phrases, uneasy violin tremolo above; quiet bass clarinet sustains and sparse muted low drum accents. A precise stalking pulse, mobile close combat, restrained and ominous orchestral chamber texture.",
+    "lyrics": "[Instrumental]",
+    "metas": {
+      "bpm": 92,
+      "duration": 25.0,
+      "genres": "N/A",
+      "keyscale": "D minor",
+      "timesignature": "4",
+      "prompt": "Instrumental dark supernatural battle background music for a Japanese visual novel. A dangerous night forest ambush, insect familiars fighting a giant spider and a silk-controlling monster. Menacing minor-key tension, unresolved chromatic friction, urgent but measured forward movement. An immediately recognizable short musical motif and persistent restrained battle pulse from the first second. Deadly stakes, cold determination, mounting danger, neither playful nor triumphant. Compact instrumental ensemble, controlled dynamics, clear musical space for narrated action and dialogue. Maintain the same tension and musical activity throughout, no silence break or final cadence. Pure music only, no vocals, speech, choir, environmental sounds, monster sounds, weapon effects or impacts. No cheerful folk dance, swing, jazz, victory fanfare, heroic major melody, rock guitar, EDM drop, massive trailer hits, jump scares, explosive climax or excessively busy solos. Low cello and viola ostinato lead with short tense bowed phrases, uneasy violin tremolo above; quiet bass clarinet sustains and sparse muted low drum accents. A precise stalking pulse, mobile close combat, restrained and ominous orchestral chamber texture.",
+      "lyrics": "[Instrumental]"
+    },
+    "generation_info": "**🎵 Total generation time (1 song): 13.23s**\n- 13.23s per song\n- LM phase (1 song): 5.81s\n- DiT phase (1 song): 7.42s",
+    "seed_value": "3301",
+    "lm_model": "acestep-5Hz-lm-0.6B",
+    "dit_model": "acestep-v15-turbo",
+    "progress": 1.0,
+    "stage": "succeeded"
+  },
+  "wav": {
+    "file": "candidate_01_low_strings_seed3301.wav",
+    "sha256": "3e764ed1fd1dcdba2814138c5c64d6da0bb165dc18da2a285997c79f1d70111b",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "25.000000"
+      }
+    }
+  },
+  "ogg": {
+    "file": "candidate_01_low_strings_seed3301.ogg",
+    "sha256": "5e45927eb08a41c37ff70f7500f8338681795332b42dc76509b79b39db9408be",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "technical_check": {
+    "decode": "passed",
+    "integrated_lufs": "-16.17",
+    "true_peak_dbtp": "-2.48",
+    "silence_intervals": []
+  }
+}
