@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-08",
+  "approved_source": "long_04_phrase_guided_muted_strings_seed3203.wav",
+  "approved_source_sha256": "236ebabe5d0038fcd8a7239b36e9fe0c8e8ad697e6d8cff97f703c7784913480",
+  "processing": {
+    "new_generation": false,
+    "duration_seconds": 60,
+    "unchanged_opening_seconds": 56.25,
+    "tail_crossfade_seconds": 3.75,
+    "curve": "smoothstep convex crossfade",
+    "renpy_loop_start_seconds": 3.75,
+    "repeat_period_seconds": 56.25,
+    "period_basis": "three 18.75-second source template phrases; not a measured tempo",
+    "opening_pcm_max_error": 0.0,
+    "pcm_loop_boundary_step": 0.0014249291270971298
+  },
+  "wav": {
+    "file": "long_04_phrase_guided_muted_strings_seed3203_loop_intro.wav",
+    "sha256": "b6617a946fa0ae2906c97a5896bb250ead014351019867bab642fb4cb6c81b47"
+  },
+  "ogg": {
+    "file": "long_04_phrase_guided_muted_strings_seed3203_loop_intro.ogg",
+    "sha256": "0d5199bc0b8eb16d4c5504089a149ec7a67b08db8fe8d2b63d1432b2bf5e4645",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "60.000000"
+      }
+    }
+  },
+  "qa": {
+    "decode": "passed",
+    "integrated_lufs": "-16.16",
+    "true_peak_dbtp": "-1.76",
+    "silence_intervals": []
+  },
+  "approval": {
+    "music": "approved by user 2026-10-08",
+    "game_loop": "awaiting user in-game audition"
+  },
+  "game_integration": {
+    "file": "03_開發/JingZhe/game/audio/music/bgm_silk_under_door.ogg",
+    "sha256": "0d5199bc0b8eb16d4c5504089a149ec7a67b08db8fe8d2b63d1432b2bf5e4645",
+    "channel": "music",
+    "fade_seconds": 1.5,
+    "loop_spec": "<loop 3.75>",
+    "cues": [
+      "chapter_4 forest threat",
+      "chapter_4 corridor silk through chapter_5",
+      "chapter_6 corridor investigation",
+      "chapter_6 after mailbox scent masking"
+    ],
+    "lint": "RenPy 8.5.2 passed",
+    "audition_warp": "script.rpy:519",
+    "runtime_playing_verified": true
+  }
+}

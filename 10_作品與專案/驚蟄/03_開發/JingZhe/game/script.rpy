@@ -511,7 +511,7 @@ label chapter_4:
 
     narrator "不是聲音，而是一種被注視的重量。"
 
-    stop music fadeout 1.5
+    play music "<loop 3.75>audio/music/bgm_silk_under_door.ogg" loop fadeout 1.5 fadein 1.5
 
     scene bg forest_path
     with fade
@@ -566,6 +566,8 @@ label chapter_4:
 
     narrator "夢見點點頭，沒有再問。"
     narrator "她們都很自然地接受他的沉默。"
+
+    play music "<loop 3.75>audio/music/bgm_silk_under_door.ogg" loop fadeout 1.5 fadein 1.5
 
     scene bg inn_corridor_night
     with fade
@@ -927,7 +929,7 @@ label chapter_6:
 
     narrator "像是那裡還殘著她不敢再看的東西。"
 
-    stop music fadeout 1.5
+    play music "<loop 3.75>audio/music/bgm_silk_under_door.ogg" loop fadeout 1.5 fadein 1.5
 
     scene bg inn_corridor_day
     with dissolve
@@ -966,6 +968,8 @@ label chapter_6:
     narrator "畫完後，他把郵箱收進房梁的暗格。"
 
     narrator "又用淡淡的蟲香封住氣味，像是把訊號埋進霧裡。"
+
+    play music "<loop 3.75>audio/music/bgm_silk_under_door.ogg" loop fadeout 1.5 fadein 1.5
 
     scene bg inn_hall_evening
     with dissolve

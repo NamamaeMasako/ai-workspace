@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-08",
+  "dev_gamedir": "03_開發/JingZhe/game",
+  "warp": "script.rpy:519",
+  "visible_scene": "forest_path: 同一時間，遠處的林道上，有東西正在移動。",
+  "playing": "<loop 3.75>audio/music/bgm_silk_under_door.ogg",
+  "music_volume": 1.0,
+  "music_muted": false,
+  "master_muted": false,
+  "first_observation": {
+    "timestamp": 1791461894.6640346,
+    "position": 18.176,
+    "location": [
+      "game/script.rpy",
+      519
+    ]
+  },
+  "last_observation": {
+    "timestamp": 1791462021.8547058,
+    "position": 32.865,
+    "location": [
+      "game/script.rpy",
+      519
+    ]
+  },
+  "loop_check": {
+    "elapsed_seconds": 127.19067120552063,
+    "repeat_period_seconds": 56.25,
+    "wraps": 2,
+    "position_timing_error_seconds": 0.0016712055206227205,
+    "result": "playing position wrapped and continued"
+  },
+  "lint": "RenPy 8.5.2 passed",
+  "user_audition": "pending; software state does not establish user listening judgement"
+}
