@@ -1,6 +1,6 @@
 # 《驚蟄》音訊 Cue Sheet rev.1
 
-狀態：施工中；BGM01–04 已正式定案並導入遊戲，BGM05 的 long_04 悶音弦樂已選定並導入開發遊戲，待場景與循環聽感確認；BGM06–07、環境音與 SFX 尚待製作。
+狀態：施工中；BGM01–05 已正式定案並導入開發遊戲；BGM06–07、環境音與 SFX 尚待製作。
 
 範圍：BGM、環境音、關鍵 SFX；配音另案試鏡。  
 基準腳本：`03_開發/JingZhe/game/script.rpy` v0.1.2。
@@ -52,6 +52,7 @@ game/audio/sfx/battle/
   - 2026-10-08 後續：生前認為 `long_02` 新版 03 方向正確，但原 20 秒短版 03 更好聽。已完成 `long_03_short_continuation_muted_strings_seed3203.ogg`（60 秒），保留原短版前 18 秒，18–19 秒交疊後接續新生成的後段；待確認接續、音樂感與場景情緒，尚未正式採用。
   - 2026-10-08 再修正：生前認為 `long_03` 接續後的節奏與前段不一致。已完成 `long_04_phrase_guided_muted_strings_seed3203.ogg`（60 秒），以原短版樂句回歸作全曲結構參考，採 source-guided cover 限制節奏與樂句漂移；待試聽確認，歷次候選均保留。
   - 2026-10-08 選定並實裝：生前採用 `long_04` 悶音弦樂；`long_04_phrase_guided_muted_strings_seed3203_loop_intro.ogg` 首次 60 秒、後續由 3.75 秒起循環（56.25 秒週期），前 56.25 秒保留選定母檔。遊戲副本 `game/audio/music/bgm_silk_under_door.ogg`，SHA-256 `0D5199BC0B8EB16D4C5504089A149EC7A67B08DB8FE8D2B63D1432B2BF5E4645`，44.1 kHz 立體聲；第四章林道／走廊、第五章受控、第六章調查／封味後以 music 通道播放，各轉場 1.5 秒。曲目已選定，場景適配及循環待生前實機確認。
+  - 2026-10-08 實機確認：生前於第四章林道試聽後回覆「OK」，正式採用 long_04 循環版及目前遊戲配置；BGM05 定案。
 - `BGM06_FOREST_ASSAULT`／`bgm_forest_assault.ogg`
   - 第七、八章戰鬥。
   - 同一主題可做一般／苦香強化兩段或兩個可無縫銜接版本。
