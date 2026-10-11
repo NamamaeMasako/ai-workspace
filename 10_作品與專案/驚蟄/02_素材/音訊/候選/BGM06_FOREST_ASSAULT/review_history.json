@@ -33,8 +33,13 @@
         "candidate_03_pursuit_strings_seed3323_take03.ogg",
         "candidate_04_encircled_combat_seed3324_take03.ogg"
       ],
-      "decision": "awaiting user audition",
-      "music_direction": "dark active combat with urgent forward rhythmic momentum"
+      "decision": "candidate 03 selected for long-form production",
+      "music_direction": "dark active combat with urgent forward rhythmic momentum",
+      "review_date": "2026-10-11",
+      "user_feedback": "用第三版",
+      "selected_file": "candidate_03_pursuit_strings_seed3323_take03.ogg",
+      "long_candidate": "longform/long_01_phrase_guided_pursuit_strings_seed3323.ogg",
+      "long_status": "awaiting user long audition"
     }
   ]
 }
