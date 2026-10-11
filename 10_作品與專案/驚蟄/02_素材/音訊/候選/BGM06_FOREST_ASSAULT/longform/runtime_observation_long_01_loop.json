@@ -16,5 +16,6 @@
   },
   "visual_scene": "第七章：髮切先衝上去，鐮刃交錯，逼得牠抬頭防守。",
   "engine": "existing local RenPy runtime, explicit development basedir",
-  "user_in_game_audition": "pending; software state does not establish listening judgement"
+  "user_in_game_audition": "approved by user 2026-10-11: 可以",
+  "approval_scope": "current loop and scene configuration formally adopted"
 }

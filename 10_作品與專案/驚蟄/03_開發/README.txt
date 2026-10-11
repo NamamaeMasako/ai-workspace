@@ -10,7 +10,7 @@
 - Windows 獨立版輸出至 `05_成品/`。
 - `BGM01_LANTERN` seed 2802 箏版已導入主選單；`BGM02_MOON_INN_DAY` long_04 尺八版已導入日間段落；`BGM03_MOON_INN_NIGHT` seed 3003 柔鋼琴 `loop_xfade06` 版已導入月下庄夜間段落。`BGM04_BLACK_CARD_MEMORY` 的酒館 `long_03` 循環版與黑卡 `long_04` 懸疑版已接入第三章，並於 2026-10-02 經生前實機試聽確認採用。以上皆透過音樂通道循環並由設定頁「音樂音量」控制；完整規劃見 `02_素材/音訊/音訊CueSheet_rev.1.md`。
 
-- BGM05 悶音弦樂 long_04 已於 2026-10-08 正式定案並導入第四至六章；BGM06 弦鼓追殺 long_01 長版已於 2026-10-11 核可，循環副本已導入第七、八章交戰段，待實機場景與循環聽感確認。遊戲副本 `game/audio/music/bgm_forest_assault.ogg` 使用 `<loop 3.4285625>`，透過 music 通道與既有音量滑桿控制。
+- BGM05 悶音弦樂 long_04 已於 2026-10-08 正式定案並導入第四至六章；BGM06 弦鼓追殺 long_01 長版已於 2026-10-11 核可，循環副本已導入第七、八章交戰段，生前實機試聽後回覆「可以」，現行場景配置與循環正式定案。遊戲副本 `game/audio/music/bgm_forest_assault.ogg` 使用 `<loop 3.4285625>`，透過 music 通道與既有音量滑桿控制。
 
 主要檔案：
 - `game/script.rpy`：主劇本與分支流程。

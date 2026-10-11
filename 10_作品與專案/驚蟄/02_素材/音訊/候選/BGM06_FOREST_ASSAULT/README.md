@@ -1,10 +1,10 @@
 # BGM06_FOREST_ASSAULT 短版候選
 
-狀態：2026-10-11，生前已核可第三版「弦鼓追殺」60 秒長版；循環副本已導入開發遊戲並開到第七章交戰場景，待實機場景與循環確認。
+狀態：2026-10-11，生前已核可第三版「弦鼓追殺」60 秒長版；循環副本已導入開發遊戲並開到第七章交戰場景，生前實機試聽後回覆「可以」，現行場景配置與循環正式定案。
 
 ## 已選方向與長版
 
-選中 [03 弦鼓追殺](candidate_03_pursuit_strings_seed3323_take03.ogg)；長版 [long_01_phrase_guided_pursuit_strings_seed3323.ogg](longform/long_01_phrase_guided_pursuit_strings_seed3323.ogg)。詳見[長版製作紀錄](longform/README.md)。長版已核可，循環副本已導入開發遊戲；待場景與循環確認。
+選中 [03 弦鼓追殺](candidate_03_pursuit_strings_seed3323_take03.ogg)；長版 [long_01_phrase_guided_pursuit_strings_seed3323.ogg](longform/long_01_phrase_guided_pursuit_strings_seed3323.ogg)。詳見[長版製作紀錄](longform/README.md)。長版已核可，循環副本已導入開發遊戲；現行場景配置與循環已獲實機確認。
 
 ## take03 場景與製作方向
 
@@ -36,7 +36,7 @@
 | 03 | 20.000000 | -16.00 | -2.20 | 未偵測到 |
 | 04 | 20.000000 | -15.97 | -2.35 | 未偵測到 |
 
-近靜音門檻為低於 -45 dB 且持續至少 0.5 秒。WAV 與 OGG 完整解碼成功；技術結果不代替迫切感的聽感判斷。第三版長版已核可，循環與遊戲實裝已完成、待實機確認；苦香強化段待主題確立再延伸。
+近靜音門檻為低於 -45 dB 且持續至少 0.5 秒。WAV 與 OGG 完整解碼成功；技術結果不代替迫切感的聽感判斷。第三版長版已核可，循環與遊戲實裝已完成並獲實機確認；苦香強化段待主題確立再延伸。
 
 ## take02 歷程（節奏需修正）
 
