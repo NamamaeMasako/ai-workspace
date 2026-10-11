@@ -45,7 +45,13 @@
   "approval": {
     "music": "approved by user 2026-10-08",
     "game_loop": "approved by user 2026-10-08 after chapter_4 forest in-game audition",
-    "user_response": "OK"
+    "user_response": "OK",
+    "chapter_5_controlled_scene": {
+      "date": "2026-10-12",
+      "user_feedback": "我覺得目前的BGM算搭了，應該不用在另外做",
+      "audition_scene": "花見受控：笑得太甜，甜得像不是她。",
+      "decision": "retain approved BGM05 long_04 for chapter_5; no separate controlled-scene variant required"
+    }
   },
   "game_integration": {
     "file": "03_開發/JingZhe/game/audio/music/bgm_silk_under_door.ogg",
