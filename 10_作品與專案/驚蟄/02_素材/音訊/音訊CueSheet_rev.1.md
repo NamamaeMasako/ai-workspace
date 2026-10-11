@@ -1,6 +1,6 @@
 # 《驚蟄》音訊 Cue Sheet rev.1
 
-狀態：施工中；BGM01–06 已正式定案並導入開發遊戲；BGM07、環境音與 SFX 尚待製作。
+狀態：施工中；BGM01–06 已正式定案並導入開發遊戲；BGM07 四首短版待挑選，環境音與 SFX 尚待製作。
 
 範圍：BGM、環境音、關鍵 SFX；配音另案試鏡。  
 基準腳本：`03_開發/JingZhe/game/script.rpy` v0.1.2。
@@ -65,6 +65,7 @@ game/audio/sfx/battle/
 - `BGM07_DAWN_TOGETHER`／`bgm_dawn_together.ogg`
   - 真結局重聚、月下庄夜晚收束與清晨。
   - 回收 `BGM01` 動機，但更完整、更有呼吸。
+  - 2026-10-11：take01 四首約 20 秒候選完成，方向為箏與微光、鋼琴相依、弦樂歸途、竹笛晨風（seed 3401–3404）。已核可 BGM01 箏曲以 reference_audio 上傳、其 WAV 前 25 秒作 src_audio，引導結局主題回歸與配器變化；情緒為劫後安定、帶餘痛的溫柔陪伴，避免歡樂跳躍與凱旋。待試聽挑選，尚未製作長版或導入。詳見[候選製作紀錄](候選/BGM07_DAWN_TOGETHER/README.md)。
 
 ## 3. 環境音清單（6 組）
 

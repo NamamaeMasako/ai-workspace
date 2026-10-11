@@ -1,0 +1,140 @@
+{
+  "date": "2026-10-11",
+  "cue": "BGM07_DAWN_TOGETHER",
+  "label": "01 箏與微光",
+  "request": {
+    "prompt": "Guzheng carries the source melody in long gently connected phrases. Soft felt piano supports the guzheng with restrained low bowed strings. Slightly warmer and more open than the opening theme, a familiar lantern after surviving the night. No fast plucked runs, no sparkling bells. A quiet tender bittersweet ending cue for a dark fantasy visual novel. Three survivors return to a lantern-lit inn after a deadly night, stay close together, and quietly reach the following dawn. Reprise the provided opening-theme melodic contour as a more connected, gently breathing phrase. Relief and warmth with a trace of pain and exhaustion, intimate and dignified. Slow flowing legato, soft dynamics, warm transparent harmony, gradual gentle harmonic opening without a dramatic climax. Keep the Japanese acoustic identity and recognizable motif of the source; delicately reharmonize and reorchestrate it for togetherness. No battle ostinato, festive bounce, dance groove, swing, jazz, bright comedy, sugary romance, pop beat, heroic brass, triumphant fanfare or cinematic victory climax. Instrumental music only, no vocals, choir, speech, environmental sounds, insect noises or sound effects. A continuous delicate musical bed beneath dialogue, no extended silence, no sudden accents, no long intro or early outro. ",
+    "lyrics": "[Instrumental]",
+    "thinking": false,
+    "use_format": false,
+    "use_cot_caption": false,
+    "use_cot_language": false,
+    "bpm": 72,
+    "key_scale": "D minor",
+    "time_signature": "4",
+    "vocal_language": "unknown",
+    "audio_duration": 25,
+    "inference_steps": 8,
+    "batch_size": 1,
+    "use_random_seed": false,
+    "seed": 3401,
+    "model": "acestep-v15-turbo",
+    "task_type": "cover",
+    "cover_noise_strength": 0.45,
+    "audio_cover_strength": 1.0,
+    "audio_format": "wav"
+  },
+  "revision": "take01",
+  "review_basis": "first four short directions for the inn reunion and dawn ending; BGM01 theme reprise",
+  "processing": {
+    "excerpt_seconds": 20,
+    "source_requested_seconds": 25,
+    "fade_in_seconds": 0.03,
+    "fade_out_seconds": 0.5,
+    "loop_processed": false,
+    "loudness_target_lufs": -16,
+    "true_peak_target_dbtp": -1.5,
+    "audition_mastering": {
+      "fixed_gain_db": -0.8599999999999994,
+      "limiter_dbfs": -2.5,
+      "limiter_attack_ms": 5,
+      "limiter_release_ms": 50,
+      "latency_compensation": true,
+      "composition_changed": false,
+      "output_timestamp_filter": "asetpts=N/SR/TB after latency-compensated limiter"
+    }
+  },
+  "reference": {
+    "file": "BGM01_LANTERN/guzheng_longform/bgm01_lantern_guzheng_long_02_seed2802.ogg",
+    "sha256": "783c556b34aabd04f8e10aa8a831140dd352ca8f63ec9f094b1a715b0117d68c",
+    "submission_method": "multipart reference_audio upload"
+  },
+  "source_audio": {
+    "file": "bgm01_lantern_seed2802_reference_excerpt_25s.wav",
+    "sha256": "740314185e170a48790842dc4c6767946640bd4d12952bb7a4111dcb62022734",
+    "excerpt": "first 25 seconds of approved BGM01 mother WAV",
+    "submission_method": "multipart src_audio upload"
+  },
+  "task": {
+    "task_id": "caecf489-aaa1-4dc2-bd1c-58be6bc95e1f",
+    "status": "queued",
+    "queue_position": 1
+  },
+  "result": {
+    "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5Ca762333b-c521-f3c2-2031-7b403d0f9dd1.wav",
+    "wave": "",
+    "status": 1,
+    "create_time": 1791715036,
+    "env": "development",
+    "prompt": "Guzheng carries the source melody in long gently connected phrases. Soft felt piano supports the guzheng with restrained low bowed strings. Slightly warmer and more open than the opening theme, a familiar lantern after surviving the night. No fast plucked runs, no sparkling bells. A quiet tender bittersweet ending cue for a dark fantasy visual novel. Three survivors return to a lantern-lit inn after a deadly night, stay close together, and quietly reach the following dawn. Reprise the provided opening-theme melodic contour as a more connected, gently breathing phrase. Relief and warmth with a trace of pain and exhaustion, intimate and dignified. Slow flowing legato, soft dynamics, warm transparent harmony, gradual gentle harmonic opening without a dramatic climax. Keep the Japanese acoustic identity and recognizable motif of the source; delicately reharmonize and reorchestrate it for togetherness. No battle ostinato, festive bounce, dance groove, swing, jazz, bright comedy, sugary romance, pop beat, heroic brass, triumphant fanfare or cinematic victory climax. Instrumental music only, no vocals, choir, speech, environmental sounds, insect noises or sound effects. A continuous delicate musical bed beneath dialogue, no extended silence, no sudden accents, no long intro or early outro. ",
+    "lyrics": "[Instrumental]",
+    "metas": {
+      "bpm": 72,
+      "duration": 25.0,
+      "genres": "N/A",
+      "keyscale": "D minor",
+      "timesignature": "4",
+      "prompt": "Guzheng carries the source melody in long gently connected phrases. Soft felt piano supports the guzheng with restrained low bowed strings. Slightly warmer and more open than the opening theme, a familiar lantern after surviving the night. No fast plucked runs, no sparkling bells. A quiet tender bittersweet ending cue for a dark fantasy visual novel. Three survivors return to a lantern-lit inn after a deadly night, stay close together, and quietly reach the following dawn. Reprise the provided opening-theme melodic contour as a more connected, gently breathing phrase. Relief and warmth with a trace of pain and exhaustion, intimate and dignified. Slow flowing legato, soft dynamics, warm transparent harmony, gradual gentle harmonic opening without a dramatic climax. Keep the Japanese acoustic identity and recognizable motif of the source; delicately reharmonize and reorchestrate it for togetherness. No battle ostinato, festive bounce, dance groove, swing, jazz, bright comedy, sugary romance, pop beat, heroic brass, triumphant fanfare or cinematic victory climax. Instrumental music only, no vocals, choir, speech, environmental sounds, insect noises or sound effects. A continuous delicate musical bed beneath dialogue, no extended silence, no sudden accents, no long intro or early outro. ",
+      "lyrics": "[Instrumental]"
+    },
+    "generation_info": "**🎵 Total generation time (1 song): 8.95s**\n- 8.95s per song\n- DiT phase (1 song): 8.95s",
+    "seed_value": "3401",
+    "lm_model": "acestep-5Hz-lm-0.6B",
+    "dit_model": "acestep-v15-turbo",
+    "progress": 1.0,
+    "stage": "succeeded"
+  },
+  "wav": {
+    "file": "candidate_01_lantern_guzheng_seed3401_take01.wav",
+    "sha256": "48e3e183350d5dc4ccd568dbeb3dcb77bb1ef9b1f3a1b0156b1bf63737592916",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "25.000000"
+      }
+    }
+  },
+  "ogg": {
+    "file": "candidate_01_lantern_guzheng_seed3401_take01.ogg",
+    "sha256": "a8a281d3ec5b33117744dfdb75d771ba83af3289d4149c2bd9aca850abd5a16a",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "technical_check": {
+    "decode": "passed",
+    "decoder_error_output": "none",
+    "integrated_lufs": "-15.99",
+    "true_peak_dbtp": "-2.20",
+    "silence_intervals": []
+  },
+  "premaster_ogg": {
+    "file": "candidate_01_lantern_guzheng_seed3401_take01_premaster.ogg",
+    "sha256": "3f41e56268a7aad8fbcb8f93b7692735160a0782cf726b62e419c705be6d6a7d",
+    "technical_check": {
+      "decode": "passed",
+      "integrated_lufs": "-15.14",
+      "true_peak_dbtp": "-1.22",
+      "silence_intervals": []
+    }
+  }
+}

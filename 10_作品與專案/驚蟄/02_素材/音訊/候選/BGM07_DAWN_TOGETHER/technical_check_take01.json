@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-11",
+  "files": [
+    {
+      "file": "candidate_01_lantern_guzheng_seed3401_take01.ogg",
+      "decode": "passed",
+      "decoder_error_output": "none",
+      "integrated_lufs": "-15.99",
+      "true_peak_dbtp": "-2.20",
+      "silence_intervals": []
+    },
+    {
+      "file": "candidate_02_close_piano_seed3402_take01.ogg",
+      "decode": "passed",
+      "decoder_error_output": "none",
+      "integrated_lufs": "-16.01",
+      "true_peak_dbtp": "-2.19",
+      "silence_intervals": []
+    },
+    {
+      "file": "candidate_03_homeward_strings_seed3403_take01.ogg",
+      "decode": "passed",
+      "decoder_error_output": "none",
+      "integrated_lufs": "-16.09",
+      "true_peak_dbtp": "-2.19",
+      "silence_intervals": []
+    },
+    {
+      "file": "candidate_04_dawn_bamboo_seed3404_take01.ogg",
+      "decode": "passed",
+      "decoder_error_output": "none",
+      "integrated_lufs": "-15.97",
+      "true_peak_dbtp": "-2.21",
+      "silence_intervals": []
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "date": "2026-10-11",
+  "cue": "BGM07_DAWN_TOGETHER",
+  "label": "03 弦樂歸途",
+  "request": {
+    "prompt": "Gentle legato cello and viola carry the source melody, supported by very soft violin sustains and sparse guzheng resonance. Warm restrained chamber strings, small expressive breaths and connected phrases, tired survivors finally coming home. No forceful ostinatos, percussion or grand orchestral swell. A quiet tender bittersweet ending cue for a dark fantasy visual novel. Three survivors return to a lantern-lit inn after a deadly night, stay close together, and quietly reach the following dawn. Reprise the provided opening-theme melodic contour as a more connected, gently breathing phrase. Relief and warmth with a trace of pain and exhaustion, intimate and dignified. Slow flowing legato, soft dynamics, warm transparent harmony, gradual gentle harmonic opening without a dramatic climax. Keep the Japanese acoustic identity and recognizable motif of the source; delicately reharmonize and reorchestrate it for togetherness. No battle ostinato, festive bounce, dance groove, swing, jazz, bright comedy, sugary romance, pop beat, heroic brass, triumphant fanfare or cinematic victory climax. Instrumental music only, no vocals, choir, speech, environmental sounds, insect noises or sound effects. A continuous delicate musical bed beneath dialogue, no extended silence, no sudden accents, no long intro or early outro. ",
+    "lyrics": "[Instrumental]",
+    "thinking": false,
+    "use_format": false,
+    "use_cot_caption": false,
+    "use_cot_language": false,
+    "bpm": 72,
+    "key_scale": "D minor",
+    "time_signature": "4",
+    "vocal_language": "unknown",
+    "audio_duration": 25,
+    "inference_steps": 8,
+    "batch_size": 1,
+    "use_random_seed": false,
+    "seed": 3403,
+    "model": "acestep-v15-turbo",
+    "task_type": "cover",
+    "cover_noise_strength": 0.45,
+    "audio_cover_strength": 1.0,
+    "audio_format": "wav"
+  },
+  "revision": "take01",
+  "review_basis": "first four short directions for the inn reunion and dawn ending; BGM01 theme reprise",
+  "processing": {
+    "excerpt_seconds": 20,
+    "source_requested_seconds": 25,
+    "fade_in_seconds": 0.03,
+    "fade_out_seconds": 0.5,
+    "loop_processed": false,
+    "loudness_target_lufs": -16,
+    "true_peak_target_dbtp": -1.5,
+    "audition_mastering": {
+      "fixed_gain_db": -0.08000000000000007,
+      "limiter_dbfs": -2.5,
+      "limiter_attack_ms": 5,
+      "limiter_release_ms": 50,
+      "latency_compensation": true,
+      "composition_changed": false,
+      "output_timestamp_filter": "asetpts=N/SR/TB after latency-compensated limiter"
+    }
+  },
+  "reference": {
+    "file": "BGM01_LANTERN/guzheng_longform/bgm01_lantern_guzheng_long_02_seed2802.ogg",
+    "sha256": "783c556b34aabd04f8e10aa8a831140dd352ca8f63ec9f094b1a715b0117d68c",
+    "submission_method": "multipart reference_audio upload"
+  },
+  "source_audio": {
+    "file": "bgm01_lantern_seed2802_reference_excerpt_25s.wav",
+    "sha256": "740314185e170a48790842dc4c6767946640bd4d12952bb7a4111dcb62022734",
+    "excerpt": "first 25 seconds of approved BGM01 mother WAV",
+    "submission_method": "multipart src_audio upload"
+  },
+  "task": {
+    "task_id": "b0d6d5d0-6016-446a-8ad9-f894f4022dbe",
+    "status": "queued",
+    "queue_position": 1
+  },
+  "result": {
+    "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5Ce9426637-8759-75bd-00cb-1364b7a859f0.wav",
+    "wave": "",
+    "status": 1,
+    "create_time": 1791715224,
+    "env": "development",
+    "prompt": "Gentle legato cello and viola carry the source melody, supported by very soft violin sustains and sparse guzheng resonance. Warm restrained chamber strings, small expressive breaths and connected phrases, tired survivors finally coming home. No forceful ostinatos, percussion or grand orchestral swell. A quiet tender bittersweet ending cue for a dark fantasy visual novel. Three survivors return to a lantern-lit inn after a deadly night, stay close together, and quietly reach the following dawn. Reprise the provided opening-theme melodic contour as a more connected, gently breathing phrase. Relief and warmth with a trace of pain and exhaustion, intimate and dignified. Slow flowing legato, soft dynamics, warm transparent harmony, gradual gentle harmonic opening without a dramatic climax. Keep the Japanese acoustic identity and recognizable motif of the source; delicately reharmonize and reorchestrate it for togetherness. No battle ostinato, festive bounce, dance groove, swing, jazz, bright comedy, sugary romance, pop beat, heroic brass, triumphant fanfare or cinematic victory climax. Instrumental music only, no vocals, choir, speech, environmental sounds, insect noises or sound effects. A continuous delicate musical bed beneath dialogue, no extended silence, no sudden accents, no long intro or early outro. ",
+    "lyrics": "[Instrumental]",
+    "metas": {
+      "bpm": 72,
+      "duration": 25.0,
+      "genres": "N/A",
+      "keyscale": "D minor",
+      "timesignature": "4",
+      "prompt": "Gentle legato cello and viola carry the source melody, supported by very soft violin sustains and sparse guzheng resonance. Warm restrained chamber strings, small expressive breaths and connected phrases, tired survivors finally coming home. No forceful ostinatos, percussion or grand orchestral swell. A quiet tender bittersweet ending cue for a dark fantasy visual novel. Three survivors return to a lantern-lit inn after a deadly night, stay close together, and quietly reach the following dawn. Reprise the provided opening-theme melodic contour as a more connected, gently breathing phrase. Relief and warmth with a trace of pain and exhaustion, intimate and dignified. Slow flowing legato, soft dynamics, warm transparent harmony, gradual gentle harmonic opening without a dramatic climax. Keep the Japanese acoustic identity and recognizable motif of the source; delicately reharmonize and reorchestrate it for togetherness. No battle ostinato, festive bounce, dance groove, swing, jazz, bright comedy, sugary romance, pop beat, heroic brass, triumphant fanfare or cinematic victory climax. Instrumental music only, no vocals, choir, speech, environmental sounds, insect noises or sound effects. A continuous delicate musical bed beneath dialogue, no extended silence, no sudden accents, no long intro or early outro. ",
+      "lyrics": "[Instrumental]"
+    },
+    "generation_info": "**🎵 Total generation time (1 song): 1.74s**\n- 1.74s per song\n- DiT phase (1 song): 1.74s",
+    "seed_value": "3403",
+    "lm_model": "acestep-5Hz-lm-0.6B",
+    "dit_model": "acestep-v15-turbo",
+    "progress": 1.0,
+    "stage": "succeeded"
+  },
+  "wav": {
+    "file": "candidate_03_homeward_strings_seed3403_take01.wav",
+    "sha256": "70fd7d0de0d8032f9c26c4bad12eab325c2b81b0874277f871ff97288f7d4f83",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "25.000000"
+      }
+    }
+  },
+  "ogg": {
+    "file": "candidate_03_homeward_strings_seed3403_take01.ogg",
+    "sha256": "9845848170151c98590d253e5b83af0f86f412125a87f045ba19ce53ca5f334b",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "19.999977"
+      }
+    }
+  },
+  "technical_check": {
+    "decode": "passed",
+    "decoder_error_output": "none",
+    "integrated_lufs": "-16.09",
+    "true_peak_dbtp": "-2.19",
+    "silence_intervals": []
+  },
+  "premaster_ogg": {
+    "file": "candidate_03_homeward_strings_seed3403_take01_premaster.ogg",
+    "sha256": "b752683297c3a1322d09088420074e74daff9887403eb9e1d806ff1fdda1d988",
+    "technical_check": {
+      "decode": "passed",
+      "integrated_lufs": "-15.92",
+      "true_peak_dbtp": "-1.15",
+      "silence_intervals": []
+    }
+  }
+}

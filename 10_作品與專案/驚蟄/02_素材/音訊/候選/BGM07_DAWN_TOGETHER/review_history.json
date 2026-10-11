@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-11",
+  "rounds": [
+    {
+      "round": "take01",
+      "files": [
+        "candidate_01_lantern_guzheng_seed3401_take01.ogg",
+        "candidate_02_close_piano_seed3402_take01.ogg",
+        "candidate_03_homeward_strings_seed3403_take01.ogg",
+        "candidate_04_dawn_bamboo_seed3404_take01.ogg"
+      ],
+      "decision": "awaiting user audition",
+      "music_direction": "BGM01 theme reprise for quiet bittersweet reunion and dawn"
+    }
+  ]
+}
