@@ -1,6 +1,6 @@
 # 《驚蟄》音訊 Cue Sheet rev.1
 
-狀態：施工中；BGM01–06 已正式定案並導入開發遊戲；BGM07「箏與微光」長版已核可、循環已導入開發遊戲，待實機確認，環境音與 SFX 尚待製作。
+狀態：BGM01–07 七組主 BGM 已全數正式定案並導入開發遊戲（共八個 OGG）；環境音六組與 SFX 三十二個尚待製作。BGM05／BGM06 獨立變體列為後續選配，現行沿用核可主題。
 
 範圍：BGM、環境音、關鍵 SFX；配音另案試鏡。  
 基準腳本：`03_開發/JingZhe/game/script.rpy` v0.1.2。
@@ -70,6 +70,8 @@ game/audio/sfx/battle/
   - 2026-10-12：生前喜歡第一版與主選單呼應的回歸主題感，選定「箏與微光」。已上傳原短版作 reference_audio、65 秒樂句模板作 src_audio，完成 60 秒長版；前 18 秒保留短版內容，18–19 秒交疊至延伸段。待確認銜接、主題辨識及結局情緒，詳見[長版紀錄](候選/BGM07_DAWN_TOGETHER/longform/README.md)。
 
   - 2026-10-12 長版核可與實裝：生前回覆「好，就用這版」，採用 long_01 箏與微光長版。已沿用核可 WAV 製作 `long_01_phrase_guided_lantern_guzheng_seed3401_loop_intro.ogg`，前 57 秒保留、末尾 3 秒交疊；首次 60 秒、後續 `<loop 3.0>` 回接，57 秒週期。遊戲副本 `game/audio/music/bgm_dawn_together.ogg`，SHA-256 `2484ed9fc1b46b450d77210e4533cbadb233c626d503ed6f0f7dd9d6b180be07`；真結局回月下庄時播放，延續至清晨煙斗餘味，end_game 切黑時淡出，使用 music 通道與既有音量設定。已開到 script.rpy:2605「月下庄的燈重新點起來。」畫面正常、新檔播放中且未靜音。場景與循環待生前實機確認。
+
+  - 2026-10-12 實機確認：生前於真結局回月下庄場景回覆「好」，正式採用 long_01 箏與微光循環副本及現行配置；BGM07 定案，七組主 BGM 全數完成。
 
 ## 3. 環境音清單（6 組）
 
@@ -204,7 +206,7 @@ game/audio/sfx/battle/
 ### 第八章／真結局（`chapter_8_choice`、`chapter_8_true_end`）
 
 - 「把卡留給自己」：`SFX18_CARD_PULSE`，不要播放 UI 勝利音。
-- 苦香強化：`SFX13_KISERU_IGNITE`＋`SFX21_INSECT_SUMMON`，BGM06 進強化段。
+- 苦香強化：`SFX13_KISERU_IGNITE`＋`SFX21_INSECT_SUMMON`，BGM06 現行沿用已核可戰鬥主題，獨立苦香強化段列為後續選配。
 - 林間決戰：沿用第七章戰鬥 cue，不為重複動作新增相近素材。
 - 「把香捏碎」：紙／乾草碎裂可由 `SFX08_PAPER_FOLD` 加工變體，第二批再決定是否新增。
 - 驚蟄受創／咳血：只在關鍵一次使用 `SFX32_COUGH_BLOOD`；其餘讓表演與停頓承擔。

@@ -15,11 +15,21 @@
       "user_feedback": "跟主選單用同一首有一種回歸主題的感覺，還不錯，先做第一版長版的試試",
       "selected_file": "candidate_01_lantern_guzheng_seed3401_take01.ogg",
       "long_candidate": "longform/long_01_phrase_guided_lantern_guzheng_seed3401.ogg",
-      "long_status": "user approved long music; awaiting in-game loop and scene audition",
+      "long_status": "formally adopted after user in-game confirmation",
       "long_review_date": "2026-10-12",
       "long_user_feedback": "好，就用這版",
       "game_file": "03_開發/JingZhe/game/audio/music/bgm_dawn_together.ogg",
-      "loop_file": "longform/long_01_phrase_guided_lantern_guzheng_seed3401_loop_intro.ogg"
+      "loop_file": "longform/long_01_phrase_guided_lantern_guzheng_seed3401_loop_intro.ogg",
+      "game_review_date": "2026-10-12",
+      "game_user_feedback": "好，至此是否全部BGM都完成了?"
     }
-  ]
+  ],
+  "formal_adoption": {
+    "date": "2026-10-12",
+    "source_long": "long_01_phrase_guided_lantern_guzheng_seed3401.ogg",
+    "loop_file": "longform/long_01_phrase_guided_lantern_guzheng_seed3401_loop_intro.ogg",
+    "game_file": "03_開發/JingZhe/game/audio/music/bgm_dawn_together.ogg",
+    "sha256": "2484ed9fc1b46b450d77210e4533cbadb233c626d503ed6f0f7dd9d6b180be07",
+    "user_feedback": "好，至此是否全部BGM都完成了?"
+  }
 }

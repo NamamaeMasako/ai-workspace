@@ -16,5 +16,6 @@
   },
   "visual_scene": "真結局回月下庄：月下庄的燈重新點起來。",
   "engine": "existing local RenPy 8.5.2 runtime with explicit development basedir",
-  "user_in_game_audition": "pending; software state does not establish listening judgement"
+  "user_in_game_audition": "approved by user 2026-10-12: 好，至此是否全部BGM都完成了?",
+  "approval_scope": "current loop and scene configuration formally adopted"
 }
