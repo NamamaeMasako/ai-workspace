@@ -1114,6 +1114,8 @@ label chapter_7_hanami_1:
 
     narrator "牠每一步都讓地面微震，像在逼近判決。"
 
+    play music "<loop 3.4285625>audio/music/bgm_forest_assault.ogg" loop fadeout 1.5 fadein 0.5
+
     show cg chapter7_tsuchigumo_assault zorder 100
     with dissolve
     show kamikiri attack at zh_battle_kamikiri_front zorder 5
@@ -1129,6 +1131,8 @@ label chapter_7_hanami_1:
     narrator "她的呼吸短促，卻不退。"
 
     narrator "驚蟄的蟲影纏住牠的視線，逼得土蜘蛛退到樹根間。"
+
+    stop music fadeout 1.5
 
     scene bg inn_exterior_night
     with dissolve
@@ -1224,11 +1228,15 @@ label chapter_7_hanami_1:
     show hanami battle at zh_battle_party_right
     narrator "門口的影子還沒散，絡新婦正要退走。"
 
+    play music "<loop 3.4285625>audio/music/bgm_forest_assault.ogg" loop fadeout 1.5 fadein 0.5
+
     narrator "花見的動作很大，很急，像把所有痛都甩出去。"
 
     narrator "驚蟄的蟲影從側面纏住她的腳。"
 
     narrator "一息之間，黑影碎成兩半。"
+
+    stop music fadeout 1.5
 
     narrator "那一瞬間，他們都明白了。"
 
@@ -1341,6 +1349,8 @@ label chapter_7_yumemi_1:
 
     narrator "牠的影子蓋下來時，連空氣都變重。"
 
+    play music "<loop 3.4285625>audio/music/bgm_forest_assault.ogg" loop fadeout 1.5 fadein 0.5
+
     show cg chapter7_tsuchigumo_assault zorder 100
     with dissolve
     show omukade ready at zh_battle_omukade_coiled_back zorder 1
@@ -1386,6 +1396,8 @@ label chapter_7_yumemi_1:
     narrator "髮切像被放出的刀光，追著那道細影竄上去。"
 
     narrator "鐮刃一閃，黑影斷成幾截，落地時只剩一圈散開的絲。"
+
+    stop music fadeout 1.5
 
     narrator "驚蟄沒有立刻鬆一口氣。"
 
@@ -1571,6 +1583,8 @@ label chapter_7_hanami_2:
 
     narrator "牠每一步都讓地面微震，像在逼近判決。"
 
+    play music "<loop 3.4285625>audio/music/bgm_forest_assault.ogg" loop fadeout 1.5 fadein 0.5
+
     show cg chapter7_tsuchigumo_assault zorder 100
     with dissolve
     show kamikiri attack at zh_battle_kamikiri_front zorder 5
@@ -1594,6 +1608,8 @@ label chapter_7_hanami_2:
     narrator "她的步伐稍微收了一點，依舊不退。"
 
     narrator "驚蟄的蟲影纏住牠的視線，逼得土蜘蛛退到樹根間。"
+
+    stop music fadeout 1.5
 
     scene bg inn_exterior_night
     with dissolve
@@ -1691,6 +1707,8 @@ label chapter_7_hanami_2:
     show hanami battle at zh_battle_party_right
     narrator "門口的影子還沒散，絡新婦正要退走。"
 
+    play music "<loop 3.4285625>audio/music/bgm_forest_assault.ogg" loop fadeout 1.5 fadein 0.5
+
     narrator "驚蟄甚至沒有讓花見先動。"
 
     jingzhe "這次不會。"
@@ -1700,6 +1718,8 @@ label chapter_7_hanami_2:
     narrator "花見的薙刀落下，乾淨得像切斷一根線。"
 
     narrator "黑影碎成兩半。"
+
+    stop music fadeout 1.5
 
     narrator "那一瞬間，他們都明白了。"
 
@@ -1829,6 +1849,8 @@ label chapter_7_yumemi_2:
 
     narrator "牠的影子蓋下來時，連空氣都變重。"
 
+    play music "<loop 3.4285625>audio/music/bgm_forest_assault.ogg" loop fadeout 1.5 fadein 0.5
+
     show cg chapter7_tsuchigumo_assault zorder 100
     with dissolve
     show omukade ready at zh_battle_omukade_coiled_back zorder 1
@@ -1878,6 +1900,8 @@ label chapter_7_yumemi_2:
     narrator "髮切像被放出的刀光，追著那道細影竄上去。"
 
     narrator "鐮刃一閃，黑影斷成幾截，落地時只剩一圈散開的絲。"
+
+    stop music fadeout 1.5
 
     narrator "驚蟄沒有立刻鬆一口氣。"
 
@@ -2180,6 +2204,8 @@ label chapter_8_true_end:
     show jingzhe battle at zh_true_battle_jingzhe_right zorder 3
     narrator "驚蟄吐出一口煙。"
 
+    play music "<loop 3.4285625>audio/music/bgm_forest_assault.ogg" loop fadeout 1.5 fadein 0.5
+
     scene cg chapter8_jingzhe_solo_battle
     with dissolve
 
@@ -2336,6 +2362,8 @@ label chapter_8_true_end:
     hide jorogumo
     hide kamikiri
     hide omukade
+
+    stop music fadeout 1.5
 
     narrator "驚蟄跪下去。"
 

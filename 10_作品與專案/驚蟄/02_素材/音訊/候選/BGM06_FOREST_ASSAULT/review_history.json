@@ -39,7 +39,11 @@
       "user_feedback": "用第三版",
       "selected_file": "candidate_03_pursuit_strings_seed3323_take03.ogg",
       "long_candidate": "longform/long_01_phrase_guided_pursuit_strings_seed3323.ogg",
-      "long_status": "awaiting user long audition"
+      "long_status": "user approved long version; awaiting in-game loop and scene audition",
+      "long_review_date": "2026-10-11",
+      "long_user_feedback": "可以，就這版",
+      "game_file": "03_開發/JingZhe/game/audio/music/bgm_forest_assault.ogg",
+      "loop_file": "longform/long_01_phrase_guided_pursuit_strings_seed3323_loop_intro.ogg"
     }
   ]
 }

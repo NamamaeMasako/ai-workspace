@@ -6,7 +6,7 @@
       "date": "2026-10-11",
       "cue": "BGM06_FOREST_ASSAULT",
       "label": "03 弦鼓追殺長版",
-      "status": "awaiting user long audition",
+      "status": "user approved long version; integrated loop awaiting in-game audition",
       "request": {
         "prompt": "Aggressive urgent string ostinatos and rapidly pounding low toms act together, narrow chromatic repeated figures, harsh controlled violin tremolo and cutting low brass accents. A relentless deadly pursuit and overwhelming close combat at high speed. Ominous pressure remains throughout, no heroic melody or triumphant brass theme. Dark fantasy active combat score for a deadly battle already underway in a night forest. Relentless immediate urgency, frantic defense, rapid attacks and counterattacks, no time to breathe. Fast driving rhythm starts immediately and stays active throughout the entire clip. Dense tightly articulated minor-key low-string ostinatos, rapid repeated bowed notes, short sharp syncopated accents and tense interlocking percussion carry the action forward. Sinister, hostile, desperate and grim; the fighters are struggling to survive, never celebrating. Low E pedal, narrow chromatic motifs, unresolved minor-second and tritone clashes, unstable threatening harmony. Maintain musical momentum beneath dialogue, controlled intensity and clear low-end weight. A continuous musical bed, no long rests, no slow spacious ambient passage, no sparse sustained-only texture. No playful bouncing tune, dance groove, cheerful folk melody, uplifting major-key release, heroic fanfare, victory cadence, swing, jazz, festive taiko, bells, mallets, plucked melody, EDM drop or rock guitar. Instrumental music only, no vocals, choir, speech, screams, monster sounds, weapon effects or forest ambience. No intro buildup, no outro slowdown, no final resolution.  Follow the provided source phrase timing, repeated string motif, articulation, percussion density and rhythmic drive throughout all 65 seconds. Preserve the selected urgent dark combat character from beginning to ending, with small instrumental variations only. No slower middle section, cheerful melody, new groove, sparse ambient breakdown, long rests or triumphant ending.",
         "lyrics": "[Instrumental]",
@@ -216,6 +216,11 @@
         "integrated_lufs": "-16.05",
         "true_peak_dbtp": "-2.09",
         "quiet_events": []
+      },
+      "approval": {
+        "date": "2026-10-11",
+        "user_feedback": "可以，就這版",
+        "scope": "long music version approved; in-game loop and scene awaiting confirmation"
       }
     }
   ]

@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-11",
+  "approved_source": "long_01_phrase_guided_pursuit_strings_seed3323.wav",
+  "approved_source_sha256": "78158cb32d601c13dbd1cf85d6e2ec860251df39bdf4689220f5a1616c269755",
+  "processing": {
+    "new_generation": false,
+    "duration_seconds": 60,
+    "unchanged_opening_seconds": 56.5714375,
+    "tail_crossfade_seconds": 3.4285625,
+    "curve": "smoothstep convex crossfade",
+    "renpy_loop_start_seconds": 3.4285625,
+    "repeat_period_seconds": 56.5714375,
+    "period_basis": "three source-template phrases, based on generation hint, not measured tempo",
+    "opening_pcm_max_error": 0.0,
+    "pcm_loop_boundary_step": 0.005839385092258453
+  },
+  "wav": {
+    "file": "long_01_phrase_guided_pursuit_strings_seed3323_loop_intro.wav",
+    "sha256": "851fb23f1131ef622e81eeb14509d8e21b2c54a0eb7bc1c01e030da6c05ab016"
+  },
+  "ogg": {
+    "file": "long_01_phrase_guided_pursuit_strings_seed3323_loop_intro.ogg",
+    "sha256": "fe1d4cd1a7aefd2b63cae15d9be7cece88597c4623f56981b309a4f5d91f2271",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "60.000000"
+      }
+    }
+  },
+  "qa": {
+    "decode": "passed",
+    "integrated_lufs": "-16.04",
+    "true_peak_dbtp": "-2.09",
+    "silence_intervals": []
+  },
+  "approval": {
+    "music": "approved by user 2026-10-11: 可以，就這版",
+    "game_loop": "awaiting user in-game audition"
+  },
+  "game_integration": {
+    "file": "03_開發/JingZhe/game/audio/music/bgm_forest_assault.ogg",
+    "sha256": "fe1d4cd1a7aefd2b63cae15d9be7cece88597c4623f56981b309a4f5d91f2271",
+    "channel": "music",
+    "loop_spec": "<loop 3.4285625>",
+    "fade_in_seconds": 0.5,
+    "fade_out_seconds": 1.5,
+    "cues": [
+      "chapter7 all four forest battles",
+      "chapter7 both gate counterattacks",
+      "chapter8 forest final battle"
+    ],
+    "stop_cues": [
+      "chapter7 cutaway to inn",
+      "chapter7 gate aftermath",
+      "chapter7 yumemi-route combat aftermath",
+      "chapter8 after last enemy falls"
+    ],
+    "audition_warp": "script.rpy:1122",
+    "runtime": "new BGM playing in development project",
+    "music_volume": 1.0,
+    "music_muted": false,
+    "master_muted": false,
+    "visible_scene": "chapter7_tsuchigumo_assault",
+    "visual_observation": "game shows the assault CG and first attack dialogue; no error screen"
+  }
+}
