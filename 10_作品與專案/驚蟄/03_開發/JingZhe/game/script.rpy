@@ -2597,6 +2597,8 @@ label chapter_8_true_end:
 
     narrator "像把整個三月都放下。"
 
+    play music "<loop 3.0>audio/music/bgm_dawn_together.ogg" loop fadeout 1.5 fadein 1.5
+
     scene bg inn_hall_night
     with fade
 
@@ -2626,6 +2628,8 @@ label chapter_8_true_end:
 
     jump end_game
 label end_game:
+    stop music fadeout 1.5
+
     scene black
     with fade
 

@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-12",
+  "observation": {
+    "timestamp": 1791739135.1364236,
+    "basedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe",
+    "gamedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe\\game",
+    "location": [
+      "game/script.rpy",
+      2605
+    ],
+    "playing": "<loop 3.0>audio/music/bgm_dawn_together.ogg",
+    "position": 19.757,
+    "music_volume": 1.0,
+    "music_muted": false,
+    "master_muted": false
+  },
+  "visual_scene": "真結局回月下庄：月下庄的燈重新點起來。",
+  "engine": "existing local RenPy 8.5.2 runtime with explicit development basedir",
+  "user_in_game_audition": "pending; software state does not establish listening judgement"
+}

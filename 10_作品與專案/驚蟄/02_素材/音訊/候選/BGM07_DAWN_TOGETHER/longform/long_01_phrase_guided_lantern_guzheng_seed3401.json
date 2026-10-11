@@ -2,7 +2,7 @@
   "date": "2026-10-12",
   "cue": "BGM07_DAWN_TOGETHER",
   "label": "01 箏與微光長版",
-  "status": "awaiting user long audition",
+  "status": "user approved long music; integrated loop awaiting in-game audition",
   "request": {
     "prompt": "Guzheng carries the source melody in long gently connected phrases. Soft felt piano supports the guzheng with restrained low bowed strings. Slightly warmer and more open than the opening theme, a familiar lantern after surviving the night. No fast plucked runs, no sparkling bells. A quiet tender bittersweet ending cue for a dark fantasy visual novel. Three survivors return to a lantern-lit inn after a deadly night, stay close together, and quietly reach the following dawn. Reprise the provided opening-theme melodic contour as a more connected, gently breathing phrase. Relief and warmth with a trace of pain and exhaustion, intimate and dignified. Slow flowing legato, soft dynamics, warm transparent harmony, gradual gentle harmonic opening without a dramatic climax. Keep the Japanese acoustic identity and recognizable motif of the source; delicately reharmonize and reorchestrate it for togetherness. No battle ostinato, festive bounce, dance groove, swing, jazz, bright comedy, sugary romance, pop beat, heroic brass, triumphant fanfare or cinematic victory climax. Instrumental music only, no vocals, choir, speech, environmental sounds, insect noises or sound effects. A continuous delicate musical bed beneath dialogue, no extended silence, no sudden accents, no long intro or early outro.  Follow the provided source phrase timing, recognizable guzheng motif, gentle note spacing and restrained accompaniment throughout all 65 seconds. Preserve the selected intimate bittersweet warmth and familiar homecoming theme from beginning to ending. Let phrases breathe and gently unfold with only small harmonic and instrumental variations. Keep the same unhurried pulse and delicate acoustic texture in the continuation. No new rhythmic groove, playful bounce, dramatic crescendo, triumphant ending, long rests or abrupt early outro.",
     "lyrics": "[Instrumental]",
@@ -213,5 +213,10 @@
     "integrated_lufs": "-16.10",
     "true_peak_dbtp": "-2.05",
     "quiet_events": []
+  },
+  "approval": {
+    "date": "2026-10-12",
+    "user_feedback": "好，就用這版",
+    "scope": "long music approved; in-game loop and scene awaiting confirmation"
   }
 }

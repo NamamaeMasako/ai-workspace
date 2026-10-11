@@ -15,7 +15,11 @@
       "user_feedback": "跟主選單用同一首有一種回歸主題的感覺，還不錯，先做第一版長版的試試",
       "selected_file": "candidate_01_lantern_guzheng_seed3401_take01.ogg",
       "long_candidate": "longform/long_01_phrase_guided_lantern_guzheng_seed3401.ogg",
-      "long_status": "awaiting user long audition"
+      "long_status": "user approved long music; awaiting in-game loop and scene audition",
+      "long_review_date": "2026-10-12",
+      "long_user_feedback": "好，就用這版",
+      "game_file": "03_開發/JingZhe/game/audio/music/bgm_dawn_together.ogg",
+      "loop_file": "longform/long_01_phrase_guided_lantern_guzheng_seed3401_loop_intro.ogg"
     }
   ]
 }

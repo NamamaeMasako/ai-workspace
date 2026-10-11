@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-12",
+  "approved_source": "long_01_phrase_guided_lantern_guzheng_seed3401.wav",
+  "approved_source_sha256": "92e1b5a8eb417552f2f9beea8d9eabc2597f8a7c23b764301c1eed520f37f7ab",
+  "processing": {
+    "new_generation": false,
+    "duration_seconds": 60,
+    "unchanged_opening_seconds": 57,
+    "tail_crossfade_seconds": 3,
+    "curve": "smoothstep convex crossfade",
+    "renpy_loop_start_seconds": 3.0,
+    "repeat_period_seconds": 57,
+    "period_basis": "three fixed 19-second source-template phrases, not measured tempo",
+    "opening_pcm_max_error": 0.0,
+    "pcm_loop_boundary_step": 0.0019748061895370483
+  },
+  "wav": {
+    "file": "long_01_phrase_guided_lantern_guzheng_seed3401_loop_intro.wav",
+    "sha256": "57b6ed86fba9f990a098d897cf21969da4e063dac146d2bf76867093777a44b7"
+  },
+  "ogg": {
+    "file": "long_01_phrase_guided_lantern_guzheng_seed3401_loop_intro.ogg",
+    "sha256": "2484ed9fc1b46b450d77210e4533cbadb233c626d503ed6f0f7dd9d6b180be07",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "60.000000"
+      }
+    }
+  },
+  "qa": {
+    "decode": "passed with no diagnostics",
+    "integrated_lufs": "-16.04",
+    "true_peak_dbtp": "-2.05",
+    "silence_intervals": []
+  },
+  "approval": {
+    "music": "approved by user 2026-10-12: 好，就用這版",
+    "game_loop": "awaiting user in-game audition"
+  },
+  "game_integration": {
+    "file": "03_開發/JingZhe/game/audio/music/bgm_dawn_together.ogg",
+    "sha256": "2484ed9fc1b46b450d77210e4533cbadb233c626d503ed6f0f7dd9d6b180be07",
+    "channel": "music",
+    "loop_spec": "<loop 3.0>",
+    "fade_in_seconds": 1.5,
+    "fade_out_seconds": 1.5,
+    "cues": [
+      "true ending return to Moon Inn",
+      "night togetherness through morning pipe epilogue"
+    ],
+    "stop_cues": [
+      "end_game before fade to black"
+    ],
+    "audition_warp": "script.rpy:2605",
+    "runtime": "new BGM playing in development project",
+    "music_volume": 1.0,
+    "music_muted": false,
+    "master_muted": false,
+    "visible_scene": "inn_hall_night",
+    "visual_observation": "night inn background and 月下庄的燈重新點起來。 dialogue; no error screen"
+  }
+}
