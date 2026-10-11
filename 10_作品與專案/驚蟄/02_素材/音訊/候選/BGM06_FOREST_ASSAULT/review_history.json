@@ -55,5 +55,11 @@
     "game_file": "03_開發/JingZhe/game/audio/music/bgm_forest_assault.ogg",
     "sha256": "fe1d4cd1a7aefd2b63cae15d9be7cece88597c4623f56981b309a4f5d91f2271",
     "user_feedback": "可以"
+  },
+  "bitter_incense_variant_decision": {
+    "date": "2026-10-12",
+    "user_feedback": "應該也不用，用同一首戰鬥曲就好",
+    "audition_scene": "第八章苦香強化交戰：髮切的鐮光先到。",
+    "decision": "retain approved BGM06 long_01 for bitter-incense empowered battle; no separate variant required"
   }
 }
