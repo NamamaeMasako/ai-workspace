@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-11",
+  "files": [
+    {
+      "file": "candidate_01_urgent_strings_seed3321_take03.ogg",
+      "decode": "passed",
+      "integrated_lufs": "-16.01",
+      "true_peak_dbtp": "-2.88",
+      "silence_intervals": []
+    },
+    {
+      "file": "candidate_02_tight_drums_seed3322_take03.ogg",
+      "decode": "passed",
+      "integrated_lufs": "-15.98",
+      "true_peak_dbtp": "-2.33",
+      "silence_intervals": []
+    },
+    {
+      "file": "candidate_03_pursuit_strings_seed3323_take03.ogg",
+      "decode": "passed",
+      "integrated_lufs": "-16.00",
+      "true_peak_dbtp": "-2.20",
+      "silence_intervals": []
+    },
+    {
+      "file": "candidate_04_encircled_combat_seed3324_take03.ogg",
+      "decode": "passed",
+      "integrated_lufs": "-15.97",
+      "true_peak_dbtp": "-2.35",
+      "silence_intervals": []
+    }
+  ]
+}

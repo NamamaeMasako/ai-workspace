@@ -1,0 +1,126 @@
+{
+  "date": "2026-10-11",
+  "cue": "BGM06_FOREST_ASSAULT",
+  "label": "02 緊鼓攻防",
+  "request": {
+    "prompt": "Rapid dark orchestral tom and muted taiko rhythms lead, tight interlocking eighth-note and sixteenth-note strokes, hard offbeat accents and brief subdivisions without stopping the underlying pulse. Low cello repeated bows and tense dissonant strings continuously support the drums. Desperate fast attack-and-defense exchanges, no celebratory groove. Dark fantasy active combat score for a deadly battle already underway in a night forest. Relentless immediate urgency, frantic defense, rapid attacks and counterattacks, no time to breathe. Fast driving rhythm starts immediately and stays active throughout the entire clip. Dense tightly articulated minor-key low-string ostinatos, rapid repeated bowed notes, short sharp syncopated accents and tense interlocking percussion carry the action forward. Sinister, hostile, desperate and grim; the fighters are struggling to survive, never celebrating. Low E pedal, narrow chromatic motifs, unresolved minor-second and tritone clashes, unstable threatening harmony. Maintain musical momentum beneath dialogue, controlled intensity and clear low-end weight. A continuous musical bed, no long rests, no slow spacious ambient passage, no sparse sustained-only texture. No playful bouncing tune, dance groove, cheerful folk melody, uplifting major-key release, heroic fanfare, victory cadence, swing, jazz, festive taiko, bells, mallets, plucked melody, EDM drop or rock guitar. Instrumental music only, no vocals, choir, speech, screams, monster sounds, weapon effects or forest ambience. No intro buildup, no outro slowdown, no final resolution. ",
+    "lyrics": "[Instrumental]",
+    "thinking": false,
+    "use_format": false,
+    "use_cot_caption": false,
+    "use_cot_language": false,
+    "bpm": 132,
+    "key_scale": "E minor",
+    "time_signature": "4",
+    "vocal_language": "unknown",
+    "audio_duration": 25,
+    "inference_steps": 8,
+    "batch_size": 1,
+    "use_random_seed": false,
+    "seed": 3322,
+    "model": "acestep-v15-turbo",
+    "task_type": "text2music",
+    "audio_cover_strength": 1.0,
+    "audio_format": "wav"
+  },
+  "revision": "take03",
+  "review_basis": "take02 provides unease but lacks the urgent rhythmic momentum of active combat",
+  "processing": {
+    "excerpt_seconds": 20,
+    "source_requested_seconds": 25,
+    "fade_in_seconds": 0.03,
+    "fade_out_seconds": 0.5,
+    "loop_processed": false,
+    "loudness_target_lufs": -16,
+    "true_peak_target_dbtp": -1.5,
+    "audition_mastering": {
+      "fixed_gain_db": -0.6500000000000004,
+      "limiter_dbfs": -2.5,
+      "limiter_attack_ms": 5,
+      "limiter_release_ms": 50,
+      "latency_compensation": true,
+      "composition_changed": false
+    }
+  },
+  "task": {
+    "task_id": "7ce36e22-3cbf-4465-b7d2-fb5cfd253b11",
+    "status": "queued",
+    "queue_position": 1
+  },
+  "result": {
+    "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5Cf1135988-965b-6489-40f3-a9c8ca1f4fb3.wav",
+    "wave": "",
+    "status": 1,
+    "create_time": 1791706627,
+    "env": "development",
+    "prompt": "Rapid dark orchestral tom and muted taiko rhythms lead, tight interlocking eighth-note and sixteenth-note strokes, hard offbeat accents and brief subdivisions without stopping the underlying pulse. Low cello repeated bows and tense dissonant strings continuously support the drums. Desperate fast attack-and-defense exchanges, no celebratory groove. Dark fantasy active combat score for a deadly battle already underway in a night forest. Relentless immediate urgency, frantic defense, rapid attacks and counterattacks, no time to breathe. Fast driving rhythm starts immediately and stays active throughout the entire clip. Dense tightly articulated minor-key low-string ostinatos, rapid repeated bowed notes, short sharp syncopated accents and tense interlocking percussion carry the action forward. Sinister, hostile, desperate and grim; the fighters are struggling to survive, never celebrating. Low E pedal, narrow chromatic motifs, unresolved minor-second and tritone clashes, unstable threatening harmony. Maintain musical momentum beneath dialogue, controlled intensity and clear low-end weight. A continuous musical bed, no long rests, no slow spacious ambient passage, no sparse sustained-only texture. No playful bouncing tune, dance groove, cheerful folk melody, uplifting major-key release, heroic fanfare, victory cadence, swing, jazz, festive taiko, bells, mallets, plucked melody, EDM drop or rock guitar. Instrumental music only, no vocals, choir, speech, screams, monster sounds, weapon effects or forest ambience. No intro buildup, no outro slowdown, no final resolution. ",
+    "lyrics": "[Instrumental]",
+    "metas": {
+      "bpm": 132,
+      "duration": 25.0,
+      "genres": "N/A",
+      "keyscale": "E minor",
+      "timesignature": "4",
+      "prompt": "Rapid dark orchestral tom and muted taiko rhythms lead, tight interlocking eighth-note and sixteenth-note strokes, hard offbeat accents and brief subdivisions without stopping the underlying pulse. Low cello repeated bows and tense dissonant strings continuously support the drums. Desperate fast attack-and-defense exchanges, no celebratory groove. Dark fantasy active combat score for a deadly battle already underway in a night forest. Relentless immediate urgency, frantic defense, rapid attacks and counterattacks, no time to breathe. Fast driving rhythm starts immediately and stays active throughout the entire clip. Dense tightly articulated minor-key low-string ostinatos, rapid repeated bowed notes, short sharp syncopated accents and tense interlocking percussion carry the action forward. Sinister, hostile, desperate and grim; the fighters are struggling to survive, never celebrating. Low E pedal, narrow chromatic motifs, unresolved minor-second and tritone clashes, unstable threatening harmony. Maintain musical momentum beneath dialogue, controlled intensity and clear low-end weight. A continuous musical bed, no long rests, no slow spacious ambient passage, no sparse sustained-only texture. No playful bouncing tune, dance groove, cheerful folk melody, uplifting major-key release, heroic fanfare, victory cadence, swing, jazz, festive taiko, bells, mallets, plucked melody, EDM drop or rock guitar. Instrumental music only, no vocals, choir, speech, screams, monster sounds, weapon effects or forest ambience. No intro buildup, no outro slowdown, no final resolution. ",
+      "lyrics": "[Instrumental]"
+    },
+    "generation_info": "**🎵 Total generation time (1 song): 2.18s**\n- 2.18s per song\n- DiT phase (1 song): 2.18s",
+    "seed_value": "3322",
+    "lm_model": "acestep-5Hz-lm-0.6B",
+    "dit_model": "acestep-v15-turbo",
+    "progress": 1.0,
+    "stage": "succeeded"
+  },
+  "wav": {
+    "file": "candidate_02_tight_drums_seed3322_take03.wav",
+    "sha256": "3b3243f043dc3cddd7b5cbd849746d71b3881c716973e54d0a5991940008ea4c",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "25.000000"
+      }
+    }
+  },
+  "ogg": {
+    "file": "candidate_02_tight_drums_seed3322_take03.ogg",
+    "sha256": "b2b803041d479a5ad81e91520147a6c35b7a0886fd1b923bc6a74c5b9d56e61d",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "technical_check": {
+    "decode": "passed",
+    "integrated_lufs": "-15.98",
+    "true_peak_dbtp": "-2.33",
+    "silence_intervals": []
+  },
+  "premaster_ogg": {
+    "file": "candidate_02_tight_drums_seed3322_take03_premaster.ogg",
+    "sha256": "43f3325c439c075f1619eaedb59d281baaac249c1bef6320a024d31caa8666ac",
+    "technical_check": {
+      "decode": "passed",
+      "integrated_lufs": "-15.35",
+      "true_peak_dbtp": "-1.50",
+      "silence_intervals": []
+    }
+  }
+}
