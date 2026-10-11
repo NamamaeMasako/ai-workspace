@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-11",
+  "date": "2026-10-12",
   "rounds": [
     {
       "round": "take01",
@@ -9,8 +9,13 @@
         "candidate_03_homeward_strings_seed3403_take01.ogg",
         "candidate_04_dawn_bamboo_seed3404_take01.ogg"
       ],
-      "decision": "awaiting user audition",
-      "music_direction": "BGM01 theme reprise for quiet bittersweet reunion and dawn"
+      "decision": "candidate 01 selected for long-form production",
+      "music_direction": "BGM01 theme reprise for quiet bittersweet reunion and dawn",
+      "review_date": "2026-10-12",
+      "user_feedback": "跟主選單用同一首有一種回歸主題的感覺，還不錯，先做第一版長版的試試",
+      "selected_file": "candidate_01_lantern_guzheng_seed3401_take01.ogg",
+      "long_candidate": "longform/long_01_phrase_guided_lantern_guzheng_seed3401.ogg",
+      "long_status": "awaiting user long audition"
     }
   ]
 }

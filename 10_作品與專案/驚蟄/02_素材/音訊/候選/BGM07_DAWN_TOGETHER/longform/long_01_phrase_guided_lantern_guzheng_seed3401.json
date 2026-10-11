@@ -1,0 +1,217 @@
+{
+  "date": "2026-10-12",
+  "cue": "BGM07_DAWN_TOGETHER",
+  "label": "01 箏與微光長版",
+  "status": "awaiting user long audition",
+  "request": {
+    "prompt": "Guzheng carries the source melody in long gently connected phrases. Soft felt piano supports the guzheng with restrained low bowed strings. Slightly warmer and more open than the opening theme, a familiar lantern after surviving the night. No fast plucked runs, no sparkling bells. A quiet tender bittersweet ending cue for a dark fantasy visual novel. Three survivors return to a lantern-lit inn after a deadly night, stay close together, and quietly reach the following dawn. Reprise the provided opening-theme melodic contour as a more connected, gently breathing phrase. Relief and warmth with a trace of pain and exhaustion, intimate and dignified. Slow flowing legato, soft dynamics, warm transparent harmony, gradual gentle harmonic opening without a dramatic climax. Keep the Japanese acoustic identity and recognizable motif of the source; delicately reharmonize and reorchestrate it for togetherness. No battle ostinato, festive bounce, dance groove, swing, jazz, bright comedy, sugary romance, pop beat, heroic brass, triumphant fanfare or cinematic victory climax. Instrumental music only, no vocals, choir, speech, environmental sounds, insect noises or sound effects. A continuous delicate musical bed beneath dialogue, no extended silence, no sudden accents, no long intro or early outro.  Follow the provided source phrase timing, recognizable guzheng motif, gentle note spacing and restrained accompaniment throughout all 65 seconds. Preserve the selected intimate bittersweet warmth and familiar homecoming theme from beginning to ending. Let phrases breathe and gently unfold with only small harmonic and instrumental variations. Keep the same unhurried pulse and delicate acoustic texture in the continuation. No new rhythmic groove, playful bounce, dramatic crescendo, triumphant ending, long rests or abrupt early outro.",
+    "lyrics": "[Instrumental]",
+    "thinking": false,
+    "use_format": false,
+    "use_cot_caption": false,
+    "use_cot_language": false,
+    "bpm": 72,
+    "key_scale": "D minor",
+    "time_signature": "4",
+    "vocal_language": "unknown",
+    "audio_duration": 65,
+    "inference_steps": 8,
+    "batch_size": 1,
+    "use_random_seed": false,
+    "seed": 3401,
+    "model": "acestep-v15-turbo",
+    "task_type": "cover",
+    "cover_noise_strength": 0.65,
+    "audio_cover_strength": 1.0,
+    "audio_format": "wav"
+  },
+  "reference": {
+    "file": "candidate_01_lantern_guzheng_seed3401_take01.ogg",
+    "sha256": "a8a281d3ec5b33117744dfdb75d771ba83af3289d4149c2bd9aca850abd5a16a",
+    "submission_method": "multipart reference_audio upload"
+  },
+  "source_template": {
+    "file": "long_01_phrase_guided_lantern_guzheng_seed3401_source_template.wav",
+    "structure": {
+      "duration_seconds": 65,
+      "phrase_starts_seconds": [
+        0.0,
+        19.0,
+        38.0,
+        57.0
+      ],
+      "phrase_period_seconds": 19.0,
+      "overlap_seconds": 1.0,
+      "period_basis": "Fixed 19-second phrase-map interval with a 1-second overlap; not a measured beat alignment",
+      "uniform_gain_db": -0.29586688723477395
+    },
+    "sha256": "003416e1db55643042654a0fa0919961dfd3e0459fb04d4305424f26bf38a4f2"
+  },
+  "review_basis": "User selected take01 candidate 01 and liked the return to the main-menu theme; preserve familiarity and consistent gentle phrasing in extension",
+  "task": {
+    "task_id": "f6ab6838-64d8-4952-b4f3-3bec9d86ad32",
+    "status": "queued",
+    "queue_position": 1
+  },
+  "result": {
+    "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5C472221d8-f0a0-04f7-44db-b40ea9b4dc29.wav",
+    "wave": "",
+    "status": 1,
+    "create_time": 1791738418,
+    "env": "development",
+    "prompt": "Guzheng carries the source melody in long gently connected phrases. Soft felt piano supports the guzheng with restrained low bowed strings. Slightly warmer and more open than the opening theme, a familiar lantern after surviving the night. No fast plucked runs, no sparkling bells. A quiet tender bittersweet ending cue for a dark fantasy visual novel. Three survivors return to a lantern-lit inn after a deadly night, stay close together, and quietly reach the following dawn. Reprise the provided opening-theme melodic contour as a more connected, gently breathing phrase. Relief and warmth with a trace of pain and exhaustion, intimate and dignified. Slow flowing legato, soft dynamics, warm transparent harmony, gradual gentle harmonic opening without a dramatic climax. Keep the Japanese acoustic identity and recognizable motif of the source; delicately reharmonize and reorchestrate it for togetherness. No battle ostinato, festive bounce, dance groove, swing, jazz, bright comedy, sugary romance, pop beat, heroic brass, triumphant fanfare or cinematic victory climax. Instrumental music only, no vocals, choir, speech, environmental sounds, insect noises or sound effects. A continuous delicate musical bed beneath dialogue, no extended silence, no sudden accents, no long intro or early outro.  Follow the provided source phrase timing, recognizable guzheng motif, gentle note spacing and restrained accompaniment throughout all 65 seconds. Preserve the selected intimate bittersweet warmth and familiar homecoming theme from beginning to ending. Let phrases breathe and gently unfold with only small harmonic and instrumental variations. Keep the same unhurried pulse and delicate acoustic texture in the continuation. No new rhythmic groove, playful bounce, dramatic crescendo, triumphant ending, long rests or abrupt early outro.",
+    "lyrics": "[Instrumental]",
+    "metas": {
+      "bpm": 72,
+      "duration": 65.0,
+      "genres": "N/A",
+      "keyscale": "D minor",
+      "timesignature": "4",
+      "prompt": "Guzheng carries the source melody in long gently connected phrases. Soft felt piano supports the guzheng with restrained low bowed strings. Slightly warmer and more open than the opening theme, a familiar lantern after surviving the night. No fast plucked runs, no sparkling bells. A quiet tender bittersweet ending cue for a dark fantasy visual novel. Three survivors return to a lantern-lit inn after a deadly night, stay close together, and quietly reach the following dawn. Reprise the provided opening-theme melodic contour as a more connected, gently breathing phrase. Relief and warmth with a trace of pain and exhaustion, intimate and dignified. Slow flowing legato, soft dynamics, warm transparent harmony, gradual gentle harmonic opening without a dramatic climax. Keep the Japanese acoustic identity and recognizable motif of the source; delicately reharmonize and reorchestrate it for togetherness. No battle ostinato, festive bounce, dance groove, swing, jazz, bright comedy, sugary romance, pop beat, heroic brass, triumphant fanfare or cinematic victory climax. Instrumental music only, no vocals, choir, speech, environmental sounds, insect noises or sound effects. A continuous delicate musical bed beneath dialogue, no extended silence, no sudden accents, no long intro or early outro.  Follow the provided source phrase timing, recognizable guzheng motif, gentle note spacing and restrained accompaniment throughout all 65 seconds. Preserve the selected intimate bittersweet warmth and familiar homecoming theme from beginning to ending. Let phrases breathe and gently unfold with only small harmonic and instrumental variations. Keep the same unhurried pulse and delicate acoustic texture in the continuation. No new rhythmic groove, playful bounce, dramatic crescendo, triumphant ending, long rests or abrupt early outro.",
+      "lyrics": "[Instrumental]"
+    },
+    "generation_info": "**🎵 Total generation time (1 song): 5.76s**\n- 5.76s per song\n- DiT phase (1 song): 5.76s",
+    "seed_value": "3401",
+    "lm_model": "acestep-5Hz-lm-0.6B",
+    "dit_model": "acestep-v15-turbo",
+    "progress": 1.0,
+    "stage": "succeeded"
+  },
+  "processing": {
+    "preserved_opening_seconds": 18,
+    "crossfade_start": 18,
+    "crossfade_end": 19,
+    "fade_out_seconds": 0.5,
+    "continuation_gain_db": 0.010697964730332164,
+    "uniform_master_gain_db": -1.4297438902423443,
+    "opening_pcm_verified_before_encoding": true,
+    "preserved_pcm_sha256": "7b0ecace112d4f24b48f84779e5a8e237e083e1a820d73816c9d01a92b5365a9",
+    "loop_processed": false,
+    "audition_mastering": {
+      "fixed_gain_db": 1.6700000000000017,
+      "limiter_dbfs": -2.5,
+      "latency_compensation": true,
+      "timestamps_rebuilt": true,
+      "composition_changed": false,
+      "premaster_measurement": {
+        "integrated_lufs": "-17.67",
+        "true_peak_dbtp": "-2.00",
+        "quiet_events": []
+      }
+    }
+  },
+  "source_wav": {
+    "file": "long_01_phrase_guided_lantern_guzheng_seed3401_source_template.wav",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "65.000000"
+      }
+    },
+    "sha256": "003416e1db55643042654a0fa0919961dfd3e0459fb04d4305424f26bf38a4f2"
+  },
+  "raw_wav": {
+    "file": "long_01_phrase_guided_lantern_guzheng_seed3401_raw.wav",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "65.000000"
+      }
+    },
+    "sha256": "7071598b77d20d5d68e900df079dcfe30e3f14e14272046049e2f146d0dd01de"
+  },
+  "premaster_wav": {
+    "file": "long_01_phrase_guided_lantern_guzheng_seed3401_premaster.wav",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "60.000000"
+      }
+    },
+    "sha256": "998b99c8895dc14cc6852586591b33769217402301738a5ff6426f48d430d2fb"
+  },
+  "premaster_ogg": {
+    "file": "long_01_phrase_guided_lantern_guzheng_seed3401_premaster.ogg",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "60.000000"
+      }
+    },
+    "sha256": "4d958372cd999a7074df98c824f8eb90cfcda0eb590928a427bde7f5ceecd488"
+  },
+  "assembled_wav": {
+    "file": "long_01_phrase_guided_lantern_guzheng_seed3401.wav",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "60.000000"
+      }
+    },
+    "sha256": "92e1b5a8eb417552f2f9beea8d9eabc2597f8a7c23b764301c1eed520f37f7ab"
+  },
+  "ogg": {
+    "file": "long_01_phrase_guided_lantern_guzheng_seed3401.ogg",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "60.000000"
+      }
+    },
+    "sha256": "aa14b4eda295b2a1c3d76f5a8c1a2f04f0afd031f6bff1cfa52e8fa46ae37dd3"
+  },
+  "technical_check": {
+    "decode": "passed",
+    "integrated_lufs": "-16.10",
+    "true_peak_dbtp": "-2.05",
+    "quiet_events": []
+  }
+}
