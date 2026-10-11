@@ -1,0 +1,33 @@
+# attack／高速斬擊
+
+Use case: stylized-concept
+Asset type: production-ready full-body Ren'Py character sprite
+Input image: locked ready sprite; preserve identity, face, hair, proportions, outfit and forearm-blade anatomy with high fidelity.
+
+Create Kamikiri's high-speed attack pose: a compact forward diagonal cutting entry with the torso lowered, waist turned three-quarter, one leg forward and the rear leg braced. Both bodily forearm blades must be clearly connected to their segmented guards and cross through the attack line: one sweeping horizontally, the second diagonally, forming a readable intersecting double slash. Hair ends, waist ties and short haori cloth trail backward. Expression remains cold, focused and predatory. Keep the complete silhouette, antennae, blade tips and feet inside frame.
+
+No shoulder armor, handheld sickles, wings, flower-mantis markings, extra limbs, motion effects, smoke, text, watermark or cast shadow. Generate on a flat solid #ff00ff chroma-key background.
+
+# empowered／苦香強化
+
+Use case: identity-preserve
+Asset type: production-ready full-body Ren'Py character sprite
+Input image: the approved second-version low ready pose; preserve pose, anatomy, costume, hair, blade placement, framing and silhouette with extremely high fidelity.
+
+Keep the low forward ready stance unchanged. Add a heavy cold charcoal-black shadow across the upper face, strongest on the character's anatomical right side (viewer-left). Fully obscure the right eye beneath bangs and shadow, leaving only a tiny dim red point if visible. Keep the left eye (viewer-right) exposed with sharp saturated crimson glow and restrained local bloom. Preserve the calm closed mouth and readable pale lower face. Make blade edges subtly colder through highlights only.
+
+No pose change, black mask, grin, berserk expression, aura, magic circle, smoke, mutation, wings, shoulder armor, handheld weapons, extra limbs, text, watermark or cast shadow. Generate on a flat solid #ff00ff chroma-key background.
+
+Execution: built-in image generation mode; chroma-key sources locally converted to alpha PNG.
+
+# empowered_attack／苦香強化高速斬擊
+
+Use case: identity-preserve
+Asset type: production-ready full-body Ren'Py character sprite
+Input images: locked `attack` sprite as the pose target; locked `empowered` sprite as the enhancement reference.
+
+Preserve the exact forward attack pose, crossed forearm blades, body proportions, grass-green and narrow-white-streak hair, antennae, lightweight dark-green ninja clothing, segmented forearm guards, two bodily mantis blades and complete silhouette from `attack`. Apply only the empowered state's cold-black upper-face shadow and concentrated single red eye glow: the character's right eye (viewer-left) is swallowed by shadow, while the character's left eye (viewer-right) glows saturated red. Keep the lower face readable and the mouth restrained.
+
+No pose change, aura, smoke, magic circle, motion trail, shoulder armor, handheld weapons, redesign, extra limbs, cropped feet or cropped blades. Generate on a perfectly flat solid #ff00ff chroma-key background with no shadow, gradient, texture, floor plane, reflection or lighting variation.
+
+Execution: built-in image generation mode; chroma-key source locally converted to alpha PNG.
