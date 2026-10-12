@@ -37,7 +37,7 @@ label start:
 
 label prologue:
     stop ambience fadeout 0.5
-    play music "audio/music/bgm_lantern_theme.ogg" loop fadein 1.5
+    stop music fadeout 0.5
     scene bg road_twilight
     with fade
 
@@ -99,7 +99,7 @@ label prologue:
 
     jump chapter_1
 label chapter_1:
-    play music "audio/music/bgm_moon_inn_day.ogg" fadeout 1.5 fadein 1.5
+    play music "audio/music/bgm_moon_inn_day.ogg" fadein 1.5
     play ambience "audio/ambience/amb_inn_wood_room.ogg" loop fadeout 1.0 fadein 1.0
 
     scene bg inn_room_morning
