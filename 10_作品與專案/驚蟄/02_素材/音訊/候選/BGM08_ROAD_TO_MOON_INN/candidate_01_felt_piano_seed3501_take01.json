@@ -1,0 +1,126 @@
+{
+  "date": "2026-10-12",
+  "cue": "BGM08_ROAD_TO_MOON_INN",
+  "label": "01 晴夕柔鋼琴",
+  "request": {
+    "prompt": "Soft felt piano leads an uncomplicated gently connected melody in the middle register, with very restrained warm bowed cello support. Intimate, restful and quietly welcoming; no staccato bounce or dramatic melancholy. Quiet relaxed opening background cue for a dark fantasy visual novel, a solitary writer approaches a peaceful wooden inn on a twilight road and meets two welcoming hosts. Unhurried, calm, lightly warm and reflective, gently easing the listener into the story. A modest intimate acoustic ensemble, soft attacks, flowing restrained musical phrases and enough melody to support quiet conversation. Comfortable breathing space within a continuous musical bed, no long silence or sparse empty drone. Slow pace, gentle transparent harmony with a trace of wistfulness, no ominous danger or horror pressure. No fast plucked runs, busy arpeggios, bouncy rhythm, playful comedy, festive folk dance, sugary romance, jazz, swing, triumphant fanfare, epic climax, pounding drums, bright chiming bells, EDM or rock guitar. Instrumental music only, no voice, choir, speech, wind, rain, insects, crackling, environmental ambience or sound effects. No extended intro, early outro or silent ending. ",
+    "lyrics": "[Instrumental]",
+    "thinking": false,
+    "use_format": false,
+    "use_cot_caption": false,
+    "use_cot_language": false,
+    "bpm": 60,
+    "key_scale": "D major",
+    "time_signature": "4",
+    "vocal_language": "unknown",
+    "audio_duration": 25,
+    "inference_steps": 8,
+    "batch_size": 1,
+    "use_random_seed": false,
+    "seed": 3501,
+    "model": "acestep-v15-turbo",
+    "task_type": "text2music",
+    "audio_cover_strength": 1.0,
+    "audio_format": "wav"
+  },
+  "revision": "take01",
+  "review_basis": "User requested a fresh relaxed and quiet BGM shared by the twilight-road and inn-greeting prologue; earlier main-menu theme reuse was rejected",
+  "processing": {
+    "excerpt_seconds": 20,
+    "source_requested_seconds": 25,
+    "fade_in_seconds": 0.03,
+    "fade_out_seconds": 0.5,
+    "loop_processed": false,
+    "loudness_target_lufs": -16,
+    "true_peak_target_dbtp": -1.5,
+    "audition_mastering": {
+      "fixed_gain_db": -0.14000000000000057,
+      "limiter_dbfs": -2.5,
+      "limiter_attack_ms": 5,
+      "limiter_release_ms": 50,
+      "latency_compensation": true,
+      "composition_changed": false
+    }
+  },
+  "task": {
+    "task_id": "1c183561-faf8-4f4b-b4c3-33bfe91c54ff",
+    "status": "queued",
+    "queue_position": 1
+  },
+  "result": {
+    "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5Cf6116444-6f4a-1aff-b4aa-c33cb54b23f8.wav",
+    "wave": "",
+    "status": 1,
+    "create_time": 1791808255,
+    "env": "development",
+    "prompt": "Soft felt piano leads an uncomplicated gently connected melody in the middle register, with very restrained warm bowed cello support. Intimate, restful and quietly welcoming; no staccato bounce or dramatic melancholy. Quiet relaxed opening background cue for a dark fantasy visual novel, a solitary writer approaches a peaceful wooden inn on a twilight road and meets two welcoming hosts. Unhurried, calm, lightly warm and reflective, gently easing the listener into the story. A modest intimate acoustic ensemble, soft attacks, flowing restrained musical phrases and enough melody to support quiet conversation. Comfortable breathing space within a continuous musical bed, no long silence or sparse empty drone. Slow pace, gentle transparent harmony with a trace of wistfulness, no ominous danger or horror pressure. No fast plucked runs, busy arpeggios, bouncy rhythm, playful comedy, festive folk dance, sugary romance, jazz, swing, triumphant fanfare, epic climax, pounding drums, bright chiming bells, EDM or rock guitar. Instrumental music only, no voice, choir, speech, wind, rain, insects, crackling, environmental ambience or sound effects. No extended intro, early outro or silent ending. ",
+    "lyrics": "[Instrumental]",
+    "metas": {
+      "bpm": 60,
+      "duration": 25.0,
+      "genres": "N/A",
+      "keyscale": "D major",
+      "timesignature": "4",
+      "prompt": "Soft felt piano leads an uncomplicated gently connected melody in the middle register, with very restrained warm bowed cello support. Intimate, restful and quietly welcoming; no staccato bounce or dramatic melancholy. Quiet relaxed opening background cue for a dark fantasy visual novel, a solitary writer approaches a peaceful wooden inn on a twilight road and meets two welcoming hosts. Unhurried, calm, lightly warm and reflective, gently easing the listener into the story. A modest intimate acoustic ensemble, soft attacks, flowing restrained musical phrases and enough melody to support quiet conversation. Comfortable breathing space within a continuous musical bed, no long silence or sparse empty drone. Slow pace, gentle transparent harmony with a trace of wistfulness, no ominous danger or horror pressure. No fast plucked runs, busy arpeggios, bouncy rhythm, playful comedy, festive folk dance, sugary romance, jazz, swing, triumphant fanfare, epic climax, pounding drums, bright chiming bells, EDM or rock guitar. Instrumental music only, no voice, choir, speech, wind, rain, insects, crackling, environmental ambience or sound effects. No extended intro, early outro or silent ending. ",
+      "lyrics": "[Instrumental]"
+    },
+    "generation_info": "**🎵 Total generation time (1 song): 7.54s**\n- 7.54s per song\n- DiT phase (1 song): 7.54s",
+    "seed_value": "3501",
+    "lm_model": "acestep-5Hz-lm-0.6B",
+    "dit_model": "acestep-v15-turbo",
+    "progress": 1.0,
+    "stage": "succeeded"
+  },
+  "wav": {
+    "file": "candidate_01_felt_piano_seed3501_take01.wav",
+    "sha256": "d91edcfb638e0bae36b0287daa3c89cb6451929145c0421b9d58bc52d4bdae0c",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "25.000000"
+      }
+    }
+  },
+  "ogg": {
+    "file": "candidate_01_felt_piano_seed3501_take01.ogg",
+    "sha256": "fa41a1848b6ac3b958559aebc3b9a6b97f0480883842f589b503fefc608d3b7d",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "technical_check": {
+    "decode": "passed",
+    "integrated_lufs": "-16.08",
+    "true_peak_dbtp": "-2.24",
+    "silence_intervals": []
+  },
+  "premaster_ogg": {
+    "file": "candidate_01_felt_piano_seed3501_take01_premaster.ogg",
+    "sha256": "129dc2b24492e2baff9e993945d6d22bcbd03afc4c215f1723346384093bdc21",
+    "technical_check": {
+      "decode": "passed",
+      "integrated_lufs": "-15.86",
+      "true_peak_dbtp": "-1.34",
+      "silence_intervals": []
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "date": "2026-10-12",
+  "cue": "BGM08_ROAD_TO_MOON_INN",
+  "label": "02 靜路輕箏",
+  "request": {
+    "prompt": "Soft warm guzheng leads slow legato-like connected plucked phrases, delicate low bowed strings and a few distant gentle piano notes support. A quietly relaxed travel mood, no virtuosic runs, rhythmic plucking ostinato or comic sparkle. Quiet relaxed opening background cue for a dark fantasy visual novel, a solitary writer approaches a peaceful wooden inn on a twilight road and meets two welcoming hosts. Unhurried, calm, lightly warm and reflective, gently easing the listener into the story. A modest intimate acoustic ensemble, soft attacks, flowing restrained musical phrases and enough melody to support quiet conversation. Comfortable breathing space within a continuous musical bed, no long silence or sparse empty drone. Slow pace, gentle transparent harmony with a trace of wistfulness, no ominous danger or horror pressure. No fast plucked runs, busy arpeggios, bouncy rhythm, playful comedy, festive folk dance, sugary romance, jazz, swing, triumphant fanfare, epic climax, pounding drums, bright chiming bells, EDM or rock guitar. Instrumental music only, no voice, choir, speech, wind, rain, insects, crackling, environmental ambience or sound effects. No extended intro, early outro or silent ending. ",
+    "lyrics": "[Instrumental]",
+    "thinking": false,
+    "use_format": false,
+    "use_cot_caption": false,
+    "use_cot_language": false,
+    "bpm": 64,
+    "key_scale": "D major",
+    "time_signature": "4",
+    "vocal_language": "unknown",
+    "audio_duration": 25,
+    "inference_steps": 8,
+    "batch_size": 1,
+    "use_random_seed": false,
+    "seed": 3502,
+    "model": "acestep-v15-turbo",
+    "task_type": "text2music",
+    "audio_cover_strength": 1.0,
+    "audio_format": "wav"
+  },
+  "revision": "take01",
+  "review_basis": "User requested a fresh relaxed and quiet BGM shared by the twilight-road and inn-greeting prologue; earlier main-menu theme reuse was rejected",
+  "processing": {
+    "excerpt_seconds": 20,
+    "source_requested_seconds": 25,
+    "fade_in_seconds": 0.03,
+    "fade_out_seconds": 0.5,
+    "loop_processed": false,
+    "loudness_target_lufs": -16,
+    "true_peak_target_dbtp": -1.5,
+    "audition_mastering": {
+      "fixed_gain_db": 0.6999999999999993,
+      "limiter_dbfs": -2.5,
+      "limiter_attack_ms": 5,
+      "limiter_release_ms": 50,
+      "latency_compensation": true,
+      "composition_changed": false
+    }
+  },
+  "task": {
+    "task_id": "3925976b-a440-4380-8540-11c5ec210b44",
+    "status": "queued",
+    "queue_position": 1
+  },
+  "result": {
+    "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5C41658871-654e-22ca-fe9c-92c104d1d949.wav",
+    "wave": "",
+    "status": 1,
+    "create_time": 1791808390,
+    "env": "development",
+    "prompt": "Soft warm guzheng leads slow legato-like connected plucked phrases, delicate low bowed strings and a few distant gentle piano notes support. A quietly relaxed travel mood, no virtuosic runs, rhythmic plucking ostinato or comic sparkle. Quiet relaxed opening background cue for a dark fantasy visual novel, a solitary writer approaches a peaceful wooden inn on a twilight road and meets two welcoming hosts. Unhurried, calm, lightly warm and reflective, gently easing the listener into the story. A modest intimate acoustic ensemble, soft attacks, flowing restrained musical phrases and enough melody to support quiet conversation. Comfortable breathing space within a continuous musical bed, no long silence or sparse empty drone. Slow pace, gentle transparent harmony with a trace of wistfulness, no ominous danger or horror pressure. No fast plucked runs, busy arpeggios, bouncy rhythm, playful comedy, festive folk dance, sugary romance, jazz, swing, triumphant fanfare, epic climax, pounding drums, bright chiming bells, EDM or rock guitar. Instrumental music only, no voice, choir, speech, wind, rain, insects, crackling, environmental ambience or sound effects. No extended intro, early outro or silent ending. ",
+    "lyrics": "[Instrumental]",
+    "metas": {
+      "bpm": 64,
+      "duration": 25.0,
+      "genres": "N/A",
+      "keyscale": "D major",
+      "timesignature": "4",
+      "prompt": "Soft warm guzheng leads slow legato-like connected plucked phrases, delicate low bowed strings and a few distant gentle piano notes support. A quietly relaxed travel mood, no virtuosic runs, rhythmic plucking ostinato or comic sparkle. Quiet relaxed opening background cue for a dark fantasy visual novel, a solitary writer approaches a peaceful wooden inn on a twilight road and meets two welcoming hosts. Unhurried, calm, lightly warm and reflective, gently easing the listener into the story. A modest intimate acoustic ensemble, soft attacks, flowing restrained musical phrases and enough melody to support quiet conversation. Comfortable breathing space within a continuous musical bed, no long silence or sparse empty drone. Slow pace, gentle transparent harmony with a trace of wistfulness, no ominous danger or horror pressure. No fast plucked runs, busy arpeggios, bouncy rhythm, playful comedy, festive folk dance, sugary romance, jazz, swing, triumphant fanfare, epic climax, pounding drums, bright chiming bells, EDM or rock guitar. Instrumental music only, no voice, choir, speech, wind, rain, insects, crackling, environmental ambience or sound effects. No extended intro, early outro or silent ending. ",
+      "lyrics": "[Instrumental]"
+    },
+    "generation_info": "**🎵 Total generation time (1 song): 2.23s**\n- 2.23s per song\n- DiT phase (1 song): 2.23s",
+    "seed_value": "3502",
+    "lm_model": "acestep-5Hz-lm-0.6B",
+    "dit_model": "acestep-v15-turbo",
+    "progress": 1.0,
+    "stage": "succeeded"
+  },
+  "wav": {
+    "file": "candidate_02_gentle_guzheng_seed3502_take01.wav",
+    "sha256": "16b3cf96abf1a3b15eb2d337d0b6589a8e95d283a5f5c76b37706ae1d9e09af2",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "25.000000"
+      }
+    }
+  },
+  "ogg": {
+    "file": "candidate_02_gentle_guzheng_seed3502_take01.ogg",
+    "sha256": "ef47830733121b6647046386866324d0c0262b699909d56448b53bc7e62c5c60",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "technical_check": {
+    "decode": "passed",
+    "integrated_lufs": "-16.22",
+    "true_peak_dbtp": "-2.28",
+    "silence_intervals": []
+  },
+  "premaster_ogg": {
+    "file": "candidate_02_gentle_guzheng_seed3502_take01_premaster.ogg",
+    "sha256": "df26def15dbe962531643f4bd130db28c6658e3e2f4d0d317409af118453eb65",
+    "technical_check": {
+      "decode": "passed",
+      "integrated_lufs": "-16.70",
+      "true_peak_dbtp": "-1.19",
+      "silence_intervals": []
+    }
+  }
+}

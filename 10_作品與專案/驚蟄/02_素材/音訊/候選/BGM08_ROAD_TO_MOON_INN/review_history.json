@@ -1,0 +1,18 @@
+{
+  "cue": "BGM08_ROAD_TO_MOON_INN",
+  "reviews": [
+    {
+      "date": "2026-10-12",
+      "stage": "shortlist_take01",
+      "status": "awaiting_user_selection",
+      "user_direction": "序章兩段新增輕鬆安靜的新 BGM；黑底短引不配樂",
+      "candidates": [
+        "candidate_01_felt_piano_seed3501_take01.ogg",
+        "candidate_02_gentle_guzheng_seed3502_take01.ogg",
+        "candidate_03_bamboo_flute_seed3503_take01.ogg",
+        "candidate_04_chamber_strings_seed3504_take01.ogg"
+      ],
+      "notes": "第四首試聽裁去尾白為 18 秒，前三首 20 秒；未導入遊戲。"
+    }
+  ]
+}
