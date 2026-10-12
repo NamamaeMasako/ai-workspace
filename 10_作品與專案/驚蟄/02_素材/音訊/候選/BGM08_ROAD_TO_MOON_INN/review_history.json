@@ -36,6 +36,17 @@
       "reference_audio_uploaded": true,
       "loop_processed": false,
       "game_integrated": false
+    },
+    {
+      "date": "2026-10-13",
+      "stage": "long_01",
+      "status": "music_approved_game_audition_pending",
+      "selected_candidate": 2,
+      "selected_file": "long_01_phrase_guided_gentle_guzheng_seed3502.ogg",
+      "user_feedback": "套二版",
+      "loop_file": "long_01_phrase_guided_gentle_guzheng_seed3502_loop_intro.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/music/bgm_road_to_moon_inn.ogg",
+      "game_scene_confirmed": false
     }
   ]
 }

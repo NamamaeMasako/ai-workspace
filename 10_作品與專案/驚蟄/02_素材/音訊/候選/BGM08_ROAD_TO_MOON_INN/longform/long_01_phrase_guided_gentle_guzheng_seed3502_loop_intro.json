@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-13",
+  "approved_source": "long_01_phrase_guided_gentle_guzheng_seed3502.wav",
+  "approved_source_sha256": "8d8b674603aec9e8b338e5f1e1cd3b8a7b9eec95203408e765470e52563041df",
+  "processing": {
+    "new_generation": false,
+    "duration_seconds": 60,
+    "unchanged_opening_seconds": 57,
+    "tail_crossfade_seconds": 3,
+    "curve": "smoothstep convex crossfade",
+    "renpy_loop_start_seconds": 3.0,
+    "repeat_period_seconds": 57,
+    "period_basis": "three fixed 19-second source-template phrases, not measured tempo",
+    "opening_pcm_max_error": 0.0,
+    "pcm_loop_boundary_step": 0.022479236125946045
+  },
+  "wav": {
+    "file": "long_01_phrase_guided_gentle_guzheng_seed3502_loop_intro.wav",
+    "sha256": "7ed4fb0c442cddda93bba000c103a991e5d915b258e4214bb31d240fd851e7b7"
+  },
+  "ogg": {
+    "file": "long_01_phrase_guided_gentle_guzheng_seed3502_loop_intro.ogg",
+    "sha256": "b33e3a928a74ea3f4b3f61a34e26852920c75cd0bec497aadc56023001dbb7e2",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "60.000000"
+      }
+    }
+  },
+  "qa": {
+    "decode": "passed with no diagnostics",
+    "integrated_lufs": "-16.06",
+    "true_peak_dbtp": "-2.28",
+    "silence_intervals": []
+  },
+  "approval": {
+    "music": "approved by user 2026-10-13: 套二版",
+    "game_loop": "awaiting user in-game audition"
+  },
+  "game_integration": {
+    "file": "03_開發/JingZhe/game/audio/music/bgm_road_to_moon_inn.ogg",
+    "sha256": "b33e3a928a74ea3f4b3f61a34e26852920c75cd0bec497aadc56023001dbb7e2",
+    "channel": "music",
+    "loop_spec": "<loop 3.0>",
+    "fade_in_seconds": 1.5,
+    "fade_out_seconds": 1.5,
+    "cues": [
+      "prologue twilight road",
+      "prologue inn greeting"
+    ],
+    "transition_cues": [
+      "chapter_1 crossfade into approved BGM02"
+    ],
+    "silent_cues": [
+      "black introductory text before prologue"
+    ],
+    "audition_warp": "script.rpy:44",
+    "runtime": "launched development basedir; prologue screenshot normal; music file playing, unmuted, ambience empty",
+    "runtime_record": "runtime_observation_long_01_loop.json"
+  }
+}
