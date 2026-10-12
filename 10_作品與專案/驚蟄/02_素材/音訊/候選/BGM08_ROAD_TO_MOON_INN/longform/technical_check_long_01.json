@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-13",
+  "files": [
+    {
+      "file": "long_01_phrase_guided_felt_piano_seed3501.ogg",
+      "decode": "passed",
+      "integrated_lufs": "-16.31",
+      "true_peak_dbtp": "-2.14",
+      "quiet_events": []
+    },
+    {
+      "file": "long_01_phrase_guided_gentle_guzheng_seed3502.ogg",
+      "decode": "passed",
+      "integrated_lufs": "-16.14",
+      "true_peak_dbtp": "-2.28",
+      "quiet_events": []
+    }
+  ]
+}

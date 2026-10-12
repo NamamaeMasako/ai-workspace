@@ -13,6 +13,29 @@
         "candidate_04_chamber_strings_seed3504_take01.ogg"
       ],
       "notes": "第四首試聽裁去尾白為 18 秒，前三首 20 秒；未導入遊戲。"
+    },
+    {
+      "date": "2026-10-13",
+      "stage": "shortlist_take01",
+      "status": "selected_for_long_audition",
+      "selected_candidates": [
+        1,
+        2
+      ],
+      "user_feedback": "1跟2不錯，都做成長板讓我試聽看看",
+      "selection_is_final_adoption": false
+    },
+    {
+      "date": "2026-10-13",
+      "stage": "long_01",
+      "status": "awaiting_user_long_audition",
+      "candidates": [
+        "long_01_phrase_guided_felt_piano_seed3501.ogg",
+        "long_01_phrase_guided_gentle_guzheng_seed3502.ogg"
+      ],
+      "reference_audio_uploaded": true,
+      "loop_processed": false,
+      "game_integrated": false
     }
   ]
 }

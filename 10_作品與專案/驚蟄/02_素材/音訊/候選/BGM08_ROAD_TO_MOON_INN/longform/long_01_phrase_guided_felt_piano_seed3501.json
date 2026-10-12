@@ -1,0 +1,217 @@
+{
+  "date": "2026-10-13",
+  "cue": "BGM08_ROAD_TO_MOON_INN",
+  "label": "01 晴夕柔鋼琴長版",
+  "status": "awaiting user long audition",
+  "request": {
+    "prompt": "Soft felt piano leads an uncomplicated gently connected melody in the middle register, with very restrained warm bowed cello support. Intimate, restful and quietly welcoming; no staccato bounce or dramatic melancholy. Quiet relaxed opening background cue for a dark fantasy visual novel, a solitary writer approaches a peaceful wooden inn on a twilight road and meets two welcoming hosts. Unhurried, calm, lightly warm and reflective, gently easing the listener into the story. A modest intimate acoustic ensemble, soft attacks, flowing restrained musical phrases and enough melody to support quiet conversation. Comfortable breathing space within a continuous musical bed, no long silence or sparse empty drone. Slow pace, gentle transparent harmony with a trace of wistfulness, no ominous danger or horror pressure. No fast plucked runs, busy arpeggios, bouncy rhythm, playful comedy, festive folk dance, sugary romance, jazz, swing, triumphant fanfare, epic climax, pounding drums, bright chiming bells, EDM or rock guitar. Instrumental music only, no voice, choir, speech, wind, rain, insects, crackling, environmental ambience or sound effects. No extended intro, early outro or silent ending.  Follow the provided source phrase timing and recognizable melodic motif with the same gentle note spacing and restrained accompaniment throughout all 65 seconds. Preserve the selected relaxed, quiet and modestly warm prologue mood from beginning to ending. Maintain the same calm pulse and acoustic texture. Small melodic and harmonic variations may unfold naturally while returning to the familiar phrase. No new rhythmic groove, bouncy plucking, cheerful comedy, dramatic crescendo, mournful tragedy, triumphant ending, long rests or abrupt early outro. Retain the soft felt piano lead and restrained cello support, with connected unhurried phrases and no staccato bounce.",
+    "lyrics": "[Instrumental]",
+    "thinking": false,
+    "use_format": false,
+    "use_cot_caption": false,
+    "use_cot_language": false,
+    "bpm": 60,
+    "key_scale": "D major",
+    "time_signature": "4",
+    "vocal_language": "unknown",
+    "audio_duration": 65,
+    "inference_steps": 8,
+    "batch_size": 1,
+    "use_random_seed": false,
+    "seed": 3501,
+    "model": "acestep-v15-turbo",
+    "task_type": "cover",
+    "audio_cover_strength": 1.0,
+    "audio_format": "wav",
+    "cover_noise_strength": 0.55
+  },
+  "reference": {
+    "file": "candidate_01_felt_piano_seed3501_take01.ogg",
+    "sha256": "fa41a1848b6ac3b958559aebc3b9a6b97f0480883842f589b503fefc608d3b7d",
+    "submission_method": "multipart reference_audio upload"
+  },
+  "source_template": {
+    "file": "long_01_phrase_guided_felt_piano_seed3501_source_template.wav",
+    "structure": {
+      "duration_seconds": 65,
+      "phrase_starts_seconds": [
+        0.0,
+        19.0,
+        38.0,
+        57.0
+      ],
+      "phrase_period_seconds": 19.0,
+      "overlap_seconds": 1.0,
+      "period_basis": "Fixed 19-second phrase-map interval with a 1-second overlap; not a measured beat alignment",
+      "uniform_gain_db": -0.2553942808747262
+    },
+    "sha256": "95f76a249825d971fe6ee806b757746641a9d9bf998502147ca28d2128f5a2e4"
+  },
+  "review_basis": "User liked prologue shortlist candidates 01 and 02 and requested both as long auditions. Preserve the selected quiet relaxed character and continuous consistent phrasing.",
+  "task": {
+    "task_id": "3eafe6a2-8590-49c0-a046-a1d74e5c339a",
+    "status": "queued",
+    "queue_position": 1
+  },
+  "result": {
+    "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5Cbb12a9c0-6dcf-6cb8-cb15-bb2dee81ddb3.wav",
+    "wave": "",
+    "status": 1,
+    "create_time": 1791823623,
+    "env": "development",
+    "prompt": "Soft felt piano leads an uncomplicated gently connected melody in the middle register, with very restrained warm bowed cello support. Intimate, restful and quietly welcoming; no staccato bounce or dramatic melancholy. Quiet relaxed opening background cue for a dark fantasy visual novel, a solitary writer approaches a peaceful wooden inn on a twilight road and meets two welcoming hosts. Unhurried, calm, lightly warm and reflective, gently easing the listener into the story. A modest intimate acoustic ensemble, soft attacks, flowing restrained musical phrases and enough melody to support quiet conversation. Comfortable breathing space within a continuous musical bed, no long silence or sparse empty drone. Slow pace, gentle transparent harmony with a trace of wistfulness, no ominous danger or horror pressure. No fast plucked runs, busy arpeggios, bouncy rhythm, playful comedy, festive folk dance, sugary romance, jazz, swing, triumphant fanfare, epic climax, pounding drums, bright chiming bells, EDM or rock guitar. Instrumental music only, no voice, choir, speech, wind, rain, insects, crackling, environmental ambience or sound effects. No extended intro, early outro or silent ending.  Follow the provided source phrase timing and recognizable melodic motif with the same gentle note spacing and restrained accompaniment throughout all 65 seconds. Preserve the selected relaxed, quiet and modestly warm prologue mood from beginning to ending. Maintain the same calm pulse and acoustic texture. Small melodic and harmonic variations may unfold naturally while returning to the familiar phrase. No new rhythmic groove, bouncy plucking, cheerful comedy, dramatic crescendo, mournful tragedy, triumphant ending, long rests or abrupt early outro. Retain the soft felt piano lead and restrained cello support, with connected unhurried phrases and no staccato bounce.",
+    "lyrics": "[Instrumental]",
+    "metas": {
+      "bpm": 60,
+      "duration": 65.0,
+      "genres": "N/A",
+      "keyscale": "D major",
+      "timesignature": "4",
+      "prompt": "Soft felt piano leads an uncomplicated gently connected melody in the middle register, with very restrained warm bowed cello support. Intimate, restful and quietly welcoming; no staccato bounce or dramatic melancholy. Quiet relaxed opening background cue for a dark fantasy visual novel, a solitary writer approaches a peaceful wooden inn on a twilight road and meets two welcoming hosts. Unhurried, calm, lightly warm and reflective, gently easing the listener into the story. A modest intimate acoustic ensemble, soft attacks, flowing restrained musical phrases and enough melody to support quiet conversation. Comfortable breathing space within a continuous musical bed, no long silence or sparse empty drone. Slow pace, gentle transparent harmony with a trace of wistfulness, no ominous danger or horror pressure. No fast plucked runs, busy arpeggios, bouncy rhythm, playful comedy, festive folk dance, sugary romance, jazz, swing, triumphant fanfare, epic climax, pounding drums, bright chiming bells, EDM or rock guitar. Instrumental music only, no voice, choir, speech, wind, rain, insects, crackling, environmental ambience or sound effects. No extended intro, early outro or silent ending.  Follow the provided source phrase timing and recognizable melodic motif with the same gentle note spacing and restrained accompaniment throughout all 65 seconds. Preserve the selected relaxed, quiet and modestly warm prologue mood from beginning to ending. Maintain the same calm pulse and acoustic texture. Small melodic and harmonic variations may unfold naturally while returning to the familiar phrase. No new rhythmic groove, bouncy plucking, cheerful comedy, dramatic crescendo, mournful tragedy, triumphant ending, long rests or abrupt early outro. Retain the soft felt piano lead and restrained cello support, with connected unhurried phrases and no staccato bounce.",
+      "lyrics": "[Instrumental]"
+    },
+    "generation_info": "**🎵 Total generation time (1 song): 6.48s**\n- 6.48s per song\n- DiT phase (1 song): 6.48s",
+    "seed_value": "3501",
+    "lm_model": "acestep-5Hz-lm-0.6B",
+    "dit_model": "acestep-v15-turbo",
+    "progress": 1.0,
+    "stage": "succeeded"
+  },
+  "processing": {
+    "preserved_opening_seconds": 18,
+    "crossfade_start": 18,
+    "crossfade_end": 19,
+    "fade_out_seconds": 0.5,
+    "continuation_gain_db": 1.6072265211128134,
+    "uniform_master_gain_db": -3.7171480999885924,
+    "opening_pcm_verified_before_encoding": true,
+    "preserved_pcm_sha256": "bf96475e9a2d8abd89c4e0e2f41e07377bd5127eb94c5c5e75296f1253208d60",
+    "loop_processed": false,
+    "audition_mastering": {
+      "fixed_gain_db": 3.8099999999999987,
+      "limiter_dbfs": -2.5,
+      "latency_compensation": true,
+      "timestamps_rebuilt": true,
+      "composition_changed": false,
+      "premaster_measurement": {
+        "integrated_lufs": "-19.81",
+        "true_peak_dbtp": "-2.13",
+        "quiet_events": []
+      }
+    }
+  },
+  "source_wav": {
+    "file": "long_01_phrase_guided_felt_piano_seed3501_source_template.wav",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "65.000000"
+      }
+    },
+    "sha256": "95f76a249825d971fe6ee806b757746641a9d9bf998502147ca28d2128f5a2e4"
+  },
+  "raw_wav": {
+    "file": "long_01_phrase_guided_felt_piano_seed3501_raw.wav",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "65.000000"
+      }
+    },
+    "sha256": "e41ef5b01e7c7524a2d8210a319edbfb1065d597aa06e1443c611aec9f32a9b8"
+  },
+  "premaster_wav": {
+    "file": "long_01_phrase_guided_felt_piano_seed3501_premaster.wav",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "60.000000"
+      }
+    },
+    "sha256": "898c06521813e3baca8c6a7e92f1b07f26ba1107e62bd30e95fd2e1efc8f0248"
+  },
+  "premaster_ogg": {
+    "file": "long_01_phrase_guided_felt_piano_seed3501_premaster.ogg",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "60.000000"
+      }
+    },
+    "sha256": "4ac70b11888ed13e843402899b4bac72a4e3c4955e247698f33226b2b83c3b58"
+  },
+  "assembled_wav": {
+    "file": "long_01_phrase_guided_felt_piano_seed3501.wav",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "60.000000"
+      }
+    },
+    "sha256": "25e920908737d141a5fd73573983a73cc96086e217aa7a9777ffb3d23e5164a5"
+  },
+  "ogg": {
+    "file": "long_01_phrase_guided_felt_piano_seed3501.ogg",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "60.000000"
+      }
+    },
+    "sha256": "99e471d32e5fbe60b60a15cd1d229e3f0967420a75a0795f0ba133a36d41e023"
+  },
+  "technical_check": {
+    "decode": "passed",
+    "integrated_lufs": "-16.31",
+    "true_peak_dbtp": "-2.14",
+    "quiet_events": []
+  }
+}

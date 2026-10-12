@@ -1,0 +1,223 @@
+{
+  "date": "2026-10-13",
+  "cue": "BGM08_ROAD_TO_MOON_INN",
+  "candidates": [
+    {
+      "date": "2026-10-13",
+      "cue": "BGM08_ROAD_TO_MOON_INN",
+      "label": "02 靜路輕箏長版",
+      "status": "awaiting user long audition",
+      "request": {
+        "prompt": "Soft warm guzheng leads slow legato-like connected plucked phrases, delicate low bowed strings and a few distant gentle piano notes support. A quietly relaxed travel mood, no virtuosic runs, rhythmic plucking ostinato or comic sparkle. Quiet relaxed opening background cue for a dark fantasy visual novel, a solitary writer approaches a peaceful wooden inn on a twilight road and meets two welcoming hosts. Unhurried, calm, lightly warm and reflective, gently easing the listener into the story. A modest intimate acoustic ensemble, soft attacks, flowing restrained musical phrases and enough melody to support quiet conversation. Comfortable breathing space within a continuous musical bed, no long silence or sparse empty drone. Slow pace, gentle transparent harmony with a trace of wistfulness, no ominous danger or horror pressure. No fast plucked runs, busy arpeggios, bouncy rhythm, playful comedy, festive folk dance, sugary romance, jazz, swing, triumphant fanfare, epic climax, pounding drums, bright chiming bells, EDM or rock guitar. Instrumental music only, no voice, choir, speech, wind, rain, insects, crackling, environmental ambience or sound effects. No extended intro, early outro or silent ending.  Follow the provided source phrase timing and recognizable melodic motif with the same gentle note spacing and restrained accompaniment throughout all 65 seconds. Preserve the selected relaxed, quiet and modestly warm prologue mood from beginning to ending. Maintain the same calm pulse and acoustic texture. Small melodic and harmonic variations may unfold naturally while returning to the familiar phrase. No new rhythmic groove, bouncy plucking, cheerful comedy, dramatic crescendo, mournful tragedy, triumphant ending, long rests or abrupt early outro. Retain the slow gently plucked guzheng lead and very soft low bowed strings, no rapid runs, fast ostinato or comic sparkle.",
+        "lyrics": "[Instrumental]",
+        "thinking": false,
+        "use_format": false,
+        "use_cot_caption": false,
+        "use_cot_language": false,
+        "bpm": 64,
+        "key_scale": "D major",
+        "time_signature": "4",
+        "vocal_language": "unknown",
+        "audio_duration": 65,
+        "inference_steps": 8,
+        "batch_size": 1,
+        "use_random_seed": false,
+        "seed": 3502,
+        "model": "acestep-v15-turbo",
+        "task_type": "cover",
+        "audio_cover_strength": 1.0,
+        "audio_format": "wav",
+        "cover_noise_strength": 0.55
+      },
+      "reference": {
+        "file": "candidate_02_gentle_guzheng_seed3502_take01.ogg",
+        "sha256": "ef47830733121b6647046386866324d0c0262b699909d56448b53bc7e62c5c60",
+        "submission_method": "multipart reference_audio upload"
+      },
+      "source_template": {
+        "file": "long_01_phrase_guided_gentle_guzheng_seed3502_source_template.wav",
+        "structure": {
+          "duration_seconds": 65,
+          "phrase_starts_seconds": [
+            0.0,
+            19.0,
+            38.0,
+            57.0
+          ],
+          "phrase_period_seconds": 19.0,
+          "overlap_seconds": 1.0,
+          "period_basis": "Fixed 19-second phrase-map interval with a 1-second overlap; not a measured beat alignment",
+          "uniform_gain_db": -0.2192356158055629
+        },
+        "sha256": "663332baf4028a4e6c7bdb627dc924aa0b3614ed001e599e2fce0b8225c7ca84"
+      },
+      "review_basis": "User liked prologue shortlist candidates 01 and 02 and requested both as long auditions. Preserve the selected quiet relaxed character and continuous consistent phrasing.",
+      "task": {
+        "task_id": "4f702a34-4a61-4ee4-b8f6-223518fa8b65",
+        "status": "queued",
+        "queue_position": 1
+      },
+      "result": {
+        "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5C78d85320-7b1e-2ed1-828e-46653bac252b.wav",
+        "wave": "",
+        "status": 1,
+        "create_time": 1791823776,
+        "env": "development",
+        "prompt": "Soft warm guzheng leads slow legato-like connected plucked phrases, delicate low bowed strings and a few distant gentle piano notes support. A quietly relaxed travel mood, no virtuosic runs, rhythmic plucking ostinato or comic sparkle. Quiet relaxed opening background cue for a dark fantasy visual novel, a solitary writer approaches a peaceful wooden inn on a twilight road and meets two welcoming hosts. Unhurried, calm, lightly warm and reflective, gently easing the listener into the story. A modest intimate acoustic ensemble, soft attacks, flowing restrained musical phrases and enough melody to support quiet conversation. Comfortable breathing space within a continuous musical bed, no long silence or sparse empty drone. Slow pace, gentle transparent harmony with a trace of wistfulness, no ominous danger or horror pressure. No fast plucked runs, busy arpeggios, bouncy rhythm, playful comedy, festive folk dance, sugary romance, jazz, swing, triumphant fanfare, epic climax, pounding drums, bright chiming bells, EDM or rock guitar. Instrumental music only, no voice, choir, speech, wind, rain, insects, crackling, environmental ambience or sound effects. No extended intro, early outro or silent ending.  Follow the provided source phrase timing and recognizable melodic motif with the same gentle note spacing and restrained accompaniment throughout all 65 seconds. Preserve the selected relaxed, quiet and modestly warm prologue mood from beginning to ending. Maintain the same calm pulse and acoustic texture. Small melodic and harmonic variations may unfold naturally while returning to the familiar phrase. No new rhythmic groove, bouncy plucking, cheerful comedy, dramatic crescendo, mournful tragedy, triumphant ending, long rests or abrupt early outro. Retain the slow gently plucked guzheng lead and very soft low bowed strings, no rapid runs, fast ostinato or comic sparkle.",
+        "lyrics": "[Instrumental]",
+        "metas": {
+          "bpm": 64,
+          "duration": 65.0,
+          "genres": "N/A",
+          "keyscale": "D major",
+          "timesignature": "4",
+          "prompt": "Soft warm guzheng leads slow legato-like connected plucked phrases, delicate low bowed strings and a few distant gentle piano notes support. A quietly relaxed travel mood, no virtuosic runs, rhythmic plucking ostinato or comic sparkle. Quiet relaxed opening background cue for a dark fantasy visual novel, a solitary writer approaches a peaceful wooden inn on a twilight road and meets two welcoming hosts. Unhurried, calm, lightly warm and reflective, gently easing the listener into the story. A modest intimate acoustic ensemble, soft attacks, flowing restrained musical phrases and enough melody to support quiet conversation. Comfortable breathing space within a continuous musical bed, no long silence or sparse empty drone. Slow pace, gentle transparent harmony with a trace of wistfulness, no ominous danger or horror pressure. No fast plucked runs, busy arpeggios, bouncy rhythm, playful comedy, festive folk dance, sugary romance, jazz, swing, triumphant fanfare, epic climax, pounding drums, bright chiming bells, EDM or rock guitar. Instrumental music only, no voice, choir, speech, wind, rain, insects, crackling, environmental ambience or sound effects. No extended intro, early outro or silent ending.  Follow the provided source phrase timing and recognizable melodic motif with the same gentle note spacing and restrained accompaniment throughout all 65 seconds. Preserve the selected relaxed, quiet and modestly warm prologue mood from beginning to ending. Maintain the same calm pulse and acoustic texture. Small melodic and harmonic variations may unfold naturally while returning to the familiar phrase. No new rhythmic groove, bouncy plucking, cheerful comedy, dramatic crescendo, mournful tragedy, triumphant ending, long rests or abrupt early outro. Retain the slow gently plucked guzheng lead and very soft low bowed strings, no rapid runs, fast ostinato or comic sparkle.",
+          "lyrics": "[Instrumental]"
+        },
+        "generation_info": "**🎵 Total generation time (1 song): 2.67s**\n- 2.67s per song\n- DiT phase (1 song): 2.67s",
+        "seed_value": "3502",
+        "lm_model": "acestep-5Hz-lm-0.6B",
+        "dit_model": "acestep-v15-turbo",
+        "progress": 1.0,
+        "stage": "succeeded"
+      },
+      "processing": {
+        "preserved_opening_seconds": 18,
+        "crossfade_start": 18,
+        "crossfade_end": 19,
+        "fade_out_seconds": 0.5,
+        "continuation_gain_db": 1.3270615832286854,
+        "uniform_master_gain_db": -1.9321797496202424,
+        "opening_pcm_verified_before_encoding": true,
+        "preserved_pcm_sha256": "07f5988bd221a999ffee2a13312b9d85fd2fba0a4665007408ea0cf034cc0707",
+        "loop_processed": false,
+        "audition_mastering": {
+          "fixed_gain_db": 1.6600000000000001,
+          "limiter_dbfs": -2.5,
+          "latency_compensation": true,
+          "timestamps_rebuilt": true,
+          "composition_changed": false,
+          "premaster_measurement": {
+            "integrated_lufs": "-17.66",
+            "true_peak_dbtp": "-1.95",
+            "quiet_events": []
+          }
+        }
+      },
+      "source_wav": {
+        "file": "long_01_phrase_guided_gentle_guzheng_seed3502_source_template.wav",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "65.000000"
+          }
+        },
+        "sha256": "663332baf4028a4e6c7bdb627dc924aa0b3614ed001e599e2fce0b8225c7ca84"
+      },
+      "raw_wav": {
+        "file": "long_01_phrase_guided_gentle_guzheng_seed3502_raw.wav",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "65.000000"
+          }
+        },
+        "sha256": "1312be71e357a40ec721911fe603d415848dbe66519274f21c23c59ba7559115"
+      },
+      "premaster_wav": {
+        "file": "long_01_phrase_guided_gentle_guzheng_seed3502_premaster.wav",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "60.000000"
+          }
+        },
+        "sha256": "187875811c8e3a285c0a2f4182f74b00d8f3676ea4035a5840e3498eb88a44c9"
+      },
+      "premaster_ogg": {
+        "file": "long_01_phrase_guided_gentle_guzheng_seed3502_premaster.ogg",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "60.000000"
+          }
+        },
+        "sha256": "8204163512608ff5ed41a2c2f847d7152bf7dfb76042255500d26f40007d2c57"
+      },
+      "assembled_wav": {
+        "file": "long_01_phrase_guided_gentle_guzheng_seed3502.wav",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "60.000000"
+          }
+        },
+        "sha256": "8d8b674603aec9e8b338e5f1e1cd3b8a7b9eec95203408e765470e52563041df"
+      },
+      "ogg": {
+        "file": "long_01_phrase_guided_gentle_guzheng_seed3502.ogg",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "60.000000"
+          }
+        },
+        "sha256": "6875967aad4c58dbbc49b75591f29e9dac93af7064ebd86e8d76cb2f09250afc"
+      },
+      "technical_check": {
+        "decode": "passed",
+        "integrated_lufs": "-16.14",
+        "true_peak_dbtp": "-2.28",
+        "quiet_events": []
+      }
+    }
+  ]
+}
