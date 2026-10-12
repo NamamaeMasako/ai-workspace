@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-13",
+  "cue": "BGM08_ROAD_TO_MOON_INN",
+  "status": "revision awaiting user audition; game remains on long_01",
+  "user_feedback": "Around 20 seconds a note sounds cut short and uncomfortable; try one correction",
+  "source": {
+    "file": "long_01_phrase_guided_gentle_guzheng_seed3502_loop_intro.wav",
+    "sha256": "7ed4fb0c442cddda93bba000c103a991e5d915b258e4214bb31d240fd851e7b7"
+  },
+  "natural_tail_source": {
+    "file": "candidate_02_gentle_guzheng_seed3502_take01.wav",
+    "sha256": "16b3cf96abf1a3b15eb2d337d0b6589a8e95d283a5f5c76b37706ae1d9e09af2"
+  },
+  "processing": {
+    "new_generation": false,
+    "method": "Restore the original unfaded source phrase tail in a local patch; no tempo change, pitch shift, synthetic reverb or new instruments",
+    "changed_interval_seconds": [
+      19.3,
+      21.5
+    ],
+    "fade_in_interval_seconds": [
+      19.3,
+      19.55
+    ],
+    "fade_out_interval_seconds": [
+      21.2,
+      21.5
+    ],
+    "crossfade_curve": "smoothstep convex",
+    "tail_gain_db": -3.354370095692823,
+    "gain_match_interval_seconds": [
+      19.52,
+      19.72
+    ],
+    "outside_patch_pcm_max_error": 0.0,
+    "loop_inherited_from_long_01": true,
+    "renpy_loop_start_seconds": 3.0,
+    "repeat_period_seconds": 57,
+    "first_duration_seconds": 60,
+    "game_integrated": false
+  },
+  "wav": {
+    "file": "long_02_tail_repair_gentle_guzheng_seed3502_loop_intro.wav",
+    "sha256": "0d254521e3d5147a7cc5259631f267aba21a5bbd62c6c89c355d933d344cd16c"
+  },
+  "ogg": {
+    "file": "long_02_tail_repair_gentle_guzheng_seed3502_loop_intro.ogg",
+    "sha256": "17fc0fe021b9237d3e7281d9980f4d4f1caf5c3684283751f642e9353bb1531a",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "60.000000"
+      }
+    }
+  },
+  "detail_clips": {
+    "before": {
+      "file": "long_02_tail_repair_gentle_guzheng_seed3502_loop_intro_detail_before_15to25.ogg",
+      "sha256": "5fe12873d1d5645e83f5a16b5167992ba653cb58664652cf17a6d0a875ba9b0b",
+      "original_time_seconds": [
+        15,
+        25
+      ]
+    },
+    "after": {
+      "file": "long_02_tail_repair_gentle_guzheng_seed3502_loop_intro_detail_after_15to25.ogg",
+      "sha256": "06ba2965087ba2564be771d8cb71ff2e0b9ca2ac1ebd7a0ca780de31a106c6c3",
+      "original_time_seconds": [
+        15,
+        25
+      ]
+    }
+  },
+  "technical_check": {
+    "integrated_lufs": "-16.13",
+    "true_peak_dbtp": "-2.28",
+    "silence_intervals": [],
+    "decode": "passed without diagnostics"
+  },
+  "producer": {
+    "file": "produce_long_02_tail_repair.py",
+    "sha256": "39d73000a84bac0904e87f11b97cbf57ff3d1acb0b5c7e89220e3896323b5056",
+    "requirements": [
+      "Python",
+      "numpy",
+      "ffmpeg",
+      "ffprobe"
+    ]
+  },
+  "diagnostic_basis": {
+    "note": "Energy drops quickly around 20 seconds in both the generated raw extension and the deployed loop. This supports a local tail repair experiment; it does not establish subjective listening success.",
+    "window_seconds": 0.25,
+    "original_loop_rms_dbfs": {
+      "19.5_to_19.75": -15.9,
+      "20.0_to_20.25": -43.3
+    },
+    "unfaded_short_source_rms_dbfs": {
+      "19.5_to_19.75": -12.1,
+      "20.0_to_20.25": -23.1
+    }
+  }
+}
