@@ -8,7 +8,7 @@
       "label": "舊道暮色、低風與草木",
       "name": "amb_road_twilight_wind",
       "seed": 5101,
-      "status": "integrated for batch01 scene audition; awaiting user confirmation",
+      "status": "not used in current road/front-yard scene configuration; previous candidate preserved",
       "method": "original procedural synthesis; no recorded source or external model",
       "duration_seconds": 45.0,
       "loop": true,
@@ -47,7 +47,13 @@
         "sha256": "313572605ab468351286bdbbd95b1ba952c310257f61f456d8f89d7b06fd8d74",
         "channel": "ambience",
         "mixer": "sfx",
-        "content_changed": false
+        "content_changed": false,
+        "historical_only": true
+      },
+      "scene_review": {
+        "date": "2026-10-12",
+        "decision": "remove continuous wind from prologue road and chapter1 front yard; use existing BGM",
+        "user_feedback": "風聲當背景音太無聊，而且風聲跟BGM混在一起反正會變得像雜訊"
       }
     },
     {
@@ -200,7 +206,7 @@
       "label": "拉門後稍晚的木鈴",
       "name": "world_wood_bell",
       "seed": 5203,
-      "status": "integrated for batch01 scene audition; awaiting user confirmation",
+      "status": "superseded by take02 after user found single strike too subtle",
       "method": "original procedural synthesis; no recorded source or external model",
       "duration_seconds": 0.48,
       "loop": false,
@@ -239,8 +245,10 @@
         "sha256": "836a058473d994ba06dc590f498677f197799137f1c10718a93bbef9d394e13c",
         "channel": "sound",
         "mixer": "sfx",
-        "content_changed": false
-      }
+        "content_changed": false,
+        "historical_only": true
+      },
+      "superseded_by": "world_wood_bell_take02.json"
     },
     {
       "date": "2026-10-12",
@@ -434,5 +442,6 @@
         "content_changed": false
       }
     }
-  ]
+  ],
+  "revision_note": "Current scene setup supersedes road wind and take01 bell; see generation_manifest_take02.json"
 }

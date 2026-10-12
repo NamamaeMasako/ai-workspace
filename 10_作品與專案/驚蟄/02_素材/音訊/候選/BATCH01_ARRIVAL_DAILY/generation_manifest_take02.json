@@ -1,0 +1,119 @@
+{
+  "date": "2026-10-12",
+  "revision": "batch01 scene revision02",
+  "status": "awaiting user scene audition",
+  "active_scene_assets": [
+    {
+      "cue": "AMB02_INN_WOOD_ROOM",
+      "file": "amb_inn_wood_room_take01.ogg",
+      "sha256": "ea7a039d9f6a528a996259f011f5b035b64e11722b5ef50bcbd7c8f9543df950"
+    },
+    {
+      "cue": "AMB03_COURTYARD_WATER_WIND",
+      "file": "amb_courtyard_water_wind_take01.ogg",
+      "sha256": "a0050525145bafe861825d5a2a627b4e15380cecee6004145eeba25ad21fc3bc"
+    },
+    {
+      "cue": "SFX01_SLIDING_DOOR",
+      "file": "world_sliding_door_take01.ogg",
+      "sha256": "52c0de231ac0a4cd7fd42e669c12f3c56cf381d5db8edcf3b985ec0ba22b8947"
+    },
+    {
+      "cue": "SFX03_WOOD_BELL",
+      "file": "world_wood_bell_take02.ogg",
+      "sha256": "c30e1a4c82fd2c87a6bcf02ca5ec2d4a1d9eb01c358e8891e36b3c7d3448122c"
+    },
+    {
+      "cue": "SFX13_KISERU_IGNITE",
+      "file": "magic_kiseru_ignite_take01.ogg",
+      "sha256": "0468ac1755468c39560946de877b3839d205bfbbd814cbd5d35ef0c76c2b0806"
+    },
+    {
+      "cue": "SFX15_EMBER",
+      "file": "magic_kiseru_ember_take01.ogg",
+      "sha256": "116dfe5f4845e78210ce4822928fc1c3ffdd520a688698cdbfc706077ea2f8da"
+    },
+    {
+      "cue": "SFX07_WRITING",
+      "file": "world_writing_pen_take01.ogg",
+      "sha256": "60ab6ce0954b9320c4fdd6142929ae88a8c25596cc47d8fd0fafb6196ecc7fd1"
+    },
+    {
+      "cue": "SFX08_PAPER_FOLD",
+      "file": "world_cloth_wrapped_naginata_take01.ogg",
+      "sha256": "e538cf8ad4ac6cc5bd37ee59bd08586e758d2e9346a5d0cba810f2bb81b131ec"
+    }
+  ],
+  "new_asset": {
+    "date": "2026-10-12",
+    "cue": "SFX03_WOOD_BELL",
+    "label": "門扇帶動的五下漸弱木鈴",
+    "name": "world_wood_bell_take02",
+    "seed": 5303,
+    "status": "integrated for batch01 revised scene audition; awaiting user confirmation",
+    "method": "original procedural modal synthesis; five irregular fading impacts",
+    "duration_seconds": 1.55,
+    "loop": false,
+    "strike_starts_seconds": [
+      0.0,
+      0.19,
+      0.43,
+      0.74,
+      1.04
+    ],
+    "strike_relative_gains": [
+      1.0,
+      0.86,
+      0.63,
+      0.4,
+      0.23
+    ],
+    "sample_peak_dbfs": -14,
+    "rms_dbfs": -31.383514808936503,
+    "source_files": [
+      {
+        "file": "produce_wood_bell_take02.py",
+        "sha256": "1287d179de5c303b6d45ddb340f16e40bcddb31e059baeeca55a2edaac1704a0"
+      },
+      {
+        "file": "produce_batch01_take01.py",
+        "sha256": "ec8e179dfa870ad424cd98610388aef757a35704115013e18f9c7dcee81146f0"
+      }
+    ],
+    "wav": {
+      "file": "world_wood_bell_take02.wav",
+      "sha256": "4c7740798c5bbeec36fa6f5a442845491132ef74567909922f1797a78fc34332"
+    },
+    "ogg": {
+      "file": "world_wood_bell_take02.ogg",
+      "sha256": "c30e1a4c82fd2c87a6bcf02ca5ec2d4a1d9eb01c358e8891e36b3c7d3448122c",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "vorbis",
+            "sample_rate": "44100",
+            "channels": 1
+          }
+        ],
+        "format": {
+          "duration": "1.550000"
+        }
+      }
+    },
+    "technical_check": "complete decode without diagnostics",
+    "user_feedback": "木鈴不要只有一聲，太不明顯，實際上的門鈴也部會只響一聲",
+    "game_integration": {
+      "file": "03_開發/JingZhe/game/audio/sfx/world/world_wood_bell.ogg",
+      "sha256": "c30e1a4c82fd2c87a6bcf02ca5ec2d4a1d9eb01c358e8891e36b3c7d3448122c",
+      "channel": "sound",
+      "mixer": "sfx",
+      "content_changed": false
+    }
+  },
+  "preserved_previous_files": [
+    "amb_road_twilight_wind_take01.ogg",
+    "world_wood_bell_take01.ogg"
+  ]
+}

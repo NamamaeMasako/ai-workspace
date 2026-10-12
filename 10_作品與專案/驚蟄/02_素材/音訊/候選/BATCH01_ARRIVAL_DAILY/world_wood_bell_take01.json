@@ -4,7 +4,7 @@
   "label": "拉門後稍晚的木鈴",
   "name": "world_wood_bell",
   "seed": 5203,
-  "status": "integrated for batch01 scene audition; awaiting user confirmation",
+  "status": "superseded by take02 after user found single strike too subtle",
   "method": "original procedural synthesis; no recorded source or external model",
   "duration_seconds": 0.48,
   "loop": false,
@@ -43,6 +43,8 @@
     "sha256": "836a058473d994ba06dc590f498677f197799137f1c10718a93bbef9d394e13c",
     "channel": "sound",
     "mixer": "sfx",
-    "content_changed": false
-  }
+    "content_changed": false,
+    "historical_only": true
+  },
+  "superseded_by": "world_wood_bell_take02.json"
 }

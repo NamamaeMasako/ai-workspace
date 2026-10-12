@@ -36,7 +36,8 @@ label start:
     jump prologue
 
 label prologue:
-    play ambience "audio/ambience/amb_road_twilight_wind.ogg" loop fadein 1.5
+    stop ambience fadeout 0.5
+    play music "audio/music/bgm_lantern_theme.ogg" loop fadein 1.5
     scene bg road_twilight
     with fade
 
@@ -67,7 +68,7 @@ label prologue:
     queue sound "<silence 0.12>"
     queue sound "audio/sfx/world/world_wood_bell.ogg"
     play ambience "audio/ambience/amb_inn_wood_room.ogg" loop fadeout 1.5 fadein 1.5
-    narrator "他推門而入時，木鈴輕輕響了一下，像有人貼在耳邊低聲說：『來了。』"
+    narrator "他推門而入時，木鈴輕輕響了幾聲，像有人貼在耳邊低聲說：『來了。』"
 
     show hanami bright at zh_far_left
     hanami "歡迎光臨！旅人先生，要住店嗎？"
@@ -98,7 +99,7 @@ label prologue:
 
     jump chapter_1
 label chapter_1:
-    play music "audio/music/bgm_moon_inn_day.ogg" fadein 1.5
+    play music "audio/music/bgm_moon_inn_day.ogg" fadeout 1.5 fadein 1.5
     play ambience "audio/ambience/amb_inn_wood_room.ogg" loop fadeout 1.0 fadein 1.0
 
     scene bg inn_room_morning
@@ -146,7 +147,7 @@ label chapter_1:
 
     narrator "夢見的聲音像一點點柔軟的霧，停在每個音節之間。"
 
-    play ambience "audio/ambience/amb_road_twilight_wind.ogg" loop fadeout 1.5 fadein 1.5 volume 0.45
+    stop ambience fadeout 1.5
     scene bg inn_front_yard
     with dissolve
 

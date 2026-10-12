@@ -1,6 +1,6 @@
 # 《驚蟄》音訊 Cue Sheet rev.1
 
-狀態：BGM01–07 與兩項 UI 音效已正式採用；場景音訊依七批順序製作。第一批抵達與日常已導入三組環境及六個動作音檔，待完整場景確認；後續批次待製作。受控與苦香強化段均沿用核可 BGM，不另製變奏。
+狀態：BGM01–07 與兩項 UI 音效已正式採用；場景音訊依七批順序製作。第一批現為第二輪場景修正：舊道改播 BGM01、停用舊道／前院風聲、木鈴改為五下漸弱輕響，待完整場景確認；後續批次待製作。受控與苦香強化段均沿用核可 BGM，不另製變奏。
 
 範圍：BGM、環境音、關鍵 SFX；配音另案試鏡。  
 基準腳本：`03_開發/JingZhe/game/script.rpy` v0.1.2。
@@ -28,9 +28,9 @@ game/audio/sfx/battle/
 ## 2. BGM 清單（7 組）
 
 - `BGM01_LANTERN`／`bgm_lantern_theme.ogg`
-  - 主選單與作品主題動機；目前不延續進短引。
+  - 主選單與作品主題動機；舊道序章及入庄交談播放，黑底短引保持安靜。
   - 冷靜、節制，深藍夜色中只留一點暖光；不要史詩化。
-  - 正式定案：ACE-Step 1.5 seed 2802 箏版，60 秒、44.1 kHz、立體聲 OGG；用於主選單循環，進入短引時淡出。
+  - 正式定案：ACE-Step 1.5 seed 2802 箏版，60 秒、44.1 kHz、立體聲 OGG；用於主選單循環，進入短引時淡出；2026-10-12 場景回饋後，舊道序章重新淡入並延續至入庄交談。
 - `BGM02_MOON_INN_DAY`／`bgm_moon_inn_day.ogg`
   - 第一章清晨、早餐、前後院與日常互動；第六章清晨後院／餐廳短暫回歸。
   - 木質、輕柔、不甜膩。
@@ -77,7 +77,7 @@ game/audio/sfx/battle/
 
 ## 3. 環境音清單（6 組）
 
-- `AMB01_ROAD_WIND`／`amb_road_twilight_wind.ogg`：舊道傍晚風、遠處潮氣與草木。
+- `AMB01_ROAD_WIND`／`amb_road_twilight_wind.ogg`：舊道傍晚風、遠處潮氣與草木。2026-10-12 生前場景回饋後，舊道／前院停用，既有候選保留。
 - `AMB02_INN_WOOD_ROOM`／`amb_inn_wood_room.ogg`：室內木構、極遠處生活聲；清淡。
 - `AMB03_COURTYARD_WATER_WIND`／`amb_courtyard_water_wind.ogg`：後院水聲與風聲。
 - `AMB04_NIGHT_INSECTS`／`amb_night_insects.ogg`：房間／月下庄夜間蟲鳴，可逐步淡弱營造異常。
@@ -143,10 +143,10 @@ game/audio/sfx/battle/
 ### 短引／序章（`start`、`prologue`）
 
 - 主選單播放 `BGM01_LANTERN`；開始遊戲後以 1 秒淡出停止，短引維持安靜，讓黑底文字自行成立。
-- `scene bg road_twilight`：淡入 `AMB01_ROAD_WIND`；是否另接極淡 BGM 留待 `BGM02`／`BGM03` 完成後實機判斷，不為換背景硬切新曲。
+- `scene bg road_twilight`：以 1.5 秒淡入既有 `BGM01_LANTERN`，舊道不播放連續風聲；依 2026-10-12 生前場景回饋修正。
 - 「煙草燃起時」：`SFX13_KISERU_IGNITE`，之後只在必要處補 `SFX15_EMBER`，不循環貼耳燃燒聲。
-- 「推門而入時，木鈴輕輕響」：`SFX01_SLIDING_DOOR`＋稍後 `SFX03_WOOD_BELL`。
-- 進月下庄後：環境風淡出，BGM 轉入 `BGM02_MOON_INN_DAY` 的傍晚尾段或 `BGM03` 極淡版本。
+- 「推門而入時，木鈴輕輕響了幾聲」：`SFX01_SLIDING_DOOR`＋稍後 `SFX03_WOOD_BELL` take02 五下漸弱輕響。
+- 進月下庄後：淡入室內底聲，BGM01 延續交談；進第一章清晨再切換 BGM02。
 
 ### 第一章（`chapter_1`）
 
@@ -246,7 +246,7 @@ game/audio/sfx/battle/
 
 | 批次 | 場景範圍 | 目前狀態 |
 | --- | --- | --- |
-| 1 | 序章抵達、第一章日常與後院 | 三組環境、六個動作音檔已導入，待完整場景確認；[製作與起點](候選/BATCH01_ARRIVAL_DAILY/README.md) |
+| 1 | 序章抵達、第一章日常與後院 | 第二輪：BGM01 舊道開場、舊道／前院風聲停用、五下木鈴，待完整場景確認；[製作與起點](候選/BATCH01_ARRIVAL_DAILY/README.md) |
 | 2 | 第二章夜間房內與魔法郵箱 | 待製作 |
 | 3 | 第三章酒館與黑卡 | 待製作 |
 | 4 | 第四至六章異常、受控與調查，多個短段落 | 待製作 |

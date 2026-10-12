@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-12",
+  "cue": "SFX03_WOOD_BELL",
+  "label": "門扇帶動的五下漸弱木鈴",
+  "name": "world_wood_bell_take02",
+  "seed": 5303,
+  "status": "integrated for batch01 revised scene audition; awaiting user confirmation",
+  "method": "original procedural modal synthesis; five irregular fading impacts",
+  "duration_seconds": 1.55,
+  "loop": false,
+  "strike_starts_seconds": [
+    0.0,
+    0.19,
+    0.43,
+    0.74,
+    1.04
+  ],
+  "strike_relative_gains": [
+    1.0,
+    0.86,
+    0.63,
+    0.4,
+    0.23
+  ],
+  "sample_peak_dbfs": -14,
+  "rms_dbfs": -31.383514808936503,
+  "source_files": [
+    {
+      "file": "produce_wood_bell_take02.py",
+      "sha256": "1287d179de5c303b6d45ddb340f16e40bcddb31e059baeeca55a2edaac1704a0"
+    },
+    {
+      "file": "produce_batch01_take01.py",
+      "sha256": "ec8e179dfa870ad424cd98610388aef757a35704115013e18f9c7dcee81146f0"
+    }
+  ],
+  "wav": {
+    "file": "world_wood_bell_take02.wav",
+    "sha256": "4c7740798c5bbeec36fa6f5a442845491132ef74567909922f1797a78fc34332"
+  },
+  "ogg": {
+    "file": "world_wood_bell_take02.ogg",
+    "sha256": "c30e1a4c82fd2c87a6bcf02ca5ec2d4a1d9eb01c358e8891e36b3c7d3448122c",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "1.550000"
+      }
+    }
+  },
+  "technical_check": "complete decode without diagnostics",
+  "user_feedback": "木鈴不要只有一聲，太不明顯，實際上的門鈴也部會只響一聲",
+  "game_integration": {
+    "file": "03_開發/JingZhe/game/audio/sfx/world/world_wood_bell.ogg",
+    "sha256": "c30e1a4c82fd2c87a6bcf02ca5ec2d4a1d9eb01c358e8891e36b3c7d3448122c",
+    "channel": "sound",
+    "mixer": "sfx",
+    "content_changed": false
+  }
+}
