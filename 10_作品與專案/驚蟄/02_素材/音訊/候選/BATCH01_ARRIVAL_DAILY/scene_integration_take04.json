@@ -1,7 +1,7 @@
 {
   "date": "2026-10-12",
   "batch": "01 抵達與日常",
-  "status": "all continuous ambience removed; awaiting scene audition",
+  "status": "batch01 action sounds formally approved; BGM placement discussion remains open",
   "workflow": "all required scene assets -> game placement and mix -> continuous scene audition -> revisions -> user approval",
   "checkpoints": [
     {
@@ -72,7 +72,11 @@
     "master_muted": false
   },
   "visual_observation": "engine screenshot showed twilight road and opening prologue text with no error screen",
-  "approval": "pending; decoded files and running ambience do not establish user listening judgement",
+  "approval": {
+    "date": "2026-10-12",
+    "user_feedback": "BTW，這批次的音效我認為都可以",
+    "scope": "six action sounds and current scene triggering; no ambient approval or new BGM decision"
+  },
   "revision": "04",
   "music_cues": [
     {

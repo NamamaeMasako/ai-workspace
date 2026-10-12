@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-12",
+  "batch": "01 抵達與日常",
+  "status": "action sound batch formally adopted",
+  "user_feedback": "BTW，這批次的音效我認為都可以",
+  "assets": [
+    {
+      "cue": "SFX01_SLIDING_DOOR",
+      "source": "world_sliding_door_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/world/world_sliding_door.ogg",
+      "sha256": "52c0de231ac0a4cd7fd42e669c12f3c56cf381d5db8edcf3b985ec0ba22b8947"
+    },
+    {
+      "cue": "SFX03_WOOD_BELL",
+      "source": "world_wood_bell_take02.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/world/world_wood_bell.ogg",
+      "sha256": "c30e1a4c82fd2c87a6bcf02ca5ec2d4a1d9eb01c358e8891e36b3c7d3448122c"
+    },
+    {
+      "cue": "SFX13_KISERU_IGNITE",
+      "source": "magic_kiseru_ignite_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/magic/magic_kiseru_ignite.ogg",
+      "sha256": "0468ac1755468c39560946de877b3839d205bfbbd814cbd5d35ef0c76c2b0806"
+    },
+    {
+      "cue": "SFX15_EMBER",
+      "source": "magic_kiseru_ember_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/magic/magic_kiseru_ember.ogg",
+      "sha256": "116dfe5f4845e78210ce4822928fc1c3ffdd520a688698cdbfc706077ea2f8da"
+    },
+    {
+      "cue": "SFX07_WRITING",
+      "source": "world_writing_pen_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/world/world_writing_pen.ogg",
+      "sha256": "60ab6ce0954b9320c4fdd6142929ae88a8c25596cc47d8fd0fafb6196ecc7fd1"
+    },
+    {
+      "cue": "SFX08_PAPER_FOLD",
+      "source": "world_cloth_wrapped_naginata_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/world/world_cloth_wrapped_naginata.ogg",
+      "sha256": "e538cf8ad4ac6cc5bd37ee59bd08586e758d2e9346a5d0cba810f2bb81b131ec"
+    }
+  ],
+  "full_cues_completed": [
+    "SFX01_SLIDING_DOOR",
+    "SFX03_WOOD_BELL",
+    "SFX07_WRITING",
+    "SFX13_KISERU_IGNITE",
+    "SFX15_EMBER"
+  ],
+  "partial_cue": "SFX08 cloth variation approved; paper-fold base still pending batch02",
+  "ambience": "all six ambient groups retired",
+  "bgm": "existing tracks retained; unscored passages under separate discussion"
+}

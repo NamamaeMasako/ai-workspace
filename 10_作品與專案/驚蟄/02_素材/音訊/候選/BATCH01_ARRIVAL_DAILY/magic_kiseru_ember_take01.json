@@ -4,7 +4,7 @@
   "label": "第一章前院煙草餘燼",
   "name": "magic_kiseru_ember",
   "seed": 5215,
-  "status": "integrated for batch01 scene audition; awaiting user confirmation",
+  "status": "formally adopted after batch01 scene audition",
   "method": "original procedural synthesis; no recorded source or external model",
   "duration_seconds": 1.15,
   "loop": false,
@@ -44,5 +44,10 @@
     "channel": "sound",
     "mixer": "sfx",
     "content_changed": false
+  },
+  "approval": {
+    "date": "2026-10-12",
+    "user_feedback": "BTW，這批次的音效我認為都可以",
+    "scope": "action sound and current scene triggering approved; continuous ambience remains retired"
   }
 }

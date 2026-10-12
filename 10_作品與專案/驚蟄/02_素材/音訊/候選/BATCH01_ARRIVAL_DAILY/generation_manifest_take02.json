@@ -1,7 +1,7 @@
 {
   "date": "2026-10-12",
   "revision": "batch01 scene revision02",
-  "status": "awaiting user scene audition",
+  "status": "six action files formally adopted; ambience retired; formal_adoption.json lists current accepted assets",
   "active_scene_assets": [
     {
       "cue": "AMB02_INN_WOOD_ROOM",
@@ -50,7 +50,7 @@
     "label": "門扇帶動的五下漸弱木鈴",
     "name": "world_wood_bell_take02",
     "seed": 5303,
-    "status": "integrated for batch01 revised scene audition; awaiting user confirmation",
+    "status": "formally adopted after batch01 scene audition",
     "method": "original procedural modal synthesis; five irregular fading impacts",
     "duration_seconds": 1.55,
     "loop": false,
@@ -110,6 +110,11 @@
       "channel": "sound",
       "mixer": "sfx",
       "content_changed": false
+    },
+    "approval": {
+      "date": "2026-10-12",
+      "user_feedback": "BTW，這批次的音效我認為都可以",
+      "scope": "action sound and current scene triggering approved; continuous ambience remains retired"
     }
   },
   "preserved_previous_files": [
