@@ -1,8 +1,8 @@
 # 《驚蟄》音訊 Cue Sheet rev.1
 
-狀態：BGM01–07 與兩項 UI 音效已正式採用；場景音訊依七批順序製作。第一批現為第三輪：序章恢復無 BGM、舊道／前院風聲停用、保留五下漸弱木鈴，待完整場景確認；後續批次待製作。受控與苦香強化段均沿用核可 BGM，不另製變奏。
+狀態：BGM01–07 與兩項 UI 音效已正式採用。依 2026-10-12 生前指示，全部持續非 BGM 環境音停用，原六組 AMB 取消製作／導入待辦。劇情短音效依七批完整場景順序驗收；第一批保留六個動作音檔、待確認，序章無 BGM。
 
-範圍：BGM、環境音、關鍵 SFX；配音另案試鏡。  
+範圍：BGM、UI 與關鍵動作 SFX；持續環境音已停用，配音另案試鏡。
 基準腳本：`03_開發/JingZhe/game/script.rpy` v0.1.2。
 
 ## 1. 檔案與命名規格
@@ -75,7 +75,9 @@ game/audio/sfx/battle/
 
   - 2026-10-12 實機確認：生前於真結局回月下庄場景回覆「好」，正式採用 long_01 箏與微光循環副本及現行配置；BGM07 定案，七組主 BGM 全數完成。
 
-## 3. 環境音清單（6 組）
+## 3. 停用環境音（原 6 組，取消待辦）
+
+2026-10-12：生前要求移除所有持續播放的非 BGM 背景音。以下六組均停用，不再安排製作或導入；已生成的候選／母檔保留為歷程。
 
 - `AMB01_ROAD_WIND`／`amb_road_twilight_wind.ogg`：舊道傍晚風、遠處潮氣與草木。2026-10-12 生前場景回饋後，舊道／前院停用，既有候選保留。
 - `AMB02_INN_WOOD_ROOM`／`amb_inn_wood_room.ogg`：室內木構、極遠處生活聲；清淡。
@@ -146,28 +148,28 @@ game/audio/sfx/battle/
 - `scene bg road_twilight`：依 2026-10-12 生前指示恢復無 BGM，連續風聲也維持停用，保留動作音效。
 - 「煙草燃起時」：`SFX13_KISERU_IGNITE`，之後只在必要處補 `SFX15_EMBER`，不循環貼耳燃燒聲。
 - 「推門而入時，木鈴輕輕響了幾聲」：`SFX01_SLIDING_DOOR`＋稍後 `SFX03_WOOD_BELL` take02 五下漸弱輕響。
-- 進月下庄後：淡入室內底聲，交談不配 BGM；進第一章清晨才淡入 BGM02。
+- 進月下庄後：交談不配 BGM，也不播放室內循環底聲；進第一章清晨才淡入 BGM02。
 
 ### 第一章（`chapter_1`）
 
-- 清晨房間／早餐：`BGM02_MOON_INN_DAY`、`AMB02_INN_WOOD_ROOM`。
-- 後院「只有水聲和風聲」：切 `AMB03_COURTYARD_WATER_WIND`。
+- 清晨房間／早餐：`BGM02_MOON_INN_DAY`，不加循環室內底聲。
+- 後院「只有水聲和風聲」：由文本表達，沿用既有 BGM，不加持續水風聲。
 - 包布與薙刀出現：`SFX08_PAPER_FOLD` 可換成更厚布料音；不使用戰鬥刃聲。
 - 「低頭擦過刀柄」：極輕的木柄摩擦；若無獨立素材，留白比亂塞金屬聲好。
 - 傍晚回大廳：轉 `BGM03_MOON_INN_NIGHT`。
 
 ### 第二章（`chapter_2`）
 
-- 房間夜晚：`BGM03_MOON_INN_NIGHT`、`AMB04_NIGHT_INSECTS`。
+- 房間夜晚：`BGM03_MOON_INN_NIGHT`，不加循環蟲鳴。
 - 「煙草點燃」：`SFX13_KISERU_IGNITE`；火光／影子加深時不另塞 jump scare。
 - 「魔法郵箱」首次完整出現：`SFX16_MAILBOX_REVEAL`。
 - 「一頁紙折起，放進郵箱」：`SFX07_WRITING` → `SFX08_PAPER_FOLD` → `SFX17_MAILBOX_OPEN`。
-- 「窗外傳來幾聲蟲鳴」：短暫拉高 `AMB04` 後再回原音量。
+- 「窗外傳來幾聲蟲鳴」：由文本表達，不加入循環蟲鳴。
 - 「門外很輕的腳步聲」：`SFX04_FOOTSTEP_WOOD`，位置感偏門外。
 
 ### 第三章（`chapter_3`）
 
-- 小酒館：`BGM04_BLACK_CARD_MEMORY`；另做極淡室內 room tone 時可歸入 `AMB02` 的酒館變體，第一批可先不新增第七組環境音。
+- 小酒館：`BGM04_BLACK_CARD_MEMORY`，不另做室內循環底聲。
 - 「把一張全黑卡片放在桌上」：`SFX09_CARD_PLACE`。
 - 「把卡片推近」：`SFX10_CARD_SLIDE`。
 - 「撕開就知道了」：不要提早播放撕裂聲，只讓 `SFX18_CARD_PULSE` 極輕出現一次。
@@ -176,8 +178,8 @@ game/audio/sfx/battle/
 ### 第四章（`chapter_4`）
 
 - 月下庄入夜前以 `BGM03` 開場；「不是聲音，而是一種被注視的重量」後以 1.5 秒轉 `BGM05_SILK_UNDER_DOOR`，林道偵察持續。回庄大廳恢復 `BGM03`；夜深走廊燈滅／白絲處再次切入 BGM05，延續至第五章。
-- 林道怪物偵察：`AMB05_FOREST_NIGHT`；土蜘蛛出現用 `SFX24_SPIDER_STEPS`，絡新婦放出細物用 `SFX22_SILK_WHISPER`。
-- 「走廊裡的燈滅了一盞」：`SFX11_LAMP_SWAY` 後讓 `AMB04` 短暫消失，空白本身就是效果。
+- 林道怪物偵察：沿用既有 BGM，不加森林循環底聲；土蜘蛛出現用 `SFX24_SPIDER_STEPS`，絡新婦放出細物用 `SFX22_SILK_WHISPER`。
+- 「走廊裡的燈滅了一盞」：`SFX11_LAMP_SWAY` 後保留安靜，不加循環環境音。
 - 「牆上極細白線」：`SFX22_SILK_WHISPER` 極低音量，不做明顯怪叫。
 
 ### 第五章（`chapter_5`）
@@ -201,15 +203,15 @@ game/audio/sfx/battle/
 適用：`chapter_7_hanami_1`、`chapter_7_yumemi_1`、`chapter_7_hanami_2`、`chapter_7_yumemi_2`。
 
 - 交卡：`SFX10_CARD_SLIDE`＋極淡 `SFX18_CARD_PULSE`。
-- 進林道：`AMB05_FOREST_NIGHT`、`BGM06_FOREST_ASSAULT` 淡入。
+- 進林道：依現行交戰起點播放 `BGM06_FOREST_ASSAULT`，不加森林循環底聲。
 - 式神召喚 CG：`SFX21_INSECT_SUMMON`；CG 顯示後讓音尾延續，不連打四種怪聲。
 - 土蜘蛛逼近：`SFX24_SPIDER_STEPS`＋單次 `SFX25_TSUCHIGUMO_HISS`。
 - 髮切切入：`SFX28_KAMIKIRI_BLADES`。
 - 大百足衝撞：`SFX29_OMUKADE_ARMOR` 預備、命中時 `SFX30_OMUKADE_IMPACT`。
 - 花見薙刀：`SFX26_NAGINATA_WHOOSH`；命中甲殼才用 `SFX27_NAGINATA_HIT`。
 - 絡新婦偷襲：`SFX22_SILK_WHISPER` → `SFX23_SILK_CUT`。
-- 死亡路線：BGM 在傷勢確認後淡出，切 `AMB06_RAIN`；倒下時 `SFX31_BODY_FALL`，不要加誇張低頻爆點。
-- 「撕開」／時間回退：`SFX19_CARD_TEAR` 後瞬間切斷雨聲，再以 `BGM01` 的不完整殘響或短暫全靜音銜接下一輪。
+- 死亡路線：BGM 在傷勢確認後淡出，不加循環雨聲；倒下時 `SFX31_BODY_FALL`，不要加誇張低頻爆點。
+- 「撕開」／時間回退：`SFX19_CARD_TEAR` 後以 `BGM01` 的不完整殘響或短暫全靜音銜接下一輪。
 
 ### 第八章／真結局（`chapter_8_choice`、`chapter_8_true_end`）
 
@@ -220,8 +222,8 @@ game/audio/sfx/battle/
 - 驚蟄受創／咳血：只在關鍵一次使用 `SFX32_COUGH_BLOOD`；其餘讓表演與停頓承擔。
 - 花見準備撕卡：`SFX18_CARD_PULSE` 拉長，驚蟄抓住手腕後中止；不要真的播放 `SFX19_CARD_TEAR`。
 - 「夜色被撕開一條縫」：`SFX20_MAGIC_RIFT`，BGM06 停止，影之魔女登場後可短暫引用 `BGM04` 的黑卡動機。
-- 「雨也回來了」：淡入 `AMB06_RAIN`。
-- 回月下庄：雨淡出，轉 `BGM07_DAWN_TOGETHER`。
+- 「雨也回來了」：由文本與畫面表達，不加循環雨聲。
+- 回月下庄：轉 `BGM07_DAWN_TOGETHER`。
 - 清晨最後一句後：BGM 留尾，結局畫面才完整淡出。
 
 ## 6. UI 導入規則
@@ -233,7 +235,7 @@ game/audio/sfx/battle/
 
 ## 7. 第一輪驗收標準
 
-- 每個 BGM／環境音循環點無爆音、斷裂或可察覺空白。
+- 每個 BGM 循環點無爆音、斷裂或可察覺空白；非 BGM 循環環境音保持停用。
 - 音效不遮住閱讀節奏；自動播放 15 秒設定下仍能自然前進。
 - 同一 cue 在四條第七章路線中的相同事件保持一致。
 - 主選單、日常、壓迫、戰鬥、死亡回退與真結局六個情緒區段可只靠聲音辨識。
@@ -242,11 +244,11 @@ game/audio/sfx/battle/
 
 ## 8. 場景批次製作與驗收（2026-10-12 生前核可）
 
-每批先列環境音、動作聲、BGM 接續、觸發文字與留白；完成全部必要素材後，套入開發版並調整整段搭配，再從場景前開始連續試聽到事件後。依場景回饋修正並重聽，生前核可後才認列場景定案。共用素材後續改版需回查既有場景。
+每批先列動作聲、BGM 接續、觸發文字與留白；完成全部必要素材後，套入開發版並調整整段搭配，再從場景前開始連續試聽到事件後。依場景回饋修正並重聽，生前核可後才認列場景定案。共用素材後續改版需回查既有場景。
 
 | 批次 | 場景範圍 | 目前狀態 |
 | --- | --- | --- |
-| 1 | 序章抵達、第一章日常與後院 | 第三輪：序章無 BGM、舊道／前院風聲停用、五下木鈴，待完整場景確認；[製作與起點](候選/BATCH01_ARRIVAL_DAILY/README.md) |
+| 1 | 序章抵達、第一章日常與後院 | 第四輪：全部循環環境停用、序章無 BGM、保留五下木鈴，待完整場景確認；[製作與起點](候選/BATCH01_ARRIVAL_DAILY/README.md) |
 | 2 | 第二章夜間房內與魔法郵箱 | 待製作 |
 | 3 | 第三章酒館與黑卡 | 待製作 |
 | 4 | 第四至六章異常、受控與調查，多個短段落 | 待製作 |

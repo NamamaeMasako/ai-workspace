@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-12",
+  "batch": "01 抵達與日常",
+  "status": "all continuous ambience removed; awaiting scene audition",
+  "workflow": "all required scene assets -> game placement and mix -> continuous scene audition -> revisions -> user approval",
+  "checkpoints": [
+    {
+      "name": "序章舊道",
+      "warp": "script.rpy:44"
+    },
+    {
+      "name": "推門入庄前",
+      "warp": "script.rpy:66"
+    },
+    {
+      "name": "第一章清晨與早餐",
+      "warp": "script.rpy:106"
+    },
+    {
+      "name": "第一章後院",
+      "warp": "script.rpy:194"
+    }
+  ],
+  "ambience_cues": [],
+  "one_shots": [
+    {
+      "text": "煙草燃起時，他沒有想太多。",
+      "cue": "SFX13_KISERU_IGNITE"
+    },
+    {
+      "text": "他推門而入時，木鈴輕輕響了一下",
+      "cue": "SFX01_SLIDING_DOOR -> 0.12s silence -> SFX03_WOOD_BELL"
+    },
+    {
+      "text": "他沒有立刻寫字，只是讓煙斗的火慢慢燒著。",
+      "cue": "SFX15_EMBER"
+    },
+    {
+      "text": "他在第一行寫下這句話，又劃掉。／他重新寫：",
+      "cue": "SFX07_WRITING"
+    },
+    {
+      "text": "花見帶著一把長形的包布，像是習慣性背著。",
+      "cue": "SFX08 cloth variation only"
+    }
+  ],
+  "quiet_decisions": [
+    "prologue remains without BGM",
+    "no continuous wind/room/water/insect/forest/rain ambience",
+    "brief door/bell/fire/writing/cloth sounds remain action-triggered"
+  ],
+  "scope_notes": [
+    "SFX07 moved into batch01 because writing occurs in its scene",
+    "SFX08 cloth variation is available; base paper-fold cue remains batch02 work"
+  ],
+  "boundary": "ambience is disabled globally; before_main_menu/start stop statements remain for compatibility",
+  "runtime_observation": {
+    "timestamp": 1791806131.2185898,
+    "basedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe",
+    "gamedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe\\game",
+    "location": [
+      "game/script.rpy",
+      91
+    ],
+    "ambience": null,
+    "ambience_position": null,
+    "music": null,
+    "sound": null,
+    "sound_volume": 1.0,
+    "sound_muted": false,
+    "music_volume": 1.0,
+    "master_muted": false
+  },
+  "visual_observation": "engine screenshot showed twilight road and opening prologue text with no error screen",
+  "approval": "pending; decoded files and running ambience do not establish user listening judgement",
+  "revision": "04",
+  "music_cues": [
+    {
+      "scene": "prologue road and inn conversation",
+      "file": null,
+      "decision": "user requested original no-score configuration"
+    },
+    {
+      "scene": "chapter1 morning",
+      "file": "bgm_moon_inn_day.ogg",
+      "fade_in": 1.5
+    }
+  ],
+  "revision_decisions": [
+    "all continuous non-BGM ambience removed from current game scenes",
+    "all six ambient cue groups cancelled from future production backlog",
+    "existing BGM, UI and action one-shots retained",
+    "legacy ambience channel retained, cleared and silenced at each interaction and after load to handle older saved states"
+  ],
+  "text_assessment": {
+    "result": "可採用",
+    "change": "木鈴輕輕響了一下 -> 木鈴輕輕響了幾聲",
+    "logic": "door movement naturally causes repeated fading bell strikes",
+    "timeline": "same entry event and placement, no new event",
+    "character": "no character action or motivation change",
+    "world": "compatible with existing door-mounted wood bell",
+    "pace": "short 1.55-second ringing under narration, no added waiting"
+  },
+  "user_feedback": "我覺得把不適BGM的背景音都移除，像是 他推門而入... 那幕開始有自帶一個持續撥放的背景音，類似這種的都移除"
+}

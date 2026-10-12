@@ -4,7 +4,7 @@
   "label": "木造旅店清淡室內底聲與遠處木構",
   "name": "amb_inn_wood_room",
   "seed": 5102,
-  "status": "integrated for batch01 scene audition; awaiting user confirmation",
+  "status": "retired: user removed all continuous non-BGM ambience; source preserved",
   "method": "original procedural synthesis; no recorded source or external model",
   "duration_seconds": 45.0,
   "loop": true,
@@ -43,6 +43,12 @@
     "sha256": "ea7a039d9f6a528a996259f011f5b035b64e11722b5ef50bcbd7c8f9543df950",
     "channel": "ambience",
     "mixer": "sfx",
-    "content_changed": false
+    "content_changed": false,
+    "historical_only": true
+  },
+  "scene_review": {
+    "date": "2026-10-12",
+    "user_feedback": "我覺得把不適BGM的背景音都移除，像是 他推門而入... 那幕開始有自帶一個持續撥放的背景音，類似這種的都移除",
+    "decision": "no continuous ambience in game; cancelled from production backlog"
   }
 }

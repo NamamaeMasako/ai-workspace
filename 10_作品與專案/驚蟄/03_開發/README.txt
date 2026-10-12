@@ -26,12 +26,14 @@
 
 - 2026-10-12 第三輪：依生前指示撤下序章 BGM01、恢復無配樂；舊道／前院風聲保持停用，新版五下木鈴保留，待繼續場景檢查。
 
+- 2026-10-12 第四輪：所有非 BGM 循環環境聲已停用，環境音六組取消待辦；BGM、介面與動作短音效保留。已開到推門前供檢查。
+
 主要檔案：
 - `game/script.rpy`：主劇本與分支流程。
 - `game/characters.rpy`：角色名與對話樣式。
 - `game/placeholders.rpy`：正式 image 定義、角色站位與演出 Transform；檔名為歷史沿用。
 - `game/screens.rpy`：主選單、快速選單、存讀檔、設定與說明。
-- `game/scene_audio.rpy`：獨立 ambience 通道，供場景環境循環並共用音效音量。
+- `game/scene_audio.rpy`：清除已停用的 ambience 通道，兼容舊存檔／回看狀態。
 - `game/ui_audio.rpy`：確認／返回介面音效樣式與共同檔案引用。
 - `game/options.rpy`：標題、版本、功能開關與製作名單。
 - `game/build.rpy`：正式發行包排除規則。

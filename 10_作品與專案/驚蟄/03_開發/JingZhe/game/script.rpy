@@ -67,7 +67,6 @@ label prologue:
     play sound "audio/sfx/world/world_sliding_door.ogg"
     queue sound "<silence 0.12>"
     queue sound "audio/sfx/world/world_wood_bell.ogg"
-    play ambience "audio/ambience/amb_inn_wood_room.ogg" loop fadeout 1.5 fadein 1.5
     narrator "他推門而入時，木鈴輕輕響了幾聲，像有人貼在耳邊低聲說：『來了。』"
 
     show hanami bright at zh_far_left
@@ -100,7 +99,6 @@ label prologue:
     jump chapter_1
 label chapter_1:
     play music "audio/music/bgm_moon_inn_day.ogg" fadein 1.5
-    play ambience "audio/ambience/amb_inn_wood_room.ogg" loop fadeout 1.0 fadein 1.0
 
     scene bg inn_room_morning
     with dissolve
@@ -190,7 +188,6 @@ label chapter_1:
 
     jingzhe "知道了。"
 
-    play ambience "audio/ambience/amb_courtyard_water_wind.ogg" loop fadeout 1.5 fadein 1.5 volume 0.8
     scene bg inn_backyard
     with dissolve
 
@@ -251,7 +248,6 @@ label chapter_1:
 
     play music "audio/music/bgm_moon_inn_night.ogg" loop fadeout 1.5 fadein 1.5
 
-    play ambience "audio/ambience/amb_inn_wood_room.ogg" loop fadeout 1.5 fadein 1.5
     scene bg inn_hall_evening
     with dissolve
 

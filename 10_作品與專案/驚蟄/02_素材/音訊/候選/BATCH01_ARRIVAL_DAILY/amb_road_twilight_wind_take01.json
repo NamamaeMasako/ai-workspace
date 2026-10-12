@@ -4,7 +4,7 @@
   "label": "舊道暮色、低風與草木",
   "name": "amb_road_twilight_wind",
   "seed": 5101,
-  "status": "not used in current road/front-yard scene configuration; previous candidate preserved",
+  "status": "retired: user removed all continuous non-BGM ambience; source preserved",
   "method": "original procedural synthesis; no recorded source or external model",
   "duration_seconds": 45.0,
   "loop": true,
@@ -48,7 +48,7 @@
   },
   "scene_review": {
     "date": "2026-10-12",
-    "decision": "remove continuous wind from prologue road and chapter1 front yard; use existing BGM",
-    "user_feedback": "風聲當背景音太無聊，而且風聲跟BGM混在一起反正會變得像雜訊"
+    "user_feedback": "我覺得把不適BGM的背景音都移除，像是 他推門而入... 那幕開始有自帶一個持續撥放的背景音，類似這種的都移除",
+    "decision": "no continuous ambience in game; cancelled from production backlog"
   }
 }
