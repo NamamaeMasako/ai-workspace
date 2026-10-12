@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-12",
+  "cue": "SFX08_PAPER_FOLD",
+  "label": "SFX08 包布摩擦變體；摺紙基礎音仍待第二批",
+  "name": "world_cloth_wrapped_naginata",
+  "seed": 5208,
+  "status": "integrated for batch01 scene audition; awaiting user confirmation",
+  "method": "original procedural synthesis; no recorded source or external model",
+  "duration_seconds": 0.68,
+  "loop": false,
+  "target_kind": "sample peak dBFS",
+  "target_dbfs": -23,
+  "sample_peak_dbfs": -22.999999518003015,
+  "rms_dbfs": -40.087557157630805,
+  "loop_boundary_pcm_step": null,
+  "editable_source": "produce_batch01_take01.py",
+  "editable_source_sha256": "ec8e179dfa870ad424cd98610388aef757a35704115013e18f9c7dcee81146f0",
+  "technical_check": "complete OGG decode without diagnostics",
+  "wav": {
+    "file": "world_cloth_wrapped_naginata_take01.wav",
+    "sha256": "3e0b596659694edbfd0ff76a46132e28824bf8edac0fe9611964df07cca7bb54"
+  },
+  "ogg": {
+    "file": "world_cloth_wrapped_naginata_take01.ogg",
+    "sha256": "e538cf8ad4ac6cc5bd37ee59bd08586e758d2e9346a5d0cba810f2bb81b131ec",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "0.680000"
+      }
+    }
+  },
+  "game_integration": {
+    "file": "03_開發/JingZhe/game/audio/sfx/world/world_cloth_wrapped_naginata.ogg",
+    "sha256": "e538cf8ad4ac6cc5bd37ee59bd08586e758d2e9346a5d0cba810f2bb81b131ec",
+    "channel": "sound",
+    "mixer": "sfx",
+    "content_changed": false
+  }
+}

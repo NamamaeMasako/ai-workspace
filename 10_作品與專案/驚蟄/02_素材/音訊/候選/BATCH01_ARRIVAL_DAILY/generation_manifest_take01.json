@@ -1,0 +1,438 @@
+{
+  "date": "2026-10-12",
+  "batch": "BATCH01_ARRIVAL_DAILY",
+  "candidates": [
+    {
+      "date": "2026-10-12",
+      "cue": "AMB01_ROAD_WIND",
+      "label": "舊道暮色、低風與草木",
+      "name": "amb_road_twilight_wind",
+      "seed": 5101,
+      "status": "integrated for batch01 scene audition; awaiting user confirmation",
+      "method": "original procedural synthesis; no recorded source or external model",
+      "duration_seconds": 45.0,
+      "loop": true,
+      "target_kind": "RMS dBFS",
+      "target_dbfs": -29,
+      "sample_peak_dbfs": -14.718869086535609,
+      "rms_dbfs": -28.999999596808333,
+      "loop_boundary_pcm_step": 0.0,
+      "editable_source": "produce_batch01_take01.py",
+      "editable_source_sha256": "ec8e179dfa870ad424cd98610388aef757a35704115013e18f9c7dcee81146f0",
+      "technical_check": "complete OGG decode without diagnostics",
+      "wav": {
+        "file": "amb_road_twilight_wind_take01.wav",
+        "sha256": "f181defd6bbdeb19bc73692d535b5794d83da0253f17db2bf4509afacfb26ddb"
+      },
+      "ogg": {
+        "file": "amb_road_twilight_wind_take01.ogg",
+        "sha256": "313572605ab468351286bdbbd95b1ba952c310257f61f456d8f89d7b06fd8d74",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "45.000000"
+          }
+        }
+      },
+      "game_integration": {
+        "file": "03_開發/JingZhe/game/audio/ambience/amb_road_twilight_wind.ogg",
+        "sha256": "313572605ab468351286bdbbd95b1ba952c310257f61f456d8f89d7b06fd8d74",
+        "channel": "ambience",
+        "mixer": "sfx",
+        "content_changed": false
+      }
+    },
+    {
+      "date": "2026-10-12",
+      "cue": "AMB02_INN_WOOD_ROOM",
+      "label": "木造旅店清淡室內底聲與遠處木構",
+      "name": "amb_inn_wood_room",
+      "seed": 5102,
+      "status": "integrated for batch01 scene audition; awaiting user confirmation",
+      "method": "original procedural synthesis; no recorded source or external model",
+      "duration_seconds": 45.0,
+      "loop": true,
+      "target_kind": "RMS dBFS",
+      "target_dbfs": -38,
+      "sample_peak_dbfs": -23.969887654151346,
+      "rms_dbfs": -37.999999664239404,
+      "loop_boundary_pcm_step": 0.0,
+      "editable_source": "produce_batch01_take01.py",
+      "editable_source_sha256": "ec8e179dfa870ad424cd98610388aef757a35704115013e18f9c7dcee81146f0",
+      "technical_check": "complete OGG decode without diagnostics",
+      "wav": {
+        "file": "amb_inn_wood_room_take01.wav",
+        "sha256": "cb9ed0c2a03d34f414463620b194a7bb120b4b9698fc4a299bcaf55d8afdcd1e"
+      },
+      "ogg": {
+        "file": "amb_inn_wood_room_take01.ogg",
+        "sha256": "ea7a039d9f6a528a996259f011f5b035b64e11722b5ef50bcbd7c8f9543df950",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "45.000000"
+          }
+        }
+      },
+      "game_integration": {
+        "file": "03_開發/JingZhe/game/audio/ambience/amb_inn_wood_room.ogg",
+        "sha256": "ea7a039d9f6a528a996259f011f5b035b64e11722b5ef50bcbd7c8f9543df950",
+        "channel": "ambience",
+        "mixer": "sfx",
+        "content_changed": false
+      }
+    },
+    {
+      "date": "2026-10-12",
+      "cue": "AMB03_COURTYARD_WATER_WIND",
+      "label": "後院柔水流與風",
+      "name": "amb_courtyard_water_wind",
+      "seed": 5103,
+      "status": "integrated for batch01 scene audition; awaiting user confirmation",
+      "method": "original procedural synthesis; no recorded source or external model",
+      "duration_seconds": 45.0,
+      "loop": true,
+      "target_kind": "RMS dBFS",
+      "target_dbfs": -31,
+      "sample_peak_dbfs": -15.411155149481782,
+      "rms_dbfs": -30.999999492948106,
+      "loop_boundary_pcm_step": 0.0,
+      "editable_source": "produce_batch01_take01.py",
+      "editable_source_sha256": "ec8e179dfa870ad424cd98610388aef757a35704115013e18f9c7dcee81146f0",
+      "technical_check": "complete OGG decode without diagnostics",
+      "wav": {
+        "file": "amb_courtyard_water_wind_take01.wav",
+        "sha256": "053774ddf4cb8b55a8ad7025588204f96abb1b049e30e7563e5ffe1ef4b0d725"
+      },
+      "ogg": {
+        "file": "amb_courtyard_water_wind_take01.ogg",
+        "sha256": "a0050525145bafe861825d5a2a627b4e15380cecee6004145eeba25ad21fc3bc",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "45.000000"
+          }
+        }
+      },
+      "game_integration": {
+        "file": "03_開發/JingZhe/game/audio/ambience/amb_courtyard_water_wind.ogg",
+        "sha256": "a0050525145bafe861825d5a2a627b4e15380cecee6004145eeba25ad21fc3bc",
+        "channel": "ambience",
+        "mixer": "sfx",
+        "content_changed": false
+      }
+    },
+    {
+      "date": "2026-10-12",
+      "cue": "SFX01_SLIDING_DOOR",
+      "label": "序章推門入庄",
+      "name": "world_sliding_door",
+      "seed": 5201,
+      "status": "integrated for batch01 scene audition; awaiting user confirmation",
+      "method": "original procedural synthesis; no recorded source or external model",
+      "duration_seconds": 0.86,
+      "loop": false,
+      "target_kind": "sample peak dBFS",
+      "target_dbfs": -15,
+      "sample_peak_dbfs": -15.000000078774018,
+      "rms_dbfs": -29.265770618276537,
+      "loop_boundary_pcm_step": null,
+      "editable_source": "produce_batch01_take01.py",
+      "editable_source_sha256": "ec8e179dfa870ad424cd98610388aef757a35704115013e18f9c7dcee81146f0",
+      "technical_check": "complete OGG decode without diagnostics",
+      "wav": {
+        "file": "world_sliding_door_take01.wav",
+        "sha256": "d2979bfcc1da4079aaef0f6f5ca6b862f788fad9741221d786be9a49bf9b7ec9"
+      },
+      "ogg": {
+        "file": "world_sliding_door_take01.ogg",
+        "sha256": "52c0de231ac0a4cd7fd42e669c12f3c56cf381d5db8edcf3b985ec0ba22b8947",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "0.860000"
+          }
+        }
+      },
+      "game_integration": {
+        "file": "03_開發/JingZhe/game/audio/sfx/world/world_sliding_door.ogg",
+        "sha256": "52c0de231ac0a4cd7fd42e669c12f3c56cf381d5db8edcf3b985ec0ba22b8947",
+        "channel": "sound",
+        "mixer": "sfx",
+        "content_changed": false
+      }
+    },
+    {
+      "date": "2026-10-12",
+      "cue": "SFX03_WOOD_BELL",
+      "label": "拉門後稍晚的木鈴",
+      "name": "world_wood_bell",
+      "seed": 5203,
+      "status": "integrated for batch01 scene audition; awaiting user confirmation",
+      "method": "original procedural synthesis; no recorded source or external model",
+      "duration_seconds": 0.48,
+      "loop": false,
+      "target_kind": "sample peak dBFS",
+      "target_dbfs": -18,
+      "sample_peak_dbfs": -18.000000436554874,
+      "rms_dbfs": -33.98237904401363,
+      "loop_boundary_pcm_step": null,
+      "editable_source": "produce_batch01_take01.py",
+      "editable_source_sha256": "ec8e179dfa870ad424cd98610388aef757a35704115013e18f9c7dcee81146f0",
+      "technical_check": "complete OGG decode without diagnostics",
+      "wav": {
+        "file": "world_wood_bell_take01.wav",
+        "sha256": "4bb413a7068eaded5ad8313f1756d0bf6d358336c7b8be32d32abf69077aa2dc"
+      },
+      "ogg": {
+        "file": "world_wood_bell_take01.ogg",
+        "sha256": "836a058473d994ba06dc590f498677f197799137f1c10718a93bbef9d394e13c",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "0.480000"
+          }
+        }
+      },
+      "game_integration": {
+        "file": "03_開發/JingZhe/game/audio/sfx/world/world_wood_bell.ogg",
+        "sha256": "836a058473d994ba06dc590f498677f197799137f1c10718a93bbef9d394e13c",
+        "channel": "sound",
+        "mixer": "sfx",
+        "content_changed": false
+      }
+    },
+    {
+      "date": "2026-10-12",
+      "cue": "SFX13_KISERU_IGNITE",
+      "label": "序章煙草燃起",
+      "name": "magic_kiseru_ignite",
+      "seed": 5213,
+      "status": "integrated for batch01 scene audition; awaiting user confirmation",
+      "method": "original procedural synthesis; no recorded source or external model",
+      "duration_seconds": 0.72,
+      "loop": false,
+      "target_kind": "sample peak dBFS",
+      "target_dbfs": -19,
+      "sample_peak_dbfs": -18.9999998679469,
+      "rms_dbfs": -36.97189485641131,
+      "loop_boundary_pcm_step": null,
+      "editable_source": "produce_batch01_take01.py",
+      "editable_source_sha256": "ec8e179dfa870ad424cd98610388aef757a35704115013e18f9c7dcee81146f0",
+      "technical_check": "complete OGG decode without diagnostics",
+      "wav": {
+        "file": "magic_kiseru_ignite_take01.wav",
+        "sha256": "dd0b35d8b4768cf66b2c5f838898f02bf754b77fff761fc0fa0959c678d0b76e"
+      },
+      "ogg": {
+        "file": "magic_kiseru_ignite_take01.ogg",
+        "sha256": "0468ac1755468c39560946de877b3839d205bfbbd814cbd5d35ef0c76c2b0806",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "0.720000"
+          }
+        }
+      },
+      "game_integration": {
+        "file": "03_開發/JingZhe/game/audio/sfx/magic/magic_kiseru_ignite.ogg",
+        "sha256": "0468ac1755468c39560946de877b3839d205bfbbd814cbd5d35ef0c76c2b0806",
+        "channel": "sound",
+        "mixer": "sfx",
+        "content_changed": false
+      }
+    },
+    {
+      "date": "2026-10-12",
+      "cue": "SFX15_EMBER",
+      "label": "第一章前院煙草餘燼",
+      "name": "magic_kiseru_ember",
+      "seed": 5215,
+      "status": "integrated for batch01 scene audition; awaiting user confirmation",
+      "method": "original procedural synthesis; no recorded source or external model",
+      "duration_seconds": 1.15,
+      "loop": false,
+      "target_kind": "sample peak dBFS",
+      "target_dbfs": -25,
+      "sample_peak_dbfs": -25.000000003171387,
+      "rms_dbfs": -44.35372844687788,
+      "loop_boundary_pcm_step": null,
+      "editable_source": "produce_batch01_take01.py",
+      "editable_source_sha256": "ec8e179dfa870ad424cd98610388aef757a35704115013e18f9c7dcee81146f0",
+      "technical_check": "complete OGG decode without diagnostics",
+      "wav": {
+        "file": "magic_kiseru_ember_take01.wav",
+        "sha256": "055664e2c5f95a4c2d650f686dd7133bb51dcf2495242589ea6e0d6f727edf90"
+      },
+      "ogg": {
+        "file": "magic_kiseru_ember_take01.ogg",
+        "sha256": "116dfe5f4845e78210ce4822928fc1c3ffdd520a688698cdbfc706077ea2f8da",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "1.150000"
+          }
+        }
+      },
+      "game_integration": {
+        "file": "03_開發/JingZhe/game/audio/sfx/magic/magic_kiseru_ember.ogg",
+        "sha256": "116dfe5f4845e78210ce4822928fc1c3ffdd520a688698cdbfc706077ea2f8da",
+        "channel": "sound",
+        "mixer": "sfx",
+        "content_changed": false
+      }
+    },
+    {
+      "date": "2026-10-12",
+      "cue": "SFX07_WRITING",
+      "label": "第一章後院寫下與重寫句子",
+      "name": "world_writing_pen",
+      "seed": 5207,
+      "status": "integrated for batch01 scene audition; awaiting user confirmation",
+      "method": "original procedural synthesis; no recorded source or external model",
+      "duration_seconds": 1.05,
+      "loop": false,
+      "target_kind": "sample peak dBFS",
+      "target_dbfs": -23,
+      "sample_peak_dbfs": -22.999999518003015,
+      "rms_dbfs": -39.82883389429631,
+      "loop_boundary_pcm_step": null,
+      "editable_source": "produce_batch01_take01.py",
+      "editable_source_sha256": "ec8e179dfa870ad424cd98610388aef757a35704115013e18f9c7dcee81146f0",
+      "technical_check": "complete OGG decode without diagnostics",
+      "wav": {
+        "file": "world_writing_pen_take01.wav",
+        "sha256": "ced6f3ff912198c7ed3b43625677e17a56ca32e5493ca55094ab4bc25838d501"
+      },
+      "ogg": {
+        "file": "world_writing_pen_take01.ogg",
+        "sha256": "60ab6ce0954b9320c4fdd6142929ae88a8c25596cc47d8fd0fafb6196ecc7fd1",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "1.050000"
+          }
+        }
+      },
+      "game_integration": {
+        "file": "03_開發/JingZhe/game/audio/sfx/world/world_writing_pen.ogg",
+        "sha256": "60ab6ce0954b9320c4fdd6142929ae88a8c25596cc47d8fd0fafb6196ecc7fd1",
+        "channel": "sound",
+        "mixer": "sfx",
+        "content_changed": false
+      }
+    },
+    {
+      "date": "2026-10-12",
+      "cue": "SFX08_PAPER_FOLD",
+      "label": "SFX08 包布摩擦變體；摺紙基礎音仍待第二批",
+      "name": "world_cloth_wrapped_naginata",
+      "seed": 5208,
+      "status": "integrated for batch01 scene audition; awaiting user confirmation",
+      "method": "original procedural synthesis; no recorded source or external model",
+      "duration_seconds": 0.68,
+      "loop": false,
+      "target_kind": "sample peak dBFS",
+      "target_dbfs": -23,
+      "sample_peak_dbfs": -22.999999518003015,
+      "rms_dbfs": -40.087557157630805,
+      "loop_boundary_pcm_step": null,
+      "editable_source": "produce_batch01_take01.py",
+      "editable_source_sha256": "ec8e179dfa870ad424cd98610388aef757a35704115013e18f9c7dcee81146f0",
+      "technical_check": "complete OGG decode without diagnostics",
+      "wav": {
+        "file": "world_cloth_wrapped_naginata_take01.wav",
+        "sha256": "3e0b596659694edbfd0ff76a46132e28824bf8edac0fe9611964df07cca7bb54"
+      },
+      "ogg": {
+        "file": "world_cloth_wrapped_naginata_take01.ogg",
+        "sha256": "e538cf8ad4ac6cc5bd37ee59bd08586e758d2e9346a5d0cba810f2bb81b131ec",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "0.680000"
+          }
+        }
+      },
+      "game_integration": {
+        "file": "03_開發/JingZhe/game/audio/sfx/world/world_cloth_wrapped_naginata.ogg",
+        "sha256": "e538cf8ad4ac6cc5bd37ee59bd08586e758d2e9346a5d0cba810f2bb81b131ec",
+        "channel": "sound",
+        "mixer": "sfx",
+        "content_changed": false
+      }
+    }
+  ]
+}

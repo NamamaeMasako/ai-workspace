@@ -1,0 +1,106 @@
+{
+  "date": "2026-10-12",
+  "batch": "01 抵達與日常",
+  "status": "awaiting user full-scene audition",
+  "workflow": "all required scene assets -> game placement and mix -> continuous scene audition -> revisions -> user approval",
+  "checkpoints": [
+    {
+      "name": "序章舊道至推門入庄",
+      "warp": "script.rpy:43"
+    },
+    {
+      "name": "第一章清晨、早餐與前院",
+      "warp": "script.rpy:107"
+    },
+    {
+      "name": "第一章後院、寫字與包布",
+      "warp": "script.rpy:196"
+    }
+  ],
+  "ambience_cues": [
+    {
+      "scene": "prologue road",
+      "file": "amb_road_twilight_wind.ogg",
+      "fade_in": 1.5,
+      "volume": 1
+    },
+    {
+      "scene": "prologue door entry and chapter1 bedroom/breakfast",
+      "file": "amb_inn_wood_room.ogg",
+      "fade_in": 1.5,
+      "fade_out": 1.5,
+      "volume": 1
+    },
+    {
+      "scene": "chapter1 front yard",
+      "file": "amb_road_twilight_wind.ogg",
+      "fade_in": 1.5,
+      "fade_out": 1.5,
+      "volume": 0.45
+    },
+    {
+      "scene": "chapter1 backyard",
+      "file": "amb_courtyard_water_wind.ogg",
+      "fade_in": 1.5,
+      "fade_out": 1.5,
+      "volume": 0.8
+    },
+    {
+      "scene": "chapter1 evening hall",
+      "file": "amb_inn_wood_room.ogg",
+      "fade_in": 1.5,
+      "fade_out": 1.5,
+      "volume": 1
+    }
+  ],
+  "one_shots": [
+    {
+      "text": "煙草燃起時，他沒有想太多。",
+      "cue": "SFX13_KISERU_IGNITE"
+    },
+    {
+      "text": "他推門而入時，木鈴輕輕響了一下",
+      "cue": "SFX01_SLIDING_DOOR -> 0.12s silence -> SFX03_WOOD_BELL"
+    },
+    {
+      "text": "他沒有立刻寫字，只是讓煙斗的火慢慢燒著。",
+      "cue": "SFX15_EMBER"
+    },
+    {
+      "text": "他在第一行寫下這句話，又劃掉。／他重新寫：",
+      "cue": "SFX07_WRITING"
+    },
+    {
+      "text": "花見帶著一把長形的包布，像是習慣性背著。",
+      "cue": "SFX08 cloth variation only"
+    }
+  ],
+  "quiet_decisions": [
+    "short introduction stays quiet",
+    "handle touching has no added metallic blade sound"
+  ],
+  "scope_notes": [
+    "SFX07 moved into batch01 because writing occurs in its scene",
+    "SFX08 cloth variation is available; base paper-fold cue remains batch02 work"
+  ],
+  "boundary": "ambience stops at chapter2 pending its own sound batch; before_main_menu and start also stop ambience/story sound",
+  "runtime_observation": {
+    "timestamp": 1791804706.7517152,
+    "basedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe",
+    "gamedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe\\game",
+    "location": [
+      "game/script.rpy",
+      43
+    ],
+    "ambience": "audio/ambience/amb_road_twilight_wind.ogg",
+    "ambience_position": 20.861,
+    "music": null,
+    "sound": null,
+    "sound_volume": 1.0,
+    "sound_muted": false,
+    "music_volume": 1.0,
+    "master_muted": false
+  },
+  "visual_observation": "engine screenshot showed twilight road and opening prologue text with no error screen",
+  "approval": "pending; decoded files and running ambience do not establish user listening judgement"
+}

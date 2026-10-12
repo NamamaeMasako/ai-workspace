@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-12",
+  "cue": "SFX13_KISERU_IGNITE",
+  "label": "序章煙草燃起",
+  "name": "magic_kiseru_ignite",
+  "seed": 5213,
+  "status": "integrated for batch01 scene audition; awaiting user confirmation",
+  "method": "original procedural synthesis; no recorded source or external model",
+  "duration_seconds": 0.72,
+  "loop": false,
+  "target_kind": "sample peak dBFS",
+  "target_dbfs": -19,
+  "sample_peak_dbfs": -18.9999998679469,
+  "rms_dbfs": -36.97189485641131,
+  "loop_boundary_pcm_step": null,
+  "editable_source": "produce_batch01_take01.py",
+  "editable_source_sha256": "ec8e179dfa870ad424cd98610388aef757a35704115013e18f9c7dcee81146f0",
+  "technical_check": "complete OGG decode without diagnostics",
+  "wav": {
+    "file": "magic_kiseru_ignite_take01.wav",
+    "sha256": "dd0b35d8b4768cf66b2c5f838898f02bf754b77fff761fc0fa0959c678d0b76e"
+  },
+  "ogg": {
+    "file": "magic_kiseru_ignite_take01.ogg",
+    "sha256": "0468ac1755468c39560946de877b3839d205bfbbd814cbd5d35ef0c76c2b0806",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "0.720000"
+      }
+    }
+  },
+  "game_integration": {
+    "file": "03_開發/JingZhe/game/audio/sfx/magic/magic_kiseru_ignite.ogg",
+    "sha256": "0468ac1755468c39560946de877b3839d205bfbbd814cbd5d35ef0c76c2b0806",
+    "channel": "sound",
+    "mixer": "sfx",
+    "content_changed": false
+  }
+}

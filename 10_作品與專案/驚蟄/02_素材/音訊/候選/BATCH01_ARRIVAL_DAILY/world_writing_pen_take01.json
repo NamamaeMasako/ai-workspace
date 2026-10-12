@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-12",
+  "cue": "SFX07_WRITING",
+  "label": "第一章後院寫下與重寫句子",
+  "name": "world_writing_pen",
+  "seed": 5207,
+  "status": "integrated for batch01 scene audition; awaiting user confirmation",
+  "method": "original procedural synthesis; no recorded source or external model",
+  "duration_seconds": 1.05,
+  "loop": false,
+  "target_kind": "sample peak dBFS",
+  "target_dbfs": -23,
+  "sample_peak_dbfs": -22.999999518003015,
+  "rms_dbfs": -39.82883389429631,
+  "loop_boundary_pcm_step": null,
+  "editable_source": "produce_batch01_take01.py",
+  "editable_source_sha256": "ec8e179dfa870ad424cd98610388aef757a35704115013e18f9c7dcee81146f0",
+  "technical_check": "complete OGG decode without diagnostics",
+  "wav": {
+    "file": "world_writing_pen_take01.wav",
+    "sha256": "ced6f3ff912198c7ed3b43625677e17a56ca32e5493ca55094ab4bc25838d501"
+  },
+  "ogg": {
+    "file": "world_writing_pen_take01.ogg",
+    "sha256": "60ab6ce0954b9320c4fdd6142929ae88a8c25596cc47d8fd0fafb6196ecc7fd1",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "1.050000"
+      }
+    }
+  },
+  "game_integration": {
+    "file": "03_開發/JingZhe/game/audio/sfx/world/world_writing_pen.ogg",
+    "sha256": "60ab6ce0954b9320c4fdd6142929ae88a8c25596cc47d8fd0fafb6196ecc7fd1",
+    "channel": "sound",
+    "mixer": "sfx",
+    "content_changed": false
+  }
+}

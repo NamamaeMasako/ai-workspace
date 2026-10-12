@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-12",
+  "cue": "SFX15_EMBER",
+  "label": "第一章前院煙草餘燼",
+  "name": "magic_kiseru_ember",
+  "seed": 5215,
+  "status": "integrated for batch01 scene audition; awaiting user confirmation",
+  "method": "original procedural synthesis; no recorded source or external model",
+  "duration_seconds": 1.15,
+  "loop": false,
+  "target_kind": "sample peak dBFS",
+  "target_dbfs": -25,
+  "sample_peak_dbfs": -25.000000003171387,
+  "rms_dbfs": -44.35372844687788,
+  "loop_boundary_pcm_step": null,
+  "editable_source": "produce_batch01_take01.py",
+  "editable_source_sha256": "ec8e179dfa870ad424cd98610388aef757a35704115013e18f9c7dcee81146f0",
+  "technical_check": "complete OGG decode without diagnostics",
+  "wav": {
+    "file": "magic_kiseru_ember_take01.wav",
+    "sha256": "055664e2c5f95a4c2d650f686dd7133bb51dcf2495242589ea6e0d6f727edf90"
+  },
+  "ogg": {
+    "file": "magic_kiseru_ember_take01.ogg",
+    "sha256": "116dfe5f4845e78210ce4822928fc1c3ffdd520a688698cdbfc706077ea2f8da",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "1.150000"
+      }
+    }
+  },
+  "game_integration": {
+    "file": "03_開發/JingZhe/game/audio/sfx/magic/magic_kiseru_ember.ogg",
+    "sha256": "116dfe5f4845e78210ce4822928fc1c3ffdd520a688698cdbfc706077ea2f8da",
+    "channel": "sound",
+    "mixer": "sfx",
+    "content_changed": false
+  }
+}

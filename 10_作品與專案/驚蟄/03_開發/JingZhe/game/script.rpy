@@ -6,10 +6,14 @@ label splashscreen:
     return
 
 label before_main_menu:
+    stop ambience fadeout 1.0
+    stop sound fadeout 0.2
     return
 
 label start:
     stop music fadeout 1.0
+    stop ambience fadeout 1.0
+    stop sound fadeout 0.2
 
     scene black
     with fade
@@ -32,6 +36,7 @@ label start:
     jump prologue
 
 label prologue:
+    play ambience "audio/ambience/amb_road_twilight_wind.ogg" loop fadein 1.5
     scene bg road_twilight
     with fade
 
@@ -43,6 +48,7 @@ label prologue:
 
     jingzhe "……"
 
+    play sound "audio/sfx/magic/magic_kiseru_ignite.ogg"
     narrator "煙草燃起時，他沒有想太多。"
     narrator "只是因為他喜歡。"
 
@@ -57,6 +63,10 @@ label prologue:
     with dissolve
 
     narrator "旅店比他想像得更安靜。"
+    play sound "audio/sfx/world/world_sliding_door.ogg"
+    queue sound "<silence 0.12>"
+    queue sound "audio/sfx/world/world_wood_bell.ogg"
+    play ambience "audio/ambience/amb_inn_wood_room.ogg" loop fadeout 1.5 fadein 1.5
     narrator "他推門而入時，木鈴輕輕響了一下，像有人貼在耳邊低聲說：『來了。』"
 
     show hanami bright at zh_far_left
@@ -89,6 +99,7 @@ label prologue:
     jump chapter_1
 label chapter_1:
     play music "audio/music/bgm_moon_inn_day.ogg" fadein 1.5
+    play ambience "audio/ambience/amb_inn_wood_room.ogg" loop fadeout 1.0 fadein 1.0
 
     scene bg inn_room_morning
     with dissolve
@@ -135,6 +146,7 @@ label chapter_1:
 
     narrator "夢見的聲音像一點點柔軟的霧，停在每個音節之間。"
 
+    play ambience "audio/ambience/amb_road_twilight_wind.ogg" loop fadeout 1.5 fadein 1.5 volume 0.45
     scene bg inn_front_yard
     with dissolve
 
@@ -142,6 +154,7 @@ label chapter_1:
     narrator "驚蟄坐在前院樹下的長椅上，筆記本攤在膝上。"
 
     show jingzhe smoking at zh_center
+    play sound "audio/sfx/magic/magic_kiseru_ember.ogg"
     narrator "他沒有立刻寫字，只是讓煙斗的火慢慢燒著。"
 
     jingzhe "……"
@@ -176,6 +189,7 @@ label chapter_1:
 
     jingzhe "知道了。"
 
+    play ambience "audio/ambience/amb_courtyard_water_wind.ogg" loop fadeout 1.5 fadein 1.5 volume 0.8
     scene bg inn_backyard
     with dissolve
 
@@ -186,10 +200,12 @@ label chapter_1:
 
     narrator "『他總是被討厭。』"
 
+    play sound "audio/sfx/world/world_writing_pen.ogg"
     narrator "他在第一行寫下這句話，又劃掉。"
 
     narrator "太直白了。"
 
+    play sound "audio/sfx/world/world_writing_pen.ogg"
     narrator "他重新寫："
 
     narrator "『他一直覺得，自己很難被好好留下。』"
@@ -202,6 +218,7 @@ label chapter_1:
 
     show event wrapped_naginata
     with dissolve
+    play sound "audio/sfx/world/world_cloth_wrapped_naginata.ogg"
     narrator "花見帶著一把長形的包布，像是習慣性背著。"
 
     jingzhe "那是？"
@@ -233,6 +250,7 @@ label chapter_1:
 
     play music "audio/music/bgm_moon_inn_night.ogg" loop fadeout 1.5 fadein 1.5
 
+    play ambience "audio/ambience/amb_inn_wood_room.ogg" loop fadeout 1.5 fadein 1.5
     scene bg inn_hall_evening
     with dissolve
 
@@ -260,6 +278,7 @@ label chapter_1:
 
     jump chapter_2
 label chapter_2:
+    stop ambience fadeout 1.5
     scene bg inn_room_night
     with dissolve
 

@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-12",
+  "cue": "AMB01_ROAD_WIND",
+  "label": "舊道暮色、低風與草木",
+  "name": "amb_road_twilight_wind",
+  "seed": 5101,
+  "status": "integrated for batch01 scene audition; awaiting user confirmation",
+  "method": "original procedural synthesis; no recorded source or external model",
+  "duration_seconds": 45.0,
+  "loop": true,
+  "target_kind": "RMS dBFS",
+  "target_dbfs": -29,
+  "sample_peak_dbfs": -14.718869086535609,
+  "rms_dbfs": -28.999999596808333,
+  "loop_boundary_pcm_step": 0.0,
+  "editable_source": "produce_batch01_take01.py",
+  "editable_source_sha256": "ec8e179dfa870ad424cd98610388aef757a35704115013e18f9c7dcee81146f0",
+  "technical_check": "complete OGG decode without diagnostics",
+  "wav": {
+    "file": "amb_road_twilight_wind_take01.wav",
+    "sha256": "f181defd6bbdeb19bc73692d535b5794d83da0253f17db2bf4509afacfb26ddb"
+  },
+  "ogg": {
+    "file": "amb_road_twilight_wind_take01.ogg",
+    "sha256": "313572605ab468351286bdbbd95b1ba952c310257f61f456d8f89d7b06fd8d74",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "45.000000"
+      }
+    }
+  },
+  "game_integration": {
+    "file": "03_開發/JingZhe/game/audio/ambience/amb_road_twilight_wind.ogg",
+    "sha256": "313572605ab468351286bdbbd95b1ba952c310257f61f456d8f89d7b06fd8d74",
+    "channel": "ambience",
+    "mixer": "sfx",
+    "content_changed": false
+  }
+}
