@@ -18,11 +18,14 @@
 
 - 2026-10-12：第八章苦香強化交戰場景試聽確認沿用 BGM06 long_01 弦鼓追殺，不另製強化變奏；相關待辦取消。七組主 BGM 共八首音檔及兩項變奏決策均已完成。
 
+- 2026-10-12：介面確認／返回第一版已接入開發遊戲，設定頁提供音效音量與試聽。主選單啟動正常，待生前實際點按確認。
+
 主要檔案：
 - `game/script.rpy`：主劇本與分支流程。
 - `game/characters.rpy`：角色名與對話樣式。
 - `game/placeholders.rpy`：正式 image 定義、角色站位與演出 Transform；檔名為歷史沿用。
 - `game/screens.rpy`：主選單、快速選單、存讀檔、設定與說明。
+- `game/ui_audio.rpy`：確認／返回介面音效樣式與共同檔案引用。
 - `game/options.rpy`：標題、版本、功能開關與製作名單。
 - `game/build.rpy`：正式發行包排除規則。
 - `game/THIRD_PARTY_LICENSES.txt`：第三方字型授權。

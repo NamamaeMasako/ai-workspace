@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-12",
+  "status": "awaiting user in-game confirmation",
+  "runtime_observation": {
+    "timestamp": 1791803475.2612035,
+    "basedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe",
+    "gamedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe\\game",
+    "has_sound": true,
+    "confirm_file": "audio/sfx/ui/ui_confirm.ogg",
+    "back_file": "audio/sfx/ui/ui_back.ogg",
+    "sound_volume": 1.0,
+    "sound_muted": false,
+    "master_muted": false,
+    "main_menu": true,
+    "preferences_screen": false,
+    "playing_music": "audio/music/bgm_lantern_theme.ogg",
+    "activation_sounds": {
+      "navigation_button": "audio/sfx/ui/ui_confirm.ogg",
+      "choice_button": "audio/sfx/ui/ui_confirm.ogg",
+      "quick_button": "audio/sfx/ui/ui_confirm.ogg",
+      "slot_button": "audio/sfx/ui/ui_confirm.ogg",
+      "return_button": "audio/sfx/ui/ui_back.ogg",
+      "confirm_button": "audio/sfx/ui/ui_confirm.ogg"
+    }
+  },
+  "visual_observation": "engine screenshot showed development main menu with no error screen",
+  "source_files": [
+    "03_開發/JingZhe/game/ui_audio.rpy",
+    "03_開發/JingZhe/game/options.rpy",
+    "03_開發/JingZhe/game/screens.rpy"
+  ],
+  "confirm_triggers": [
+    "navigation",
+    "choices",
+    "save/load slots and pages",
+    "preference buttons",
+    "quick menu except rollback",
+    "confirmation yes"
+  ],
+  "back_triggers": [
+    "menu return button",
+    "quick rollback button",
+    "confirmation no",
+    "Esc/right-click close menu or dismiss confirmation"
+  ],
+  "preferences": "sound volume slider and single-sound sample button",
+  "user_listening_judgement": "pending; runtime style configuration does not confirm perceived sound"
+}

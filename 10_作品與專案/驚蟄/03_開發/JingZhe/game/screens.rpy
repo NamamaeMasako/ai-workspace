@@ -141,7 +141,7 @@ screen quick_menu():
             style_prefix 'quick'
             xalign 0.5
             yalign 1.0
-            textbutton _('返回') action Rollback()
+            textbutton _('返回') action Rollback() activate_sound gui.ui_back_sound
             textbutton _('歷史') action ShowMenu('history')
             textbutton _('自動'):
                 action [
@@ -270,7 +270,9 @@ screen game_menu(title, scroll=None):
         action Return()
     label title
     if main_menu:
-        key 'game_menu' action ShowMenu('main_menu')
+        key 'game_menu' action ShowMenu('main_menu') activate_sound gui.ui_back_sound
+    else:
+        key 'game_menu' action Return() activate_sound gui.ui_back_sound
 
 style game_menu_outer_frame is empty
 style game_menu_navigation_frame is empty
@@ -417,6 +419,11 @@ screen preferences():
                     vbox:
                         label _('音樂音量')
                         bar value Preference('music volume')
+                if config.has_sound:
+                    vbox:
+                        label _('音效音量')
+                        bar value Preference('sound volume')
+                        textbutton _('試聽') action Play('sound', gui.ui_confirm_sound) activate_sound None
 
 screen history():
     tag menu
@@ -523,8 +530,8 @@ screen confirm(message, yes_action, no_action):
                 xalign 0.5
                 spacing 100
                 textbutton _('是') action yes_action
-                textbutton _('否') action no_action
-    key 'game_menu' action no_action
+                textbutton _('否') action no_action activate_sound gui.ui_back_sound
+    key 'game_menu' action no_action activate_sound gui.ui_back_sound
 
 style confirm_frame is gui_frame
 style confirm_prompt is gui_prompt

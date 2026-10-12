@@ -4,7 +4,7 @@ define config.version = "0.1.2"
 define config.window_title = _("驚蟄")
 define build.name = "JingZhe"
 
-define config.has_sound = False
+define config.has_sound = True
 define config.has_music = True
 define config.has_voice = False
 define config.check_conflicting_properties = True
