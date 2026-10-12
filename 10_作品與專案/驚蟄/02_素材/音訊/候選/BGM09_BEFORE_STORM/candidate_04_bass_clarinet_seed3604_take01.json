@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-13",
+  "cue": "BGM09_BEFORE_STORM",
+  "label": "04 低管預兆",
+  "request": {
+    "prompt": "Soft bass clarinet sings restrained low connected phrases over subdued viola and cello. Intimate shadowy breath and quietly steady underlying motion, with calm controlled apprehension; no comedic woodwind bounce, fast flourishes or sinister jump-scare blasts. Restrained anticipatory instrumental background score for a dark fantasy visual novel. A writer hands a protective black card to his companion and prepares to leave a wooden inn for a dangerous forest journey. The fight has not begun. Calm before the storm: quiet surface with controlled apprehension underneath, unresolved gentle minor harmony, slow breathing phrases and a subtle patient musical pulse. Moderate tension, low density, intimate acoustic chamber texture, enough continuous musical presence to support reading and dialogue. No cheerful or playful mood, no bouncy rhythm, no festive melody, no fast combat tempo, no busy ostinato, no pounding drums, no energetic action groove, no loud orchestral swell, no epic or heroic fanfare. No shrill horror sting, overwhelming fear, funeral lament or romantic sweetness. Do not leave empty silent gaps or finish early. Instrumental music only, no singing, voice, choir, speech, rain, wind, insects, crackling, environmental ambience or sound effects. ",
+    "lyrics": "[Instrumental]",
+    "thinking": false,
+    "use_format": false,
+    "use_cot_caption": false,
+    "use_cot_language": false,
+    "bpm": 58,
+    "key_scale": "E minor",
+    "time_signature": "4",
+    "vocal_language": "unknown",
+    "audio_duration": 25,
+    "inference_steps": 8,
+    "batch_size": 1,
+    "use_random_seed": false,
+    "seed": 3604,
+    "model": "acestep-v15-turbo",
+    "task_type": "text2music",
+    "audio_cover_strength": 1.0,
+    "audio_format": "wav"
+  },
+  "revision": "take01",
+  "review_basis": "User requested a quieter and slower-than-combat tense BGM for chapter 7 black-card handoff and departure, suggesting calm before the storm; BGM08 is now approved",
+  "processing": {
+    "excerpt_seconds": 20,
+    "source_requested_seconds": 25,
+    "fade_in_seconds": 0.03,
+    "fade_out_seconds": 0.5,
+    "loop_processed": false,
+    "loudness_target_lufs": -16,
+    "true_peak_target_dbtp": -1.5
+  },
+  "task": {
+    "task_id": "2f067dec-950b-4948-b718-2f88ebbb3868",
+    "status": "queued",
+    "queue_position": 1
+  },
+  "result": {
+    "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5Ca71c3396-dcb5-cf76-be0e-6d683284d1ad.wav",
+    "wave": "",
+    "status": 1,
+    "create_time": 1791826197,
+    "env": "development",
+    "prompt": "Soft bass clarinet sings restrained low connected phrases over subdued viola and cello. Intimate shadowy breath and quietly steady underlying motion, with calm controlled apprehension; no comedic woodwind bounce, fast flourishes or sinister jump-scare blasts. Restrained anticipatory instrumental background score for a dark fantasy visual novel. A writer hands a protective black card to his companion and prepares to leave a wooden inn for a dangerous forest journey. The fight has not begun. Calm before the storm: quiet surface with controlled apprehension underneath, unresolved gentle minor harmony, slow breathing phrases and a subtle patient musical pulse. Moderate tension, low density, intimate acoustic chamber texture, enough continuous musical presence to support reading and dialogue. No cheerful or playful mood, no bouncy rhythm, no festive melody, no fast combat tempo, no busy ostinato, no pounding drums, no energetic action groove, no loud orchestral swell, no epic or heroic fanfare. No shrill horror sting, overwhelming fear, funeral lament or romantic sweetness. Do not leave empty silent gaps or finish early. Instrumental music only, no singing, voice, choir, speech, rain, wind, insects, crackling, environmental ambience or sound effects. ",
+    "lyrics": "[Instrumental]",
+    "metas": {
+      "bpm": 58,
+      "duration": 25.0,
+      "genres": "N/A",
+      "keyscale": "E minor",
+      "timesignature": "4",
+      "prompt": "Soft bass clarinet sings restrained low connected phrases over subdued viola and cello. Intimate shadowy breath and quietly steady underlying motion, with calm controlled apprehension; no comedic woodwind bounce, fast flourishes or sinister jump-scare blasts. Restrained anticipatory instrumental background score for a dark fantasy visual novel. A writer hands a protective black card to his companion and prepares to leave a wooden inn for a dangerous forest journey. The fight has not begun. Calm before the storm: quiet surface with controlled apprehension underneath, unresolved gentle minor harmony, slow breathing phrases and a subtle patient musical pulse. Moderate tension, low density, intimate acoustic chamber texture, enough continuous musical presence to support reading and dialogue. No cheerful or playful mood, no bouncy rhythm, no festive melody, no fast combat tempo, no busy ostinato, no pounding drums, no energetic action groove, no loud orchestral swell, no epic or heroic fanfare. No shrill horror sting, overwhelming fear, funeral lament or romantic sweetness. Do not leave empty silent gaps or finish early. Instrumental music only, no singing, voice, choir, speech, rain, wind, insects, crackling, environmental ambience or sound effects. ",
+      "lyrics": "[Instrumental]"
+    },
+    "generation_info": "**🎵 Total generation time (1 song): 2.18s**\n- 2.18s per song\n- DiT phase (1 song): 2.18s",
+    "seed_value": "3604",
+    "lm_model": "acestep-5Hz-lm-0.6B",
+    "dit_model": "acestep-v15-turbo",
+    "progress": 1.0,
+    "stage": "succeeded"
+  },
+  "wav": {
+    "file": "candidate_04_bass_clarinet_seed3604_take01.wav",
+    "sha256": "35da5973150d3d11b7f8160c0d3aa12da6aedb472bf9971ffdb6091f4403c1e0",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "25.000000"
+      }
+    }
+  },
+  "ogg": {
+    "file": "candidate_04_bass_clarinet_seed3604_take01.ogg",
+    "sha256": "9f68bb36e80c1c51f1b28db10e1b95b9a571c3c995ed23e18e0d0d4f0bc4b87c",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "technical_check": {
+    "decode": "passed",
+    "integrated_lufs": "-16.60",
+    "true_peak_dbtp": "-1.48",
+    "silence_intervals": [
+      "silence_start: 16.30619",
+      "silence_end: 16.951134 | silence_duration: 0.644943",
+      "silence_start: 17.582109",
+      "silence_end: 18.652449 | silence_duration: 1.07034",
+      "silence_start: 18.831338",
+      "silence_end: 19.970272 | silence_duration: 1.138934"
+    ]
+  }
+}

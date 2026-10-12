@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-13",
+  "files": [
+    {
+      "file": "candidate_01_low_strings_seed3601_take01.ogg",
+      "decode": "passed",
+      "integrated_lufs": "-15.95",
+      "true_peak_dbtp": "-2.44",
+      "silence_intervals": []
+    },
+    {
+      "file": "candidate_02_felt_piano_seed3602_take01.ogg",
+      "decode": "passed",
+      "integrated_lufs": "-16.17",
+      "true_peak_dbtp": "-2.25",
+      "silence_intervals": [
+        "silence_start: 16.048141",
+        "silence_end: 16.849728 | silence_duration: 0.801587"
+      ]
+    },
+    {
+      "file": "candidate_03_muted_guzheng_seed3603_take01.ogg",
+      "decode": "passed",
+      "integrated_lufs": "-16.21",
+      "true_peak_dbtp": "-2.26",
+      "silence_intervals": []
+    },
+    {
+      "file": "candidate_04_bass_clarinet_seed3614_take02.ogg",
+      "decode": "passed",
+      "integrated_lufs": "-15.98",
+      "true_peak_dbtp": "-2.40",
+      "silence_intervals": []
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "cue": "BGM09_BEFORE_STORM",
+  "reviews": [
+    {
+      "date": "2026-10-13",
+      "stage": "shortlist_take01",
+      "status": "awaiting_user_selection",
+      "scene_purpose": "第七章交卡與出發、兩輪四路線交戰前；風雨前的寧靜、慢於戰鬥、安靜克制的緊張",
+      "candidates": [
+        "candidate_01_low_strings_seed3601_take01.ogg",
+        "candidate_02_felt_piano_seed3602_take01.ogg",
+        "candidate_03_muted_guzheng_seed3603_take01.ogg",
+        "candidate_04_bass_clarinet_seed3614_take02.ogg"
+      ],
+      "game_integrated": false,
+      "formally_adopted": false
+    }
+  ]
+}

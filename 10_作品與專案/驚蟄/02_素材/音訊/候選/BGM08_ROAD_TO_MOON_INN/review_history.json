@@ -100,6 +100,16 @@
       "loop_spec": "<loop 3.0>",
       "game_integrated": true,
       "formal_scene_approval": false
+    },
+    {
+      "date": "2026-10-13",
+      "stage": "long_03_scene_trial",
+      "status": "formally_adopted",
+      "user_feedback": "我覺得這版可以，可以進下一首",
+      "file": "long_03_tail_repair_gentle_guzheng_seed3502_loop_intro.ogg",
+      "sha256": "7494628fd40853c7c2c6be11b9ed3e7dc60efad34de08d021e8396c8dca4accf",
+      "scene_and_loop_approved": true,
+      "next_cue": "BGM09_BEFORE_STORM"
     }
   ]
 }

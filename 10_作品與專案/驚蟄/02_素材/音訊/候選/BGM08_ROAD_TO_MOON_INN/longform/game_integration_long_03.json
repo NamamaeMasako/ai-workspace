@@ -2,7 +2,7 @@
   "date": "2026-10-13",
   "cue": "BGM08_ROAD_TO_MOON_INN",
   "user_instruction": "用這版試試",
-  "status": "long_03 selected for in-game trial; scene and loop awaiting user confirmation",
+  "status": "formally adopted; user confirmed development scene and loop",
   "source_file": "long_03_tail_repair_gentle_guzheng_seed3502_loop_intro.ogg",
   "source_sha256": "7494628fd40853c7c2c6be11b9ed3e7dc60efad34de08d021e8396c8dca4accf",
   "game_file": "03_開發/JingZhe/game/audio/music/bgm_road_to_moon_inn.ogg",
@@ -26,5 +26,10 @@
   "audition_warp": "script.rpy:44",
   "runtime": "development game launched at prologue; screenshot normal; selected long_03 hash matches, music playing and unmuted",
   "runtime_record": "runtime_observation_long_03_loop.json",
-  "scene_snapshot": "runtime_scene_long_03_loop.png"
+  "scene_snapshot": "runtime_scene_long_03_loop.png",
+  "formal_approval": {
+    "date": "2026-10-13",
+    "user_feedback": "我覺得這版可以，可以進下一首",
+    "scene_and_loop_approved": true
+  }
 }

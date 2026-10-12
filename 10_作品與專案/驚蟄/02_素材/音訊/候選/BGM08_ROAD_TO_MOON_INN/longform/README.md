@@ -70,4 +70,8 @@
 - 生前指示「用這版試試」，將完整 long_03 OGG 原樣複製至 `game/audio/music/bgm_road_to_moon_inn.ogg`，沒有再次生成或編碼。SHA-256 `7494628fd40853c7c2c6be11b9ed3e7dc60efad34de08d021e8396c8dca4accf` 與候選一致。舊 long_01 與各修正版均保留。
 - 延續目前序章舊道／入庄交談配置，首次 60 秒，`<loop 3.0>` 回接、57 秒週期；第一章清晨 1.5 秒轉 BGM02，黑底短引與停用環境音設定沿用。
 - 已指定開發 basedir 並開到 `script.rpy:44` 序章首句，畫面正常；引擎讀取的音檔 SHA-256 與 long_03 一致，music 播放中、音量 1.0、未靜音，ambience 為空。
-- 導入清單見 game_integration_long_03.json，實機觀察及畫面見 runtime_observation_long_03_loop.json／runtime_scene_long_03_loop.png。尾音、場景搭配與循環聽感待生前確認後再結案；未重建發行包或升版。
+- 導入清單見 game_integration_long_03.json，實機觀察及畫面見 runtime_observation_long_03_loop.json／runtime_scene_long_03_loop.png。尾音、場景搭配與循環已由生前後續確認，正式結案；未重建發行包或升版。
+
+## 正式採用（2026-10-13）
+
+生前完整場景試聽後回覆「我覺得這版可以，可以進下一首」，正式採用第三版尾音修正、目前序章配置與循環。遊戲音檔 SHA-256 `7494628fd40853c7c2c6be11b9ed3e7dc60efad34de08d021e8396c8dca4accf` 與 long_03 一致，來源與遊戲副本不再改動；採用清單見 formal_adoption.json，下一首為 BGM09 第七章交卡／出發。

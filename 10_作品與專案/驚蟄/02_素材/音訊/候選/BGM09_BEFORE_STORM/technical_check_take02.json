@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-13",
+  "files": [
+    {
+      "file": "candidate_04_bass_clarinet_seed3614_take02.ogg",
+      "decode": "passed",
+      "integrated_lufs": "-15.98",
+      "true_peak_dbtp": "-2.40",
+      "silence_intervals": []
+    }
+  ]
+}

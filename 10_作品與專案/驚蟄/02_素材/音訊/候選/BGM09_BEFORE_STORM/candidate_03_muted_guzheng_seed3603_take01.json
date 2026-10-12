@@ -1,0 +1,127 @@
+{
+  "date": "2026-10-13",
+  "cue": "BGM09_BEFORE_STORM",
+  "label": "03 箏影待雨",
+  "request": {
+    "prompt": "Low gently muted guzheng notes with natural long decays over restrained bowed strings. Slow deliberate plucks and suspended minor harmony, dignified and alert, no rapid runs, sparkling ornaments or playful plucking groove. Restrained anticipatory instrumental background score for a dark fantasy visual novel. A writer hands a protective black card to his companion and prepares to leave a wooden inn for a dangerous forest journey. The fight has not begun. Calm before the storm: quiet surface with controlled apprehension underneath, unresolved gentle minor harmony, slow breathing phrases and a subtle patient musical pulse. Moderate tension, low density, intimate acoustic chamber texture, enough continuous musical presence to support reading and dialogue. No cheerful or playful mood, no bouncy rhythm, no festive melody, no fast combat tempo, no busy ostinato, no pounding drums, no energetic action groove, no loud orchestral swell, no epic or heroic fanfare. No shrill horror sting, overwhelming fear, funeral lament or romantic sweetness. Do not leave empty silent gaps or finish early. Instrumental music only, no singing, voice, choir, speech, rain, wind, insects, crackling, environmental ambience or sound effects. ",
+    "lyrics": "[Instrumental]",
+    "thinking": false,
+    "use_format": false,
+    "use_cot_caption": false,
+    "use_cot_language": false,
+    "bpm": 64,
+    "key_scale": "E minor",
+    "time_signature": "4",
+    "vocal_language": "unknown",
+    "audio_duration": 25,
+    "inference_steps": 8,
+    "batch_size": 1,
+    "use_random_seed": false,
+    "seed": 3603,
+    "model": "acestep-v15-turbo",
+    "task_type": "text2music",
+    "audio_cover_strength": 1.0,
+    "audio_format": "wav"
+  },
+  "revision": "take01",
+  "review_basis": "User requested a quieter and slower-than-combat tense BGM for chapter 7 black-card handoff and departure, suggesting calm before the storm; BGM08 is now approved",
+  "processing": {
+    "excerpt_seconds": 20,
+    "source_requested_seconds": 25,
+    "fade_in_seconds": 0.03,
+    "fade_out_seconds": 0.5,
+    "loop_processed": false,
+    "loudness_target_lufs": -16,
+    "true_peak_target_dbtp": -1.5,
+    "audition_mastering_timestamps_rebuilt": true,
+    "audition_mastering": {
+      "fixed_gain_db": 0.4299999999999997,
+      "limiter_dbfs": -2.5,
+      "limiter_attack_ms": 5,
+      "limiter_release_ms": 50,
+      "latency_compensation": true,
+      "composition_changed": false
+    }
+  },
+  "task": {
+    "task_id": "4fdd51c2-3cb2-4526-8c9f-d5990dff2e5d",
+    "status": "queued",
+    "queue_position": 1
+  },
+  "result": {
+    "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5Cb4f99e87-4c71-ac1c-bf15-23a304e89d82.wav",
+    "wave": "",
+    "status": 1,
+    "create_time": 1791826186,
+    "env": "development",
+    "prompt": "Low gently muted guzheng notes with natural long decays over restrained bowed strings. Slow deliberate plucks and suspended minor harmony, dignified and alert, no rapid runs, sparkling ornaments or playful plucking groove. Restrained anticipatory instrumental background score for a dark fantasy visual novel. A writer hands a protective black card to his companion and prepares to leave a wooden inn for a dangerous forest journey. The fight has not begun. Calm before the storm: quiet surface with controlled apprehension underneath, unresolved gentle minor harmony, slow breathing phrases and a subtle patient musical pulse. Moderate tension, low density, intimate acoustic chamber texture, enough continuous musical presence to support reading and dialogue. No cheerful or playful mood, no bouncy rhythm, no festive melody, no fast combat tempo, no busy ostinato, no pounding drums, no energetic action groove, no loud orchestral swell, no epic or heroic fanfare. No shrill horror sting, overwhelming fear, funeral lament or romantic sweetness. Do not leave empty silent gaps or finish early. Instrumental music only, no singing, voice, choir, speech, rain, wind, insects, crackling, environmental ambience or sound effects. ",
+    "lyrics": "[Instrumental]",
+    "metas": {
+      "bpm": 64,
+      "duration": 25.0,
+      "genres": "N/A",
+      "keyscale": "E minor",
+      "timesignature": "4",
+      "prompt": "Low gently muted guzheng notes with natural long decays over restrained bowed strings. Slow deliberate plucks and suspended minor harmony, dignified and alert, no rapid runs, sparkling ornaments or playful plucking groove. Restrained anticipatory instrumental background score for a dark fantasy visual novel. A writer hands a protective black card to his companion and prepares to leave a wooden inn for a dangerous forest journey. The fight has not begun. Calm before the storm: quiet surface with controlled apprehension underneath, unresolved gentle minor harmony, slow breathing phrases and a subtle patient musical pulse. Moderate tension, low density, intimate acoustic chamber texture, enough continuous musical presence to support reading and dialogue. No cheerful or playful mood, no bouncy rhythm, no festive melody, no fast combat tempo, no busy ostinato, no pounding drums, no energetic action groove, no loud orchestral swell, no epic or heroic fanfare. No shrill horror sting, overwhelming fear, funeral lament or romantic sweetness. Do not leave empty silent gaps or finish early. Instrumental music only, no singing, voice, choir, speech, rain, wind, insects, crackling, environmental ambience or sound effects. ",
+      "lyrics": "[Instrumental]"
+    },
+    "generation_info": "**🎵 Total generation time (1 song): 2.21s**\n- 2.21s per song\n- DiT phase (1 song): 2.21s",
+    "seed_value": "3603",
+    "lm_model": "acestep-5Hz-lm-0.6B",
+    "dit_model": "acestep-v15-turbo",
+    "progress": 1.0,
+    "stage": "succeeded"
+  },
+  "wav": {
+    "file": "candidate_03_muted_guzheng_seed3603_take01.wav",
+    "sha256": "f164ac2740dab9504afacf718db4d4a8deffd1a395eb022ffdddf38d02a7e61c",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "25.000000"
+      }
+    }
+  },
+  "ogg": {
+    "file": "candidate_03_muted_guzheng_seed3603_take01.ogg",
+    "sha256": "d776d7caa785655a8c715243fda26a3a228495ec27efe6483fb16cd11ff01877",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "technical_check": {
+    "decode": "passed",
+    "integrated_lufs": "-16.21",
+    "true_peak_dbtp": "-2.26",
+    "silence_intervals": []
+  },
+  "premaster_ogg": {
+    "file": "candidate_03_muted_guzheng_seed3603_take01_premaster.ogg",
+    "sha256": "194b320eaac53f3952ca239573b56cc458de4a07abf895742a92a2946221db04",
+    "technical_check": {
+      "decode": "passed",
+      "integrated_lufs": "-16.43",
+      "true_peak_dbtp": "-1.27",
+      "silence_intervals": []
+    }
+  }
+}

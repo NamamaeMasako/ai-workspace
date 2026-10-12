@@ -1,0 +1,452 @@
+{
+  "date": "2026-10-13",
+  "cue": "BGM09_BEFORE_STORM",
+  "candidates": [
+    {
+      "date": "2026-10-13",
+      "cue": "BGM09_BEFORE_STORM",
+      "label": "01 低弦沉息",
+      "request": {
+        "prompt": "Warm dark viola and cello carry slow connected phrases with a gently repeating low bowed foundation, muted resonance and small harmonic suspensions. Controlled uneasy stillness, no rapid tremolo or dramatic orchestral climax. Restrained anticipatory instrumental background score for a dark fantasy visual novel. A writer hands a protective black card to his companion and prepares to leave a wooden inn for a dangerous forest journey. The fight has not begun. Calm before the storm: quiet surface with controlled apprehension underneath, unresolved gentle minor harmony, slow breathing phrases and a subtle patient musical pulse. Moderate tension, low density, intimate acoustic chamber texture, enough continuous musical presence to support reading and dialogue. No cheerful or playful mood, no bouncy rhythm, no festive melody, no fast combat tempo, no busy ostinato, no pounding drums, no energetic action groove, no loud orchestral swell, no epic or heroic fanfare. No shrill horror sting, overwhelming fear, funeral lament or romantic sweetness. Do not leave empty silent gaps or finish early. Instrumental music only, no singing, voice, choir, speech, rain, wind, insects, crackling, environmental ambience or sound effects. ",
+        "lyrics": "[Instrumental]",
+        "thinking": false,
+        "use_format": false,
+        "use_cot_caption": false,
+        "use_cot_language": false,
+        "bpm": 60,
+        "key_scale": "E minor",
+        "time_signature": "4",
+        "vocal_language": "unknown",
+        "audio_duration": 25,
+        "inference_steps": 8,
+        "batch_size": 1,
+        "use_random_seed": false,
+        "seed": 3601,
+        "model": "acestep-v15-turbo",
+        "task_type": "text2music",
+        "audio_cover_strength": 1.0,
+        "audio_format": "wav"
+      },
+      "revision": "take01",
+      "review_basis": "User requested a quieter and slower-than-combat tense BGM for chapter 7 black-card handoff and departure, suggesting calm before the storm; BGM08 is now approved",
+      "processing": {
+        "excerpt_seconds": 20,
+        "source_requested_seconds": 25,
+        "fade_in_seconds": 0.03,
+        "fade_out_seconds": 0.5,
+        "loop_processed": false,
+        "loudness_target_lufs": -16,
+        "true_peak_target_dbtp": -1.5
+      },
+      "task": {
+        "task_id": "93fd881c-0f3f-4245-aee3-fdd86ff9da9a",
+        "status": "queued",
+        "queue_position": 1
+      },
+      "result": {
+        "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5Cd0e5b9e5-c9e4-5fa5-19a8-9e90e9357427.wav",
+        "wave": "",
+        "status": 1,
+        "create_time": 1791826056,
+        "env": "development",
+        "prompt": "Warm dark viola and cello carry slow connected phrases with a gently repeating low bowed foundation, muted resonance and small harmonic suspensions. Controlled uneasy stillness, no rapid tremolo or dramatic orchestral climax. Restrained anticipatory instrumental background score for a dark fantasy visual novel. A writer hands a protective black card to his companion and prepares to leave a wooden inn for a dangerous forest journey. The fight has not begun. Calm before the storm: quiet surface with controlled apprehension underneath, unresolved gentle minor harmony, slow breathing phrases and a subtle patient musical pulse. Moderate tension, low density, intimate acoustic chamber texture, enough continuous musical presence to support reading and dialogue. No cheerful or playful mood, no bouncy rhythm, no festive melody, no fast combat tempo, no busy ostinato, no pounding drums, no energetic action groove, no loud orchestral swell, no epic or heroic fanfare. No shrill horror sting, overwhelming fear, funeral lament or romantic sweetness. Do not leave empty silent gaps or finish early. Instrumental music only, no singing, voice, choir, speech, rain, wind, insects, crackling, environmental ambience or sound effects. ",
+        "lyrics": "[Instrumental]",
+        "metas": {
+          "bpm": 60,
+          "duration": 25.0,
+          "genres": "N/A",
+          "keyscale": "E minor",
+          "timesignature": "4",
+          "prompt": "Warm dark viola and cello carry slow connected phrases with a gently repeating low bowed foundation, muted resonance and small harmonic suspensions. Controlled uneasy stillness, no rapid tremolo or dramatic orchestral climax. Restrained anticipatory instrumental background score for a dark fantasy visual novel. A writer hands a protective black card to his companion and prepares to leave a wooden inn for a dangerous forest journey. The fight has not begun. Calm before the storm: quiet surface with controlled apprehension underneath, unresolved gentle minor harmony, slow breathing phrases and a subtle patient musical pulse. Moderate tension, low density, intimate acoustic chamber texture, enough continuous musical presence to support reading and dialogue. No cheerful or playful mood, no bouncy rhythm, no festive melody, no fast combat tempo, no busy ostinato, no pounding drums, no energetic action groove, no loud orchestral swell, no epic or heroic fanfare. No shrill horror sting, overwhelming fear, funeral lament or romantic sweetness. Do not leave empty silent gaps or finish early. Instrumental music only, no singing, voice, choir, speech, rain, wind, insects, crackling, environmental ambience or sound effects. ",
+          "lyrics": "[Instrumental]"
+        },
+        "generation_info": "**🎵 Total generation time (1 song): 6.26s**\n- 6.26s per song\n- DiT phase (1 song): 6.26s",
+        "seed_value": "3601",
+        "lm_model": "acestep-5Hz-lm-0.6B",
+        "dit_model": "acestep-v15-turbo",
+        "progress": 1.0,
+        "stage": "succeeded"
+      },
+      "wav": {
+        "file": "candidate_01_low_strings_seed3601_take01.wav",
+        "sha256": "0f6b3a02a55a6a9bb4c6845fa9cb077f642c1d60fc18a6fda1102441e2310af9",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "25.000000"
+          }
+        }
+      },
+      "ogg": {
+        "file": "candidate_01_low_strings_seed3601_take01.ogg",
+        "sha256": "1e8f7466bca669b1da9b573ed3e16d09bbbf3955e95b03cb98a33191abf532e1",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "20.000000"
+          }
+        }
+      },
+      "technical_check": {
+        "decode": "passed",
+        "integrated_lufs": "-14.78",
+        "true_peak_dbtp": "-1.31",
+        "silence_intervals": []
+      },
+      "retained_initial_encoding_file": "candidate_01_low_strings_seed3601_take01_premaster.ogg"
+    },
+    {
+      "date": "2026-10-13",
+      "cue": "BGM09_BEFORE_STORM",
+      "label": "02 鋼琴暗潮",
+      "request": {
+        "prompt": "Soft low-mid felt piano plays measured sparse-but-connected melodic notes, with very quiet long cello support. Let piano resonance breathe naturally, slightly unresolved harmony and a patient low pulse, no bright jaunty staccato or lively arpeggios. Restrained anticipatory instrumental background score for a dark fantasy visual novel. A writer hands a protective black card to his companion and prepares to leave a wooden inn for a dangerous forest journey. The fight has not begun. Calm before the storm: quiet surface with controlled apprehension underneath, unresolved gentle minor harmony, slow breathing phrases and a subtle patient musical pulse. Moderate tension, low density, intimate acoustic chamber texture, enough continuous musical presence to support reading and dialogue. No cheerful or playful mood, no bouncy rhythm, no festive melody, no fast combat tempo, no busy ostinato, no pounding drums, no energetic action groove, no loud orchestral swell, no epic or heroic fanfare. No shrill horror sting, overwhelming fear, funeral lament or romantic sweetness. Do not leave empty silent gaps or finish early. Instrumental music only, no singing, voice, choir, speech, rain, wind, insects, crackling, environmental ambience or sound effects. ",
+        "lyrics": "[Instrumental]",
+        "thinking": false,
+        "use_format": false,
+        "use_cot_caption": false,
+        "use_cot_language": false,
+        "bpm": 62,
+        "key_scale": "E minor",
+        "time_signature": "4",
+        "vocal_language": "unknown",
+        "audio_duration": 25,
+        "inference_steps": 8,
+        "batch_size": 1,
+        "use_random_seed": false,
+        "seed": 3602,
+        "model": "acestep-v15-turbo",
+        "task_type": "text2music",
+        "audio_cover_strength": 1.0,
+        "audio_format": "wav"
+      },
+      "revision": "take01",
+      "review_basis": "User requested a quieter and slower-than-combat tense BGM for chapter 7 black-card handoff and departure, suggesting calm before the storm; BGM08 is now approved",
+      "processing": {
+        "excerpt_seconds": 20,
+        "source_requested_seconds": 25,
+        "fade_in_seconds": 0.03,
+        "fade_out_seconds": 0.5,
+        "loop_processed": false,
+        "loudness_target_lufs": -16,
+        "true_peak_target_dbtp": -1.5
+      },
+      "task": {
+        "task_id": "e07c034e-eca8-480d-951f-d4cb8d4eb4dd",
+        "status": "queued",
+        "queue_position": 1
+      },
+      "result": {
+        "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5Ce0493d95-2e1b-d438-f4b1-29cad8bd157a.wav",
+        "wave": "",
+        "status": 1,
+        "create_time": 1791826178,
+        "env": "development",
+        "prompt": "Soft low-mid felt piano plays measured sparse-but-connected melodic notes, with very quiet long cello support. Let piano resonance breathe naturally, slightly unresolved harmony and a patient low pulse, no bright jaunty staccato or lively arpeggios. Restrained anticipatory instrumental background score for a dark fantasy visual novel. A writer hands a protective black card to his companion and prepares to leave a wooden inn for a dangerous forest journey. The fight has not begun. Calm before the storm: quiet surface with controlled apprehension underneath, unresolved gentle minor harmony, slow breathing phrases and a subtle patient musical pulse. Moderate tension, low density, intimate acoustic chamber texture, enough continuous musical presence to support reading and dialogue. No cheerful or playful mood, no bouncy rhythm, no festive melody, no fast combat tempo, no busy ostinato, no pounding drums, no energetic action groove, no loud orchestral swell, no epic or heroic fanfare. No shrill horror sting, overwhelming fear, funeral lament or romantic sweetness. Do not leave empty silent gaps or finish early. Instrumental music only, no singing, voice, choir, speech, rain, wind, insects, crackling, environmental ambience or sound effects. ",
+        "lyrics": "[Instrumental]",
+        "metas": {
+          "bpm": 62,
+          "duration": 25.0,
+          "genres": "N/A",
+          "keyscale": "E minor",
+          "timesignature": "4",
+          "prompt": "Soft low-mid felt piano plays measured sparse-but-connected melodic notes, with very quiet long cello support. Let piano resonance breathe naturally, slightly unresolved harmony and a patient low pulse, no bright jaunty staccato or lively arpeggios. Restrained anticipatory instrumental background score for a dark fantasy visual novel. A writer hands a protective black card to his companion and prepares to leave a wooden inn for a dangerous forest journey. The fight has not begun. Calm before the storm: quiet surface with controlled apprehension underneath, unresolved gentle minor harmony, slow breathing phrases and a subtle patient musical pulse. Moderate tension, low density, intimate acoustic chamber texture, enough continuous musical presence to support reading and dialogue. No cheerful or playful mood, no bouncy rhythm, no festive melody, no fast combat tempo, no busy ostinato, no pounding drums, no energetic action groove, no loud orchestral swell, no epic or heroic fanfare. No shrill horror sting, overwhelming fear, funeral lament or romantic sweetness. Do not leave empty silent gaps or finish early. Instrumental music only, no singing, voice, choir, speech, rain, wind, insects, crackling, environmental ambience or sound effects. ",
+          "lyrics": "[Instrumental]"
+        },
+        "generation_info": "**🎵 Total generation time (1 song): 1.92s**\n- 1.92s per song\n- DiT phase (1 song): 1.92s",
+        "seed_value": "3602",
+        "lm_model": "acestep-5Hz-lm-0.6B",
+        "dit_model": "acestep-v15-turbo",
+        "progress": 1.0,
+        "stage": "succeeded"
+      },
+      "wav": {
+        "file": "candidate_02_felt_piano_seed3602_take01.wav",
+        "sha256": "44611bcac910e4f20cd419906852b13be4ce167829f9690eeb44c5653f65eade",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "25.000000"
+          }
+        }
+      },
+      "ogg": {
+        "file": "candidate_02_felt_piano_seed3602_take01.ogg",
+        "sha256": "4267d1da9f0377f306ead8319691375add65ed6a86333d3a6750c911322d7ca7",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "20.000000"
+          }
+        }
+      },
+      "technical_check": {
+        "decode": "passed",
+        "integrated_lufs": "-16.24",
+        "true_peak_dbtp": "-1.30",
+        "silence_intervals": [
+          "silence_start: 16.022585",
+          "silence_end: 16.875556 | silence_duration: 0.852971"
+        ]
+      },
+      "retained_initial_encoding_file": "candidate_02_felt_piano_seed3602_take01_premaster.ogg"
+    },
+    {
+      "date": "2026-10-13",
+      "cue": "BGM09_BEFORE_STORM",
+      "label": "03 箏影待雨",
+      "request": {
+        "prompt": "Low gently muted guzheng notes with natural long decays over restrained bowed strings. Slow deliberate plucks and suspended minor harmony, dignified and alert, no rapid runs, sparkling ornaments or playful plucking groove. Restrained anticipatory instrumental background score for a dark fantasy visual novel. A writer hands a protective black card to his companion and prepares to leave a wooden inn for a dangerous forest journey. The fight has not begun. Calm before the storm: quiet surface with controlled apprehension underneath, unresolved gentle minor harmony, slow breathing phrases and a subtle patient musical pulse. Moderate tension, low density, intimate acoustic chamber texture, enough continuous musical presence to support reading and dialogue. No cheerful or playful mood, no bouncy rhythm, no festive melody, no fast combat tempo, no busy ostinato, no pounding drums, no energetic action groove, no loud orchestral swell, no epic or heroic fanfare. No shrill horror sting, overwhelming fear, funeral lament or romantic sweetness. Do not leave empty silent gaps or finish early. Instrumental music only, no singing, voice, choir, speech, rain, wind, insects, crackling, environmental ambience or sound effects. ",
+        "lyrics": "[Instrumental]",
+        "thinking": false,
+        "use_format": false,
+        "use_cot_caption": false,
+        "use_cot_language": false,
+        "bpm": 64,
+        "key_scale": "E minor",
+        "time_signature": "4",
+        "vocal_language": "unknown",
+        "audio_duration": 25,
+        "inference_steps": 8,
+        "batch_size": 1,
+        "use_random_seed": false,
+        "seed": 3603,
+        "model": "acestep-v15-turbo",
+        "task_type": "text2music",
+        "audio_cover_strength": 1.0,
+        "audio_format": "wav"
+      },
+      "revision": "take01",
+      "review_basis": "User requested a quieter and slower-than-combat tense BGM for chapter 7 black-card handoff and departure, suggesting calm before the storm; BGM08 is now approved",
+      "processing": {
+        "excerpt_seconds": 20,
+        "source_requested_seconds": 25,
+        "fade_in_seconds": 0.03,
+        "fade_out_seconds": 0.5,
+        "loop_processed": false,
+        "loudness_target_lufs": -16,
+        "true_peak_target_dbtp": -1.5
+      },
+      "task": {
+        "task_id": "4fdd51c2-3cb2-4526-8c9f-d5990dff2e5d",
+        "status": "queued",
+        "queue_position": 1
+      },
+      "result": {
+        "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5Cb4f99e87-4c71-ac1c-bf15-23a304e89d82.wav",
+        "wave": "",
+        "status": 1,
+        "create_time": 1791826186,
+        "env": "development",
+        "prompt": "Low gently muted guzheng notes with natural long decays over restrained bowed strings. Slow deliberate plucks and suspended minor harmony, dignified and alert, no rapid runs, sparkling ornaments or playful plucking groove. Restrained anticipatory instrumental background score for a dark fantasy visual novel. A writer hands a protective black card to his companion and prepares to leave a wooden inn for a dangerous forest journey. The fight has not begun. Calm before the storm: quiet surface with controlled apprehension underneath, unresolved gentle minor harmony, slow breathing phrases and a subtle patient musical pulse. Moderate tension, low density, intimate acoustic chamber texture, enough continuous musical presence to support reading and dialogue. No cheerful or playful mood, no bouncy rhythm, no festive melody, no fast combat tempo, no busy ostinato, no pounding drums, no energetic action groove, no loud orchestral swell, no epic or heroic fanfare. No shrill horror sting, overwhelming fear, funeral lament or romantic sweetness. Do not leave empty silent gaps or finish early. Instrumental music only, no singing, voice, choir, speech, rain, wind, insects, crackling, environmental ambience or sound effects. ",
+        "lyrics": "[Instrumental]",
+        "metas": {
+          "bpm": 64,
+          "duration": 25.0,
+          "genres": "N/A",
+          "keyscale": "E minor",
+          "timesignature": "4",
+          "prompt": "Low gently muted guzheng notes with natural long decays over restrained bowed strings. Slow deliberate plucks and suspended minor harmony, dignified and alert, no rapid runs, sparkling ornaments or playful plucking groove. Restrained anticipatory instrumental background score for a dark fantasy visual novel. A writer hands a protective black card to his companion and prepares to leave a wooden inn for a dangerous forest journey. The fight has not begun. Calm before the storm: quiet surface with controlled apprehension underneath, unresolved gentle minor harmony, slow breathing phrases and a subtle patient musical pulse. Moderate tension, low density, intimate acoustic chamber texture, enough continuous musical presence to support reading and dialogue. No cheerful or playful mood, no bouncy rhythm, no festive melody, no fast combat tempo, no busy ostinato, no pounding drums, no energetic action groove, no loud orchestral swell, no epic or heroic fanfare. No shrill horror sting, overwhelming fear, funeral lament or romantic sweetness. Do not leave empty silent gaps or finish early. Instrumental music only, no singing, voice, choir, speech, rain, wind, insects, crackling, environmental ambience or sound effects. ",
+          "lyrics": "[Instrumental]"
+        },
+        "generation_info": "**🎵 Total generation time (1 song): 2.21s**\n- 2.21s per song\n- DiT phase (1 song): 2.21s",
+        "seed_value": "3603",
+        "lm_model": "acestep-5Hz-lm-0.6B",
+        "dit_model": "acestep-v15-turbo",
+        "progress": 1.0,
+        "stage": "succeeded"
+      },
+      "wav": {
+        "file": "candidate_03_muted_guzheng_seed3603_take01.wav",
+        "sha256": "f164ac2740dab9504afacf718db4d4a8deffd1a395eb022ffdddf38d02a7e61c",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "25.000000"
+          }
+        }
+      },
+      "ogg": {
+        "file": "candidate_03_muted_guzheng_seed3603_take01.ogg",
+        "sha256": "194b320eaac53f3952ca239573b56cc458de4a07abf895742a92a2946221db04",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "20.000000"
+          }
+        }
+      },
+      "technical_check": {
+        "decode": "passed",
+        "integrated_lufs": "-16.43",
+        "true_peak_dbtp": "-1.27",
+        "silence_intervals": []
+      },
+      "retained_initial_encoding_file": "candidate_03_muted_guzheng_seed3603_take01_premaster.ogg"
+    },
+    {
+      "date": "2026-10-13",
+      "cue": "BGM09_BEFORE_STORM",
+      "label": "04 低管預兆",
+      "request": {
+        "prompt": "Soft bass clarinet sings restrained low connected phrases over subdued viola and cello. Intimate shadowy breath and quietly steady underlying motion, with calm controlled apprehension; no comedic woodwind bounce, fast flourishes or sinister jump-scare blasts. Restrained anticipatory instrumental background score for a dark fantasy visual novel. A writer hands a protective black card to his companion and prepares to leave a wooden inn for a dangerous forest journey. The fight has not begun. Calm before the storm: quiet surface with controlled apprehension underneath, unresolved gentle minor harmony, slow breathing phrases and a subtle patient musical pulse. Moderate tension, low density, intimate acoustic chamber texture, enough continuous musical presence to support reading and dialogue. No cheerful or playful mood, no bouncy rhythm, no festive melody, no fast combat tempo, no busy ostinato, no pounding drums, no energetic action groove, no loud orchestral swell, no epic or heroic fanfare. No shrill horror sting, overwhelming fear, funeral lament or romantic sweetness. Do not leave empty silent gaps or finish early. Instrumental music only, no singing, voice, choir, speech, rain, wind, insects, crackling, environmental ambience or sound effects. ",
+        "lyrics": "[Instrumental]",
+        "thinking": false,
+        "use_format": false,
+        "use_cot_caption": false,
+        "use_cot_language": false,
+        "bpm": 58,
+        "key_scale": "E minor",
+        "time_signature": "4",
+        "vocal_language": "unknown",
+        "audio_duration": 25,
+        "inference_steps": 8,
+        "batch_size": 1,
+        "use_random_seed": false,
+        "seed": 3604,
+        "model": "acestep-v15-turbo",
+        "task_type": "text2music",
+        "audio_cover_strength": 1.0,
+        "audio_format": "wav"
+      },
+      "revision": "take01",
+      "review_basis": "User requested a quieter and slower-than-combat tense BGM for chapter 7 black-card handoff and departure, suggesting calm before the storm; BGM08 is now approved",
+      "processing": {
+        "excerpt_seconds": 20,
+        "source_requested_seconds": 25,
+        "fade_in_seconds": 0.03,
+        "fade_out_seconds": 0.5,
+        "loop_processed": false,
+        "loudness_target_lufs": -16,
+        "true_peak_target_dbtp": -1.5
+      },
+      "task": {
+        "task_id": "2f067dec-950b-4948-b718-2f88ebbb3868",
+        "status": "queued",
+        "queue_position": 1
+      },
+      "result": {
+        "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5Ca71c3396-dcb5-cf76-be0e-6d683284d1ad.wav",
+        "wave": "",
+        "status": 1,
+        "create_time": 1791826197,
+        "env": "development",
+        "prompt": "Soft bass clarinet sings restrained low connected phrases over subdued viola and cello. Intimate shadowy breath and quietly steady underlying motion, with calm controlled apprehension; no comedic woodwind bounce, fast flourishes or sinister jump-scare blasts. Restrained anticipatory instrumental background score for a dark fantasy visual novel. A writer hands a protective black card to his companion and prepares to leave a wooden inn for a dangerous forest journey. The fight has not begun. Calm before the storm: quiet surface with controlled apprehension underneath, unresolved gentle minor harmony, slow breathing phrases and a subtle patient musical pulse. Moderate tension, low density, intimate acoustic chamber texture, enough continuous musical presence to support reading and dialogue. No cheerful or playful mood, no bouncy rhythm, no festive melody, no fast combat tempo, no busy ostinato, no pounding drums, no energetic action groove, no loud orchestral swell, no epic or heroic fanfare. No shrill horror sting, overwhelming fear, funeral lament or romantic sweetness. Do not leave empty silent gaps or finish early. Instrumental music only, no singing, voice, choir, speech, rain, wind, insects, crackling, environmental ambience or sound effects. ",
+        "lyrics": "[Instrumental]",
+        "metas": {
+          "bpm": 58,
+          "duration": 25.0,
+          "genres": "N/A",
+          "keyscale": "E minor",
+          "timesignature": "4",
+          "prompt": "Soft bass clarinet sings restrained low connected phrases over subdued viola and cello. Intimate shadowy breath and quietly steady underlying motion, with calm controlled apprehension; no comedic woodwind bounce, fast flourishes or sinister jump-scare blasts. Restrained anticipatory instrumental background score for a dark fantasy visual novel. A writer hands a protective black card to his companion and prepares to leave a wooden inn for a dangerous forest journey. The fight has not begun. Calm before the storm: quiet surface with controlled apprehension underneath, unresolved gentle minor harmony, slow breathing phrases and a subtle patient musical pulse. Moderate tension, low density, intimate acoustic chamber texture, enough continuous musical presence to support reading and dialogue. No cheerful or playful mood, no bouncy rhythm, no festive melody, no fast combat tempo, no busy ostinato, no pounding drums, no energetic action groove, no loud orchestral swell, no epic or heroic fanfare. No shrill horror sting, overwhelming fear, funeral lament or romantic sweetness. Do not leave empty silent gaps or finish early. Instrumental music only, no singing, voice, choir, speech, rain, wind, insects, crackling, environmental ambience or sound effects. ",
+          "lyrics": "[Instrumental]"
+        },
+        "generation_info": "**🎵 Total generation time (1 song): 2.18s**\n- 2.18s per song\n- DiT phase (1 song): 2.18s",
+        "seed_value": "3604",
+        "lm_model": "acestep-5Hz-lm-0.6B",
+        "dit_model": "acestep-v15-turbo",
+        "progress": 1.0,
+        "stage": "succeeded"
+      },
+      "wav": {
+        "file": "candidate_04_bass_clarinet_seed3604_take01.wav",
+        "sha256": "35da5973150d3d11b7f8160c0d3aa12da6aedb472bf9971ffdb6091f4403c1e0",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "25.000000"
+          }
+        }
+      },
+      "ogg": {
+        "file": "candidate_04_bass_clarinet_seed3604_take01.ogg",
+        "sha256": "9f68bb36e80c1c51f1b28db10e1b95b9a571c3c995ed23e18e0d0d4f0bc4b87c",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "20.000000"
+          }
+        }
+      },
+      "technical_check": {
+        "decode": "passed",
+        "integrated_lufs": "-16.60",
+        "true_peak_dbtp": "-1.48",
+        "silence_intervals": [
+          "silence_start: 16.30619",
+          "silence_end: 16.951134 | silence_duration: 0.644943",
+          "silence_start: 17.582109",
+          "silence_end: 18.652449 | silence_duration: 1.07034",
+          "silence_start: 18.831338",
+          "silence_end: 19.970272 | silence_duration: 1.138934"
+        ]
+      }
+    }
+  ],
+  "note": "Initial encoding records before shortlist mastering; first three original OGG bytes are retained in the corresponding _premaster files. Initial direction 04 remains untouched."
+}
