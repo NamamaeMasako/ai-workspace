@@ -1,0 +1,239 @@
+{
+  "date": "2026-10-12",
+  "candidates": [
+    {
+      "date": "2026-10-12",
+      "status": "awaiting user audition; not integrated",
+      "method": "original procedural modal synthesis with deterministic filtered-noise transient",
+      "spec": {
+        "cue": "UI01_CONFIRM",
+        "name": "ui_confirm_take01",
+        "label": "確認",
+        "seed": 4101,
+        "duration": 0.28,
+        "frequencies": [
+          780,
+          1208,
+          2070,
+          3060
+        ],
+        "weights": [
+          1.0,
+          0.44,
+          0.16,
+          0.055
+        ],
+        "decays": [
+          0.044,
+          0.03,
+          0.02,
+          0.012
+        ],
+        "direction": "Higher, clear, soft wood-like tap; no bright metallic ring",
+        "scene": "主選單、設定、存讀檔、劇情選項確認"
+      },
+      "fixed_peak_gain": 0.23916536274250344,
+      "sample_peak_dbfs": -10,
+      "rms_dbfs": -26.430119140247466,
+      "preview_repeat_starts_seconds": [
+        0.1,
+        1.1,
+        2.1
+      ],
+      "wav": {
+        "file": "ui_confirm_take01.wav",
+        "sha256": "40d1312c9ba2c72232fb6272a5fe5c6454e20aa5e34d0c43232e670c857defa4",
+        "format": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_s24le",
+              "sample_rate": "48000",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "0.280000"
+          }
+        }
+      },
+      "ogg": {
+        "file": "ui_confirm_take01.ogg",
+        "sha256": "d416e5c92e9cb341af6f6046e3002dcff970a1ea5fcef5326940b00b1e90d032",
+        "format": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "0.280000"
+          }
+        }
+      },
+      "preview_wav": {
+        "file": "ui_confirm_take01_preview.wav",
+        "sha256": "cdab2b2c47cd3acfc5e07f3c4999ff188218d111a834d8d3e0e2c79b89db221b",
+        "format": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_s24le",
+              "sample_rate": "48000",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "3.000000"
+          }
+        }
+      },
+      "preview_ogg": {
+        "file": "ui_confirm_take01_preview.ogg",
+        "sha256": "719ff62c8250bdecb8fa84455e9d9a41376db4cedab5aa7f4db5302ab86fc7ab",
+        "format": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "3.000000"
+          }
+        }
+      },
+      "editable_source": {
+        "file": "produce_ui_take01.py",
+        "sha256": "05db4a2da21aa938991d70f76417ae41fb5588adea187a4a0a3d2cb88736111a"
+      },
+      "technical_check": "complete decoding with no diagnostics; musical suitability pending user"
+    },
+    {
+      "date": "2026-10-12",
+      "status": "awaiting user audition; not integrated",
+      "method": "original procedural modal synthesis with deterministic filtered-noise transient",
+      "spec": {
+        "cue": "UI02_BACK",
+        "name": "ui_back_take01",
+        "label": "返回",
+        "seed": 4102,
+        "duration": 0.3,
+        "frequencies": [
+          470,
+          825,
+          1340,
+          2210
+        ],
+        "weights": [
+          1.0,
+          0.4,
+          0.14,
+          0.045
+        ],
+        "decays": [
+          0.052,
+          0.032,
+          0.019,
+          0.01
+        ],
+        "direction": "Lower, softer wood-like tap with a gently decaying tail",
+        "scene": "返回上一頁、關閉選單"
+      },
+      "fixed_peak_gain": 0.23809191682665706,
+      "sample_peak_dbfs": -10,
+      "rms_dbfs": -26.146544680663126,
+      "preview_repeat_starts_seconds": [
+        0.1,
+        1.1,
+        2.1
+      ],
+      "wav": {
+        "file": "ui_back_take01.wav",
+        "sha256": "16f2812224ab8f5a9b4a727cf6d483cc81a22328db0bf9a2f608c255c2abfe18",
+        "format": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_s24le",
+              "sample_rate": "48000",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "0.300000"
+          }
+        }
+      },
+      "ogg": {
+        "file": "ui_back_take01.ogg",
+        "sha256": "633f9e3638d87dc9e420c5c2fb2788180464da7af2b83095e837863de0565152",
+        "format": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "0.300000"
+          }
+        }
+      },
+      "preview_wav": {
+        "file": "ui_back_take01_preview.wav",
+        "sha256": "52383765014dc19f41820883c5a9fae4f074fbef01c92fb97ce6b8d8c014aaff",
+        "format": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_s24le",
+              "sample_rate": "48000",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "3.000000"
+          }
+        }
+      },
+      "preview_ogg": {
+        "file": "ui_back_take01_preview.ogg",
+        "sha256": "3c720ab1fc02da65ca487172d16a0302ce5670f315ef2234e8f2c1c1b826d334",
+        "format": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "3.000000"
+          }
+        }
+      },
+      "editable_source": {
+        "file": "produce_ui_take01.py",
+        "sha256": "05db4a2da21aa938991d70f76417ae41fb5588adea187a4a0a3d2cb88736111a"
+      },
+      "technical_check": "complete decoding with no diagnostics; musical suitability pending user"
+    }
+  ]
+}

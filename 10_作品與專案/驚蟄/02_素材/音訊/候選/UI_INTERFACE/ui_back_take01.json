@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-12",
+  "status": "awaiting user audition; not integrated",
+  "method": "original procedural modal synthesis with deterministic filtered-noise transient",
+  "spec": {
+    "cue": "UI02_BACK",
+    "name": "ui_back_take01",
+    "label": "返回",
+    "seed": 4102,
+    "duration": 0.3,
+    "frequencies": [
+      470,
+      825,
+      1340,
+      2210
+    ],
+    "weights": [
+      1.0,
+      0.4,
+      0.14,
+      0.045
+    ],
+    "decays": [
+      0.052,
+      0.032,
+      0.019,
+      0.01
+    ],
+    "direction": "Lower, softer wood-like tap with a gently decaying tail",
+    "scene": "返回上一頁、關閉選單"
+  },
+  "fixed_peak_gain": 0.23809191682665706,
+  "sample_peak_dbfs": -10,
+  "rms_dbfs": -26.146544680663126,
+  "preview_repeat_starts_seconds": [
+    0.1,
+    1.1,
+    2.1
+  ],
+  "wav": {
+    "file": "ui_back_take01.wav",
+    "sha256": "16f2812224ab8f5a9b4a727cf6d483cc81a22328db0bf9a2f608c255c2abfe18",
+    "format": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_s24le",
+          "sample_rate": "48000",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "0.300000"
+      }
+    }
+  },
+  "ogg": {
+    "file": "ui_back_take01.ogg",
+    "sha256": "633f9e3638d87dc9e420c5c2fb2788180464da7af2b83095e837863de0565152",
+    "format": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "0.300000"
+      }
+    }
+  },
+  "preview_wav": {
+    "file": "ui_back_take01_preview.wav",
+    "sha256": "52383765014dc19f41820883c5a9fae4f074fbef01c92fb97ce6b8d8c014aaff",
+    "format": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_s24le",
+          "sample_rate": "48000",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "3.000000"
+      }
+    }
+  },
+  "preview_ogg": {
+    "file": "ui_back_take01_preview.ogg",
+    "sha256": "3c720ab1fc02da65ca487172d16a0302ce5670f315ef2234e8f2c1c1b826d334",
+    "format": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "3.000000"
+      }
+    }
+  },
+  "editable_source": {
+    "file": "produce_ui_take01.py",
+    "sha256": "05db4a2da21aa938991d70f76417ae41fb5588adea187a4a0a3d2cb88736111a"
+  },
+  "technical_check": "complete decoding with no diagnostics; musical suitability pending user"
+}
