@@ -65,6 +65,30 @@
         21.5
       ],
       "game_integrated": false
+    },
+    {
+      "date": "2026-10-13",
+      "stage": "long_02_tail_repair",
+      "status": "further_revision_requested",
+      "user_feedback": "修正後第39秒還有同樣問題，再嘗試修正一次"
+    },
+    {
+      "date": "2026-10-13",
+      "stage": "long_03_tail_repair",
+      "status": "awaiting_user_audition",
+      "file": "long_03_tail_repair_gentle_guzheng_seed3502_loop_intro.ogg",
+      "new_changed_intervals_seconds": [
+        [
+          38.3,
+          40.5
+        ],
+        [
+          57.3,
+          59.5
+        ]
+      ],
+      "previous_20_second_repair_preserved": true,
+      "game_integrated": false
     }
   ]
 }

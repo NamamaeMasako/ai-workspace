@@ -1,0 +1,137 @@
+{
+  "date": "2026-10-13",
+  "cue": "BGM08_ROAD_TO_MOON_INN",
+  "status": "long_03 awaiting user audition; deployed game remains long_01",
+  "user_feedback": "The corrected version still has the same short release around 39 seconds; try again",
+  "source": {
+    "file": "long_02_tail_repair_gentle_guzheng_seed3502_loop_intro.wav",
+    "sha256": "0d254521e3d5147a7cc5259631f267aba21a5bbd62c6c89c355d933d344cd16c"
+  },
+  "natural_tail_source": {
+    "file": "candidate_02_gentle_guzheng_seed3502_take01.wav",
+    "sha256": "16b3cf96abf1a3b15eb2d337d0b6589a8e95d283a5f5c76b37706ae1d9e09af2"
+  },
+  "processing": {
+    "new_generation": false,
+    "method": "Restore the unfaded original phrase tail at the later two 19-second template recurrences, inheriting the earlier 20-second repair",
+    "patches": [
+      {
+        "changed_interval_seconds": [
+          38.3,
+          40.5
+        ],
+        "natural_source_interval_seconds": [
+          19.3,
+          21.5
+        ],
+        "fade_in_interval_seconds": [
+          38.3,
+          38.55
+        ],
+        "fade_out_interval_seconds": [
+          40.2,
+          40.5
+        ],
+        "tail_gain_db": -3.6297494441181923,
+        "gain_match_interval_seconds": [
+          38.519999999999996,
+          38.72
+        ]
+      },
+      {
+        "changed_interval_seconds": [
+          57.3,
+          59.5
+        ],
+        "natural_source_interval_seconds": [
+          19.3,
+          21.5
+        ],
+        "fade_in_interval_seconds": [
+          57.3,
+          57.55
+        ],
+        "fade_out_interval_seconds": [
+          59.2,
+          59.5
+        ],
+        "tail_gain_db": -4.870613597535137,
+        "gain_match_interval_seconds": [
+          57.519999999999996,
+          57.72
+        ]
+      }
+    ],
+    "crossfade_curve": "smoothstep convex",
+    "outside_patches_pcm_max_error": 0.0,
+    "previous_20_second_repair_pcm_max_error": 0.0,
+    "last_half_second_pcm_max_error": 0.0,
+    "loop_inherited": true,
+    "renpy_loop_start_seconds": 3.0,
+    "repeat_period_seconds": 57,
+    "first_duration_seconds": 60,
+    "game_integrated": false
+  },
+  "diagnostic_energy": {
+    "39.0": {
+      "window_seconds": 0.25,
+      "before_dbfs": -42.86169258703985,
+      "after_dbfs": -26.690344814120344
+    },
+    "58.0": {
+      "window_seconds": 0.25,
+      "before_dbfs": -40.52390397421135,
+      "after_dbfs": -27.931209314820514
+    }
+  },
+  "wav": {
+    "file": "long_03_tail_repair_gentle_guzheng_seed3502_loop_intro.wav",
+    "sha256": "6b2b2d4dd5e6a43336f999214758cfac29dbfd47b52a813e1ea4934c9df3563b"
+  },
+  "ogg": {
+    "file": "long_03_tail_repair_gentle_guzheng_seed3502_loop_intro.ogg",
+    "sha256": "7494628fd40853c7c2c6be11b9ed3e7dc60efad34de08d021e8396c8dca4accf",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "60.000000"
+      }
+    }
+  },
+  "detail_clips": {
+    "before": {
+      "file": "long_03_tail_repair_gentle_guzheng_seed3502_loop_intro_detail_before_35to45.ogg",
+      "sha256": "ed2c3564f898411d83c6be56f5203a2844d51ec5f4e461aa4c387b292250c691",
+      "original_time_seconds": [
+        35,
+        45
+      ]
+    },
+    "after": {
+      "file": "long_03_tail_repair_gentle_guzheng_seed3502_loop_intro_detail_after_35to45.ogg",
+      "sha256": "a8489f31c8467d5430132394b3563dd3fd4e0cb1348481a60a232b3c51382315",
+      "original_time_seconds": [
+        35,
+        45
+      ]
+    }
+  },
+  "technical_check": {
+    "integrated_lufs": "-16.29",
+    "true_peak_dbtp": "-2.28",
+    "silence_intervals": [],
+    "decode": "passed without diagnostics"
+  },
+  "producer": {
+    "file": "produce_long_03_tail_repair.py",
+    "sha256": "821bd607eb97ff5912896c21811fed7fe674b848ff8df40eb7115618dbfc4b90"
+  }
+}
