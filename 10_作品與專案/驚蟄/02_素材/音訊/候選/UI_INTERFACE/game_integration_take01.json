@@ -1,6 +1,6 @@
 {
   "date": "2026-10-12",
-  "status": "awaiting user in-game confirmation",
+  "status": "formally adopted after user in-game confirmation",
   "runtime_observation": {
     "timestamp": 1791803475.2612035,
     "basedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe",
@@ -44,5 +44,10 @@
     "Esc/right-click close menu or dismiss confirmation"
   ],
   "preferences": "sound volume slider and single-sound sample button",
-  "user_listening_judgement": "pending; runtime style configuration does not confirm perceived sound"
+  "user_listening_judgement": "approved by user 2026-10-12: 好，系統音效OK",
+  "approval": {
+    "date": "2026-10-12",
+    "user_feedback": "好，系統音效OK",
+    "scope": "current confirmation/back sounds and game UI configuration"
+  }
 }

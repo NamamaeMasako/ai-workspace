@@ -1,6 +1,6 @@
 {
   "date": "2026-10-12",
-  "status": "audition approved for game integration; awaiting user in-game confirmation",
+  "status": "formally adopted after user in-game confirmation",
   "method": "original procedural modal synthesis with deterministic filtered-noise transient",
   "spec": {
     "cue": "UI01_CONFIRM",
@@ -117,7 +117,9 @@
   "approval": {
     "date": "2026-10-12",
     "user_feedback": "好，套進遊戲我看看",
-    "scope": "first take selected for game audition; final game sound level and triggers pending user confirmation"
+    "scope": "first take and current game UI configuration approved",
+    "game_review_date": "2026-10-12",
+    "game_user_feedback": "好，系統音效OK"
   },
   "game_integration": {
     "file": "03_開發/JingZhe/game/audio/sfx/ui/ui_confirm.ogg",
