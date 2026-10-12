@@ -1,7 +1,7 @@
 {
   "date": "2026-10-13",
   "cue": "BGM08_ROAD_TO_MOON_INN",
-  "status": "long_03 awaiting user audition; deployed game remains long_01",
+  "status": "long_03 deployed for user scene trial; formal scene approval pending",
   "user_feedback": "The corrected version still has the same short release around 39 seconds; try again",
   "source": {
     "file": "long_02_tail_repair_gentle_guzheng_seed3502_loop_intro.wav",
@@ -70,7 +70,7 @@
     "renpy_loop_start_seconds": 3.0,
     "repeat_period_seconds": 57,
     "first_duration_seconds": 60,
-    "game_integrated": false
+    "game_integrated": true
   },
   "diagnostic_energy": {
     "39.0": {
@@ -133,5 +133,6 @@
   "producer": {
     "file": "produce_long_03_tail_repair.py",
     "sha256": "821bd607eb97ff5912896c21811fed7fe674b848ff8df40eb7115618dbfc4b90"
-  }
+  },
+  "game_integration_record": "game_integration_long_03.json"
 }

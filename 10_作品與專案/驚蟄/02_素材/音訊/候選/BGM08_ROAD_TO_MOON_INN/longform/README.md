@@ -63,4 +63,11 @@
 - 另附 `_detail_before_35to45.ogg`／`_detail_after_35to45.ogg` 各 10 秒，片段第 4 秒對應完整曲第 39 秒。
 - 解碼無錯誤輸出；44.1 kHz 立體聲 OGG 實測 -16.29 LUFS／-2.28 dBTP，無長段近靜音。
 - 可編輯來源 `../../../母檔/BGM08_ROAD_TO_MOON_INN/longform/produce_long_03_tail_repair.py`，WAV、來源 SHA-256、兩段參數及能量紀錄保存；未重新生成。
-- long_03 待生前試聽核可，遊戲仍使用 long_01。確認後再替換並重聽完整序章。
+- 生前後續回覆「用這版試試」：long_03 已替換開發遊戲，現場試聽與正式核可待確認。
+
+## long_03 開發版試用（2026-10-13）
+
+- 生前指示「用這版試試」，將完整 long_03 OGG 原樣複製至 `game/audio/music/bgm_road_to_moon_inn.ogg`，沒有再次生成或編碼。SHA-256 `7494628fd40853c7c2c6be11b9ed3e7dc60efad34de08d021e8396c8dca4accf` 與候選一致。舊 long_01 與各修正版均保留。
+- 延續目前序章舊道／入庄交談配置，首次 60 秒，`<loop 3.0>` 回接、57 秒週期；第一章清晨 1.5 秒轉 BGM02，黑底短引與停用環境音設定沿用。
+- 已指定開發 basedir 並開到 `script.rpy:44` 序章首句，畫面正常；引擎讀取的音檔 SHA-256 與 long_03 一致，music 播放中、音量 1.0、未靜音，ambience 為空。
+- 導入清單見 game_integration_long_03.json，實機觀察及畫面見 runtime_observation_long_03_loop.json／runtime_scene_long_03_loop.png。尾音、場景搭配與循環聽感待生前確認後再結案；未重建發行包或升版。

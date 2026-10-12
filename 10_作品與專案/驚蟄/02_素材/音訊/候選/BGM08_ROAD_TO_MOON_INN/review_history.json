@@ -89,6 +89,17 @@
       ],
       "previous_20_second_repair_preserved": true,
       "game_integrated": false
+    },
+    {
+      "date": "2026-10-13",
+      "stage": "long_03_scene_trial",
+      "status": "deployed_for_user_scene_trial",
+      "user_feedback": "用這版試試",
+      "file": "long_03_tail_repair_gentle_guzheng_seed3502_loop_intro.ogg",
+      "game_sha256": "7494628fd40853c7c2c6be11b9ed3e7dc60efad34de08d021e8396c8dca4accf",
+      "loop_spec": "<loop 3.0>",
+      "game_integrated": true,
+      "formal_scene_approval": false
     }
   ]
 }
