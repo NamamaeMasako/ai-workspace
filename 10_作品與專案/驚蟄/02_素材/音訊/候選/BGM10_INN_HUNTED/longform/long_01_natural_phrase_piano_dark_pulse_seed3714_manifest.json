@@ -1,0 +1,245 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM10_INN_HUNTED",
+  "candidates": [
+    {
+      "date": "2026-10-16",
+      "cue": "BGM10_INN_HUNTED",
+      "label": "04 返路不安・長版",
+      "status": "awaiting user long audition",
+      "request": {
+        "prompt": "Very soft low felt piano repeats a restrained original unresolved cell with subtle timing gaps above an ominous low organ-like pad and muted string harmonics. A consistent slow low musical pulse suggests growing apprehension on the walk home. Keep the piano cold and sparse, no lyrical or sentimental tune. Original instrumental dark exploration BGM for a supernatural visual novel, 25 seconds of continuous music. A spider-like intruder is already inside a small wooden inn at night, quietly searching the rooms. The listener senses an abnormal presence in a familiar place. Restrained eerie suspense, patient lurking menace, low dark musical foundation, sparse small pitched details, cold unresolved harmony, minimal foreground melody. A calm slow pulse keeps moving beneath the surface without becoming an action beat. Also support a woman's persistent uneasy premonition after battle while returning to the inn. Close enclosed scale rather than a vast dungeon, subtly East Asian supernatural setting rather than modern detective jazz. Use naturally connected note tails and short evolving musical phrases; no big build, no final cadence, no long silent gaps. No cheerful or bouncy tune, no romantic sadness, no lamenting cello melody, no lush orchestral strings, no busy arpeggios, no fast battle ostinato, no epic brass or loud percussion, no jump-scare stings. Music only: no singing, speech, vocal choir, wind, rain, insects, static, footsteps, wood creaks or other real-world sound effects.  Extend this exact selected original short faithfully into a continuous 65-second cue. Preserve its low-register piano cell, dark organ-like musical foundation, sparse foreground, harmonic tension, pulse and restrained dynamics. The 62 BPM setting is a prompt, not a measured tempo. Keep small phrase variations only, with the same patient eerie exploration character all the way through. Maintain the intimate wooden-inn scale and lingering foreboding after battle. Let notes decay naturally; do not change into lyrical grief, a bouncy tune, a lush orchestral theme or action music. No extra drums, climax, vocals, environmental noise, long silent gaps or early ending. Follow the supplied source map using the unfaded original tail; do not repeat the short audition fade. Maintain the selected original foreground motif and low musical undercurrent consistently.",
+        "lyrics": "[Instrumental]",
+        "thinking": false,
+        "use_format": false,
+        "use_cot_caption": false,
+        "use_cot_language": false,
+        "bpm": 62,
+        "key_scale": "E minor",
+        "time_signature": "4",
+        "vocal_language": "unknown",
+        "audio_duration": 65,
+        "inference_steps": 8,
+        "batch_size": 1,
+        "use_random_seed": false,
+        "seed": 3714,
+        "model": "acestep-v15-turbo",
+        "task_type": "cover",
+        "audio_cover_strength": 1.0,
+        "audio_format": "wav",
+        "cover_noise_strength": 0.55
+      },
+      "reference": {
+        "file": "candidate_04_piano_dark_pulse_seed3714_take02.ogg",
+        "sha256": "00a2c4f8db1dd5ebeb1f1006782b2fc03974ab3b2448d45c7f21392ada543fb5",
+        "submission_method": "multipart reference_audio upload"
+      },
+      "natural_source": {
+        "file": "candidate_04_piano_dark_pulse_seed3714_take02_raw.wav",
+        "sha256": "811626399a45043b7762c7371b312f16a74fabbef6bad99d3a3e6de1633cf8bd"
+      },
+      "source_template": {
+        "file": "long_01_natural_phrase_piano_dark_pulse_seed3714_source_template.wav",
+        "structure": {
+          "duration_seconds": 65,
+          "phrase_starts_seconds": [
+            0.0,
+            23.75,
+            47.5
+          ],
+          "phrase_period_seconds": 23.75,
+          "source_excerpt_seconds": 24.5,
+          "overlap_seconds": 0.75,
+          "source_level_match_db": 2.9523564023386566,
+          "peak_gain_db": -4.452356832717387,
+          "period_basis": "Fixed time source map from the unfaded raw source, not a measured beat alignment. Its final active region decays through 23.75-24.5s; the 24.25s quarter-second window is about -25.9 dBFS RMS and the following window falls below -50 dBFS. Preserve this tail rather than recycling the 20s audition fade."
+        },
+        "sha256": "767be2817b1b2cf184eda8cec08593900d923073927b986689f12e4f1c16174f"
+      },
+      "review_basis": "User requested a long version of take02 candidate 04 Return-route unease. Actual reference_audio is the selected original generated short, not the external Maou example; source template uses the corresponding unfaded raw mother.",
+      "task": {
+        "task_id": "f7848c21-2045-4f9e-a628-af92f24c97f0",
+        "status": "queued",
+        "queue_position": 1
+      },
+      "result": {
+        "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5Cecccc85a-b0dc-24b3-b421-bfa75be0898b.wav",
+        "wave": "",
+        "status": 1,
+        "create_time": 1792088082,
+        "env": "development",
+        "prompt": "Very soft low felt piano repeats a restrained original unresolved cell with subtle timing gaps above an ominous low organ-like pad and muted string harmonics. A consistent slow low musical pulse suggests growing apprehension on the walk home. Keep the piano cold and sparse, no lyrical or sentimental tune. Original instrumental dark exploration BGM for a supernatural visual novel, 25 seconds of continuous music. A spider-like intruder is already inside a small wooden inn at night, quietly searching the rooms. The listener senses an abnormal presence in a familiar place. Restrained eerie suspense, patient lurking menace, low dark musical foundation, sparse small pitched details, cold unresolved harmony, minimal foreground melody. A calm slow pulse keeps moving beneath the surface without becoming an action beat. Also support a woman's persistent uneasy premonition after battle while returning to the inn. Close enclosed scale rather than a vast dungeon, subtly East Asian supernatural setting rather than modern detective jazz. Use naturally connected note tails and short evolving musical phrases; no big build, no final cadence, no long silent gaps. No cheerful or bouncy tune, no romantic sadness, no lamenting cello melody, no lush orchestral strings, no busy arpeggios, no fast battle ostinato, no epic brass or loud percussion, no jump-scare stings. Music only: no singing, speech, vocal choir, wind, rain, insects, static, footsteps, wood creaks or other real-world sound effects.  Extend this exact selected original short faithfully into a continuous 65-second cue. Preserve its low-register piano cell, dark organ-like musical foundation, sparse foreground, harmonic tension, pulse and restrained dynamics. The 62 BPM setting is a prompt, not a measured tempo. Keep small phrase variations only, with the same patient eerie exploration character all the way through. Maintain the intimate wooden-inn scale and lingering foreboding after battle. Let notes decay naturally; do not change into lyrical grief, a bouncy tune, a lush orchestral theme or action music. No extra drums, climax, vocals, environmental noise, long silent gaps or early ending. Follow the supplied source map using the unfaded original tail; do not repeat the short audition fade. Maintain the selected original foreground motif and low musical undercurrent consistently.",
+        "lyrics": "[Instrumental]",
+        "metas": {
+          "bpm": 62,
+          "duration": 65.0,
+          "genres": "N/A",
+          "keyscale": "E minor",
+          "timesignature": "4",
+          "prompt": "Very soft low felt piano repeats a restrained original unresolved cell with subtle timing gaps above an ominous low organ-like pad and muted string harmonics. A consistent slow low musical pulse suggests growing apprehension on the walk home. Keep the piano cold and sparse, no lyrical or sentimental tune. Original instrumental dark exploration BGM for a supernatural visual novel, 25 seconds of continuous music. A spider-like intruder is already inside a small wooden inn at night, quietly searching the rooms. The listener senses an abnormal presence in a familiar place. Restrained eerie suspense, patient lurking menace, low dark musical foundation, sparse small pitched details, cold unresolved harmony, minimal foreground melody. A calm slow pulse keeps moving beneath the surface without becoming an action beat. Also support a woman's persistent uneasy premonition after battle while returning to the inn. Close enclosed scale rather than a vast dungeon, subtly East Asian supernatural setting rather than modern detective jazz. Use naturally connected note tails and short evolving musical phrases; no big build, no final cadence, no long silent gaps. No cheerful or bouncy tune, no romantic sadness, no lamenting cello melody, no lush orchestral strings, no busy arpeggios, no fast battle ostinato, no epic brass or loud percussion, no jump-scare stings. Music only: no singing, speech, vocal choir, wind, rain, insects, static, footsteps, wood creaks or other real-world sound effects.  Extend this exact selected original short faithfully into a continuous 65-second cue. Preserve its low-register piano cell, dark organ-like musical foundation, sparse foreground, harmonic tension, pulse and restrained dynamics. The 62 BPM setting is a prompt, not a measured tempo. Keep small phrase variations only, with the same patient eerie exploration character all the way through. Maintain the intimate wooden-inn scale and lingering foreboding after battle. Let notes decay naturally; do not change into lyrical grief, a bouncy tune, a lush orchestral theme or action music. No extra drums, climax, vocals, environmental noise, long silent gaps or early ending. Follow the supplied source map using the unfaded original tail; do not repeat the short audition fade. Maintain the selected original foreground motif and low musical undercurrent consistently.",
+          "lyrics": "[Instrumental]"
+        },
+        "generation_info": "**🎵 Total generation time (1 song): 4.55s**\n- 4.55s per song\n- DiT phase (1 song): 4.55s",
+        "seed_value": "3714",
+        "lm_model": "acestep-5Hz-lm-0.6B",
+        "dit_model": "acestep-v15-turbo",
+        "progress": 1.0,
+        "stage": "succeeded"
+      },
+      "processing": {
+        "preserved_selected_short_opening_seconds": 18,
+        "natural_unfaded_handoff_interval_seconds": [
+          18,
+          19
+        ],
+        "generated_continuation_crossfade_seconds": [
+          23.75,
+          24.5
+        ],
+        "natural_source_gain_db": 2.9523564023386566,
+        "continuation_gain_db": 1.0308934836623656,
+        "uniform_master_gain_db": -3.9523568327173875,
+        "opening_pcm_verified_before_mastering": true,
+        "fade_out_seconds": 0.5,
+        "loop_processed": false,
+        "method": "Carry unfaded mother tail through 20s and join at its natural ending, instead of repeating the faded audition clip.",
+        "audition_mastering": {
+          "fixed_gain_db": 2.460000000000001,
+          "limiter_dbfs": -2.5,
+          "latency_compensation": true,
+          "timestamps_rebuilt": true,
+          "composition_changed": false,
+          "premaster_measurement": {
+            "integrated_lufs": "-18.46",
+            "true_peak_dbtp": "-1.96",
+            "quiet_events": [
+              "[Parsed_silencedetect_0 @ 0000022a58f96a40] silence_start: 33.424785",
+              "[Parsed_silencedetect_0 @ 0000022a58f96a40] silence_end: 34.953016 | silence_duration: 1.528231",
+              "[Parsed_silencedetect_0 @ 0000022a58f96a40] silence_start: 57.220703",
+              "[Parsed_silencedetect_0 @ 0000022a58f96a40] silence_end: 58.701995 | silence_duration: 1.481293"
+            ]
+          }
+        }
+      },
+      "source_wav": {
+        "file": "long_01_natural_phrase_piano_dark_pulse_seed3714_source_template.wav",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "65.000000"
+          }
+        },
+        "sha256": "767be2817b1b2cf184eda8cec08593900d923073927b986689f12e4f1c16174f"
+      },
+      "raw_wav": {
+        "file": "long_01_natural_phrase_piano_dark_pulse_seed3714_raw.wav",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "65.000000"
+          }
+        },
+        "sha256": "8173a83611cbfab00ae9276d290190608c961933a63f22816f332705f32d3157"
+      },
+      "premaster_wav": {
+        "file": "long_01_natural_phrase_piano_dark_pulse_seed3714_premaster.wav",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "60.000000"
+          }
+        },
+        "sha256": "cac3787fd2d07cd0c4df5a1070b18376b17651fd5843b262c6fd7cb7a424fb78"
+      },
+      "premaster_ogg": {
+        "file": "long_01_natural_phrase_piano_dark_pulse_seed3714_premaster.ogg",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "60.000000"
+          }
+        },
+        "sha256": "5979fd34736a2fa2623661b1eafa582b430363ca60c92ca3f6d2eb09be8f9ea0"
+      },
+      "assembled_wav": {
+        "file": "long_01_natural_phrase_piano_dark_pulse_seed3714.wav",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "60.000000"
+          }
+        },
+        "sha256": "0e797481432110f130cfcf91b93149a781d2b61b9bfe9501dc91e3e155b5800c"
+      },
+      "ogg": {
+        "file": "long_01_natural_phrase_piano_dark_pulse_seed3714.ogg",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "60.000000"
+          }
+        },
+        "sha256": "c6936d7b9536ad351268c69073c0da6c15c1c2a80c6fe9ec60fccd803fcb46a4"
+      },
+      "technical_check": {
+        "decode": "passed",
+        "integrated_lufs": "-16.13",
+        "true_peak_dbtp": "-2.37",
+        "quiet_events": [
+          "[Parsed_silencedetect_0 @ 00000232ea770440] silence_start: 34.309252",
+          "[Parsed_silencedetect_0 @ 00000232ea770440] silence_end: 34.952744 | silence_duration: 0.643492",
+          "[Parsed_silencedetect_0 @ 00000232ea770440] silence_start: 58.05161",
+          "[Parsed_silencedetect_0 @ 00000232ea770440] silence_end: 58.701973 | silence_duration: 0.650363"
+        ]
+      }
+    }
+  ]
+}
