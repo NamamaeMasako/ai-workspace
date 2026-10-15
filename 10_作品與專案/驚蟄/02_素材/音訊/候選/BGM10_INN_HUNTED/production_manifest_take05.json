@@ -7,7 +7,7 @@
       "cue": "BGM10_INN_HUNTED",
       "label": "暗間留白",
       "revision": "take05",
-      "status": "awaiting user stillness and space audition",
+      "status": "soft onset accepted; requested continuous quiet sustain instead of rests",
       "method": "Explicit original note score rendered from local Windows GM piano; no AI generation or external music reference.",
       "review_basis": "User accepted take04 pitch character but found no stillness. Preserve all three dyads and relative strengths; soften attacks, let resonance decay away and leave real rests between events.",
       "instrument": {
@@ -246,7 +246,8 @@
             "duration": "20.000000"
           }
         }
-      }
+      },
+      "soft_onset_accepted": true
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "cue": "BGM10_INN_HUNTED",
-  "status": "awaiting_user_take05_stillness_audition",
+  "status": "awaiting_user_take06_quiet_sustain_audition",
   "reviews": [
     {
       "date": "2026-10-16",
@@ -129,6 +129,30 @@
         "no tail overlap between events",
         "much lower fixed peaks",
         "quiet gaps intentionally retained"
+      ],
+      "game_integrated": false,
+      "formally_adopted": false
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "quiet_rest_score_take05",
+      "status": "soft_onset_accepted_rest_gaps_not_required",
+      "user_feedback": "感到吵是因起音太大聲；放輕就好很多，可延長音或用其他不諧和音填滿無聲部分",
+      "soft_onset_accepted": true,
+      "formally_adopted": false
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "quiet_sustained_score_take06",
+      "status": "20_second_sustained_revision_ready",
+      "file": "candidate_04_low_piano_sustain_take06.ogg",
+      "pitch_pairs_and_attack_levels_retained": true,
+      "opening_0_9s_pcm_max_difference": 0.0,
+      "changes": [
+        "extend notes to 12 seconds",
+        "slow quiet sustain after 0.9 seconds",
+        "overlap tails without extra onsets",
+        "keep fixed quiet onset scale and no LUFS boost"
       ],
       "game_integrated": false,
       "formally_adopted": false

@@ -1,0 +1,235 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM10_INN_HUNTED",
+  "label": "低聲懸響",
+  "revision": "take06",
+  "status": "awaiting user quiet sustained-tail audition",
+  "method": "Explicit original note score rendered from local Windows GM piano; no AI generation or external music reference.",
+  "review_basis": "User clarified take05 soft attacks solve the perceived loudness and requests filling silent gaps with extended quiet dissonant notes. Preserve the approved soft onset and pitch pairs; extend only the quiet sustain.",
+  "instrument": {
+    "local_device_library": "C:\\WINDOWS\\System32\\drivers\\gm.dls",
+    "library_sha256": "3229b09b9d7d9f3f4793b0d9b34fe6abc75cfa4a2503c0c90f43ff651ba7f2c0",
+    "library_copied_into_project": false,
+    "library_redistributed": false
+  },
+  "score": [
+    {
+      "start": 0.12,
+      "midi": 39,
+      "note": "Eb2",
+      "strength": 0.48,
+      "duration": 12,
+      "instrument_source": {
+        "bank": 0,
+        "program_zero_based": 0,
+        "wave_table_index": 290,
+        "sample_rate": 22050,
+        "sample_root_midi": 41,
+        "fine_tune_cents": -1,
+        "sustain_loop_start_frames": 10830,
+        "sustain_loop_length_frames": 2272
+      }
+    },
+    {
+      "start": 0.12,
+      "midi": 40,
+      "note": "E2",
+      "strength": 0.26,
+      "duration": 12,
+      "instrument_source": {
+        "bank": 0,
+        "program_zero_based": 0,
+        "wave_table_index": 290,
+        "sample_rate": 22050,
+        "sample_root_midi": 41,
+        "fine_tune_cents": -1,
+        "sustain_loop_start_frames": 10830,
+        "sustain_loop_length_frames": 2272
+      }
+    },
+    {
+      "start": 8.4,
+      "midi": 34,
+      "note": "Bb1",
+      "strength": 0.34,
+      "duration": 12,
+      "instrument_source": {
+        "bank": 0,
+        "program_zero_based": 0,
+        "wave_table_index": 289,
+        "sample_rate": 22050,
+        "sample_root_midi": 36,
+        "fine_tune_cents": -4,
+        "sustain_loop_start_frames": 11989,
+        "sustain_loop_length_frames": 1682
+      }
+    },
+    {
+      "start": 8.4,
+      "midi": 33,
+      "note": "A1",
+      "strength": 0.2,
+      "duration": 12,
+      "instrument_source": {
+        "bank": 0,
+        "program_zero_based": 0,
+        "wave_table_index": 289,
+        "sample_rate": 22050,
+        "sample_root_midi": 36,
+        "fine_tune_cents": -4,
+        "sustain_loop_start_frames": 11989,
+        "sustain_loop_length_frames": 1682
+      }
+    },
+    {
+      "start": 15.4,
+      "midi": 37,
+      "note": "Db2",
+      "strength": 0.3,
+      "duration": 12,
+      "instrument_source": {
+        "bank": 0,
+        "program_zero_based": 0,
+        "wave_table_index": 289,
+        "sample_rate": 22050,
+        "sample_root_midi": 36,
+        "fine_tune_cents": -4,
+        "sustain_loop_start_frames": 11989,
+        "sustain_loop_length_frames": 1682
+      }
+    },
+    {
+      "start": 15.4,
+      "midi": 38,
+      "note": "D2",
+      "strength": 0.16,
+      "duration": 12,
+      "instrument_source": {
+        "bank": 0,
+        "program_zero_based": 0,
+        "wave_table_index": 289,
+        "sample_rate": 22050,
+        "sample_root_midi": 36,
+        "fine_tune_cents": -4,
+        "sustain_loop_start_frames": 11989,
+        "sustain_loop_length_frames": 1682
+      }
+    }
+  ],
+  "group_onsets_seconds": [
+    0.12,
+    8.4,
+    15.4
+  ],
+  "tempo": "Unmetered; no regular pulse or fixed BPM.",
+  "processing": {
+    "raw_duration_seconds": 25,
+    "audition_duration_seconds": 20,
+    "peak_before_filter_dbfs": -17,
+    "level_policy": "Match take05 first 0.9s peak scale, preserve quiet attacks; no integrated-loudness normalization",
+    "fixed_gain_db": 0.0,
+    "low_pass_hz": 1100,
+    "initial_decay_time_constant_seconds": 1.1,
+    "sustain_transition_seconds": 0.9,
+    "sustain_decay_time_constant_seconds": 12.0,
+    "attack_seconds": 0.045,
+    "release_seconds": 2.0,
+    "tail_reflections": [
+      [
+        0.073,
+        0.04
+      ],
+      [
+        0.137,
+        0.02
+      ]
+    ],
+    "premaster_measurement": {
+      "integrated_lufs": "-35.51",
+      "true_peak_dbtp": "-18.27",
+      "quiet_events": []
+    },
+    "loop_processed": false,
+    "take05_opening_0_9_seconds_pcm_max_difference": 0.0,
+    "silence_gaps_intentionally_filled_with_quiet_piano_sustain": true
+  },
+  "technical_measurements": {
+    "integrated_lufs": "-35.51",
+    "true_peak_dbtp": "-18.27",
+    "quiet_events": []
+  },
+  "game_integrated": false,
+  "formally_adopted": false,
+  "raw_wav": {
+    "file": "candidate_04_low_piano_sustain_take06_raw.wav",
+    "sha256": "a0f85a5f6d75df5ad8be3adbfc631f1b251594a476b23d0ea21954ca73ee5283",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "25.000000"
+      }
+    }
+  },
+  "master_wav": {
+    "file": "candidate_04_low_piano_sustain_take06.wav",
+    "sha256": "dc31143a39bf428d48f31beac04b148fc6b8c86ab765898ed8867627749f8695",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "premaster_ogg": {
+    "file": "candidate_04_low_piano_sustain_take06_premaster.ogg",
+    "sha256": "4e8a809c72be2eda92e02ccec953096ce6ab7a8499d2bfcb3f98200fc9a29e89",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "ogg": {
+    "file": "candidate_04_low_piano_sustain_take06.ogg",
+    "sha256": "4db451f578e27ac74aa11ba152a4670f73148e3864cebcace3fa4c7fb2b85711",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  }
+}
