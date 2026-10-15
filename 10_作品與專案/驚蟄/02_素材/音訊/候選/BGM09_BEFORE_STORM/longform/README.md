@@ -52,3 +52,12 @@
 - WAV 為 48 kHz 立體聲浮點 PCM，OGG 為 44.1 kHz 立體聲 Vorbis q5；實測 -16.77 LUFS／-2.30 dBTP，完整解碼無錯誤輸出，近靜音事件 []。
 - 原始生成、自然模板、premaster WAV、母帶與可編輯 `../../../母檔/BGM09_BEFORE_STORM/longform/produce_long_02_natural_phrase.py` 保留；來源、請求及處理／SHA-256 見同名 JSON 與 generation_manifest_long_02.json。
 - 用途仍為第七章交卡與出發的配樂比較，長版確認後再決定是否替換遊戲；目前未正式採用或重建發行包。
+
+## long_02 換入開發版試聽（2026-10-16）
+
+- 生前回覆「好，套看看」，以較悲傷 take02 的 long_02 母檔製作 `long_02_natural_phrase_felt_piano_seed3622_loop_intro.ogg`，未重新生成。循環 WAV 前 57 秒保留，末尾 3 秒與開頭 3 秒 smoothstep 交疊；首次 60 秒，後續 `<loop 3.0>` 回接、57 秒週期。此為淡接安排，未宣稱實測拍點或場景聽感已核可。
+- 原樣替換 `game/audio/music/bgm_before_storm.ogg`，SHA-256 `7d0d81a73a0dd8b9cde7a82dd1a0a067d930ffe1a8ecb1b655a3d11d8b730963` 與候選一致。long_01 原檔、循環副本及不合場景的回饋均保留。
+- 交卡選擇與兩輪四路線使用原有接點，出發及交戰前延續，第一個實際攻擊切 BGM06；script.rpy 本輪未修改。music 通道、1.5 秒淡入淡出及停用環境音設定沿用。
+- OGG 為 44.1 kHz 立體聲，完整解碼無錯誤輸出，實測 -16.86 LUFS／-2.30 dBTP，無長段近靜音。
+- 已重新開到開發 basedir 的 `script.rpy:1057` 交卡選擇，畫面正常、引擎讀取 long_02 雜湊一致、music 播放中、音量 1.0、未靜音，ambience 為空；觀察與畫面為 runtime_observation_long_02_loop.json／runtime_scene_long_02_loop.png。
+- 導入清單 game_integration_long_02.json，可編輯循環來源 `../../../母檔/BGM09_BEFORE_STORM/longform/prepare_long_02_loop.py`。整段情緒、對話搭配、循環及切戰鬥曲待生前確認，尚未正式採用或重建發行包。

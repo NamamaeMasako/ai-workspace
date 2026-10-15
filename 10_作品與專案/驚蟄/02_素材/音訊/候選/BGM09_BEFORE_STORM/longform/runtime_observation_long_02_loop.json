@@ -1,0 +1,18 @@
+{
+  "audio_sha256": "7d0d81a73a0dd8b9cde7a82dd1a0a067d930ffe1a8ecb1b655a3d11d8b730963",
+  "timestamp": 1792083895.5324757,
+  "basedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe",
+  "gamedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe\\game",
+  "location": [
+    "game/script.rpy",
+    1057
+  ],
+  "playing": "<loop 3.0>audio/music/bgm_before_storm.ogg",
+  "position": 31.874,
+  "music_volume": 1.0,
+  "music_muted": false,
+  "master_muted": false,
+  "ambience": null,
+  "client_date": "2026-10-16",
+  "scene_snapshot": "runtime_scene_long_02_loop.png"
+}

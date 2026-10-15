@@ -1,7 +1,7 @@
 {
   "date": "2026-10-16",
   "cue": "BGM09_BEFORE_STORM",
-  "status": "game trial felt unsuitable to user; earlier take02 long comparison requested; game audio not yet replaced",
+  "status": "superseded by long_02 trial after unsuitable scene feedback",
   "user_instruction": "感覺還行，套進遊戲我感覺一下",
   "source_file": "long_01_natural_phrase_felt_piano_seed3632_loop_intro.ogg",
   "source_sha256": "0df4c491076d35d4063bec1c40f184caadfd797cc27ed553cbf4eda6c9de5a57",
@@ -34,5 +34,6 @@
     "user_feedback": "感覺不太對，把前面比較悲傷的那首做成長版試試",
     "formal_approval": false,
     "comparison_candidate": "long_02_natural_phrase_felt_piano_seed3622.ogg"
-  }
+  },
+  "superseded_by": "game_integration_long_02.json"
 }

@@ -126,6 +126,16 @@
       },
       "loop_processed": false,
       "game_integrated": false
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "long_02_scene_trial",
+      "status": "deployed_for_user_comparison",
+      "user_feedback": "好，套看看",
+      "file": "long_02_natural_phrase_felt_piano_seed3622_loop_intro.ogg",
+      "game_sha256": "7d0d81a73a0dd8b9cde7a82dd1a0a067d930ffe1a8ecb1b655a3d11d8b730963",
+      "game_integrated": true,
+      "formal_scene_approval": false
     }
   ]
 }

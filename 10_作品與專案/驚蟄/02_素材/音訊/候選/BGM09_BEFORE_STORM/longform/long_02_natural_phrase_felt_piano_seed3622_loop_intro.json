@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM09_BEFORE_STORM",
+  "status": "selected for game audition; scene and loop confirmation pending",
+  "user_instruction": "好，套看看",
+  "source": {
+    "file": "long_02_natural_phrase_felt_piano_seed3622.wav",
+    "sha256": "ff9522060da0ce5b328a0057ef772042772115058ab5a973eb86d65161423164"
+  },
+  "processing": {
+    "new_generation": false,
+    "unchanged_opening_seconds": 57,
+    "tail_crossfade_seconds": 3,
+    "crossfade_curve": "smoothstep convex",
+    "duration_seconds": 60,
+    "renpy_loop_start_seconds": 3.0,
+    "repeat_period_seconds": 57,
+    "period_basis": "Three-second crossfade selected to preserve the first 57 seconds of the audition; no measured beat alignment is claimed.",
+    "unchanged_opening_pcm_max_error": 0.0,
+    "pcm_boundary_step": 0.002585931681096554
+  },
+  "wav": {
+    "file": "long_02_natural_phrase_felt_piano_seed3622_loop_intro.wav",
+    "sha256": "aeceaf5cd8cde40660400a7e5dfca9a764e93c7ac1693f220adaa35ffed143c8"
+  },
+  "ogg": {
+    "file": "long_02_natural_phrase_felt_piano_seed3622_loop_intro.ogg",
+    "sha256": "7d0d81a73a0dd8b9cde7a82dd1a0a067d930ffe1a8ecb1b655a3d11d8b730963",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "60.000000"
+      }
+    }
+  },
+  "technical_check": {
+    "decode": "passed without diagnostics",
+    "integrated_lufs": "-16.86",
+    "true_peak_dbtp": "-2.30",
+    "quiet_events": []
+  },
+  "producer": {
+    "file": "prepare_long_02_loop.py",
+    "sha256": "5f509dd251ed2bb40c8494ca884a4f479b35babdd0c7fb9dd2360b8d5385238b"
+  },
+  "game_integration_record": "game_integration_long_02.json"
+}

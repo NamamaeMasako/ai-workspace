@@ -6,7 +6,7 @@
       "date": "2026-10-16",
       "cue": "BGM09_BEFORE_STORM",
       "label": "02 鋼琴暗潮 take02・長版比較",
-      "status": "awaiting user long audition",
+      "status": "long_02 deployed for development scene comparison; scene and loop approval pending",
       "request": {
         "prompt": "Preserve the low-mid felt piano identity of the supplied reference. Anticipatory dark-fantasy visual novel background score for the protective black-card handoff and departure before a dangerous forest journey. The fight has not started. Retain the reference felt-piano-led chamber sound and subdued cello support, but make the musical pulse noticeably quicker and more restless. Moderate 80 BPM pulse, measured repeating low-mid piano notes with small anxious two-note figures and shorter gaps between phrases. Greater unease through close minor-second friction, unresolved minor harmony, subtly shifting bass and suspended cadences. Keep anxiety continuously simmering beneath a composed surface. Soft low strings sustain the tension beneath piano resonance; restrained dynamics and clear acoustic texture. Natural lingering note decays and connected phrases, no abrupt note cutoffs, no long empty gaps or early outro. No jaunty bounce, playful or cheerful tune, romantic sweetness, grand heroic theme, pounding combat drums, fast action percussion, loud orchestral crescendo, piercing horror sting, jazz, swing, EDM or rock. Instrumental music only: no vocals, speech, choir, rain, wind, insects, crackling, environmental ambience or sound effects.  Develop the exact selected piano reference faithfully into a continuous 65-second background cue. Maintain its measured 80 BPM setting, melodic shape, sustained low-string support, intimate resonance and reflective unease. Preserve the reference emotional shade throughout; allow only small natural phrase variations without introducing a different dramatic character or a new theme. Keep the same calm but moving rhythmic feel. Let piano notes decay naturally and connect phrases without early fade-outs, long silent gaps, abrupt releases or a final climax. No louder action percussion or heroic resolution. Follow the unfaded source phrase timing rather than copying the short-audition fade-out. Retain the selected take02 piano melody and string color faithfully, including its reflective emotional shading.",
         "lyrics": "[Instrumental]",
@@ -240,7 +240,8 @@
           "ffprobe",
           "ACE-Step local API"
         ]
-      }
+      },
+      "game_integration_record": "game_integration_long_02.json"
     }
   ]
 }
