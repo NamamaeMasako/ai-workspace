@@ -3,7 +3,7 @@
   "cue": "BGM10_INN_HUNTED",
   "label": "低聲懸響",
   "revision": "take06",
-  "status": "awaiting user quiet sustained-tail audition",
+  "status": "requested six-second onset spacing revision",
   "method": "Explicit original note score rendered from local Windows GM piano; no AI generation or external music reference.",
   "review_basis": "User clarified take05 soft attacks solve the perceived loudness and requests filling silent gaps with extended quiet dissonant notes. Preserve the approved soft onset and pitch pairs; extend only the quiet sustain.",
   "instrument": {
@@ -231,5 +231,6 @@
         "duration": "20.000000"
       }
     }
-  }
+  },
+  "user_feedback": "一個音配約8秒太長，希望縮到6秒"
 }

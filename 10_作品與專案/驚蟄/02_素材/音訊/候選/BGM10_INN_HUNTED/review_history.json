@@ -1,6 +1,6 @@
 {
   "cue": "BGM10_INN_HUNTED",
-  "status": "awaiting_user_take06_quiet_sustain_audition",
+  "status": "awaiting_user_take07_six_second_spacing_audition",
   "reviews": [
     {
       "date": "2026-10-16",
@@ -154,6 +154,30 @@
         "overlap tails without extra onsets",
         "keep fixed quiet onset scale and no LUFS boost"
       ],
+      "game_integrated": false,
+      "formally_adopted": false
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "quiet_sustained_score_take06",
+      "status": "onset_spacing_revision_requested",
+      "user_feedback": "一個音配8秒太長，可以縮到6秒嗎"
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "six_second_sustained_score_take07",
+      "status": "20_second_spacing_revision_ready",
+      "file": "candidate_04_low_piano_sustain_6s_take07.ogg",
+      "group_onsets_seconds": [
+        0.12,
+        6.12,
+        12.12,
+        18.12
+      ],
+      "interval_seconds": 6,
+      "note_duration_seconds": 12,
+      "unchanged": "piano timbre, soft attack envelope, pitch pairs, strengths and sustained decay",
+      "take06_first_0_9s_pcm_max_difference": 0.0,
       "game_integrated": false,
       "formally_adopted": false
     }
