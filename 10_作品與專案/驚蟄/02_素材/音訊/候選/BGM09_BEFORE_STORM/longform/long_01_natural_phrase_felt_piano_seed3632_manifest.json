@@ -1,0 +1,245 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM09_BEFORE_STORM",
+  "candidates": [
+    {
+      "date": "2026-10-16",
+      "cue": "BGM09_BEFORE_STORM",
+      "label": "02 警戒懸念・長版",
+      "status": "awaiting user long audition",
+      "request": {
+        "prompt": "Use the original piano reference for restrained acoustic timbre, shaping a taut suspense pattern with very little melodic sentiment. Quiet psychological suspense underscore for the protective black-card handoff and departure before a dangerous forest journey in a dark fantasy visual novel. A threat may be nearby: alert vigilance, held breath, calculating danger and taut nerves. Maintain the previous moderate 80 BPM setting and a clearly perceptible steady pulse. Low-mid felt piano repeats a compact non-lyrical single-note or two-note rhythmic cell. Small irregular offbeat accents and unresolved close intervals create watchful tension. Static low pedal, subtle tritone friction, short muted viola articulations and low dry string pulses beneath the piano. Restrained volume, low density, controlled but persistent rhythmic movement. Avoid expressive singing melody, wistful descending phrases, elegiac cello, sorrowful string swells, sentimental minor chord progressions, longing, grief, loneliness, tragic or funeral music. Suspense and nervous anticipation dominate the mood. No cheerful bounce, playful tune, romantic softness, fast combat drums, loud orchestral action, heroic fanfare, jump-scare blasts, jazz, swing, EDM or rock guitar. Natural note releases, no artificial hard cuts, no long silent gaps or early ending. Instrumental music only, no vocals, choir, speech, wind, rain, insects, crackling, environmental ambience or sound effects.  Extend the selected watchful piano pulse and compact non-lyrical motif through a continuous 65-second suspense cue. Maintain the same controlled 80 BPM setting, register, rhythmic feel and restrained dynamic throughout. Let phrases vary modestly while keeping taut vigilance. Natural resonant note tails and the same clear piano articulations; no wistful melodic expansion, grief, romantic yearning, sad cello or sentimental harmonic resolution. No new action drums, heroic climax, playful bounce, long silent rests or early outro. Follow the supplied unfaded source phrase timing without copying a short-audition fade-out. Keep the compact piano cell and low dry string pulses in the selected short, with no expressive lyrical theme.",
+        "lyrics": "[Instrumental]",
+        "thinking": false,
+        "use_format": false,
+        "use_cot_caption": false,
+        "use_cot_language": false,
+        "bpm": 80,
+        "key_scale": "E minor",
+        "time_signature": "4",
+        "vocal_language": "unknown",
+        "audio_duration": 65,
+        "inference_steps": 8,
+        "batch_size": 1,
+        "use_random_seed": false,
+        "seed": 3632,
+        "model": "acestep-v15-turbo",
+        "task_type": "cover",
+        "audio_cover_strength": 1.0,
+        "audio_format": "wav",
+        "cover_noise_strength": 0.55
+      },
+      "reference": {
+        "file": "candidate_02_felt_piano_seed3632_take03.ogg",
+        "sha256": "f7ff88053ff66ad7bd0fc12acf322e79866f1f143ce7857f0e42e20cc7bb6458",
+        "submission_method": "multipart reference_audio upload"
+      },
+      "natural_source": {
+        "file": "candidate_02_felt_piano_seed3632_take03.wav",
+        "sha256": "18b4e5cab5174265ed6264795c8eccc4692c5ccd896c8977929d4fe0f4a2565d"
+      },
+      "source_template": {
+        "file": "long_01_natural_phrase_felt_piano_seed3632_source_template.wav",
+        "structure": {
+          "duration_seconds": 65,
+          "phrase_starts_seconds": [
+            0.0,
+            22.5,
+            45.0
+          ],
+          "phrase_period_seconds": 22.5,
+          "source_excerpt_seconds": 23.25,
+          "overlap_seconds": 0.75,
+          "source_level_match_db": 2.291132536218797,
+          "peak_gain_db": -3.791132892409548,
+          "period_basis": "End region selected from unfaded mother: last active attack around 21.75s, tail naturally decays during 22.5-23.25s. Fixed time source map, not a measured beat alignment."
+        },
+        "sha256": "69e74792ab0f915eb44bf882fd77e13e9c1d6f999f453d1174f8a62fbcc44c95"
+      },
+      "review_basis": "User found piano take03 acceptable and requested a long audition. Preserve tense vigilant unease, the accepted rhythmic direction, and natural note releases; avoid sad mood from take02.",
+      "task": {
+        "task_id": "db93f3f6-927b-435f-b1d2-6092f426d8ac",
+        "status": "queued",
+        "queue_position": 1
+      },
+      "result": {
+        "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5C300026d0-0e44-0e7a-ddbe-8aed51930d09.wav",
+        "wave": "",
+        "status": 1,
+        "create_time": 1792082154,
+        "env": "development",
+        "prompt": "Use the original piano reference for restrained acoustic timbre, shaping a taut suspense pattern with very little melodic sentiment. Quiet psychological suspense underscore for the protective black-card handoff and departure before a dangerous forest journey in a dark fantasy visual novel. A threat may be nearby: alert vigilance, held breath, calculating danger and taut nerves. Maintain the previous moderate 80 BPM setting and a clearly perceptible steady pulse. Low-mid felt piano repeats a compact non-lyrical single-note or two-note rhythmic cell. Small irregular offbeat accents and unresolved close intervals create watchful tension. Static low pedal, subtle tritone friction, short muted viola articulations and low dry string pulses beneath the piano. Restrained volume, low density, controlled but persistent rhythmic movement. Avoid expressive singing melody, wistful descending phrases, elegiac cello, sorrowful string swells, sentimental minor chord progressions, longing, grief, loneliness, tragic or funeral music. Suspense and nervous anticipation dominate the mood. No cheerful bounce, playful tune, romantic softness, fast combat drums, loud orchestral action, heroic fanfare, jump-scare blasts, jazz, swing, EDM or rock guitar. Natural note releases, no artificial hard cuts, no long silent gaps or early ending. Instrumental music only, no vocals, choir, speech, wind, rain, insects, crackling, environmental ambience or sound effects.  Extend the selected watchful piano pulse and compact non-lyrical motif through a continuous 65-second suspense cue. Maintain the same controlled 80 BPM setting, register, rhythmic feel and restrained dynamic throughout. Let phrases vary modestly while keeping taut vigilance. Natural resonant note tails and the same clear piano articulations; no wistful melodic expansion, grief, romantic yearning, sad cello or sentimental harmonic resolution. No new action drums, heroic climax, playful bounce, long silent rests or early outro. Follow the supplied unfaded source phrase timing without copying a short-audition fade-out. Keep the compact piano cell and low dry string pulses in the selected short, with no expressive lyrical theme.",
+        "lyrics": "[Instrumental]",
+        "metas": {
+          "bpm": 80,
+          "duration": 65.0,
+          "genres": "N/A",
+          "keyscale": "E minor",
+          "timesignature": "4",
+          "prompt": "Use the original piano reference for restrained acoustic timbre, shaping a taut suspense pattern with very little melodic sentiment. Quiet psychological suspense underscore for the protective black-card handoff and departure before a dangerous forest journey in a dark fantasy visual novel. A threat may be nearby: alert vigilance, held breath, calculating danger and taut nerves. Maintain the previous moderate 80 BPM setting and a clearly perceptible steady pulse. Low-mid felt piano repeats a compact non-lyrical single-note or two-note rhythmic cell. Small irregular offbeat accents and unresolved close intervals create watchful tension. Static low pedal, subtle tritone friction, short muted viola articulations and low dry string pulses beneath the piano. Restrained volume, low density, controlled but persistent rhythmic movement. Avoid expressive singing melody, wistful descending phrases, elegiac cello, sorrowful string swells, sentimental minor chord progressions, longing, grief, loneliness, tragic or funeral music. Suspense and nervous anticipation dominate the mood. No cheerful bounce, playful tune, romantic softness, fast combat drums, loud orchestral action, heroic fanfare, jump-scare blasts, jazz, swing, EDM or rock guitar. Natural note releases, no artificial hard cuts, no long silent gaps or early ending. Instrumental music only, no vocals, choir, speech, wind, rain, insects, crackling, environmental ambience or sound effects.  Extend the selected watchful piano pulse and compact non-lyrical motif through a continuous 65-second suspense cue. Maintain the same controlled 80 BPM setting, register, rhythmic feel and restrained dynamic throughout. Let phrases vary modestly while keeping taut vigilance. Natural resonant note tails and the same clear piano articulations; no wistful melodic expansion, grief, romantic yearning, sad cello or sentimental harmonic resolution. No new action drums, heroic climax, playful bounce, long silent rests or early outro. Follow the supplied unfaded source phrase timing without copying a short-audition fade-out. Keep the compact piano cell and low dry string pulses in the selected short, with no expressive lyrical theme.",
+          "lyrics": "[Instrumental]"
+        },
+        "generation_info": "**🎵 Total generation time (1 song): 5.64s**\n- 5.64s per song\n- DiT phase (1 song): 5.64s",
+        "seed_value": "3632",
+        "lm_model": "acestep-5Hz-lm-0.6B",
+        "dit_model": "acestep-v15-turbo",
+        "progress": 1.0,
+        "stage": "succeeded"
+      },
+      "processing": {
+        "preserved_selected_short_opening_seconds": 18,
+        "natural_unfaded_handoff_interval_seconds": [
+          18,
+          19
+        ],
+        "generated_continuation_crossfade_seconds": [
+          22,
+          23.25
+        ],
+        "natural_source_gain_db": 2.291132536218797,
+        "continuation_gain_db": 3.1760142388444024,
+        "uniform_master_gain_db": -3.5743064979739225,
+        "opening_pcm_verified_before_mastering": true,
+        "fade_out_seconds": 0.5,
+        "loop_processed": false,
+        "method": "Carry unfaded mother tail through 20s and join at its natural ending, instead of repeating the faded audition clip.",
+        "audition_mastering": {
+          "fixed_gain_db": 2.7399999999999984,
+          "limiter_dbfs": -2.5,
+          "latency_compensation": true,
+          "timestamps_rebuilt": true,
+          "composition_changed": false,
+          "premaster_measurement": {
+            "integrated_lufs": "-18.74",
+            "true_peak_dbtp": "-1.95",
+            "quiet_events": []
+          }
+        }
+      },
+      "source_wav": {
+        "file": "long_01_natural_phrase_felt_piano_seed3632_source_template.wav",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "65.000000"
+          }
+        },
+        "sha256": "69e74792ab0f915eb44bf882fd77e13e9c1d6f999f453d1174f8a62fbcc44c95"
+      },
+      "raw_wav": {
+        "file": "long_01_natural_phrase_felt_piano_seed3632_raw.wav",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "65.000000"
+          }
+        },
+        "sha256": "94595b00b2878e8423631b24f8bb307c7aec9a64957dd56fc60f2062e54e7203"
+      },
+      "premaster_wav": {
+        "file": "long_01_natural_phrase_felt_piano_seed3632_premaster.wav",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "60.000000"
+          }
+        },
+        "sha256": "fdf1c67a111532a9d4570738f5605dd536273f3c55eeead1ffa635dfe2470b31"
+      },
+      "premaster_ogg": {
+        "file": "long_01_natural_phrase_felt_piano_seed3632_premaster.ogg",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "60.000000"
+          }
+        },
+        "sha256": "70edb41fefceed791cb8959086afcd6e7fb0e1b998bbb974e214d3528aec29fa"
+      },
+      "assembled_wav": {
+        "file": "long_01_natural_phrase_felt_piano_seed3632.wav",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "60.000000"
+          }
+        },
+        "sha256": "eb6d38ddb16b429d8e8a2bb5bc3777c0a1db3c27f3fe36582505e6261b7705d2"
+      },
+      "ogg": {
+        "file": "long_01_natural_phrase_felt_piano_seed3632.ogg",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "60.000000"
+          }
+        },
+        "sha256": "5587ad9e8992e2aca6cde4f97ac04a2cc484f3099f6ff1034012f671387c1dfc"
+      },
+      "technical_check": {
+        "decode": "passed",
+        "integrated_lufs": "-16.29",
+        "true_peak_dbtp": "-2.22",
+        "quiet_events": []
+      },
+      "producer": {
+        "file": "produce_long_01_natural_phrase.py",
+        "sha256": "9fd0dd355bb94d0304a84d1585ad0c37d098ea9eee0244e58dc95e4a270b93ae",
+        "requirements": [
+          "numpy",
+          "ffmpeg",
+          "ffprobe",
+          "ACE-Step local API"
+        ]
+      }
+    }
+  ]
+}

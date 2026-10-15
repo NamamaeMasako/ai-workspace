@@ -63,6 +63,31 @@
       "bpm_is_prompt_not_measured": true,
       "requested_mood": "警戒、繃緊神經、察覺威脅、等待危險",
       "game_integrated": false
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "piano_take03",
+      "status": "selected_for_long_trial",
+      "user_feedback": "這版好像還行，做成長版試試",
+      "file": "candidate_02_felt_piano_seed3632_take03.ogg",
+      "formally_adopted": false
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "long_01",
+      "status": "awaiting_user_long_audition",
+      "file": "long_01_natural_phrase_felt_piano_seed3632.ogg",
+      "reference_audio": {
+        "file": "candidate_02_felt_piano_seed3632_take03.ogg",
+        "sha256": "f7ff88053ff66ad7bd0fc12acf322e79866f1f143ce7857f0e42e20cc7bb6458",
+        "submission_method": "multipart reference_audio upload"
+      },
+      "natural_source": {
+        "file": "candidate_02_felt_piano_seed3632_take03.wav",
+        "sha256": "18b4e5cab5174265ed6264795c8eccc4692c5ccd896c8977929d4fe0f4a2565d"
+      },
+      "loop_processed": false,
+      "game_integrated": false
     }
   ]
 }
