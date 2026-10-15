@@ -1,6 +1,6 @@
 {
   "cue": "BGM10_INN_HUNTED",
-  "status": "awaiting_user_long02_varied_dissonant_audition",
+  "status": "awaiting_user_long02_scene_and_loop_approval",
   "reviews": [
     {
       "date": "2026-10-16",
@@ -248,6 +248,16 @@
       "game_integrated": false,
       "loop_processed": false,
       "formally_adopted": false
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "long_02_scene_trial",
+      "user_instruction": "套進遊戲試試",
+      "status": "deployed_for_audition",
+      "file": "longform/long_02_varied_dissonant_piano_take07_loop_intro.ogg",
+      "game_sha256": "82c8ff979ccd9a114782b8220cf179931c898c1865524f01b3ca2b92b3c6e1f8",
+      "game_integrated": true,
+      "formal_scene_approval": false
     }
   ]
 }

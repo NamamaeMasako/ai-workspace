@@ -1,0 +1,16 @@
+{
+  "audio_sha256": "82c8ff979ccd9a114782b8220cf179931c898c1865524f01b3ca2b92b3c6e1f8",
+  "timestamp": 1792091675.1801007,
+  "basedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe",
+  "gamedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe\\game",
+  "location": [
+    "game/script.rpy",
+    1255
+  ],
+  "playing": "<loop 3.4285625>audio/music/bgm_forest_assault.ogg",
+  "position": 3.925,
+  "music_volume": 1.0,
+  "music_muted": false,
+  "master_muted": false,
+  "ambience": null
+}

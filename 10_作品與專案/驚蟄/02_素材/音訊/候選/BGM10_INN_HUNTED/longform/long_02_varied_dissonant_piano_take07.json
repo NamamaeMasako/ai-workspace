@@ -3,7 +3,7 @@
   "cue": "BGM10_INN_HUNTED",
   "label": "低聲懸響・變化長版",
   "revision": "long_02",
-  "status": "awaiting user 60-second long audition",
+  "status": "deployed for development scene audition; formal approval pending",
   "method": "New explicit original score rendered with local Windows GM piano. Actual selected short OGG provides the preserved opening; no AI model request or external music.",
   "review_basis": "User requests a long cue with new dissonant material, varied note lengths and onset intervals, not repetition of the three short dyads or a strict six-second grid.",
   "instrument": {
@@ -618,5 +618,6 @@
         "duration": "60.000000"
       }
     }
-  }
+  },
+  "game_integration_record": "game_integration_long_02.json"
 }

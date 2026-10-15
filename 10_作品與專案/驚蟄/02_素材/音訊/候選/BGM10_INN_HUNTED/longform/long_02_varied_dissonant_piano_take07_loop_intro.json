@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM10_INN_HUNTED",
+  "status": "selected for game audition; scene and loop confirmation pending",
+  "user_instruction": "套進遊戲試試",
+  "source": {
+    "file": "long_02_varied_dissonant_piano_take07.wav",
+    "sha256": "04d4396db3361a7b2332c734fef6b2b6f85c1e901b28adc3f649079565f60c4d"
+  },
+  "processing": {
+    "new_generation": false,
+    "unchanged_opening_seconds": 57,
+    "tail_crossfade_seconds": 3,
+    "crossfade_curve": "smoothstep convex",
+    "duration_seconds": 60,
+    "renpy_loop_start_seconds": 3.0,
+    "repeat_period_seconds": 57,
+    "period_basis": "Three-second crossfade selected to preserve the first 57 seconds of the audition; no measured beat alignment is claimed.",
+    "unchanged_opening_pcm_max_error": 0.0,
+    "pcm_boundary_step": 0.0005043423734605312
+  },
+  "wav": {
+    "file": "long_02_varied_dissonant_piano_take07_loop_intro.wav",
+    "sha256": "5fb52a84155f6368bbe98459f37191d7478c09837904bb567939647060c86e13"
+  },
+  "ogg": {
+    "file": "long_02_varied_dissonant_piano_take07_loop_intro.ogg",
+    "sha256": "82c8ff979ccd9a114782b8220cf179931c898c1865524f01b3ca2b92b3c6e1f8",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "60.000000"
+      }
+    }
+  },
+  "technical_check": {
+    "decode": "passed without diagnostics",
+    "integrated_lufs": "-37.27",
+    "true_peak_dbtp": "-18.12",
+    "quiet_events": []
+  },
+  "producer": {
+    "file": "prepare_long_02_loop.py",
+    "sha256": "477e8b0337f02f18e9c0eecf762effc93a06cdd389a2efd9c9f8e652b22fc578"
+  }
+}
