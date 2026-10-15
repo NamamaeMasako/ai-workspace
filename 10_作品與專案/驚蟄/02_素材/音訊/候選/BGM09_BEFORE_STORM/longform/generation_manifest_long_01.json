@@ -6,7 +6,7 @@
       "date": "2026-10-16",
       "cue": "BGM09_BEFORE_STORM",
       "label": "02 警戒懸念・長版",
-      "status": "awaiting user long audition",
+      "status": "selected for development scene audition; formal scene and loop approval pending",
       "request": {
         "prompt": "Use the original piano reference for restrained acoustic timbre, shaping a taut suspense pattern with very little melodic sentiment. Quiet psychological suspense underscore for the protective black-card handoff and departure before a dangerous forest journey in a dark fantasy visual novel. A threat may be nearby: alert vigilance, held breath, calculating danger and taut nerves. Maintain the previous moderate 80 BPM setting and a clearly perceptible steady pulse. Low-mid felt piano repeats a compact non-lyrical single-note or two-note rhythmic cell. Small irregular offbeat accents and unresolved close intervals create watchful tension. Static low pedal, subtle tritone friction, short muted viola articulations and low dry string pulses beneath the piano. Restrained volume, low density, controlled but persistent rhythmic movement. Avoid expressive singing melody, wistful descending phrases, elegiac cello, sorrowful string swells, sentimental minor chord progressions, longing, grief, loneliness, tragic or funeral music. Suspense and nervous anticipation dominate the mood. No cheerful bounce, playful tune, romantic softness, fast combat drums, loud orchestral action, heroic fanfare, jump-scare blasts, jazz, swing, EDM or rock guitar. Natural note releases, no artificial hard cuts, no long silent gaps or early ending. Instrumental music only, no vocals, choir, speech, wind, rain, insects, crackling, environmental ambience or sound effects.  Extend the selected watchful piano pulse and compact non-lyrical motif through a continuous 65-second suspense cue. Maintain the same controlled 80 BPM setting, register, rhythmic feel and restrained dynamic throughout. Let phrases vary modestly while keeping taut vigilance. Natural resonant note tails and the same clear piano articulations; no wistful melodic expansion, grief, romantic yearning, sad cello or sentimental harmonic resolution. No new action drums, heroic climax, playful bounce, long silent rests or early outro. Follow the supplied unfaded source phrase timing without copying a short-audition fade-out. Keep the compact piano cell and low dry string pulses in the selected short, with no expressive lyrical theme.",
         "lyrics": "[Instrumental]",
@@ -239,7 +239,8 @@
           "ffprobe",
           "ACE-Step local API"
         ]
-      }
+      },
+      "game_integration_record": "game_integration_long_01.json"
     }
   ]
 }

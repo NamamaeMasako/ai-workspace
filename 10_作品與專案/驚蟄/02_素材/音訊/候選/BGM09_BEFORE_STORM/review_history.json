@@ -88,6 +88,16 @@
       },
       "loop_processed": false,
       "game_integrated": false
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "long_01_scene_trial",
+      "status": "deployed_for_user_audition",
+      "user_feedback": "感覺還行，套進遊戲我感覺一下",
+      "file": "long_01_natural_phrase_felt_piano_seed3632_loop_intro.ogg",
+      "game_sha256": "0df4c491076d35d4063bec1c40f184caadfd797cc27ed553cbf4eda6c9de5a57",
+      "game_integrated": true,
+      "formal_scene_approval": false
     }
   ]
 }

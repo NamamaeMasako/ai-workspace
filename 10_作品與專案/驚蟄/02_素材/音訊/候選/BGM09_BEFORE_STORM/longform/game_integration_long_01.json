@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM09_BEFORE_STORM",
+  "status": "deployed for user scene trial; formal adoption pending",
+  "user_instruction": "感覺還行，套進遊戲我感覺一下",
+  "source_file": "long_01_natural_phrase_felt_piano_seed3632_loop_intro.ogg",
+  "source_sha256": "0df4c491076d35d4063bec1c40f184caadfd797cc27ed553cbf4eda6c9de5a57",
+  "game_file": "03_開發/JingZhe/game/audio/music/bgm_before_storm.ogg",
+  "game_sha256": "0df4c491076d35d4063bec1c40f184caadfd797cc27ed553cbf4eda6c9de5a57",
+  "new_generation": false,
+  "reencoded_for_game": false,
+  "channel": "music",
+  "loop_spec": "<loop 3.0>",
+  "first_duration_seconds": 60,
+  "repeat_period_seconds": 57,
+  "fade_in_seconds": 1.5,
+  "fade_out_seconds": 1.5,
+  "entry_cues": [
+    "chapter_7_choice_1",
+    "chapter_7_hanami_1",
+    "chapter_7_yumemi_1",
+    "chapter_7_hanami_2",
+    "chapter_7_yumemi_2"
+  ],
+  "guarded_branches": "Start only when this exact cue is not already playing; preserve continuity from first choice into the chosen branch.",
+  "battle_transition": "Existing BGM06 cue in each branch at first actual attack; existing battle fadeout 1.5 seconds retained.",
+  "rewind_black_silent": true,
+  "audition_warp": "script.rpy:1057",
+  "runtime": "development basedir launched at first card-handoff choice; screenshot normal, selected audio hash matches, music playing unmuted, ambience empty",
+  "runtime_record": "runtime_observation_long_01_loop.json",
+  "scene_snapshot": "runtime_scene_long_01_loop.png"
+}
