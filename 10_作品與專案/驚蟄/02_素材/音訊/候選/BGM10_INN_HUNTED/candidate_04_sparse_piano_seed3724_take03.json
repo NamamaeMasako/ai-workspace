@@ -1,0 +1,155 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM10_INN_HUNTED",
+  "label": "靜室懸音",
+  "revision": "take03",
+  "status": "awaiting user short selection",
+  "request": {
+    "prompt": "Pianissimo minimal solo piano, slow rubato, just a handful of cold low-register notes with long connected tails. Keep sustained unresolved intervals rather than a flowing melody. Near-stillness with audible tonal unease. Extremely sparse, very quiet instrumental piano horror underscore for reading dialogue in a supernatural visual novel. An intruder silently searches a wooden inn at night. The scene must feel hushed, still, ominous and patiently dangerous. Only a few soft isolated piano notes in the low and middle registers, roughly one new attack every four to six seconds. Let each note ring and decay naturally for several seconds, with long sustain-pedal resonance overlapping the next note. Wide breathing room between attacks, no regular beat, no repeated pulse, no accompaniment pattern, no arpeggios. Muted soft hammer attack, dark filtered piano tone, low density and low dynamics throughout. Use E-flat minor harmonic colors and mostly black-key pitches such as E-flat, G-flat, A-flat, B-flat and D-flat. For dread, occasionally hold an unresolved semitone or tritone against a sustained piano note; do not turn the black-key material into a pleasant pentatonic tune. Avoid bright major thirds, major chords, familiar melodic cadences and any sense of harmonic resolution. Keep dissonance quiet and suspended. Piano resonance should carry the whole 25 seconds; leave room, but do not end the cue early. No melodic solo, no sentimental sadness, no jaunty or playful phrases, no bright high piano ornaments. No drums, percussion, bass groove, ostinato, organ pad, synth pad, strings, flute or layered instrumental bed. No dramatic builds, big bass hits or jump-scare accents. No voice, choir, rain, wind, insects, footsteps, static, crackles or environmental noise. Pure restrained musical unease in a small enclosed room. ",
+    "lyrics": "[Instrumental]",
+    "thinking": false,
+    "use_format": false,
+    "use_cot_caption": false,
+    "use_cot_language": false,
+    "bpm": 40,
+    "key_scale": "Eb minor",
+    "time_signature": "4",
+    "vocal_language": "unknown",
+    "audio_duration": 25,
+    "inference_steps": 8,
+    "batch_size": 1,
+    "use_random_seed": false,
+    "seed": 3724,
+    "model": "acestep-v15-turbo",
+    "task_type": "text2music",
+    "audio_cover_strength": 1.0,
+    "audio_format": "wav"
+  },
+  "reference_audio": null,
+  "musical_parameters": "BPM, key and instrumentation are generation prompts, not measured or guaranteed.",
+  "processing": {
+    "source_seconds": 25,
+    "excerpt_seconds": 20,
+    "fade_in_seconds": 0.03,
+    "fade_out_seconds": 0.5,
+    "loop_processed": false,
+    "fixed_gain_db": -2.969999999999999,
+    "loudness_target_lufs": -22,
+    "limiter_dbfs": -2.5,
+    "premaster_measurement": {
+      "integrated_lufs": "-19.03",
+      "true_peak_dbtp": "-0.97",
+      "quiet_events": []
+    },
+    "revision_basis": "User found the game cue too loud, too busy and insufficiently eerie; requests slow, quiet, few long notes and more black-key piano colors. No old rhythmic reference audio is used because the regular pulse is being removed."
+  },
+  "formally_adopted": false,
+  "game_integrated": false,
+  "task": {
+    "task_id": "360ce8ff-cc12-4b3c-9439-29ebbbeccd3f",
+    "status": "queued",
+    "queue_position": 1
+  },
+  "result": {
+    "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5C89685990-597c-e7c7-e24b-d1d364c75d33.wav",
+    "wave": "",
+    "status": 1,
+    "create_time": 1792089516,
+    "env": "development",
+    "prompt": "Pianissimo minimal solo piano, slow rubato, just a handful of cold low-register notes with long connected tails. Keep sustained unresolved intervals rather than a flowing melody. Near-stillness with audible tonal unease. Extremely sparse, very quiet instrumental piano horror underscore for reading dialogue in a supernatural visual novel. An intruder silently searches a wooden inn at night. The scene must feel hushed, still, ominous and patiently dangerous. Only a few soft isolated piano notes in the low and middle registers, roughly one new attack every four to six seconds. Let each note ring and decay naturally for several seconds, with long sustain-pedal resonance overlapping the next note. Wide breathing room between attacks, no regular beat, no repeated pulse, no accompaniment pattern, no arpeggios. Muted soft hammer attack, dark filtered piano tone, low density and low dynamics throughout. Use E-flat minor harmonic colors and mostly black-key pitches such as E-flat, G-flat, A-flat, B-flat and D-flat. For dread, occasionally hold an unresolved semitone or tritone against a sustained piano note; do not turn the black-key material into a pleasant pentatonic tune. Avoid bright major thirds, major chords, familiar melodic cadences and any sense of harmonic resolution. Keep dissonance quiet and suspended. Piano resonance should carry the whole 25 seconds; leave room, but do not end the cue early. No melodic solo, no sentimental sadness, no jaunty or playful phrases, no bright high piano ornaments. No drums, percussion, bass groove, ostinato, organ pad, synth pad, strings, flute or layered instrumental bed. No dramatic builds, big bass hits or jump-scare accents. No voice, choir, rain, wind, insects, footsteps, static, crackles or environmental noise. Pure restrained musical unease in a small enclosed room. ",
+    "lyrics": "[Instrumental]",
+    "metas": {
+      "bpm": 40,
+      "duration": 25.0,
+      "genres": "N/A",
+      "keyscale": "Eb minor",
+      "timesignature": "4",
+      "prompt": "Pianissimo minimal solo piano, slow rubato, just a handful of cold low-register notes with long connected tails. Keep sustained unresolved intervals rather than a flowing melody. Near-stillness with audible tonal unease. Extremely sparse, very quiet instrumental piano horror underscore for reading dialogue in a supernatural visual novel. An intruder silently searches a wooden inn at night. The scene must feel hushed, still, ominous and patiently dangerous. Only a few soft isolated piano notes in the low and middle registers, roughly one new attack every four to six seconds. Let each note ring and decay naturally for several seconds, with long sustain-pedal resonance overlapping the next note. Wide breathing room between attacks, no regular beat, no repeated pulse, no accompaniment pattern, no arpeggios. Muted soft hammer attack, dark filtered piano tone, low density and low dynamics throughout. Use E-flat minor harmonic colors and mostly black-key pitches such as E-flat, G-flat, A-flat, B-flat and D-flat. For dread, occasionally hold an unresolved semitone or tritone against a sustained piano note; do not turn the black-key material into a pleasant pentatonic tune. Avoid bright major thirds, major chords, familiar melodic cadences and any sense of harmonic resolution. Keep dissonance quiet and suspended. Piano resonance should carry the whole 25 seconds; leave room, but do not end the cue early. No melodic solo, no sentimental sadness, no jaunty or playful phrases, no bright high piano ornaments. No drums, percussion, bass groove, ostinato, organ pad, synth pad, strings, flute or layered instrumental bed. No dramatic builds, big bass hits or jump-scare accents. No voice, choir, rain, wind, insects, footsteps, static, crackles or environmental noise. Pure restrained musical unease in a small enclosed room. ",
+      "lyrics": "[Instrumental]"
+    },
+    "generation_info": "**🎵 Total generation time (1 song): 5.76s**\n- 5.76s per song\n- DiT phase (1 song): 5.76s",
+    "seed_value": "3724",
+    "lm_model": "acestep-5Hz-lm-0.6B",
+    "dit_model": "acestep-v15-turbo",
+    "progress": 1.0,
+    "stage": "succeeded"
+  },
+  "raw_wav": {
+    "file": "candidate_04_sparse_piano_seed3724_take03_raw.wav",
+    "sha256": "ace979e84774cbd7316c4b58c2dcc6331e153fc06f77e426874fee358ee0769a",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "25.000000"
+      }
+    }
+  },
+  "master_wav": {
+    "file": "candidate_04_sparse_piano_seed3724_take03.wav",
+    "sha256": "2a723af6ba2ca9be8bec5e653663e8196c19f63c0ff4c3515fee543abea94668",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "premaster_ogg": {
+    "file": "candidate_04_sparse_piano_seed3724_take03_premaster.ogg",
+    "sha256": "9a1131092813512737cf2a368db6138b7d0a83c6355731aa8a14f36145e02cd9",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "ogg": {
+    "file": "candidate_04_sparse_piano_seed3724_take03.ogg",
+    "sha256": "ede5e3dc79314096f54d6ba0e9a50308068f011b01130e536f9dae3d1e4c58b1",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "technical_measurements": {
+    "integrated_lufs": "-22.00",
+    "true_peak_dbtp": "-3.93",
+    "quiet_events": []
+  },
+  "review_basis": "User requested quiet, very slow, fewer long notes, more eerie unresolved piano with predominantly black-key colors after long_01 game audition felt too loud and insufficiently sinister."
+}

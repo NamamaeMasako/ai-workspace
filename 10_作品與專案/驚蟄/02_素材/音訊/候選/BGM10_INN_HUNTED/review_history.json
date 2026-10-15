@@ -1,6 +1,6 @@
 {
   "cue": "BGM10_INN_HUNTED",
-  "status": "awaiting_user_scene_and_loop_approval",
+  "status": "awaiting_user_sparse_piano_take03_audition",
   "reviews": [
     {
       "date": "2026-10-16",
@@ -65,6 +65,28 @@
       "game_sha256": "a04dee30aa642bc7292d2f8b1d5fa1b17b66020420c0ab0c9735f951492e3907",
       "game_integrated": true,
       "formal_scene_approval": false
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "long_01_scene_trial",
+      "status": "revision_requested",
+      "user_feedback": "配上場景太吵，部分音不夠陰森；場景應安靜、節奏慢、音符少且可拉長，鋼琴偏黑鍵音色",
+      "formal_scene_approval": false
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "sparse_piano_take03",
+      "status": "20_second_revision_ready",
+      "file": "candidate_04_sparse_piano_seed3724_take03.ogg",
+      "request": "40 BPM / Eb minor, sparse solo piano and long unresolved tones, no recurring pulse or layered pad",
+      "parameters_are_prompts": true,
+      "technical_measurements": {
+        "integrated_lufs": "-22.00",
+        "true_peak_dbtp": "-3.93",
+        "quiet_events": []
+      },
+      "formally_adopted": false,
+      "game_integrated": false
     }
   ]
 }
