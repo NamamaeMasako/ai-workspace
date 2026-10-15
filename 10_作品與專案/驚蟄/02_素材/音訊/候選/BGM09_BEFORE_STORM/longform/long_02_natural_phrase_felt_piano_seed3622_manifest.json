@@ -1,0 +1,246 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM09_BEFORE_STORM",
+  "candidates": [
+    {
+      "date": "2026-10-16",
+      "cue": "BGM09_BEFORE_STORM",
+      "label": "02 鋼琴暗潮 take02・長版比較",
+      "status": "awaiting user long audition",
+      "request": {
+        "prompt": "Preserve the low-mid felt piano identity of the supplied reference. Anticipatory dark-fantasy visual novel background score for the protective black-card handoff and departure before a dangerous forest journey. The fight has not started. Retain the reference felt-piano-led chamber sound and subdued cello support, but make the musical pulse noticeably quicker and more restless. Moderate 80 BPM pulse, measured repeating low-mid piano notes with small anxious two-note figures and shorter gaps between phrases. Greater unease through close minor-second friction, unresolved minor harmony, subtly shifting bass and suspended cadences. Keep anxiety continuously simmering beneath a composed surface. Soft low strings sustain the tension beneath piano resonance; restrained dynamics and clear acoustic texture. Natural lingering note decays and connected phrases, no abrupt note cutoffs, no long empty gaps or early outro. No jaunty bounce, playful or cheerful tune, romantic sweetness, grand heroic theme, pounding combat drums, fast action percussion, loud orchestral crescendo, piercing horror sting, jazz, swing, EDM or rock. Instrumental music only: no vocals, speech, choir, rain, wind, insects, crackling, environmental ambience or sound effects.  Develop the exact selected piano reference faithfully into a continuous 65-second background cue. Maintain its measured 80 BPM setting, melodic shape, sustained low-string support, intimate resonance and reflective unease. Preserve the reference emotional shade throughout; allow only small natural phrase variations without introducing a different dramatic character or a new theme. Keep the same calm but moving rhythmic feel. Let piano notes decay naturally and connect phrases without early fade-outs, long silent gaps, abrupt releases or a final climax. No louder action percussion or heroic resolution. Follow the unfaded source phrase timing rather than copying the short-audition fade-out. Retain the selected take02 piano melody and string color faithfully, including its reflective emotional shading.",
+        "lyrics": "[Instrumental]",
+        "thinking": false,
+        "use_format": false,
+        "use_cot_caption": false,
+        "use_cot_language": false,
+        "bpm": 80,
+        "key_scale": "E minor",
+        "time_signature": "4",
+        "vocal_language": "unknown",
+        "audio_duration": 65,
+        "inference_steps": 8,
+        "batch_size": 1,
+        "use_random_seed": false,
+        "seed": 3622,
+        "model": "acestep-v15-turbo",
+        "task_type": "cover",
+        "audio_cover_strength": 1.0,
+        "audio_format": "wav",
+        "cover_noise_strength": 0.55
+      },
+      "reference": {
+        "file": "candidate_02_felt_piano_seed3622_take02.ogg",
+        "sha256": "e16bf5207f70d2b7ca60d239bb1d7db03c1d9d151e77e62466dd728095efbe5f",
+        "submission_method": "multipart reference_audio upload"
+      },
+      "natural_source": {
+        "file": "candidate_02_felt_piano_seed3622_take02.wav",
+        "sha256": "81a1ee126d03f1d7b3529f9f3fdc5da7763ee77f37f45e9691131085b1789091"
+      },
+      "source_template": {
+        "file": "long_02_natural_phrase_felt_piano_seed3622_source_template.wav",
+        "structure": {
+          "duration_seconds": 65,
+          "phrase_starts_seconds": [
+            0.0,
+            21.0,
+            42.0,
+            63.0
+          ],
+          "phrase_period_seconds": 21,
+          "source_excerpt_seconds": 21.75,
+          "overlap_seconds": 0.75,
+          "source_level_match_db": 3.4323837907679016,
+          "peak_gain_db": -4.9323837738936325,
+          "period_basis": "End region selected from unfaded mother: last prominent attack around 18.75s, tail naturally decays by 21.5s; source 21-21.75s is used for overlap. Fixed time source map, not a measured beat alignment."
+        },
+        "sha256": "da2b394467bda5ad918d346e48dbd4a1672e0d76b5b63f2f830d47849076c408"
+      },
+      "review_basis": "After the take03 long_01 game trial felt wrong, user requested a long version of the earlier take02 piano clip they had described as sad, whose pace was acceptable. Preserve that exact earlier clip for comparison; no new mood correction is requested.",
+      "task": {
+        "task_id": "0073ee29-7725-4f64-8443-b0f492476819",
+        "status": "queued",
+        "queue_position": 1
+      },
+      "result": {
+        "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5C7a1ab06a-e20f-6af0-63bf-acc0a6788036.wav",
+        "wave": "",
+        "status": 1,
+        "create_time": 1792083344,
+        "env": "development",
+        "prompt": "Preserve the low-mid felt piano identity of the supplied reference. Anticipatory dark-fantasy visual novel background score for the protective black-card handoff and departure before a dangerous forest journey. The fight has not started. Retain the reference felt-piano-led chamber sound and subdued cello support, but make the musical pulse noticeably quicker and more restless. Moderate 80 BPM pulse, measured repeating low-mid piano notes with small anxious two-note figures and shorter gaps between phrases. Greater unease through close minor-second friction, unresolved minor harmony, subtly shifting bass and suspended cadences. Keep anxiety continuously simmering beneath a composed surface. Soft low strings sustain the tension beneath piano resonance; restrained dynamics and clear acoustic texture. Natural lingering note decays and connected phrases, no abrupt note cutoffs, no long empty gaps or early outro. No jaunty bounce, playful or cheerful tune, romantic sweetness, grand heroic theme, pounding combat drums, fast action percussion, loud orchestral crescendo, piercing horror sting, jazz, swing, EDM or rock. Instrumental music only: no vocals, speech, choir, rain, wind, insects, crackling, environmental ambience or sound effects.  Develop the exact selected piano reference faithfully into a continuous 65-second background cue. Maintain its measured 80 BPM setting, melodic shape, sustained low-string support, intimate resonance and reflective unease. Preserve the reference emotional shade throughout; allow only small natural phrase variations without introducing a different dramatic character or a new theme. Keep the same calm but moving rhythmic feel. Let piano notes decay naturally and connect phrases without early fade-outs, long silent gaps, abrupt releases or a final climax. No louder action percussion or heroic resolution. Follow the unfaded source phrase timing rather than copying the short-audition fade-out. Retain the selected take02 piano melody and string color faithfully, including its reflective emotional shading.",
+        "lyrics": "[Instrumental]",
+        "metas": {
+          "bpm": 80,
+          "duration": 65.0,
+          "genres": "N/A",
+          "keyscale": "E minor",
+          "timesignature": "4",
+          "prompt": "Preserve the low-mid felt piano identity of the supplied reference. Anticipatory dark-fantasy visual novel background score for the protective black-card handoff and departure before a dangerous forest journey. The fight has not started. Retain the reference felt-piano-led chamber sound and subdued cello support, but make the musical pulse noticeably quicker and more restless. Moderate 80 BPM pulse, measured repeating low-mid piano notes with small anxious two-note figures and shorter gaps between phrases. Greater unease through close minor-second friction, unresolved minor harmony, subtly shifting bass and suspended cadences. Keep anxiety continuously simmering beneath a composed surface. Soft low strings sustain the tension beneath piano resonance; restrained dynamics and clear acoustic texture. Natural lingering note decays and connected phrases, no abrupt note cutoffs, no long empty gaps or early outro. No jaunty bounce, playful or cheerful tune, romantic sweetness, grand heroic theme, pounding combat drums, fast action percussion, loud orchestral crescendo, piercing horror sting, jazz, swing, EDM or rock. Instrumental music only: no vocals, speech, choir, rain, wind, insects, crackling, environmental ambience or sound effects.  Develop the exact selected piano reference faithfully into a continuous 65-second background cue. Maintain its measured 80 BPM setting, melodic shape, sustained low-string support, intimate resonance and reflective unease. Preserve the reference emotional shade throughout; allow only small natural phrase variations without introducing a different dramatic character or a new theme. Keep the same calm but moving rhythmic feel. Let piano notes decay naturally and connect phrases without early fade-outs, long silent gaps, abrupt releases or a final climax. No louder action percussion or heroic resolution. Follow the unfaded source phrase timing rather than copying the short-audition fade-out. Retain the selected take02 piano melody and string color faithfully, including its reflective emotional shading.",
+          "lyrics": "[Instrumental]"
+        },
+        "generation_info": "**🎵 Total generation time (1 song): 5.21s**\n- 5.21s per song\n- DiT phase (1 song): 5.21s",
+        "seed_value": "3622",
+        "lm_model": "acestep-5Hz-lm-0.6B",
+        "dit_model": "acestep-v15-turbo",
+        "progress": 1.0,
+        "stage": "succeeded"
+      },
+      "processing": {
+        "preserved_selected_short_opening_seconds": 18,
+        "natural_unfaded_handoff_interval_seconds": [
+          18,
+          19
+        ],
+        "generated_continuation_crossfade_seconds": [
+          20.5,
+          21.75
+        ],
+        "natural_source_gain_db": 3.4323837907679016,
+        "continuation_gain_db": 5.686933250414146,
+        "uniform_master_gain_db": -6.686933164197775,
+        "opening_pcm_verified_before_mastering": true,
+        "fade_out_seconds": 0.5,
+        "loop_processed": false,
+        "method": "Carry unfaded mother tail through 20s and join at its natural ending, instead of repeating the faded audition clip.",
+        "audition_mastering": {
+          "fixed_gain_db": 6.129999999999999,
+          "limiter_dbfs": -2.5,
+          "latency_compensation": true,
+          "timestamps_rebuilt": true,
+          "composition_changed": false,
+          "premaster_measurement": {
+            "integrated_lufs": "-22.13",
+            "true_peak_dbtp": "-1.83",
+            "quiet_events": []
+          }
+        }
+      },
+      "source_wav": {
+        "file": "long_02_natural_phrase_felt_piano_seed3622_source_template.wav",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "65.000000"
+          }
+        },
+        "sha256": "da2b394467bda5ad918d346e48dbd4a1672e0d76b5b63f2f830d47849076c408"
+      },
+      "raw_wav": {
+        "file": "long_02_natural_phrase_felt_piano_seed3622_raw.wav",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "65.000000"
+          }
+        },
+        "sha256": "bfbb834c4adc88e78ade58c754b03aea7287c115506dfc5c4e7e90a50303f90f"
+      },
+      "premaster_wav": {
+        "file": "long_02_natural_phrase_felt_piano_seed3622_premaster.wav",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "60.000000"
+          }
+        },
+        "sha256": "bf0e859a66c1d27eb9f03a78ff39546d56cb9d4614ee04a71c67da3a2e95bd63"
+      },
+      "premaster_ogg": {
+        "file": "long_02_natural_phrase_felt_piano_seed3622_premaster.ogg",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "60.000000"
+          }
+        },
+        "sha256": "f77c03cded71857bc00ab5e591ce1f3ee909b166adf4561544041bdc605facfd"
+      },
+      "assembled_wav": {
+        "file": "long_02_natural_phrase_felt_piano_seed3622.wav",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "60.000000"
+          }
+        },
+        "sha256": "ff9522060da0ce5b328a0057ef772042772115058ab5a973eb86d65161423164"
+      },
+      "ogg": {
+        "file": "long_02_natural_phrase_felt_piano_seed3622.ogg",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "60.000000"
+          }
+        },
+        "sha256": "8d3f8b4a092aa0440a89cfdd9796bd584324059b091b50b3b150f1d0d90a24f6"
+      },
+      "technical_check": {
+        "decode": "passed",
+        "integrated_lufs": "-16.77",
+        "true_peak_dbtp": "-2.30",
+        "quiet_events": []
+      },
+      "producer": {
+        "file": "produce_long_02_natural_phrase.py",
+        "sha256": "f6e5692af2021752a3e7d153b6e1200671a905b472cda812b7adca39924a6a45",
+        "requirements": [
+          "numpy",
+          "ffmpeg",
+          "ffprobe",
+          "ACE-Step local API"
+        ]
+      }
+    }
+  ]
+}

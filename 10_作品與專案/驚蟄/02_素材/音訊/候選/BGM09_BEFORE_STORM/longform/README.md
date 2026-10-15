@@ -1,4 +1,4 @@
-# BGM09 警戒懸念長版 long_01
+# BGM09 長版候選與場景比較
 
 2026-10-16：生前認為 take03「好像還行」，要求製作長版試聽。已完成 60 秒候選 `long_01_natural_phrase_felt_piano_seed3632.ogg`；生前後續指示套進遊戲試聽，循環副本已接入開發版；目前場景試用中，尚未正式定案。
 
@@ -39,3 +39,16 @@
 - 已指定開發 basedir 並開到 `script.rpy:1057`「把卡片交給誰？」選擇畫面，截圖正常；引擎讀取的音檔雜湊一致、新曲播放中、音量 1.0、未靜音，ambience 為空。四路線配置已寫入，尚未宣稱四路線完整實機驗收。
 - 導入清單 game_integration_long_01.json、觀察 runtime_observation_long_01_loop.json、畫面 runtime_scene_long_01_loop.png；循環可編輯來源 `../../../母檔/BGM09_BEFORE_STORM/longform/prepare_long_01_loop.py`。
 - 待生前由選擇起連續試聽交卡與出發，確認場景、自然尾音、循環及轉戰鬥曲。未重建發行包或升版。
+
+## long_02：前面偏悲傷 take02 的長版比較（2026-10-16）
+
+生前認為警戒取向 long_01 套入交卡場景後「感覺不太對」，要求將前面描述為較悲傷、但節奏可以的鋼琴 take02 做成長版。
+
+- 完整 60 秒 `long_02_natural_phrase_felt_piano_seed3622.ogg`，以 `candidate_02_felt_piano_seed3622_take02.ogg` 實際作 reference_audio，SHA-256 `e16bf5207f70d2b7ca60d239bb1d7db03c1d9d151e77e62466dd728095efbe5f`。這是先前加速不安版 take02 的延伸，不是原始 62 BPM take01，也沒有沿用警戒 take03 代替它。
+- 忠實延續該短版鋼琴旋律、低弦音色、80 BPM 提示及內斂的情緒，沒有再要求改成非抒情的警戒短音型。音樂的悲傷／緊張程度與場景適配由生前試聽比較。
+- 同版未淡出 25 秒原始 WAV 作自然樂句來源：最後明顯起音約 18.75 秒，至 21.5 秒自然衰減；保留前 21.75 秒，以 21 秒週期、0.75 秒 smoothstep 交疊，組成 65 秒 src_audio。依波形包絡安排，未宣稱量測拍點。
+- Turbo cover、thinking=false、8 steps、seed 3622、audio_cover_strength=1.0、cover_noise_strength=0.55；80 BPM／E minor／4拍僅為提示。
+- 前 18 秒保留選中短版內容，18–19 秒轉到未淡出原母檔，20.5–21.75 秒接續生成延伸，末尾 0.5 秒試聽淡出。未作遊戲循環，未替換目前遊戲的 long_01。
+- WAV 為 48 kHz 立體聲浮點 PCM，OGG 為 44.1 kHz 立體聲 Vorbis q5；實測 -16.77 LUFS／-2.30 dBTP，完整解碼無錯誤輸出，近靜音事件 []。
+- 原始生成、自然模板、premaster WAV、母帶與可編輯 `../../../母檔/BGM09_BEFORE_STORM/longform/produce_long_02_natural_phrase.py` 保留；來源、請求及處理／SHA-256 見同名 JSON 與 generation_manifest_long_02.json。
+- 用途仍為第七章交卡與出發的配樂比較，長版確認後再決定是否替換遊戲；目前未正式採用或重建發行包。

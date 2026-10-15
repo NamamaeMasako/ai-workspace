@@ -98,6 +98,34 @@
       "game_sha256": "0df4c491076d35d4063bec1c40f184caadfd797cc27ed553cbf4eda6c9de5a57",
       "game_integrated": true,
       "formal_scene_approval": false
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "long_01_scene_trial",
+      "status": "scene_feel_not_suitable_comparison_requested",
+      "user_feedback": "感覺不太對，將前面比較悲傷的那首做成長版試試",
+      "formal_scene_approval": false
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "piano_take02",
+      "status": "selected_for_long_comparison",
+      "file": "candidate_02_felt_piano_seed3622_take02.ogg",
+      "reason": "Earlier clip user described as sad but with acceptable pace",
+      "formally_adopted": false
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "long_02",
+      "status": "awaiting_user_long_audition",
+      "file": "long_02_natural_phrase_felt_piano_seed3622.ogg",
+      "reference_audio": {
+        "file": "candidate_02_felt_piano_seed3622_take02.ogg",
+        "sha256": "e16bf5207f70d2b7ca60d239bb1d7db03c1d9d151e77e62466dd728095efbe5f",
+        "submission_method": "multipart reference_audio upload"
+      },
+      "loop_processed": false,
+      "game_integrated": false
     }
   ]
 }
