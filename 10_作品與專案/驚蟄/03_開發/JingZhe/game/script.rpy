@@ -1248,7 +1248,7 @@ label chapter_7_hanami_1:
     show hanami battle at zh_battle_party_right
     narrator "門口的影子還沒散，絡新婦正要退走。"
 
-    play music "<loop 3.4285625>audio/music/bgm_forest_assault.ogg" loop fadeout 1.5 fadein 0.5
+    play music "<loop 3.4285625>audio/music/bgm_forest_assault.ogg" loop fadeout 2.0 fadein 5.0 volume 0.35
 
     narrator "花見的動作很大，很急，像把所有痛都甩出去。"
 
@@ -1733,7 +1733,7 @@ label chapter_7_hanami_2:
     show hanami battle at zh_battle_party_right
     narrator "門口的影子還沒散，絡新婦正要退走。"
 
-    play music "<loop 3.4285625>audio/music/bgm_forest_assault.ogg" loop fadeout 1.5 fadein 0.5
+    play music "<loop 3.4285625>audio/music/bgm_forest_assault.ogg" loop fadeout 2.0 fadein 5.0 volume 0.35
 
     narrator "驚蟄甚至沒有讓花見先動。"
 

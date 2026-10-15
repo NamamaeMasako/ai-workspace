@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM10_INN_HUNTED to BGM06_FOREST_ASSAULT",
+  "status": "revised transition deployed; user listening approval pending",
+  "user_feedback": "遇襲曲氣氛符合，但後續轉戰鬥曲反差太大、突兀不舒服",
+  "routes": [
+    "chapter_7_hanami_1",
+    "chapter_7_hanami_2"
+  ],
+  "play_lines": [
+    1251,
+    1736
+  ],
+  "before": {
+    "outgoing_fade_seconds": 1.5,
+    "incoming_fade_seconds": 0.5,
+    "incoming_relative_volume": 1.0
+  },
+  "after": {
+    "outgoing_fade_seconds": 2.0,
+    "incoming_fade_seconds": 5.0,
+    "incoming_relative_volume": 0.35,
+    "relative_gain_db": -9.118639112994488
+  },
+  "method": "RenPy play music volume sets per-file relative volume. No channel volume ramp or preference mutation; no extra channel. Standard RenPy fading on the same channel, not a simultaneous two-channel crossfade.",
+  "scope": "Only the two inn-gate counterattacks. Existing BGM10/06 audio files, other battle cues and counterattack-end stop are retained.",
+  "audition_warp": "script.rpy:1237",
+  "runtime_observation": {
+    "audio_sha256": "82c8ff979ccd9a114782b8220cf179931c898c1865524f01b3ca2b92b3c6e1f8",
+    "timestamp": 1792091902.3561914,
+    "basedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe",
+    "gamedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe\\game",
+    "location": [
+      "game/script.rpy",
+      1253
+    ],
+    "playing": "<loop 3.4285625>audio/music/bgm_forest_assault.ogg",
+    "position": 15.829,
+    "relative_volume": 0.35,
+    "music_volume": 1.0,
+    "music_muted": false,
+    "master_muted": false,
+    "ambience": null
+  },
+  "runtime_record": "runtime_observation_gate_transition_01.json",
+  "scene_snapshot": "runtime_scene_gate_transition_01.png",
+  "transition_listening_approved": false,
+  "release_rebuilt": false,
+  "version_changed": false
+}
