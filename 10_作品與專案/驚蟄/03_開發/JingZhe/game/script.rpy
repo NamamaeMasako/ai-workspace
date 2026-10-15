@@ -1045,11 +1045,10 @@ label chapter_6:
 
     narrator "那一刻，他已經選好了路。"
 
-    stop music fadeout 1.5
-
     jump chapter_7_choice_1
 label chapter_7_choice_1:
-    play music "<loop 3.0>audio/music/bgm_before_storm.ogg" loop fadeout 1.5 fadein 1.5
+    if renpy.music.get_playing(channel="music") != "<loop 3.75>audio/music/bgm_silk_under_door.ogg":
+        play music "<loop 3.75>audio/music/bgm_silk_under_door.ogg" loop fadeout 1.5 fadein 1.5
 
     $ first_route = None
     $ second_route = None
@@ -1066,8 +1065,8 @@ label chapter_7_choice_1:
             jump chapter_7_yumemi_1
 
 label chapter_7_hanami_1:
-    if renpy.music.get_playing(channel="music") != "<loop 3.0>audio/music/bgm_before_storm.ogg":
-        play music "<loop 3.0>audio/music/bgm_before_storm.ogg" loop fadeout 1.5 fadein 1.5
+    if renpy.music.get_playing(channel="music") != "<loop 3.75>audio/music/bgm_silk_under_door.ogg":
+        play music "<loop 3.75>audio/music/bgm_silk_under_door.ogg" loop fadeout 1.5 fadein 1.5
 
     scene bg inn_hall_evening
     with dissolve
@@ -1300,8 +1299,8 @@ label chapter_7_hanami_1:
     $ second_route = "yumemi"
     jump chapter_7_transition_second
 label chapter_7_yumemi_1:
-    if renpy.music.get_playing(channel="music") != "<loop 3.0>audio/music/bgm_before_storm.ogg":
-        play music "<loop 3.0>audio/music/bgm_before_storm.ogg" loop fadeout 1.5 fadein 1.5
+    if renpy.music.get_playing(channel="music") != "<loop 3.75>audio/music/bgm_silk_under_door.ogg":
+        play music "<loop 3.75>audio/music/bgm_silk_under_door.ogg" loop fadeout 1.5 fadein 1.5
 
     scene bg inn_hall_evening
     with dissolve
@@ -1524,8 +1523,8 @@ label chapter_7_transition_second:
         jump chapter_7_yumemi_2
 
 label chapter_7_hanami_2:
-    if renpy.music.get_playing(channel="music") != "<loop 3.0>audio/music/bgm_before_storm.ogg":
-        play music "<loop 3.0>audio/music/bgm_before_storm.ogg" loop fadeout 1.5 fadein 1.5
+    if renpy.music.get_playing(channel="music") != "<loop 3.75>audio/music/bgm_silk_under_door.ogg":
+        play music "<loop 3.75>audio/music/bgm_silk_under_door.ogg" loop fadeout 1.5 fadein 1.5
 
     scene bg inn_hall_evening
     with dissolve
@@ -1798,8 +1797,8 @@ label chapter_7_hanami_2:
 
     jump chapter_8_choice
 label chapter_7_yumemi_2:
-    if renpy.music.get_playing(channel="music") != "<loop 3.0>audio/music/bgm_before_storm.ogg":
-        play music "<loop 3.0>audio/music/bgm_before_storm.ogg" loop fadeout 1.5 fadein 1.5
+    if renpy.music.get_playing(channel="music") != "<loop 3.75>audio/music/bgm_silk_under_door.ogg":
+        play music "<loop 3.75>audio/music/bgm_silk_under_door.ogg" loop fadeout 1.5 fadein 1.5
 
     scene bg inn_hall_evening
     with dissolve

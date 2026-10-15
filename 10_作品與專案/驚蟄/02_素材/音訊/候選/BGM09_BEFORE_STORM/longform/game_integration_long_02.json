@@ -1,7 +1,7 @@
 {
   "date": "2026-10-16",
   "cue": "BGM09_BEFORE_STORM",
-  "status": "long_02 selected for development scene trial; scene and loop approval pending",
+  "status": "rejected after continuous scene comparison; no longer referenced by script",
   "user_instruction": "好，套看看",
   "source_file": "long_02_natural_phrase_felt_piano_seed3622_loop_intro.ogg",
   "source_sha256": "7d0d81a73a0dd8b9cde7a82dd1a0a067d930ffe1a8ecb1b655a3d11d8b730963",
@@ -30,5 +30,12 @@
   "previous_game_sha256": "0df4c491076d35d4063bec1c40f184caadfd797cc27ed553cbf4eda6c9de5a57",
   "previous_source_preserved": "long_01_natural_phrase_felt_piano_seed3632_loop_intro.ogg",
   "runtime_record": "runtime_observation_long_02_loop.json",
-  "scene_snapshot": "runtime_scene_long_02_loop.png"
+  "scene_snapshot": "runtime_scene_long_02_loop.png",
+  "final_decision": {
+    "date": "2026-10-16",
+    "user_instruction": "恩，這首BGM不行，直接沿用上一首BGM",
+    "replacement": "<loop 3.75>audio/music/bgm_silk_under_door.ogg",
+    "preserve_first_round_continuity": true,
+    "independent_cue_cancelled": true
+  }
 }

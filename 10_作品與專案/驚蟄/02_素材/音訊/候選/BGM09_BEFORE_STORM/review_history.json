@@ -136,6 +136,16 @@
       "game_sha256": "7d0d81a73a0dd8b9cde7a82dd1a0a067d930ffe1a8ecb1b655a3d11d8b730963",
       "game_integrated": true,
       "formal_scene_approval": false
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "continuous_scene_comparison",
+      "status": "rejected_reuse_previous_BGM05",
+      "user_feedback": "恩，這首BGM不行，直接沿用上一首BGM",
+      "replacement": "<loop 3.75>audio/music/bgm_silk_under_door.ogg",
+      "independent_cue_cancelled": true,
+      "candidates_preserved": true
     }
-  ]
+  ],
+  "status": "independent_cue_cancelled_reuse_BGM05"
 }
