@@ -1,0 +1,252 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM10_INN_HUNTED",
+  "candidates": [
+    {
+      "date": "2026-10-16",
+      "cue": "BGM10_INN_HUNTED",
+      "label": "暗間留白",
+      "revision": "take05",
+      "status": "awaiting user stillness and space audition",
+      "method": "Explicit original note score rendered from local Windows GM piano; no AI generation or external music reference.",
+      "review_basis": "User accepted take04 pitch character but found no stillness. Preserve all three dyads and relative strengths; soften attacks, let resonance decay away and leave real rests between events.",
+      "instrument": {
+        "local_device_library": "C:\\WINDOWS\\System32\\drivers\\gm.dls",
+        "library_sha256": "3229b09b9d7d9f3f4793b0d9b34fe6abc75cfa4a2503c0c90f43ff651ba7f2c0",
+        "library_copied_into_project": false,
+        "library_redistributed": false
+      },
+      "score": [
+        {
+          "start": 0.12,
+          "midi": 39,
+          "note": "Eb2",
+          "strength": 0.48,
+          "duration": 4,
+          "instrument_source": {
+            "bank": 0,
+            "program_zero_based": 0,
+            "wave_table_index": 290,
+            "sample_rate": 22050,
+            "sample_root_midi": 41,
+            "fine_tune_cents": -1,
+            "sustain_loop_start_frames": 10830,
+            "sustain_loop_length_frames": 2272
+          }
+        },
+        {
+          "start": 0.12,
+          "midi": 40,
+          "note": "E2",
+          "strength": 0.26,
+          "duration": 4,
+          "instrument_source": {
+            "bank": 0,
+            "program_zero_based": 0,
+            "wave_table_index": 290,
+            "sample_rate": 22050,
+            "sample_root_midi": 41,
+            "fine_tune_cents": -1,
+            "sustain_loop_start_frames": 10830,
+            "sustain_loop_length_frames": 2272
+          }
+        },
+        {
+          "start": 8.4,
+          "midi": 34,
+          "note": "Bb1",
+          "strength": 0.34,
+          "duration": 4,
+          "instrument_source": {
+            "bank": 0,
+            "program_zero_based": 0,
+            "wave_table_index": 289,
+            "sample_rate": 22050,
+            "sample_root_midi": 36,
+            "fine_tune_cents": -4,
+            "sustain_loop_start_frames": 11989,
+            "sustain_loop_length_frames": 1682
+          }
+        },
+        {
+          "start": 8.4,
+          "midi": 33,
+          "note": "A1",
+          "strength": 0.2,
+          "duration": 4,
+          "instrument_source": {
+            "bank": 0,
+            "program_zero_based": 0,
+            "wave_table_index": 289,
+            "sample_rate": 22050,
+            "sample_root_midi": 36,
+            "fine_tune_cents": -4,
+            "sustain_loop_start_frames": 11989,
+            "sustain_loop_length_frames": 1682
+          }
+        },
+        {
+          "start": 15.4,
+          "midi": 37,
+          "note": "Db2",
+          "strength": 0.3,
+          "duration": 4,
+          "instrument_source": {
+            "bank": 0,
+            "program_zero_based": 0,
+            "wave_table_index": 289,
+            "sample_rate": 22050,
+            "sample_root_midi": 36,
+            "fine_tune_cents": -4,
+            "sustain_loop_start_frames": 11989,
+            "sustain_loop_length_frames": 1682
+          }
+        },
+        {
+          "start": 15.4,
+          "midi": 38,
+          "note": "D2",
+          "strength": 0.16,
+          "duration": 4,
+          "instrument_source": {
+            "bank": 0,
+            "program_zero_based": 0,
+            "wave_table_index": 289,
+            "sample_rate": 22050,
+            "sample_root_midi": 36,
+            "fine_tune_cents": -4,
+            "sustain_loop_start_frames": 11989,
+            "sustain_loop_length_frames": 1682
+          }
+        }
+      ],
+      "group_onsets_seconds": [
+        0.12,
+        8.4,
+        15.4
+      ],
+      "tempo": "Unmetered; no regular pulse or fixed BPM.",
+      "processing": {
+        "raw_duration_seconds": 25,
+        "audition_duration_seconds": 20,
+        "peak_before_filter_dbfs": -17,
+        "level_policy": "Fixed quiet peak, no integrated-loudness normalization",
+        "fixed_gain_db": 0.0,
+        "low_pass_hz": 1100,
+        "note_decay_time_constant_seconds": 1.1,
+        "attack_seconds": 0.045,
+        "release_seconds": 1.4,
+        "tail_reflections": [
+          [
+            0.073,
+            0.04
+          ],
+          [
+            0.137,
+            0.02
+          ]
+        ],
+        "premaster_measurement": {
+          "integrated_lufs": "-34.44",
+          "true_peak_dbtp": "-18.27",
+          "quiet_events": [
+            "[Parsed_silencedetect_0 @ 000001de41260a40] silence_start: 3.15254",
+            "[Parsed_silencedetect_0 @ 000001de41260a40] silence_end: 8.409637 | silence_duration: 5.257098",
+            "[Parsed_silencedetect_0 @ 000001de41260a40] silence_start: 11.14619",
+            "[Parsed_silencedetect_0 @ 000001de41260a40] silence_end: 15.409796 | silence_duration: 4.263605",
+            "[Parsed_silencedetect_0 @ 000001de41260a40] silence_start: 18.057438",
+            "[Parsed_silencedetect_0 @ 000001de41260a40] silence_end: 20 | silence_duration: 1.942562"
+          ]
+        },
+        "loop_processed": false,
+        "quiet_intervals_are_intentional": true
+      },
+      "technical_measurements": {
+        "integrated_lufs": "-34.44",
+        "true_peak_dbtp": "-18.27",
+        "quiet_events": [
+          "[Parsed_silencedetect_0 @ 000001583d3c3dc0] silence_start: 3.15254",
+          "[Parsed_silencedetect_0 @ 000001583d3c3dc0] silence_end: 8.409637 | silence_duration: 5.257098",
+          "[Parsed_silencedetect_0 @ 000001583d3c3dc0] silence_start: 11.14619",
+          "[Parsed_silencedetect_0 @ 000001583d3c3dc0] silence_end: 15.409796 | silence_duration: 4.263605",
+          "[Parsed_silencedetect_0 @ 000001583d3c3dc0] silence_start: 18.057438",
+          "[Parsed_silencedetect_0 @ 000001583d3c3dc0] silence_end: 20 | silence_duration: 1.942562"
+        ]
+      },
+      "game_integrated": false,
+      "formally_adopted": false,
+      "raw_wav": {
+        "file": "candidate_04_low_piano_silence_take05_raw.wav",
+        "sha256": "bbbe227e0cb47c2f192ae6f5affde2a3236a67919796b68c9fbc3ff330227521",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "25.000000"
+          }
+        }
+      },
+      "master_wav": {
+        "file": "candidate_04_low_piano_silence_take05.wav",
+        "sha256": "71d88816ab07403a576a482f6f7ff5a637551fff45fefe8eb3d5bbba8124b91a",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "20.000000"
+          }
+        }
+      },
+      "premaster_ogg": {
+        "file": "candidate_04_low_piano_silence_take05_premaster.ogg",
+        "sha256": "d6b8d95ef3b2dd2a4aea8937ff2ecc08060928fe85f4abb9025d81826f80e0ec",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "20.000000"
+          }
+        }
+      },
+      "ogg": {
+        "file": "candidate_04_low_piano_silence_take05.ogg",
+        "sha256": "87ed4490211f5455e8730bab137d2575a083f1c3d8420f7d8a6a5b6a4386d59b",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "20.000000"
+          }
+        }
+      }
+    }
+  ]
+}

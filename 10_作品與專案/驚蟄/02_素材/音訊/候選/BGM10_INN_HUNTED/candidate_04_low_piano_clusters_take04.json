@@ -3,7 +3,7 @@
   "cue": "BGM10_INN_HUNTED",
   "label": "低鍵異響",
   "revision": "take04",
-  "status": "awaiting user opening-direction audition",
+  "status": "pitch character accepted; stillness revision requested",
   "method": "Explicit original note score rendered from local Windows GM piano; no AI generation or external music reference.",
   "review_basis": "take03 rejected at the very first note; make the opening an actual low semitone dyad rather than trusting a minor-key prompt.",
   "instrument": {
@@ -248,5 +248,7 @@
         "duration": "20.000000"
       }
     }
-  }
+  },
+  "user_feedback": "音對了，但沒有安靜的感覺；音雖然少卻沒有寂靜感",
+  "pitch_character_accepted": true
 }

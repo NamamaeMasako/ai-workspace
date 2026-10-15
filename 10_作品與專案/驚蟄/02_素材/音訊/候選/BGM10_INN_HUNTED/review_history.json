@@ -1,6 +1,6 @@
 {
   "cue": "BGM10_INN_HUNTED",
-  "status": "awaiting_user_take04_opening_direction_audition",
+  "status": "awaiting_user_take05_stillness_audition",
   "reviews": [
     {
       "date": "2026-10-16",
@@ -106,6 +106,30 @@
         14.4
       ],
       "target": "Confirm opening timbre and unresolved interval character before continuing the full BGM.",
+      "game_integrated": false,
+      "formally_adopted": false
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "explicit_piano_score_take04",
+      "status": "pitches_accepted_stillness_needs_revision",
+      "user_feedback": "音對了，但這版沒有安靜的感覺，音雖然少但卻沒有寂靜感",
+      "pitch_character_accepted": true,
+      "formally_adopted": false
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "quiet_rest_score_take05",
+      "status": "20_second_stillness_revision_ready",
+      "file": "candidate_04_low_piano_silence_take05.ogg",
+      "same_pitch_dyads_as_take04": true,
+      "changes": [
+        "softer attacks",
+        "shorter natural decay into silence",
+        "no tail overlap between events",
+        "much lower fixed peaks",
+        "quiet gaps intentionally retained"
+      ],
       "game_integrated": false,
       "formally_adopted": false
     }
