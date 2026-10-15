@@ -7,7 +7,7 @@
       "cue": "BGM10_INN_HUNTED",
       "label": "低聲懸響・六秒間隔",
       "revision": "take07",
-      "status": "awaiting user six-second spacing audition",
+      "status": "selected for varied long arrangement",
       "method": "Explicit original note score rendered from local Windows GM piano; no AI generation or external music reference.",
       "review_basis": "User requested shortening each note-group spacing from roughly eight seconds to six seconds. Retain soft attacks, pitch pairs, their strengths and sustained tails; change onset times and return to the first pair at 18.12s.",
       "instrument": {
@@ -270,7 +270,8 @@
             "duration": "20.000000"
           }
         }
-      }
+      },
+      "long_audition": "longform/long_02_varied_dissonant_piano_take07.ogg"
     }
   ]
 }

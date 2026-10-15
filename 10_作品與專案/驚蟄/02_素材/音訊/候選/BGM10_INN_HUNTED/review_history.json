@@ -1,6 +1,6 @@
 {
   "cue": "BGM10_INN_HUNTED",
-  "status": "awaiting_user_take07_six_second_spacing_audition",
+  "status": "awaiting_user_long02_varied_dissonant_audition",
   "reviews": [
     {
       "date": "2026-10-16",
@@ -179,6 +179,74 @@
       "unchanged": "piano timbre, soft attack envelope, pitch pairs, strengths and sustained decay",
       "take06_first_0_9s_pcm_max_difference": 0.0,
       "game_integrated": false,
+      "formally_adopted": false
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "varied_dissonant_long_02",
+      "status": "60_second_long_audition_ready",
+      "user_instruction": "做成長版；不要只是三個音循環，也不用固定每音六秒，可加入不同長度，但維持不諧和與怪異感",
+      "file": "longform/long_02_varied_dissonant_piano_take07.ogg",
+      "reference_audio": {
+        "file": "candidate_04_low_piano_sustain_6s_take07.ogg",
+        "sha256": "f13eb3412b6f6f1ff56a85cf6c9fd1867171f1fa3f15e0658d6c451b7a5462a1",
+        "method": "Actual OGG read and decoded into the long arrangement, no model upload.",
+        "preserved_seconds": 17.5,
+        "clean_score_crossfade_seconds": [
+          17.5,
+          18.0
+        ],
+        "preserved_pcm_max_difference": 0.0
+      },
+      "composition": {
+        "new_dyads_after_opening": true,
+        "repeat_short_as_loop": false,
+        "onset_intervals_seconds": [
+          6.0,
+          6.0,
+          6.53,
+          4.25,
+          5.55,
+          5.65,
+          4.55,
+          5.15,
+          6.15,
+          4.25,
+          3.5
+        ],
+        "dyad_semitone_distances": [
+          1,
+          1,
+          1,
+          1,
+          6,
+          1,
+          6,
+          1,
+          6,
+          1,
+          1,
+          6
+        ],
+        "note_durations_seconds": [
+          12.0,
+          12.0,
+          12.0,
+          10.2,
+          5.8,
+          11.4,
+          11.0,
+          4.4,
+          10.8,
+          6.5,
+          8.5,
+          6.0
+        ],
+        "character": "Quiet unresolved semitones and tritones, no consonant resolution or action build."
+      },
+      "generation_method": "Explicit original scored arrangement, no AI model request. Actual selected short audio is carried into the opening.",
+      "game_integrated": false,
+      "loop_processed": false,
       "formally_adopted": false
     }
   ]
