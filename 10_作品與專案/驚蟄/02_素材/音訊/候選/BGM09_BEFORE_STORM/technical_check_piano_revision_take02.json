@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-16",
+  "files": [
+    {
+      "file": "candidate_02_felt_piano_seed3622_take02.ogg",
+      "decode": "passed",
+      "integrated_lufs": "-16.06",
+      "true_peak_dbtp": "-2.33",
+      "silence_intervals": []
+    }
+  ]
+}

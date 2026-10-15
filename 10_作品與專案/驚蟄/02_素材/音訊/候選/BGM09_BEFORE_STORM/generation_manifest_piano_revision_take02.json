@@ -1,0 +1,139 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM09_BEFORE_STORM",
+  "candidates": [
+    {
+      "date": "2026-10-16",
+      "cue": "BGM09_BEFORE_STORM",
+      "label": "02 鋼琴暗潮・加速不安版",
+      "request": {
+        "prompt": "Preserve the low-mid felt piano identity of the supplied reference. Anticipatory dark-fantasy visual novel background score for the protective black-card handoff and departure before a dangerous forest journey. The fight has not started. Retain the reference felt-piano-led chamber sound and subdued cello support, but make the musical pulse noticeably quicker and more restless. Moderate 80 BPM pulse, measured repeating low-mid piano notes with small anxious two-note figures and shorter gaps between phrases. Greater unease through close minor-second friction, unresolved minor harmony, subtly shifting bass and suspended cadences. Keep anxiety continuously simmering beneath a composed surface. Soft low strings sustain the tension beneath piano resonance; restrained dynamics and clear acoustic texture. Natural lingering note decays and connected phrases, no abrupt note cutoffs, no long empty gaps or early outro. No jaunty bounce, playful or cheerful tune, romantic sweetness, grand heroic theme, pounding combat drums, fast action percussion, loud orchestral crescendo, piercing horror sting, jazz, swing, EDM or rock. Instrumental music only: no vocals, speech, choir, rain, wind, insects, crackling, environmental ambience or sound effects. ",
+        "lyrics": "[Instrumental]",
+        "thinking": false,
+        "use_format": false,
+        "use_cot_caption": false,
+        "use_cot_language": false,
+        "bpm": 80,
+        "key_scale": "E minor",
+        "time_signature": "4",
+        "vocal_language": "unknown",
+        "audio_duration": 25,
+        "inference_steps": 8,
+        "batch_size": 1,
+        "use_random_seed": false,
+        "seed": 3622,
+        "model": "acestep-v15-turbo",
+        "task_type": "text2music",
+        "audio_cover_strength": 0.35,
+        "audio_format": "wav"
+      },
+      "revision": "take02",
+      "review_basis": "User finds original candidate 02 closer to the intended direction but wants a faster pulse and more unease; preserve piano identity and pre-combat restraint",
+      "processing": {
+        "excerpt_seconds": 20,
+        "source_requested_seconds": 25,
+        "fade_in_seconds": 0.03,
+        "fade_out_seconds": 0.5,
+        "loop_processed": false,
+        "loudness_target_lufs": -16,
+        "true_peak_target_dbtp": -1.5,
+        "audition_mastering_timestamps_rebuilt": true,
+        "audition_mastering": {
+          "fixed_gain_db": -0.21000000000000085,
+          "limiter_dbfs": -2.5,
+          "limiter_attack_ms": 5,
+          "limiter_release_ms": 50,
+          "latency_compensation": true,
+          "composition_changed": false
+        }
+      },
+      "reference": {
+        "file": "candidate_02_felt_piano_seed3602_take01.ogg",
+        "sha256": "71005648a7fd6d6e6507f9b1727bdc32877cb7923ddd2c8e81cf6a0ea2f8dafc",
+        "submission_method": "multipart reference_audio upload",
+        "purpose": "Piano and chamber timbre reference; fresh rhythmic arrangement rather than source-timeline cover"
+      },
+      "task": {
+        "task_id": "497657ff-ccee-4128-9c84-0c946ac0f6d1",
+        "status": "queued",
+        "queue_position": 1
+      },
+      "result": {
+        "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5Cb805ccfd-fd61-1e3f-92cd-0d2930178db4.wav",
+        "wave": "",
+        "status": 1,
+        "create_time": 1792081072,
+        "env": "development",
+        "prompt": "Preserve the low-mid felt piano identity of the supplied reference. Anticipatory dark-fantasy visual novel background score for the protective black-card handoff and departure before a dangerous forest journey. The fight has not started. Retain the reference felt-piano-led chamber sound and subdued cello support, but make the musical pulse noticeably quicker and more restless. Moderate 80 BPM pulse, measured repeating low-mid piano notes with small anxious two-note figures and shorter gaps between phrases. Greater unease through close minor-second friction, unresolved minor harmony, subtly shifting bass and suspended cadences. Keep anxiety continuously simmering beneath a composed surface. Soft low strings sustain the tension beneath piano resonance; restrained dynamics and clear acoustic texture. Natural lingering note decays and connected phrases, no abrupt note cutoffs, no long empty gaps or early outro. No jaunty bounce, playful or cheerful tune, romantic sweetness, grand heroic theme, pounding combat drums, fast action percussion, loud orchestral crescendo, piercing horror sting, jazz, swing, EDM or rock. Instrumental music only: no vocals, speech, choir, rain, wind, insects, crackling, environmental ambience or sound effects. ",
+        "lyrics": "[Instrumental]",
+        "metas": {
+          "bpm": 80,
+          "duration": 25.0,
+          "genres": "N/A",
+          "keyscale": "E minor",
+          "timesignature": "4",
+          "prompt": "Preserve the low-mid felt piano identity of the supplied reference. Anticipatory dark-fantasy visual novel background score for the protective black-card handoff and departure before a dangerous forest journey. The fight has not started. Retain the reference felt-piano-led chamber sound and subdued cello support, but make the musical pulse noticeably quicker and more restless. Moderate 80 BPM pulse, measured repeating low-mid piano notes with small anxious two-note figures and shorter gaps between phrases. Greater unease through close minor-second friction, unresolved minor harmony, subtly shifting bass and suspended cadences. Keep anxiety continuously simmering beneath a composed surface. Soft low strings sustain the tension beneath piano resonance; restrained dynamics and clear acoustic texture. Natural lingering note decays and connected phrases, no abrupt note cutoffs, no long empty gaps or early outro. No jaunty bounce, playful or cheerful tune, romantic sweetness, grand heroic theme, pounding combat drums, fast action percussion, loud orchestral crescendo, piercing horror sting, jazz, swing, EDM or rock. Instrumental music only: no vocals, speech, choir, rain, wind, insects, crackling, environmental ambience or sound effects. ",
+          "lyrics": "[Instrumental]"
+        },
+        "generation_info": "**🎵 Total generation time (1 song): 7.07s**\n- 7.07s per song\n- DiT phase (1 song): 7.07s",
+        "seed_value": "3622",
+        "lm_model": "acestep-5Hz-lm-0.6B",
+        "dit_model": "acestep-v15-turbo",
+        "progress": 1.0,
+        "stage": "succeeded"
+      },
+      "wav": {
+        "file": "candidate_02_felt_piano_seed3622_take02.wav",
+        "sha256": "81a1ee126d03f1d7b3529f9f3fdc5da7763ee77f37f45e9691131085b1789091",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "25.000000"
+          }
+        }
+      },
+      "ogg": {
+        "file": "candidate_02_felt_piano_seed3622_take02.ogg",
+        "sha256": "e16bf5207f70d2b7ca60d239bb1d7db03c1d9d151e77e62466dd728095efbe5f",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "19.999977"
+          }
+        }
+      },
+      "technical_check": {
+        "decode": "passed",
+        "integrated_lufs": "-16.06",
+        "true_peak_dbtp": "-2.33",
+        "silence_intervals": []
+      },
+      "premaster_ogg": {
+        "file": "candidate_02_felt_piano_seed3622_take02_premaster.ogg",
+        "sha256": "155471221b0263136accc56b45074545616b8c690351cd5ccf15f7bcfbb8ad1a",
+        "technical_check": {
+          "decode": "passed",
+          "integrated_lufs": "-15.79",
+          "true_peak_dbtp": "-1.12",
+          "silence_intervals": []
+        }
+      }
+    }
+  ]
+}

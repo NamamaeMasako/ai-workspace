@@ -14,6 +14,30 @@
       ],
       "game_integrated": false,
       "formally_adopted": false
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "shortlist_take01",
+      "status": "piano_direction_preferred_revision_requested",
+      "candidate": 2,
+      "user_feedback": "第2版方向稍微比較對，但節奏應再快一些，並帶有更多不安感",
+      "formally_selected_for_long": false
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "piano_take02",
+      "status": "awaiting_user_audition",
+      "file": "candidate_02_felt_piano_seed3622_take02.ogg",
+      "reference": {
+        "file": "candidate_02_felt_piano_seed3602_take01.ogg",
+        "sha256": "71005648a7fd6d6e6507f9b1727bdc32877cb7923ddd2c8e81cf6a0ea2f8dafc",
+        "submission_method": "multipart reference_audio upload",
+        "purpose": "Piano and chamber timbre reference; fresh rhythmic arrangement rather than source-timeline cover"
+      },
+      "requested_bpm": 80,
+      "bpm_is_prompt_not_measured": true,
+      "new_generation": true,
+      "game_integrated": false
     }
   ]
 }
