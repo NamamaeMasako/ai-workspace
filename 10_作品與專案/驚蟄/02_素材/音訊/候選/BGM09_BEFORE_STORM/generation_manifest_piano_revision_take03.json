@@ -1,0 +1,139 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM09_BEFORE_STORM",
+  "candidates": [
+    {
+      "date": "2026-10-16",
+      "cue": "BGM09_BEFORE_STORM",
+      "label": "02 鋼琴暗潮・警戒懸念版",
+      "request": {
+        "prompt": "Use the original piano reference for restrained acoustic timbre, shaping a taut suspense pattern with very little melodic sentiment. Quiet psychological suspense underscore for the protective black-card handoff and departure before a dangerous forest journey in a dark fantasy visual novel. A threat may be nearby: alert vigilance, held breath, calculating danger and taut nerves. Maintain the previous moderate 80 BPM setting and a clearly perceptible steady pulse. Low-mid felt piano repeats a compact non-lyrical single-note or two-note rhythmic cell. Small irregular offbeat accents and unresolved close intervals create watchful tension. Static low pedal, subtle tritone friction, short muted viola articulations and low dry string pulses beneath the piano. Restrained volume, low density, controlled but persistent rhythmic movement. Avoid expressive singing melody, wistful descending phrases, elegiac cello, sorrowful string swells, sentimental minor chord progressions, longing, grief, loneliness, tragic or funeral music. Suspense and nervous anticipation dominate the mood. No cheerful bounce, playful tune, romantic softness, fast combat drums, loud orchestral action, heroic fanfare, jump-scare blasts, jazz, swing, EDM or rock guitar. Natural note releases, no artificial hard cuts, no long silent gaps or early ending. Instrumental music only, no vocals, choir, speech, wind, rain, insects, crackling, environmental ambience or sound effects. ",
+        "lyrics": "[Instrumental]",
+        "thinking": false,
+        "use_format": false,
+        "use_cot_caption": false,
+        "use_cot_language": false,
+        "bpm": 80,
+        "key_scale": "E minor",
+        "time_signature": "4",
+        "vocal_language": "unknown",
+        "audio_duration": 25,
+        "inference_steps": 8,
+        "batch_size": 1,
+        "use_random_seed": false,
+        "seed": 3632,
+        "model": "acestep-v15-turbo",
+        "task_type": "text2music",
+        "audio_cover_strength": 0.35,
+        "audio_format": "wav"
+      },
+      "revision": "take03",
+      "review_basis": "User accepts the pace of piano take02 but hears sadness; wants tense vigilant apprehension. Keep the 80 BPM prompt, remove plaintive melody and legato cello, emphasize non-lyrical piano pulse and unresolved static harmony.",
+      "processing": {
+        "excerpt_seconds": 20,
+        "source_requested_seconds": 25,
+        "fade_in_seconds": 0.03,
+        "fade_out_seconds": 0.5,
+        "loop_processed": false,
+        "loudness_target_lufs": -16,
+        "true_peak_target_dbtp": -1.5,
+        "audition_mastering_timestamps_rebuilt": true,
+        "audition_mastering": {
+          "fixed_gain_db": 1.1099999999999994,
+          "limiter_dbfs": -2.5,
+          "limiter_attack_ms": 5,
+          "limiter_release_ms": 50,
+          "latency_compensation": true,
+          "composition_changed": false
+        }
+      },
+      "reference": {
+        "file": "candidate_02_felt_piano_seed3602_take01.ogg",
+        "sha256": "71005648a7fd6d6e6507f9b1727bdc32877cb7923ddd2c8e81cf6a0ea2f8dafc",
+        "submission_method": "multipart reference_audio upload",
+        "purpose": "Original take01 piano used for acoustic timbre only; 80 BPM prompted as in take02; fresh non-lyrical suspense arrangement with no source timeline cover"
+      },
+      "task": {
+        "task_id": "8e0b6b7d-c11b-4e0d-9b0f-4054f109c77c",
+        "status": "queued",
+        "queue_position": 1
+      },
+      "result": {
+        "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5C00df3217-64a3-87c9-f6cd-bcd1e8758beb.wav",
+        "wave": "",
+        "status": 1,
+        "create_time": 1792081654,
+        "env": "development",
+        "prompt": "Use the original piano reference for restrained acoustic timbre, shaping a taut suspense pattern with very little melodic sentiment. Quiet psychological suspense underscore for the protective black-card handoff and departure before a dangerous forest journey in a dark fantasy visual novel. A threat may be nearby: alert vigilance, held breath, calculating danger and taut nerves. Maintain the previous moderate 80 BPM setting and a clearly perceptible steady pulse. Low-mid felt piano repeats a compact non-lyrical single-note or two-note rhythmic cell. Small irregular offbeat accents and unresolved close intervals create watchful tension. Static low pedal, subtle tritone friction, short muted viola articulations and low dry string pulses beneath the piano. Restrained volume, low density, controlled but persistent rhythmic movement. Avoid expressive singing melody, wistful descending phrases, elegiac cello, sorrowful string swells, sentimental minor chord progressions, longing, grief, loneliness, tragic or funeral music. Suspense and nervous anticipation dominate the mood. No cheerful bounce, playful tune, romantic softness, fast combat drums, loud orchestral action, heroic fanfare, jump-scare blasts, jazz, swing, EDM or rock guitar. Natural note releases, no artificial hard cuts, no long silent gaps or early ending. Instrumental music only, no vocals, choir, speech, wind, rain, insects, crackling, environmental ambience or sound effects. ",
+        "lyrics": "[Instrumental]",
+        "metas": {
+          "bpm": 80,
+          "duration": 25.0,
+          "genres": "N/A",
+          "keyscale": "E minor",
+          "timesignature": "4",
+          "prompt": "Use the original piano reference for restrained acoustic timbre, shaping a taut suspense pattern with very little melodic sentiment. Quiet psychological suspense underscore for the protective black-card handoff and departure before a dangerous forest journey in a dark fantasy visual novel. A threat may be nearby: alert vigilance, held breath, calculating danger and taut nerves. Maintain the previous moderate 80 BPM setting and a clearly perceptible steady pulse. Low-mid felt piano repeats a compact non-lyrical single-note or two-note rhythmic cell. Small irregular offbeat accents and unresolved close intervals create watchful tension. Static low pedal, subtle tritone friction, short muted viola articulations and low dry string pulses beneath the piano. Restrained volume, low density, controlled but persistent rhythmic movement. Avoid expressive singing melody, wistful descending phrases, elegiac cello, sorrowful string swells, sentimental minor chord progressions, longing, grief, loneliness, tragic or funeral music. Suspense and nervous anticipation dominate the mood. No cheerful bounce, playful tune, romantic softness, fast combat drums, loud orchestral action, heroic fanfare, jump-scare blasts, jazz, swing, EDM or rock guitar. Natural note releases, no artificial hard cuts, no long silent gaps or early ending. Instrumental music only, no vocals, choir, speech, wind, rain, insects, crackling, environmental ambience or sound effects. ",
+          "lyrics": "[Instrumental]"
+        },
+        "generation_info": "**🎵 Total generation time (1 song): 5.04s**\n- 5.04s per song\n- DiT phase (1 song): 5.04s",
+        "seed_value": "3632",
+        "lm_model": "acestep-5Hz-lm-0.6B",
+        "dit_model": "acestep-v15-turbo",
+        "progress": 1.0,
+        "stage": "succeeded"
+      },
+      "wav": {
+        "file": "candidate_02_felt_piano_seed3632_take03.wav",
+        "sha256": "18b4e5cab5174265ed6264795c8eccc4692c5ccd896c8977929d4fe0f4a2565d",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "25.000000"
+          }
+        }
+      },
+      "ogg": {
+        "file": "candidate_02_felt_piano_seed3632_take03.ogg",
+        "sha256": "f7ff88053ff66ad7bd0fc12acf322e79866f1f143ce7857f0e42e20cc7bb6458",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "20.000000"
+          }
+        }
+      },
+      "technical_check": {
+        "decode": "passed",
+        "integrated_lufs": "-16.35",
+        "true_peak_dbtp": "-2.21",
+        "silence_intervals": []
+      },
+      "premaster_ogg": {
+        "file": "candidate_02_felt_piano_seed3632_take03_premaster.ogg",
+        "sha256": "f03315616deec58c8516fb1e0d8bd980a96838f62ce6b4a09a91fbd050c5e4d8",
+        "technical_check": {
+          "decode": "passed",
+          "integrated_lufs": "-17.11",
+          "true_peak_dbtp": "-1.29",
+          "silence_intervals": []
+        }
+      }
+    }
+  ]
+}

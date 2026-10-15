@@ -38,6 +38,31 @@
       "bpm_is_prompt_not_measured": true,
       "new_generation": true,
       "game_integrated": false
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "piano_take02",
+      "status": "pace_accepted_mood_revision_requested",
+      "user_feedback": "節奏可以，但情緒偏悲傷；需要緊張的不安，而非悲傷的不安",
+      "rhythmic_direction_accepted": true,
+      "mood_approved": false,
+      "formally_adopted": false
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "piano_take03",
+      "status": "awaiting_user_audition",
+      "file": "candidate_02_felt_piano_seed3632_take03.ogg",
+      "reference": {
+        "file": "candidate_02_felt_piano_seed3602_take01.ogg",
+        "sha256": "71005648a7fd6d6e6507f9b1727bdc32877cb7923ddd2c8e81cf6a0ea2f8dafc",
+        "submission_method": "multipart reference_audio upload",
+        "purpose": "Original take01 piano used for acoustic timbre only; 80 BPM prompted as in take02; fresh non-lyrical suspense arrangement with no source timeline cover"
+      },
+      "requested_bpm": 80,
+      "bpm_is_prompt_not_measured": true,
+      "requested_mood": "警戒、繃緊神經、察覺威脅、等待危險",
+      "game_integrated": false
     }
   ]
 }
