@@ -1,0 +1,158 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM10_INN_HUNTED",
+  "label": "蛛絲夜弦",
+  "revision": "take01",
+  "status": "awaiting user short selection",
+  "request": {
+    "prompt": "Low-register guzheng plucks and sparse high string harmonics form a creeping chromatic motif above a continuously bowed double-bass pedal and tense muted strings. Restrained East Asian chamber horror, naturally ringing strings with dissonant unresolved intervals, no pentatonic folk dance or decorative runs. Pure instrumental psychological horror chamber score for a dark fantasy visual novel. At night a spider-like intruder silently searches a wooden inn while an unknowing woman walks into danger. Cold invasive dread, claustrophobic suspense, an unseen predator already inside, oppressive unresolved tension. The same music must sustain a companion's persistent foreboding after a forest battle, on the return to the inn. Clearly musical pitched instruments, dark sustained harmonic friction and restrained continuous musical motion. Stay intimate and ominous throughout, maintain presence for all 25 seconds, no ending cadence or empty silence. No cheerful, playful, bouncy or romantic melody, no sentimental lament, no heroic action, no fast battle percussion. No vocals, speech, choir, wind, rain, insects, footsteps, creaks, static, environmental ambience or sound effects. ",
+    "lyrics": "[Instrumental]",
+    "thinking": false,
+    "use_format": false,
+    "use_cot_caption": false,
+    "use_cot_language": false,
+    "bpm": 56,
+    "key_scale": "E minor",
+    "time_signature": "4",
+    "vocal_language": "unknown",
+    "audio_duration": 25,
+    "inference_steps": 8,
+    "batch_size": 1,
+    "use_random_seed": false,
+    "seed": 3704,
+    "model": "acestep-v15-turbo",
+    "task_type": "text2music",
+    "audio_cover_strength": 1.0,
+    "audio_format": "wav"
+  },
+  "reference_audio": null,
+  "musical_parameters": "BPM, key and instrumentation are generation prompts, not measured or guaranteed.",
+  "processing": {
+    "source_seconds": 25,
+    "excerpt_seconds": 20,
+    "fade_in_seconds": 0.03,
+    "fade_out_seconds": 0.5,
+    "loop_processed": false,
+    "fixed_gain_db": -1.1199999999999992,
+    "limiter_dbfs": -2.5,
+    "premaster_measurement": {
+      "integrated_lufs": "-14.88",
+      "true_peak_dbtp": "-1.01",
+      "quiet_events": [
+        "[Parsed_silencedetect_0 @ 0000025d40bc7240] silence_start: 12.035896",
+        "[Parsed_silencedetect_0 @ 0000025d40bc7240] silence_end: 12.890113 | silence_duration: 0.854218"
+      ]
+    }
+  },
+  "formally_adopted": false,
+  "game_integrated": false,
+  "task": {
+    "task_id": "75ed5073-9d53-4a44-9732-95ad4ffde552",
+    "status": "queued",
+    "queue_position": 1
+  },
+  "result": {
+    "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5C104c0a79-3a9d-df90-9ab6-980f746122b5.wav",
+    "wave": "",
+    "status": 1,
+    "create_time": 1792084641,
+    "env": "development",
+    "prompt": "Low-register guzheng plucks and sparse high string harmonics form a creeping chromatic motif above a continuously bowed double-bass pedal and tense muted strings. Restrained East Asian chamber horror, naturally ringing strings with dissonant unresolved intervals, no pentatonic folk dance or decorative runs. Pure instrumental psychological horror chamber score for a dark fantasy visual novel. At night a spider-like intruder silently searches a wooden inn while an unknowing woman walks into danger. Cold invasive dread, claustrophobic suspense, an unseen predator already inside, oppressive unresolved tension. The same music must sustain a companion's persistent foreboding after a forest battle, on the return to the inn. Clearly musical pitched instruments, dark sustained harmonic friction and restrained continuous musical motion. Stay intimate and ominous throughout, maintain presence for all 25 seconds, no ending cadence or empty silence. No cheerful, playful, bouncy or romantic melody, no sentimental lament, no heroic action, no fast battle percussion. No vocals, speech, choir, wind, rain, insects, footsteps, creaks, static, environmental ambience or sound effects. ",
+    "lyrics": "[Instrumental]",
+    "metas": {
+      "bpm": 56,
+      "duration": 25.0,
+      "genres": "N/A",
+      "keyscale": "E minor",
+      "timesignature": "4",
+      "prompt": "Low-register guzheng plucks and sparse high string harmonics form a creeping chromatic motif above a continuously bowed double-bass pedal and tense muted strings. Restrained East Asian chamber horror, naturally ringing strings with dissonant unresolved intervals, no pentatonic folk dance or decorative runs. Pure instrumental psychological horror chamber score for a dark fantasy visual novel. At night a spider-like intruder silently searches a wooden inn while an unknowing woman walks into danger. Cold invasive dread, claustrophobic suspense, an unseen predator already inside, oppressive unresolved tension. The same music must sustain a companion's persistent foreboding after a forest battle, on the return to the inn. Clearly musical pitched instruments, dark sustained harmonic friction and restrained continuous musical motion. Stay intimate and ominous throughout, maintain presence for all 25 seconds, no ending cadence or empty silence. No cheerful, playful, bouncy or romantic melody, no sentimental lament, no heroic action, no fast battle percussion. No vocals, speech, choir, wind, rain, insects, footsteps, creaks, static, environmental ambience or sound effects. ",
+      "lyrics": "[Instrumental]"
+    },
+    "generation_info": "**🎵 Total generation time (1 song): 2.10s**\n- 2.10s per song\n- DiT phase (1 song): 2.10s",
+    "seed_value": "3704",
+    "lm_model": "acestep-5Hz-lm-0.6B",
+    "dit_model": "acestep-v15-turbo",
+    "progress": 1.0,
+    "stage": "succeeded"
+  },
+  "raw_wav": {
+    "file": "candidate_04_guzheng_shadows_seed3704_take01_raw.wav",
+    "sha256": "8339d0e6c6d7deb26d47b2b6a800a42d6489222a758aa49706d4ca55b15cdb30",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "25.000000"
+      }
+    }
+  },
+  "master_wav": {
+    "file": "candidate_04_guzheng_shadows_seed3704_take01.wav",
+    "sha256": "cd86ba049c72d86a75f7bc31e346ccad0ccc64ec97ea12801fb0f2a26c140957",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "premaster_ogg": {
+    "file": "candidate_04_guzheng_shadows_seed3704_take01_premaster.ogg",
+    "sha256": "168870f6c10eec98d6195f111c86312f6bac901489d20f529e043c6588f3a82d",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "ogg": {
+    "file": "candidate_04_guzheng_shadows_seed3704_take01.ogg",
+    "sha256": "6ab88f8cc85026bda75e3495dcac30a8d1c1b893bcbeb46bb2b791cbb4b86982",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "technical_measurements": {
+    "integrated_lufs": "-16.01",
+    "true_peak_dbtp": "-2.42",
+    "quiet_events": [
+      "[Parsed_silencedetect_0 @ 00000221dff0bac0] silence_start: 12.035669",
+      "[Parsed_silencedetect_0 @ 00000221dff0bac0] silence_end: 12.890136 | silence_duration: 0.854467"
+    ]
+  }
+}

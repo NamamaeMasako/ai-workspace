@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-16",
+  "files": [
+    {
+      "file": "candidate_01_muted_strings_seed3701_take01.ogg",
+      "integrated_lufs": "-15.99",
+      "true_peak_dbtp": "-2.49",
+      "quiet_events": []
+    },
+    {
+      "file": "candidate_02_prepared_piano_seed3702_take01.ogg",
+      "integrated_lufs": "-16.06",
+      "true_peak_dbtp": "-2.32",
+      "quiet_events": []
+    },
+    {
+      "file": "candidate_03_bass_clarinet_seed3703_take01.ogg",
+      "integrated_lufs": "-16.20",
+      "true_peak_dbtp": "-2.17",
+      "quiet_events": []
+    },
+    {
+      "file": "candidate_04_guzheng_shadows_seed3704_take01.ogg",
+      "integrated_lufs": "-16.01",
+      "true_peak_dbtp": "-2.42",
+      "quiet_events": [
+        "[Parsed_silencedetect_0 @ 00000221dff0bac0] silence_start: 12.035669",
+        "[Parsed_silencedetect_0 @ 00000221dff0bac0] silence_end: 12.890136 | silence_duration: 0.854467"
+      ]
+    }
+  ]
+}

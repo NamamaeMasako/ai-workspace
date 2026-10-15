@@ -1,0 +1,20 @@
+{
+  "cue": "BGM10_INN_HUNTED",
+  "status": "awaiting_user_short_selection",
+  "reviews": [
+    {
+      "date": "2026-10-16",
+      "stage": "take01_shorts",
+      "user_instruction": "好，開始",
+      "status": "four_20_second_candidates_ready",
+      "files": [
+        "candidate_01_muted_strings_seed3701_take01.ogg",
+        "candidate_02_prepared_piano_seed3702_take01.ogg",
+        "candidate_03_bass_clarinet_seed3703_take01.ogg",
+        "candidate_04_guzheng_shadows_seed3704_take01.ogg"
+      ],
+      "formally_adopted": false,
+      "game_integrated": false
+    }
+  ]
+}

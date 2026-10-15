@@ -1,0 +1,152 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM10_INN_HUNTED",
+  "label": "空房冷鍵",
+  "revision": "take01",
+  "status": "awaiting user short selection",
+  "request": {
+    "prompt": "Dark prepared piano repeats a sparse uneven three-note chromatic cell in its low and middle registers. Deep cello sustains the unresolved bass while a faint viola harmonic carries tension between piano attacks. Dry intimate piano attacks with natural decays, slowly shifting dissonant voicings, stalking psychological horror. Pure instrumental psychological horror chamber score for a dark fantasy visual novel. At night a spider-like intruder silently searches a wooden inn while an unknowing woman walks into danger. Cold invasive dread, claustrophobic suspense, an unseen predator already inside, oppressive unresolved tension. The same music must sustain a companion's persistent foreboding after a forest battle, on the return to the inn. Clearly musical pitched instruments, dark sustained harmonic friction and restrained continuous musical motion. Stay intimate and ominous throughout, maintain presence for all 25 seconds, no ending cadence or empty silence. No cheerful, playful, bouncy or romantic melody, no sentimental lament, no heroic action, no fast battle percussion. No vocals, speech, choir, wind, rain, insects, footsteps, creaks, static, environmental ambience or sound effects. ",
+    "lyrics": "[Instrumental]",
+    "thinking": false,
+    "use_format": false,
+    "use_cot_caption": false,
+    "use_cot_language": false,
+    "bpm": 54,
+    "key_scale": "E minor",
+    "time_signature": "4",
+    "vocal_language": "unknown",
+    "audio_duration": 25,
+    "inference_steps": 8,
+    "batch_size": 1,
+    "use_random_seed": false,
+    "seed": 3702,
+    "model": "acestep-v15-turbo",
+    "task_type": "text2music",
+    "audio_cover_strength": 1.0,
+    "audio_format": "wav"
+  },
+  "reference_audio": null,
+  "musical_parameters": "BPM, key and instrumentation are generation prompts, not measured or guaranteed.",
+  "processing": {
+    "source_seconds": 25,
+    "excerpt_seconds": 20,
+    "fade_in_seconds": 0.03,
+    "fade_out_seconds": 0.5,
+    "loop_processed": false,
+    "fixed_gain_db": 1.620000000000001,
+    "limiter_dbfs": -2.5,
+    "premaster_measurement": {
+      "integrated_lufs": "-17.62",
+      "true_peak_dbtp": "-2.09",
+      "quiet_events": []
+    }
+  },
+  "formally_adopted": false,
+  "game_integrated": false,
+  "task": {
+    "task_id": "36836e74-e35f-4aed-aea3-84e339c1f227",
+    "status": "queued",
+    "queue_position": 1
+  },
+  "result": {
+    "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5Cea459243-2aac-3ea9-16cc-13305780431b.wav",
+    "wave": "",
+    "status": 1,
+    "create_time": 1792084621,
+    "env": "development",
+    "prompt": "Dark prepared piano repeats a sparse uneven three-note chromatic cell in its low and middle registers. Deep cello sustains the unresolved bass while a faint viola harmonic carries tension between piano attacks. Dry intimate piano attacks with natural decays, slowly shifting dissonant voicings, stalking psychological horror. Pure instrumental psychological horror chamber score for a dark fantasy visual novel. At night a spider-like intruder silently searches a wooden inn while an unknowing woman walks into danger. Cold invasive dread, claustrophobic suspense, an unseen predator already inside, oppressive unresolved tension. The same music must sustain a companion's persistent foreboding after a forest battle, on the return to the inn. Clearly musical pitched instruments, dark sustained harmonic friction and restrained continuous musical motion. Stay intimate and ominous throughout, maintain presence for all 25 seconds, no ending cadence or empty silence. No cheerful, playful, bouncy or romantic melody, no sentimental lament, no heroic action, no fast battle percussion. No vocals, speech, choir, wind, rain, insects, footsteps, creaks, static, environmental ambience or sound effects. ",
+    "lyrics": "[Instrumental]",
+    "metas": {
+      "bpm": 54,
+      "duration": 25.0,
+      "genres": "N/A",
+      "keyscale": "E minor",
+      "timesignature": "4",
+      "prompt": "Dark prepared piano repeats a sparse uneven three-note chromatic cell in its low and middle registers. Deep cello sustains the unresolved bass while a faint viola harmonic carries tension between piano attacks. Dry intimate piano attacks with natural decays, slowly shifting dissonant voicings, stalking psychological horror. Pure instrumental psychological horror chamber score for a dark fantasy visual novel. At night a spider-like intruder silently searches a wooden inn while an unknowing woman walks into danger. Cold invasive dread, claustrophobic suspense, an unseen predator already inside, oppressive unresolved tension. The same music must sustain a companion's persistent foreboding after a forest battle, on the return to the inn. Clearly musical pitched instruments, dark sustained harmonic friction and restrained continuous musical motion. Stay intimate and ominous throughout, maintain presence for all 25 seconds, no ending cadence or empty silence. No cheerful, playful, bouncy or romantic melody, no sentimental lament, no heroic action, no fast battle percussion. No vocals, speech, choir, wind, rain, insects, footsteps, creaks, static, environmental ambience or sound effects. ",
+      "lyrics": "[Instrumental]"
+    },
+    "generation_info": "**🎵 Total generation time (1 song): 1.97s**\n- 1.97s per song\n- DiT phase (1 song): 1.97s",
+    "seed_value": "3702",
+    "lm_model": "acestep-5Hz-lm-0.6B",
+    "dit_model": "acestep-v15-turbo",
+    "progress": 1.0,
+    "stage": "succeeded"
+  },
+  "raw_wav": {
+    "file": "candidate_02_prepared_piano_seed3702_take01_raw.wav",
+    "sha256": "1bac2cc78af6aa87997c3111e7511fffe757b9e91382a0ab15a4a582406460af",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "25.000000"
+      }
+    }
+  },
+  "master_wav": {
+    "file": "candidate_02_prepared_piano_seed3702_take01.wav",
+    "sha256": "83022259ee6d90ee895e2a5731adb51366713ada9113c10deb001c50518216fe",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "premaster_ogg": {
+    "file": "candidate_02_prepared_piano_seed3702_take01_premaster.ogg",
+    "sha256": "32acd07dc6e4f434cf7f22d59fbcd5717d088013165e3bc931c2feef7ab890c8",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "ogg": {
+    "file": "candidate_02_prepared_piano_seed3702_take01.ogg",
+    "sha256": "a78938de2bf555916cade343a6929b6f4c9b3ce781173879ea5d3e25db83c306",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "technical_measurements": {
+    "integrated_lufs": "-16.06",
+    "true_peak_dbtp": "-2.32",
+    "quiet_events": []
+  }
+}
