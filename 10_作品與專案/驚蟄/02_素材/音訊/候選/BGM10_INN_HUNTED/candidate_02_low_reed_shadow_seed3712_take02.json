@@ -1,0 +1,152 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM10_INN_HUNTED",
+  "label": "空廊異兆",
+  "revision": "take02",
+  "status": "awaiting user short selection",
+  "request": {
+    "prompt": "Dark low reed-like synthesizer sustains soft narrow unresolved intervals over a subdued bass pulse. Occasional short low bamboo-flute notes and muted metal harmonics create a quiet uncanny Japanese inn atmosphere. Understated melodic fragments, dry restrained texture with natural resonance, no flute solo or sweeping phrases. Original instrumental dark exploration BGM for a supernatural visual novel, 25 seconds of continuous music. A spider-like intruder is already inside a small wooden inn at night, quietly searching the rooms. The listener senses an abnormal presence in a familiar place. Restrained eerie suspense, patient lurking menace, low dark musical foundation, sparse small pitched details, cold unresolved harmony, minimal foreground melody. A calm slow pulse keeps moving beneath the surface without becoming an action beat. Also support a woman's persistent uneasy premonition after battle while returning to the inn. Close enclosed scale rather than a vast dungeon, subtly East Asian supernatural setting rather than modern detective jazz. Use naturally connected note tails and short evolving musical phrases; no big build, no final cadence, no long silent gaps. No cheerful or bouncy tune, no romantic sadness, no lamenting cello melody, no lush orchestral strings, no busy arpeggios, no fast battle ostinato, no epic brass or loud percussion, no jump-scare stings. Music only: no singing, speech, vocal choir, wind, rain, insects, static, footsteps, wood creaks or other real-world sound effects. ",
+    "lyrics": "[Instrumental]",
+    "thinking": false,
+    "use_format": false,
+    "use_cot_caption": false,
+    "use_cot_language": false,
+    "bpm": 60,
+    "key_scale": "E minor",
+    "time_signature": "4",
+    "vocal_language": "unknown",
+    "audio_duration": 25,
+    "inference_steps": 8,
+    "batch_size": 1,
+    "use_random_seed": false,
+    "seed": 3712,
+    "model": "acestep-v15-turbo",
+    "task_type": "text2music",
+    "audio_cover_strength": 1.0,
+    "audio_format": "wav"
+  },
+  "reference_audio": null,
+  "musical_parameters": "BPM, key and instrumentation are generation prompts, not measured or guaranteed.",
+  "processing": {
+    "source_seconds": 25,
+    "excerpt_seconds": 20,
+    "fade_in_seconds": 0.03,
+    "fade_out_seconds": 0.5,
+    "loop_processed": false,
+    "fixed_gain_db": -3.9700000000000006,
+    "limiter_dbfs": -2.5,
+    "premaster_measurement": {
+      "integrated_lufs": "-12.03",
+      "true_peak_dbtp": "-0.97",
+      "quiet_events": []
+    }
+  },
+  "formally_adopted": false,
+  "game_integrated": false,
+  "task": {
+    "task_id": "ca968b5f-968b-4fee-9718-025c730dd7f3",
+    "status": "queued",
+    "queue_position": 1
+  },
+  "result": {
+    "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5C1d09bf51-0dcc-975a-1619-3e03d9c02c28.wav",
+    "wave": "",
+    "status": 1,
+    "create_time": 1792087795,
+    "env": "development",
+    "prompt": "Dark low reed-like synthesizer sustains soft narrow unresolved intervals over a subdued bass pulse. Occasional short low bamboo-flute notes and muted metal harmonics create a quiet uncanny Japanese inn atmosphere. Understated melodic fragments, dry restrained texture with natural resonance, no flute solo or sweeping phrases. Original instrumental dark exploration BGM for a supernatural visual novel, 25 seconds of continuous music. A spider-like intruder is already inside a small wooden inn at night, quietly searching the rooms. The listener senses an abnormal presence in a familiar place. Restrained eerie suspense, patient lurking menace, low dark musical foundation, sparse small pitched details, cold unresolved harmony, minimal foreground melody. A calm slow pulse keeps moving beneath the surface without becoming an action beat. Also support a woman's persistent uneasy premonition after battle while returning to the inn. Close enclosed scale rather than a vast dungeon, subtly East Asian supernatural setting rather than modern detective jazz. Use naturally connected note tails and short evolving musical phrases; no big build, no final cadence, no long silent gaps. No cheerful or bouncy tune, no romantic sadness, no lamenting cello melody, no lush orchestral strings, no busy arpeggios, no fast battle ostinato, no epic brass or loud percussion, no jump-scare stings. Music only: no singing, speech, vocal choir, wind, rain, insects, static, footsteps, wood creaks or other real-world sound effects. ",
+    "lyrics": "[Instrumental]",
+    "metas": {
+      "bpm": 60,
+      "duration": 25.0,
+      "genres": "N/A",
+      "keyscale": "E minor",
+      "timesignature": "4",
+      "prompt": "Dark low reed-like synthesizer sustains soft narrow unresolved intervals over a subdued bass pulse. Occasional short low bamboo-flute notes and muted metal harmonics create a quiet uncanny Japanese inn atmosphere. Understated melodic fragments, dry restrained texture with natural resonance, no flute solo or sweeping phrases. Original instrumental dark exploration BGM for a supernatural visual novel, 25 seconds of continuous music. A spider-like intruder is already inside a small wooden inn at night, quietly searching the rooms. The listener senses an abnormal presence in a familiar place. Restrained eerie suspense, patient lurking menace, low dark musical foundation, sparse small pitched details, cold unresolved harmony, minimal foreground melody. A calm slow pulse keeps moving beneath the surface without becoming an action beat. Also support a woman's persistent uneasy premonition after battle while returning to the inn. Close enclosed scale rather than a vast dungeon, subtly East Asian supernatural setting rather than modern detective jazz. Use naturally connected note tails and short evolving musical phrases; no big build, no final cadence, no long silent gaps. No cheerful or bouncy tune, no romantic sadness, no lamenting cello melody, no lush orchestral strings, no busy arpeggios, no fast battle ostinato, no epic brass or loud percussion, no jump-scare stings. Music only: no singing, speech, vocal choir, wind, rain, insects, static, footsteps, wood creaks or other real-world sound effects. ",
+      "lyrics": "[Instrumental]"
+    },
+    "generation_info": "**🎵 Total generation time (1 song): 2.01s**\n- 2.01s per song\n- DiT phase (1 song): 2.01s",
+    "seed_value": "3712",
+    "lm_model": "acestep-5Hz-lm-0.6B",
+    "dit_model": "acestep-v15-turbo",
+    "progress": 1.0,
+    "stage": "succeeded"
+  },
+  "raw_wav": {
+    "file": "candidate_02_low_reed_shadow_seed3712_take02_raw.wav",
+    "sha256": "4e509a0e87da9ad84b396e277a5bd56c5d1cd18ec6bc2791260df53d78f9a0a7",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "25.000000"
+      }
+    }
+  },
+  "master_wav": {
+    "file": "candidate_02_low_reed_shadow_seed3712_take02.wav",
+    "sha256": "fc6fbd1686d78910eaa2ef0cb5c82929bae83fb30f29d9314fd50d3d851e7380",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "premaster_ogg": {
+    "file": "candidate_02_low_reed_shadow_seed3712_take02_premaster.ogg",
+    "sha256": "dd347b9fc030138a42c923b23798af83666e9f91488ba871e13ec52d427c28ea",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "ogg": {
+    "file": "candidate_02_low_reed_shadow_seed3712_take02.ogg",
+    "sha256": "7a30957bf7d48d390fbfcc1ec9e6b4cad8609a8d5a093d9ce12913400917d146",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "technical_measurements": {
+    "integrated_lufs": "-16.02",
+    "true_peak_dbtp": "-4.91",
+    "quiet_events": []
+  }
+}

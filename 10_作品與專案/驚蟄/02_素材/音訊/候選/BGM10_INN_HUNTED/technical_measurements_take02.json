@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-16",
+  "files": [
+    {
+      "file": "candidate_01_low_pad_mallet_seed3711_take02.ogg",
+      "integrated_lufs": "-16.70",
+      "true_peak_dbtp": "-2.28",
+      "quiet_events": []
+    },
+    {
+      "file": "candidate_02_low_reed_shadow_seed3712_take02.ogg",
+      "integrated_lufs": "-16.02",
+      "true_peak_dbtp": "-4.91",
+      "quiet_events": []
+    },
+    {
+      "file": "candidate_03_muted_koto_bass_seed3713_take02.ogg",
+      "integrated_lufs": "-16.03",
+      "true_peak_dbtp": "-2.45",
+      "quiet_events": []
+    },
+    {
+      "file": "candidate_04_piano_dark_pulse_seed3714_take02.ogg",
+      "integrated_lufs": "-16.07",
+      "true_peak_dbtp": "-2.29",
+      "quiet_events": []
+    }
+  ]
+}

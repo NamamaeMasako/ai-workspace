@@ -1,0 +1,32 @@
+{
+  "file": "maou_bgm_fantasy09.mp3",
+  "sha256": "4838aca5b7f1afb87604627025c08934ed9cc9eb87cd90f4ef9aeefe4998736d",
+  "duration_seconds": 112.3004375,
+  "method": "Non-AI waveform and spectral measurements; no listening or instrument recognition. Tempo estimates may reflect subdivisions or phrase repetition.",
+  "centroid_median_hz": 636.6792924101371,
+  "energy_share": {
+    "0-150Hz": 0.8628814690701248,
+    "150-500Hz": 0.11374079034430161,
+    "500-2000Hz": 0.02216359582415961,
+    "2000-8001Hz": 0.001214144761414131
+  },
+  "pulse_candidates_bpm": [
+    58.3,
+    115.4,
+    57.7,
+    113.2,
+    117.6,
+    120.0
+  ],
+  "date": "2026-10-16",
+  "official_title": "ファンタジー09",
+  "subtitle": "闇に眠る場所",
+  "composer": "森田交一",
+  "source_url": "https://maou.audio/bgm_fantasy09/",
+  "rules_url": "https://maou.audio/rule/",
+  "official_description": "A somewhat modern, mildly horror exploration BGM.",
+  "role": "User mood example only; source audio not copied into project, uploaded to AI, used as src_audio or reference_audio, sampled, or used for training.",
+  "site_rules_observed": "Personal/commercial content use and arrangements allowed with attribution; site forbids training generative AI on the music and integrating it into AI composition systems to reuse phrases or timbres.",
+  "new_direction_basis": "Official exploration-horror category, user scene intent and non-AI spectral/pulse measurements. Instrument suggestions are new design choices, not claimed recognition of reference instruments.",
+  "decoded_duration_note": "Decoded sample count may include MP3 padding; ffprobe container duration is 112.203900 seconds."
+}
