@@ -1152,7 +1152,7 @@ label chapter_7_hanami_1:
 
     narrator "驚蟄的蟲影纏住牠的視線，逼得土蜘蛛退到樹根間。"
 
-    stop music fadeout 1.5
+    play music "<loop 3.0>audio/music/bgm_inn_hunted.ogg" loop fadeout 1.5 fadein 1.5
 
     scene bg inn_exterior_night
     with dissolve
@@ -1635,7 +1635,7 @@ label chapter_7_hanami_2:
 
     narrator "驚蟄的蟲影纏住牠的視線，逼得土蜘蛛退到樹根間。"
 
-    stop music fadeout 1.5
+    play music "<loop 3.0>audio/music/bgm_inn_hunted.ogg" loop fadeout 1.5 fadein 1.5
 
     scene bg inn_exterior_night
     with dissolve

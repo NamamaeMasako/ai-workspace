@@ -1,0 +1,16 @@
+{
+  "audio_sha256": "a04dee30aa642bc7292d2f8b1d5fa1b17b66020420c0ab0c9735f951492e3907",
+  "timestamp": 1792088529.766984,
+  "basedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe",
+  "gamedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe\\game",
+  "location": [
+    "game/script.rpy",
+    1165
+  ],
+  "playing": "<loop 3.0>audio/music/bgm_inn_hunted.ogg",
+  "position": 48.469,
+  "music_volume": 1.0,
+  "music_muted": false,
+  "master_muted": false,
+  "ambience": null
+}

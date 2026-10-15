@@ -2,7 +2,7 @@
   "date": "2026-10-16",
   "cue": "BGM10_INN_HUNTED",
   "label": "04 返路不安・長版",
-  "status": "awaiting user long audition",
+  "status": "selected for development scene audition; formal approval pending",
   "request": {
     "prompt": "Very soft low felt piano repeats a restrained original unresolved cell with subtle timing gaps above an ominous low organ-like pad and muted string harmonics. A consistent slow low musical pulse suggests growing apprehension on the walk home. Keep the piano cold and sparse, no lyrical or sentimental tune. Original instrumental dark exploration BGM for a supernatural visual novel, 25 seconds of continuous music. A spider-like intruder is already inside a small wooden inn at night, quietly searching the rooms. The listener senses an abnormal presence in a familiar place. Restrained eerie suspense, patient lurking menace, low dark musical foundation, sparse small pitched details, cold unresolved harmony, minimal foreground melody. A calm slow pulse keeps moving beneath the surface without becoming an action beat. Also support a woman's persistent uneasy premonition after battle while returning to the inn. Close enclosed scale rather than a vast dungeon, subtly East Asian supernatural setting rather than modern detective jazz. Use naturally connected note tails and short evolving musical phrases; no big build, no final cadence, no long silent gaps. No cheerful or bouncy tune, no romantic sadness, no lamenting cello melody, no lush orchestral strings, no busy arpeggios, no fast battle ostinato, no epic brass or loud percussion, no jump-scare stings. Music only: no singing, speech, vocal choir, wind, rain, insects, static, footsteps, wood creaks or other real-world sound effects.  Extend this exact selected original short faithfully into a continuous 65-second cue. Preserve its low-register piano cell, dark organ-like musical foundation, sparse foreground, harmonic tension, pulse and restrained dynamics. The 62 BPM setting is a prompt, not a measured tempo. Keep small phrase variations only, with the same patient eerie exploration character all the way through. Maintain the intimate wooden-inn scale and lingering foreboding after battle. Let notes decay naturally; do not change into lyrical grief, a bouncy tune, a lush orchestral theme or action music. No extra drums, climax, vocals, environmental noise, long silent gaps or early ending. Follow the supplied source map using the unfaded original tail; do not repeat the short audition fade. Maintain the selected original foreground motif and low musical undercurrent consistently.",
     "lyrics": "[Instrumental]",
@@ -235,5 +235,6 @@
       "[Parsed_silencedetect_0 @ 00000232ea770440] silence_start: 58.05161",
       "[Parsed_silencedetect_0 @ 00000232ea770440] silence_end: 58.701973 | silence_duration: 0.650363"
     ]
-  }
+  },
+  "game_integration_record": "game_integration_long_01.json"
 }

@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM10_INN_HUNTED",
+  "status": "selected for game audition; scene and loop confirmation pending",
+  "user_instruction": "套進遊戲試試",
+  "source": {
+    "file": "long_01_natural_phrase_piano_dark_pulse_seed3714.wav",
+    "sha256": "0e797481432110f130cfcf91b93149a781d2b61b9bfe9501dc91e3e155b5800c"
+  },
+  "processing": {
+    "new_generation": false,
+    "unchanged_opening_seconds": 57,
+    "tail_crossfade_seconds": 3,
+    "crossfade_curve": "smoothstep convex",
+    "duration_seconds": 60,
+    "renpy_loop_start_seconds": 3.0,
+    "repeat_period_seconds": 57,
+    "period_basis": "Three-second crossfade selected to preserve the first 57 seconds of the audition; no measured beat alignment is claimed.",
+    "unchanged_opening_pcm_max_error": 0.0,
+    "pcm_boundary_step": 0.0024527404457330704
+  },
+  "wav": {
+    "file": "long_01_natural_phrase_piano_dark_pulse_seed3714_loop_intro.wav",
+    "sha256": "a261199437565dc69c7af208a506d232ea39dc995b1909f808547c14f8169843"
+  },
+  "ogg": {
+    "file": "long_01_natural_phrase_piano_dark_pulse_seed3714_loop_intro.ogg",
+    "sha256": "a04dee30aa642bc7292d2f8b1d5fa1b17b66020420c0ab0c9735f951492e3907",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "60.000000"
+      }
+    }
+  },
+  "technical_check": {
+    "decode": "passed without diagnostics",
+    "integrated_lufs": "-16.20",
+    "true_peak_dbtp": "-2.37",
+    "quiet_events": [
+      "silence_start: 34.309252",
+      "silence_end: 34.952744 | silence_duration: 0.643492"
+    ]
+  },
+  "producer": {
+    "file": "prepare_long_01_loop.py",
+    "sha256": "cf8eabeefdb8497cde242d4f5feb8708280fcbc90c5179a5d83c5bfc7d2616aa"
+  }
+}
