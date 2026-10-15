@@ -3,7 +3,7 @@
   "cue": "BGM10_INN_HUNTED",
   "label": "靜室懸音",
   "revision": "take03",
-  "status": "awaiting user short selection",
+  "status": "rejected at opening",
   "request": {
     "prompt": "Pianissimo minimal solo piano, slow rubato, just a handful of cold low-register notes with long connected tails. Keep sustained unresolved intervals rather than a flowing melody. Near-stillness with audible tonal unease. Extremely sparse, very quiet instrumental piano horror underscore for reading dialogue in a supernatural visual novel. An intruder silently searches a wooden inn at night. The scene must feel hushed, still, ominous and patiently dangerous. Only a few soft isolated piano notes in the low and middle registers, roughly one new attack every four to six seconds. Let each note ring and decay naturally for several seconds, with long sustain-pedal resonance overlapping the next note. Wide breathing room between attacks, no regular beat, no repeated pulse, no accompaniment pattern, no arpeggios. Muted soft hammer attack, dark filtered piano tone, low density and low dynamics throughout. Use E-flat minor harmonic colors and mostly black-key pitches such as E-flat, G-flat, A-flat, B-flat and D-flat. For dread, occasionally hold an unresolved semitone or tritone against a sustained piano note; do not turn the black-key material into a pleasant pentatonic tune. Avoid bright major thirds, major chords, familiar melodic cadences and any sense of harmonic resolution. Keep dissonance quiet and suspended. Piano resonance should carry the whole 25 seconds; leave room, but do not end the cue early. No melodic solo, no sentimental sadness, no jaunty or playful phrases, no bright high piano ornaments. No drums, percussion, bass groove, ostinato, organ pad, synth pad, strings, flute or layered instrumental bed. No dramatic builds, big bass hits or jump-scare accents. No voice, choir, rain, wind, insects, footsteps, static, crackles or environmental noise. Pure restrained musical unease in a small enclosed room. ",
     "lyrics": "[Instrumental]",
@@ -151,5 +151,6 @@
     "true_peak_dbtp": "-3.93",
     "quiet_events": []
   },
-  "review_basis": "User requested quiet, very slow, fewer long notes, more eerie unresolved piano with predominantly black-key colors after long_01 game audition felt too loud and insufficiently sinister."
+  "review_basis": "User requested quiet, very slow, fewer long notes, more eerie unresolved piano with predominantly black-key colors after long_01 game audition felt too loud and insufficiently sinister.",
+  "user_feedback": "第一個音出來就沒有陰森感"
 }

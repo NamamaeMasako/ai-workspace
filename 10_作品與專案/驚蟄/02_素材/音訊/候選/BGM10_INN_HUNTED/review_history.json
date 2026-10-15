@@ -1,6 +1,6 @@
 {
   "cue": "BGM10_INN_HUNTED",
-  "status": "awaiting_user_sparse_piano_take03_audition",
+  "status": "awaiting_user_take04_opening_direction_audition",
   "reviews": [
     {
       "date": "2026-10-16",
@@ -87,6 +87,27 @@
       },
       "formally_adopted": false,
       "game_integrated": false
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "sparse_piano_take03",
+      "status": "rejected_at_first_note",
+      "user_feedback": "不對啊，第一個音出來就沒有那個陰森感"
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "explicit_piano_score_take04",
+      "status": "20_second_opening_direction_study_ready",
+      "file": "candidate_04_low_piano_clusters_take04.ogg",
+      "method": "Explicitly scored original semitone dyads with local Windows GM piano rendering; no AI or external music audio.",
+      "onset_groups_seconds": [
+        0.08,
+        7.2,
+        14.4
+      ],
+      "target": "Confirm opening timbre and unresolved interval character before continuing the full BGM.",
+      "game_integrated": false,
+      "formally_adopted": false
     }
   ]
 }

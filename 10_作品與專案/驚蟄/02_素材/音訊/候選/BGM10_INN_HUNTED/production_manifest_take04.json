@@ -1,0 +1,258 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM10_INN_HUNTED",
+  "candidates": [
+    {
+      "date": "2026-10-16",
+      "cue": "BGM10_INN_HUNTED",
+      "label": "低鍵異響",
+      "revision": "take04",
+      "status": "awaiting user opening-direction audition",
+      "method": "Explicit original note score rendered from local Windows GM piano; no AI generation or external music reference.",
+      "review_basis": "take03 rejected at the very first note; make the opening an actual low semitone dyad rather than trusting a minor-key prompt.",
+      "instrument": {
+        "local_device_library": "C:\\WINDOWS\\System32\\drivers\\gm.dls",
+        "library_sha256": "3229b09b9d7d9f3f4793b0d9b34fe6abc75cfa4a2503c0c90f43ff651ba7f2c0",
+        "library_copied_into_project": false,
+        "library_redistributed": false
+      },
+      "score": [
+        {
+          "start": 0.08,
+          "midi": 39,
+          "note": "Eb2",
+          "strength": 0.48,
+          "duration": 13,
+          "instrument_source": {
+            "bank": 0,
+            "program_zero_based": 0,
+            "wave_table_index": 290,
+            "sample_rate": 22050,
+            "sample_root_midi": 41,
+            "fine_tune_cents": -1,
+            "sustain_loop_start_frames": 10830,
+            "sustain_loop_length_frames": 2272
+          }
+        },
+        {
+          "start": 0.08,
+          "midi": 40,
+          "note": "E2",
+          "strength": 0.26,
+          "duration": 12,
+          "instrument_source": {
+            "bank": 0,
+            "program_zero_based": 0,
+            "wave_table_index": 290,
+            "sample_rate": 22050,
+            "sample_root_midi": 41,
+            "fine_tune_cents": -1,
+            "sustain_loop_start_frames": 10830,
+            "sustain_loop_length_frames": 2272
+          }
+        },
+        {
+          "start": 7.2,
+          "midi": 34,
+          "note": "Bb1",
+          "strength": 0.34,
+          "duration": 12,
+          "instrument_source": {
+            "bank": 0,
+            "program_zero_based": 0,
+            "wave_table_index": 289,
+            "sample_rate": 22050,
+            "sample_root_midi": 36,
+            "fine_tune_cents": -4,
+            "sustain_loop_start_frames": 11989,
+            "sustain_loop_length_frames": 1682
+          }
+        },
+        {
+          "start": 7.2,
+          "midi": 33,
+          "note": "A1",
+          "strength": 0.2,
+          "duration": 12,
+          "instrument_source": {
+            "bank": 0,
+            "program_zero_based": 0,
+            "wave_table_index": 289,
+            "sample_rate": 22050,
+            "sample_root_midi": 36,
+            "fine_tune_cents": -4,
+            "sustain_loop_start_frames": 11989,
+            "sustain_loop_length_frames": 1682
+          }
+        },
+        {
+          "start": 14.4,
+          "midi": 37,
+          "note": "Db2",
+          "strength": 0.3,
+          "duration": 10,
+          "instrument_source": {
+            "bank": 0,
+            "program_zero_based": 0,
+            "wave_table_index": 289,
+            "sample_rate": 22050,
+            "sample_root_midi": 36,
+            "fine_tune_cents": -4,
+            "sustain_loop_start_frames": 11989,
+            "sustain_loop_length_frames": 1682
+          }
+        },
+        {
+          "start": 14.4,
+          "midi": 38,
+          "note": "D2",
+          "strength": 0.16,
+          "duration": 10,
+          "instrument_source": {
+            "bank": 0,
+            "program_zero_based": 0,
+            "wave_table_index": 289,
+            "sample_rate": 22050,
+            "sample_root_midi": 36,
+            "fine_tune_cents": -4,
+            "sustain_loop_start_frames": 11989,
+            "sustain_loop_length_frames": 1682
+          }
+        }
+      ],
+      "group_onsets_seconds": [
+        0.08,
+        7.2,
+        14.4
+      ],
+      "tempo": "Unmetered; no regular pulse or fixed BPM.",
+      "processing": {
+        "raw_duration_seconds": 25,
+        "audition_duration_seconds": 20,
+        "target_lufs": -22,
+        "fixed_gain_db": 2.3500000000000014,
+        "low_pass_hz": 1100,
+        "note_decay_time_constant_seconds": 4.4,
+        "tail_reflections": [
+          [
+            0.073,
+            0.14
+          ],
+          [
+            0.107,
+            0.12
+          ],
+          [
+            0.163,
+            0.09
+          ],
+          [
+            0.229,
+            0.075
+          ],
+          [
+            0.317,
+            0.055
+          ],
+          [
+            0.431,
+            0.04
+          ],
+          [
+            0.571,
+            0.03
+          ],
+          [
+            0.743,
+            0.02
+          ]
+        ],
+        "premaster_measurement": {
+          "integrated_lufs": "-24.35",
+          "true_peak_dbtp": "-7.31",
+          "quiet_events": []
+        },
+        "loop_processed": false
+      },
+      "technical_measurements": {
+        "integrated_lufs": "-22.00",
+        "true_peak_dbtp": "-4.78",
+        "quiet_events": []
+      },
+      "game_integrated": false,
+      "formally_adopted": false,
+      "raw_wav": {
+        "file": "candidate_04_low_piano_clusters_take04_raw.wav",
+        "sha256": "67408a1bec51c0506ce230da247c0abb3cc83664380033a4093a154ed29ca270",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "25.000000"
+          }
+        }
+      },
+      "master_wav": {
+        "file": "candidate_04_low_piano_clusters_take04.wav",
+        "sha256": "8a4156d0f13b3ea037e7df69af24ba0ec1a3c9ea522df4db1cb5af44d198a131",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "20.000000"
+          }
+        }
+      },
+      "premaster_ogg": {
+        "file": "candidate_04_low_piano_clusters_take04_premaster.ogg",
+        "sha256": "12ec6749202f6a8c355fe3dc1f03e3acfe7f68c6b97af36e2557f54fb6d901fa",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "20.000000"
+          }
+        }
+      },
+      "ogg": {
+        "file": "candidate_04_low_piano_clusters_take04.ogg",
+        "sha256": "97bc9dc6b7c45dcc60c3638f5cc6384dcb61353f08d4d1446729360ac4b4755d",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "20.000000"
+          }
+        }
+      }
+    }
+  ]
+}
