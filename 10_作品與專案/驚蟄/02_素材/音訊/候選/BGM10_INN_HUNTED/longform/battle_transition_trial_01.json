@@ -1,7 +1,7 @@
 {
   "date": "2026-10-16",
   "cue": "BGM10_INN_HUNTED to BGM06_FOREST_ASSAULT",
-  "status": "revised transition deployed; user listening approval pending",
+  "status": "formally adopted with accepted fast-click timing caveat",
   "user_feedback": "遇襲曲氣氛符合，但後續轉戰鬥曲反差太大、突兀不舒服",
   "routes": [
     "chapter_7_hanami_1",
@@ -44,7 +44,11 @@
   },
   "runtime_record": "runtime_observation_gate_transition_01.json",
   "scene_snapshot": "runtime_scene_gate_transition_01.png",
-  "transition_listening_approved": false,
+  "transition_listening_approved": true,
   "release_rebuilt": false,
-  "version_changed": false
+  "version_changed": false,
+  "approval_date": "2026-10-16",
+  "approval_feedback": "好吧，就這樣處理，除非讀者點太快不然我是覺得還可以",
+  "accepted_limit": "Fast clicking may advance to the battle-stop cue before the five-second fade-in has completed. User accepts current behavior. No timing changes made during adoption.",
+  "formal_adoption_record": "formal_adoption.json"
 }

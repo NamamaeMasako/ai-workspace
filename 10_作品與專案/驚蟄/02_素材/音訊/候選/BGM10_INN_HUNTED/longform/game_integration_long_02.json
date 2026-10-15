@@ -1,7 +1,7 @@
 {
   "date": "2026-10-16",
   "cue": "BGM10_INN_HUNTED",
-  "status": "mood fits per user; revised gate battle transition awaiting audition approval",
+  "status": "formally adopted with accepted fast-click timing caveat",
   "user_instruction": "套進遊戲試試",
   "source_file": "long_02_varied_dissonant_piano_take07_loop_intro.ogg",
   "source_sha256": "82c8ff979ccd9a114782b8220cf179931c898c1865524f01b3ca2b92b3c6e1f8",
@@ -45,7 +45,7 @@
   },
   "release_rebuilt": false,
   "version_changed": false,
-  "formal_scene_approval": false,
+  "formal_scene_approval": true,
   "previous_source_file": "long_01_natural_phrase_piano_dark_pulse_seed3714_loop_intro.ogg",
   "previous_game_sha256": "a04dee30aa642bc7292d2f8b1d5fa1b17b66020420c0ab0c9735f951492e3907",
   "script_changed_this_revision": false,
@@ -54,5 +54,9 @@
     "mood_fits": true,
     "battle_transition_too_abrupt": true
   },
-  "battle_transition_trial_record": "battle_transition_trial_01.json"
+  "battle_transition_trial_record": "battle_transition_trial_01.json",
+  "formal_adoption_record": "formal_adoption.json",
+  "approval_date": "2026-10-16",
+  "approval_feedback": "好吧，就這樣處理，除非讀者點太快不然我是覺得還可以",
+  "accepted_limit": "Fast clicking may advance to the battle-stop cue before the five-second fade-in has completed. User accepts current behavior. No timing changes made during adoption."
 }

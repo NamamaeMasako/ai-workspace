@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM10_INN_HUNTED",
+  "status": "formally_adopted_with_fast_click_caveat",
+  "user_feedback": "好吧，就這樣處理，除非讀者點太快不然我是覺得還可以",
+  "source_file": "long_02_varied_dissonant_piano_take07_loop_intro.ogg",
+  "game_file": "03_開發/JingZhe/game/audio/music/bgm_inn_hunted.ogg",
+  "sha256": "82c8ff979ccd9a114782b8220cf179931c898c1865524f01b3ca2b92b3c6e1f8",
+  "music": "Quiet varied dissonant piano, long_02 based on take07; 60-second first play, loop from 3.0 seconds, 57-second repeat.",
+  "scenes": "Both Hanami routes: inn search and attack, forest aftermath unease and return to inn.",
+  "gate_battle_transition": {
+    "fadeout_seconds": 2.0,
+    "fadein_seconds": 5.0,
+    "per_file_relative_volume": 0.35,
+    "routes": [
+      "chapter_7_hanami_1",
+      "chapter_7_hanami_2"
+    ],
+    "record": "battle_transition_trial_01.json"
+  },
+  "accepted_limit": "Fast clicking may advance to the battle-stop cue before the five-second fade-in has completed. User accepts current behavior. No timing changes made during adoption.",
+  "integration_record": "game_integration_long_02.json",
+  "formal_scene_approval": true,
+  "release_rebuilt": false,
+  "version_changed": false
+}

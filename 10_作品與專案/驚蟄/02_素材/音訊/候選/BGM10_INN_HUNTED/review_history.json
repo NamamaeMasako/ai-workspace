@@ -1,6 +1,6 @@
 {
   "cue": "BGM10_INN_HUNTED",
-  "status": "awaiting_gate_battle_transition_trial01_approval",
+  "status": "formally_adopted",
   "reviews": [
     {
       "date": "2026-10-16",
@@ -280,6 +280,18 @@
       },
       "audition_warp": "script.rpy:1237",
       "formal_scene_approval": false
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "formal_adoption",
+      "status": "adopted_with_fast_click_caveat",
+      "user_feedback": "好吧，就這樣處理，除非讀者點太快不然我是覺得還可以",
+      "file": "longform/long_02_varied_dissonant_piano_take07_loop_intro.ogg",
+      "sha256": "82c8ff979ccd9a114782b8220cf179931c898c1865524f01b3ca2b92b3c6e1f8",
+      "formal_scene_approval": true,
+      "transition_approved": true,
+      "accepted_limit": "Fast clicking may advance to the battle-stop cue before the five-second fade-in has completed. User accepts current behavior. No timing changes made during adoption.",
+      "record": "longform/formal_adoption.json"
     }
   ]
 }
