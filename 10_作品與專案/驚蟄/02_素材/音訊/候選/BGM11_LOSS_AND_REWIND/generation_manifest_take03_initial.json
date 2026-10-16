@@ -1,0 +1,639 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM11_LOSS_AND_REWIND",
+  "candidates": [
+    {
+      "date": "2026-10-16",
+      "cue": "BGM11_LOSS_AND_REWIND",
+      "label": "不可能是妳",
+      "revision": "take03",
+      "status": "awaiting user short selection",
+      "request": {
+        "prompt": "Soft middle-register piano repeats a short rising two-note question at uneven intervals, each attempt breaks against a suspended minor chord. A thin tense viola and cello line emerges beneath it, narrowly moving and trembling very softly. Small surges of refusal immediately collapse into empty space. Raw tragic scene underscore with aching sadness. Original instrumental dramatic underscore, 25 seconds, the immediate moment of sudden tragic death. Someone loved has just collapsed and cannot answer. Shock, disbelief, desperate refusal to accept it, then helpless pain while still trying to reach her. The wound is happening NOW, raw and unfinished. Quiet intensity and grief with nervous inner movement, suspended breath and aching minor harmony. Fragile short rising questions repeatedly fail to resolve, break off, then sink a semitone; the melody tries again against a bass that cannot move forward. Uneven hesitant phrasing, unresolved appoggiaturas, restrained dynamic tension, intimate close musical space. An unsettled moderate pulse inside the music, neither a stately slow procession nor a driving beat. Soft attacks, controlled volume, small ensemble. Keep emotionally wounded and human throughout. Continue with unresolved tension through 25 seconds, natural connected note tails. No funeral march, ceremonial elegy, peaceful remembrance, nostalgic farewell, comforting resolution, graduation song, sweet ballad, hopeful lift, horror sting, jump scare, battle drums or large crescendo. Instrumental only: no voices, choir, speech, heartbeats, rain, wind or sound effects. ",
+        "lyrics": "[Instrumental]",
+        "thinking": false,
+        "use_format": false,
+        "use_cot_caption": false,
+        "use_cot_language": false,
+        "bpm": 68,
+        "key_scale": "F minor",
+        "time_signature": "4",
+        "vocal_language": "unknown",
+        "audio_duration": 25,
+        "inference_steps": 8,
+        "batch_size": 1,
+        "use_random_seed": false,
+        "seed": 3821,
+        "model": "acestep-v15-turbo",
+        "task_type": "text2music",
+        "audio_cover_strength": 1.0,
+        "audio_format": "wav"
+      },
+      "reference_audio": null,
+      "musical_parameters": "BPM, key and instrumentation are generation prompts, not measured or guaranteed.",
+      "processing": {
+        "source_seconds": 25,
+        "excerpt_seconds": 20,
+        "fade_in_seconds": 0.03,
+        "fade_out_seconds": 0.5,
+        "loop_processed": false,
+        "fixed_gain_db": -9.84,
+        "loudness_target_lufs": -27,
+        "limiter_dbfs": -16,
+        "premaster_measurement": {
+          "integrated_lufs": "-17.16",
+          "true_peak_dbtp": "-1.08",
+          "quiet_events": [
+            "[Parsed_silencedetect_0 @ 000001ec04c6ef00] silence_start: 15.138639",
+            "[Parsed_silencedetect_0 @ 000001ec04c6ef00] silence_end: 17.057392 | silence_duration: 1.918753",
+            "[Parsed_silencedetect_0 @ 000001ec04c6ef00] silence_start: 19.161429",
+            "[Parsed_silencedetect_0 @ 000001ec04c6ef00] silence_end: 19.774376 | silence_duration: 0.612948"
+          ]
+        }
+      },
+      "formally_adopted": false,
+      "game_integrated": false,
+      "task": {
+        "task_id": "afd52abe-8896-409f-974e-4c52c54b2207",
+        "status": "queued",
+        "queue_position": 1
+      },
+      "result": {
+        "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5C3fa6ed60-9422-56d1-81c6-079891de7152.wav",
+        "wave": "",
+        "status": 1,
+        "create_time": 1792132362,
+        "env": "development",
+        "prompt": "Soft middle-register piano repeats a short rising two-note question at uneven intervals, each attempt breaks against a suspended minor chord. A thin tense viola and cello line emerges beneath it, narrowly moving and trembling very softly. Small surges of refusal immediately collapse into empty space. Raw tragic scene underscore with aching sadness. Original instrumental dramatic underscore, 25 seconds, the immediate moment of sudden tragic death. Someone loved has just collapsed and cannot answer. Shock, disbelief, desperate refusal to accept it, then helpless pain while still trying to reach her. The wound is happening NOW, raw and unfinished. Quiet intensity and grief with nervous inner movement, suspended breath and aching minor harmony. Fragile short rising questions repeatedly fail to resolve, break off, then sink a semitone; the melody tries again against a bass that cannot move forward. Uneven hesitant phrasing, unresolved appoggiaturas, restrained dynamic tension, intimate close musical space. An unsettled moderate pulse inside the music, neither a stately slow procession nor a driving beat. Soft attacks, controlled volume, small ensemble. Keep emotionally wounded and human throughout. Continue with unresolved tension through 25 seconds, natural connected note tails. No funeral march, ceremonial elegy, peaceful remembrance, nostalgic farewell, comforting resolution, graduation song, sweet ballad, hopeful lift, horror sting, jump scare, battle drums or large crescendo. Instrumental only: no voices, choir, speech, heartbeats, rain, wind or sound effects. ",
+        "lyrics": "[Instrumental]",
+        "metas": {
+          "bpm": 68,
+          "duration": 25.0,
+          "genres": "N/A",
+          "keyscale": "F minor",
+          "timesignature": "4",
+          "prompt": "Soft middle-register piano repeats a short rising two-note question at uneven intervals, each attempt breaks against a suspended minor chord. A thin tense viola and cello line emerges beneath it, narrowly moving and trembling very softly. Small surges of refusal immediately collapse into empty space. Raw tragic scene underscore with aching sadness. Original instrumental dramatic underscore, 25 seconds, the immediate moment of sudden tragic death. Someone loved has just collapsed and cannot answer. Shock, disbelief, desperate refusal to accept it, then helpless pain while still trying to reach her. The wound is happening NOW, raw and unfinished. Quiet intensity and grief with nervous inner movement, suspended breath and aching minor harmony. Fragile short rising questions repeatedly fail to resolve, break off, then sink a semitone; the melody tries again against a bass that cannot move forward. Uneven hesitant phrasing, unresolved appoggiaturas, restrained dynamic tension, intimate close musical space. An unsettled moderate pulse inside the music, neither a stately slow procession nor a driving beat. Soft attacks, controlled volume, small ensemble. Keep emotionally wounded and human throughout. Continue with unresolved tension through 25 seconds, natural connected note tails. No funeral march, ceremonial elegy, peaceful remembrance, nostalgic farewell, comforting resolution, graduation song, sweet ballad, hopeful lift, horror sting, jump scare, battle drums or large crescendo. Instrumental only: no voices, choir, speech, heartbeats, rain, wind or sound effects. ",
+          "lyrics": "[Instrumental]"
+        },
+        "generation_info": "**🎵 Total generation time (1 song): 6.17s**\n- 6.17s per song\n- DiT phase (1 song): 6.17s",
+        "seed_value": "3821",
+        "lm_model": "acestep-5Hz-lm-0.6B",
+        "dit_model": "acestep-v15-turbo",
+        "progress": 1.0,
+        "stage": "succeeded"
+      },
+      "raw_wav": {
+        "file": "candidate_01_piano_strings_denial_seed3821_take03_raw.wav",
+        "sha256": "19578e7e8252348b9b5b3f613efa683d63fbde1b111268011e9fcee769ec2df0",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "25.000000"
+          }
+        }
+      },
+      "master_wav": {
+        "file": "candidate_01_piano_strings_denial_seed3821_take03.wav",
+        "sha256": "99a41fd3fe2dc99cea05bcfb36181aab5a874fd9e2de4388062c5abadc2a01b8",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "20.000000"
+          }
+        }
+      },
+      "premaster_ogg": {
+        "file": "candidate_01_piano_strings_denial_seed3821_take03_premaster.ogg",
+        "sha256": "38e9c64e457495ec4efb4a146346a155e55c885c7c607ca91639b8ab508b5747",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "20.000000"
+          }
+        }
+      },
+      "ogg": {
+        "file": "candidate_01_piano_strings_denial_seed3821_take03.ogg",
+        "sha256": "addb4fc9cb5ab17ba7e77b7b2dcab07f3744a41d415e543721e9797784f3d19b",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "20.000000"
+          }
+        }
+      },
+      "technical_measurements": {
+        "integrated_lufs": "-27.78",
+        "true_peak_dbtp": "-15.72",
+        "quiet_events": [
+          "[Parsed_silencedetect_0 @ 0000025b33862880] silence_start: 12.057574",
+          "[Parsed_silencedetect_0 @ 0000025b33862880] silence_end: 17.058526 | silence_duration: 5.000952",
+          "[Parsed_silencedetect_0 @ 0000025b33862880] silence_start: 18.117029",
+          "[Parsed_silencedetect_0 @ 0000025b33862880] silence_end: 19.776077 | silence_duration: 1.659048"
+        ]
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "cue": "BGM11_LOSS_AND_REWIND",
+      "label": "再回答一次",
+      "revision": "take03",
+      "status": "awaiting user short selection",
+      "request": {
+        "prompt": "Intimate solo piano, a broken interrupted motif reaching upward and failing, unanswered call-and-response between middle and low registers, irregular rests and quiet repeated notes suggesting a hand still trying to wake someone. Painful unresolved minor-second suspensions. Sparse fragments, no flowing arpeggios or regular song chords. Original instrumental dramatic underscore, 25 seconds, the immediate moment of sudden tragic death. Someone loved has just collapsed and cannot answer. Shock, disbelief, desperate refusal to accept it, then helpless pain while still trying to reach her. The wound is happening NOW, raw and unfinished. Quiet intensity and grief with nervous inner movement, suspended breath and aching minor harmony. Fragile short rising questions repeatedly fail to resolve, break off, then sink a semitone; the melody tries again against a bass that cannot move forward. Uneven hesitant phrasing, unresolved appoggiaturas, restrained dynamic tension, intimate close musical space. An unsettled moderate pulse inside the music, neither a stately slow procession nor a driving beat. Soft attacks, controlled volume, small ensemble. Keep emotionally wounded and human throughout. Continue with unresolved tension through 25 seconds, natural connected note tails. No funeral march, ceremonial elegy, peaceful remembrance, nostalgic farewell, comforting resolution, graduation song, sweet ballad, hopeful lift, horror sting, jump scare, battle drums or large crescendo. Instrumental only: no voices, choir, speech, heartbeats, rain, wind or sound effects. ",
+        "lyrics": "[Instrumental]",
+        "thinking": false,
+        "use_format": false,
+        "use_cot_caption": false,
+        "use_cot_language": false,
+        "bpm": 72,
+        "key_scale": "F minor",
+        "time_signature": "4",
+        "vocal_language": "unknown",
+        "audio_duration": 25,
+        "inference_steps": 8,
+        "batch_size": 1,
+        "use_random_seed": false,
+        "seed": 3822,
+        "model": "acestep-v15-turbo",
+        "task_type": "text2music",
+        "audio_cover_strength": 1.0,
+        "audio_format": "wav"
+      },
+      "reference_audio": null,
+      "musical_parameters": "BPM, key and instrumentation are generation prompts, not measured or guaranteed.",
+      "processing": {
+        "source_seconds": 25,
+        "excerpt_seconds": 20,
+        "fade_in_seconds": 0.03,
+        "fade_out_seconds": 0.5,
+        "loop_processed": false,
+        "fixed_gain_db": -12.35,
+        "loudness_target_lufs": -27,
+        "limiter_dbfs": -16,
+        "premaster_measurement": {
+          "integrated_lufs": "-14.65",
+          "true_peak_dbtp": "-0.91",
+          "quiet_events": []
+        }
+      },
+      "formally_adopted": false,
+      "game_integrated": false,
+      "task": {
+        "task_id": "32ecc399-6659-4647-af09-f9d32fbb3daf",
+        "status": "queued",
+        "queue_position": 1
+      },
+      "result": {
+        "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5C38276cbc-facf-7ed6-fcf3-7ab41cd03e12.wav",
+        "wave": "",
+        "status": 1,
+        "create_time": 1792132490,
+        "env": "development",
+        "prompt": "Intimate solo piano, a broken interrupted motif reaching upward and failing, unanswered call-and-response between middle and low registers, irregular rests and quiet repeated notes suggesting a hand still trying to wake someone. Painful unresolved minor-second suspensions. Sparse fragments, no flowing arpeggios or regular song chords. Original instrumental dramatic underscore, 25 seconds, the immediate moment of sudden tragic death. Someone loved has just collapsed and cannot answer. Shock, disbelief, desperate refusal to accept it, then helpless pain while still trying to reach her. The wound is happening NOW, raw and unfinished. Quiet intensity and grief with nervous inner movement, suspended breath and aching minor harmony. Fragile short rising questions repeatedly fail to resolve, break off, then sink a semitone; the melody tries again against a bass that cannot move forward. Uneven hesitant phrasing, unresolved appoggiaturas, restrained dynamic tension, intimate close musical space. An unsettled moderate pulse inside the music, neither a stately slow procession nor a driving beat. Soft attacks, controlled volume, small ensemble. Keep emotionally wounded and human throughout. Continue with unresolved tension through 25 seconds, natural connected note tails. No funeral march, ceremonial elegy, peaceful remembrance, nostalgic farewell, comforting resolution, graduation song, sweet ballad, hopeful lift, horror sting, jump scare, battle drums or large crescendo. Instrumental only: no voices, choir, speech, heartbeats, rain, wind or sound effects. ",
+        "lyrics": "[Instrumental]",
+        "metas": {
+          "bpm": 72,
+          "duration": 25.0,
+          "genres": "N/A",
+          "keyscale": "F minor",
+          "timesignature": "4",
+          "prompt": "Intimate solo piano, a broken interrupted motif reaching upward and failing, unanswered call-and-response between middle and low registers, irregular rests and quiet repeated notes suggesting a hand still trying to wake someone. Painful unresolved minor-second suspensions. Sparse fragments, no flowing arpeggios or regular song chords. Original instrumental dramatic underscore, 25 seconds, the immediate moment of sudden tragic death. Someone loved has just collapsed and cannot answer. Shock, disbelief, desperate refusal to accept it, then helpless pain while still trying to reach her. The wound is happening NOW, raw and unfinished. Quiet intensity and grief with nervous inner movement, suspended breath and aching minor harmony. Fragile short rising questions repeatedly fail to resolve, break off, then sink a semitone; the melody tries again against a bass that cannot move forward. Uneven hesitant phrasing, unresolved appoggiaturas, restrained dynamic tension, intimate close musical space. An unsettled moderate pulse inside the music, neither a stately slow procession nor a driving beat. Soft attacks, controlled volume, small ensemble. Keep emotionally wounded and human throughout. Continue with unresolved tension through 25 seconds, natural connected note tails. No funeral march, ceremonial elegy, peaceful remembrance, nostalgic farewell, comforting resolution, graduation song, sweet ballad, hopeful lift, horror sting, jump scare, battle drums or large crescendo. Instrumental only: no voices, choir, speech, heartbeats, rain, wind or sound effects. ",
+          "lyrics": "[Instrumental]"
+        },
+        "generation_info": "**🎵 Total generation time (1 song): 2.09s**\n- 2.09s per song\n- DiT phase (1 song): 2.09s",
+        "seed_value": "3822",
+        "lm_model": "acestep-5Hz-lm-0.6B",
+        "dit_model": "acestep-v15-turbo",
+        "progress": 1.0,
+        "stage": "succeeded"
+      },
+      "raw_wav": {
+        "file": "candidate_02_broken_piano_seed3822_take03_raw.wav",
+        "sha256": "a886e4bc9ce461bb9314e1607b93aa190b753ebf773da4e9550f54d22bda850d",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "25.000000"
+          }
+        }
+      },
+      "master_wav": {
+        "file": "candidate_02_broken_piano_seed3822_take03.wav",
+        "sha256": "ec007e30a6ff0f9ade3b79c69bc09908a9e0d4f6ea38e055e84077be2a6d0ac0",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "20.000000"
+          }
+        }
+      },
+      "premaster_ogg": {
+        "file": "candidate_02_broken_piano_seed3822_take03_premaster.ogg",
+        "sha256": "7c991c528ac2e09e0f160d9869c51f45e86e18c3cf1d123b18288b9a4b25df68",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "20.000000"
+          }
+        }
+      },
+      "ogg": {
+        "file": "candidate_02_broken_piano_seed3822_take03.ogg",
+        "sha256": "094b26947880e16e03e059bef7aaa41a4e680308c1ee6541eb1d0b40a1be9853",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "20.000000"
+          }
+        }
+      },
+      "technical_measurements": {
+        "integrated_lufs": "-27.57",
+        "true_peak_dbtp": "-15.79",
+        "quiet_events": [
+          "[Parsed_silencedetect_0 @ 000002b0db8c5480] silence_start: 2.809841",
+          "[Parsed_silencedetect_0 @ 000002b0db8c5480] silence_end: 5.777438 | silence_duration: 2.967596",
+          "[Parsed_silencedetect_0 @ 000002b0db8c5480] silence_start: 8.575692",
+          "[Parsed_silencedetect_0 @ 000002b0db8c5480] silence_end: 11.520794 | silence_duration: 2.945102"
+        ]
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "cue": "BGM11_LOSS_AND_REWIND",
+      "label": "停在那一刻",
+      "revision": "take03",
+      "status": "awaiting user short selection",
+      "request": {
+        "prompt": "Small viola and cello ensemble with very soft measured tremolo under an exposed, fragile aching string fragment. The upper voice reaches upward in disbelief, holds a strained suspension and falls back without release. Internal agitation held at low volume, stunned grief and powerlessness. No grand orchestral lament or broad singing solo. Original instrumental dramatic underscore, 25 seconds, the immediate moment of sudden tragic death. Someone loved has just collapsed and cannot answer. Shock, disbelief, desperate refusal to accept it, then helpless pain while still trying to reach her. The wound is happening NOW, raw and unfinished. Quiet intensity and grief with nervous inner movement, suspended breath and aching minor harmony. Fragile short rising questions repeatedly fail to resolve, break off, then sink a semitone; the melody tries again against a bass that cannot move forward. Uneven hesitant phrasing, unresolved appoggiaturas, restrained dynamic tension, intimate close musical space. An unsettled moderate pulse inside the music, neither a stately slow procession nor a driving beat. Soft attacks, controlled volume, small ensemble. Keep emotionally wounded and human throughout. Continue with unresolved tension through 25 seconds, natural connected note tails. No funeral march, ceremonial elegy, peaceful remembrance, nostalgic farewell, comforting resolution, graduation song, sweet ballad, hopeful lift, horror sting, jump scare, battle drums or large crescendo. Instrumental only: no voices, choir, speech, heartbeats, rain, wind or sound effects. ",
+        "lyrics": "[Instrumental]",
+        "thinking": false,
+        "use_format": false,
+        "use_cot_caption": false,
+        "use_cot_language": false,
+        "bpm": 64,
+        "key_scale": "F minor",
+        "time_signature": "4",
+        "vocal_language": "unknown",
+        "audio_duration": 25,
+        "inference_steps": 8,
+        "batch_size": 1,
+        "use_random_seed": false,
+        "seed": 3823,
+        "model": "acestep-v15-turbo",
+        "task_type": "text2music",
+        "audio_cover_strength": 1.0,
+        "audio_format": "wav"
+      },
+      "reference_audio": null,
+      "musical_parameters": "BPM, key and instrumentation are generation prompts, not measured or guaranteed.",
+      "processing": {
+        "source_seconds": 25,
+        "excerpt_seconds": 20,
+        "fade_in_seconds": 0.03,
+        "fade_out_seconds": 0.5,
+        "loop_processed": false,
+        "fixed_gain_db": -12.46,
+        "loudness_target_lufs": -27,
+        "limiter_dbfs": -16,
+        "premaster_measurement": {
+          "integrated_lufs": "-14.54",
+          "true_peak_dbtp": "-0.98",
+          "quiet_events": [
+            "[Parsed_silencedetect_0 @ 0000015f5f5c8580] silence_start: 6.498662",
+            "[Parsed_silencedetect_0 @ 0000015f5f5c8580] silence_end: 10.173515 | silence_duration: 3.674853"
+          ]
+        }
+      },
+      "formally_adopted": false,
+      "game_integrated": false,
+      "task": {
+        "task_id": "2be91fd9-0302-4f20-9733-b003f007111c",
+        "status": "queued",
+        "queue_position": 1
+      },
+      "result": {
+        "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5C37250dfd-cea2-ad4c-ab18-d57ec521bd2a.wav",
+        "wave": "",
+        "status": 1,
+        "create_time": 1792132499,
+        "env": "development",
+        "prompt": "Small viola and cello ensemble with very soft measured tremolo under an exposed, fragile aching string fragment. The upper voice reaches upward in disbelief, holds a strained suspension and falls back without release. Internal agitation held at low volume, stunned grief and powerlessness. No grand orchestral lament or broad singing solo. Original instrumental dramatic underscore, 25 seconds, the immediate moment of sudden tragic death. Someone loved has just collapsed and cannot answer. Shock, disbelief, desperate refusal to accept it, then helpless pain while still trying to reach her. The wound is happening NOW, raw and unfinished. Quiet intensity and grief with nervous inner movement, suspended breath and aching minor harmony. Fragile short rising questions repeatedly fail to resolve, break off, then sink a semitone; the melody tries again against a bass that cannot move forward. Uneven hesitant phrasing, unresolved appoggiaturas, restrained dynamic tension, intimate close musical space. An unsettled moderate pulse inside the music, neither a stately slow procession nor a driving beat. Soft attacks, controlled volume, small ensemble. Keep emotionally wounded and human throughout. Continue with unresolved tension through 25 seconds, natural connected note tails. No funeral march, ceremonial elegy, peaceful remembrance, nostalgic farewell, comforting resolution, graduation song, sweet ballad, hopeful lift, horror sting, jump scare, battle drums or large crescendo. Instrumental only: no voices, choir, speech, heartbeats, rain, wind or sound effects. ",
+        "lyrics": "[Instrumental]",
+        "metas": {
+          "bpm": 64,
+          "duration": 25.0,
+          "genres": "N/A",
+          "keyscale": "F minor",
+          "timesignature": "4",
+          "prompt": "Small viola and cello ensemble with very soft measured tremolo under an exposed, fragile aching string fragment. The upper voice reaches upward in disbelief, holds a strained suspension and falls back without release. Internal agitation held at low volume, stunned grief and powerlessness. No grand orchestral lament or broad singing solo. Original instrumental dramatic underscore, 25 seconds, the immediate moment of sudden tragic death. Someone loved has just collapsed and cannot answer. Shock, disbelief, desperate refusal to accept it, then helpless pain while still trying to reach her. The wound is happening NOW, raw and unfinished. Quiet intensity and grief with nervous inner movement, suspended breath and aching minor harmony. Fragile short rising questions repeatedly fail to resolve, break off, then sink a semitone; the melody tries again against a bass that cannot move forward. Uneven hesitant phrasing, unresolved appoggiaturas, restrained dynamic tension, intimate close musical space. An unsettled moderate pulse inside the music, neither a stately slow procession nor a driving beat. Soft attacks, controlled volume, small ensemble. Keep emotionally wounded and human throughout. Continue with unresolved tension through 25 seconds, natural connected note tails. No funeral march, ceremonial elegy, peaceful remembrance, nostalgic farewell, comforting resolution, graduation song, sweet ballad, hopeful lift, horror sting, jump scare, battle drums or large crescendo. Instrumental only: no voices, choir, speech, heartbeats, rain, wind or sound effects. ",
+          "lyrics": "[Instrumental]"
+        },
+        "generation_info": "**🎵 Total generation time (1 song): 1.89s**\n- 1.89s per song\n- DiT phase (1 song): 1.89s",
+        "seed_value": "3823",
+        "lm_model": "acestep-5Hz-lm-0.6B",
+        "dit_model": "acestep-v15-turbo",
+        "progress": 1.0,
+        "stage": "succeeded"
+      },
+      "raw_wav": {
+        "file": "candidate_03_trembling_strings_seed3823_take03_raw.wav",
+        "sha256": "764e3cb723d3721e138211aa2fb5dcede0ba2f0de54dcba8bc142a26c88effc7",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "25.000000"
+          }
+        }
+      },
+      "master_wav": {
+        "file": "candidate_03_trembling_strings_seed3823_take03.wav",
+        "sha256": "b174659d8bb0c9861959646e6d1b1a591ea1d021e44f50ae1d298614ab0fcf4d",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "20.000000"
+          }
+        }
+      },
+      "premaster_ogg": {
+        "file": "candidate_03_trembling_strings_seed3823_take03_premaster.ogg",
+        "sha256": "f0e44fd1bc5941c8d92cf4830458db067d9c1f61247340a3c84421a54964c325",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "20.000000"
+          }
+        }
+      },
+      "ogg": {
+        "file": "candidate_03_trembling_strings_seed3823_take03.ogg",
+        "sha256": "03d6d0a88a0713b0ce7affcc35fe9c4ec415969a12d72e15a132d9f73850ce7a",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "20.000000"
+          }
+        }
+      },
+      "technical_measurements": {
+        "integrated_lufs": "-27.75",
+        "true_peak_dbtp": "-15.81",
+        "quiet_events": [
+          "[Parsed_silencedetect_0 @ 000002bf33e11ec0] silence_start: 5.9261",
+          "[Parsed_silencedetect_0 @ 000002bf33e11ec0] silence_end: 10.186122 | silence_duration: 4.260023"
+        ]
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "cue": "BGM11_LOSS_AND_REWIND",
+      "label": "還不能放手",
+      "revision": "take03",
+      "status": "awaiting user short selection",
+      "request": {
+        "prompt": "Piano and close dry cello duet, an insistent but quiet three-note plea returns with uneven spacing, each time slightly altered and left hanging. A soft low piano pulse hesitates and drops out while cello sustains a painful unresolved minor ninth. Desperate grief held inside, wanting to act but unable to save her; no cello virtuoso melody. Original instrumental dramatic underscore, 25 seconds, the immediate moment of sudden tragic death. Someone loved has just collapsed and cannot answer. Shock, disbelief, desperate refusal to accept it, then helpless pain while still trying to reach her. The wound is happening NOW, raw and unfinished. Quiet intensity and grief with nervous inner movement, suspended breath and aching minor harmony. Fragile short rising questions repeatedly fail to resolve, break off, then sink a semitone; the melody tries again against a bass that cannot move forward. Uneven hesitant phrasing, unresolved appoggiaturas, restrained dynamic tension, intimate close musical space. An unsettled moderate pulse inside the music, neither a stately slow procession nor a driving beat. Soft attacks, controlled volume, small ensemble. Keep emotionally wounded and human throughout. Continue with unresolved tension through 25 seconds, natural connected note tails. No funeral march, ceremonial elegy, peaceful remembrance, nostalgic farewell, comforting resolution, graduation song, sweet ballad, hopeful lift, horror sting, jump scare, battle drums or large crescendo. Instrumental only: no voices, choir, speech, heartbeats, rain, wind or sound effects. ",
+        "lyrics": "[Instrumental]",
+        "thinking": false,
+        "use_format": false,
+        "use_cot_caption": false,
+        "use_cot_language": false,
+        "bpm": 76,
+        "key_scale": "F minor",
+        "time_signature": "4",
+        "vocal_language": "unknown",
+        "audio_duration": 25,
+        "inference_steps": 8,
+        "batch_size": 1,
+        "use_random_seed": false,
+        "seed": 3824,
+        "model": "acestep-v15-turbo",
+        "task_type": "text2music",
+        "audio_cover_strength": 1.0,
+        "audio_format": "wav"
+      },
+      "reference_audio": null,
+      "musical_parameters": "BPM, key and instrumentation are generation prompts, not measured or guaranteed.",
+      "processing": {
+        "source_seconds": 25,
+        "excerpt_seconds": 20,
+        "fade_in_seconds": 0.03,
+        "fade_out_seconds": 0.5,
+        "loop_processed": false,
+        "fixed_gain_db": -10.64,
+        "loudness_target_lufs": -27,
+        "limiter_dbfs": -16,
+        "premaster_measurement": {
+          "integrated_lufs": "-16.36",
+          "true_peak_dbtp": "-0.96",
+          "quiet_events": []
+        }
+      },
+      "formally_adopted": false,
+      "game_integrated": false,
+      "task": {
+        "task_id": "ba541abb-6ace-4a08-bbd2-6efbdaec2acf",
+        "status": "queued",
+        "queue_position": 1
+      },
+      "result": {
+        "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5Cb5207234-f43c-feea-e08c-c690b9f0947d.wav",
+        "wave": "",
+        "status": 1,
+        "create_time": 1792132509,
+        "env": "development",
+        "prompt": "Piano and close dry cello duet, an insistent but quiet three-note plea returns with uneven spacing, each time slightly altered and left hanging. A soft low piano pulse hesitates and drops out while cello sustains a painful unresolved minor ninth. Desperate grief held inside, wanting to act but unable to save her; no cello virtuoso melody. Original instrumental dramatic underscore, 25 seconds, the immediate moment of sudden tragic death. Someone loved has just collapsed and cannot answer. Shock, disbelief, desperate refusal to accept it, then helpless pain while still trying to reach her. The wound is happening NOW, raw and unfinished. Quiet intensity and grief with nervous inner movement, suspended breath and aching minor harmony. Fragile short rising questions repeatedly fail to resolve, break off, then sink a semitone; the melody tries again against a bass that cannot move forward. Uneven hesitant phrasing, unresolved appoggiaturas, restrained dynamic tension, intimate close musical space. An unsettled moderate pulse inside the music, neither a stately slow procession nor a driving beat. Soft attacks, controlled volume, small ensemble. Keep emotionally wounded and human throughout. Continue with unresolved tension through 25 seconds, natural connected note tails. No funeral march, ceremonial elegy, peaceful remembrance, nostalgic farewell, comforting resolution, graduation song, sweet ballad, hopeful lift, horror sting, jump scare, battle drums or large crescendo. Instrumental only: no voices, choir, speech, heartbeats, rain, wind or sound effects. ",
+        "lyrics": "[Instrumental]",
+        "metas": {
+          "bpm": 76,
+          "duration": 25.0,
+          "genres": "N/A",
+          "keyscale": "F minor",
+          "timesignature": "4",
+          "prompt": "Piano and close dry cello duet, an insistent but quiet three-note plea returns with uneven spacing, each time slightly altered and left hanging. A soft low piano pulse hesitates and drops out while cello sustains a painful unresolved minor ninth. Desperate grief held inside, wanting to act but unable to save her; no cello virtuoso melody. Original instrumental dramatic underscore, 25 seconds, the immediate moment of sudden tragic death. Someone loved has just collapsed and cannot answer. Shock, disbelief, desperate refusal to accept it, then helpless pain while still trying to reach her. The wound is happening NOW, raw and unfinished. Quiet intensity and grief with nervous inner movement, suspended breath and aching minor harmony. Fragile short rising questions repeatedly fail to resolve, break off, then sink a semitone; the melody tries again against a bass that cannot move forward. Uneven hesitant phrasing, unresolved appoggiaturas, restrained dynamic tension, intimate close musical space. An unsettled moderate pulse inside the music, neither a stately slow procession nor a driving beat. Soft attacks, controlled volume, small ensemble. Keep emotionally wounded and human throughout. Continue with unresolved tension through 25 seconds, natural connected note tails. No funeral march, ceremonial elegy, peaceful remembrance, nostalgic farewell, comforting resolution, graduation song, sweet ballad, hopeful lift, horror sting, jump scare, battle drums or large crescendo. Instrumental only: no voices, choir, speech, heartbeats, rain, wind or sound effects. ",
+          "lyrics": "[Instrumental]"
+        },
+        "generation_info": "**🎵 Total generation time (1 song): 1.69s**\n- 1.69s per song\n- DiT phase (1 song): 1.69s",
+        "seed_value": "3824",
+        "lm_model": "acestep-5Hz-lm-0.6B",
+        "dit_model": "acestep-v15-turbo",
+        "progress": 1.0,
+        "stage": "succeeded"
+      },
+      "raw_wav": {
+        "file": "candidate_04_cello_piano_plea_seed3824_take03_raw.wav",
+        "sha256": "879011353cbd426928030607bf171c97ef104df03140cab1a28eb3f15775c58d",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "25.000000"
+          }
+        }
+      },
+      "master_wav": {
+        "file": "candidate_04_cello_piano_plea_seed3824_take03.wav",
+        "sha256": "00b59ddd2d7a324d1056784199daa2c0dfc03bfb439e9a41b39fa1dde6a5e7f3",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "20.000000"
+          }
+        }
+      },
+      "premaster_ogg": {
+        "file": "candidate_04_cello_piano_plea_seed3824_take03_premaster.ogg",
+        "sha256": "9bff7f745a885ec28590f544cc0f77c2d914f6d3903ad328a81a857775a98efb",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "20.000000"
+          }
+        }
+      },
+      "ogg": {
+        "file": "candidate_04_cello_piano_plea_seed3824_take03.ogg",
+        "sha256": "2aa7a49341bd12da7cb363a80faea34232a9f0be12086141655022c9299c2d88",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "20.000000"
+          }
+        }
+      },
+      "technical_measurements": {
+        "integrated_lufs": "-27.73",
+        "true_peak_dbtp": "-15.74",
+        "quiet_events": []
+      }
+    }
+  ]
+}

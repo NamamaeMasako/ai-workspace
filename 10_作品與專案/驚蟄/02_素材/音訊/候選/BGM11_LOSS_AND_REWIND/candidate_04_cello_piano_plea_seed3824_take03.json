@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM11_LOSS_AND_REWIND",
+  "label": "還不能放手",
+  "revision": "take03",
+  "status": "awaiting user short selection",
+  "request": {
+    "prompt": "Piano and close dry cello duet, an insistent but quiet three-note plea returns with uneven spacing, each time slightly altered and left hanging. A soft low piano pulse hesitates and drops out while cello sustains a painful unresolved minor ninth. Desperate grief held inside, wanting to act but unable to save her; no cello virtuoso melody. Original instrumental dramatic underscore, 25 seconds, the immediate moment of sudden tragic death. Someone loved has just collapsed and cannot answer. Shock, disbelief, desperate refusal to accept it, then helpless pain while still trying to reach her. The wound is happening NOW, raw and unfinished. Quiet intensity and grief with nervous inner movement, suspended breath and aching minor harmony. Fragile short rising questions repeatedly fail to resolve, break off, then sink a semitone; the melody tries again against a bass that cannot move forward. Uneven hesitant phrasing, unresolved appoggiaturas, restrained dynamic tension, intimate close musical space. An unsettled moderate pulse inside the music, neither a stately slow procession nor a driving beat. Soft attacks, controlled volume, small ensemble. Keep emotionally wounded and human throughout. Continue with unresolved tension through 25 seconds, natural connected note tails. No funeral march, ceremonial elegy, peaceful remembrance, nostalgic farewell, comforting resolution, graduation song, sweet ballad, hopeful lift, horror sting, jump scare, battle drums or large crescendo. Instrumental only: no voices, choir, speech, heartbeats, rain, wind or sound effects. ",
+    "lyrics": "[Instrumental]",
+    "thinking": false,
+    "use_format": false,
+    "use_cot_caption": false,
+    "use_cot_language": false,
+    "bpm": 76,
+    "key_scale": "F minor",
+    "time_signature": "4",
+    "vocal_language": "unknown",
+    "audio_duration": 25,
+    "inference_steps": 8,
+    "batch_size": 1,
+    "use_random_seed": false,
+    "seed": 3824,
+    "model": "acestep-v15-turbo",
+    "task_type": "text2music",
+    "audio_cover_strength": 1.0,
+    "audio_format": "wav"
+  },
+  "reference_audio": null,
+  "musical_parameters": "BPM, key and instrumentation are generation prompts, not measured or guaranteed.",
+  "processing": {
+    "source_seconds": 25,
+    "excerpt_seconds": 20,
+    "fade_in_seconds": 0.03,
+    "fade_out_seconds": 0.5,
+    "loop_processed": false,
+    "fixed_gain_db": -10.64,
+    "loudness_target_lufs": -27,
+    "limiter_dbfs": -16,
+    "premaster_measurement": {
+      "integrated_lufs": "-16.36",
+      "true_peak_dbtp": "-0.96",
+      "quiet_events": []
+    }
+  },
+  "formally_adopted": false,
+  "game_integrated": false,
+  "task": {
+    "task_id": "ba541abb-6ace-4a08-bbd2-6efbdaec2acf",
+    "status": "queued",
+    "queue_position": 1
+  },
+  "result": {
+    "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5Cb5207234-f43c-feea-e08c-c690b9f0947d.wav",
+    "wave": "",
+    "status": 1,
+    "create_time": 1792132509,
+    "env": "development",
+    "prompt": "Piano and close dry cello duet, an insistent but quiet three-note plea returns with uneven spacing, each time slightly altered and left hanging. A soft low piano pulse hesitates and drops out while cello sustains a painful unresolved minor ninth. Desperate grief held inside, wanting to act but unable to save her; no cello virtuoso melody. Original instrumental dramatic underscore, 25 seconds, the immediate moment of sudden tragic death. Someone loved has just collapsed and cannot answer. Shock, disbelief, desperate refusal to accept it, then helpless pain while still trying to reach her. The wound is happening NOW, raw and unfinished. Quiet intensity and grief with nervous inner movement, suspended breath and aching minor harmony. Fragile short rising questions repeatedly fail to resolve, break off, then sink a semitone; the melody tries again against a bass that cannot move forward. Uneven hesitant phrasing, unresolved appoggiaturas, restrained dynamic tension, intimate close musical space. An unsettled moderate pulse inside the music, neither a stately slow procession nor a driving beat. Soft attacks, controlled volume, small ensemble. Keep emotionally wounded and human throughout. Continue with unresolved tension through 25 seconds, natural connected note tails. No funeral march, ceremonial elegy, peaceful remembrance, nostalgic farewell, comforting resolution, graduation song, sweet ballad, hopeful lift, horror sting, jump scare, battle drums or large crescendo. Instrumental only: no voices, choir, speech, heartbeats, rain, wind or sound effects. ",
+    "lyrics": "[Instrumental]",
+    "metas": {
+      "bpm": 76,
+      "duration": 25.0,
+      "genres": "N/A",
+      "keyscale": "F minor",
+      "timesignature": "4",
+      "prompt": "Piano and close dry cello duet, an insistent but quiet three-note plea returns with uneven spacing, each time slightly altered and left hanging. A soft low piano pulse hesitates and drops out while cello sustains a painful unresolved minor ninth. Desperate grief held inside, wanting to act but unable to save her; no cello virtuoso melody. Original instrumental dramatic underscore, 25 seconds, the immediate moment of sudden tragic death. Someone loved has just collapsed and cannot answer. Shock, disbelief, desperate refusal to accept it, then helpless pain while still trying to reach her. The wound is happening NOW, raw and unfinished. Quiet intensity and grief with nervous inner movement, suspended breath and aching minor harmony. Fragile short rising questions repeatedly fail to resolve, break off, then sink a semitone; the melody tries again against a bass that cannot move forward. Uneven hesitant phrasing, unresolved appoggiaturas, restrained dynamic tension, intimate close musical space. An unsettled moderate pulse inside the music, neither a stately slow procession nor a driving beat. Soft attacks, controlled volume, small ensemble. Keep emotionally wounded and human throughout. Continue with unresolved tension through 25 seconds, natural connected note tails. No funeral march, ceremonial elegy, peaceful remembrance, nostalgic farewell, comforting resolution, graduation song, sweet ballad, hopeful lift, horror sting, jump scare, battle drums or large crescendo. Instrumental only: no voices, choir, speech, heartbeats, rain, wind or sound effects. ",
+      "lyrics": "[Instrumental]"
+    },
+    "generation_info": "**🎵 Total generation time (1 song): 1.69s**\n- 1.69s per song\n- DiT phase (1 song): 1.69s",
+    "seed_value": "3824",
+    "lm_model": "acestep-5Hz-lm-0.6B",
+    "dit_model": "acestep-v15-turbo",
+    "progress": 1.0,
+    "stage": "succeeded"
+  },
+  "raw_wav": {
+    "file": "candidate_04_cello_piano_plea_seed3824_take03_raw.wav",
+    "sha256": "879011353cbd426928030607bf171c97ef104df03140cab1a28eb3f15775c58d",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "25.000000"
+      }
+    }
+  },
+  "master_wav": {
+    "file": "candidate_04_cello_piano_plea_seed3824_take03.wav",
+    "sha256": "00b59ddd2d7a324d1056784199daa2c0dfc03bfb439e9a41b39fa1dde6a5e7f3",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "premaster_ogg": {
+    "file": "candidate_04_cello_piano_plea_seed3824_take03_premaster.ogg",
+    "sha256": "9bff7f745a885ec28590f544cc0f77c2d914f6d3903ad328a81a857775a98efb",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "ogg": {
+    "file": "candidate_04_cello_piano_plea_seed3824_take03.ogg",
+    "sha256": "2aa7a49341bd12da7cb363a80faea34232a9f0be12086141655022c9299c2d88",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "technical_measurements": {
+    "integrated_lufs": "-27.73",
+    "true_peak_dbtp": "-15.74",
+    "quiet_events": []
+  }
+}

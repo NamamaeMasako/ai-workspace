@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-16",
+  "files": [
+    {
+      "file": "candidate_01_piano_strings_denial_seed3831_take03.ogg",
+      "integrated_lufs": "-27.64",
+      "true_peak_dbtp": "-15.68",
+      "quiet_events": []
+    },
+    {
+      "file": "candidate_02_broken_piano_seed3822_take03.ogg",
+      "integrated_lufs": "-27.57",
+      "true_peak_dbtp": "-15.79",
+      "quiet_events": [
+        "[Parsed_silencedetect_0 @ 000002b0db8c5480] silence_start: 2.809841",
+        "[Parsed_silencedetect_0 @ 000002b0db8c5480] silence_end: 5.777438 | silence_duration: 2.967596",
+        "[Parsed_silencedetect_0 @ 000002b0db8c5480] silence_start: 8.575692",
+        "[Parsed_silencedetect_0 @ 000002b0db8c5480] silence_end: 11.520794 | silence_duration: 2.945102"
+      ]
+    },
+    {
+      "file": "candidate_03_trembling_strings_seed3833_take03.ogg",
+      "integrated_lufs": "-27.80",
+      "true_peak_dbtp": "-15.70",
+      "quiet_events": []
+    },
+    {
+      "file": "candidate_04_cello_piano_plea_seed3824_take03.ogg",
+      "integrated_lufs": "-27.73",
+      "true_peak_dbtp": "-15.74",
+      "quiet_events": []
+    }
+  ]
+}
