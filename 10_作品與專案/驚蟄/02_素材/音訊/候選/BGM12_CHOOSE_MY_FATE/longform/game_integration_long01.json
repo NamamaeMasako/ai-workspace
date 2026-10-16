@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM12_CHOOSE_MY_FATE",
+  "user_instruction": "套進遊戲試試",
+  "status": "integrated_for_scene_audition_pending_user_confirmation",
+  "source_loop": "long_01_natural_phrase_cello_piano_cost_seed3914_loop_intro.ogg",
+  "game_file": "03_開發/JingZhe/game/audio/music/bgm_choose_my_fate.ogg",
+  "sha256": "836978cc9d0b0ba844d5e35427a6ce7be6fcda134c41db9a9ecc58202e04779e",
+  "matches_loop_source": true,
+  "playback": {
+    "channel": "music",
+    "loop_start_seconds": 3,
+    "initial_seconds": 60,
+    "repeat_period_seconds": 57,
+    "fadein_seconds": 0.8,
+    "fadeout_previous_seconds": 0.5,
+    "per_file_volume": 1.0,
+    "user_music_settings_unchanged": true
+  },
+  "entry": {
+    "label": "chapter_8_true_end",
+    "line": 2087,
+    "rule": "只在選下「把卡留給自己」後起曲",
+    "pre_choice": "chapter_8_choice 入口 stop music，選項前保持無 BGM"
+  },
+  "extent": "留卡、交代兩人留下、告別、獨自出發及苦香準備，直到真正交戰切既有 BGM06。",
+  "battle_transition": "原第八章 BGM06 入口 fadeout 1.5／fadein 0.5 保留，未更動戰鬥曲或音量。",
+  "launch": {
+    "basedir_type": "development",
+    "warp": "script.rpy:2090",
+    "opening_text": "花見：怎麼了？你臉色很差。",
+    "process_id": 12772,
+    "visible_window": true,
+    "runtime_file": "game_runtime_long01_initial.json",
+    "screenshot": "game_scene_long01_initial.png",
+    "observation": "指定開發 basedir，新檔播放中、位置已前進、音樂和全域未靜音、通道及單檔相對音量 1.0，ambience 空；初始畫面已檢視。"
+  },
+  "runtime_snapshot": {
+    "audio_sha256": "836978cc9d0b0ba844d5e35427a6ce7be6fcda134c41db9a9ecc58202e04779e",
+    "timestamp": 1792140362.9656646,
+    "basedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe",
+    "gamedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe\\game",
+    "location": [
+      "game/script.rpy",
+      2152
+    ],
+    "playing": "<loop 3.0>audio/music/bgm_choose_my_fate.ogg",
+    "position": 5.634,
+    "relative_volume": 1.0,
+    "music_volume": 1.0,
+    "music_muted": false,
+    "master_muted": false,
+    "ambience": null
+  },
+  "scope_limit": "實際觀察選後場景與新曲播放；選項前靜音由程式接點確認，未宣稱已人工走完選項點擊、告別至戰鬥及循環的完整聽感驗收。",
+  "formally_adopted": false,
+  "release_rebuilt": false,
+  "version_changed": false
+}

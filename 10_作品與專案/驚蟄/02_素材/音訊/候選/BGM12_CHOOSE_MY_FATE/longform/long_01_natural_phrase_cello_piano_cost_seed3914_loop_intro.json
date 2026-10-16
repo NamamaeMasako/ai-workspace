@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM12_CHOOSE_MY_FATE",
+  "status": "selected for game audition; scene and loop confirmation pending",
+  "user_instruction": "套進遊戲試試",
+  "source": {
+    "file": "long_01_natural_phrase_cello_piano_cost_seed3914.wav",
+    "sha256": "1916fd3235316c85db6b9592c159e5fd66f9b1bf7785b9ab7dd3b77aeb356ec5"
+  },
+  "processing": {
+    "new_generation": false,
+    "unchanged_opening_seconds": 57,
+    "tail_crossfade_seconds": 3,
+    "crossfade_curve": "smoothstep convex",
+    "duration_seconds": 60,
+    "renpy_loop_start_seconds": 3.0,
+    "repeat_period_seconds": 57,
+    "period_basis": "Three-second crossfade selected to preserve the first 57 seconds of the audition; no measured beat alignment is claimed.",
+    "unchanged_opening_pcm_max_error": 0.0,
+    "pcm_boundary_step": 0.0014921724796295166
+  },
+  "wav": {
+    "file": "long_01_natural_phrase_cello_piano_cost_seed3914_loop_intro.wav",
+    "sha256": "c517be00f5dc4e223780f26102e3619f503e21584547b627cfc4bc2822f88088"
+  },
+  "ogg": {
+    "file": "long_01_natural_phrase_cello_piano_cost_seed3914_loop_intro.ogg",
+    "sha256": "836978cc9d0b0ba844d5e35427a6ce7be6fcda134c41db9a9ecc58202e04779e",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "60.000000"
+      }
+    }
+  },
+  "technical_check": {
+    "decode": "passed without diagnostics",
+    "integrated_lufs": "-30.08",
+    "true_peak_dbtp": "-15.55",
+    "quiet_events": []
+  },
+  "producer": {
+    "file": "prepare_long_01_loop.py",
+    "sha256": "30fc653192756531633f2e65f8f889dd5c308b64ec54b58111ab414b0afcb76d"
+  }
+}

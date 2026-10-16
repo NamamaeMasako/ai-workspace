@@ -2053,6 +2053,8 @@ label chapter_7_yumemi_2:
 
     jump chapter_8_choice
 label chapter_8_choice:
+    stop music
+
     scene bg inn_hall_evening
     with dissolve
 
@@ -2082,6 +2084,8 @@ label chapter_8_choice:
         "把卡留給自己":
             jump chapter_8_true_end
 label chapter_8_true_end:
+    play music "<loop 3.0>audio/music/bgm_choose_my_fate.ogg" loop fadeout 0.5 fadein 0.8
+
     show hanami concerned at zh_far_left
     hanami "怎麼了？你臉色很差。"
 

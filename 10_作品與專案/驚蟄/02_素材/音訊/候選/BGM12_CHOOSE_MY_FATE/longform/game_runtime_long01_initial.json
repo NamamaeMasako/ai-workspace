@@ -1,0 +1,17 @@
+{
+  "audio_sha256": "836978cc9d0b0ba844d5e35427a6ce7be6fcda134c41db9a9ecc58202e04779e",
+  "timestamp": 1792140362.9656646,
+  "basedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe",
+  "gamedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe\\game",
+  "location": [
+    "game/script.rpy",
+    2152
+  ],
+  "playing": "<loop 3.0>audio/music/bgm_choose_my_fate.ogg",
+  "position": 5.634,
+  "relative_volume": 1.0,
+  "music_volume": 1.0,
+  "music_muted": false,
+  "master_muted": false,
+  "ambience": null
+}
