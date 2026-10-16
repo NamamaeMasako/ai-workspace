@@ -1,0 +1,159 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM13_HOLD_ON",
+  "label": "還有一口氣",
+  "revision": "take01",
+  "status": "awaiting user short selection",
+  "request": {
+    "prompt": "Low soft piano and restrained cello, a short wavering two-note question hangs against a suspended minor chord. The cello keeps a thin sustained line alive under uneven piano returns. Delicate physical weakness and aching urgency, no flowing arpeggios or broad elegy. Original instrumental dramatic underscore for a dark fantasy visual novel, 25 seconds. After battle the protagonist is critically wounded, losing blood and struggling to remain conscious. His two companions arrive, terrified of losing him, trying to keep him here. One tries to tear a protective card to save him; he weakly stops her because he refuses another reset. He is still alive, very fragile and in danger. Exhaustion, pain, restrained urgency and human closeness. The music holds a thin thread of life: aching suspended minor harmony, a faltering small motif that keeps trying to answer, a quiet hesitant musical pulse with gentle forward tension. Small low-to-middle register ensemble, very soft attacks, controlled dynamics, sustained connected resonance beneath sparse phrases. A fragile possibility of rescue remains unresolved. Keep wounded vulnerability and danger present from the opening, without announcing death or recovery. Continuous quiet musical presence for all 25 seconds, natural note tails, no long silent middle. No funeral march, settled bereavement, warm nostalgic farewell, comforting daily-life mood, graduation song, sweet romantic melody, major-key hopeful lift, relaxed swaying accompaniment, heroic climax, battle drums, horror stings or early ending. Only instrumental music: no voice, choir, literal breathing or heartbeat effects, rain, wind or other sounds. ",
+    "lyrics": "[Instrumental]",
+    "thinking": false,
+    "use_format": false,
+    "use_cot_caption": false,
+    "use_cot_language": false,
+    "bpm": 56,
+    "key_scale": "E minor",
+    "time_signature": "4",
+    "vocal_language": "unknown",
+    "audio_duration": 25,
+    "inference_steps": 8,
+    "batch_size": 1,
+    "use_random_seed": false,
+    "seed": 4001,
+    "model": "acestep-v15-turbo",
+    "task_type": "text2music",
+    "audio_cover_strength": 1.0,
+    "audio_format": "wav"
+  },
+  "reference_audio": null,
+  "musical_parameters": "BPM, key and instrumentation are generation prompts, not measured or guaranteed.",
+  "processing": {
+    "source_seconds": 25,
+    "excerpt_seconds": 20,
+    "fade_in_seconds": 0.03,
+    "fade_out_seconds": 0.5,
+    "loop_processed": false,
+    "fixed_gain_db": -10.579999999999998,
+    "loudness_target_lufs": -27,
+    "limiter_dbfs": -16,
+    "premaster_measurement": {
+      "integrated_lufs": "-16.42",
+      "true_peak_dbtp": "-1.00",
+      "quiet_events": [
+        "[Parsed_silencedetect_0 @ 000001b53c316880] silence_start: 19.488277",
+        "[Parsed_silencedetect_0 @ 000001b53c316880] silence_end: 20 | silence_duration: 0.511723"
+      ]
+    }
+  },
+  "formally_adopted": false,
+  "game_integrated": false,
+  "task": {
+    "task_id": "f80ff4d8-7785-4c33-97a2-96696b526a84",
+    "status": "queued",
+    "queue_position": 1
+  },
+  "result": {
+    "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5C1bd0407c-3448-d745-507f-d5b10a3339c8.wav",
+    "wave": "",
+    "status": 1,
+    "create_time": 1792142461,
+    "env": "development",
+    "prompt": "Low soft piano and restrained cello, a short wavering two-note question hangs against a suspended minor chord. The cello keeps a thin sustained line alive under uneven piano returns. Delicate physical weakness and aching urgency, no flowing arpeggios or broad elegy. Original instrumental dramatic underscore for a dark fantasy visual novel, 25 seconds. After battle the protagonist is critically wounded, losing blood and struggling to remain conscious. His two companions arrive, terrified of losing him, trying to keep him here. One tries to tear a protective card to save him; he weakly stops her because he refuses another reset. He is still alive, very fragile and in danger. Exhaustion, pain, restrained urgency and human closeness. The music holds a thin thread of life: aching suspended minor harmony, a faltering small motif that keeps trying to answer, a quiet hesitant musical pulse with gentle forward tension. Small low-to-middle register ensemble, very soft attacks, controlled dynamics, sustained connected resonance beneath sparse phrases. A fragile possibility of rescue remains unresolved. Keep wounded vulnerability and danger present from the opening, without announcing death or recovery. Continuous quiet musical presence for all 25 seconds, natural note tails, no long silent middle. No funeral march, settled bereavement, warm nostalgic farewell, comforting daily-life mood, graduation song, sweet romantic melody, major-key hopeful lift, relaxed swaying accompaniment, heroic climax, battle drums, horror stings or early ending. Only instrumental music: no voice, choir, literal breathing or heartbeat effects, rain, wind or other sounds. ",
+    "lyrics": "[Instrumental]",
+    "metas": {
+      "bpm": 56,
+      "duration": 25.0,
+      "genres": "N/A",
+      "keyscale": "E minor",
+      "timesignature": "4",
+      "prompt": "Low soft piano and restrained cello, a short wavering two-note question hangs against a suspended minor chord. The cello keeps a thin sustained line alive under uneven piano returns. Delicate physical weakness and aching urgency, no flowing arpeggios or broad elegy. Original instrumental dramatic underscore for a dark fantasy visual novel, 25 seconds. After battle the protagonist is critically wounded, losing blood and struggling to remain conscious. His two companions arrive, terrified of losing him, trying to keep him here. One tries to tear a protective card to save him; he weakly stops her because he refuses another reset. He is still alive, very fragile and in danger. Exhaustion, pain, restrained urgency and human closeness. The music holds a thin thread of life: aching suspended minor harmony, a faltering small motif that keeps trying to answer, a quiet hesitant musical pulse with gentle forward tension. Small low-to-middle register ensemble, very soft attacks, controlled dynamics, sustained connected resonance beneath sparse phrases. A fragile possibility of rescue remains unresolved. Keep wounded vulnerability and danger present from the opening, without announcing death or recovery. Continuous quiet musical presence for all 25 seconds, natural note tails, no long silent middle. No funeral march, settled bereavement, warm nostalgic farewell, comforting daily-life mood, graduation song, sweet romantic melody, major-key hopeful lift, relaxed swaying accompaniment, heroic climax, battle drums, horror stings or early ending. Only instrumental music: no voice, choir, literal breathing or heartbeat effects, rain, wind or other sounds. ",
+      "lyrics": "[Instrumental]"
+    },
+    "generation_info": "**🎵 Total generation time (1 song): 5.70s**\n- 5.70s per song\n- DiT phase (1 song): 5.70s",
+    "seed_value": "4001",
+    "lm_model": "acestep-5Hz-lm-0.6B",
+    "dit_model": "acestep-v15-turbo",
+    "progress": 1.0,
+    "stage": "succeeded"
+  },
+  "raw_wav": {
+    "file": "candidate_01_piano_cello_fading_seed4001_take01_raw.wav",
+    "sha256": "64d6b36de395a38fe9f0df6635424d83ce5418fb1fcebe6b620f1ee885e64a5a",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "25.000000"
+      }
+    }
+  },
+  "master_wav": {
+    "file": "candidate_01_piano_cello_fading_seed4001_take01.wav",
+    "sha256": "15bd938f339992a9b8a0bce4dfd561346ed30b7bff2b710c1573397170901823",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "premaster_ogg": {
+    "file": "candidate_01_piano_cello_fading_seed4001_take01_premaster.ogg",
+    "sha256": "7cf9abe56acaad21ca63fb4570cbc5a30976747e0ba666c35e6d9298387bfe66",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "ogg": {
+    "file": "candidate_01_piano_cello_fading_seed4001_take01.ogg",
+    "sha256": "e743ba55d487bd167fbe817393a37c34b830848e3f9328f130e6a6cbc2bddac1",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "technical_measurements": {
+    "integrated_lufs": "-28.65",
+    "true_peak_dbtp": "-15.68",
+    "quiet_events": [
+      "[Parsed_silencedetect_0 @ 000001f96e499400] silence_start: 19.024399",
+      "[Parsed_silencedetect_0 @ 000001f96e499400] silence_end: 20 | silence_duration: 0.975601"
+    ]
+  }
+}

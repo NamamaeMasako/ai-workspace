@@ -1,0 +1,23 @@
+{
+  "cue": "BGM13_HOLD_ON",
+  "status": "awaiting_user_four_short_selection",
+  "reviews": [
+    {
+      "date": "2026-10-16",
+      "stage": "take01_shorts",
+      "user_instruction": "是用在驚蟄瀕死那個場景對吧?開始",
+      "status": "four_20_second_candidates_ready",
+      "files": [
+        "candidate_01_piano_cello_fading_seed4001_take01.ogg",
+        "candidate_02_strings_hold_on_seed4002_take01.ogg",
+        "candidate_03_bass_clarinet_piano_seed4003_take01.ogg",
+        "candidate_04_piano_viola_thread_seed4004_take01.ogg"
+      ],
+      "scene": "第八章驚蟄戰後重傷、瀕死、兩人趕到，花見想撕卡救他、驚蟄阻止，意識模糊至影之魔女現身前。",
+      "scene_clarification": "初始口頭描述曾把阻止撕卡的主客體說反，已依實際劇本更正，沒有改劇情。",
+      "direction": "危急、虛弱、焦急留人，仍有一點未解的生機；不以已死亡後哀悼或痊癒喜悅收束。",
+      "formally_adopted": false,
+      "game_integrated": false
+    }
+  ]
+}

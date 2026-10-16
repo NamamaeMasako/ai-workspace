@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM13_HOLD_ON",
+  "label": "聲音還在",
+  "revision": "take01",
+  "status": "awaiting user short selection",
+  "request": {
+    "prompt": "Low bass clarinet and sparse soft piano, restrained short phrases lose strength before finishing, while a very quiet low piano anchor continues underneath. Minor-second appoggiaturas and an occasional tentative answering note suggest companions still reaching him. Dark fragile intimacy, no jazz lilt, lyrical ballad or comforting cadence. Original instrumental dramatic underscore for a dark fantasy visual novel, 25 seconds. After battle the protagonist is critically wounded, losing blood and struggling to remain conscious. His two companions arrive, terrified of losing him, trying to keep him here. One tries to tear a protective card to save him; he weakly stops her because he refuses another reset. He is still alive, very fragile and in danger. Exhaustion, pain, restrained urgency and human closeness. The music holds a thin thread of life: aching suspended minor harmony, a faltering small motif that keeps trying to answer, a quiet hesitant musical pulse with gentle forward tension. Small low-to-middle register ensemble, very soft attacks, controlled dynamics, sustained connected resonance beneath sparse phrases. A fragile possibility of rescue remains unresolved. Keep wounded vulnerability and danger present from the opening, without announcing death or recovery. Continuous quiet musical presence for all 25 seconds, natural note tails, no long silent middle. No funeral march, settled bereavement, warm nostalgic farewell, comforting daily-life mood, graduation song, sweet romantic melody, major-key hopeful lift, relaxed swaying accompaniment, heroic climax, battle drums, horror stings or early ending. Only instrumental music: no voice, choir, literal breathing or heartbeat effects, rain, wind or other sounds. ",
+    "lyrics": "[Instrumental]",
+    "thinking": false,
+    "use_format": false,
+    "use_cot_caption": false,
+    "use_cot_language": false,
+    "bpm": 58,
+    "key_scale": "E minor",
+    "time_signature": "4",
+    "vocal_language": "unknown",
+    "audio_duration": 25,
+    "inference_steps": 8,
+    "batch_size": 1,
+    "use_random_seed": false,
+    "seed": 4003,
+    "model": "acestep-v15-turbo",
+    "task_type": "text2music",
+    "audio_cover_strength": 1.0,
+    "audio_format": "wav"
+  },
+  "reference_audio": null,
+  "musical_parameters": "BPM, key and instrumentation are generation prompts, not measured or guaranteed.",
+  "processing": {
+    "source_seconds": 25,
+    "excerpt_seconds": 20,
+    "fade_in_seconds": 0.03,
+    "fade_out_seconds": 0.5,
+    "loop_processed": false,
+    "fixed_gain_db": -11.49,
+    "loudness_target_lufs": -27,
+    "limiter_dbfs": -16,
+    "premaster_measurement": {
+      "integrated_lufs": "-15.51",
+      "true_peak_dbtp": "-1.01",
+      "quiet_events": []
+    }
+  },
+  "formally_adopted": false,
+  "game_integrated": false,
+  "task": {
+    "task_id": "f643fd42-0385-441a-bf71-7e2753ea8eeb",
+    "status": "queued",
+    "queue_position": 1
+  },
+  "result": {
+    "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5C1e958c83-3dea-d232-6088-76c304b7c7c3.wav",
+    "wave": "",
+    "status": 1,
+    "create_time": 1792142590,
+    "env": "development",
+    "prompt": "Low bass clarinet and sparse soft piano, restrained short phrases lose strength before finishing, while a very quiet low piano anchor continues underneath. Minor-second appoggiaturas and an occasional tentative answering note suggest companions still reaching him. Dark fragile intimacy, no jazz lilt, lyrical ballad or comforting cadence. Original instrumental dramatic underscore for a dark fantasy visual novel, 25 seconds. After battle the protagonist is critically wounded, losing blood and struggling to remain conscious. His two companions arrive, terrified of losing him, trying to keep him here. One tries to tear a protective card to save him; he weakly stops her because he refuses another reset. He is still alive, very fragile and in danger. Exhaustion, pain, restrained urgency and human closeness. The music holds a thin thread of life: aching suspended minor harmony, a faltering small motif that keeps trying to answer, a quiet hesitant musical pulse with gentle forward tension. Small low-to-middle register ensemble, very soft attacks, controlled dynamics, sustained connected resonance beneath sparse phrases. A fragile possibility of rescue remains unresolved. Keep wounded vulnerability and danger present from the opening, without announcing death or recovery. Continuous quiet musical presence for all 25 seconds, natural note tails, no long silent middle. No funeral march, settled bereavement, warm nostalgic farewell, comforting daily-life mood, graduation song, sweet romantic melody, major-key hopeful lift, relaxed swaying accompaniment, heroic climax, battle drums, horror stings or early ending. Only instrumental music: no voice, choir, literal breathing or heartbeat effects, rain, wind or other sounds. ",
+    "lyrics": "[Instrumental]",
+    "metas": {
+      "bpm": 58,
+      "duration": 25.0,
+      "genres": "N/A",
+      "keyscale": "E minor",
+      "timesignature": "4",
+      "prompt": "Low bass clarinet and sparse soft piano, restrained short phrases lose strength before finishing, while a very quiet low piano anchor continues underneath. Minor-second appoggiaturas and an occasional tentative answering note suggest companions still reaching him. Dark fragile intimacy, no jazz lilt, lyrical ballad or comforting cadence. Original instrumental dramatic underscore for a dark fantasy visual novel, 25 seconds. After battle the protagonist is critically wounded, losing blood and struggling to remain conscious. His two companions arrive, terrified of losing him, trying to keep him here. One tries to tear a protective card to save him; he weakly stops her because he refuses another reset. He is still alive, very fragile and in danger. Exhaustion, pain, restrained urgency and human closeness. The music holds a thin thread of life: aching suspended minor harmony, a faltering small motif that keeps trying to answer, a quiet hesitant musical pulse with gentle forward tension. Small low-to-middle register ensemble, very soft attacks, controlled dynamics, sustained connected resonance beneath sparse phrases. A fragile possibility of rescue remains unresolved. Keep wounded vulnerability and danger present from the opening, without announcing death or recovery. Continuous quiet musical presence for all 25 seconds, natural note tails, no long silent middle. No funeral march, settled bereavement, warm nostalgic farewell, comforting daily-life mood, graduation song, sweet romantic melody, major-key hopeful lift, relaxed swaying accompaniment, heroic climax, battle drums, horror stings or early ending. Only instrumental music: no voice, choir, literal breathing or heartbeat effects, rain, wind or other sounds. ",
+      "lyrics": "[Instrumental]"
+    },
+    "generation_info": "**🎵 Total generation time (1 song): 2.08s**\n- 2.08s per song\n- DiT phase (1 song): 2.08s",
+    "seed_value": "4003",
+    "lm_model": "acestep-5Hz-lm-0.6B",
+    "dit_model": "acestep-v15-turbo",
+    "progress": 1.0,
+    "stage": "succeeded"
+  },
+  "raw_wav": {
+    "file": "candidate_03_bass_clarinet_piano_seed4003_take01_raw.wav",
+    "sha256": "819a4ef99a72cdd0551b79cca5e0b429dc8449c5405cd515107e674d742c2e5f",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "25.000000"
+      }
+    }
+  },
+  "master_wav": {
+    "file": "candidate_03_bass_clarinet_piano_seed4003_take01.wav",
+    "sha256": "5c3ebb8a605f638f0040307da355ee41e7ef44023e34c7e34424e1d65918abf1",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "premaster_ogg": {
+    "file": "candidate_03_bass_clarinet_piano_seed4003_take01_premaster.ogg",
+    "sha256": "61cde8dc30150a569d4e318c8fda87f71f0f1af4bb42ba9a9bd75e4debf27102",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "ogg": {
+    "file": "candidate_03_bass_clarinet_piano_seed4003_take01.ogg",
+    "sha256": "d5fd22780be2483925b5eb8174af92c4d7143bf006604c8eece4b1c8c1cc64c7",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "technical_measurements": {
+    "integrated_lufs": "-27.28",
+    "true_peak_dbtp": "-15.79",
+    "quiet_events": []
+  }
+}
