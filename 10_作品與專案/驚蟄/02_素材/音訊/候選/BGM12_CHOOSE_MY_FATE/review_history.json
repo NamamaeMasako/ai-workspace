@@ -1,6 +1,6 @@
 {
   "cue": "BGM12_CHOOSE_MY_FATE",
-  "status": "awaiting_user_game_scene_and_loop_confirmation",
+  "status": "formally_adopted",
   "reviews": [
     {
       "date": "2026-10-16",
@@ -123,6 +123,16 @@
       "scene": "選下把卡留給自己後，第八章 true_end 開頭",
       "status": "awaiting_user_scene_transition_and_loop_confirmation",
       "formally_adopted": false
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "formal_game_adoption",
+      "user_feedback": "這板可以",
+      "file": "longform/long_01_natural_phrase_cello_piano_cost_seed3914_loop_intro.ogg",
+      "sha256": "836978cc9d0b0ba844d5e35427a6ce7be6fcda134c41db9a9ecc58202e04779e",
+      "decision": "formally_adopt_current_long_loop_and_after_choice_scene_configuration",
+      "formally_adopted": true,
+      "next_cue": "BGM13_HOLD_ON"
     }
   ],
   "playback_entry": "第八章玩家選下「把卡留給自己」後開始；選項出現前維持無 BGM。"

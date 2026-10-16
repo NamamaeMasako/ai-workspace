@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM12_CHOOSE_MY_FATE",
+  "status": "formally_adopted",
+  "user_feedback": "這板可以",
+  "label": "把結局留下",
+  "selected_short": "candidate_04_cello_piano_cost_seed3914_take02.ogg",
+  "source_file": "long_01_natural_phrase_cello_piano_cost_seed3914_loop_intro.ogg",
+  "game_file": "03_開發/JingZhe/game/audio/music/bgm_choose_my_fate.ogg",
+  "sha256": "836978cc9d0b0ba844d5e35427a6ce7be6fcda134c41db9a9ecc58202e04779e",
+  "version": "long_01",
+  "playback": {
+    "first_seconds": 60,
+    "loop_start_seconds": 3.0,
+    "repeat_period_seconds": 57,
+    "fadein_seconds": 0.8,
+    "fadeout_previous_seconds": 0.5,
+    "per_file_volume": 1.0
+  },
+  "entry": "第八章選下「把卡留給自己」後，chapter_8_true_end 起曲；chapter_8_choice／選項前維持無 BGM。",
+  "extent": "留卡、告別、獨自出發與苦香準備，交戰切既有 BGM06。",
+  "battle_transition": {
+    "fadeout_seconds": 1.5,
+    "fadein_seconds": 0.5,
+    "battle_track_changed": false
+  },
+  "formal_scene_approval": true,
+  "approval_basis": "User approved current game audition and configuration. No claim of separate assistant end-to-end listening or inspection of every transition.",
+  "integration_record": "game_integration_long01.json",
+  "release_rebuilt": false,
+  "version_changed": false
+}
