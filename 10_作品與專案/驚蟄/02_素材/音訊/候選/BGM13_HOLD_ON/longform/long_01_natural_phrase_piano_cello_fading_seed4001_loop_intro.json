@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM13_HOLD_ON",
+  "status": "selected for game audition; scene and loop confirmation pending",
+  "user_instruction": "套進遊戲看看",
+  "source": {
+    "file": "long_01_natural_phrase_piano_cello_fading_seed4001.wav",
+    "sha256": "0a5366229eb80cc8fdc6f2c5edc219737b13d8e345073bab01689edc422a28d8"
+  },
+  "processing": {
+    "new_generation": false,
+    "unchanged_opening_seconds": 57,
+    "tail_crossfade_seconds": 3,
+    "crossfade_curve": "smoothstep convex",
+    "duration_seconds": 60,
+    "renpy_loop_start_seconds": 3.0,
+    "repeat_period_seconds": 57,
+    "period_basis": "Three-second crossfade selected to preserve the first 57 seconds of the audition; no measured beat alignment is claimed.",
+    "unchanged_opening_pcm_max_error": 0.0,
+    "pcm_boundary_step": 5.7970755733549595e-05
+  },
+  "wav": {
+    "file": "long_01_natural_phrase_piano_cello_fading_seed4001_loop_intro.wav",
+    "sha256": "7946cd4d846e236deac3b33e4bcb62a9c4def655fa73dadc50cc9cc1e7da0e07"
+  },
+  "ogg": {
+    "file": "long_01_natural_phrase_piano_cello_fading_seed4001_loop_intro.ogg",
+    "sha256": "25c854e9557e8a06db2c44331f40ff2db01b0011ef2c18258c13c6e095b8f526",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "60.000000"
+      }
+    }
+  },
+  "technical_check": {
+    "decode": "passed without diagnostics",
+    "integrated_lufs": "-30.57",
+    "true_peak_dbtp": "-15.55",
+    "quiet_events": [
+      "silence_start: 19.024399",
+      "silence_end: 20.262132 | silence_duration: 1.237732",
+      "silence_start: 30.460476",
+      "silence_end: 31.121088 | silence_duration: 0.660612",
+      "silence_start: 41.176712",
+      "silence_end: 42.510385 | silence_duration: 1.333673",
+      "silence_start: 52.580204",
+      "silence_end: 53.485238 | silence_duration: 0.905034"
+    ]
+  },
+  "producer": {
+    "file": "prepare_long_01_loop.py",
+    "sha256": "e5c7cdf6f828a5b8a9e852b008f571ed59b910b34c8940404bd7df95e3ee9399"
+  }
+}

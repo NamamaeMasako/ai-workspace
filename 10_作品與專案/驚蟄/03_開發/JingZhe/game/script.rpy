@@ -2412,7 +2412,7 @@ label chapter_8_true_end:
     hide kamikiri
     hide omukade
 
-    stop music fadeout 1.5
+    play music "<loop 3.0>audio/music/bgm_hold_on.ogg" loop fadeout 1.5 fadein 1.2
 
     narrator "驚蟄跪下去。"
 
@@ -2527,6 +2527,8 @@ label chapter_8_true_end:
     narrator "黑色的卡片不見了。"
 
     jingzhe "……"
+
+    stop music fadeout 1.0
 
     narrator "下一瞬，夜色被撕開一條縫。"
 

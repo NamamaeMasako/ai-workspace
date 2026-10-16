@@ -1,0 +1,17 @@
+{
+  "audio_sha256": "25c854e9557e8a06db2c44331f40ff2db01b0011ef2c18258c13c6e095b8f526",
+  "timestamp": 1792164825.2003014,
+  "basedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe",
+  "gamedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe\\game",
+  "location": [
+    "game/script.rpy",
+    2431
+  ],
+  "playing": "<loop 3.0>audio/music/bgm_hold_on.ogg",
+  "position": 23.768,
+  "relative_volume": 1.0,
+  "music_volume": 1.0,
+  "music_muted": false,
+  "master_muted": false,
+  "ambience": null
+}

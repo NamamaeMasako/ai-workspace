@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM13_HOLD_ON",
+  "user_instruction": "套進遊戲看看",
+  "status": "integrated_for_scene_audition_pending_user_confirmation",
+  "source_loop": "long_01_natural_phrase_piano_cello_fading_seed4001_loop_intro.ogg",
+  "game_file": "03_開發/JingZhe/game/audio/music/bgm_hold_on.ogg",
+  "sha256": "25c854e9557e8a06db2c44331f40ff2db01b0011ef2c18258c13c6e095b8f526",
+  "matches_loop_source": true,
+  "playback": {
+    "channel": "music",
+    "loop_start_seconds": 3,
+    "initial_seconds": 60,
+    "repeat_period_seconds": 57,
+    "fadein_seconds": 1.2,
+    "fadeout_previous_seconds": 1.5,
+    "per_file_volume": 1.0,
+    "user_music_settings_unchanged": true
+  },
+  "entry": {
+    "label": "chapter_8_true_end",
+    "line": 2415,
+    "text": "驚蟄跪下去。前起曲",
+    "previous": "戰鬥 BGM06 淡出 1.5 秒，改接本曲。"
+  },
+  "extent": "重傷失血、兩人趕到、驚蟄阻止花見撕卡、意識模糊，至影之魔女現身前。",
+  "exit": {
+    "line": 2531,
+    "before": "下一瞬，夜色被撕開一條縫。",
+    "fadeout_seconds": 1.0,
+    "next_cue": "BGM14_SHADOW_WITCH",
+    "next_cue_status": "尚待製作，本輪先淡出留白，未加入不存在音檔的播放語句。"
+  },
+  "launch": {
+    "basedir_type": "development",
+    "warp": "script.rpy:2417",
+    "opening_text": "驚蟄跪下去。",
+    "process_id": 27932,
+    "visible_window": true,
+    "runtime_file": "game_runtime_long01_initial.json",
+    "screenshot": "game_scene_long01_initial.png",
+    "observation": "指定開發 basedir，新檔播放至至少 10.112 秒、music／relative volume 1.0、音樂與全域未靜音、ambience 空；初始畫面已檢視。"
+  },
+  "runtime_snapshot": {
+    "audio_sha256": "25c854e9557e8a06db2c44331f40ff2db01b0011ef2c18258c13c6e095b8f526",
+    "timestamp": 1792164825.2003014,
+    "basedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe",
+    "gamedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe\\game",
+    "location": [
+      "game/script.rpy",
+      2431
+    ],
+    "playing": "<loop 3.0>audio/music/bgm_hold_on.ogg",
+    "position": 23.768,
+    "relative_volume": 1.0,
+    "music_volume": 1.0,
+    "music_muted": false,
+    "master_muted": false,
+    "ambience": null
+  },
+  "scope_limit": "只觀察啟動場景及新曲實際播放，不宣稱已由助理人工完整驗收戰鬥至重傷轉場、救援全段、循環與離場聽感。",
+  "formally_adopted": false,
+  "release_rebuilt": false,
+  "version_changed": false
+}
