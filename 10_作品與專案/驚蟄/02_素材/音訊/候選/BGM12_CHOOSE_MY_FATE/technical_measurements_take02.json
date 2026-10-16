@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-16",
+  "files": [
+    {
+      "file": "candidate_01_piano_bass_weight_seed3911_take02.ogg",
+      "integrated_lufs": "-28.73",
+      "true_peak_dbtp": "-15.51",
+      "quiet_events": []
+    },
+    {
+      "file": "candidate_02_low_strings_burden_seed3912_take02.ogg",
+      "integrated_lufs": "-28.05",
+      "true_peak_dbtp": "-15.72",
+      "quiet_events": []
+    },
+    {
+      "file": "candidate_03_muted_horn_cello_seed3913_take02.ogg",
+      "integrated_lufs": "-27.41",
+      "true_peak_dbtp": "-15.84",
+      "quiet_events": []
+    },
+    {
+      "file": "candidate_04_cello_piano_cost_seed3914_take02.ogg",
+      "integrated_lufs": "-27.53",
+      "true_peak_dbtp": "-15.74",
+      "quiet_events": []
+    }
+  ]
+}

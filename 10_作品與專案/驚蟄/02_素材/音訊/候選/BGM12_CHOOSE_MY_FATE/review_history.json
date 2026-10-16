@@ -1,6 +1,6 @@
 {
   "cue": "BGM12_CHOOSE_MY_FATE",
-  "status": "awaiting_user_four_short_selection",
+  "status": "awaiting_user_take02_four_short_selection",
   "reviews": [
     {
       "date": "2026-10-16",
@@ -16,6 +16,39 @@
       "scene": "第八章最終選擇、留卡與告別；出發／苦香準備的延續仍為配置建議",
       "formally_adopted": false,
       "game_integrated": false
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "playback_entry_clarification",
+      "user_question": "這首應該適用在當選項選了 把卡片留給自己 之後?",
+      "confirmed_plan": "第八章玩家選下「把卡留給自己」後開始；選項出現前維持無 BGM。",
+      "game_integrated": false
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "take01_rejected",
+      "user_feedback": "那應該要帶出沉重的決定的感覺，目前這四首我聽起來感覺都偏日常且有一個輕鬆感",
+      "decision": "reject_all_four_rework",
+      "next_direction": "有代價、壓力與責任的沉重決定；低音與未解和聲承重，樂句負重前進，減少輕巧律動與日常放鬆感，起音仍柔和。",
+      "formally_adopted": false,
+      "game_integrated": false
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "take02_shorts",
+      "status": "four_20_second_candidates_ready",
+      "files": [
+        "candidate_01_piano_bass_weight_seed3911_take02.ogg",
+        "candidate_02_low_strings_burden_seed3912_take02.ogg",
+        "candidate_03_muted_horn_cello_seed3913_take02.ogg",
+        "candidate_04_cello_piano_cost_seed3914_take02.ogg"
+      ],
+      "direction": "沉重決定、明知代價仍承擔，低音與未解和聲承重，避免日常輕鬆感；保持柔和起音。",
+      "scene": "第八章玩家選下「把卡留給自己」後開始；選項出現前維持無 BGM。",
+      "musical_parameters_note": "配器、情緒、調性、速度是生成提示，非助理已聽辨或實測確認。",
+      "formally_adopted": false,
+      "game_integrated": false
     }
-  ]
+  ],
+  "playback_entry": "第八章玩家選下「把卡留給自己」後開始；選項出現前維持無 BGM。"
 }

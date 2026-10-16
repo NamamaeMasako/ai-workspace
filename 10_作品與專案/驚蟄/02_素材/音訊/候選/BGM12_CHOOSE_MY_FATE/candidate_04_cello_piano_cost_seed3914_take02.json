@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM12_CHOOSE_MY_FATE",
+  "label": "把結局留下",
+  "revision": "take02",
+  "status": "awaiting user short selection",
+  "request": {
+    "prompt": "A low cello and soft piano duet with close minor-second suspensions over a dark bass anchor. A short unresolved plea returns more firmly each time, as if choosing to carry another person's fate despite fear. Low sustained chord weight beneath the phrase, controlled forward movement without flowing accompaniment. No sweet romantic cello melody, funeral lament or relaxed sway. Original instrumental psychological drama score, 25 seconds, a grave consequential decision. Immediately after choosing to keep a dangerous protective card for himself, a man who has witnessed his companions die in two failed futures decides to bear the cost alone. His decision has weight, fear and responsibility; he knowingly walks toward possible suffering. Heavy restrained resolve, pressure held inside, painful certainty and a farewell he cannot say. Dark low-register harmony from the opening, slow changing bass weight, tense minor ninths and suspended seconds, an economical motif that strains upward against a descending bass. Each small forward movement feels resisted, then holds firm without bright harmonic release. The decision is made but its danger and cost remain present. Serious dramatic tension beneath dialogue, low soft dynamic level, rounded soft attacks, substantial sustained musical resonance. Patient deliberate motion, continuous musical presence through all 25 seconds. No light daily-life mood, cozy warmth, easy optimism, jaunty or swaying rhythm, bouncing plucks, waltz, lilting ostinato, pleasant pop chord loop or sweet singable melody. No funeral procession, nostalgic graduation song, romantic ballad, epic heroic fanfare, battle drums, horror stings, grand crescendo or early ending. Instrumental only: no voices, choir, speech or environmental sound effects. ",
+    "lyrics": "[Instrumental]",
+    "thinking": false,
+    "use_format": false,
+    "use_cot_caption": false,
+    "use_cot_language": false,
+    "bpm": 60,
+    "key_scale": "D minor",
+    "time_signature": "4",
+    "vocal_language": "unknown",
+    "audio_duration": 25,
+    "inference_steps": 8,
+    "batch_size": 1,
+    "use_random_seed": false,
+    "seed": 3914,
+    "model": "acestep-v15-turbo",
+    "task_type": "text2music",
+    "audio_cover_strength": 1.0,
+    "audio_format": "wav"
+  },
+  "reference_audio": null,
+  "musical_parameters": "BPM, key and instrumentation are generation prompts, not measured or guaranteed.",
+  "processing": {
+    "source_seconds": 25,
+    "excerpt_seconds": 20,
+    "fade_in_seconds": 0.03,
+    "fade_out_seconds": 0.5,
+    "loop_processed": false,
+    "fixed_gain_db": -10.379999999999999,
+    "loudness_target_lufs": -27,
+    "limiter_dbfs": -16,
+    "premaster_measurement": {
+      "integrated_lufs": "-16.62",
+      "true_peak_dbtp": "-1.02",
+      "quiet_events": []
+    }
+  },
+  "formally_adopted": false,
+  "game_integrated": false,
+  "task": {
+    "task_id": "eca65461-f488-4ac5-800c-d8484d5c2ad3",
+    "status": "queued",
+    "queue_position": 1
+  },
+  "result": {
+    "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5C311b03eb-4d65-60aa-cb3e-2046f4c846b3.wav",
+    "wave": "",
+    "status": 1,
+    "create_time": 1792136549,
+    "env": "development",
+    "prompt": "A low cello and soft piano duet with close minor-second suspensions over a dark bass anchor. A short unresolved plea returns more firmly each time, as if choosing to carry another person's fate despite fear. Low sustained chord weight beneath the phrase, controlled forward movement without flowing accompaniment. No sweet romantic cello melody, funeral lament or relaxed sway. Original instrumental psychological drama score, 25 seconds, a grave consequential decision. Immediately after choosing to keep a dangerous protective card for himself, a man who has witnessed his companions die in two failed futures decides to bear the cost alone. His decision has weight, fear and responsibility; he knowingly walks toward possible suffering. Heavy restrained resolve, pressure held inside, painful certainty and a farewell he cannot say. Dark low-register harmony from the opening, slow changing bass weight, tense minor ninths and suspended seconds, an economical motif that strains upward against a descending bass. Each small forward movement feels resisted, then holds firm without bright harmonic release. The decision is made but its danger and cost remain present. Serious dramatic tension beneath dialogue, low soft dynamic level, rounded soft attacks, substantial sustained musical resonance. Patient deliberate motion, continuous musical presence through all 25 seconds. No light daily-life mood, cozy warmth, easy optimism, jaunty or swaying rhythm, bouncing plucks, waltz, lilting ostinato, pleasant pop chord loop or sweet singable melody. No funeral procession, nostalgic graduation song, romantic ballad, epic heroic fanfare, battle drums, horror stings, grand crescendo or early ending. Instrumental only: no voices, choir, speech or environmental sound effects. ",
+    "lyrics": "[Instrumental]",
+    "metas": {
+      "bpm": 60,
+      "duration": 25.0,
+      "genres": "N/A",
+      "keyscale": "D minor",
+      "timesignature": "4",
+      "prompt": "A low cello and soft piano duet with close minor-second suspensions over a dark bass anchor. A short unresolved plea returns more firmly each time, as if choosing to carry another person's fate despite fear. Low sustained chord weight beneath the phrase, controlled forward movement without flowing accompaniment. No sweet romantic cello melody, funeral lament or relaxed sway. Original instrumental psychological drama score, 25 seconds, a grave consequential decision. Immediately after choosing to keep a dangerous protective card for himself, a man who has witnessed his companions die in two failed futures decides to bear the cost alone. His decision has weight, fear and responsibility; he knowingly walks toward possible suffering. Heavy restrained resolve, pressure held inside, painful certainty and a farewell he cannot say. Dark low-register harmony from the opening, slow changing bass weight, tense minor ninths and suspended seconds, an economical motif that strains upward against a descending bass. Each small forward movement feels resisted, then holds firm without bright harmonic release. The decision is made but its danger and cost remain present. Serious dramatic tension beneath dialogue, low soft dynamic level, rounded soft attacks, substantial sustained musical resonance. Patient deliberate motion, continuous musical presence through all 25 seconds. No light daily-life mood, cozy warmth, easy optimism, jaunty or swaying rhythm, bouncing plucks, waltz, lilting ostinato, pleasant pop chord loop or sweet singable melody. No funeral procession, nostalgic graduation song, romantic ballad, epic heroic fanfare, battle drums, horror stings, grand crescendo or early ending. Instrumental only: no voices, choir, speech or environmental sound effects. ",
+      "lyrics": "[Instrumental]"
+    },
+    "generation_info": "**🎵 Total generation time (1 song): 1.79s**\n- 1.79s per song\n- DiT phase (1 song): 1.79s",
+    "seed_value": "3914",
+    "lm_model": "acestep-5Hz-lm-0.6B",
+    "dit_model": "acestep-v15-turbo",
+    "progress": 1.0,
+    "stage": "succeeded"
+  },
+  "raw_wav": {
+    "file": "candidate_04_cello_piano_cost_seed3914_take02_raw.wav",
+    "sha256": "0517cb448cd48b8b5aabbff62b33f7c79540201881b9a624da8f846558b4ab23",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "25.000000"
+      }
+    }
+  },
+  "master_wav": {
+    "file": "candidate_04_cello_piano_cost_seed3914_take02.wav",
+    "sha256": "f07e9047f049bf14a0ebd2d425aa87bebfc3a818bacf6dd5cddf40ae9c2573ee",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "premaster_ogg": {
+    "file": "candidate_04_cello_piano_cost_seed3914_take02_premaster.ogg",
+    "sha256": "ddda91fd526906aaf21d264b5dbc292932f95e7e9bbf58597c1217f40cf15509",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "ogg": {
+    "file": "candidate_04_cello_piano_cost_seed3914_take02.ogg",
+    "sha256": "4dd8db7e03c194e079ba42e97a7324acdca0dd861929c6ec009442cd231b6e37",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "technical_measurements": {
+    "integrated_lufs": "-27.53",
+    "true_peak_dbtp": "-15.74",
+    "quiet_events": []
+  }
+}
