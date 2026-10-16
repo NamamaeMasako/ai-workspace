@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM11_LOSS_AND_REWIND",
+  "status": "selected for game audition; scene and loop confirmation pending",
+  "user_instruction": "套進遊戲試試",
+  "source": {
+    "file": "long_01_natural_phrase_cello_piano_plea_seed3824.wav",
+    "sha256": "4880159c275bdab1d1a9dd6c8722398272042b35748dbda294b4b61bb3ba2278"
+  },
+  "processing": {
+    "new_generation": false,
+    "unchanged_opening_seconds": 57,
+    "tail_crossfade_seconds": 3,
+    "crossfade_curve": "smoothstep convex",
+    "duration_seconds": 60,
+    "renpy_loop_start_seconds": 3.0,
+    "repeat_period_seconds": 57,
+    "period_basis": "Three-second crossfade selected to preserve the first 57 seconds of the audition; no measured beat alignment is claimed.",
+    "unchanged_opening_pcm_max_error": 0.0,
+    "pcm_boundary_step": 0.005313839763402939
+  },
+  "wav": {
+    "file": "long_01_natural_phrase_cello_piano_plea_seed3824_loop_intro.wav",
+    "sha256": "56312b899f8b8225c1f1b2a6e1381721e1690b7966690e226bf9e2525be56edd"
+  },
+  "ogg": {
+    "file": "long_01_natural_phrase_cello_piano_plea_seed3824_loop_intro.ogg",
+    "sha256": "4f24e912daeee879dded6eb997b333176cd6ed1dc1aedbcfd98a23548b28f678",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "60.000000"
+      }
+    }
+  },
+  "technical_check": {
+    "decode": "passed without diagnostics",
+    "integrated_lufs": "-29.75",
+    "true_peak_dbtp": "-15.59",
+    "quiet_events": [
+      "silence_start: 22.233469",
+      "silence_end: 23.394989 | silence_duration: 1.161519",
+      "silence_start: 42.888594",
+      "silence_end: 44.314059 | silence_duration: 1.425465"
+    ]
+  },
+  "producer": {
+    "file": "prepare_long_01_loop.py",
+    "sha256": "65c1318c25524a25685fbfdc41a34933681b323150a1fe6ef9fefb7e774312ec"
+  }
+}

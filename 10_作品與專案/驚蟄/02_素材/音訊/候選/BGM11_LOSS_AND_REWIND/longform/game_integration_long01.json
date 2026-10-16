@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM11_LOSS_AND_REWIND",
+  "user_instruction": "套進遊戲試試",
+  "status": "integrated_for_scene_audition_pending_user_confirmation",
+  "source_loop": "long_01_natural_phrase_cello_piano_plea_seed3824_loop_intro.ogg",
+  "game_file": "03_開發/JingZhe/game/audio/music/bgm_loss_and_rewind.ogg",
+  "sha256": "4f24e912daeee879dded6eb997b333176cd6ed1dc1aedbcfd98a23548b28f678",
+  "matches_loop_source": true,
+  "playback": {
+    "channel": "music",
+    "loop_start_seconds": 3,
+    "initial_seconds": 60,
+    "repeat_period_seconds": 57,
+    "fadein_seconds": 0.8,
+    "fadeout_previous_seconds": 0.5,
+    "per_file_volume": 1.0,
+    "user_music_settings_unchanged": true
+  },
+  "routes": [
+    "chapter_7_hanami_1",
+    "chapter_7_yumemi_1",
+    "chapter_7_hanami_2",
+    "chapter_7_yumemi_2"
+  ],
+  "play_lines": [
+    1270,
+    1436,
+    1771,
+    1964
+  ],
+  "entries": {
+    "yumemi_death": "看到的是夢見的身體。前起曲",
+    "hanami_death": "花見 injured 立繪／倒下敘述前起曲"
+  },
+  "exit": "四路線撕開。前 stop music fadeout 0.5，回退與下一場既有配置保留，不加強制等待。",
+  "launch": {
+    "basedir_type": "development",
+    "warp": "script.rpy:1439",
+    "opening_text": "花見倒下的聲音很輕。",
+    "process_id": 19804,
+    "visible_window": true,
+    "runtime_file": "game_runtime_long01_initial.json",
+    "screenshot": "game_scene_long01_initial.png",
+    "initial_observation": "Development basedir verified, BGM11 playing, music/master unmuted, relative/music volume 1.0, ambience empty; scene screenshot inspected."
+  },
+  "runtime_snapshot": {
+    "audio_sha256": "4f24e912daeee879dded6eb997b333176cd6ed1dc1aedbcfd98a23548b28f678",
+    "timestamp": 1792133652.3363178,
+    "basedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe",
+    "gamedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe\\game",
+    "location": [
+      "game/script.rpy",
+      1512
+    ],
+    "playing": null,
+    "position": null,
+    "relative_volume": 1.0,
+    "music_volume": 1.0,
+    "music_muted": false,
+    "master_muted": false,
+    "ambience": null
+  },
+  "scope_limit": "只觀察啟動與花見倒下畫面／播放狀態，沒有宣稱已人工完整驗收四路線、所有轉場或循環聽感。",
+  "long_version_formally_adopted": false,
+  "formally_adopted": false,
+  "release_rebuilt": false
+}

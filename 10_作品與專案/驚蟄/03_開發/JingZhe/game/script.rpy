@@ -1267,6 +1267,8 @@ label chapter_7_hanami_1:
 
     narrator "他們衝進屋裡。"
 
+    play music "<loop 3.0>audio/music/bgm_loss_and_rewind.ogg" loop fadeout 0.5 fadein 0.8
+
     narrator "看到的是夢見的身體。"
 
     show hanami grief at zh_left
@@ -1286,6 +1288,8 @@ label chapter_7_hanami_1:
     narrator "他把卡片從花見身上取回。"
 
     show jingzhe stern at zh_right
+    stop music fadeout 0.5
+
     narrator "撕開。"
 
     narrator "風停了一瞬。"
@@ -1429,6 +1433,8 @@ label chapter_7_yumemi_1:
     scene bg forest_path_night
     with dissolve
 
+    play music "<loop 3.0>audio/music/bgm_loss_and_rewind.ogg" loop fadeout 0.5 fadein 0.8
+
     show hanami injured at zh_center
     narrator "花見倒下的聲音很輕。"
 
@@ -1496,6 +1502,8 @@ label chapter_7_yumemi_1:
     narrator "夢見抖著手，把卡片遞出去。"
 
     narrator "驚蟄接過時，指節白得發青。"
+
+    stop music fadeout 0.5
 
     narrator "撕開。"
 
@@ -1760,6 +1768,8 @@ label chapter_7_hanami_2:
 
     narrator "像是那個結局早一步沿著骨頭爬了回來。"
 
+    play music "<loop 3.0>audio/music/bgm_loss_and_rewind.ogg" loop fadeout 0.5 fadein 0.8
+
     narrator "看到的是夢見的身體。"
 
     show hanami grief at zh_left
@@ -1785,6 +1795,8 @@ label chapter_7_hanami_2:
     narrator "他把卡片從花見身上取回。"
 
     show jingzhe stern at zh_right
+    stop music fadeout 0.5
+
     narrator "撕開。"
 
     narrator "風停了一瞬。"
@@ -1949,6 +1961,8 @@ label chapter_7_yumemi_2:
 
     narrator "但這次，他幾乎是衝過去的。"
 
+    play music "<loop 3.0>audio/music/bgm_loss_and_rewind.ogg" loop fadeout 0.5 fadein 0.8
+
     show hanami injured at zh_center
     narrator "花見倒在濕冷的落葉上，薙刀躺在她指尖不遠處。"
 
@@ -2022,6 +2036,8 @@ label chapter_7_yumemi_2:
     narrator "夢見抖著手，把卡片遞出去。"
 
     narrator "驚蟄接過時，指節白得發青。"
+
+    stop music fadeout 0.5
 
     narrator "撕開。"
 
