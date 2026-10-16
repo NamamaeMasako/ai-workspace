@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM12_CHOOSE_MY_FATE",
+  "label": "不再退讓",
+  "revision": "take01",
+  "status": "awaiting user short selection",
+  "request": {
+    "prompt": "A small muted viola and cello ensemble, a low gently repeated bowed ostinato under a short upper phrase that rises by a step and holds with controlled strength. Steady quiet momentum, deliberate restraint and a decision already made. Legato chamber scale, no fast tremolo, martial rhythm or grand orchestral expansion. Original instrumental dark fantasy visual novel underscore, 25 seconds. A quiet final decision: after witnessing two failed futures, a reserved protagonist keeps the protective card himself and tells his companions to stay safe while he leaves alone. He is afraid of losing them again but has chosen to carry the cost himself. Controlled determination, protective courage, unsaid farewell and emotional weight. A small steady forward-moving motif, a measured inner pulse, minor harmony with aching suspensions that settle into firm low notes. Restrained strength rather than despair. Keep the melody intimate and grounded, never broad or celebratory. Small acoustic ensemble, soft rounded attacks, quiet dynamics and natural connected resonance under spoken dialogue. The motion remains patient and deliberate, with continuous musical presence for all 25 seconds. No military march, battle drive, pounding drums, epic crescendo, triumphant fanfare, uplifting pop ballad, graduation-song nostalgia, funeral procession or romantic sweetness. No frantic panic, horror sting, abrupt cutoff or early fade. Instrumental only, no singing, choir, speech or environmental sound effects. ",
+    "lyrics": "[Instrumental]",
+    "thinking": false,
+    "use_format": false,
+    "use_cot_caption": false,
+    "use_cot_language": false,
+    "bpm": 80,
+    "key_scale": "D minor",
+    "time_signature": "4",
+    "vocal_language": "unknown",
+    "audio_duration": 25,
+    "inference_steps": 8,
+    "batch_size": 1,
+    "use_random_seed": false,
+    "seed": 3902,
+    "model": "acestep-v15-turbo",
+    "task_type": "text2music",
+    "audio_cover_strength": 1.0,
+    "audio_format": "wav"
+  },
+  "reference_audio": null,
+  "musical_parameters": "BPM, key and instrumentation are generation prompts, not measured or guaranteed.",
+  "processing": {
+    "source_seconds": 25,
+    "excerpt_seconds": 20,
+    "fade_in_seconds": 0.03,
+    "fade_out_seconds": 0.5,
+    "loop_processed": false,
+    "fixed_gain_db": -11.23,
+    "loudness_target_lufs": -27,
+    "limiter_dbfs": -16,
+    "premaster_measurement": {
+      "integrated_lufs": "-15.77",
+      "true_peak_dbtp": "-0.94",
+      "quiet_events": []
+    }
+  },
+  "formally_adopted": false,
+  "game_integrated": false,
+  "task": {
+    "task_id": "d7f2aaca-1d54-4861-ba0b-e1431d25c8b7",
+    "status": "queued",
+    "queue_position": 1
+  },
+  "result": {
+    "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5C36954e51-c060-ecbd-8d9d-115626c41b83.wav",
+    "wave": "",
+    "status": 1,
+    "create_time": 1792133918,
+    "env": "development",
+    "prompt": "A small muted viola and cello ensemble, a low gently repeated bowed ostinato under a short upper phrase that rises by a step and holds with controlled strength. Steady quiet momentum, deliberate restraint and a decision already made. Legato chamber scale, no fast tremolo, martial rhythm or grand orchestral expansion. Original instrumental dark fantasy visual novel underscore, 25 seconds. A quiet final decision: after witnessing two failed futures, a reserved protagonist keeps the protective card himself and tells his companions to stay safe while he leaves alone. He is afraid of losing them again but has chosen to carry the cost himself. Controlled determination, protective courage, unsaid farewell and emotional weight. A small steady forward-moving motif, a measured inner pulse, minor harmony with aching suspensions that settle into firm low notes. Restrained strength rather than despair. Keep the melody intimate and grounded, never broad or celebratory. Small acoustic ensemble, soft rounded attacks, quiet dynamics and natural connected resonance under spoken dialogue. The motion remains patient and deliberate, with continuous musical presence for all 25 seconds. No military march, battle drive, pounding drums, epic crescendo, triumphant fanfare, uplifting pop ballad, graduation-song nostalgia, funeral procession or romantic sweetness. No frantic panic, horror sting, abrupt cutoff or early fade. Instrumental only, no singing, choir, speech or environmental sound effects. ",
+    "lyrics": "[Instrumental]",
+    "metas": {
+      "bpm": 80,
+      "duration": 25.0,
+      "genres": "N/A",
+      "keyscale": "D minor",
+      "timesignature": "4",
+      "prompt": "A small muted viola and cello ensemble, a low gently repeated bowed ostinato under a short upper phrase that rises by a step and holds with controlled strength. Steady quiet momentum, deliberate restraint and a decision already made. Legato chamber scale, no fast tremolo, martial rhythm or grand orchestral expansion. Original instrumental dark fantasy visual novel underscore, 25 seconds. A quiet final decision: after witnessing two failed futures, a reserved protagonist keeps the protective card himself and tells his companions to stay safe while he leaves alone. He is afraid of losing them again but has chosen to carry the cost himself. Controlled determination, protective courage, unsaid farewell and emotional weight. A small steady forward-moving motif, a measured inner pulse, minor harmony with aching suspensions that settle into firm low notes. Restrained strength rather than despair. Keep the melody intimate and grounded, never broad or celebratory. Small acoustic ensemble, soft rounded attacks, quiet dynamics and natural connected resonance under spoken dialogue. The motion remains patient and deliberate, with continuous musical presence for all 25 seconds. No military march, battle drive, pounding drums, epic crescendo, triumphant fanfare, uplifting pop ballad, graduation-song nostalgia, funeral procession or romantic sweetness. No frantic panic, horror sting, abrupt cutoff or early fade. Instrumental only, no singing, choir, speech or environmental sound effects. ",
+      "lyrics": "[Instrumental]"
+    },
+    "generation_info": "**🎵 Total generation time (1 song): 1.96s**\n- 1.96s per song\n- DiT phase (1 song): 1.96s",
+    "seed_value": "3902",
+    "lm_model": "acestep-5Hz-lm-0.6B",
+    "dit_model": "acestep-v15-turbo",
+    "progress": 1.0,
+    "stage": "succeeded"
+  },
+  "raw_wav": {
+    "file": "candidate_02_muted_strings_oath_seed3902_take01_raw.wav",
+    "sha256": "d65ff62e61256d9bb8ff13175afe14fcd558f95728d2821446af9f9159e53602",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "25.000000"
+      }
+    }
+  },
+  "master_wav": {
+    "file": "candidate_02_muted_strings_oath_seed3902_take01.wav",
+    "sha256": "69b56003e1426f77d6ba196f1086ac948f438caa5c4757e421129dfd7101cd3d",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "premaster_ogg": {
+    "file": "candidate_02_muted_strings_oath_seed3902_take01_premaster.ogg",
+    "sha256": "e7e0932986f860f74571df30c2d4225e6260bf4debc734f8825bf7acbdedb94d",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "ogg": {
+    "file": "candidate_02_muted_strings_oath_seed3902_take01.ogg",
+    "sha256": "1dcfdf32d9e3aecc0913a7bffa28a3ef783f91abb4d23911fbee6c355ee28d1b",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "technical_measurements": {
+    "integrated_lufs": "-27.74",
+    "true_peak_dbtp": "-15.68",
+    "quiet_events": []
+  }
+}

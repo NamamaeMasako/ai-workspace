@@ -1,6 +1,6 @@
 {
   "cue": "BGM11_LOSS_AND_REWIND",
-  "status": "awaiting_user_game_scene_and_loop_confirmation",
+  "status": "formally_adopted",
   "reviews": [
     {
       "date": "2026-10-16",
@@ -147,6 +147,16 @@
       "scene": "第一輪花見倒下／確認死亡，script.rpy:1439",
       "status": "awaiting_user_scene_and_loop_confirmation",
       "formally_adopted": false
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "formal_game_adoption",
+      "user_feedback": "OK，可以進行下一首",
+      "file": "longform/long_01_natural_phrase_cello_piano_plea_seed3824_loop_intro.ogg",
+      "sha256": "4f24e912daeee879dded6eb997b333176cd6ed1dc1aedbcfd98a23548b28f678",
+      "decision": "formally_adopt_current_long_loop_and_scene_configuration",
+      "formally_adopted": true,
+      "next_cue": "BGM12_CHOOSE_MY_FATE"
     }
   ]
 }

@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM11_LOSS_AND_REWIND",
+  "status": "formally_adopted",
+  "user_feedback": "OK，可以進行下一首",
+  "source_file": "long_01_natural_phrase_cello_piano_plea_seed3824_loop_intro.ogg",
+  "game_file": "03_開發/JingZhe/game/audio/music/bgm_loss_and_rewind.ogg",
+  "sha256": "4f24e912daeee879dded6eb997b333176cd6ed1dc1aedbcfd98a23548b28f678",
+  "label": "還不能放手",
+  "selected_short": "candidate_04_cello_piano_plea_seed3824_take03.ogg",
+  "version": "long_01",
+  "playback": {
+    "first_seconds": 60,
+    "loop_start_seconds": 3.0,
+    "repeat_period_seconds": 57,
+    "fadein_seconds": 0.8,
+    "stop_before_card_tear_fadeout_seconds": 0.5
+  },
+  "scenes": "兩輪夢見死亡確認、花見突然死亡與抱回月下庄；四路線撕卡前淡出。",
+  "approval_basis": "User approved after development game audition at Hanami collapse scene and requested next cue. This records user approval of the current configuration; does not claim separate assistant end-to-end observation of all four routes.",
+  "formal_scene_approval": true,
+  "integration_record": "game_integration_long01.json",
+  "release_rebuilt": false,
+  "version_changed": false
+}

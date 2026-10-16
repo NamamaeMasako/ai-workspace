@@ -1,0 +1,159 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM12_CHOOSE_MY_FATE",
+  "label": "轉身之前",
+  "revision": "take01",
+  "status": "awaiting user short selection",
+  "request": {
+    "prompt": "Low clarinet and soft dark piano, a compact unsentimental phrase that hesitates briefly then continues forward over an even low piano pulse. Subtle ache in the suspension, a warm human connection held back by responsibility. Firm quiet purpose remains through each phrase, no weeping solo, sweet ballad chords or comforting happy ending. Original instrumental dark fantasy visual novel underscore, 25 seconds. A quiet final decision: after witnessing two failed futures, a reserved protagonist keeps the protective card himself and tells his companions to stay safe while he leaves alone. He is afraid of losing them again but has chosen to carry the cost himself. Controlled determination, protective courage, unsaid farewell and emotional weight. A small steady forward-moving motif, a measured inner pulse, minor harmony with aching suspensions that settle into firm low notes. Restrained strength rather than despair. Keep the melody intimate and grounded, never broad or celebratory. Small acoustic ensemble, soft rounded attacks, quiet dynamics and natural connected resonance under spoken dialogue. The motion remains patient and deliberate, with continuous musical presence for all 25 seconds. No military march, battle drive, pounding drums, epic crescendo, triumphant fanfare, uplifting pop ballad, graduation-song nostalgia, funeral procession or romantic sweetness. No frantic panic, horror sting, abrupt cutoff or early fade. Instrumental only, no singing, choir, speech or environmental sound effects. ",
+    "lyrics": "[Instrumental]",
+    "thinking": false,
+    "use_format": false,
+    "use_cot_caption": false,
+    "use_cot_language": false,
+    "bpm": 78,
+    "key_scale": "D minor",
+    "time_signature": "4",
+    "vocal_language": "unknown",
+    "audio_duration": 25,
+    "inference_steps": 8,
+    "batch_size": 1,
+    "use_random_seed": false,
+    "seed": 3904,
+    "model": "acestep-v15-turbo",
+    "task_type": "text2music",
+    "audio_cover_strength": 1.0,
+    "audio_format": "wav"
+  },
+  "reference_audio": null,
+  "musical_parameters": "BPM, key and instrumentation are generation prompts, not measured or guaranteed.",
+  "processing": {
+    "source_seconds": 25,
+    "excerpt_seconds": 20,
+    "fade_in_seconds": 0.03,
+    "fade_out_seconds": 0.5,
+    "loop_processed": false,
+    "fixed_gain_db": -11.0,
+    "loudness_target_lufs": -27,
+    "limiter_dbfs": -16,
+    "premaster_measurement": {
+      "integrated_lufs": "-16.00",
+      "true_peak_dbtp": "-1.04",
+      "quiet_events": [
+        "[Parsed_silencedetect_0 @ 000001dec75debc0] silence_start: 0",
+        "[Parsed_silencedetect_0 @ 000001dec75debc0] silence_end: 1.007302 | silence_duration: 1.007302"
+      ]
+    }
+  },
+  "formally_adopted": false,
+  "game_integrated": false,
+  "task": {
+    "task_id": "c2cd031e-2102-4897-aeee-9025c7afea68",
+    "status": "queued",
+    "queue_position": 1
+  },
+  "result": {
+    "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5Ce7bbbf23-b70e-17c0-5de4-37687b890e85.wav",
+    "wave": "",
+    "status": 1,
+    "create_time": 1792133938,
+    "env": "development",
+    "prompt": "Low clarinet and soft dark piano, a compact unsentimental phrase that hesitates briefly then continues forward over an even low piano pulse. Subtle ache in the suspension, a warm human connection held back by responsibility. Firm quiet purpose remains through each phrase, no weeping solo, sweet ballad chords or comforting happy ending. Original instrumental dark fantasy visual novel underscore, 25 seconds. A quiet final decision: after witnessing two failed futures, a reserved protagonist keeps the protective card himself and tells his companions to stay safe while he leaves alone. He is afraid of losing them again but has chosen to carry the cost himself. Controlled determination, protective courage, unsaid farewell and emotional weight. A small steady forward-moving motif, a measured inner pulse, minor harmony with aching suspensions that settle into firm low notes. Restrained strength rather than despair. Keep the melody intimate and grounded, never broad or celebratory. Small acoustic ensemble, soft rounded attacks, quiet dynamics and natural connected resonance under spoken dialogue. The motion remains patient and deliberate, with continuous musical presence for all 25 seconds. No military march, battle drive, pounding drums, epic crescendo, triumphant fanfare, uplifting pop ballad, graduation-song nostalgia, funeral procession or romantic sweetness. No frantic panic, horror sting, abrupt cutoff or early fade. Instrumental only, no singing, choir, speech or environmental sound effects. ",
+    "lyrics": "[Instrumental]",
+    "metas": {
+      "bpm": 78,
+      "duration": 25.0,
+      "genres": "N/A",
+      "keyscale": "D minor",
+      "timesignature": "4",
+      "prompt": "Low clarinet and soft dark piano, a compact unsentimental phrase that hesitates briefly then continues forward over an even low piano pulse. Subtle ache in the suspension, a warm human connection held back by responsibility. Firm quiet purpose remains through each phrase, no weeping solo, sweet ballad chords or comforting happy ending. Original instrumental dark fantasy visual novel underscore, 25 seconds. A quiet final decision: after witnessing two failed futures, a reserved protagonist keeps the protective card himself and tells his companions to stay safe while he leaves alone. He is afraid of losing them again but has chosen to carry the cost himself. Controlled determination, protective courage, unsaid farewell and emotional weight. A small steady forward-moving motif, a measured inner pulse, minor harmony with aching suspensions that settle into firm low notes. Restrained strength rather than despair. Keep the melody intimate and grounded, never broad or celebratory. Small acoustic ensemble, soft rounded attacks, quiet dynamics and natural connected resonance under spoken dialogue. The motion remains patient and deliberate, with continuous musical presence for all 25 seconds. No military march, battle drive, pounding drums, epic crescendo, triumphant fanfare, uplifting pop ballad, graduation-song nostalgia, funeral procession or romantic sweetness. No frantic panic, horror sting, abrupt cutoff or early fade. Instrumental only, no singing, choir, speech or environmental sound effects. ",
+      "lyrics": "[Instrumental]"
+    },
+    "generation_info": "**🎵 Total generation time (1 song): 2.49s**\n- 2.49s per song\n- DiT phase (1 song): 2.49s",
+    "seed_value": "3904",
+    "lm_model": "acestep-5Hz-lm-0.6B",
+    "dit_model": "acestep-v15-turbo",
+    "progress": 1.0,
+    "stage": "succeeded"
+  },
+  "raw_wav": {
+    "file": "candidate_04_clarinet_piano_farewell_seed3904_take01_raw.wav",
+    "sha256": "4c01a94d73aa6ba409200ec3aef7eae86650ff2d2a3099f1a6e5a8f274e4efab",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "25.000000"
+      }
+    }
+  },
+  "master_wav": {
+    "file": "candidate_04_clarinet_piano_farewell_seed3904_take01.wav",
+    "sha256": "3463f49a57e905accdc226562ba5d294b1bafad465617022e08d42c3d37b893f",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "premaster_ogg": {
+    "file": "candidate_04_clarinet_piano_farewell_seed3904_take01_premaster.ogg",
+    "sha256": "1f9a619e4775971e779d31dc4e9750f642ef7a013fe974bd50bc57df2bcb08a7",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "ogg": {
+    "file": "candidate_04_clarinet_piano_farewell_seed3904_take01.ogg",
+    "sha256": "6aa64078c2ff6d19ac9c5a0a2ddaf24d9a6aedfcaf3e217ab8aaacbabcfcfcf4",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "technical_measurements": {
+    "integrated_lufs": "-27.62",
+    "true_peak_dbtp": "-15.66",
+    "quiet_events": [
+      "[Parsed_silencedetect_0 @ 000001f89978fe00] silence_start: 0",
+      "[Parsed_silencedetect_0 @ 000001f89978fe00] silence_end: 1.008413 | silence_duration: 1.008413"
+    ]
+  }
+}

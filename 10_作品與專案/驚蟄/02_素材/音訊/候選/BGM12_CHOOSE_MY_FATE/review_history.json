@@ -1,0 +1,21 @@
+{
+  "cue": "BGM12_CHOOSE_MY_FATE",
+  "status": "awaiting_user_four_short_selection",
+  "reviews": [
+    {
+      "date": "2026-10-16",
+      "stage": "take01_shorts",
+      "user_instruction": "OK，可以進行下一首",
+      "status": "four_20_second_candidates_ready",
+      "files": [
+        "candidate_01_piano_cello_resolve_seed3901_take01.ogg",
+        "candidate_02_muted_strings_oath_seed3902_take01.ogg",
+        "candidate_03_guzheng_cello_vow_seed3903_take01.ogg",
+        "candidate_04_clarinet_piano_farewell_seed3904_take01.ogg"
+      ],
+      "scene": "第八章最終選擇、留卡與告別；出發／苦香準備的延續仍為配置建議",
+      "formally_adopted": false,
+      "game_integrated": false
+    }
+  ]
+}

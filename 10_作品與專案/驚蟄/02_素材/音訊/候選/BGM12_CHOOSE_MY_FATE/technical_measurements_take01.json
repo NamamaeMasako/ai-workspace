@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-16",
+  "files": [
+    {
+      "file": "candidate_01_piano_cello_resolve_seed3901_take01.ogg",
+      "integrated_lufs": "-28.45",
+      "true_peak_dbtp": "-15.78",
+      "quiet_events": []
+    },
+    {
+      "file": "candidate_02_muted_strings_oath_seed3902_take01.ogg",
+      "integrated_lufs": "-27.74",
+      "true_peak_dbtp": "-15.68",
+      "quiet_events": []
+    },
+    {
+      "file": "candidate_03_guzheng_cello_vow_seed3903_take01.ogg",
+      "integrated_lufs": "-27.42",
+      "true_peak_dbtp": "-15.44",
+      "quiet_events": []
+    },
+    {
+      "file": "candidate_04_clarinet_piano_farewell_seed3904_take01.ogg",
+      "integrated_lufs": "-27.62",
+      "true_peak_dbtp": "-15.66",
+      "quiet_events": [
+        "[Parsed_silencedetect_0 @ 000001f89978fe00] silence_start: 0",
+        "[Parsed_silencedetect_0 @ 000001f89978fe00] silence_end: 1.008413 | silence_duration: 1.008413"
+      ]
+    }
+  ]
+}

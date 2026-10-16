@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM12_CHOOSE_MY_FATE",
+  "label": "留在我身上",
+  "revision": "take01",
+  "status": "awaiting user short selection",
+  "request": {
+    "prompt": "Soft rounded low guzheng plucks paired with a restrained cello line, short deliberate motivic exchanges over a grounded minor pedal. The motif returns with small firm variations as if calmly repeating a promise. Quiet East Asian chamber texture, emotional restraint and unsaid farewell. No dance lilt, sparkling ornaments or cheerful pentatonic tune. Original instrumental dark fantasy visual novel underscore, 25 seconds. A quiet final decision: after witnessing two failed futures, a reserved protagonist keeps the protective card himself and tells his companions to stay safe while he leaves alone. He is afraid of losing them again but has chosen to carry the cost himself. Controlled determination, protective courage, unsaid farewell and emotional weight. A small steady forward-moving motif, a measured inner pulse, minor harmony with aching suspensions that settle into firm low notes. Restrained strength rather than despair. Keep the melody intimate and grounded, never broad or celebratory. Small acoustic ensemble, soft rounded attacks, quiet dynamics and natural connected resonance under spoken dialogue. The motion remains patient and deliberate, with continuous musical presence for all 25 seconds. No military march, battle drive, pounding drums, epic crescendo, triumphant fanfare, uplifting pop ballad, graduation-song nostalgia, funeral procession or romantic sweetness. No frantic panic, horror sting, abrupt cutoff or early fade. Instrumental only, no singing, choir, speech or environmental sound effects. ",
+    "lyrics": "[Instrumental]",
+    "thinking": false,
+    "use_format": false,
+    "use_cot_caption": false,
+    "use_cot_language": false,
+    "bpm": 76,
+    "key_scale": "D minor",
+    "time_signature": "4",
+    "vocal_language": "unknown",
+    "audio_duration": 25,
+    "inference_steps": 8,
+    "batch_size": 1,
+    "use_random_seed": false,
+    "seed": 3903,
+    "model": "acestep-v15-turbo",
+    "task_type": "text2music",
+    "audio_cover_strength": 1.0,
+    "audio_format": "wav"
+  },
+  "reference_audio": null,
+  "musical_parameters": "BPM, key and instrumentation are generation prompts, not measured or guaranteed.",
+  "processing": {
+    "source_seconds": 25,
+    "excerpt_seconds": 20,
+    "fade_in_seconds": 0.03,
+    "fade_out_seconds": 0.5,
+    "loop_processed": false,
+    "fixed_gain_db": -12.31,
+    "loudness_target_lufs": -27,
+    "limiter_dbfs": -16,
+    "premaster_measurement": {
+      "integrated_lufs": "-14.69",
+      "true_peak_dbtp": "-0.77",
+      "quiet_events": []
+    }
+  },
+  "formally_adopted": false,
+  "game_integrated": false,
+  "task": {
+    "task_id": "2c4b31f9-ecad-49e3-af90-e2c815068ca1",
+    "status": "queued",
+    "queue_position": 1
+  },
+  "result": {
+    "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5C072fdcbd-adb6-3e40-2b76-f73a9287f0a5.wav",
+    "wave": "",
+    "status": 1,
+    "create_time": 1792133928,
+    "env": "development",
+    "prompt": "Soft rounded low guzheng plucks paired with a restrained cello line, short deliberate motivic exchanges over a grounded minor pedal. The motif returns with small firm variations as if calmly repeating a promise. Quiet East Asian chamber texture, emotional restraint and unsaid farewell. No dance lilt, sparkling ornaments or cheerful pentatonic tune. Original instrumental dark fantasy visual novel underscore, 25 seconds. A quiet final decision: after witnessing two failed futures, a reserved protagonist keeps the protective card himself and tells his companions to stay safe while he leaves alone. He is afraid of losing them again but has chosen to carry the cost himself. Controlled determination, protective courage, unsaid farewell and emotional weight. A small steady forward-moving motif, a measured inner pulse, minor harmony with aching suspensions that settle into firm low notes. Restrained strength rather than despair. Keep the melody intimate and grounded, never broad or celebratory. Small acoustic ensemble, soft rounded attacks, quiet dynamics and natural connected resonance under spoken dialogue. The motion remains patient and deliberate, with continuous musical presence for all 25 seconds. No military march, battle drive, pounding drums, epic crescendo, triumphant fanfare, uplifting pop ballad, graduation-song nostalgia, funeral procession or romantic sweetness. No frantic panic, horror sting, abrupt cutoff or early fade. Instrumental only, no singing, choir, speech or environmental sound effects. ",
+    "lyrics": "[Instrumental]",
+    "metas": {
+      "bpm": 76,
+      "duration": 25.0,
+      "genres": "N/A",
+      "keyscale": "D minor",
+      "timesignature": "4",
+      "prompt": "Soft rounded low guzheng plucks paired with a restrained cello line, short deliberate motivic exchanges over a grounded minor pedal. The motif returns with small firm variations as if calmly repeating a promise. Quiet East Asian chamber texture, emotional restraint and unsaid farewell. No dance lilt, sparkling ornaments or cheerful pentatonic tune. Original instrumental dark fantasy visual novel underscore, 25 seconds. A quiet final decision: after witnessing two failed futures, a reserved protagonist keeps the protective card himself and tells his companions to stay safe while he leaves alone. He is afraid of losing them again but has chosen to carry the cost himself. Controlled determination, protective courage, unsaid farewell and emotional weight. A small steady forward-moving motif, a measured inner pulse, minor harmony with aching suspensions that settle into firm low notes. Restrained strength rather than despair. Keep the melody intimate and grounded, never broad or celebratory. Small acoustic ensemble, soft rounded attacks, quiet dynamics and natural connected resonance under spoken dialogue. The motion remains patient and deliberate, with continuous musical presence for all 25 seconds. No military march, battle drive, pounding drums, epic crescendo, triumphant fanfare, uplifting pop ballad, graduation-song nostalgia, funeral procession or romantic sweetness. No frantic panic, horror sting, abrupt cutoff or early fade. Instrumental only, no singing, choir, speech or environmental sound effects. ",
+      "lyrics": "[Instrumental]"
+    },
+    "generation_info": "**🎵 Total generation time (1 song): 2.00s**\n- 2.00s per song\n- DiT phase (1 song): 2.00s",
+    "seed_value": "3903",
+    "lm_model": "acestep-5Hz-lm-0.6B",
+    "dit_model": "acestep-v15-turbo",
+    "progress": 1.0,
+    "stage": "succeeded"
+  },
+  "raw_wav": {
+    "file": "candidate_03_guzheng_cello_vow_seed3903_take01_raw.wav",
+    "sha256": "5bb15d8d8503710530c0e02fff747362d81b6feb93fea40874f9b306e29ce672",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "25.000000"
+      }
+    }
+  },
+  "master_wav": {
+    "file": "candidate_03_guzheng_cello_vow_seed3903_take01.wav",
+    "sha256": "f1aeb31816abaa262eeaed53558aa54710fb95ff6487d7201667f9803639d3da",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "premaster_ogg": {
+    "file": "candidate_03_guzheng_cello_vow_seed3903_take01_premaster.ogg",
+    "sha256": "84c3ce812805fc74d8cf60cf9d21c2a2823e345853cc954a7d9206544e18ff57",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "ogg": {
+    "file": "candidate_03_guzheng_cello_vow_seed3903_take01.ogg",
+    "sha256": "fc25b272b04e31986cb7d98b2c75f11393f002b0471005e02d0905acf3ec0e38",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "technical_measurements": {
+    "integrated_lufs": "-27.42",
+    "true_peak_dbtp": "-15.44",
+    "quiet_events": []
+  }
+}
