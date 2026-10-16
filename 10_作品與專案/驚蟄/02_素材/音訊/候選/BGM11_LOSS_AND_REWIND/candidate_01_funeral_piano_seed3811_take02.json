@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM11_LOSS_AND_REWIND",
+  "label": "再也喚不醒",
+  "revision": "take02",
+  "status": "awaiting user short selection",
+  "request": {
+    "prompt": "Solo dark soft piano, low left-hand descending chromatic lament line, widely spaced right-hand falling minor-second cries in the middle register. Fractured rubato grief, bare unresolved minor chords, weight and emptiness after every gesture. No steady accompaniment pattern, no high tinkling notes, no lyrical ballad cadence. Instrumental cinematic death lament, 25 seconds, crushing bereavement. A loved companion is already dead, her body is cold, and the survivor cannot make her answer. The emotional center is devastating irreversible loss, sorrow, despair and stunned emptiness. Audibly mournful from the first phrase, painful minor seconds resolving downwards, a slow chromatically descending lament bass beneath fractured falling melodic fragments. Dark minor-key harmony weighted by flat sixth and unresolved suspensions, no bright major arrival. Grave adagio, heavy slow pacing without drums, soft attacks and low dynamic range. Write as a tragic death scene score with intimate audible grief and aching melodic tension. Short phrases sink and break, a bereaved person trying to speak and failing. Avoid regular four-bar song phrases, repeating pop chord loops, lilting accompaniment, sweet tuneful refrains, flowing arpeggios, graduation-song sentiment, nostalgic farewell, warm memories, comfort, acceptance, hope, healing, romance or uplifting resolution. No cheerful pentatonic melody, high sparkling notes, rhythmic plucking or sentimental pop ballad. No heroic orchestral climax, horror stings, percussive hits or busy action rhythms. Quiet dialogue underscore with full-length natural sustained note tails, no early cutoff. Only instrumental music; no singing, choir, speech, rain, wind or other sound effects. ",
+    "lyrics": "[Instrumental]",
+    "thinking": false,
+    "use_format": false,
+    "use_cot_caption": false,
+    "use_cot_language": false,
+    "bpm": 40,
+    "key_scale": "C minor",
+    "time_signature": "4",
+    "vocal_language": "unknown",
+    "audio_duration": 25,
+    "inference_steps": 8,
+    "batch_size": 1,
+    "use_random_seed": false,
+    "seed": 3811,
+    "model": "acestep-v15-turbo",
+    "task_type": "text2music",
+    "audio_cover_strength": 1.0,
+    "audio_format": "wav"
+  },
+  "reference_audio": null,
+  "musical_parameters": "BPM, key and instrumentation are generation prompts, not measured or guaranteed.",
+  "processing": {
+    "source_seconds": 25,
+    "excerpt_seconds": 20,
+    "fade_in_seconds": 0.03,
+    "fade_out_seconds": 0.5,
+    "loop_processed": false,
+    "fixed_gain_db": -9.760000000000002,
+    "loudness_target_lufs": -27,
+    "limiter_dbfs": -16,
+    "premaster_measurement": {
+      "integrated_lufs": "-17.24",
+      "true_peak_dbtp": "-1.06",
+      "quiet_events": []
+    }
+  },
+  "formally_adopted": false,
+  "game_integrated": false,
+  "task": {
+    "task_id": "d827ef88-44ee-498d-a2aa-e68ff2846250",
+    "status": "queued",
+    "queue_position": 1
+  },
+  "result": {
+    "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5C0fe09820-5928-f12c-3e10-b44e71aa067d.wav",
+    "wave": "",
+    "status": 1,
+    "create_time": 1792131736,
+    "env": "development",
+    "prompt": "Solo dark soft piano, low left-hand descending chromatic lament line, widely spaced right-hand falling minor-second cries in the middle register. Fractured rubato grief, bare unresolved minor chords, weight and emptiness after every gesture. No steady accompaniment pattern, no high tinkling notes, no lyrical ballad cadence. Instrumental cinematic death lament, 25 seconds, crushing bereavement. A loved companion is already dead, her body is cold, and the survivor cannot make her answer. The emotional center is devastating irreversible loss, sorrow, despair and stunned emptiness. Audibly mournful from the first phrase, painful minor seconds resolving downwards, a slow chromatically descending lament bass beneath fractured falling melodic fragments. Dark minor-key harmony weighted by flat sixth and unresolved suspensions, no bright major arrival. Grave adagio, heavy slow pacing without drums, soft attacks and low dynamic range. Write as a tragic death scene score with intimate audible grief and aching melodic tension. Short phrases sink and break, a bereaved person trying to speak and failing. Avoid regular four-bar song phrases, repeating pop chord loops, lilting accompaniment, sweet tuneful refrains, flowing arpeggios, graduation-song sentiment, nostalgic farewell, warm memories, comfort, acceptance, hope, healing, romance or uplifting resolution. No cheerful pentatonic melody, high sparkling notes, rhythmic plucking or sentimental pop ballad. No heroic orchestral climax, horror stings, percussive hits or busy action rhythms. Quiet dialogue underscore with full-length natural sustained note tails, no early cutoff. Only instrumental music; no singing, choir, speech, rain, wind or other sound effects. ",
+    "lyrics": "[Instrumental]",
+    "metas": {
+      "bpm": 40,
+      "duration": 25.0,
+      "genres": "N/A",
+      "keyscale": "C minor",
+      "timesignature": "4",
+      "prompt": "Solo dark soft piano, low left-hand descending chromatic lament line, widely spaced right-hand falling minor-second cries in the middle register. Fractured rubato grief, bare unresolved minor chords, weight and emptiness after every gesture. No steady accompaniment pattern, no high tinkling notes, no lyrical ballad cadence. Instrumental cinematic death lament, 25 seconds, crushing bereavement. A loved companion is already dead, her body is cold, and the survivor cannot make her answer. The emotional center is devastating irreversible loss, sorrow, despair and stunned emptiness. Audibly mournful from the first phrase, painful minor seconds resolving downwards, a slow chromatically descending lament bass beneath fractured falling melodic fragments. Dark minor-key harmony weighted by flat sixth and unresolved suspensions, no bright major arrival. Grave adagio, heavy slow pacing without drums, soft attacks and low dynamic range. Write as a tragic death scene score with intimate audible grief and aching melodic tension. Short phrases sink and break, a bereaved person trying to speak and failing. Avoid regular four-bar song phrases, repeating pop chord loops, lilting accompaniment, sweet tuneful refrains, flowing arpeggios, graduation-song sentiment, nostalgic farewell, warm memories, comfort, acceptance, hope, healing, romance or uplifting resolution. No cheerful pentatonic melody, high sparkling notes, rhythmic plucking or sentimental pop ballad. No heroic orchestral climax, horror stings, percussive hits or busy action rhythms. Quiet dialogue underscore with full-length natural sustained note tails, no early cutoff. Only instrumental music; no singing, choir, speech, rain, wind or other sound effects. ",
+      "lyrics": "[Instrumental]"
+    },
+    "generation_info": "**🎵 Total generation time (1 song): 6.18s**\n- 6.18s per song\n- DiT phase (1 song): 6.18s",
+    "seed_value": "3811",
+    "lm_model": "acestep-5Hz-lm-0.6B",
+    "dit_model": "acestep-v15-turbo",
+    "progress": 1.0,
+    "stage": "succeeded"
+  },
+  "raw_wav": {
+    "file": "candidate_01_funeral_piano_seed3811_take02_raw.wav",
+    "sha256": "b9aa4fc0c70a8775b80d06eded40f903a02966487166413257cca7bc4ea3751d",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "25.000000"
+      }
+    }
+  },
+  "master_wav": {
+    "file": "candidate_01_funeral_piano_seed3811_take02.wav",
+    "sha256": "e6740b9e295edd4158b5ecb45f7ec2b26e7434b32855a42acc19d7912d7d34c0",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "premaster_ogg": {
+    "file": "candidate_01_funeral_piano_seed3811_take02_premaster.ogg",
+    "sha256": "a8f9cbaaf00caa8c736fe20ac02dcc12c2e104eec098f3542a5336254ca0a7e2",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "ogg": {
+    "file": "candidate_01_funeral_piano_seed3811_take02.ogg",
+    "sha256": "c21e4bc0299c46a018e8dc7c590501f428297d2d45ad87385714165f2a261cb0",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "technical_measurements": {
+    "integrated_lufs": "-27.62",
+    "true_peak_dbtp": "-15.85",
+    "quiet_events": []
+  }
+}

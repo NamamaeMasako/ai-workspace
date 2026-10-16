@@ -1,6 +1,6 @@
 {
   "cue": "BGM11_LOSS_AND_REWIND",
-  "status": "awaiting_user_four_short_selection",
+  "status": "awaiting_user_take02_four_short_selection",
   "reviews": [
     {
       "date": "2026-10-16",
@@ -13,6 +13,30 @@
         "candidate_03_muted_strings_seed3803_take01.ogg",
         "candidate_04_bamboo_guzheng_seed3804_take01.ogg"
       ],
+      "formally_adopted": false,
+      "game_integrated": false
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "take01_shorts_rejection",
+      "user_feedback": "這四首都不夠悲傷，都比較像畢業歌不像有人死掉",
+      "decision": "reject_all_four",
+      "next_direction": "死亡已成事實的悲痛、麻木與無力；移除溫暖懷舊、流暢抒情與明亮收束，保留柔和起音。",
+      "formally_adopted": false,
+      "game_integrated": false
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "take02_shorts",
+      "status": "four_20_second_candidates_ready",
+      "files": [
+        "candidate_01_funeral_piano_seed3811_take02.ogg",
+        "candidate_02_cello_lament_seed3812_take02.ogg",
+        "candidate_03_string_dirge_seed3813_take02.ogg",
+        "candidate_04_erhu_elegy_seed3814_take02.ogg"
+      ],
+      "direction": "不可挽回的死亡悲痛；下行半音、未解懸留、斷續樂句與沉重低音，避免畢業歌、懷舊告別與安慰感。",
+      "musical_parameters_note": "以上是生成意圖，非人耳聽辨結論；實際情緒待生前試聽。",
       "formally_adopted": false,
       "game_integrated": false
     }

@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-16",
+  "files": [
+    {
+      "file": "candidate_01_funeral_piano_seed3811_take02.ogg",
+      "integrated_lufs": "-27.62",
+      "true_peak_dbtp": "-15.85",
+      "quiet_events": []
+    },
+    {
+      "file": "candidate_02_cello_lament_seed3812_take02.ogg",
+      "integrated_lufs": "-27.47",
+      "true_peak_dbtp": "-15.83",
+      "quiet_events": [
+        "[Parsed_silencedetect_0 @ 000001c696802180] silence_start: 0",
+        "[Parsed_silencedetect_0 @ 000001c696802180] silence_end: 1.585306 | silence_duration: 1.585306"
+      ]
+    },
+    {
+      "file": "candidate_03_string_dirge_seed3813_take02.ogg",
+      "integrated_lufs": "-27.59",
+      "true_peak_dbtp": "-15.71",
+      "quiet_events": []
+    },
+    {
+      "file": "candidate_04_erhu_elegy_seed3814_take02.ogg",
+      "integrated_lufs": "-27.26",
+      "true_peak_dbtp": "-15.70",
+      "quiet_events": [
+        "[Parsed_silencedetect_0 @ 0000016789e5ed40] silence_start: 9.2",
+        "[Parsed_silencedetect_0 @ 0000016789e5ed40] silence_end: 10.201542 | silence_duration: 1.001542"
+      ]
+    }
+  ]
+}
