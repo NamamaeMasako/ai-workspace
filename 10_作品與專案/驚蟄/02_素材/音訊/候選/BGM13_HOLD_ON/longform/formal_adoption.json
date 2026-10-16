@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM13_HOLD_ON",
+  "status": "formally_adopted",
+  "user_feedback": "OK",
+  "label": "還有一口氣",
+  "version": "long_02_tail_repair_full_attack",
+  "selected_short": "candidate_01_piano_cello_fading_seed4001_take01.ogg",
+  "source_file": "long_02_tail_repair_piano_cello_fading_seed4001_loop_full_attack.ogg",
+  "game_file": "03_開發/JingZhe/game/audio/music/bgm_hold_on.ogg",
+  "sha256": "d88d32c251fe33555f52a89b724273118181eba0e58f6dcc5d1a4217c921dbcc",
+  "playback": {
+    "first_seconds": 67.75,
+    "loop_start_seconds": 1.0,
+    "repeat_period_seconds": 66.75,
+    "fadeout_previous_seconds": 1.5,
+    "fadein_seconds": 1.2,
+    "exit_fadeout_seconds": 1.0,
+    "per_file_volume": 1.0
+  },
+  "scene": "第八章戰後驚蟄跪下、重傷瀕死、兩人趕到、阻止花見撕卡與意識模糊。",
+  "exit": "影之魔女現身前淡出，待 BGM14 製作後接入專屬曲。",
+  "repair_approved": "約 19／41 秒尾音延展與完整末句回接，保留現行 long_02 修版。",
+  "formal_scene_approval": true,
+  "approval_basis": "User replied OK after the repaired version was deployed and reopened for comparison. Records user approval; no claim of independent assistant listening validation.",
+  "integration_record": "game_integration_long02.json",
+  "release_rebuilt": false,
+  "version_changed": false
+}

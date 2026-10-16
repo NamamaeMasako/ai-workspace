@@ -1,6 +1,6 @@
 {
   "cue": "BGM13_HOLD_ON",
-  "status": "awaiting_user_long02_tail_and_loop_confirmation",
+  "status": "formally_adopted",
   "reviews": [
     {
       "date": "2026-10-16",
@@ -126,6 +126,16 @@
       "status": "awaiting_user_tail_smoothness_and_loop_confirmation",
       "formally_adopted": false,
       "new_generation": false
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "formal_game_adoption",
+      "user_feedback": "OK",
+      "file": "longform/long_02_tail_repair_piano_cello_fading_seed4001_loop_full_attack.ogg",
+      "sha256": "d88d32c251fe33555f52a89b724273118181eba0e58f6dcc5d1a4217c921dbcc",
+      "decision": "formally_adopt_long02_repaired_tails_loop_and_current_scene_configuration",
+      "formally_adopted": true,
+      "next_cue": "BGM14_SHADOW_WITCH"
     }
   ]
 }

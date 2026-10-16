@@ -3,7 +3,7 @@
   "cue": "BGM13_HOLD_ON",
   "user_feedback": "感覺循環接得有點生硬，有幾個音像突然斷掉一樣",
   "timing_clarification": "曲子中間就有",
-  "status": "tail_repair_game_audition_pending_user_confirmation",
+  "status": "formally_adopted",
   "source": "long_02_tail_repair_piano_cello_fading_seed4001_loop_full_attack.ogg",
   "sha256": "d88d32c251fe33555f52a89b724273118181eba0e58f6dcc5d1a4217c921dbcc",
   "matches_source": true,
@@ -169,6 +169,8 @@
     "ambience": null
   },
   "hearing_limit": "波形診斷和播放資訊不等於人耳驗收，改善程度、音色及新回接仍待生前比較。",
-  "formally_adopted": false,
-  "release_rebuilt": false
+  "formally_adopted": true,
+  "release_rebuilt": false,
+  "formal_adoption": "formal_adoption.json",
+  "adoption_feedback": "OK"
 }
