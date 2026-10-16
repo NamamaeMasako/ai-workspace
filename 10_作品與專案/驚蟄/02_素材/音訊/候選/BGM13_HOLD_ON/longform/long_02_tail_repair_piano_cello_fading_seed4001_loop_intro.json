@@ -1,0 +1,150 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM13_HOLD_ON",
+  "status": "internal draft superseded before game deployment",
+  "user_feedback": "曲子中間就有；有幾個音像突然斷掉，循環接得生硬",
+  "new_generation": false,
+  "formally_adopted": false,
+  "sources": [
+    {
+      "file": "long_01_natural_phrase_piano_cello_fading_seed4001.wav",
+      "sha256": "0a5366229eb80cc8fdc6f2c5edc219737b13d8e345073bab01689edc422a28d8"
+    },
+    {
+      "file": "long_01_natural_phrase_piano_cello_fading_seed4001_raw.wav",
+      "sha256": "a25f7c5288e37dba76d66bdf94bc776472414a2d24ad44b701e5a0d37e3db5bb"
+    },
+    {
+      "file": "long_01_natural_phrase_piano_cello_fading_seed4001_unfaded_leveled_source.wav",
+      "sha256": "6264393b8d13ead1e5c030435bdc7dfbd2b83f9e89c494826b9e7564fda5fcfd"
+    }
+  ],
+  "processing": {
+    "method": "Local pitch-preserving tail extension and unfaded original phrase restoration",
+    "patches": [
+      {
+        "release_seconds": 18.9,
+        "changed_interval_seconds": [
+          18.45,
+          20.299999999999997
+        ],
+        "local_source_interval_seconds": [
+          18.25,
+          18.799999999999997
+        ],
+        "nominal_pitch_preserved": true,
+        "stretch_factor": 4,
+        "exponential_release_tau_seconds": 0.6,
+        "following_original_notes_restore_by_seconds": 19.099999999999998,
+        "local_tail_gain_db": 0.014434152009783766
+      },
+      {
+        "release_seconds": 41.15,
+        "changed_interval_seconds": [
+          40.699999999999996,
+          42.55
+        ],
+        "local_source_interval_seconds": [
+          40.5,
+          41.05
+        ],
+        "nominal_pitch_preserved": true,
+        "stretch_factor": 4,
+        "exponential_release_tau_seconds": 0.6,
+        "following_original_notes_restore_by_seconds": 41.35,
+        "local_tail_gain_db": -0.8989599017240966
+      },
+      {
+        "release_seconds": 63.4,
+        "changed_interval_seconds": [
+          62.949999999999996,
+          64.8
+        ],
+        "local_source_interval_seconds": [
+          62.75,
+          63.3
+        ],
+        "nominal_pitch_preserved": true,
+        "stretch_factor": 4,
+        "exponential_release_tau_seconds": 0.6,
+        "following_original_notes_restore_by_seconds": 63.6,
+        "local_tail_gain_db": -0.6101275485963571
+      }
+    ],
+    "final_phrase_restoration": {
+      "destination_seconds": [
+        62.75,
+        67.75
+      ],
+      "original_source_seconds": [
+        18.25,
+        23.25
+      ],
+      "gain_db": -6.445654300570468,
+      "crossfade_seconds": [
+        62.75,
+        63.1
+      ]
+    },
+    "unchanged_opening_seconds": 18.45,
+    "uniform_master_gain_db": 0,
+    "duration_seconds": 67.75,
+    "renpy_loop_start_seconds": 1.0,
+    "repeat_period_seconds": 66.75,
+    "loop_overlap_seconds": 1.0,
+    "loop_basis": "Three fixed source-map periods plus natural original phrase decay; not measured bar alignment",
+    "pcm_boundary_step": 0.00023890845477581024
+  },
+  "wav": {
+    "file": "long_02_tail_repair_piano_cello_fading_seed4001_loop_intro.wav",
+    "sha256": "d06e020b2c449e2de7914b6feec93a184e9274bce3893d617c669fd0e380014d"
+  },
+  "ogg": {
+    "file": "long_02_tail_repair_piano_cello_fading_seed4001_loop_intro.ogg",
+    "sha256": "3563c3aa79cd3e15740a208ee7eb26877c4ac2ffc819f8e3075c2a690c275985",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "67.750000"
+      }
+    }
+  },
+  "detail_clips": {
+    "before": {
+      "file": "long_02_tail_repair_piano_cello_fading_seed4001_loop_intro_detail_before_16to24.ogg",
+      "sha256": "9cbc350a9b51b4defc4a081d17a85b097726b2aab520474953038c41f0c0973e"
+    },
+    "after": {
+      "file": "long_02_tail_repair_piano_cello_fading_seed4001_loop_intro_detail_after_16to24.ogg",
+      "sha256": "db59be8471015482dafed0c92fcaabfc9ef3ee2da475a3babae3a2a0eecd27df"
+    }
+  },
+  "technical_measurements": {
+    "integrated_lufs": "-30.72",
+    "true_peak_dbtp": "-15.47",
+    "quiet_events": [
+      "silence_start: 30.460476",
+      "silence_end: 31.121088 | silence_duration: 0.660612",
+      "silence_start: 41.631179",
+      "silence_end: 42.510363 | silence_duration: 0.879184",
+      "silence_start: 52.580204",
+      "silence_end: 53.485238 | silence_duration: 0.905034",
+      "silence_start: 63.77263",
+      "silence_end: 64.762381 | silence_duration: 0.989751"
+    ]
+  },
+  "hearing_limit": "Signal inspection locates gates; actual smoothness and musical fit require user audition.",
+  "producer": {
+    "file": "repair_long_02_note_tails.py",
+    "sha256": "06f2fce9498a3aec05e08c642006cad9acc3ea12fa4a83206ec3904591fadae3"
+  },
+  "superseded_by": "long_02_tail_repair_piano_cello_fading_seed4001_loop_full_attack.ogg"
+}

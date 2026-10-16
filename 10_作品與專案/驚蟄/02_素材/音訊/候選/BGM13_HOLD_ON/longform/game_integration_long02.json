@@ -1,0 +1,174 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM13_HOLD_ON",
+  "user_feedback": "感覺循環接得有點生硬，有幾個音像突然斷掉一樣",
+  "timing_clarification": "曲子中間就有",
+  "status": "tail_repair_game_audition_pending_user_confirmation",
+  "source": "long_02_tail_repair_piano_cello_fading_seed4001_loop_full_attack.ogg",
+  "sha256": "d88d32c251fe33555f52a89b724273118181eba0e58f6dcc5d1a4217c921dbcc",
+  "matches_source": true,
+  "previous_source": "long_01_natural_phrase_piano_cello_fading_seed4001_loop_intro.ogg",
+  "previous_sha256": "25c854e9557e8a06db2c44331f40ff2db01b0011ef2c18258c13c6e095b8f526",
+  "game_file": "03_開發/JingZhe/game/audio/music/bgm_hold_on.ogg",
+  "processing": {
+    "method": "Local pitch-preserving tail extension and unfaded original phrase restoration",
+    "patches": [
+      {
+        "release_seconds": 18.9,
+        "changed_interval_seconds": [
+          18.45,
+          20.299999999999997
+        ],
+        "local_source_interval_seconds": [
+          18.25,
+          18.799999999999997
+        ],
+        "nominal_pitch_preserved": true,
+        "stretch_factor": 4,
+        "exponential_release_tau_seconds": 0.6,
+        "following_original_notes_restore_by_seconds": 19.099999999999998,
+        "local_tail_gain_db": 0.014434152009783766
+      },
+      {
+        "release_seconds": 41.15,
+        "changed_interval_seconds": [
+          40.699999999999996,
+          42.55
+        ],
+        "local_source_interval_seconds": [
+          40.5,
+          41.05
+        ],
+        "nominal_pitch_preserved": true,
+        "stretch_factor": 4,
+        "exponential_release_tau_seconds": 0.6,
+        "following_original_notes_restore_by_seconds": 41.35,
+        "local_tail_gain_db": -0.8989599017240966
+      },
+      {
+        "release_seconds": 63.4,
+        "changed_interval_seconds": [
+          62.949999999999996,
+          64.8
+        ],
+        "local_source_interval_seconds": [
+          62.75,
+          63.3
+        ],
+        "nominal_pitch_preserved": true,
+        "stretch_factor": 4,
+        "exponential_release_tau_seconds": 0.6,
+        "following_original_notes_restore_by_seconds": 63.6,
+        "local_tail_gain_db": -0.6101275485963571
+      }
+    ],
+    "final_phrase_restoration": {
+      "destination_seconds": [
+        62.75,
+        67.75
+      ],
+      "original_source_seconds": [
+        18.25,
+        23.25
+      ],
+      "gain_db": -6.445654300570468,
+      "crossfade_seconds": [
+        62.75,
+        63.1
+      ]
+    },
+    "unchanged_opening_seconds": 18.45,
+    "uniform_master_gain_db": 0,
+    "duration_seconds": 67.75,
+    "renpy_loop_start_seconds": 1.0,
+    "repeat_period_seconds": 66.75,
+    "loop_overlap_seconds": 1.0,
+    "incoming_intro_gain": 1.0,
+    "loop_overlap_method": "Add the intact incoming intro while fading only the already quiet outgoing tail",
+    "loop_basis": "Three fixed source-map periods plus natural original phrase decay; not measured bar alignment",
+    "pcm_boundary_step": 0.00023890845477581024,
+    "unchanged_opening_pcm_max_error": 0.0
+  },
+  "diagnostic_release_envelopes": {
+    "18.92": {
+      "old": {
+        "before_100ms_dbfs": -38.87371135765263,
+        "after_100ms_dbfs": -49.2212821102043,
+        "drop_db": -10.347570752551668
+      },
+      "repaired": {
+        "before_100ms_dbfs": -37.933788999764054,
+        "after_100ms_dbfs": -39.1602758986152,
+        "drop_db": -1.2264868988511424
+      }
+    },
+    "41.19": {
+      "old": {
+        "before_100ms_dbfs": -46.84883269122261,
+        "after_100ms_dbfs": -56.121613362053104,
+        "drop_db": -9.272780670830493
+      },
+      "repaired": {
+        "before_100ms_dbfs": -45.74818527147423,
+        "after_100ms_dbfs": -47.395306992078034,
+        "drop_db": -1.6471217206038062
+      }
+    }
+  },
+  "technical_measurements": {
+    "integrated_lufs": "-30.43",
+    "true_peak_dbtp": "-15.47",
+    "quiet_events": [
+      "silence_start: 30.460476",
+      "silence_end: 31.121088 | silence_duration: 0.660612",
+      "silence_start: 41.631179",
+      "silence_end: 42.510363 | silence_duration: 0.879184",
+      "silence_start: 52.580204",
+      "silence_end: 53.485238 | silence_duration: 0.905034",
+      "silence_start: 63.77263",
+      "silence_end: 64.762381 | silence_duration: 0.989751"
+    ],
+    "decode": "passed without diagnostics"
+  },
+  "playback": {
+    "channel": "music",
+    "first_seconds": 67.75,
+    "loop_start_seconds": 1.0,
+    "repeat_period_seconds": 66.75,
+    "fadeout_previous_seconds": 1.5,
+    "fadein_seconds": 1.2,
+    "exit_fadeout_seconds": 1.0,
+    "scene_entries_unchanged": true,
+    "user_music_settings_unchanged": true
+  },
+  "launch": {
+    "basedir_type": "development",
+    "warp": "script.rpy:2417",
+    "opening_text": "驚蟄跪下去。",
+    "process_id": 39844,
+    "old_task_owned_process_restarted": 27932,
+    "runtime_file": "game_runtime_long02_initial.json",
+    "screenshot": "game_scene_long02_initial.png",
+    "observation": "開發 basedir、修正後 SHA-256、<loop 1.0> 播放及位置前進已觀察；music／relative volume 1.0、未靜音、ambience 空，初始畫面已檢視。"
+  },
+  "runtime_snapshot": {
+    "audio_sha256": "d88d32c251fe33555f52a89b724273118181eba0e58f6dcc5d1a4217c921dbcc",
+    "timestamp": 1792165553.006493,
+    "basedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe",
+    "gamedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe\\game",
+    "location": [
+      "game/script.rpy",
+      2417
+    ],
+    "playing": "<loop 1.0>audio/music/bgm_hold_on.ogg",
+    "position": 28.012,
+    "relative_volume": 1.0,
+    "music_volume": 1.0,
+    "music_muted": false,
+    "master_muted": false,
+    "ambience": null
+  },
+  "hearing_limit": "波形診斷和播放資訊不等於人耳驗收，改善程度、音色及新回接仍待生前比較。",
+  "formally_adopted": false,
+  "release_rebuilt": false
+}

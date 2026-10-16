@@ -1,6 +1,6 @@
 {
   "cue": "BGM13_HOLD_ON",
-  "status": "awaiting_user_game_scene_and_loop_confirmation",
+  "status": "awaiting_user_long02_tail_and_loop_confirmation",
   "reviews": [
     {
       "date": "2026-10-16",
@@ -109,6 +109,23 @@
       "scene": "驚蟄戰後跪下、重傷瀕死與兩人趕到，至影之魔女現身前",
       "status": "awaiting_user_scene_transition_and_loop_confirmation",
       "formally_adopted": false
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "long01_feedback",
+      "user_feedback": "感覺循環接得有點生硬，有幾個音像突然斷掉一樣",
+      "timing_clarification": "曲子中間就有",
+      "decision": "repair_mid_phrase_releases_and_loop_handoff",
+      "formally_adopted": false
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "long02_tail_repair_game_audition",
+      "file": "longform/long_02_tail_repair_piano_cello_fading_seed4001_loop_full_attack.ogg",
+      "sha256": "d88d32c251fe33555f52a89b724273118181eba0e58f6dcc5d1a4217c921dbcc",
+      "status": "awaiting_user_tail_smoothness_and_loop_confirmation",
+      "formally_adopted": false,
+      "new_generation": false
     }
   ]
 }
