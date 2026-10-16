@@ -1,6 +1,6 @@
 {
   "cue": "BGM12_CHOOSE_MY_FATE",
-  "status": "awaiting_user_take02_four_short_selection",
+  "status": "awaiting_user_long01_audition",
   "reviews": [
     {
       "date": "2026-10-16",
@@ -48,6 +48,69 @@
       "musical_parameters_note": "配器、情緒、調性、速度是生成提示，非助理已聽辨或實測確認。",
       "formally_adopted": false,
       "game_integrated": false
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "take02_short_selection",
+      "user_instruction": "用第四版",
+      "selected_file": "candidate_04_cello_piano_cost_seed3914_take02.ogg",
+      "label": "把結局留下",
+      "decision": "selected_for_60_second_long_audition",
+      "reference_method": "Selected OGG uploaded as reference_audio; matching unfaded raw mother supplies source template uploaded as src_audio.",
+      "formally_adopted": false,
+      "game_integrated": false
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "long01_ready",
+      "file": "longform/long_01_natural_phrase_cello_piano_cost_seed3914.ogg",
+      "selected_short": {
+        "file": "candidate_04_cello_piano_cost_seed3914_take02.ogg",
+        "sha256": "4dd8db7e03c194e079ba42e97a7324acdca0dd861929c6ec009442cd231b6e37",
+        "submission_method": "multipart reference_audio upload"
+      },
+      "status": "awaiting_user_long_audition",
+      "entry_rule": "第八章玩家選下「把卡留給自己」後開始；選項出現前維持無 BGM。",
+      "formally_adopted": false,
+      "game_integrated": false,
+      "processing": {
+        "preserved_selected_short_opening_seconds": 18,
+        "natural_unfaded_handoff_interval_seconds": [
+          18,
+          19
+        ],
+        "generated_continuation_crossfade_seconds": [
+          23.75,
+          24.5
+        ],
+        "natural_source_gain_db": 0.022287537417324296,
+        "continuation_gain_db": -14.404842786513104,
+        "uniform_master_gain_db": 0.0,
+        "opening_pcm_verified_before_mastering": true,
+        "fade_out_seconds": 0.5,
+        "loop_processed": false,
+        "method": "Carry unfaded mother tail through 20s and join at its natural ending, instead of repeating the faded audition clip.",
+        "audition_mastering": {
+          "fixed_gain_db": 0.0,
+          "limiter_dbfs": null,
+          "continuation_peak_ceiling_dbfs": -16,
+          "preserve_selected_short_level": true,
+          "latency_compensation": true,
+          "timestamps_rebuilt": true,
+          "composition_changed": false,
+          "premaster_measurement": {
+            "integrated_lufs": "-30.46",
+            "true_peak_dbtp": "-15.55",
+            "quiet_events": []
+          }
+        }
+      },
+      "measurements": {
+        "decode": "passed",
+        "integrated_lufs": "-30.46",
+        "true_peak_dbtp": "-15.55",
+        "quiet_events": []
+      }
     }
   ],
   "playback_entry": "第八章玩家選下「把卡留給自己」後開始；選項出現前維持無 BGM。"
