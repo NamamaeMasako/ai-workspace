@@ -1,0 +1,263 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM13_HOLD_ON",
+  "candidates": [
+    {
+      "date": "2026-10-16",
+      "cue": "BGM13_HOLD_ON",
+      "label": "還有一口氣・長版",
+      "status": "awaiting user long audition",
+      "formally_adopted": false,
+      "game_integrated": false,
+      "request": {
+        "prompt": "Low soft piano and restrained cello, a short wavering two-note question hangs against a suspended minor chord. The cello keeps a thin sustained line alive under uneven piano returns. Delicate physical weakness and aching urgency, no flowing arpeggios or broad elegy. Original instrumental dramatic underscore for a dark fantasy visual novel, 25 seconds. After battle the protagonist is critically wounded, losing blood and struggling to remain conscious. His two companions arrive, terrified of losing him, trying to keep him here. One tries to tear a protective card to save him; he weakly stops her because he refuses another reset. He is still alive, very fragile and in danger. Exhaustion, pain, restrained urgency and human closeness. The music holds a thin thread of life: aching suspended minor harmony, a faltering small motif that keeps trying to answer, a quiet hesitant musical pulse with gentle forward tension. Small low-to-middle register ensemble, very soft attacks, controlled dynamics, sustained connected resonance beneath sparse phrases. A fragile possibility of rescue remains unresolved. Keep wounded vulnerability and danger present from the opening, without announcing death or recovery. Continuous quiet musical presence for all 25 seconds, natural note tails, no long silent middle. No funeral march, settled bereavement, warm nostalgic farewell, comforting daily-life mood, graduation song, sweet romantic melody, major-key hopeful lift, relaxed swaying accompaniment, heroic climax, battle drums, horror stings or early ending. Only instrumental music: no voice, choir, literal breathing or heartbeat effects, rain, wind or other sounds.  Extend this exact selected original short faithfully into a continuous 65-second cue. Preserve the soft low piano and restrained cello interplay, wavering two-note question, thin sustained line and hesitant musical pulse. The 56 BPM value is a prompt, not a measured tempo. Keep the protagonist critically injured and still alive, exhausted and losing consciousness, with his companions trying to keep him here. Preserve vulnerability, danger and a thin unresolved possibility of rescue through the full piece with small variations of the same intimate motif. Do not drift into settled mourning, sweet romantic warmth, relaxed daily-life music, heroic recovery or a dramatic orchestral climax. Follow the supplied unfaded source map, including the original phrase after 20 seconds instead of the preview fade. Natural connected resonance between phrases, no long silent middle or early ending, no new percussion, vocals, breathing, heartbeat or environmental effects. Keep the selected quiet fragility, wavering motif and unresolved chance of rescue emotionally consistent throughout.",
+        "lyrics": "[Instrumental]",
+        "thinking": false,
+        "use_format": false,
+        "use_cot_caption": false,
+        "use_cot_language": false,
+        "bpm": 56,
+        "key_scale": "E minor",
+        "time_signature": "4",
+        "vocal_language": "unknown",
+        "audio_duration": 65,
+        "inference_steps": 8,
+        "batch_size": 1,
+        "use_random_seed": false,
+        "seed": 4001,
+        "model": "acestep-v15-turbo",
+        "task_type": "cover",
+        "audio_cover_strength": 1.0,
+        "audio_format": "wav",
+        "cover_noise_strength": 0.55
+      },
+      "reference": {
+        "file": "candidate_01_piano_cello_fading_seed4001_take01.ogg",
+        "sha256": "e743ba55d487bd167fbe817393a37c34b830848e3f9328f130e6a6cbc2bddac1",
+        "submission_method": "multipart reference_audio upload"
+      },
+      "natural_source": {
+        "file": "candidate_01_piano_cello_fading_seed4001_take01_raw.wav",
+        "sha256": "64d6b36de395a38fe9f0df6635424d83ce5418fb1fcebe6b620f1ee885e64a5a"
+      },
+      "source_template": {
+        "file": "long_01_natural_phrase_piano_cello_fading_seed4001_source_template.wav",
+        "structure": {
+          "duration_seconds": 65,
+          "phrase_starts_seconds": [
+            0.0,
+            22.25,
+            44.5
+          ],
+          "phrase_period_seconds": 22.25,
+          "source_excerpt_seconds": 23.0,
+          "overlap_seconds": 0.75,
+          "source_level_match_db": 0.020678024022241535,
+          "peak_gain_db": 0.0,
+          "period_basis": "Unfaded BGM13 source: RMS at 18.5/19.0/19.5/20.0/22.5/23.0s is -27.9/-47.9/-53.7/-18.6/-37.6/-58.3 dBFS before mastering. A new note after 20s is retained; fixed 22.25s period and 0.75s overlap are not measured beat alignment."
+        },
+        "sha256": "ecfc14fd3ca3d913fa5e437e6bdcfe9d5370f9d404e2e75336108507108518bc"
+      },
+      "review_basis": "User selected take01 candidate 01. Actual selected OGG is uploaded as reference_audio; corresponding unfaded raw mother supplies src_audio, not a repeated faded preview.",
+      "leveled_source": {
+        "file": "long_01_natural_phrase_piano_cello_fading_seed4001_unfaded_leveled_source.wav",
+        "sha256": "6264393b8d13ead1e5c030435bdc7dfbd2b83f9e89c494826b9e7564fda5fcfd",
+        "same_short_gain_db": -10.579999999999998,
+        "limiter_dbfs": -16
+      },
+      "task": {
+        "task_id": "940dec05-8518-43fd-997a-d76066d3438a",
+        "status": "queued",
+        "queue_position": 1
+      },
+      "result": {
+        "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5C41471fff-ce28-23b2-370d-fe53a2e831f1.wav",
+        "wave": "",
+        "status": 1,
+        "create_time": 1792143035,
+        "env": "development",
+        "prompt": "Low soft piano and restrained cello, a short wavering two-note question hangs against a suspended minor chord. The cello keeps a thin sustained line alive under uneven piano returns. Delicate physical weakness and aching urgency, no flowing arpeggios or broad elegy. Original instrumental dramatic underscore for a dark fantasy visual novel, 25 seconds. After battle the protagonist is critically wounded, losing blood and struggling to remain conscious. His two companions arrive, terrified of losing him, trying to keep him here. One tries to tear a protective card to save him; he weakly stops her because he refuses another reset. He is still alive, very fragile and in danger. Exhaustion, pain, restrained urgency and human closeness. The music holds a thin thread of life: aching suspended minor harmony, a faltering small motif that keeps trying to answer, a quiet hesitant musical pulse with gentle forward tension. Small low-to-middle register ensemble, very soft attacks, controlled dynamics, sustained connected resonance beneath sparse phrases. A fragile possibility of rescue remains unresolved. Keep wounded vulnerability and danger present from the opening, without announcing death or recovery. Continuous quiet musical presence for all 25 seconds, natural note tails, no long silent middle. No funeral march, settled bereavement, warm nostalgic farewell, comforting daily-life mood, graduation song, sweet romantic melody, major-key hopeful lift, relaxed swaying accompaniment, heroic climax, battle drums, horror stings or early ending. Only instrumental music: no voice, choir, literal breathing or heartbeat effects, rain, wind or other sounds.  Extend this exact selected original short faithfully into a continuous 65-second cue. Preserve the soft low piano and restrained cello interplay, wavering two-note question, thin sustained line and hesitant musical pulse. The 56 BPM value is a prompt, not a measured tempo. Keep the protagonist critically injured and still alive, exhausted and losing consciousness, with his companions trying to keep him here. Preserve vulnerability, danger and a thin unresolved possibility of rescue through the full piece with small variations of the same intimate motif. Do not drift into settled mourning, sweet romantic warmth, relaxed daily-life music, heroic recovery or a dramatic orchestral climax. Follow the supplied unfaded source map, including the original phrase after 20 seconds instead of the preview fade. Natural connected resonance between phrases, no long silent middle or early ending, no new percussion, vocals, breathing, heartbeat or environmental effects. Keep the selected quiet fragility, wavering motif and unresolved chance of rescue emotionally consistent throughout.",
+        "lyrics": "[Instrumental]",
+        "metas": {
+          "bpm": 56,
+          "duration": 65.0,
+          "genres": "N/A",
+          "keyscale": "E minor",
+          "timesignature": "4",
+          "prompt": "Low soft piano and restrained cello, a short wavering two-note question hangs against a suspended minor chord. The cello keeps a thin sustained line alive under uneven piano returns. Delicate physical weakness and aching urgency, no flowing arpeggios or broad elegy. Original instrumental dramatic underscore for a dark fantasy visual novel, 25 seconds. After battle the protagonist is critically wounded, losing blood and struggling to remain conscious. His two companions arrive, terrified of losing him, trying to keep him here. One tries to tear a protective card to save him; he weakly stops her because he refuses another reset. He is still alive, very fragile and in danger. Exhaustion, pain, restrained urgency and human closeness. The music holds a thin thread of life: aching suspended minor harmony, a faltering small motif that keeps trying to answer, a quiet hesitant musical pulse with gentle forward tension. Small low-to-middle register ensemble, very soft attacks, controlled dynamics, sustained connected resonance beneath sparse phrases. A fragile possibility of rescue remains unresolved. Keep wounded vulnerability and danger present from the opening, without announcing death or recovery. Continuous quiet musical presence for all 25 seconds, natural note tails, no long silent middle. No funeral march, settled bereavement, warm nostalgic farewell, comforting daily-life mood, graduation song, sweet romantic melody, major-key hopeful lift, relaxed swaying accompaniment, heroic climax, battle drums, horror stings or early ending. Only instrumental music: no voice, choir, literal breathing or heartbeat effects, rain, wind or other sounds.  Extend this exact selected original short faithfully into a continuous 65-second cue. Preserve the soft low piano and restrained cello interplay, wavering two-note question, thin sustained line and hesitant musical pulse. The 56 BPM value is a prompt, not a measured tempo. Keep the protagonist critically injured and still alive, exhausted and losing consciousness, with his companions trying to keep him here. Preserve vulnerability, danger and a thin unresolved possibility of rescue through the full piece with small variations of the same intimate motif. Do not drift into settled mourning, sweet romantic warmth, relaxed daily-life music, heroic recovery or a dramatic orchestral climax. Follow the supplied unfaded source map, including the original phrase after 20 seconds instead of the preview fade. Natural connected resonance between phrases, no long silent middle or early ending, no new percussion, vocals, breathing, heartbeat or environmental effects. Keep the selected quiet fragility, wavering motif and unresolved chance of rescue emotionally consistent throughout.",
+          "lyrics": "[Instrumental]"
+        },
+        "generation_info": "**🎵 Total generation time (1 song): 4.33s**\n- 4.33s per song\n- DiT phase (1 song): 4.33s",
+        "seed_value": "4001",
+        "lm_model": "acestep-5Hz-lm-0.6B",
+        "dit_model": "acestep-v15-turbo",
+        "progress": 1.0,
+        "stage": "succeeded"
+      },
+      "processing": {
+        "preserved_selected_short_opening_seconds": 18,
+        "natural_unfaded_handoff_interval_seconds": [
+          18,
+          19
+        ],
+        "generated_continuation_crossfade_seconds": [
+          22.25,
+          23.0
+        ],
+        "natural_source_gain_db": 0.020678024022241535,
+        "continuation_gain_db": -12.863189518458121,
+        "uniform_master_gain_db": 0.0,
+        "opening_pcm_verified_before_mastering": true,
+        "fade_out_seconds": 0.5,
+        "loop_processed": false,
+        "method": "Carry unfaded mother tail through 20s and join at its natural ending, instead of repeating the faded audition clip.",
+        "audition_mastering": {
+          "fixed_gain_db": 0.0,
+          "limiter_dbfs": null,
+          "continuation_peak_ceiling_dbfs": -16,
+          "preserve_selected_short_level": true,
+          "latency_compensation": true,
+          "timestamps_rebuilt": true,
+          "composition_changed": false,
+          "premaster_measurement": {
+            "integrated_lufs": "-30.49",
+            "true_peak_dbtp": "-15.55",
+            "quiet_events": [
+              "[Parsed_silencedetect_0 @ 000001c35f5d74c0] silence_start: 19.024399",
+              "[Parsed_silencedetect_0 @ 000001c35f5d74c0] silence_end: 20.262132 | silence_duration: 1.237732",
+              "[Parsed_silencedetect_0 @ 000001c35f5d74c0] silence_start: 30.460476",
+              "[Parsed_silencedetect_0 @ 000001c35f5d74c0] silence_end: 31.121088 | silence_duration: 0.660612",
+              "[Parsed_silencedetect_0 @ 000001c35f5d74c0] silence_start: 41.176712",
+              "[Parsed_silencedetect_0 @ 000001c35f5d74c0] silence_end: 42.510385 | silence_duration: 1.333673",
+              "[Parsed_silencedetect_0 @ 000001c35f5d74c0] silence_start: 52.580204",
+              "[Parsed_silencedetect_0 @ 000001c35f5d74c0] silence_end: 53.485238 | silence_duration: 0.905034"
+            ]
+          }
+        }
+      },
+      "source_wav": {
+        "file": "long_01_natural_phrase_piano_cello_fading_seed4001_source_template.wav",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "65.000000"
+          }
+        },
+        "sha256": "ecfc14fd3ca3d913fa5e437e6bdcfe9d5370f9d404e2e75336108507108518bc"
+      },
+      "raw_wav": {
+        "file": "long_01_natural_phrase_piano_cello_fading_seed4001_raw.wav",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "65.000000"
+          }
+        },
+        "sha256": "a25f7c5288e37dba76d66bdf94bc776472414a2d24ad44b701e5a0d37e3db5bb"
+      },
+      "premaster_wav": {
+        "file": "long_01_natural_phrase_piano_cello_fading_seed4001_premaster.wav",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "60.000000"
+          }
+        },
+        "sha256": "0a5366229eb80cc8fdc6f2c5edc219737b13d8e345073bab01689edc422a28d8"
+      },
+      "premaster_ogg": {
+        "file": "long_01_natural_phrase_piano_cello_fading_seed4001_premaster.ogg",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "60.000000"
+          }
+        },
+        "sha256": "5106d8949d89e330fc0b3e4b92d9ec108a275bb05a403cddd36bbb0cab7a9d33"
+      },
+      "assembled_wav": {
+        "file": "long_01_natural_phrase_piano_cello_fading_seed4001.wav",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "pcm_f32le",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "60.000000"
+          }
+        },
+        "sha256": "0a5366229eb80cc8fdc6f2c5edc219737b13d8e345073bab01689edc422a28d8"
+      },
+      "ogg": {
+        "file": "long_01_natural_phrase_piano_cello_fading_seed4001.ogg",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "60.000000"
+          }
+        },
+        "sha256": "91eae47512558b0560624dfe3beac135de492347683ec40ce1eb76994655f47f"
+      },
+      "technical_check": {
+        "decode": "passed",
+        "integrated_lufs": "-30.49",
+        "true_peak_dbtp": "-15.55",
+        "quiet_events": [
+          "[Parsed_silencedetect_0 @ 0000022c21f9dc40] silence_start: 19.024399",
+          "[Parsed_silencedetect_0 @ 0000022c21f9dc40] silence_end: 20.262132 | silence_duration: 1.237732",
+          "[Parsed_silencedetect_0 @ 0000022c21f9dc40] silence_start: 30.460476",
+          "[Parsed_silencedetect_0 @ 0000022c21f9dc40] silence_end: 31.121088 | silence_duration: 0.660612",
+          "[Parsed_silencedetect_0 @ 0000022c21f9dc40] silence_start: 41.176712",
+          "[Parsed_silencedetect_0 @ 0000022c21f9dc40] silence_end: 42.510385 | silence_duration: 1.333673",
+          "[Parsed_silencedetect_0 @ 0000022c21f9dc40] silence_start: 52.580204",
+          "[Parsed_silencedetect_0 @ 0000022c21f9dc40] silence_end: 53.485238 | silence_duration: 0.905034"
+        ]
+      }
+    }
+  ]
+}

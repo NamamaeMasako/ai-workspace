@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-16",
+  "files": [
+    {
+      "file": "long_01_natural_phrase_piano_cello_fading_seed4001.ogg",
+      "decode": "passed",
+      "integrated_lufs": "-30.49",
+      "true_peak_dbtp": "-15.55",
+      "quiet_events": [
+        "[Parsed_silencedetect_0 @ 0000022c21f9dc40] silence_start: 19.024399",
+        "[Parsed_silencedetect_0 @ 0000022c21f9dc40] silence_end: 20.262132 | silence_duration: 1.237732",
+        "[Parsed_silencedetect_0 @ 0000022c21f9dc40] silence_start: 30.460476",
+        "[Parsed_silencedetect_0 @ 0000022c21f9dc40] silence_end: 31.121088 | silence_duration: 0.660612",
+        "[Parsed_silencedetect_0 @ 0000022c21f9dc40] silence_start: 41.176712",
+        "[Parsed_silencedetect_0 @ 0000022c21f9dc40] silence_end: 42.510385 | silence_duration: 1.333673",
+        "[Parsed_silencedetect_0 @ 0000022c21f9dc40] silence_start: 52.580204",
+        "[Parsed_silencedetect_0 @ 0000022c21f9dc40] silence_end: 53.485238 | silence_duration: 0.905034"
+      ]
+    }
+  ]
+}

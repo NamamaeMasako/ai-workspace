@@ -1,6 +1,6 @@
 {
   "cue": "BGM13_HOLD_ON",
-  "status": "awaiting_user_four_short_selection",
+  "status": "awaiting_user_long01_audition",
   "reviews": [
     {
       "date": "2026-10-16",
@@ -18,6 +18,86 @@
       "direction": "危急、虛弱、焦急留人，仍有一點未解的生機；不以已死亡後哀悼或痊癒喜悅收束。",
       "formally_adopted": false,
       "game_integrated": false
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "take01_short_selection",
+      "user_instruction": "做第一版的長板",
+      "selected_file": "candidate_01_piano_cello_fading_seed4001_take01.ogg",
+      "label": "還有一口氣",
+      "decision": "selected_for_60_second_long_audition",
+      "reference_method": "Selected short OGG uploaded as reference_audio; matching unfaded 25-second raw WAV supplies source template uploaded as src_audio.",
+      "formally_adopted": false,
+      "game_integrated": false
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "long01_ready",
+      "file": "longform/long_01_natural_phrase_piano_cello_fading_seed4001.ogg",
+      "selected_short": {
+        "file": "candidate_01_piano_cello_fading_seed4001_take01.ogg",
+        "sha256": "e743ba55d487bd167fbe817393a37c34b830848e3f9328f130e6a6cbc2bddac1",
+        "submission_method": "multipart reference_audio upload"
+      },
+      "status": "awaiting_user_long_audition",
+      "formally_adopted": false,
+      "game_integrated": false,
+      "processing": {
+        "preserved_selected_short_opening_seconds": 18,
+        "natural_unfaded_handoff_interval_seconds": [
+          18,
+          19
+        ],
+        "generated_continuation_crossfade_seconds": [
+          22.25,
+          23.0
+        ],
+        "natural_source_gain_db": 0.020678024022241535,
+        "continuation_gain_db": -12.863189518458121,
+        "uniform_master_gain_db": 0.0,
+        "opening_pcm_verified_before_mastering": true,
+        "fade_out_seconds": 0.5,
+        "loop_processed": false,
+        "method": "Carry unfaded mother tail through 20s and join at its natural ending, instead of repeating the faded audition clip.",
+        "audition_mastering": {
+          "fixed_gain_db": 0.0,
+          "limiter_dbfs": null,
+          "continuation_peak_ceiling_dbfs": -16,
+          "preserve_selected_short_level": true,
+          "latency_compensation": true,
+          "timestamps_rebuilt": true,
+          "composition_changed": false,
+          "premaster_measurement": {
+            "integrated_lufs": "-30.49",
+            "true_peak_dbtp": "-15.55",
+            "quiet_events": [
+              "[Parsed_silencedetect_0 @ 000001c35f5d74c0] silence_start: 19.024399",
+              "[Parsed_silencedetect_0 @ 000001c35f5d74c0] silence_end: 20.262132 | silence_duration: 1.237732",
+              "[Parsed_silencedetect_0 @ 000001c35f5d74c0] silence_start: 30.460476",
+              "[Parsed_silencedetect_0 @ 000001c35f5d74c0] silence_end: 31.121088 | silence_duration: 0.660612",
+              "[Parsed_silencedetect_0 @ 000001c35f5d74c0] silence_start: 41.176712",
+              "[Parsed_silencedetect_0 @ 000001c35f5d74c0] silence_end: 42.510385 | silence_duration: 1.333673",
+              "[Parsed_silencedetect_0 @ 000001c35f5d74c0] silence_start: 52.580204",
+              "[Parsed_silencedetect_0 @ 000001c35f5d74c0] silence_end: 53.485238 | silence_duration: 0.905034"
+            ]
+          }
+        }
+      },
+      "measurements": {
+        "decode": "passed",
+        "integrated_lufs": "-30.49",
+        "true_peak_dbtp": "-15.55",
+        "quiet_events": [
+          "[Parsed_silencedetect_0 @ 0000022c21f9dc40] silence_start: 19.024399",
+          "[Parsed_silencedetect_0 @ 0000022c21f9dc40] silence_end: 20.262132 | silence_duration: 1.237732",
+          "[Parsed_silencedetect_0 @ 0000022c21f9dc40] silence_start: 30.460476",
+          "[Parsed_silencedetect_0 @ 0000022c21f9dc40] silence_end: 31.121088 | silence_duration: 0.660612",
+          "[Parsed_silencedetect_0 @ 0000022c21f9dc40] silence_start: 41.176712",
+          "[Parsed_silencedetect_0 @ 0000022c21f9dc40] silence_end: 42.510385 | silence_duration: 1.333673",
+          "[Parsed_silencedetect_0 @ 0000022c21f9dc40] silence_start: 52.580204",
+          "[Parsed_silencedetect_0 @ 0000022c21f9dc40] silence_end: 53.485238 | silence_duration: 0.905034"
+        ]
+      }
     }
   ]
 }
