@@ -1,0 +1,11 @@
+{
+  "decode": "passed",
+  "integrated_lufs": "-30.18",
+  "true_peak_dbtp": "-15.59",
+  "quiet_events": [
+    "[Parsed_silencedetect_0 @ 00000184c9f4de80] silence_start: 22.233469",
+    "[Parsed_silencedetect_0 @ 00000184c9f4de80] silence_end: 23.394989 | silence_duration: 1.161519",
+    "[Parsed_silencedetect_0 @ 00000184c9f4de80] silence_start: 42.888594",
+    "[Parsed_silencedetect_0 @ 00000184c9f4de80] silence_end: 44.314059 | silence_duration: 1.425465"
+  ]
+}

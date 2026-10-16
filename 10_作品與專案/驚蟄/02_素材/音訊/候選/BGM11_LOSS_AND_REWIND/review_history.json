@@ -1,6 +1,6 @@
 {
   "cue": "BGM11_LOSS_AND_REWIND",
-  "status": "awaiting_user_take03_four_short_selection",
+  "status": "awaiting_user_long01_audition",
   "reviews": [
     {
       "date": "2026-10-16",
@@ -64,6 +64,78 @@
       "musical_parameters_note": "情緒、配器、調性與速度為生成意圖，非助理已實際聽辨；實際適配待生前試聽。",
       "formally_adopted": false,
       "game_integrated": false
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "take03_short_selection",
+      "user_instruction": "用第四版試試",
+      "selected_file": "candidate_04_cello_piano_plea_seed3824_take03.ogg",
+      "label": "還不能放手",
+      "decision": "selected_for_60_second_long_audition",
+      "reference_method": "Selected short OGG uploaded as reference_audio; corresponding unfaded 25-second raw WAV used for source template.",
+      "formally_adopted": false,
+      "game_integrated": false
+    },
+    {
+      "date": "2026-10-16",
+      "stage": "long01_ready",
+      "file": "longform/long_01_natural_phrase_cello_piano_plea_seed3824.ogg",
+      "selected_short": {
+        "file": "candidate_04_cello_piano_plea_seed3824_take03.ogg",
+        "sha256": "2aa7a49341bd12da7cb363a80faea34232a9f0be12086141655022c9299c2d88",
+        "submission_method": "multipart reference_audio upload"
+      },
+      "status": "awaiting_user_long_audition",
+      "formally_adopted": false,
+      "game_integrated": false,
+      "processing": {
+        "preserved_selected_short_opening_seconds": 18,
+        "natural_unfaded_handoff_interval_seconds": [
+          18,
+          19
+        ],
+        "generated_continuation_crossfade_seconds": [
+          20.5,
+          21.75
+        ],
+        "natural_source_gain_db": 0.03250066608947389,
+        "continuation_gain_db": -14.514628355653521,
+        "uniform_master_gain_db": 0.0,
+        "opening_pcm_verified_before_mastering": true,
+        "fade_out_seconds": 0.5,
+        "loop_processed": false,
+        "method": "Carry unfaded mother tail through 20s and join at its natural ending, instead of repeating the faded audition clip.",
+        "audition_mastering": {
+          "fixed_gain_db": 0.0,
+          "limiter_dbfs": null,
+          "continuation_peak_ceiling_dbfs": -16,
+          "preserve_selected_short_level": true,
+          "latency_compensation": true,
+          "timestamps_rebuilt": true,
+          "composition_changed": false,
+          "premaster_measurement": {
+            "integrated_lufs": "-30.18",
+            "true_peak_dbtp": "-15.59",
+            "quiet_events": [
+              "[Parsed_silencedetect_0 @ 00000255c0084b40] silence_start: 22.233469",
+              "[Parsed_silencedetect_0 @ 00000255c0084b40] silence_end: 23.394989 | silence_duration: 1.161519",
+              "[Parsed_silencedetect_0 @ 00000255c0084b40] silence_start: 42.888594",
+              "[Parsed_silencedetect_0 @ 00000255c0084b40] silence_end: 44.314059 | silence_duration: 1.425465"
+            ]
+          }
+        }
+      },
+      "measurements": {
+        "decode": "passed",
+        "integrated_lufs": "-30.18",
+        "true_peak_dbtp": "-15.59",
+        "quiet_events": [
+          "[Parsed_silencedetect_0 @ 00000184c9f4de80] silence_start: 22.233469",
+          "[Parsed_silencedetect_0 @ 00000184c9f4de80] silence_end: 23.394989 | silence_duration: 1.161519",
+          "[Parsed_silencedetect_0 @ 00000184c9f4de80] silence_start: 42.888594",
+          "[Parsed_silencedetect_0 @ 00000184c9f4de80] silence_end: 44.314059 | silence_duration: 1.425465"
+        ]
+      }
     }
   ]
 }
