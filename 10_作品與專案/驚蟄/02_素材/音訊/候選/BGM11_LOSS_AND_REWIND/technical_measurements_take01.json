@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-16",
+  "files": [
+    {
+      "file": "candidate_01_felt_piano_seed3801_take01.ogg",
+      "integrated_lufs": "-28.76",
+      "true_peak_dbtp": "-15.78",
+      "quiet_events": []
+    },
+    {
+      "file": "candidate_02_cello_piano_seed3802_take01.ogg",
+      "integrated_lufs": "-28.94",
+      "true_peak_dbtp": "-15.73",
+      "quiet_events": []
+    },
+    {
+      "file": "candidate_03_muted_strings_seed3803_take01.ogg",
+      "integrated_lufs": "-27.87",
+      "true_peak_dbtp": "-15.71",
+      "quiet_events": [
+        "[Parsed_silencedetect_0 @ 000002820e5fe840] silence_start: 0",
+        "[Parsed_silencedetect_0 @ 000002820e5fe840] silence_end: 2.756893 | silence_duration: 2.756893"
+      ]
+    },
+    {
+      "file": "candidate_04_bamboo_guzheng_seed3804_take01.ogg",
+      "integrated_lufs": "-27.26",
+      "true_peak_dbtp": "-15.78",
+      "quiet_events": [
+        "[Parsed_silencedetect_0 @ 0000017406f92100] silence_start: 6.652222",
+        "[Parsed_silencedetect_0 @ 0000017406f92100] silence_end: 7.676054 | silence_duration: 1.023832",
+        "[Parsed_silencedetect_0 @ 0000017406f92100] silence_start: 12.164626",
+        "[Parsed_silencedetect_0 @ 0000017406f92100] silence_end: 12.718073 | silence_duration: 0.553447"
+      ]
+    }
+  ]
+}

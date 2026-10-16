@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM11_LOSS_AND_REWIND",
+  "label": "微燈已冷",
+  "revision": "take01",
+  "status": "awaiting user short selection",
+  "request": {
+    "prompt": "A very soft low-to-middle felt piano alone, sparse unhurried descending minor phrases. Gentle hammer attacks and naturally connected decay, hollow space around a few carefully placed notes, the shock of absence without sentimental romantic piano chords. Original instrumental grief underscore for a dark fantasy visual novel, 25 seconds. Two alternative scenes share this cue: discovering a companion dead inside a wooden inn, and cradling another companion who has died after a forest battle. Their loss is real, the survivor is numb, helpless and holding back tears. Quiet sorrow, aching absence, restrained desolation rather than suspense or horror. Intimate musical scale for reading dialogue. A small memorable minor-key phrase, slow falling gestures, gentle unresolved suspensions, long natural note tails with breathing room, restrained dynamics and very soft attacks. Continuous low-key musical presence for the full 25 seconds; no abrupt note cutoff or early ending. Keep the grief deeply sad and calm. No hopeful major-key lift, sweet romantic mood, cheerful pentatonic tune, playful rhythm, heroic sacrifice fanfare, victorious resolution or big dramatic swell. No fast rhythm, marching beat, pounding drums, bright bells, sparkling piano runs or busy arpeggios. No dissonant horror clusters, jump scares or aggressive low impacts; this is loss and mourning. Instrumental only, no voice, choir, speech, rain, wind, insects, crackles, footsteps or environmental sound effects. ",
+    "lyrics": "[Instrumental]",
+    "thinking": false,
+    "use_format": false,
+    "use_cot_caption": false,
+    "use_cot_language": false,
+    "bpm": 44,
+    "key_scale": "D minor",
+    "time_signature": "4",
+    "vocal_language": "unknown",
+    "audio_duration": 25,
+    "inference_steps": 8,
+    "batch_size": 1,
+    "use_random_seed": false,
+    "seed": 3801,
+    "model": "acestep-v15-turbo",
+    "task_type": "text2music",
+    "audio_cover_strength": 1.0,
+    "audio_format": "wav"
+  },
+  "reference_audio": null,
+  "musical_parameters": "BPM, key and instrumentation are generation prompts, not measured or guaranteed.",
+  "processing": {
+    "source_seconds": 25,
+    "excerpt_seconds": 20,
+    "fade_in_seconds": 0.03,
+    "fade_out_seconds": 0.5,
+    "loop_processed": false,
+    "fixed_gain_db": -7.609999999999999,
+    "loudness_target_lufs": -27,
+    "limiter_dbfs": -16,
+    "premaster_measurement": {
+      "integrated_lufs": "-19.39",
+      "true_peak_dbtp": "-0.98",
+      "quiet_events": []
+    }
+  },
+  "formally_adopted": false,
+  "game_integrated": false,
+  "task": {
+    "task_id": "868df1c9-a24d-4b26-8470-1d3c5bb8a005",
+    "status": "queued",
+    "queue_position": 1
+  },
+  "result": {
+    "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5Cbc62b159-1189-90f7-0a0e-b57595004180.wav",
+    "wave": "",
+    "status": 1,
+    "create_time": 1792130969,
+    "env": "development",
+    "prompt": "A very soft low-to-middle felt piano alone, sparse unhurried descending minor phrases. Gentle hammer attacks and naturally connected decay, hollow space around a few carefully placed notes, the shock of absence without sentimental romantic piano chords. Original instrumental grief underscore for a dark fantasy visual novel, 25 seconds. Two alternative scenes share this cue: discovering a companion dead inside a wooden inn, and cradling another companion who has died after a forest battle. Their loss is real, the survivor is numb, helpless and holding back tears. Quiet sorrow, aching absence, restrained desolation rather than suspense or horror. Intimate musical scale for reading dialogue. A small memorable minor-key phrase, slow falling gestures, gentle unresolved suspensions, long natural note tails with breathing room, restrained dynamics and very soft attacks. Continuous low-key musical presence for the full 25 seconds; no abrupt note cutoff or early ending. Keep the grief deeply sad and calm. No hopeful major-key lift, sweet romantic mood, cheerful pentatonic tune, playful rhythm, heroic sacrifice fanfare, victorious resolution or big dramatic swell. No fast rhythm, marching beat, pounding drums, bright bells, sparkling piano runs or busy arpeggios. No dissonant horror clusters, jump scares or aggressive low impacts; this is loss and mourning. Instrumental only, no voice, choir, speech, rain, wind, insects, crackles, footsteps or environmental sound effects. ",
+    "lyrics": "[Instrumental]",
+    "metas": {
+      "bpm": 44,
+      "duration": 25.0,
+      "genres": "N/A",
+      "keyscale": "D minor",
+      "timesignature": "4",
+      "prompt": "A very soft low-to-middle felt piano alone, sparse unhurried descending minor phrases. Gentle hammer attacks and naturally connected decay, hollow space around a few carefully placed notes, the shock of absence without sentimental romantic piano chords. Original instrumental grief underscore for a dark fantasy visual novel, 25 seconds. Two alternative scenes share this cue: discovering a companion dead inside a wooden inn, and cradling another companion who has died after a forest battle. Their loss is real, the survivor is numb, helpless and holding back tears. Quiet sorrow, aching absence, restrained desolation rather than suspense or horror. Intimate musical scale for reading dialogue. A small memorable minor-key phrase, slow falling gestures, gentle unresolved suspensions, long natural note tails with breathing room, restrained dynamics and very soft attacks. Continuous low-key musical presence for the full 25 seconds; no abrupt note cutoff or early ending. Keep the grief deeply sad and calm. No hopeful major-key lift, sweet romantic mood, cheerful pentatonic tune, playful rhythm, heroic sacrifice fanfare, victorious resolution or big dramatic swell. No fast rhythm, marching beat, pounding drums, bright bells, sparkling piano runs or busy arpeggios. No dissonant horror clusters, jump scares or aggressive low impacts; this is loss and mourning. Instrumental only, no voice, choir, speech, rain, wind, insects, crackles, footsteps or environmental sound effects. ",
+      "lyrics": "[Instrumental]"
+    },
+    "generation_info": "**🎵 Total generation time (1 song): 29.59s**\n- 29.59s per song\n- DiT phase (1 song): 29.59s",
+    "seed_value": "3801",
+    "lm_model": "acestep-5Hz-lm-0.6B",
+    "dit_model": "acestep-v15-turbo",
+    "progress": 1.0,
+    "stage": "succeeded"
+  },
+  "raw_wav": {
+    "file": "candidate_01_felt_piano_seed3801_take01_raw.wav",
+    "sha256": "c2001ff107d0b7ed6e9c97ea5a6f151769f90c87b13c05882b446ef143e0a632",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "25.000000"
+      }
+    }
+  },
+  "master_wav": {
+    "file": "candidate_01_felt_piano_seed3801_take01.wav",
+    "sha256": "3223a359ea7da48d029d603b3eb646e2e34ac406821be933479a8782b4d723aa",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "premaster_ogg": {
+    "file": "candidate_01_felt_piano_seed3801_take01_premaster.ogg",
+    "sha256": "31c295bde849e2d9f35b46663495419d878f9cc4acca3002593eb9f8f635eb66",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "ogg": {
+    "file": "candidate_01_felt_piano_seed3801_take01.ogg",
+    "sha256": "4069d74a72bae115ad052b98f8ec21743d034212698dd1aadc2d15af32db391f",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "technical_measurements": {
+    "integrated_lufs": "-28.76",
+    "true_peak_dbtp": "-15.78",
+    "quiet_events": []
+  }
+}

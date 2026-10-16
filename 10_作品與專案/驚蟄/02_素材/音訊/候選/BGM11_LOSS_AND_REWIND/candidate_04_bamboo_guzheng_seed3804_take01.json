@@ -1,0 +1,161 @@
+{
+  "date": "2026-10-16",
+  "cue": "BGM11_LOSS_AND_REWIND",
+  "label": "空燈殘影",
+  "revision": "take01",
+  "status": "awaiting user short selection",
+  "request": {
+    "prompt": "A soft low bamboo flute carries a brief plaintive minor phrase over sparse damped low guzheng plucks. Quiet East Asian chamber elegy, long natural resonance, simple aching falling intervals, no ornamented runs, folk dance lilt or festive pentatonic melody. Original instrumental grief underscore for a dark fantasy visual novel, 25 seconds. Two alternative scenes share this cue: discovering a companion dead inside a wooden inn, and cradling another companion who has died after a forest battle. Their loss is real, the survivor is numb, helpless and holding back tears. Quiet sorrow, aching absence, restrained desolation rather than suspense or horror. Intimate musical scale for reading dialogue. A small memorable minor-key phrase, slow falling gestures, gentle unresolved suspensions, long natural note tails with breathing room, restrained dynamics and very soft attacks. Continuous low-key musical presence for the full 25 seconds; no abrupt note cutoff or early ending. Keep the grief deeply sad and calm. No hopeful major-key lift, sweet romantic mood, cheerful pentatonic tune, playful rhythm, heroic sacrifice fanfare, victorious resolution or big dramatic swell. No fast rhythm, marching beat, pounding drums, bright bells, sparkling piano runs or busy arpeggios. No dissonant horror clusters, jump scares or aggressive low impacts; this is loss and mourning. Instrumental only, no voice, choir, speech, rain, wind, insects, crackles, footsteps or environmental sound effects. ",
+    "lyrics": "[Instrumental]",
+    "thinking": false,
+    "use_format": false,
+    "use_cot_caption": false,
+    "use_cot_language": false,
+    "bpm": 46,
+    "key_scale": "D minor",
+    "time_signature": "4",
+    "vocal_language": "unknown",
+    "audio_duration": 25,
+    "inference_steps": 8,
+    "batch_size": 1,
+    "use_random_seed": false,
+    "seed": 3804,
+    "model": "acestep-v15-turbo",
+    "task_type": "text2music",
+    "audio_cover_strength": 1.0,
+    "audio_format": "wav"
+  },
+  "reference_audio": null,
+  "musical_parameters": "BPM, key and instrumentation are generation prompts, not measured or guaranteed.",
+  "processing": {
+    "source_seconds": 25,
+    "excerpt_seconds": 20,
+    "fade_in_seconds": 0.03,
+    "fade_out_seconds": 0.5,
+    "loop_processed": false,
+    "fixed_gain_db": -13.26,
+    "loudness_target_lufs": -27,
+    "limiter_dbfs": -16,
+    "premaster_measurement": {
+      "integrated_lufs": "-13.74",
+      "true_peak_dbtp": "-1.17",
+      "quiet_events": [
+        "[Parsed_silencedetect_0 @ 000001606cfeef00] silence_start: 6.940454",
+        "[Parsed_silencedetect_0 @ 000001606cfeef00] silence_end: 7.674671 | silence_duration: 0.734218"
+      ]
+    }
+  },
+  "formally_adopted": false,
+  "game_integrated": false,
+  "task": {
+    "task_id": "f1ae8353-5302-40de-865f-b273dbda0e5c",
+    "status": "queued",
+    "queue_position": 1
+  },
+  "result": {
+    "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5C6195d9fc-4ff6-31b8-2f18-eeb06c0a4665.wav",
+    "wave": "",
+    "status": 1,
+    "create_time": 1792131195,
+    "env": "development",
+    "prompt": "A soft low bamboo flute carries a brief plaintive minor phrase over sparse damped low guzheng plucks. Quiet East Asian chamber elegy, long natural resonance, simple aching falling intervals, no ornamented runs, folk dance lilt or festive pentatonic melody. Original instrumental grief underscore for a dark fantasy visual novel, 25 seconds. Two alternative scenes share this cue: discovering a companion dead inside a wooden inn, and cradling another companion who has died after a forest battle. Their loss is real, the survivor is numb, helpless and holding back tears. Quiet sorrow, aching absence, restrained desolation rather than suspense or horror. Intimate musical scale for reading dialogue. A small memorable minor-key phrase, slow falling gestures, gentle unresolved suspensions, long natural note tails with breathing room, restrained dynamics and very soft attacks. Continuous low-key musical presence for the full 25 seconds; no abrupt note cutoff or early ending. Keep the grief deeply sad and calm. No hopeful major-key lift, sweet romantic mood, cheerful pentatonic tune, playful rhythm, heroic sacrifice fanfare, victorious resolution or big dramatic swell. No fast rhythm, marching beat, pounding drums, bright bells, sparkling piano runs or busy arpeggios. No dissonant horror clusters, jump scares or aggressive low impacts; this is loss and mourning. Instrumental only, no voice, choir, speech, rain, wind, insects, crackles, footsteps or environmental sound effects. ",
+    "lyrics": "[Instrumental]",
+    "metas": {
+      "bpm": 46,
+      "duration": 25.0,
+      "genres": "N/A",
+      "keyscale": "D minor",
+      "timesignature": "4",
+      "prompt": "A soft low bamboo flute carries a brief plaintive minor phrase over sparse damped low guzheng plucks. Quiet East Asian chamber elegy, long natural resonance, simple aching falling intervals, no ornamented runs, folk dance lilt or festive pentatonic melody. Original instrumental grief underscore for a dark fantasy visual novel, 25 seconds. Two alternative scenes share this cue: discovering a companion dead inside a wooden inn, and cradling another companion who has died after a forest battle. Their loss is real, the survivor is numb, helpless and holding back tears. Quiet sorrow, aching absence, restrained desolation rather than suspense or horror. Intimate musical scale for reading dialogue. A small memorable minor-key phrase, slow falling gestures, gentle unresolved suspensions, long natural note tails with breathing room, restrained dynamics and very soft attacks. Continuous low-key musical presence for the full 25 seconds; no abrupt note cutoff or early ending. Keep the grief deeply sad and calm. No hopeful major-key lift, sweet romantic mood, cheerful pentatonic tune, playful rhythm, heroic sacrifice fanfare, victorious resolution or big dramatic swell. No fast rhythm, marching beat, pounding drums, bright bells, sparkling piano runs or busy arpeggios. No dissonant horror clusters, jump scares or aggressive low impacts; this is loss and mourning. Instrumental only, no voice, choir, speech, rain, wind, insects, crackles, footsteps or environmental sound effects. ",
+      "lyrics": "[Instrumental]"
+    },
+    "generation_info": "**🎵 Total generation time (1 song): 1.76s**\n- 1.76s per song\n- DiT phase (1 song): 1.76s",
+    "seed_value": "3804",
+    "lm_model": "acestep-5Hz-lm-0.6B",
+    "dit_model": "acestep-v15-turbo",
+    "progress": 1.0,
+    "stage": "succeeded"
+  },
+  "raw_wav": {
+    "file": "candidate_04_bamboo_guzheng_seed3804_take01_raw.wav",
+    "sha256": "7c77166f224691b6cc600332c8e22e473b91499417bb7226207e46d78fd7ad49",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "25.000000"
+      }
+    }
+  },
+  "master_wav": {
+    "file": "candidate_04_bamboo_guzheng_seed3804_take01.wav",
+    "sha256": "834108ba488965cbb3f9ecb99777578920565ef6382d0b9782305f49c7eb7f63",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "premaster_ogg": {
+    "file": "candidate_04_bamboo_guzheng_seed3804_take01_premaster.ogg",
+    "sha256": "2387f064c2a970b4cf2463d657746d732097f54ce0f0b115448ee65d601bf1c4",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "ogg": {
+    "file": "candidate_04_bamboo_guzheng_seed3804_take01.ogg",
+    "sha256": "9aab7605d14a3b73c0277a65933178ecee39db2bfe703debe001b3e89651a77c",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "technical_measurements": {
+    "integrated_lufs": "-27.26",
+    "true_peak_dbtp": "-15.78",
+    "quiet_events": [
+      "[Parsed_silencedetect_0 @ 0000017406f92100] silence_start: 6.652222",
+      "[Parsed_silencedetect_0 @ 0000017406f92100] silence_end: 7.676054 | silence_duration: 1.023832",
+      "[Parsed_silencedetect_0 @ 0000017406f92100] silence_start: 12.164626",
+      "[Parsed_silencedetect_0 @ 0000017406f92100] silence_end: 12.718073 | silence_duration: 0.553447"
+    ]
+  }
+}
