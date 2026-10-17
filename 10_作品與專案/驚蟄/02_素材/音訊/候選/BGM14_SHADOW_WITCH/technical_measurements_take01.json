@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-17",
+  "files": [
+    {
+      "file": "candidate_01_piano_viola_sovereign_seed4101_take01.ogg",
+      "integrated_lufs": "-28.05",
+      "true_peak_dbtp": "-15.86",
+      "quiet_events": []
+    },
+    {
+      "file": "candidate_02_bass_clarinet_cello_seed4102_take01.ogg",
+      "integrated_lufs": "-27.47",
+      "true_peak_dbtp": "-15.60",
+      "quiet_events": [
+        "[Parsed_silencedetect_0 @ 00000229f80ceec0] silence_start: 3.762449",
+        "[Parsed_silencedetect_0 @ 00000229f80ceec0] silence_end: 4.831315 | silence_duration: 1.068866",
+        "[Parsed_silencedetect_0 @ 00000229f80ceec0] silence_start: 9.617075",
+        "[Parsed_silencedetect_0 @ 00000229f80ceec0] silence_end: 10.209683 | silence_duration: 0.592608",
+        "[Parsed_silencedetect_0 @ 00000229f80ceec0] silence_start: 14.316395",
+        "[Parsed_silencedetect_0 @ 00000229f80ceec0] silence_end: 15.634921 | silence_duration: 1.318526"
+      ]
+    },
+    {
+      "file": "candidate_03_muted_harp_shadow_seed4103_take01.ogg",
+      "integrated_lufs": "-27.51",
+      "true_peak_dbtp": "-15.79",
+      "quiet_events": []
+    },
+    {
+      "file": "candidate_04_strings_hidden_care_seed4104_take01.ogg",
+      "integrated_lufs": "-27.61",
+      "true_peak_dbtp": "-15.76",
+      "quiet_events": []
+    }
+  ]
+}

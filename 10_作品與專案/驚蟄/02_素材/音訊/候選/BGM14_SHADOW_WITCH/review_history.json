@@ -1,0 +1,22 @@
+{
+  "cue": "BGM14_SHADOW_WITCH",
+  "status": "awaiting_user_short_selection",
+  "reviews": [
+    {
+      "date": "2026-10-17",
+      "stage": "take01_shorts",
+      "user_instruction": "好，開始",
+      "status": "four_20_second_candidates_ready",
+      "files": [
+        "candidate_01_piano_viola_sovereign_seed4101_take01.ogg",
+        "candidate_02_bass_clarinet_cello_seed4102_take01.ogg",
+        "candidate_03_muted_harp_shadow_seed4103_take01.ogg",
+        "candidate_04_strings_hidden_care_seed4104_take01.ogg"
+      ],
+      "scene": "第八章影之魔女現身、救治、卡片說明與催稿；離場後短暫林間重聚暫共用、降低音量，回庄接 BGM07。",
+      "direction": "冷靜、優雅、神祕、有威勢，冷語下藏有關切；配器與情緒為生成意圖，實際聽感待生前判斷。",
+      "formally_adopted": false,
+      "game_integrated": false
+    }
+  ]
+}

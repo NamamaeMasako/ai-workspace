@@ -1,0 +1,158 @@
+{
+  "date": "2026-10-17",
+  "cue": "BGM14_SHADOW_WITCH",
+  "label": "命運在指間",
+  "revision": "take01",
+  "status": "awaiting user short selection",
+  "request": {
+    "prompt": "Muted low harp with soft viola and a sustained cello foundation. A small deliberate plucked motif returns at varied intervals, surrounded by dusky suspended harmony; one restrained answering phrase suggests she understands more than she says. Fine dark filigree and calm precision, no sparkling fairy harp, runs, jaunty plucking or dance. Original instrumental character theme for a dark fantasy visual novel, 25 seconds. A powerful shadow witch steps into a forest clearing and quietly takes control of a crisis. She is an ancient high-ranking being with a young adult appearance, outwardly cold, composed, intelligent, elegant and slightly irritated by the trouble. Her power is effortless. She heals the wounded protagonist while scolding him, then asks for his next written chapter: a tiny concealed kindness beneath detached authority. Mysterious presence, restrained dignity, unreadable thoughts and the faint possibility of trust. A memorable compact musical identity, ambiguous minor harmony with suspended added tones, graceful measured phrases, low-to-middle register, small intimate chamber scale, quiet continuous musical resonance. Soft rounded attacks, gentle controlled dynamics, spacious connected note tails and understated forward movement. Remain cool and mysterious through the whole excerpt; any warmth stays subtle and unresolved. Leave room for dialogue. Continue naturally past 20 seconds, no early ending. No cheerful daily-life music, cute magical girl, whimsical comedy, bouncy staccato, dancing waltz, jazzy swing, sweet romance, sunny major cadence, epic orchestral entrance, heroic victory, funeral lament, horror villain menace, piercing high chimes, busy arpeggios, loud percussion or climax. Only instrumental music: no vocals, choir, spoken words, wind, rain, ambient noise or sound effects. ",
+    "lyrics": "[Instrumental]",
+    "thinking": false,
+    "use_format": false,
+    "use_cot_caption": false,
+    "use_cot_language": false,
+    "bpm": 72,
+    "key_scale": "E minor",
+    "time_signature": "4",
+    "vocal_language": "unknown",
+    "audio_duration": 25,
+    "inference_steps": 8,
+    "batch_size": 1,
+    "use_random_seed": false,
+    "seed": 4103,
+    "model": "acestep-v15-turbo",
+    "task_type": "text2music",
+    "audio_cover_strength": 1.0,
+    "audio_format": "wav"
+  },
+  "reference_audio": null,
+  "musical_parameters": "BPM, key and instrumentation are generation prompts, not measured or guaranteed.",
+  "setting_sources": [
+    "00_共用參考/世界觀/伊洛_Elo/02_角色與勢力/角色設定.txt",
+    "10_作品與專案/驚蟄/02_素材/視覺鎖定清單/影之魔女.txt",
+    "10_作品與專案/驚蟄/03_開發/JingZhe/game/script.rpy"
+  ],
+  "processing": {
+    "source_seconds": 25,
+    "excerpt_seconds": 20,
+    "fade_in_seconds": 0.03,
+    "fade_out_seconds": 0.5,
+    "loop_processed": false,
+    "fixed_gain_db": -11.24,
+    "loudness_target_lufs": -27,
+    "limiter_dbfs": -16,
+    "premaster_measurement": {
+      "integrated_lufs": "-15.76",
+      "true_peak_dbtp": "-1.38",
+      "quiet_events": []
+    }
+  },
+  "formally_adopted": false,
+  "game_integrated": false,
+  "task": {
+    "task_id": "a05909f3-0567-428b-a09a-82b66413136d",
+    "status": "queued",
+    "queue_position": 1
+  },
+  "result": {
+    "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5Cc4e754ab-4c2c-e2bd-a20e-1b901b7460e1.wav",
+    "wave": "",
+    "status": 1,
+    "create_time": 1792237945,
+    "env": "development",
+    "prompt": "Muted low harp with soft viola and a sustained cello foundation. A small deliberate plucked motif returns at varied intervals, surrounded by dusky suspended harmony; one restrained answering phrase suggests she understands more than she says. Fine dark filigree and calm precision, no sparkling fairy harp, runs, jaunty plucking or dance. Original instrumental character theme for a dark fantasy visual novel, 25 seconds. A powerful shadow witch steps into a forest clearing and quietly takes control of a crisis. She is an ancient high-ranking being with a young adult appearance, outwardly cold, composed, intelligent, elegant and slightly irritated by the trouble. Her power is effortless. She heals the wounded protagonist while scolding him, then asks for his next written chapter: a tiny concealed kindness beneath detached authority. Mysterious presence, restrained dignity, unreadable thoughts and the faint possibility of trust. A memorable compact musical identity, ambiguous minor harmony with suspended added tones, graceful measured phrases, low-to-middle register, small intimate chamber scale, quiet continuous musical resonance. Soft rounded attacks, gentle controlled dynamics, spacious connected note tails and understated forward movement. Remain cool and mysterious through the whole excerpt; any warmth stays subtle and unresolved. Leave room for dialogue. Continue naturally past 20 seconds, no early ending. No cheerful daily-life music, cute magical girl, whimsical comedy, bouncy staccato, dancing waltz, jazzy swing, sweet romance, sunny major cadence, epic orchestral entrance, heroic victory, funeral lament, horror villain menace, piercing high chimes, busy arpeggios, loud percussion or climax. Only instrumental music: no vocals, choir, spoken words, wind, rain, ambient noise or sound effects. ",
+    "lyrics": "[Instrumental]",
+    "metas": {
+      "bpm": 72,
+      "duration": 25.0,
+      "genres": "N/A",
+      "keyscale": "E minor",
+      "timesignature": "4",
+      "prompt": "Muted low harp with soft viola and a sustained cello foundation. A small deliberate plucked motif returns at varied intervals, surrounded by dusky suspended harmony; one restrained answering phrase suggests she understands more than she says. Fine dark filigree and calm precision, no sparkling fairy harp, runs, jaunty plucking or dance. Original instrumental character theme for a dark fantasy visual novel, 25 seconds. A powerful shadow witch steps into a forest clearing and quietly takes control of a crisis. She is an ancient high-ranking being with a young adult appearance, outwardly cold, composed, intelligent, elegant and slightly irritated by the trouble. Her power is effortless. She heals the wounded protagonist while scolding him, then asks for his next written chapter: a tiny concealed kindness beneath detached authority. Mysterious presence, restrained dignity, unreadable thoughts and the faint possibility of trust. A memorable compact musical identity, ambiguous minor harmony with suspended added tones, graceful measured phrases, low-to-middle register, small intimate chamber scale, quiet continuous musical resonance. Soft rounded attacks, gentle controlled dynamics, spacious connected note tails and understated forward movement. Remain cool and mysterious through the whole excerpt; any warmth stays subtle and unresolved. Leave room for dialogue. Continue naturally past 20 seconds, no early ending. No cheerful daily-life music, cute magical girl, whimsical comedy, bouncy staccato, dancing waltz, jazzy swing, sweet romance, sunny major cadence, epic orchestral entrance, heroic victory, funeral lament, horror villain menace, piercing high chimes, busy arpeggios, loud percussion or climax. Only instrumental music: no vocals, choir, spoken words, wind, rain, ambient noise or sound effects. ",
+      "lyrics": "[Instrumental]"
+    },
+    "generation_info": "**🎵 Total generation time (1 song): 2.03s**\n- 2.03s per song\n- DiT phase (1 song): 2.03s",
+    "seed_value": "4103",
+    "lm_model": "acestep-5Hz-lm-0.6B",
+    "dit_model": "acestep-v15-turbo",
+    "progress": 1.0,
+    "stage": "succeeded"
+  },
+  "raw_wav": {
+    "file": "candidate_03_muted_harp_shadow_seed4103_take01_raw.wav",
+    "sha256": "faed4210ccea00bb118dbf85ae3c01f01c4627eb2b1e282ea873ffbe0d4d8c74",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "25.000000"
+      }
+    }
+  },
+  "master_wav": {
+    "file": "candidate_03_muted_harp_shadow_seed4103_take01.wav",
+    "sha256": "6fc2e3fb1f6099012c6117d11767302f500c8823a6dce60e0aede125710b25db",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "premaster_ogg": {
+    "file": "candidate_03_muted_harp_shadow_seed4103_take01_premaster.ogg",
+    "sha256": "b21ceeec757c345aee69bc1386775a85608b8bef92fb4d6f9cb7ebe10fc92280",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "ogg": {
+    "file": "candidate_03_muted_harp_shadow_seed4103_take01.ogg",
+    "sha256": "fc9b750eef06c6a57e4bd95a47a165479685fcfc8385bf1f9e9436c04a8a9d0d",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "20.000000"
+      }
+    }
+  },
+  "technical_measurements": {
+    "integrated_lufs": "-27.51",
+    "true_peak_dbtp": "-15.79",
+    "quiet_events": []
+  }
+}
