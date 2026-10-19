@@ -1,8 +1,8 @@
 {
   "date": "2026-10-19",
   "batch": "BATCH02_ROOM_MAILBOX",
-  "status": "whole chapter prepared; user scene audition pending",
-  "formally_adopted": false,
+  "status": "formally_adopted",
+  "formally_adopted": true,
   "user_instruction": "每個場景所需音效先全部完成、套入調整，再一次檢查；好，開始",
   "primary_cues": [
     "SFX04_FOOTSTEP_WOOD",
@@ -157,5 +157,8 @@
     "limitations": "Entry screen and file loading observed. Entire scene audio, timing, physical naturalness and BGM balance await user listening; no independent assistant hearing acceptance claimed."
   },
   "release_rebuilt": false,
-  "version_changed": false
+  "version_changed": false,
+  "user_scene_feedback": "OK，繼續",
+  "approval_date": "2026-10-19",
+  "approval_basis": "User replied OK, continue after the full chapter was prepared and an ordered 8-sound checklist was provided. User scene acceptance, not independent assistant hearing approval."
 }

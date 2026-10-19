@@ -416,6 +416,7 @@ label chapter_3:
     with fade
 
     narrator "半年前的夜晚，比現在更悶熱。"
+    play sound "audio/sfx/magic/magic_kiseru_ember.ogg" volume 0.75
     narrator "驚蟄坐在小酒館的角落，煙斗裡的火光忽明忽暗。"
 
     show jingzhe smoking at zh_left
@@ -443,6 +444,7 @@ label chapter_3:
     show event black_card
     with dissolve
 
+    play sound "audio/sfx/world/world_black_card_place.ogg"
     narrator "他把一張全黑的卡片放在桌上。"
 
     achirichi "我來，是因為你會需要它。"
@@ -473,6 +475,7 @@ label chapter_3:
 
     jingzhe "怎麼保護？"
 
+    play sound "audio/sfx/magic/magic_black_card_pulse.ogg"
     achirichi "撕開就知道了。"
 
     hide event black_card
@@ -495,12 +498,14 @@ label chapter_3:
 
     achirichi "我知道。"
 
+    play sound "audio/sfx/world/world_black_card_slide.ogg"
     narrator "亞奇里奇把卡片推近了一點。"
 
     achirichi "但你不是每次都能照顧好你自己。"
 
     narrator "桌面上那張黑色的卡，像一塊沒有溫度的夜。"
 
+    play sound "audio/sfx/world/world_black_card_stow.ogg"
     narrator "驚蟄終於把它收進袖口。"
 
     jingzhe "……這筆帳記在她身上。"
@@ -511,6 +516,7 @@ label chapter_3:
 
     achirichi "不要把卡片交給別人。"
 
+    play sound "audio/sfx/magic/magic_kiseru_ignite.ogg" volume 0.8
     narrator "驚蟄沒有回答，只是低頭續火。"
 
     narrator "等他再抬頭時，人已經走了。"
@@ -519,6 +525,7 @@ label chapter_3:
 
     jump chapter_4
 label chapter_4:
+    stop sound fadeout 0.15
     play music "audio/music/bgm_moon_inn_night.ogg" loop fadeout 1.5 fadein 1.5
 
     scene bg inn_exterior_twilight

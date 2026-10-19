@@ -1,0 +1,122 @@
+{
+  "date": "2026-10-19",
+  "batch": "BATCH03_TAVERN_CARD",
+  "status": "whole chapter prepared; user scene audition pending",
+  "formally_adopted": false,
+  "user_instruction": "OK，繼續；確認清單需按場景實際出現順序",
+  "primary_cues": [
+    "SFX09_CARD_PLACE",
+    "SFX10_CARD_SLIDE",
+    "SFX18_CARD_PULSE"
+  ],
+  "new_audio_files": 4,
+  "assets": [
+    {
+      "cue": "SFX09_CARD_PLACE",
+      "source": "world_black_card_place_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/world/world_black_card_place.ogg",
+      "sha256": "e8f395dc035ed3f9b014e1fb783acdd25bfc1ed39b8fab67408829289844bfcf",
+      "matches_source": true,
+      "duration_seconds": 0.4,
+      "decoded_sample_peak_dbfs": -21.85960331242596
+    },
+    {
+      "cue": "SFX10_CARD_SLIDE",
+      "source": "world_black_card_slide_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/world/world_black_card_slide.ogg",
+      "sha256": "123e1f7646df8c2096de9b5605306060f8d01fdb6d9d674123c17409e8233352",
+      "matches_source": true,
+      "duration_seconds": 0.66,
+      "decoded_sample_peak_dbfs": -22.374303052459666
+    },
+    {
+      "cue": "SFX18_CARD_PULSE",
+      "source": "magic_black_card_pulse_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/magic/magic_black_card_pulse.ogg",
+      "sha256": "1d96ec81e69b90d669972a85d8b1067e595a5271635a66f5b35958dae27da060",
+      "matches_source": true,
+      "duration_seconds": 1.2,
+      "decoded_sample_peak_dbfs": -26.868250775249063
+    },
+    {
+      "cue": "SFX09_CARD_PLACE",
+      "source": "world_black_card_stow_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/world/world_black_card_stow.ogg",
+      "sha256": "1ff6060105f43e65a73172269cdf0951a465cffd249f4a4087e8c06308e8a94a",
+      "matches_source": true,
+      "duration_seconds": 0.75,
+      "decoded_sample_peak_dbfs": -24.36425505521264
+    }
+  ],
+  "ordered_audition_checklist": [
+    {
+      "order": 1,
+      "label": "菸斗餘燼",
+      "trigger": "驚蟄坐在小酒館的角落，煙斗裡的火光忽明忽暗。",
+      "game_file": "audio/sfx/magic/magic_kiseru_ember.ogg",
+      "reused": true,
+      "relative_volume": 0.75
+    },
+    {
+      "order": 2,
+      "label": "黑卡放桌",
+      "trigger": "他把一張全黑的卡片放在桌上。",
+      "game_file": "audio/sfx/world/world_black_card_place.ogg",
+      "reused": false
+    },
+    {
+      "order": 3,
+      "label": "黑卡共鳴",
+      "trigger": "撕開就知道了。",
+      "game_file": "audio/sfx/magic/magic_black_card_pulse.ogg",
+      "reused": false
+    },
+    {
+      "order": 4,
+      "label": "推近黑卡",
+      "trigger": "亞奇里奇把卡片推近了一點。",
+      "game_file": "audio/sfx/world/world_black_card_slide.ogg",
+      "reused": false
+    },
+    {
+      "order": 5,
+      "label": "收卡入袖",
+      "trigger": "驚蟄終於把它收進袖口。",
+      "game_file": "audio/sfx/world/world_black_card_stow.ogg",
+      "reused": false
+    },
+    {
+      "order": 6,
+      "label": "菸斗續火",
+      "trigger": "驚蟄沒有回答，只是低頭續火。",
+      "game_file": "audio/sfx/magic/magic_kiseru_ignite.ogg",
+      "reused": true,
+      "relative_volume": 0.8
+    }
+  ],
+  "scene": {
+    "entry_line": 418,
+    "entry_text": "半年前的夜晚，比現在更悶熱。",
+    "exit": "第四章入夜前的風變得濕。",
+    "bgm": "existing BGM04 tavern and black-card variant; original transition retained",
+    "ambience": "retired; none added",
+    "forced_reading_pause_added": false,
+    "text_or_story_changed": false,
+    "chapter4_stop_sound_fade_seconds": 0.15
+  },
+  "runtime": {
+    "process_id": 41056,
+    "development_basedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe",
+    "entry_screenshot": "runtime_scene_take01.png",
+    "observation": "runtime_observation_take01.json",
+    "music_observed": "audio/music/bgm_black_card_memory.ogg",
+    "music_volume": 1.0,
+    "sfx_volume": 1.0,
+    "sfx_muted": false,
+    "ambience": null,
+    "all_new_game_assets_loaded_with_expected_hashes": true,
+    "limitations": "Entry screen and files observed. Full scene, naturalness, trigger timing and BGM balance await user listening; not independent assistant hearing acceptance."
+  },
+  "release_rebuilt": false,
+  "version_changed": false
+}

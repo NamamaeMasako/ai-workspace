@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-19",
+  "cue": "SFX18_CARD_PULSE",
+  "label": "撕開就知道了之後的一次極輕黑卡共鳴；非心跳或警報",
+  "name": "magic_black_card_pulse",
+  "seed": 5518,
+  "status": "batch03 complete scene audition pending",
+  "formally_adopted": false,
+  "method": "original procedural short foley; no recording, external library, voice or model",
+  "duration_seconds": 1.2,
+  "loop": false,
+  "target_sample_peak_dbfs": -27,
+  "editable_source": "produce_batch03_take01.py",
+  "editable_source_sha256": "fd537d7f4112bdf077252a7b106f8118c1cc97cfad1d8e453b7c139c52ec5f4d",
+  "wav": {
+    "file": "magic_black_card_pulse_take01.wav",
+    "sha256": "2e7a938badf820976ecec59777c43923fd4c2037e9b8173135ccf6be0f2f5548"
+  },
+  "ogg": {
+    "file": "magic_black_card_pulse_take01.ogg",
+    "sha256": "1d96ec81e69b90d669972a85d8b1067e595a5271635a66f5b35958dae27da060",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "1.200000"
+      }
+    },
+    "decoded_sample_peak_dbfs": -26.868250775249063,
+    "decoded_rms_dbfs": -37.18763053426625
+  }
+}

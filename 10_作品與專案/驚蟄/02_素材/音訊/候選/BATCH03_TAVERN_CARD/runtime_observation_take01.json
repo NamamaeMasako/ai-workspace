@@ -1,0 +1,27 @@
+{
+  "timestamp": 1792380242.1850243,
+  "basedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe",
+  "gamedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe\\game",
+  "location": [
+    "game/script.rpy",
+    418
+  ],
+  "music": "audio/music/bgm_black_card_memory.ogg",
+  "music_position": 42.772,
+  "sound": null,
+  "sound_position": null,
+  "music_volume": 1.0,
+  "sfx_volume": 1.0,
+  "music_muted": false,
+  "sfx_muted": false,
+  "master_muted": false,
+  "ambience": null,
+  "asset_hashes": {
+    "world/world_black_card_place.ogg": "e8f395dc035ed3f9b014e1fb783acdd25bfc1ed39b8fab67408829289844bfcf",
+    "world/world_black_card_slide.ogg": "123e1f7646df8c2096de9b5605306060f8d01fdb6d9d674123c17409e8233352",
+    "world/world_black_card_stow.ogg": "1ff6060105f43e65a73172269cdf0951a465cffd249f4a4087e8c06308e8a94a",
+    "magic/magic_black_card_pulse.ogg": "1d96ec81e69b90d669972a85d8b1067e595a5271635a66f5b35958dae27da060",
+    "magic/magic_kiseru_ember.ogg": "116dfe5f4845e78210ce4822928fc1c3ffdd520a688698cdbfc706077ea2f8da",
+    "magic/magic_kiseru_ignite.ogg": "0468ac1755468c39560946de877b3839d205bfbbd814cbd5d35ef0c76c2b0806"
+  }
+}

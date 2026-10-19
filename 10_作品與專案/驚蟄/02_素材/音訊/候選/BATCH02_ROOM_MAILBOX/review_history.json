@@ -1,6 +1,6 @@
 {
   "batch": "BATCH02_ROOM_MAILBOX",
-  "status": "awaiting_user_whole_scene_confirmation",
+  "status": "formally_adopted",
   "reviews": [
     {
       "date": "2026-10-19",
@@ -11,6 +11,13 @@
       "game_integrated": true,
       "formally_adopted": false,
       "integration": "scene_integration_take01.json"
+    },
+    {
+      "date": "2026-10-19",
+      "stage": "whole_scene_formal_adoption",
+      "user_feedback": "OK，繼續",
+      "formally_adopted": true,
+      "formal_record": "formal_adoption.json"
     }
   ]
 }

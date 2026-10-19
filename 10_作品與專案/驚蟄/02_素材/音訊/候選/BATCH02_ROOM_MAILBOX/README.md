@@ -1,6 +1,6 @@
 # 第二批：第二章夜間房內與魔法郵箱
 
-2026-10-19：依生前指示，先完成整個場景需要的音效、導入並安排觸發，再一次檢查完整第二章。七個新短音檔已導入開發版，對應五個基礎 Cue 及兩個動作變體；本批尚未正式採用。
+2026-10-19：依生前指示，先完成整個場景需要的音效、導入並安排觸發，再一次檢查完整第二章。七個新短音檔已導入開發版，對應五個基礎 Cue 及兩個動作變體；生前依出現順序清單確認後回覆「OK，繼續」，本批七個音檔、沿用點火與現行整段配置正式採用。
 
 ## 完整場景試聽
 
@@ -37,5 +37,5 @@
 - 每個固定 seed、參數、峰值、WAV／OGG 雜湊與格式見同名 JSON 及 `generation_manifest_take01.json`。
 - 48 kHz 單聲道 PCM 24-bit 母檔，44.1 kHz 單聲道 Vorbis q6 遊戲副本；皆為非循環短音效。起落平滑，固定峰值、不以動態 loudness normalization 拉大音量。
 - 可編輯來源：`../../母檔/BATCH02_ROOM_MAILBOX/produce_batch02_take01.py`，需要 Python、numpy、scipy、ffmpeg／ffprobe。既有 take 不覆寫。
-- 實際觸發、遊戲檔案雜湊及起點觀察見 `scene_integration_take01.json`。場景與聲音主觀核可待生前回覆，尚未建立正式採用紀錄。
+- 實際觸發、遊戲檔案雜湊及起點觀察見 `scene_integration_take01.json`。本批已由生前回覆「OK，繼續」核可，正式紀錄見 `formal_adoption.json`。
 - 本輪未修改劇本文字、劇情事件或既有 BGM；沒有升版或重建 Windows 發行包。

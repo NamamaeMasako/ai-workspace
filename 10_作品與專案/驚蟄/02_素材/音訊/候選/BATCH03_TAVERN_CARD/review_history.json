@@ -1,0 +1,16 @@
+{
+  "batch": "BATCH03_TAVERN_CARD",
+  "status": "awaiting_user_whole_scene_confirmation",
+  "reviews": [
+    {
+      "date": "2026-10-19",
+      "stage": "take01_whole_chapter_prepared",
+      "assets": 4,
+      "primary_cues": 3,
+      "game_integrated": true,
+      "formally_adopted": false,
+      "checklist_order": "actual scene occurrence",
+      "integration": "scene_integration_take01.json"
+    }
+  ]
+}
