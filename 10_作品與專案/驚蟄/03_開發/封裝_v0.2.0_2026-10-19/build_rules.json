@@ -1,0 +1,974 @@
+{
+  "directory_name": "JingZhe-0.2.0",
+  "executable_name": "JingZhe",
+  "include_update": false,
+  "packages": [
+    {
+      "name": "gameonly",
+      "formats": [
+        "null"
+      ],
+      "file_lists": [
+        "all"
+      ],
+      "description": "Game-Only Update for Mobile",
+      "update": true,
+      "dlc": false,
+      "hidden": true
+    },
+    {
+      "name": "pc",
+      "formats": [
+        "zip"
+      ],
+      "file_lists": [
+        "windows",
+        "linux",
+        "renpy",
+        "all"
+      ],
+      "description": "PC: Windows and Linux",
+      "update": true,
+      "dlc": false,
+      "hidden": false
+    },
+    {
+      "name": "linux",
+      "formats": [
+        "tar.bz2"
+      ],
+      "file_lists": [
+        "linux",
+        "linux_arm",
+        "renpy",
+        "all"
+      ],
+      "description": "Linux",
+      "update": true,
+      "dlc": false,
+      "hidden": false
+    },
+    {
+      "name": "mac",
+      "formats": [
+        "app-zip",
+        "app-dmg"
+      ],
+      "file_lists": [
+        "mac",
+        "renpy",
+        "all"
+      ],
+      "description": "Macintosh",
+      "update": true,
+      "dlc": false,
+      "hidden": false
+    },
+    {
+      "name": "win",
+      "formats": [
+        "zip"
+      ],
+      "file_lists": [
+        "windows",
+        "renpy",
+        "all"
+      ],
+      "description": "Windows",
+      "update": true,
+      "dlc": false,
+      "hidden": false
+    },
+    {
+      "name": "market",
+      "formats": [
+        "bare-zip"
+      ],
+      "file_lists": [
+        "windows",
+        "linux",
+        "mac",
+        "renpy",
+        "all"
+      ],
+      "description": "Windows, Mac, Linux for Markets",
+      "update": true,
+      "dlc": false,
+      "hidden": false
+    },
+    {
+      "name": "steam",
+      "formats": [
+        "zip"
+      ],
+      "file_lists": [
+        "windows",
+        "linux",
+        "mac",
+        "renpy",
+        "all"
+      ],
+      "description": "steam",
+      "update": true,
+      "dlc": false,
+      "hidden": true
+    },
+    {
+      "name": "android",
+      "formats": [
+        "directory"
+      ],
+      "file_lists": [
+        "android",
+        "all"
+      ],
+      "description": "android",
+      "update": false,
+      "dlc": true,
+      "hidden": true
+    },
+    {
+      "name": "ios",
+      "formats": [
+        "directory"
+      ],
+      "file_lists": [
+        "ios",
+        "all"
+      ],
+      "description": "ios",
+      "update": false,
+      "dlc": true,
+      "hidden": true
+    },
+    {
+      "name": "web",
+      "formats": [
+        "zip"
+      ],
+      "file_lists": [
+        "web",
+        "renpy",
+        "all"
+      ],
+      "description": "web",
+      "update": false,
+      "dlc": true,
+      "hidden": true
+    }
+  ],
+  "archives": [
+    [
+      "archive",
+      [
+        "all"
+      ]
+    ]
+  ],
+  "documentation_patterns": [],
+  "base_patterns": [
+    [
+      "*.py",
+      null
+    ],
+    [
+      "*.sh",
+      null
+    ],
+    [
+      "*.app/",
+      null
+    ],
+    [
+      "*.dll",
+      null
+    ],
+    [
+      "*.manifest",
+      null
+    ],
+    [
+      "*.keystore",
+      null
+    ],
+    [
+      "**.rpe.py",
+      null
+    ],
+    [
+      "update.pem",
+      null
+    ],
+    [
+      "lib/",
+      null
+    ],
+    [
+      "renpy/",
+      null
+    ],
+    [
+      "update/",
+      null
+    ],
+    [
+      "common/",
+      null
+    ],
+    [
+      "update/",
+      null
+    ],
+    [
+      "old-game/",
+      null
+    ],
+    [
+      "base/",
+      null
+    ],
+    [
+      "icon.ico",
+      null
+    ],
+    [
+      "icon.icns",
+      null
+    ],
+    [
+      "project.json",
+      null
+    ],
+    [
+      "log.txt",
+      null
+    ],
+    [
+      "errors.txt",
+      null
+    ],
+    [
+      "traceback.txt",
+      null
+    ],
+    [
+      "image_cache.txt",
+      null
+    ],
+    [
+      "text_overflow.txt",
+      null
+    ],
+    [
+      "dialogue.txt",
+      null
+    ],
+    [
+      "dialogue.tab",
+      null
+    ],
+    [
+      "profile_screen.txt",
+      null
+    ],
+    [
+      "files.txt",
+      null
+    ],
+    [
+      "memory.txt",
+      null
+    ],
+    [
+      "tmp/",
+      null
+    ],
+    [
+      "game/saves/",
+      null
+    ],
+    [
+      "game/bytecode.rpyb",
+      null
+    ],
+    [
+      "archived/",
+      null
+    ],
+    [
+      "launcherinfo.py",
+      null
+    ],
+    [
+      "android.txt",
+      null
+    ],
+    [
+      "game/presplash*.*",
+      [
+        "all"
+      ]
+    ],
+    [
+      "android.json",
+      [
+        "android"
+      ]
+    ],
+    [
+      ".android.json",
+      [
+        "android"
+      ]
+    ],
+    [
+      "android-*.png",
+      [
+        "android"
+      ]
+    ],
+    [
+      "android-*.jpg",
+      [
+        "android"
+      ]
+    ],
+    [
+      "ouya_icon.png",
+      null
+    ],
+    [
+      "ios-presplash.*",
+      [
+        "ios"
+      ]
+    ],
+    [
+      "ios-launchimage.png",
+      null
+    ],
+    [
+      "ios-icon.png",
+      null
+    ],
+    [
+      "web-presplash.png",
+      [
+        "web"
+      ]
+    ],
+    [
+      "web-presplash.jpg",
+      [
+        "web"
+      ]
+    ],
+    [
+      "web-presplash.webp",
+      [
+        "web"
+      ]
+    ],
+    [
+      "web-icon.png",
+      [
+        "web"
+      ]
+    ],
+    [
+      "progressive_download.txt",
+      [
+        "web"
+      ]
+    ],
+    [
+      "steam_appid.txt",
+      null
+    ],
+    [
+      "game/cache/bytecode-312.rpyb",
+      [
+        "all"
+      ]
+    ],
+    [
+      "game/cache/bytecode-*.rpyb",
+      null
+    ],
+    [
+      "game/cache/build_info.json",
+      null
+    ],
+    [
+      "game/cache/build_time.txt",
+      null
+    ],
+    [
+      "**~",
+      null
+    ],
+    [
+      "**.bak",
+      null
+    ],
+    [
+      "**/.**",
+      null
+    ],
+    [
+      "**/#**",
+      null
+    ],
+    [
+      "**/thumbs.db",
+      null
+    ],
+    [
+      "game/SourceHanSansLite.ttf",
+      null
+    ],
+    [
+      "game/audio/music/bgm_before_storm.ogg",
+      null
+    ],
+    [
+      "game/audio/ambience/amb_courtyard_water_wind.ogg",
+      null
+    ],
+    [
+      "game/audio/ambience/amb_inn_wood_room.ogg",
+      null
+    ],
+    [
+      "game/audio/ambience/amb_road_twilight_wind.ogg",
+      null
+    ],
+    [
+      "game/images/bar empty hover.png",
+      null
+    ],
+    [
+      "game/images/bar empty idle.png",
+      null
+    ],
+    [
+      "game/images/bar full hover.png",
+      null
+    ],
+    [
+      "game/images/bar full idle.png",
+      null
+    ],
+    [
+      "game/images/bar thumb hover.png",
+      null
+    ],
+    [
+      "game/images/bar thumb idle.png",
+      null
+    ],
+    [
+      "game/images/bg cave.jpg",
+      null
+    ],
+    [
+      "game/images/bg panorama.webp",
+      null
+    ],
+    [
+      "game/images/bg pong field.png",
+      null
+    ],
+    [
+      "game/images/bg washington.jpg",
+      null
+    ],
+    [
+      "game/images/bg whitehouse.jpg",
+      null
+    ],
+    [
+      "game/images/button glossy hover.png",
+      null
+    ],
+    [
+      "game/images/button glossy idle.png",
+      null
+    ],
+    [
+      "game/images/check_foreground.png",
+      null
+    ],
+    [
+      "game/images/check_selected_foreground.png",
+      null
+    ],
+    [
+      "game/images/concert1.png",
+      null
+    ],
+    [
+      "game/images/concert2.png",
+      null
+    ],
+    [
+      "game/images/concert3.png",
+      null
+    ],
+    [
+      "game/images/eileen concerned.png",
+      null
+    ],
+    [
+      "game/images/eileen happy.png",
+      null
+    ],
+    [
+      "game/images/eileen vhappy.png",
+      null
+    ],
+    [
+      "game/images/hover_background.png",
+      null
+    ],
+    [
+      "game/images/idle_background.png",
+      null
+    ],
+    [
+      "game/images/imagedissolve circleiris.png",
+      null
+    ],
+    [
+      "game/images/imagedissolve circlewipe.png",
+      null
+    ],
+    [
+      "game/images/imagedissolve dream.png",
+      null
+    ],
+    [
+      "game/images/imagedissolve teleport.png",
+      null
+    ],
+    [
+      "game/images/imagemap ground.png",
+      null
+    ],
+    [
+      "game/images/imagemap hover.png",
+      null
+    ],
+    [
+      "game/images/imagemap volume hover.png",
+      null
+    ],
+    [
+      "game/images/imagemap volume idle.png",
+      null
+    ],
+    [
+      "game/images/imagemap volume insensitive.png",
+      null
+    ],
+    [
+      "game/images/imagemap volume selected_hover.png",
+      null
+    ],
+    [
+      "game/images/imagemap volume selected_idle.png",
+      null
+    ],
+    [
+      "game/images/launcher distribute.png",
+      null
+    ],
+    [
+      "game/images/launcher step1.webp",
+      null
+    ],
+    [
+      "game/images/launcher step2.webp",
+      null
+    ],
+    [
+      "game/images/launcher step3.webp",
+      null
+    ],
+    [
+      "game/images/launcher step4.webp",
+      null
+    ],
+    [
+      "game/images/launcher step5.webp",
+      null
+    ],
+    [
+      "game/images/launcher translate.png",
+      null
+    ],
+    [
+      "game/images/logo base.png",
+      null
+    ],
+    [
+      "game/images/logo bw.png",
+      null
+    ],
+    [
+      "game/images/logo solid.png",
+      null
+    ],
+    [
+      "game/images/lucy happy.png",
+      null
+    ],
+    [
+      "game/images/lucy mad.png",
+      null
+    ],
+    [
+      "game/images/magic.png",
+      null
+    ],
+    [
+      "game/images/ninepatch paper.png",
+      null
+    ],
+    [
+      "game/images/ninepatch.png",
+      null
+    ],
+    [
+      "game/images/popup hrpprefs.png",
+      null
+    ],
+    [
+      "game/images/popup prefs.png",
+      null
+    ],
+    [
+      "game/images/popup save.png",
+      null
+    ],
+    [
+      "game/images/spotlight.png",
+      null
+    ],
+    [
+      "game/images/backgrounds/inn_dining_morning_candidate_v0.1.png",
+      null
+    ],
+    [
+      "game/images/backgrounds/inn_lobby_twilight_candidate_v0.1.png",
+      null
+    ],
+    [
+      "game/images/backgrounds/inn_lobby_twilight_candidate_v0.2.png",
+      null
+    ],
+    [
+      "game/images/characters/kamikiri_ready_3q_full_right_sword_left_forearm_blade.png",
+      null
+    ],
+    [
+      "game/images/characters/kamikiri_attack_forward_full_right_sword_left_forearm_blade.png",
+      null
+    ],
+    [
+      "game/images/characters/kamikiri_empowered_ready_3q_full_right_sword_left_forearm_blade.png",
+      null
+    ],
+    [
+      "game/images/characters/kamikiri_empowered_attack_forward_full_right_sword_left_forearm_blade.png",
+      null
+    ],
+    [
+      ".*",
+      null
+    ],
+    [
+      "**",
+      [
+        "all"
+      ]
+    ]
+  ],
+  "renpy_patterns": [
+    [
+      "renpy/common/_compat/**",
+      null
+    ],
+    [
+      "renpy/common/_roundrect/**",
+      null
+    ],
+    [
+      "renpy/common/_outline/**",
+      null
+    ],
+    [
+      "renpy/common/_theme**",
+      null
+    ],
+    [
+      "renpy/**__pycache__/**.cpython-312.pyc",
+      [
+        "all"
+      ]
+    ],
+    [
+      "renpy/**__pycache__",
+      [
+        "all"
+      ]
+    ],
+    [
+      "**~",
+      null
+    ],
+    [
+      "**/#*",
+      null
+    ],
+    [
+      "**/.*",
+      null
+    ],
+    [
+      "**.old",
+      null
+    ],
+    [
+      "**.new",
+      null
+    ],
+    [
+      "**.rpa",
+      null
+    ],
+    [
+      "**.rpe",
+      null
+    ],
+    [
+      "**.rpe.py",
+      null
+    ],
+    [
+      "**/steam_appid.txt",
+      null
+    ],
+    [
+      "renpy.py",
+      [
+        "all"
+      ]
+    ],
+    [
+      "renpy/",
+      [
+        "all"
+      ]
+    ],
+    [
+      "renpy/**.py",
+      [
+        "renpy"
+      ]
+    ],
+    [
+      "renpy/**.pxd",
+      null
+    ],
+    [
+      "renpy/**.pxi",
+      null
+    ],
+    [
+      "renpy/**.pyx",
+      null
+    ],
+    [
+      "renpy/**.pyc",
+      null
+    ],
+    [
+      "renpy/**.pyo",
+      null
+    ],
+    [
+      "renpy/common/",
+      [
+        "all"
+      ]
+    ],
+    [
+      "renpy/common/_compat/**",
+      [
+        "renpy"
+      ]
+    ],
+    [
+      "renpy/common/**.rpy",
+      [
+        "renpy"
+      ]
+    ],
+    [
+      "renpy/common/**.rpym",
+      [
+        "renpy"
+      ]
+    ],
+    [
+      "renpy/common/_compat/**",
+      [
+        "renpy"
+      ]
+    ],
+    [
+      "renpy/common/**",
+      [
+        "all"
+      ]
+    ],
+    [
+      "renpy/**",
+      [
+        "all"
+      ]
+    ],
+    [
+      "lib/*/renpy",
+      null
+    ],
+    [
+      "lib/*/renpy.exe",
+      null
+    ],
+    [
+      "lib/*/pythonw.exe",
+      null
+    ],
+    [
+      "lib/py2-*/",
+      null
+    ],
+    [
+      "lib/py*-windows-i686/**",
+      [
+        "windows_i686"
+      ]
+    ],
+    [
+      "lib/py*-windows-x86_64/**",
+      [
+        "windows"
+      ]
+    ],
+    [
+      "lib/py*-linux-i686/**",
+      [
+        "linux_i686"
+      ]
+    ],
+    [
+      "lib/py*-linux-aarch64/**",
+      [
+        "linux_arm"
+      ]
+    ],
+    [
+      "lib/py*-linux-armv7l/**",
+      [
+        "linux_arm"
+      ]
+    ],
+    [
+      "lib/py*-linux-*/**",
+      [
+        "linux"
+      ]
+    ],
+    [
+      "lib/py*-mac-*/**",
+      [
+        "mac"
+      ]
+    ],
+    [
+      "lib/web/**",
+      [
+        "web"
+      ]
+    ],
+    [
+      "lib/python2.*/**",
+      null
+    ],
+    [
+      "lib/**",
+      [
+        "windows",
+        "linux",
+        "mac",
+        "android",
+        "ios"
+      ]
+    ],
+    [
+      "renpy.sh",
+      [
+        "linux",
+        "mac"
+      ]
+    ]
+  ],
+  "xbit_patterns": [
+    "**.sh",
+    "lib/py*-linux-*/*",
+    "lib/py*-mac-*/*",
+    "**.app/Contents/MacOS/*"
+  ],
+  "version": "0.2.0",
+  "display_name": "驚蟄",
+  "exclude_empty_directories": true,
+  "allow_integrated_gpu": true,
+  "renpy": false,
+  "script_version": true,
+  "destination": "JingZhe-0.2.0-dists",
+  "itch_channels": {
+    "*-all.zip": "win-osx-linux",
+    "*-market.zip": "win-osx-linux",
+    "*-pc.zip": "win-linux",
+    "*-win.zip": "win",
+    "*-mac.zip": "osx",
+    "*-linux.tar.bz2": "linux",
+    "*-release.apk": "android"
+  },
+  "mac_info_plist": {},
+  "merge": [
+    [
+      "linux_i686",
+      "linux"
+    ],
+    [
+      "windows_i686",
+      "windows"
+    ]
+  ],
+  "include_i686": true,
+  "change_icon_i686": true,
+  "android_permissions": [],
+  "_sdk_fonts": false,
+  "update_formats": [
+    "rpu"
+  ],
+  "info": {
+    "info": {},
+    "time": 1792404891.616593,
+    "name": "驚蟄",
+    "version": "0.2.0"
+  }
+}

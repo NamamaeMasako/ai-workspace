@@ -1,0 +1,12 @@
+{
+  "location": [
+    "game/script.rpy",
+    1104
+  ],
+  "test_node": "If",
+  "test_line": 179,
+  "save_name": "第七章・錯路\n第一次交卡：選擇前",
+  "screens": [
+    "choice"
+  ]
+}

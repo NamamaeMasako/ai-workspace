@@ -1,0 +1,15 @@
+{
+  "suite": "jz_release_meta",
+  "exit_code": 0,
+  "native_status": "PASSED",
+  "executable": "C:\\Users\\User\\AppData\\Local\\Temp\\jz_zip_check_020_jwot4xva\\驚蟄_v0.2.0_Windows\\JingZhe.exe",
+  "command": [
+    "C:\\Users\\User\\AppData\\Local\\Temp\\jz_zip_check_020_jwot4xva\\驚蟄_v0.2.0_Windows\\JingZhe.exe",
+    "C:\\Users\\User\\AppData\\Local\\Temp\\jz_zip_check_020_jwot4xva\\驚蟄_v0.2.0_Windows",
+    "test",
+    "jz_release_meta",
+    "--report-detailed",
+    "--savedir",
+    "C:\\Users\\User\\AppData\\Local\\Temp\\jz_zip_check_020_jwot4xva\\private_saves"
+  ]
+}

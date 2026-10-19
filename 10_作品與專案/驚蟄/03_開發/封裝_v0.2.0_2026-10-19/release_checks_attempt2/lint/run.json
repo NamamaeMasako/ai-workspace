@@ -1,0 +1,17 @@
+{
+  "suite": "lint",
+  "exit_code": 1,
+  "native_status": null,
+  "executable": "C:\\Users\\User\\AppData\\Local\\Temp\\jz_zip_check_020_sua9_5rl\\驚蟄_v0.2.0_Windows\\JingZhe.exe",
+  "command": [
+    "C:\\Users\\User\\AppData\\Local\\Temp\\jz_zip_check_020_sua9_5rl\\驚蟄_v0.2.0_Windows\\JingZhe.exe",
+    "C:\\Users\\User\\AppData\\Local\\Temp\\jz_zip_check_020_sua9_5rl\\驚蟄_v0.2.0_Windows",
+    "lint",
+    "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\封裝_v0.2.0_2026-10-19\\release_checks_attempt2\\lint\\lint.txt",
+    "--error-code",
+    "--all-problems",
+    "--check-unclosed-tags",
+    "--savedir",
+    "C:\\Users\\User\\AppData\\Local\\Temp\\jz_zip_check_020_sua9_5rl\\private_saves"
+  ]
+}

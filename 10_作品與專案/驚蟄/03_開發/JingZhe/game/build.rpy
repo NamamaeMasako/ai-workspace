@@ -12,6 +12,15 @@ init python:
     # UI 已統一使用 NotoSansTC-VF.ttf。
     build.classify("game/SourceHanSansLite.ttf", None)
 
+    # 已否決BGM09與已停用的持續環境聲保留於開發歷程，不收入聲音版。
+    for retired_audio_asset in (
+        "music/bgm_before_storm.ogg",
+        "ambience/amb_courtyard_water_wind.ogg",
+        "ambience/amb_inn_wood_room.ogg",
+        "ambience/amb_road_twilight_wind.ogg",
+    ):
+        build.classify("game/audio/" + retired_audio_asset, None)
+
     # 未引用的 Ren'Py 教學範例資產；逐項排除，禁止使用 game/images/*。
     for unused_tutorial_asset in (
         "bar empty hover.png",

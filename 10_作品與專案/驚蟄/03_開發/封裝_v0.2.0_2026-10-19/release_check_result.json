@@ -1,0 +1,59 @@
+{
+  "version": "0.2.0",
+  "archive_sha256": "d0de73856de3535a3dd175d14579b597f0edde2bcae892aa0e5b9288f44f58bb",
+  "extraction_hashes_match": true,
+  "verified_files": 1720,
+  "actual_exe": "C:\\Users\\User\\AppData\\Local\\Temp\\jz_zip_check_020_np69lhx9\\驚蟄_v0.2.0_Windows\\JingZhe.exe",
+  "runs": [
+    {
+      "suite": "jz_release_meta",
+      "exit_code": 0,
+      "native_status": "PASSED",
+      "executable": "C:\\Users\\User\\AppData\\Local\\Temp\\jz_zip_check_020_np69lhx9\\驚蟄_v0.2.0_Windows\\JingZhe.exe",
+      "command": [
+        "C:\\Users\\User\\AppData\\Local\\Temp\\jz_zip_check_020_np69lhx9\\驚蟄_v0.2.0_Windows\\JingZhe.exe",
+        "C:\\Users\\User\\AppData\\Local\\Temp\\jz_zip_check_020_np69lhx9\\驚蟄_v0.2.0_Windows",
+        "test",
+        "jz_release_meta",
+        "--report-detailed",
+        "--savedir",
+        "C:\\Users\\User\\AppData\\Local\\Temp\\jz_zip_check_020_np69lhx9\\private_saves"
+      ]
+    },
+    {
+      "suite": "jz_qa",
+      "exit_code": 0,
+      "native_status": "PASSED",
+      "executable": "C:\\Users\\User\\AppData\\Local\\Temp\\jz_zip_check_020_np69lhx9\\驚蟄_v0.2.0_Windows\\JingZhe.exe",
+      "command": [
+        "C:\\Users\\User\\AppData\\Local\\Temp\\jz_zip_check_020_np69lhx9\\驚蟄_v0.2.0_Windows\\JingZhe.exe",
+        "C:\\Users\\User\\AppData\\Local\\Temp\\jz_zip_check_020_np69lhx9\\驚蟄_v0.2.0_Windows",
+        "test",
+        "jz_qa",
+        "--report-detailed",
+        "--savedir",
+        "C:\\Users\\User\\AppData\\Local\\Temp\\jz_zip_check_020_np69lhx9\\private_saves"
+      ]
+    },
+    {
+      "suite": "lint",
+      "exit_code": 0,
+      "native_status": null,
+      "executable": "C:\\Users\\User\\AppData\\Local\\Temp\\jz_zip_check_020_np69lhx9\\驚蟄_v0.2.0_Windows\\JingZhe.exe",
+      "command": [
+        "C:\\Users\\User\\AppData\\Local\\Temp\\jz_zip_check_020_np69lhx9\\驚蟄_v0.2.0_Windows\\JingZhe.exe",
+        "C:\\Users\\User\\AppData\\Local\\Temp\\jz_zip_check_020_np69lhx9\\驚蟄_v0.2.0_Windows",
+        "lint",
+        "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\封裝_v0.2.0_2026-10-19\\release_checks_final\\lint\\lint.txt",
+        "--error-code",
+        "--all-problems",
+        "--check-unclosed-tags",
+        "--savedir",
+        "C:\\Users\\User\\AppData\\Local\\Temp\\jz_zip_check_020_np69lhx9\\private_saves"
+      ]
+    }
+  ],
+  "player_saves_unchanged": true,
+  "package_zip_unchanged": true,
+  "all_passed": true
+}

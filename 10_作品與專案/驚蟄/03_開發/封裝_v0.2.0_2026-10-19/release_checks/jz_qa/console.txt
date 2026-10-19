@@ -1,0 +1,389 @@
+[rpytest] [log] Running 2 test(s) marked with 'only' flag.
+[rpytest] [log] - global.jz_qa
+[rpytest] [log] - global.jz_qa
+
+[rpytest] Starting test run
+[rpytest] Platform:      Windows-11-10.0.26300-SP0
+[rpytest] Python:        3.12.7
+[rpytest] Ren'Py:        Ren'Py 8.5.2.26010301
+[rpytest] Game Version:  0.2.0
+
+[rpytest] [exc] + global
+[rpytest] [exc]   + jz_qa
+[rpytest] [exc]     - defaults
+[rpytest] [exc]     - defaults (0.731 s)
+[rpytest] [exc]     - hanami_first
+
+Full traceback:
+  File "renpy/test/testexecution.py", line 549, in update
+    node_executor.execute()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "renpy/test/testexecution.py", line 471, in execute
+    self.node_state = self.node.execute(self.node_state, elapsed)
+                      ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/test/testast.py", line 1286, in execute
+    raise RenpyTestTimeoutError(msg)
+renpy.test.types.RenpyTestTimeoutError: Until Statement timed out after 45 seconds.
+
+While running game code:
+renpy.test.types.RenpyTestTimeoutError: Until Statement timed out after 45 seconds.
+File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\驚蟄_v0.2.0_Windows\game\ending_flow.rpy", line 128, in script
+  with Dissolve(1.5)
+
+During testcase execution:
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\驚蟄_v0.2.0_Windows\.", line 0, in None
+    
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\external_tests\functional_suite.rpy", line 53, in testsuite global
+    testsuite jz_qa:
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\external_tests\functional_suite.rpy", line 67, in testsuite jz_qa
+    testcase hanami_first:
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\external_tests\functional_suite.rpy", line 102, in testcase hanami_first
+    pause until screen "jz_ending_complete" timeout 45
+
+====================
+[rpytest] [exc]     - hanami_first (87.063 s [01:27])
+[rpytest] [exc]     - hanami_first (87.063 s [01:27])
+[rpytest] [exc]     - yumemi_first
+
+Full traceback:
+  File "renpy/test/testexecution.py", line 549, in update
+    node_executor.execute()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "renpy/test/testexecution.py", line 462, in execute
+    self.check_for_timeout(now)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "renpy/test/testexecution.py", line 508, in check_for_timeout
+    raise RenpyTestTimeoutError(f"TestCase timed out after {_test.timeout} seconds.")
+renpy.test.types.RenpyTestTimeoutError: TestCase timed out after 15.0 seconds.
+
+While running game code:
+renpy.test.types.RenpyTestTimeoutError: TestCase timed out after 15.0 seconds.
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\驚蟄_v0.2.0_Windows\game\ending_flow.rpy", line 133, in script
+    call screen jz_ending_complete
+
+During testcase execution:
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\驚蟄_v0.2.0_Windows\.", line 0, in None
+    
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\external_tests\functional_suite.rpy", line 53, in testsuite global
+    testsuite jz_qa:
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\external_tests\functional_suite.rpy", line 109, in testsuite jz_qa
+    testcase yumemi_first:
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\external_tests\functional_suite.rpy", line 110, in testcase yumemi_first
+    click "開始遊戲"
+
+====================
+[rpytest] [exc]     - yumemi_first (17.089 s)
+[rpytest] [exc]     - yumemi_first (17.089 s)
+[rpytest] [exc]     - replay_chapters(key='prologue')
+
+Full traceback:
+  File "renpy/test/testexecution.py", line 549, in update
+    node_executor.execute()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "renpy/test/testexecution.py", line 462, in execute
+    self.check_for_timeout(now)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "renpy/test/testexecution.py", line 508, in check_for_timeout
+    raise RenpyTestTimeoutError(f"TestCase timed out after {_test.timeout} seconds.")
+renpy.test.types.RenpyTestTimeoutError: TestCase timed out after 15.0 seconds.
+
+While running game code:
+renpy.test.types.RenpyTestTimeoutError: TestCase timed out after 15.0 seconds.
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\驚蟄_v0.2.0_Windows\game\ending_flow.rpy", line 133, in script
+    call screen jz_ending_complete
+
+During testcase execution:
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\驚蟄_v0.2.0_Windows\.", line 0, in None
+    
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\external_tests\functional_suite.rpy", line 53, in testsuite global
+    testsuite jz_qa:
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\external_tests\functional_suite.rpy", line 128, in testsuite jz_qa
+    testcase replay_chapters:
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\external_tests\functional_suite.rpy", line 130, in testcase replay_chapters(key='prologue')
+    click "章節回看"
+
+====================
+[rpytest] [exc]     - replay_chapters(key='prologue') (15.656 s)
+[rpytest] [exc]     - replay_chapters(key='prologue') (15.656 s)
+[rpytest] [exc]     - replay_chapters(key='chapter_1')
+
+Full traceback:
+  File "renpy/test/testexecution.py", line 549, in update
+    node_executor.execute()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "renpy/test/testexecution.py", line 462, in execute
+    self.check_for_timeout(now)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "renpy/test/testexecution.py", line 508, in check_for_timeout
+    raise RenpyTestTimeoutError(f"TestCase timed out after {_test.timeout} seconds.")
+renpy.test.types.RenpyTestTimeoutError: TestCase timed out after 15.0 seconds.
+
+While running game code:
+renpy.test.types.RenpyTestTimeoutError: TestCase timed out after 15.0 seconds.
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\驚蟄_v0.2.0_Windows\game\ending_flow.rpy", line 133, in script
+    call screen jz_ending_complete
+
+During testcase execution:
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\驚蟄_v0.2.0_Windows\.", line 0, in None
+    
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\external_tests\functional_suite.rpy", line 53, in testsuite global
+    testsuite jz_qa:
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\external_tests\functional_suite.rpy", line 128, in testsuite jz_qa
+    testcase replay_chapters:
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\external_tests\functional_suite.rpy", line 130, in testcase replay_chapters(key='chapter_1')
+    click "章節回看"
+
+====================
+[rpytest] [exc]     - replay_chapters(key='chapter_1') (16.097 s)
+[rpytest] [exc]     - replay_chapters(key='chapter_1') (16.097 s)
+[rpytest] [exc]     - replay_chapters(key='chapter_2')
+
+Full traceback:
+  File "renpy/test/testexecution.py", line 549, in update
+    node_executor.execute()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "renpy/test/testexecution.py", line 462, in execute
+    self.check_for_timeout(now)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "renpy/test/testexecution.py", line 508, in check_for_timeout
+    raise RenpyTestTimeoutError(f"TestCase timed out after {_test.timeout} seconds.")
+renpy.test.types.RenpyTestTimeoutError: TestCase timed out after 15.0 seconds.
+
+While running game code:
+renpy.test.types.RenpyTestTimeoutError: TestCase timed out after 15.0 seconds.
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\驚蟄_v0.2.0_Windows\game\ending_flow.rpy", line 133, in script
+    call screen jz_ending_complete
+
+During testcase execution:
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\驚蟄_v0.2.0_Windows\.", line 0, in None
+    
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\external_tests\functional_suite.rpy", line 53, in testsuite global
+    testsuite jz_qa:
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\external_tests\functional_suite.rpy", line 128, in testsuite jz_qa
+    testcase replay_chapters:
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\external_tests\functional_suite.rpy", line 130, in testcase replay_chapters(key='chapter_2')
+    click "章節回看"
+
+====================
+[rpytest] [exc]     - replay_chapters(key='chapter_2') (17.468 s)
+[rpytest] [exc]     - replay_chapters(key='chapter_2') (17.468 s)
+[rpytest] [exc]     - replay_chapters(key='chapter_3')
+
+Full traceback:
+  File "renpy/test/testexecution.py", line 549, in update
+    node_executor.execute()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "renpy/test/testexecution.py", line 462, in execute
+    self.check_for_timeout(now)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "renpy/test/testexecution.py", line 508, in check_for_timeout
+    raise RenpyTestTimeoutError(f"TestCase timed out after {_test.timeout} seconds.")
+renpy.test.types.RenpyTestTimeoutError: TestCase timed out after 15.0 seconds.
+
+While running game code:
+renpy.test.types.RenpyTestTimeoutError: TestCase timed out after 15.0 seconds.
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\驚蟄_v0.2.0_Windows\game\ending_flow.rpy", line 133, in script
+    call screen jz_ending_complete
+
+During testcase execution:
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\驚蟄_v0.2.0_Windows\.", line 0, in None
+    
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\external_tests\functional_suite.rpy", line 53, in testsuite global
+    testsuite jz_qa:
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\external_tests\functional_suite.rpy", line 128, in testsuite jz_qa
+    testcase replay_chapters:
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\external_tests\functional_suite.rpy", line 130, in testcase replay_chapters(key='chapter_3')
+    click "章節回看"
+
+====================
+[rpytest] [exc]     - replay_chapters(key='chapter_3') (15.225 s)
+[rpytest] [exc]     - replay_chapters(key='chapter_3') (15.225 s)
+[rpytest] [exc]     - replay_chapters(key='chapter_4')
+
+Full traceback:
+  File "renpy/test/testexecution.py", line 549, in update
+    node_executor.execute()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "renpy/test/testexecution.py", line 462, in execute
+    self.check_for_timeout(now)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "renpy/test/testexecution.py", line 508, in check_for_timeout
+    raise RenpyTestTimeoutError(f"TestCase timed out after {_test.timeout} seconds.")
+renpy.test.types.RenpyTestTimeoutError: TestCase timed out after 15.0 seconds.
+
+While running game code:
+renpy.test.types.RenpyTestTimeoutError: TestCase timed out after 15.0 seconds.
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\驚蟄_v0.2.0_Windows\game\ending_flow.rpy", line 133, in script
+    call screen jz_ending_complete
+
+During testcase execution:
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\驚蟄_v0.2.0_Windows\.", line 0, in None
+    
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\external_tests\functional_suite.rpy", line 53, in testsuite global
+    testsuite jz_qa:
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\external_tests\functional_suite.rpy", line 128, in testsuite jz_qa
+    testcase replay_chapters:
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\external_tests\functional_suite.rpy", line 130, in testcase replay_chapters(key='chapter_4')
+    click "章節回看"
+
+====================
+[rpytest] [exc]     - replay_chapters(key='chapter_4') (16.204 s)
+[rpytest] [exc]     - replay_chapters(key='chapter_4') (16.204 s)
+[rpytest] [exc]     - replay_chapters(key='chapter_5')
+
+Full traceback:
+  File "renpy/test/testexecution.py", line 549, in update
+    node_executor.execute()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "renpy/test/testexecution.py", line 462, in execute
+    self.check_for_timeout(now)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "renpy/test/testexecution.py", line 508, in check_for_timeout
+    raise RenpyTestTimeoutError(f"TestCase timed out after {_test.timeout} seconds.")
+renpy.test.types.RenpyTestTimeoutError: TestCase timed out after 15.0 seconds.
+
+While running game code:
+renpy.test.types.RenpyTestTimeoutError: TestCase timed out after 15.0 seconds.
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\驚蟄_v0.2.0_Windows\game\ending_flow.rpy", line 133, in script
+    call screen jz_ending_complete
+
+During testcase execution:
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\驚蟄_v0.2.0_Windows\.", line 0, in None
+    
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\external_tests\functional_suite.rpy", line 53, in testsuite global
+    testsuite jz_qa:
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\external_tests\functional_suite.rpy", line 128, in testsuite jz_qa
+    testcase replay_chapters:
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\external_tests\functional_suite.rpy", line 130, in testcase replay_chapters(key='chapter_5')
+    click "章節回看"
+
+====================
+[rpytest] [exc]     - replay_chapters(key='chapter_5') (15.293 s)
+[rpytest] [exc]     - replay_chapters(key='chapter_5') (15.293 s)
+[rpytest] [exc]     - replay_chapters(key='chapter_6')
+
+Full traceback:
+  File "renpy/test/testexecution.py", line 549, in update
+    node_executor.execute()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "renpy/test/testexecution.py", line 462, in execute
+    self.check_for_timeout(now)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "renpy/test/testexecution.py", line 508, in check_for_timeout
+    raise RenpyTestTimeoutError(f"TestCase timed out after {_test.timeout} seconds.")
+renpy.test.types.RenpyTestTimeoutError: TestCase timed out after 15.0 seconds.
+
+While running game code:
+renpy.test.types.RenpyTestTimeoutError: TestCase timed out after 15.0 seconds.
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\驚蟄_v0.2.0_Windows\game\ending_flow.rpy", line 133, in script
+    call screen jz_ending_complete
+
+During testcase execution:
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\驚蟄_v0.2.0_Windows\.", line 0, in None
+    
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\external_tests\functional_suite.rpy", line 53, in testsuite global
+    testsuite jz_qa:
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\external_tests\functional_suite.rpy", line 128, in testsuite jz_qa
+    testcase replay_chapters:
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\external_tests\functional_suite.rpy", line 130, in testcase replay_chapters(key='chapter_6')
+    click "章節回看"
+
+====================
+[rpytest] [exc]     - replay_chapters(key='chapter_6') (19.447 s)
+[rpytest] [exc]     - replay_chapters(key='chapter_6') (19.447 s)
+[rpytest] [exc]     - replay_chapters(key='chapter_7')
+
+Full traceback:
+  File "renpy/test/testexecution.py", line 549, in update
+    node_executor.execute()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "renpy/test/testexecution.py", line 462, in execute
+    self.check_for_timeout(now)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "renpy/test/testexecution.py", line 508, in check_for_timeout
+    raise RenpyTestTimeoutError(f"TestCase timed out after {_test.timeout} seconds.")
+renpy.test.types.RenpyTestTimeoutError: TestCase timed out after 15.0 seconds.
+
+While running game code:
+renpy.test.types.RenpyTestTimeoutError: TestCase timed out after 15.0 seconds.
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\驚蟄_v0.2.0_Windows\game\ending_flow.rpy", line 133, in script
+    call screen jz_ending_complete
+
+During testcase execution:
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\驚蟄_v0.2.0_Windows\.", line 0, in None
+    
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\external_tests\functional_suite.rpy", line 53, in testsuite global
+    testsuite jz_qa:
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\external_tests\functional_suite.rpy", line 128, in testsuite jz_qa
+    testcase replay_chapters:
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\external_tests\functional_suite.rpy", line 130, in testcase replay_chapters(key='chapter_7')
+    click "章節回看"
+
+====================
+[rpytest] [exc]     - replay_chapters(key='chapter_7') (17.397 s)
+[rpytest] [exc]     - replay_chapters(key='chapter_7') (17.397 s)
+[rpytest] [exc]     - replay_chapters(key='chapter_8')
+
+Full traceback:
+  File "renpy/test/testexecution.py", line 549, in update
+    node_executor.execute()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "renpy/test/testexecution.py", line 462, in execute
+    self.check_for_timeout(now)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "renpy/test/testexecution.py", line 508, in check_for_timeout
+    raise RenpyTestTimeoutError(f"TestCase timed out after {_test.timeout} seconds.")
+renpy.test.types.RenpyTestTimeoutError: TestCase timed out after 15.0 seconds.
+
+While running game code:
+renpy.test.types.RenpyTestTimeoutError: TestCase timed out after 15.0 seconds.
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\驚蟄_v0.2.0_Windows\game\ending_flow.rpy", line 133, in script
+    call screen jz_ending_complete
+
+During testcase execution:
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\驚蟄_v0.2.0_Windows\.", line 0, in None
+    
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\external_tests\functional_suite.rpy", line 53, in testsuite global
+    testsuite jz_qa:
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\external_tests\functional_suite.rpy", line 128, in testsuite jz_qa
+    testcase replay_chapters:
+  File "C:\Users\User\AppData\Local\Temp\jz_zip_check_020_jwot4xva\external_tests\functional_suite.rpy", line 130, in testcase replay_chapters(key='chapter_8')
+    click "章節回看"
+
+====================
+[rpytest] [exc]     - replay_chapters(key='chapter_8') (15.746 s)
+[rpytest] [exc]     - replay_chapters(key='chapter_8') (15.746 s)
+[rpytest] [exc]     - legacy_load(slot='legacy-1')
+[rpytest] [exc]     - legacy_load(slot='legacy-1') (0.714 s)
+[rpytest] [exc]     - legacy_load(slot='legacy-2')
+[rpytest] [exc]     - legacy_load(slot='legacy-2') (0.400 s)
+
+[rpytest] Test outcomes (Detailed)
+[rpytest] FAILED  global               - (262.443 s [04:22])
+[rpytest]   FAILED  jz_qa                - (256.461 s [04:16])
+[rpytest]     PASSED  defaults             - (0.731 s)
+[rpytest]     FAILED  hanami_first         - (87.063 s [01:27])
+[rpytest]     FAILED  yumemi_first         - (17.089 s)
+[rpytest]     FAILED  replay_chapters(key='prologue') - (15.656 s)
+[rpytest]     FAILED  replay_chapters(key='chapter_1') - (16.097 s)
+[rpytest]     FAILED  replay_chapters(key='chapter_2') - (17.468 s)
+[rpytest]     FAILED  replay_chapters(key='chapter_3') - (15.225 s)
+[rpytest]     FAILED  replay_chapters(key='chapter_4') - (16.204 s)
+[rpytest]     FAILED  replay_chapters(key='chapter_5') - (15.293 s)
+[rpytest]     FAILED  replay_chapters(key='chapter_6') - (19.447 s)
+[rpytest]     FAILED  replay_chapters(key='chapter_7') - (17.397 s)
+[rpytest]     FAILED  replay_chapters(key='chapter_8') - (15.746 s)
+[rpytest]     PASSED  legacy_load(slot='legacy-1') - (0.714 s)
+[rpytest]     PASSED  legacy_load(slot='legacy-2') - (0.400 s)
+
+====================
+
+[rpytest] Test outcomes (Summary)
+[rpytest] Test suites:     2 |     0 passed |     0 xfailed |     2 failed |     0 xpassed |     0 skipped |     0 not run
+[rpytest] Test cases :    90 |     3 passed |     0 xfailed |    11 failed |     0 xpassed |    76 skipped |     0 not run
+[rpytest] Test hooks :     0 |     0 passed |     0 xfailed |     0 failed |     0 xpassed |     0 skipped |     0 not run
+[rpytest] Assertions :    28 |    28 passed |     0 xfailed |     0 failed |     0 xpassed | 
+
+[rpytest] Time: 262.444 s [04:22]
+[rpytest] Status: FAILED 
+

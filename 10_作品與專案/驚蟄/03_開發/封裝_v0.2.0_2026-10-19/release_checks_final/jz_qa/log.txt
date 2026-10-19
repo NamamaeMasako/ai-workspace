@@ -1,0 +1,130 @@
+2026-10-19 10:15:55 UTC
+Windows-11-10.0.26300-SP0
+Ren'Py 8.5.2.26010301
+
+Early init took 30 ms
+Loading error handling took 30 ms
+Loading script took 163 ms
+Loading save slot metadata took 46 ms
+Loading persistent took 0 ms
+Set script version to: None (alternate path)
+Running init code took 29 ms
+Loading analysis data took 13 ms
+Analyze and compile ATL took 2 ms
+Reloading save slot metadata took 2 ms
+Dump and make backups took 0 ms
+Cleaning cache took 0 ms
+Making clean stores took 0 ms
+Initial gc took 29 ms
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 133 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 47 ms
+Analyze screens took 0 ms
+Save screen analysis took 0 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+[rpytest] [log] Running 2 test(s) marked with 'only' flag.
+[rpytest] [log] - global.jz_qa
+[rpytest] [log] - global.jz_qa
+
+[rpytest] Starting test run
+[rpytest] Platform:      Windows-11-10.0.26300-SP0
+[rpytest] Python:        3.12.7
+[rpytest] Ren'Py:        Ren'Py 8.5.2.26010301
+[rpytest] Game Version:  0.2.0
+
+[rpytest] [exc] + global
+Running _start took 3 ms
+Interface start took 192 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce RTX 3080/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 610.88'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1920, 'current_h': 1080, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1280, 720) physical=(1280, 720) drawable=(1280, 720)
+Maximum texture size: 4096x4096
+Could not open 'cache/shaders.txt':
+controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
+[rpytest] [exc]   + jz_qa
+[rpytest] [exc]     - defaults
+[rpytest] [exc]     - defaults (0.462 s)
+[rpytest] [exc]     - hanami_first
+Cleaning stores took 1 ms
+Load screen analysis took 11 ms
+Analyze screens took 0 ms
+Running _start took 2 ms
+[rpytest] [exc]     - hanami_first (54.025 s)
+[rpytest] [exc]     - yumemi_first
+Cleaning stores took 0 ms
+Load screen analysis took 9 ms
+Analyze screens took 0 ms
+Running _start took 2 ms
+[rpytest] [exc]     - yumemi_first (15.520 s)
+[rpytest] [exc]     - replay_chapters(key='prologue')
+[rpytest] [exc]     - replay_chapters(key='prologue') (0.547 s)
+[rpytest] [exc]     - replay_chapters(key='chapter_1')
+[rpytest] [exc]     - replay_chapters(key='chapter_1') (1.006 s)
+[rpytest] [exc]     - replay_chapters(key='chapter_2')
+[rpytest] [exc]     - replay_chapters(key='chapter_2') (0.645 s)
+[rpytest] [exc]     - replay_chapters(key='chapter_3')
+[rpytest] [exc]     - replay_chapters(key='chapter_3') (0.766 s)
+[rpytest] [exc]     - replay_chapters(key='chapter_4')
+[rpytest] [exc]     - replay_chapters(key='chapter_4') (1.049 s)
+[rpytest] [exc]     - replay_chapters(key='chapter_5')
+[rpytest] [exc]     - replay_chapters(key='chapter_5') (1.661 s)
+[rpytest] [exc]     - replay_chapters(key='chapter_6')
+[rpytest] [exc]     - replay_chapters(key='chapter_6') (1.112 s)
+[rpytest] [exc]     - replay_chapters(key='chapter_7')
+[rpytest] [exc]     - replay_chapters(key='chapter_7') (2.677 s)
+[rpytest] [exc]     - replay_chapters(key='chapter_8')
+[rpytest] [exc]     - replay_chapters(key='chapter_8') (6.664 s)
+[rpytest] [exc]     - legacy_load(slot='legacy-1')
+Cleaning stores took 0 ms
+Load screen analysis took 10 ms
+Analyze screens took 0 ms
+Running _start took 1 ms
+[rpytest] [exc]     - legacy_load(slot='legacy-1') (0.251 s)
+[rpytest] [exc]     - legacy_load(slot='legacy-2')
+Cleaning stores took 1 ms
+Load screen analysis took 9 ms
+Analyze screens took 1 ms
+Running _start took 1 ms
+[rpytest] [exc]     - legacy_load(slot='legacy-2') (0.222 s)
+
+[rpytest] Test outcomes (Detailed)
+[rpytest] PASSED  global               - (87.307 s [01:27])
+[rpytest]   PASSED  jz_qa                - (86.610 s [01:26])
+[rpytest]     PASSED  defaults             - (0.462 s)
+[rpytest]     PASSED  hanami_first         - (54.025 s)
+[rpytest]     PASSED  yumemi_first         - (15.520 s)
+[rpytest]     PASSED  replay_chapters(key='prologue') - (0.547 s)
+[rpytest]     PASSED  replay_chapters(key='chapter_1') - (1.006 s)
+[rpytest]     PASSED  replay_chapters(key='chapter_2') - (0.645 s)
+[rpytest]     PASSED  replay_chapters(key='chapter_3') - (0.766 s)
+[rpytest]     PASSED  replay_chapters(key='chapter_4') - (1.049 s)
+[rpytest]     PASSED  replay_chapters(key='chapter_5') - (1.661 s)
+[rpytest]     PASSED  replay_chapters(key='chapter_6') - (1.112 s)
+[rpytest]     PASSED  replay_chapters(key='chapter_7') - (2.677 s)
+[rpytest]     PASSED  replay_chapters(key='chapter_8') - (6.664 s)
+[rpytest]     PASSED  legacy_load(slot='legacy-1') - (0.251 s)
+[rpytest]     PASSED  legacy_load(slot='legacy-2') - (0.222 s)
+
+====================
+
+[rpytest] Test outcomes (Summary)
+[rpytest] Test suites:     2 |     2 passed |     0 xfailed |     0 failed |     0 xpassed |     0 skipped |     0 not run
+[rpytest] Test cases :    90 |    14 passed |     0 xfailed |     0 failed |     0 xpassed |    76 skipped |     0 not run
+[rpytest] Test hooks :     0 |     0 passed |     0 xfailed |     0 failed |     0 xpassed |     0 skipped |     0 not run
+[rpytest] Assertions :    93 |    93 passed |     0 xfailed |     0 failed |     0 xpassed | 
+
+[rpytest] Time: 87.307 s [01:27]
+[rpytest] Status: PASSED 
+

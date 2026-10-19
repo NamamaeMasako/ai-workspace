@@ -1,0 +1,70 @@
+[rpytest] [log] Running 2 test(s) marked with 'only' flag.
+[rpytest] [log] - global.jz_qa
+[rpytest] [log] - global.jz_qa
+
+[rpytest] Starting test run
+[rpytest] Platform:      Windows-11-10.0.26300-SP0
+[rpytest] Python:        3.12.7
+[rpytest] Ren'Py:        Ren'Py 8.5.2.26010301
+[rpytest] Game Version:  0.2.0
+
+[rpytest] [exc] + global
+[rpytest] [exc]   + jz_qa
+[rpytest] [exc]     - defaults
+[rpytest] [exc]     - defaults (0.834 s)
+[rpytest] [exc]     - hanami_first
+[rpytest] [exc]     - hanami_first (56.453 s)
+[rpytest] [exc]     - yumemi_first
+[rpytest] [exc]     - yumemi_first (15.182 s)
+[rpytest] [exc]     - replay_chapters(key='prologue')
+[rpytest] [exc]     - replay_chapters(key='prologue') (0.563 s)
+[rpytest] [exc]     - replay_chapters(key='chapter_1')
+[rpytest] [exc]     - replay_chapters(key='chapter_1') (1.054 s)
+[rpytest] [exc]     - replay_chapters(key='chapter_2')
+[rpytest] [exc]     - replay_chapters(key='chapter_2') (0.684 s)
+[rpytest] [exc]     - replay_chapters(key='chapter_3')
+[rpytest] [exc]     - replay_chapters(key='chapter_3') (0.744 s)
+[rpytest] [exc]     - replay_chapters(key='chapter_4')
+[rpytest] [exc]     - replay_chapters(key='chapter_4') (1.020 s)
+[rpytest] [exc]     - replay_chapters(key='chapter_5')
+[rpytest] [exc]     - replay_chapters(key='chapter_5') (1.787 s)
+[rpytest] [exc]     - replay_chapters(key='chapter_6')
+[rpytest] [exc]     - replay_chapters(key='chapter_6') (1.073 s)
+[rpytest] [exc]     - replay_chapters(key='chapter_7')
+[rpytest] [exc]     - replay_chapters(key='chapter_7') (2.809 s)
+[rpytest] [exc]     - replay_chapters(key='chapter_8')
+[rpytest] [exc]     - replay_chapters(key='chapter_8') (6.658 s)
+[rpytest] [exc]     - legacy_load(slot='legacy-1')
+[rpytest] [exc]     - legacy_load(slot='legacy-1') (0.190 s)
+[rpytest] [exc]     - legacy_load(slot='legacy-2')
+[rpytest] [exc]     - legacy_load(slot='legacy-2') (0.194 s)
+
+[rpytest] Test outcomes (Detailed)
+[rpytest] PASSED  global               - (90.108 s [01:30])
+[rpytest]   PASSED  jz_qa                - (89.249 s [01:29])
+[rpytest]     PASSED  defaults             - (0.834 s)
+[rpytest]     PASSED  hanami_first         - (56.453 s)
+[rpytest]     PASSED  yumemi_first         - (15.182 s)
+[rpytest]     PASSED  replay_chapters(key='prologue') - (0.563 s)
+[rpytest]     PASSED  replay_chapters(key='chapter_1') - (1.054 s)
+[rpytest]     PASSED  replay_chapters(key='chapter_2') - (0.684 s)
+[rpytest]     PASSED  replay_chapters(key='chapter_3') - (0.744 s)
+[rpytest]     PASSED  replay_chapters(key='chapter_4') - (1.020 s)
+[rpytest]     PASSED  replay_chapters(key='chapter_5') - (1.787 s)
+[rpytest]     PASSED  replay_chapters(key='chapter_6') - (1.073 s)
+[rpytest]     PASSED  replay_chapters(key='chapter_7') - (2.809 s)
+[rpytest]     PASSED  replay_chapters(key='chapter_8') - (6.658 s)
+[rpytest]     PASSED  legacy_load(slot='legacy-1') - (0.190 s)
+[rpytest]     PASSED  legacy_load(slot='legacy-2') - (0.194 s)
+
+====================
+
+[rpytest] Test outcomes (Summary)
+[rpytest] Test suites:     2 |     2 passed |     0 xfailed |     0 failed |     0 xpassed |     0 skipped |     0 not run
+[rpytest] Test cases :    90 |    14 passed |     0 xfailed |     0 failed |     0 xpassed |    76 skipped |     0 not run
+[rpytest] Test hooks :     0 |     0 passed |     0 xfailed |     0 failed |     0 xpassed |     0 skipped |     0 not run
+[rpytest] Assertions :    93 |    93 passed |     0 xfailed |     0 failed |     0 xpassed | 
+
+[rpytest] Time: 90.108 s [01:30]
+[rpytest] Status: PASSED 
+

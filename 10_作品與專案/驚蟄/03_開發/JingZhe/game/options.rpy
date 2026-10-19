@@ -1,6 +1,6 @@
 define config.name = _("驚蟄")
 define gui.show_name = True
-define config.version = "0.1.2"
+define config.version = "0.2.0"
 define config.window_title = _("驚蟄")
 define build.name = "JingZhe"
 

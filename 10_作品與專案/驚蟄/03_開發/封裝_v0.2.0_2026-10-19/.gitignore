@@ -1,0 +1,2 @@
+# Preserve rejected generated package locally without adding a large binary to Git.
+/draft1/*.zip
