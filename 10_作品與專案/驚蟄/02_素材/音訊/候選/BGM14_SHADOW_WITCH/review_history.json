@@ -1,6 +1,6 @@
 {
   "cue": "BGM14_SHADOW_WITCH",
-  "status": "awaiting_user_scene_and_loop_confirmation",
+  "status": "formally_adopted",
   "reviews": [
     {
       "date": "2026-10-17",
@@ -228,6 +228,18 @@
       "formally_adopted": false,
       "game_integrated": true,
       "integration_record": "longform/game_integration_long01.json"
+    },
+    {
+      "date": "2026-10-19",
+      "stage": "formal_scene_and_loop_adoption",
+      "user_feedback": "OK",
+      "label": "冷語之下",
+      "selected_file": "longform/long_01_natural_phrase_strings_hidden_care_seed4104_loop_full_attack.ogg",
+      "sha256": "7c6ba4977d7c2a2dca1c93cd1a87c723c36fa9868b167c23c31e83b1e2654cba",
+      "formally_adopted": true,
+      "game_integrated": true,
+      "scene_and_loop_approved": true,
+      "formal_record": "longform/formal_adoption.json"
     }
   ]
 }

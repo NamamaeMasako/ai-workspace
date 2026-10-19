@@ -2,9 +2,9 @@
   "date": "2026-10-19",
   "cue": "BGM14_SHADOW_WITCH",
   "label": "冷語之下",
-  "status": "selected for game audition; scene and loop confirmation pending",
+  "status": "formally_adopted",
   "user_instruction": "用第四版",
-  "formally_adopted": false,
+  "formally_adopted": true,
   "source": {
     "file": "long_01_natural_phrase_strings_hidden_care_seed4104.wav",
     "sha256": "f4bdb4447e1cca3bbfaa263fa946bb44c4e9ee12daa830e90fa61131cd3e31d2"
@@ -59,5 +59,7 @@
   "producer": {
     "file": "prepare_long_01_loop.py",
     "sha256": "2442e4c1b79e22ac80ff2b23d6aaf6e2be335cc348d392029e645603ea08d672"
-  }
+  },
+  "approval_date": "2026-10-19",
+  "user_scene_feedback": "OK"
 }

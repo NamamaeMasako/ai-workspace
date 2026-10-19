@@ -2,8 +2,8 @@
   "date": "2026-10-19",
   "cue": "BGM14_SHADOW_WITCH",
   "user_instruction": "用第四版",
-  "status": "selected_long_integrated_for_scene_audition",
-  "formally_adopted": false,
+  "status": "formally_adopted",
+  "formally_adopted": true,
   "source": "long_01_natural_phrase_strings_hidden_care_seed4104_loop_full_attack.ogg",
   "sha256": "7c6ba4977d7c2a2dca1c93cd1a87c723c36fa9868b167c23c31e83b1e2654cba",
   "game_file": "03_開發/JingZhe/game/audio/music/bgm_shadow_witch.ogg",
@@ -56,6 +56,10 @@
     "music_muted": false,
     "master_muted": false,
     "ambience": null,
-    "limitations": "Entrance playback and screen observed. Full scene, loop hearing, departure volume and BGM07 transition still require user listening; not declared fully manually accepted."
-  }
+    "limitations_at_capture": "Entrance playback and screen observed. Full scene, loop hearing, departure volume and BGM07 transition still require user listening; not declared fully manually accepted."
+  },
+  "user_scene_feedback": "OK",
+  "approval_date": "2026-10-19",
+  "formal_scene_approval": true,
+  "approval_basis": "User replied OK after the selected fourth long version, loop and current scene arrangement were deployed for listening. Records user approval, not independent assistant listening validation."
 }

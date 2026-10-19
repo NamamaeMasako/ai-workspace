@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-19",
+  "cue": "BGM14_SHADOW_WITCH",
+  "status": "formally_adopted",
+  "user_feedback": "OK",
+  "label": "冷語之下",
+  "version": "take01_candidate04_long01_loop_full_attack",
+  "selected_short": "candidate_04_strings_hidden_care_seed4104_take01.ogg",
+  "source_file": "long_01_natural_phrase_strings_hidden_care_seed4104_loop_full_attack.ogg",
+  "game_file": "03_開發/JingZhe/game/audio/music/bgm_shadow_witch.ogg",
+  "sha256": "7c6ba4977d7c2a2dca1c93cd1a87c723c36fa9868b167c23c31e83b1e2654cba",
+  "playback": {
+    "first_seconds": 60.25,
+    "loop_start_seconds": 1.0,
+    "repeat_period_seconds": 59.25,
+    "fadeout_previous_seconds": 1.0,
+    "fadein_seconds": 1.0,
+    "departure_channel_volume": 0.7,
+    "departure_fade_seconds": 1.5,
+    "inn_restore_channel_volume": 1.0,
+    "inn_transition_seconds": 1.5
+  },
+  "scene": "第八章影之魔女現身、救治驚蟄、卡片說明與催稿；離場後降低音量延續短暫林間重聚，回月下庄接 BGM07。",
+  "formal_scene_approval": true,
+  "approval_basis": "User replied OK after the selected fourth long version, loop and current scene arrangement were deployed for listening. Records user approval, not independent assistant listening validation.",
+  "integration_record": "game_integration_long01.json",
+  "release_rebuilt": false,
+  "version_changed": false
+}
