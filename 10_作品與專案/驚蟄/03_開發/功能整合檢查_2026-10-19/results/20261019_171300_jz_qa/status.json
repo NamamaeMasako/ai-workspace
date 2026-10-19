@@ -1,0 +1,10 @@
+{
+  "location": [
+    "game/script.rpy",
+    952
+  ],
+  "test_node": "Advance",
+  "test_line": 178,
+  "save_name": "第六章・先手",
+  "screens": []
+}

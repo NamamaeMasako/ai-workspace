@@ -1,0 +1,96 @@
+{
+  "runs": [
+    {
+      "directory": "20261019_171300_jz_qa",
+      "exit_code": 0,
+      "native_status": "PASSED",
+      "source_manifest_unchanged": true
+    },
+    {
+      "directory": "20261019_171028_jz_controls",
+      "exit_code": 0,
+      "native_status": "PASSED",
+      "source_manifest_unchanged": true
+    },
+    {
+      "directory": "20261019_171028_jz_render_assets",
+      "exit_code": 0,
+      "native_status": "PASSED",
+      "source_manifest_unchanged": true
+    },
+    {
+      "directory": "20261019_170904_jz_audio_decode",
+      "exit_code": 0,
+      "native_status": "PASSED",
+      "source_manifest_unchanged": true
+    },
+    {
+      "directory": "20261019_171310_jz_prefs_write",
+      "exit_code": 0,
+      "native_status": "PASSED",
+      "source_manifest_unchanged": true
+    },
+    {
+      "directory": "20261019_171320_jz_prefs_read",
+      "exit_code": 0,
+      "native_status": "PASSED",
+      "source_manifest_unchanged": true
+    },
+    {
+      "directory": "20261019_171330_jz_replay_early_exit",
+      "exit_code": 0,
+      "native_status": "PASSED",
+      "source_manifest_unchanged": true
+    },
+    {
+      "directory": "20261019_171424_lint",
+      "exit_code": 0,
+      "native_status": null,
+      "source_manifest_unchanged": true
+    }
+  ],
+  "cases_passed": 89,
+  "assertions_passed": 185,
+  "normal_labels": {
+    "start": 2,
+    "prologue": 2,
+    "chapter_1": 2,
+    "chapter_2": 2,
+    "chapter_3": 2,
+    "chapter_4": 2,
+    "chapter_5": 2,
+    "chapter_6": 3,
+    "chapter_7_choice_1": 3,
+    "chapter_7_hanami_1": 4,
+    "chapter_7_transition_second": 2,
+    "chapter_7_yumemi_2": 1,
+    "chapter_8_choice": 2,
+    "chapter_8_true_end": 2,
+    "end_game": 2,
+    "jz_ending_flow": 2,
+    "chapter_7_yumemi_1": 1,
+    "chapter_7_hanami_2": 1
+  },
+  "replay_labels": {
+    "prologue": 1,
+    "chapter_1": 2,
+    "chapter_2": 2,
+    "chapter_3": 2,
+    "chapter_4": 2,
+    "chapter_5": 2,
+    "chapter_6": 2,
+    "chapter_7_choice_1": 2,
+    "chapter_7_hanami_1": 1,
+    "chapter_7_transition_second": 1,
+    "chapter_7_yumemi_2": 1,
+    "chapter_8_choice": 2,
+    "chapter_8_true_end": 1,
+    "end_game": 1,
+    "jz_ending_flow": 1
+  },
+  "rendered_images": 98,
+  "loaded_audio_files": 70,
+  "player_saves_unchanged": true,
+  "missing_required_assets": [],
+  "all_passed": true
+}

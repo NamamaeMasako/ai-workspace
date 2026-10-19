@@ -1,0 +1,54 @@
+{
+  "images": {
+    "count": 224,
+    "empty": []
+  },
+  "audio": {
+    "count": 70,
+    "empty": []
+  },
+  "gui": {
+    "count": 84,
+    "empty": []
+  },
+  "literal_references": 169,
+  "missing": [
+    "gui/confirm_frame.png"
+  ],
+  "player_saves_before": {
+    "1-1-LT1.save": "36ebd2ad7bd179a9236113104dd245529b968989c13324836b7c44b3d9547d25",
+    "auto-1-LT1.save": "047c97a9887ba1a85748186b3a090dc74091dfdd2f13ad0dcf2b37bb31a8ed4a",
+    "auto-10-LT1.save": "8e1a4889202407af153d0dd8a56b2bbd8ce967fc0f52d75400d28b3340e09a54",
+    "auto-2-LT1.save": "03217bf87733f7d865a2bdbc3562dbe76a4e3e196765723842c5642f5b8dd3e8",
+    "auto-3-LT1.save": "480c7f6a9d4f8cefdf89f1968020480b43d8a69c6d2084b1285c345a791e6e9d",
+    "auto-4-LT1.save": "ed4efc612391135a4040b3e449209436f7a06a44f26735ecdf5cf9935b0d2ff8",
+    "auto-5-LT1.save": "a7d605ebe3af8fe3e4f21b50260bc6546a73ad6870ea7cc8323bf32f4c6aba09",
+    "auto-6-LT1.save": "bed8f95943b6f44b6dd1028c75b7acc4f30f6cd1dafe429d8e3bb736edd62970",
+    "auto-7-LT1.save": "f964f0eaa3697cacd2d76a0952b40980fe4ddd128fa4bae43353de49809953b7",
+    "auto-8-LT1.save": "c77b0420cdb98b914e6ccc13c0703df785e44c0f57e901d3dc3b7e382f1552a4",
+    "auto-9-LT1.save": "3189cca7d0ca14a358cea49f148fda1d05beba0b1177d3e815b227d8ffd3f84a",
+    "persistent": "e7cfa4d63acecb1f4364f8daafc07b32fa1cd50df0994ef4149abd9d8ada5118"
+  },
+  "fallback_references": [
+    {
+      "missing_optional": "gui/confirm_frame.png",
+      "available_fallback": "gui/frame.png"
+    }
+  ],
+  "missing_required": [],
+  "player_saves_after": {
+    "1-1-LT1.save": "36ebd2ad7bd179a9236113104dd245529b968989c13324836b7c44b3d9547d25",
+    "auto-1-LT1.save": "047c97a9887ba1a85748186b3a090dc74091dfdd2f13ad0dcf2b37bb31a8ed4a",
+    "auto-10-LT1.save": "8e1a4889202407af153d0dd8a56b2bbd8ce967fc0f52d75400d28b3340e09a54",
+    "auto-2-LT1.save": "03217bf87733f7d865a2bdbc3562dbe76a4e3e196765723842c5642f5b8dd3e8",
+    "auto-3-LT1.save": "480c7f6a9d4f8cefdf89f1968020480b43d8a69c6d2084b1285c345a791e6e9d",
+    "auto-4-LT1.save": "ed4efc612391135a4040b3e449209436f7a06a44f26735ecdf5cf9935b0d2ff8",
+    "auto-5-LT1.save": "a7d605ebe3af8fe3e4f21b50260bc6546a73ad6870ea7cc8323bf32f4c6aba09",
+    "auto-6-LT1.save": "bed8f95943b6f44b6dd1028c75b7acc4f30f6cd1dafe429d8e3bb736edd62970",
+    "auto-7-LT1.save": "f964f0eaa3697cacd2d76a0952b40980fe4ddd128fa4bae43353de49809953b7",
+    "auto-8-LT1.save": "c77b0420cdb98b914e6ccc13c0703df785e44c0f57e901d3dc3b7e382f1552a4",
+    "auto-9-LT1.save": "3189cca7d0ca14a358cea49f148fda1d05beba0b1177d3e815b227d8ffd3f84a",
+    "persistent": "e7cfa4d63acecb1f4364f8daafc07b32fa1cd50df0994ef4149abd9d8ada5118"
+  },
+  "player_saves_unchanged": true
+}

@@ -1,0 +1,12 @@
+{
+  "location": [
+    "renpy/common/_layout/screen_main_menu.rpym",
+    28
+  ],
+  "test_node": "Assert",
+  "test_line": 227,
+  "save_name": "",
+  "screens": [
+    "jz_chapter_replay"
+  ]
+}

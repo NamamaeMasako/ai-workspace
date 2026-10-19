@@ -1,0 +1,13 @@
+﻿Ren'Py 8.5.2.26010301 lint report, generated at: Mon Oct 19 17:14:26 2026
+
+
+Statistics:
+
+The game contains 1,023 dialogue blocks, containing 1,031 words and 13,363
+characters, for an average of 1.0 words and 13 characters per block.
+
+The game contains 2 menus, 93 images, and 22 screens.
+
+
+Lint is not a substitute for thorough testing. Remember to update Ren'Py
+before releasing. New releases fix bugs and improve compatibility.

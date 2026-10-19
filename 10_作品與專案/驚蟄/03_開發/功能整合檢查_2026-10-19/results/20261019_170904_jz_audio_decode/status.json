@@ -1,0 +1,12 @@
+{
+  "location": [
+    "renpy/common/_layout/screen_main_menu.rpym",
+    28
+  ],
+  "test_node": "Pause",
+  "test_line": 257,
+  "save_name": "",
+  "screens": [
+    "main_menu"
+  ]
+}

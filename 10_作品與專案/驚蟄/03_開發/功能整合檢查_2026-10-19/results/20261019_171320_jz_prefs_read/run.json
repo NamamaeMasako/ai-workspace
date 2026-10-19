@@ -1,0 +1,17 @@
+{
+  "exit_code": 0,
+  "native_status": "PASSED",
+  "runtime": "C:\\Users\\User\\AppData\\Local\\Temp\\jz_integrity_20261019_171028_5d0e97",
+  "suite": "jz_prefs_read",
+  "legacy_copies": [
+    {
+      "source_name": "auto-10-LT1.save",
+      "sha256": "8e1a4889202407af153d0dd8a56b2bbd8ce967fc0f52d75400d28b3340e09a54"
+    },
+    {
+      "source_name": "auto-9-LT1.save",
+      "sha256": "3189cca7d0ca14a358cea49f148fda1d05beba0b1177d3e815b227d8ffd3f84a"
+    }
+  ],
+  "source_manifest_unchanged": true
+}

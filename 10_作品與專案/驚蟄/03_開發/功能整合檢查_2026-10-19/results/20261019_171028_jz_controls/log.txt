@@ -1,0 +1,84 @@
+2026-10-19 09:10:30 UTC
+Windows-11-10.0.26300-SP0
+Ren'Py 8.5.2.26010301
+
+Early init took 32 ms
+Loading error handling took 21 ms
+Loading script took 965 ms
+Loading save slot metadata took 26 ms
+Loading persistent took 0 ms
+Running init code took 54 ms
+Loading analysis data took 0 ms
+Analyze and compile ATL took 5 ms
+Reloading save slot metadata took 2 ms
+Backing up script files to 'C:\\Users\\User\\AppData\\Roaming/RenPy/backups\\jz_integrity_20261019_171028_c864b8':
+Dump and make backups took 19 ms
+Cleaning cache took 0 ms
+Making clean stores took 1 ms
+Initial gc took 32 ms
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 159 ms
+Init translation took 1 ms
+Cleaning stores took 0 ms
+Load screen analysis took 1 ms
+Analyze screens took 15 ms
+Save screen analysis took 8 ms
+Save pyanalysis took 3 ms
+Save bytecode took 19 ms
+[rpytest] [log] Running 2 test(s) marked with 'only' flag.
+[rpytest] [log] - global::jz_controls
+[rpytest] [log] - global::jz_controls
+
+[rpytest] Starting test run
+[rpytest] Platform:      Windows-11-10.0.26300-SP0
+[rpytest] Python:        3.12.7
+[rpytest] Ren'Py:        Ren'Py 8.5.2.26010301
+[rpytest] Game Version:  0.1.2
+
+[rpytest] [exc] + global
+Running _start took 1 ms
+Interface start took 149 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce RTX 3080/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 610.88'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1920, 'current_h': 1080, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1280, 720) physical=(1280, 720) drawable=(1280, 720)
+Maximum texture size: 4096x4096
+Could not open 'cache/shaders.txt':
+controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
+[rpytest] [exc]   - jz_controls
+Requested resize to 1280x720, fullscreen=1, maximized=0
+Screen sizes: virtual=(1280, 720) physical=(1920, 1080) drawable=(1920, 1080)
+Maximum texture size: 4096x4096
+Resize event: <Event(65533-VIDEORESIZE h=1080, mod=0, size=(1920, 1080), w=1920)>
+Requested resize to 1280x720, fullscreen=0, maximized=0
+Screen sizes: virtual=(1280, 720) physical=(1280, 720) drawable=(1280, 720)
+Maximum texture size: 4096x4096
+Cleaning stores took 1 ms
+Load screen analysis took 21 ms
+Analyze screens took 0 ms
+Running _start took 2 ms
+[rpytest] [exc]   - jz_controls (25.872 s)
+
+[rpytest] Test outcomes (Detailed)
+[rpytest] PASSED  global               - (26.546 s)
+[rpytest]   PASSED  jz_controls          - (25.872 s)
+
+====================
+
+[rpytest] Test outcomes (Summary)
+[rpytest] Test suites:     2 |     1 passed |     0 xfailed |     0 failed |     0 xpassed |     1 skipped |     0 not run
+[rpytest] Test cases :    88 |     1 passed |     0 xfailed |     0 failed |     0 xpassed |    87 skipped |     0 not run
+[rpytest] Test hooks :     0 |     0 passed |     0 xfailed |     0 failed |     0 xpassed |     0 skipped |     0 not run
+[rpytest] Assertions :    12 |    12 passed |     0 xfailed |     0 failed |     0 xpassed | 
+
+[rpytest] Time: 26.546 s
+[rpytest] Status: PASSED 
+
