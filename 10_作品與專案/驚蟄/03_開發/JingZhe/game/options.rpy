@@ -14,6 +14,9 @@ define config.main_menu_music_fadein = 1.0
 
 default preferences.text_cps = 0
 default preferences.afm_time = 15
+default preferences.skip_unseen = False
+default preferences.skip_after_choices = False
+default preferences.transitions = 2
 
 define gui.about = _(
     "故事原案／企劃／監修：生前\n"

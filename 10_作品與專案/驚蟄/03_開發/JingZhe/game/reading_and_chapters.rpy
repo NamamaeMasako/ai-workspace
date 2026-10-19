@@ -26,6 +26,11 @@ init python:
         value = persistent.jz_textbox_opacity
         return min(1.0, max(0.2, float(1.0 if value is None else value)))
 
+    def jz_textbox_background():
+        # 正文與預覽共用底圖、對齊及透明度，避免預覽另有不透明墊底。
+        return Transform(Image("gui/textbox.png", xalign=0.5, yalign=1.0),
+                         alpha=jz_textbox_alpha())
+
     def jz_replay_unlocked():
         # 舊版已通關玩家可承接原結局標籤記錄，不需重新跑一遍。
         return bool(persistent.jz_completed or
@@ -181,20 +186,26 @@ screen jz_reading_preferences():
         text "閱讀效果預覽":
             size 24
             color "#DCC59D"
-        text "調整上方設定時，以下文字會立即更新。":
+        text "以下為縮小的場景示意；字級與透明度會同步更新。":
             size 19
             color gui.idle_small_color
         frame:
             xsize 780
             padding (2, 2)
-            background Solid("#76616E")
-            frame:
-                xfill True
-                padding (20, 18)
-                background Transform("gui/textbox.png", alpha=jz_textbox_alpha())
-                text "清晨的風很淡。":
-                    size jz_dialogue_size()
-                    color gui.text_color
+            background None
+            fixed:
+                xysize (776, 219)
+                fixed:
+                    xysize (1280, 360)
+                    at Transform(zoom=0.60625)
+                    # 保留場景下半部與原尺寸文字框，再一起等比例縮小。
+                    add Transform("bg inn_hall_morning", crop=(0, 360, 1280, 360))
+                    window:
+                        style "window"
+                        background jz_textbox_background()
+                        text "清晨的風很淡。":
+                            style "say_dialogue"
+                            size jz_dialogue_size()
 
         textbutton "恢復閱讀預設":
             action [SetField(persistent, "jz_reading_size", 34),

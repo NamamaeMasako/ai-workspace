@@ -69,7 +69,7 @@ style frame:
 screen say(who, what):
     window:
         id 'window'
-        background Transform(Image('gui/textbox.png', xalign=0.5, yalign=1.0), alpha=jz_textbox_alpha())
+        background jz_textbox_background()
 
         if who is not None:
             window:
