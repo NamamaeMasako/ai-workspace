@@ -40,6 +40,21 @@
       ],
       "integration": "scene_integration_take02.json",
       "formally_adopted": false
+    },
+    {
+      "date": "2026-10-19",
+      "stage": "take03_blades_and_impact_integrated",
+      "user_feedback": [
+        "金屬交錯聲像兩個鍋子在敲，不像刀刃",
+        "大百足撞擊應像兩個重物互撞，現在像小石頭互敲"
+      ],
+      "revised_assets": [
+        "battle_kamikiri_blades",
+        "battle_omukade_impact"
+      ],
+      "retained_heavy_steps": "take02",
+      "integration": "scene_integration_take03.json",
+      "formally_adopted": false
     }
   ]
 }

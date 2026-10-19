@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-19",
+  "cue": "SFX30_OMUKADE_IMPACT",
+  "name": "battle_omukade_impact",
+  "take": "take03",
+  "intention": "兩個重物互撞：厚實寬頻低沉壓力、短甲殼受力與震動尾勁，降低小石塊尖敲感。",
+  "method": "original procedural synthesis; no external recording, voice or model",
+  "seed": 6330,
+  "status": "integrated_scene_audition_pending",
+  "formally_adopted": false,
+  "duration_seconds": 0.88,
+  "sample_peak_target_dbfs": -15.5,
+  "decoded_peak_dbfs": -15.31611092020389,
+  "decoded_rms_dbfs": -29.640001586810353,
+  "source": "revise_blades_impact_take03.py",
+  "source_sha256": "5a3aa2bfc3222e26bd0c589bbe173a6bfc948f4337a1c0512e38ee1b97ade004",
+  "wav": {
+    "file": "battle_omukade_impact_take03.wav",
+    "sha256": "a80b81a8c7c93cf8944506b285f0d746843b4fa5d0130084754aac8bdc1fa92c",
+    "sample_rate": 48000,
+    "channels": 1,
+    "bits": 24
+  },
+  "ogg": {
+    "file": "battle_omukade_impact_take03.ogg",
+    "sha256": "2cb2dbe58d48ce28ece64aa6b4daefbee879f482bc4b1d4c7f661357bca72821",
+    "sample_rate": 44100,
+    "channels": 1
+  },
+  "previous_take": "take01",
+  "previous_ogg_sha256": "a9cb8df6a9f868112d14c7ebebfc4e3f3adeb91d0fa9f6675ec239d105bd7b9b",
+  "game_file": "03_開發/JingZhe/game/audio/sfx/battle/battle_omukade_impact.ogg"
+}

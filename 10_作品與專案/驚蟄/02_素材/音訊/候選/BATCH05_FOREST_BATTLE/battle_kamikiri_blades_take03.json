@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-19",
+  "cue": "SFX28_KAMIKIRI_BLADES",
+  "name": "battle_kamikiri_blades",
+  "take": "take03",
+  "intention": "去除低中頻鍋具般空腔共鳴，短硬刃口接觸為主，極短高頻金屬尾音；保留兩次交錯。",
+  "method": "original procedural synthesis; no external recording, voice or model",
+  "seed": 6328,
+  "status": "integrated_scene_audition_pending",
+  "formally_adopted": false,
+  "duration_seconds": 0.7,
+  "sample_peak_target_dbfs": -18.5,
+  "decoded_peak_dbfs": -17.20757658087407,
+  "decoded_rms_dbfs": -47.019138046543,
+  "source": "revise_blades_impact_take03.py",
+  "source_sha256": "5a3aa2bfc3222e26bd0c589bbe173a6bfc948f4337a1c0512e38ee1b97ade004",
+  "wav": {
+    "file": "battle_kamikiri_blades_take03.wav",
+    "sha256": "fa8bdac2c9cd0500449c45a5fcd19194fea2093b14519c456231a6fc29bfffec",
+    "sample_rate": 48000,
+    "channels": 1,
+    "bits": 24
+  },
+  "ogg": {
+    "file": "battle_kamikiri_blades_take03.ogg",
+    "sha256": "cbf3fe7b7e0530f93b5740c63394826a6c2159bcd3f348a28ee047b4ace517f4",
+    "sample_rate": 44100,
+    "channels": 1
+  },
+  "previous_take": "take02",
+  "previous_ogg_sha256": "25b448c7a9f890a6489201c8ae1913c2a9bfc48b3a18472db66da513d6afb20b",
+  "game_file": "03_開發/JingZhe/game/audio/sfx/battle/battle_kamikiri_blades.ogg"
+}

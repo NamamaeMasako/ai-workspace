@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-19",
+  "batch": "BATCH05_FOREST_BATTLE",
+  "user_feedback": [
+    "金屬交錯像兩個鍋子在敲，不像刀刃",
+    "大百足撞擊像小石頭互敲，應像兩個重物互撞"
+  ],
+  "candidates": [
+    {
+      "date": "2026-10-19",
+      "cue": "SFX28_KAMIKIRI_BLADES",
+      "name": "battle_kamikiri_blades",
+      "take": "take03",
+      "intention": "去除低中頻鍋具般空腔共鳴，短硬刃口接觸為主，極短高頻金屬尾音；保留兩次交錯。",
+      "method": "original procedural synthesis; no external recording, voice or model",
+      "seed": 6328,
+      "status": "integrated_scene_audition_pending",
+      "formally_adopted": false,
+      "duration_seconds": 0.7,
+      "sample_peak_target_dbfs": -18.5,
+      "decoded_peak_dbfs": -17.20757658087407,
+      "decoded_rms_dbfs": -47.019138046543,
+      "source": "revise_blades_impact_take03.py",
+      "source_sha256": "5a3aa2bfc3222e26bd0c589bbe173a6bfc948f4337a1c0512e38ee1b97ade004",
+      "wav": {
+        "file": "battle_kamikiri_blades_take03.wav",
+        "sha256": "fa8bdac2c9cd0500449c45a5fcd19194fea2093b14519c456231a6fc29bfffec",
+        "sample_rate": 48000,
+        "channels": 1,
+        "bits": 24
+      },
+      "ogg": {
+        "file": "battle_kamikiri_blades_take03.ogg",
+        "sha256": "cbf3fe7b7e0530f93b5740c63394826a6c2159bcd3f348a28ee047b4ace517f4",
+        "sample_rate": 44100,
+        "channels": 1
+      },
+      "previous_take": "take02",
+      "previous_ogg_sha256": "25b448c7a9f890a6489201c8ae1913c2a9bfc48b3a18472db66da513d6afb20b",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/battle/battle_kamikiri_blades.ogg"
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX30_OMUKADE_IMPACT",
+      "name": "battle_omukade_impact",
+      "take": "take03",
+      "intention": "兩個重物互撞：厚實寬頻低沉壓力、短甲殼受力與震動尾勁，降低小石塊尖敲感。",
+      "method": "original procedural synthesis; no external recording, voice or model",
+      "seed": 6330,
+      "status": "integrated_scene_audition_pending",
+      "formally_adopted": false,
+      "duration_seconds": 0.88,
+      "sample_peak_target_dbfs": -15.5,
+      "decoded_peak_dbfs": -15.31611092020389,
+      "decoded_rms_dbfs": -29.640001586810353,
+      "source": "revise_blades_impact_take03.py",
+      "source_sha256": "5a3aa2bfc3222e26bd0c589bbe173a6bfc948f4337a1c0512e38ee1b97ade004",
+      "wav": {
+        "file": "battle_omukade_impact_take03.wav",
+        "sha256": "a80b81a8c7c93cf8944506b285f0d746843b4fa5d0130084754aac8bdc1fa92c",
+        "sample_rate": 48000,
+        "channels": 1,
+        "bits": 24
+      },
+      "ogg": {
+        "file": "battle_omukade_impact_take03.ogg",
+        "sha256": "2cb2dbe58d48ce28ece64aa6b4daefbee879f482bc4b1d4c7f661357bca72821",
+        "sample_rate": 44100,
+        "channels": 1
+      },
+      "previous_take": "take01",
+      "previous_ogg_sha256": "a9cb8df6a9f868112d14c7ebebfc4e3f3adeb91d0fa9f6675ec239d105bd7b9b",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/battle/battle_omukade_impact.ogg"
+    }
+  ],
+  "script_sha256_before": "2b1b94227e497b13fa1f44250f58aa7d7621eb9619697209e418144d4676b464",
+  "script_sha256_after": "2b1b94227e497b13fa1f44250f58aa7d7621eb9619697209e418144d4676b464",
+  "game_text_or_trigger_changed": false,
+  "retained_heavy_steps": "battle_spider_steps_heavy_take02.ogg",
+  "review_entry": "script.rpy:1114",
+  "formally_adopted": false
+}
