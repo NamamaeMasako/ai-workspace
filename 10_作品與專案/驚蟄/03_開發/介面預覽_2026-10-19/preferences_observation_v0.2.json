@@ -1,0 +1,15 @@
+{
+  "timestamp": 1792397794.989826,
+  "basedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe",
+  "location": [
+    "renpy/common/_layout/screen_main_menu.rpym",
+    28
+  ],
+  "stage": "preferences",
+  "in_replay": false,
+  "replay_stop": null,
+  "replay_unlocked": true,
+  "reading_size": 26,
+  "opacity": 0.2,
+  "music": "audio/music/bgm_lantern_theme.ogg"
+}

@@ -395,22 +395,45 @@ screen preferences():
     use game_menu(_('設定'), scroll='viewport'):
         vbox:
             hbox:
-                box_wrap True
-                if renpy.variant('pc') or renpy.variant('web'):
-                    vbox:
-                        spacing 12
+                spacing 34
+                vbox:
+                    xsize 300
+                    spacing 10
+                    if renpy.variant('pc') or renpy.variant('web'):
                         vbox:
                             style_prefix 'radio'
                             label _('顯示模式')
                             textbutton _('視窗模式') action Preference('display', 'window')
                             textbutton _('全螢幕') action Preference('display', 'fullscreen')
+                    textbutton ("顯示轉場效果：" + ("開啟" if preferences.transitions else "關閉")):
+                        text_size 24
+                        padding (0, 6)
+                        action Preference('transitions', 'toggle')
+                    text "控制場景切換時的淡入淡出。":
+                        xsize 300
+                        size 18
+                        color gui.idle_small_color
                 vbox:
-                    style_prefix 'check'
-                    label _('快轉')
-                    textbutton _('未讀文本') action Preference('skip', 'toggle')
-                    textbutton _('選項後繼續') action Preference('after choices', 'toggle')
-                    textbutton _('轉場效果') action InvertSelected(Preference('transitions', 'toggle'))
-            null height (4 * gui.pref_spacing)
+                    xsize 450
+                    spacing 10
+                    label "快轉設定"
+                    textbutton ("允許快轉未讀文字：" + ("開啟" if preferences.skip_unseen else "關閉")):
+                        text_size 24
+                        padding (0, 6)
+                        action Preference('skip', 'toggle')
+                    text "開啟後，尚未讀過的文字也能快轉。":
+                        xsize 450
+                        size 18
+                        color gui.idle_small_color
+                    textbutton ("選擇後繼續快轉：" + ("開啟" if preferences.skip_after_choices else "關閉")):
+                        text_size 24
+                        padding (0, 6)
+                        action Preference('after choices', 'toggle')
+                    text "開啟後，選完選項會繼續原本的快轉。":
+                        xsize 450
+                        size 18
+                        color gui.idle_small_color
+            null height (2 * gui.pref_spacing)
             use jz_reading_preferences
             null height (3 * gui.pref_spacing)
             hbox:

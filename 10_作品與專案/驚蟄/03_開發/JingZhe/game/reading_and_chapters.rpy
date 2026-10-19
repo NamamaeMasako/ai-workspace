@@ -140,17 +140,25 @@ screen jz_reading_preferences():
             size 24
             color gui.text_color
         hbox:
-            style_prefix "radio"
-            spacing 22
-            textbutton "小":
-                action SetField(persistent, "jz_reading_size", 26)
-                selected jz_dialogue_size() == 26
-            textbutton "中":
-                action SetField(persistent, "jz_reading_size", 30)
-                selected jz_dialogue_size() == 30
-            textbutton "大（原始字級）":
-                action SetField(persistent, "jz_reading_size", 34)
-                selected jz_dialogue_size() == 34
+            spacing 18
+            for caption, value, width in (("小", 26, 122), ("中", 30, 122), ("大（原始字級）", 34, 280)):
+                $ chosen = jz_dialogue_size() == value
+                button:
+                    xsize width
+                    padding (2, 2)
+                    background Solid("#E6C48C" if chosen else "#554853")
+                    hover_background Solid("#F3D9AA")
+                    action SetField(persistent, "jz_reading_size", value)
+                    selected chosen
+                    frame:
+                        xfill True
+                        padding (16, 11)
+                        background Solid("#684551" if chosen else "#231D26")
+                        text caption:
+                            xalign 0.5
+                            size 26
+                            bold chosen
+                            color ("#FFF2CC" if chosen else "#C9C0C7")
 
         text "目前原始字級為最大值。":
             size 19
@@ -170,13 +178,23 @@ screen jz_reading_preferences():
             xsize 640
             value FieldValue(persistent, "jz_textbox_opacity", min=0.2, max=1.0, step=0.05)
 
+        text "閱讀效果預覽":
+            size 24
+            color "#DCC59D"
+        text "調整上方設定時，以下文字會立即更新。":
+            size 19
+            color gui.idle_small_color
         frame:
             xsize 780
-            padding (20, 18)
-            background Transform("gui/textbox.png", alpha=jz_textbox_alpha())
-            text "清晨的風很淡。":
-                size jz_dialogue_size()
-                color gui.text_color
+            padding (2, 2)
+            background Solid("#76616E")
+            frame:
+                xfill True
+                padding (20, 18)
+                background Transform("gui/textbox.png", alpha=jz_textbox_alpha())
+                text "清晨的風很淡。":
+                    size jz_dialogue_size()
+                    color gui.text_color
 
         textbutton "恢復閱讀預設":
             action [SetField(persistent, "jz_reading_size", 34),
