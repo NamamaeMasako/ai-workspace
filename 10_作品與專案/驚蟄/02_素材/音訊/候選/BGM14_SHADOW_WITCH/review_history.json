@@ -1,6 +1,6 @@
 {
   "cue": "BGM14_SHADOW_WITCH",
-  "status": "awaiting_user_long_comparison",
+  "status": "awaiting_user_scene_and_loop_confirmation",
   "reviews": [
     {
       "date": "2026-10-17",
@@ -216,6 +216,18 @@
       ],
       "formally_adopted": false,
       "game_integrated": false
+    },
+    {
+      "date": "2026-10-19",
+      "stage": "long01_candidate04_selected_and_integrated",
+      "user_instruction": "用第四版",
+      "selected_file": "longform/long_01_natural_phrase_strings_hidden_care_seed4104.ogg",
+      "loop_file": "longform/long_01_natural_phrase_strings_hidden_care_seed4104_loop_full_attack.ogg",
+      "game_sha256": "7c6ba4977d7c2a2dca1c93cd1a87c723c36fa9868b167c23c31e83b1e2654cba",
+      "status": "awaiting_user_scene_and_loop_confirmation",
+      "formally_adopted": false,
+      "game_integrated": true,
+      "integration_record": "longform/game_integration_long01.json"
     }
   ]
 }

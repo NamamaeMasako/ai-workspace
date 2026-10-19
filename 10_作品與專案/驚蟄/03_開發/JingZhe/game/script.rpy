@@ -2528,7 +2528,8 @@ label chapter_8_true_end:
 
     jingzhe "……"
 
-    stop music fadeout 1.0
+    $ renpy.music.set_volume(1.0, channel="music")
+    play music "<loop 1.0>audio/music/bgm_shadow_witch.ogg" loop fadeout 1.0 fadein 1.0
 
     narrator "下一瞬，夜色被撕開一條縫。"
 
@@ -2623,6 +2624,8 @@ label chapter_8_true_end:
 
     narrator "她消失得像沒來過。"
 
+    $ renpy.music.set_volume(0.7, delay=1.5, channel="music")
+
     scene bg forest_clearing_night
     with dissolve
 
@@ -2648,6 +2651,7 @@ label chapter_8_true_end:
 
     narrator "像把整個三月都放下。"
 
+    $ renpy.music.set_volume(1.0, delay=1.5, channel="music")
     play music "<loop 3.0>audio/music/bgm_dawn_together.ogg" loop fadeout 1.5 fadein 1.5
 
     scene bg inn_hall_night

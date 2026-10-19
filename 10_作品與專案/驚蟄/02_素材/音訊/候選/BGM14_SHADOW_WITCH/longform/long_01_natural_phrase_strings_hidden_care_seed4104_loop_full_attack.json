@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-19",
+  "cue": "BGM14_SHADOW_WITCH",
+  "label": "冷語之下",
+  "status": "selected for game audition; scene and loop confirmation pending",
+  "user_instruction": "用第四版",
+  "formally_adopted": false,
+  "source": {
+    "file": "long_01_natural_phrase_strings_hidden_care_seed4104.wav",
+    "sha256": "f4bdb4447e1cca3bbfaa263fa946bb44c4e9ee12daa830e90fa61131cd3e31d2"
+  },
+  "processing": {
+    "new_generation": false,
+    "uniform_gain_db": 0,
+    "unchanged_opening_seconds": 59.25,
+    "tail_overlap_seconds": 1,
+    "incoming_attack_gain": 1,
+    "outgoing_tail_curve": "smoothstep fade",
+    "duration_seconds": 60.25,
+    "renpy_loop_start_seconds": 1.0,
+    "repeat_period_seconds": 59.25,
+    "unchanged_opening_pcm_max_error": 0.0,
+    "boundary_matches_original_opening_transition": true,
+    "outgoing_last_second_rms_dbfs": -40.8692476092005,
+    "basis": "Overlay the full first second onto the approved low tail; resume at 1s. No measured beat alignment or human listening approval is claimed."
+  },
+  "wav": {
+    "file": "long_01_natural_phrase_strings_hidden_care_seed4104_loop_full_attack.wav",
+    "sha256": "66a163dd2a14e409414703a10adc727f874fa112d8f1b4c448c2409f896ffc11"
+  },
+  "ogg": {
+    "file": "long_01_natural_phrase_strings_hidden_care_seed4104_loop_full_attack.ogg",
+    "sha256": "7c6ba4977d7c2a2dca1c93cd1a87c723c36fa9868b167c23c31e83b1e2654cba",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "60.250000"
+      }
+    }
+  },
+  "technical_measurements": {
+    "integrated_lufs": "-29.66",
+    "true_peak_dbtp": "-15.58",
+    "quiet_events": [
+      "silence_start: 24.500998",
+      "silence_end: 25.012676 | silence_duration: 0.511678",
+      "silence_start: 48.224059",
+      "silence_end: 48.744739 | silence_duration: 0.52068"
+    ]
+  },
+  "producer": {
+    "file": "prepare_long_01_loop.py",
+    "sha256": "2442e4c1b79e22ac80ff2b23d6aaf6e2be335cc348d392029e645603ea08d672"
+  }
+}

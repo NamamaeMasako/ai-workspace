@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-19",
+  "cue": "BGM14_SHADOW_WITCH",
+  "user_instruction": "用第四版",
+  "status": "selected_long_integrated_for_scene_audition",
+  "formally_adopted": false,
+  "source": "long_01_natural_phrase_strings_hidden_care_seed4104_loop_full_attack.ogg",
+  "sha256": "7c6ba4977d7c2a2dca1c93cd1a87c723c36fa9868b167c23c31e83b1e2654cba",
+  "game_file": "03_開發/JingZhe/game/audio/music/bgm_shadow_witch.ogg",
+  "matches_source": true,
+  "processing": {
+    "new_generation": false,
+    "uniform_gain_db": 0,
+    "unchanged_opening_seconds": 59.25,
+    "tail_overlap_seconds": 1,
+    "incoming_attack_gain": 1,
+    "outgoing_tail_curve": "smoothstep fade",
+    "duration_seconds": 60.25,
+    "renpy_loop_start_seconds": 1.0,
+    "repeat_period_seconds": 59.25,
+    "unchanged_opening_pcm_max_error": 0.0,
+    "boundary_matches_original_opening_transition": true,
+    "outgoing_last_second_rms_dbfs": -40.8692476092005,
+    "basis": "Overlay the full first second onto the approved low tail; resume at 1s. No measured beat alignment or human listening approval is claimed."
+  },
+  "technical_measurements": {
+    "integrated_lufs": "-29.66",
+    "true_peak_dbtp": "-15.58",
+    "quiet_events": [
+      "silence_start: 24.500998",
+      "silence_end: 25.012676 | silence_duration: 0.511678",
+      "silence_start: 48.224059",
+      "silence_end: 48.744739 | silence_duration: 0.52068"
+    ]
+  },
+  "script_changes": {
+    "entrance": "下一瞬，夜色被撕開一條縫。",
+    "entry_fadeout_seconds": 1,
+    "entry_fadein_seconds": 1,
+    "loop_start_seconds": 1,
+    "departure": "她消失得像沒來過。",
+    "departure_channel_volume": 0.7,
+    "departure_volume_fade_seconds": 1.5,
+    "forest_reunion": "continue same cue at reduced volume",
+    "inn": "restore channel volume 1.0 with 1.5s delay; existing BGM07 fadeout/fadein 1.5s",
+    "user_volume_preferences_changed": false
+  },
+  "runtime": {
+    "process_id": 44652,
+    "development_basedir": true,
+    "initial_warp_line": 2534,
+    "observation": "runtime_observation_long01_loop.json",
+    "screenshot": "runtime_scene_long01_loop.png",
+    "playing_observed": "<loop 1.0>audio/music/bgm_shadow_witch.ogg",
+    "position_observed": 54.528,
+    "music_muted": false,
+    "master_muted": false,
+    "ambience": null,
+    "limitations": "Entrance playback and screen observed. Full scene, loop hearing, departure volume and BGM07 transition still require user listening; not declared fully manually accepted."
+  }
+}
