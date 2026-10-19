@@ -36,6 +36,7 @@ label start:
     jump prologue
 
 label prologue:
+    call jz_chapter_gate("prologue")
     stop ambience fadeout 0.5
     play music "<loop 3.0>audio/music/bgm_road_to_moon_inn.ogg" loop fadeout 1.5 fadein 1.5
     scene bg road_twilight
@@ -98,6 +99,7 @@ label prologue:
 
     jump chapter_1
 label chapter_1:
+    call jz_chapter_gate("chapter_1")
     play music "audio/music/bgm_moon_inn_day.ogg" fadeout 1.5 fadein 1.5
 
     scene bg inn_room_morning
@@ -275,6 +277,7 @@ label chapter_1:
 
     jump chapter_2
 label chapter_2:
+    call jz_chapter_gate("chapter_2")
     stop ambience fadeout 1.5
     scene bg inn_room_night
     with dissolve
@@ -409,6 +412,7 @@ label chapter_2:
 
     jump chapter_3
 label chapter_3:
+    call jz_chapter_gate("chapter_3")
     stop sound fadeout 0.15
     play music "audio/music/bgm_black_card_memory.ogg" loop fadeout 1.5 fadein 1.5
 
@@ -525,6 +529,7 @@ label chapter_3:
 
     jump chapter_4
 label chapter_4:
+    call jz_chapter_gate("chapter_4")
     stop sound fadeout 0.15
     play music "audio/music/bgm_moon_inn_night.ogg" loop fadeout 1.5 fadein 1.5
 
@@ -636,6 +641,7 @@ label chapter_4:
 
     jump chapter_5
 label chapter_5:
+    call jz_chapter_gate("chapter_5")
     scene bg inn_hall_evening
     with dissolve
 
@@ -938,6 +944,7 @@ label chapter_5:
 
     jump chapter_6
 label chapter_6:
+    call jz_chapter_gate("chapter_6")
     play music "audio/music/bgm_moon_inn_day.ogg" loop fadeout 1.5 fadein 1.5
 
     scene bg inn_backyard
@@ -1085,6 +1092,7 @@ label chapter_6:
 
     jump chapter_7_choice_1
 label chapter_7_choice_1:
+    call jz_chapter_gate("chapter_7")
     if renpy.music.get_playing(channel="music") != "<loop 3.75>audio/music/bgm_silk_under_door.ogg":
         play music "<loop 3.75>audio/music/bgm_silk_under_door.ogg" loop fadeout 1.5 fadein 1.5
 
@@ -2217,6 +2225,7 @@ label chapter_7_yumemi_2:
 
     jump chapter_8_choice
 label chapter_8_choice:
+    call jz_chapter_gate("chapter_8")
     stop music
 
     scene bg inn_hall_evening

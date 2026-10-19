@@ -69,13 +69,14 @@ style frame:
 screen say(who, what):
     window:
         id 'window'
+        background Transform(Image('gui/textbox.png', xalign=0.5, yalign=1.0), alpha=jz_textbox_alpha())
 
         if who is not None:
             window:
                 style 'namebox'
                 text who id 'who'
 
-        text what id 'what'
+        text what id 'what' size jz_dialogue_size()
 
     if not renpy.variant('small'):
         add SideImage() xalign 0.0 yalign 1.0
@@ -174,6 +175,9 @@ screen navigation():
         spacing gui.navigation_spacing
         if main_menu:
             textbutton _('開始遊戲') action Start()
+            textbutton _('章節回看'):
+                action ShowMenu('jz_chapter_replay')
+                sensitive jz_replay_unlocked()
         else:
             textbutton _('歷史紀錄') action ShowMenu('history')
             textbutton _('存檔') action ShowMenu('save')
@@ -407,6 +411,8 @@ screen preferences():
                     textbutton _('選項後繼續') action Preference('after choices', 'toggle')
                     textbutton _('轉場效果') action InvertSelected(Preference('transitions', 'toggle'))
             null height (4 * gui.pref_spacing)
+            use jz_reading_preferences
+            null height (3 * gui.pref_spacing)
             hbox:
                 style_prefix 'slider'
                 box_wrap True
@@ -443,6 +449,7 @@ screen history():
                 $ what = renpy.filter_text_tags(h.what, allow=gui.history_allow_tags)
                 text what:
                     substitute False
+                    size jz_dialogue_size()
         if not _history_list:
             label _('目前沒有歷史紀錄。')
 

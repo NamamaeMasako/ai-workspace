@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-19",
+  "status": "implemented_pending_user_review",
+  "process_id": 43776,
+  "observations": {
+    "main_menu": {
+      "timestamp": 1792396668.491259,
+      "basedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe",
+      "location": [
+        "renpy/common/_layout/screen_main_menu.rpym",
+        28
+      ],
+      "stage": "main_menu",
+      "in_replay": false,
+      "replay_stop": null,
+      "replay_unlocked": true,
+      "reading_size": 34,
+      "opacity": 1.0,
+      "music": "audio/music/bgm_lantern_theme.ogg"
+    }
+  },
+  "tests_run": false,
+  "release_rebuilt": false,
+  "version_changed": false
+}

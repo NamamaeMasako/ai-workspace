@@ -102,7 +102,7 @@ screen jz_ending_complete():
             color "#EADBC1"
             outlines [(2, "#201812", 0, 1)]
 
-    textbutton "返回主選單":
+    textbutton ("返回章節回看" if _in_replay else "返回主選單"):
         xpos 72
         ypos 602
         padding (20, 12)
@@ -125,10 +125,14 @@ label jz_ending_flow:
 
     scene cg ending_dawn_companions
     with Dissolve(1.5)
+    if not _in_replay:
+        $ persistent.jz_completed = True
+        $ renpy.save_persistent()
     call screen jz_ending_complete
 
     stop music fadeout 1.5
     scene black
     with Dissolve(1.0)
     $ quick_menu = _jz_ending_previous_quick_menu
+    $ renpy.end_replay()
     return
