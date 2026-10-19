@@ -18,6 +18,14 @@
       "formally_adopted": false,
       "integration": "scene_integration_take01.json",
       "review_menu": "scene_review_take01.rpy"
+    },
+    {
+      "date": "2026-10-19",
+      "stage": "temporary_menu_withdrawn_actual_scene_opened",
+      "user_feedback": "怎麼會有試聽介面",
+      "action": "停用助理自行增加的臨時選單，直接開實際開發版第一輪花見交卡場景，沿原流程檢查。",
+      "script_entry": "script.rpy:1114",
+      "formally_adopted": false
     }
   ]
 }

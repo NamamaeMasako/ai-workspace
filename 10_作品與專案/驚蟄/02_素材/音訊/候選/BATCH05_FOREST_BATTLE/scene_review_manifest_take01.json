@@ -40,5 +40,8 @@
       "source_dialogue_and_audio_unchanged": true
     }
   ],
-  "producer": "prepare_scene_review_take01.py"
+  "producer": "prepare_scene_review_take01.py",
+  "status": "withdrawn_not_loaded",
+  "withdrawn_date": "2026-10-19",
+  "reason": "生前指出額外試聽介面；改回直接開實際遊戲場景。"
 }

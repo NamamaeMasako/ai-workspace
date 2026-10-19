@@ -724,6 +724,30 @@
     ]
   },
   "review_mode": {
+    "method": "直接開實際開發版對應劇情，沿原流程連續確認",
+    "script_entry": "script.rpy:1114",
+    "route": "chapter_7_hanami_1",
+    "stop_at": "另一邊，月下庄靜得像沒有住人。",
+    "process_id": 27668
+  },
+  "placement_decisions": [
+    "Card handoff is hand to hand, so use existing paper/cloth handling, not the wood-table card slide.",
+    "Naginata armor hit only where the text describes cutting shell; the other branch has swing only.",
+    "Combined attacks use a single sound queue; no forced reading pause.",
+    "Descriptive character introductions do not repeat actual impact sounds before the attack occurs.",
+    "Tsuchigumo battle steps use a new heavy variation; quiet doorway spider asset stays unchanged.",
+    "Human body-fall, tear-card, inn assault and return are left for batches 06 and 07."
+  ],
+  "scene": {
+    "bgm": "existing BGM05 and BGM06 play commands unchanged",
+    "ambience": "retired; none added",
+    "forced_reading_pause_added": false,
+    "text_or_story_changed": false,
+    "review_only": "External temporary after_warp menu, battle prefixes copied from main script; no review menu in game source or release."
+  },
+  "release_rebuilt": false,
+  "version_changed": false,
+  "withdrawn_review_mode": {
     "date": "2026-10-19",
     "batch": "BATCH05_FOREST_BATTLE",
     "method": "Temporary after_warp route menu; actual integrated battle prefixes copied without changing dialogue or audio commands.",
@@ -765,24 +789,10 @@
         "source_dialogue_and_audio_unchanged": true
       }
     ],
-    "producer": "prepare_scene_review_take01.py"
+    "producer": "prepare_scene_review_take01.py",
+    "status": "withdrawn_not_loaded"
   },
-  "placement_decisions": [
-    "Card handoff is hand to hand, so use existing paper/cloth handling, not the wood-table card slide.",
-    "Naginata armor hit only where the text describes cutting shell; the other branch has swing only.",
-    "Combined attacks use a single sound queue; no forced reading pause.",
-    "Descriptive character introductions do not repeat actual impact sounds before the attack occurs.",
-    "Tsuchigumo battle steps use a new heavy variation; quiet doorway spider asset stays unchanged.",
-    "Human body-fall, tear-card, inn assault and return are left for batches 06 and 07."
-  ],
-  "scene": {
-    "bgm": "existing BGM05 and BGM06 play commands unchanged",
-    "ambience": "retired; none added",
-    "forced_reading_pause_added": false,
-    "text_or_story_changed": false,
-    "review_only": "External temporary after_warp menu, battle prefixes copied from main script; no review menu in game source or release."
-  },
-  "runtime": {
+  "historical_menu_runtime": {
     "process_id": 38268,
     "development_basedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe",
     "menu_screenshot": "runtime_scene_take01.png",
@@ -798,6 +808,14 @@
     "all_new_game_assets_loaded_with_expected_hashes": true,
     "limitations": "Menu displayed and game file hashes observed. Actual four-route timing, character sound and BGM balance await user listening; not independent assistant hearing validation."
   },
-  "release_rebuilt": false,
-  "version_changed": false
+  "runtime": {
+    "observation": "runtime_observation_actual_take01.json",
+    "screenshot": "runtime_scene_actual_take01.png",
+    "location": [
+      "game/script.rpy",
+      1114
+    ],
+    "music": "<loop 3.75>audio/music/bgm_silk_under_door.ogg",
+    "process_id": 27668
+  }
 }
