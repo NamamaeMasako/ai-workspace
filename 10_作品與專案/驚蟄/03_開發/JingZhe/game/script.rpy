@@ -2898,11 +2898,5 @@ label chapter_8_true_end:
 
     jump end_game
 label end_game:
-    stop sound fadeout 0.2
-    stop music fadeout 1.5
-
-    scene black
-    with fade
-
-    return
+    jump jz_ending_flow
 

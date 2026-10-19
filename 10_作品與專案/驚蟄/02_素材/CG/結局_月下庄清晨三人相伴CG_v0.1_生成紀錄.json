@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-19",
+  "id": "CG-END-01",
+  "status": "candidate_integrated_pending_user_review",
+  "tool": "image_gen__imagegen (built-in)",
+  "prompt": "Create ONE new ending CG for the existing Japanese anime fantasy visual novel 驚蟄, wide landscape 16:9, ideally 1920x1080. This is a new narrative illustration, not a collage of the input sprites.\nInput images are REFERENCE ONLY: 1 is Jingzhe identity and costume, 2 Hanami identity and costume, 3 Yumemi identity and costume, 4 the established Moon Inn morning interior and environmental visual style. Preserve all three adult identities closely and maintain polished Japanese anime visual novel painting and clean illustrated faces.\nScene: the quiet early morning after surviving a terrible night. Inside the SAME traditional timber inn reception hall shown in reference 4, warm soft daylight through shoji, restrained warmth and relief, some fatigue still present. Only the THREE referenced adult humans. Jingzhe, a slim tired man about 30, messy black hair with low thin ponytail, narrow weary eyes and visible dark circles, thin black glasses, dark charcoal yukata with subdued locust motifs and muted purple obi, sits calmly on a wooden bench near the right side of the hall, mildly tired but alive, clothing properly worn and covering any recent injury, no blood. Hanami, adult 25, pink bob haircut with sakura clip, amber eyes, pink kimono and burgundy working apron/obi, stands close beside him with a small relieved, grounded smile, not a huge cheerful grin. Yumemi, adult 25, long straight pale violet hair with bangs, violet eyes and small violet flower ornament and dangling earrings, pale lavender kimono and deep purple work apron/obi, stands on the other side close by, tender and quiet. They are at ease together, subtly turned toward each other, no dramatic embrace, no romance pose, no new plot event. All hands anatomically natural. Jingzhe has NO pipe in hand. A single slender East Asian kiseru may rest on a nearby small wooden table, unlit, never a western pipe. No black card, it has already been taken away. No weapons, monsters, magic or extra people.\nComposition: three adults grouped in the RIGHT 55-60 percent, medium-wide full seated/standing figure composition, faces clear and legible, no foreground heads covering them. Leave LEFT 30-35 percent as beautifully painted calm dark timber and softly lit hall atmosphere with low detail, suitable for later game-engine title overlay, but paint NO text anywhere. Maintain established crescent-moon reception counter motif, beams, shoji and warm wooden floor. Gentle light catches the characters, the left area remains darker and calm. No interface, logos, letters, watermarks, borders, collage, character sheet or typography. Finished cohesive new CG suitable for a full screen ending illustration.",
+  "reference_roles": [
+    {
+      "role": "Jingzhe identity and costume",
+      "path": "03_開發/JingZhe/game/images/characters/jingzhe_softened_3q_full_no_kiseru.png"
+    },
+    {
+      "role": "Hanami identity and costume",
+      "path": "03_開發/JingZhe/game/images/characters/thigh/hanami_bright_3q_full_unarmed.png"
+    },
+    {
+      "role": "Yumemi identity and costume",
+      "path": "03_開發/JingZhe/game/images/characters/thigh/yumemi_gentle_3q_full_unarmed.png"
+    },
+    {
+      "role": "Established morning inn interior",
+      "path": "03_開發/JingZhe/game/images/backgrounds/inn_hall_morning.png"
+    }
+  ],
+  "source": "02_素材/CG/結局_月下庄清晨三人相伴CG_v0.1.png",
+  "game_file": "03_開發/JingZhe/game/images/cg/ending_dawn_companions.png",
+  "sha256": "26ab328e33560f982d00a8815fea4694425941319709e193c0b922ebafc20fbd",
+  "text_overlay": "Runtime UI: 驚蟄 / — 完 — / 感謝遊玩",
+  "replaces_story_cg": false,
+  "note": "原清晨故事末句保留；新CG只用於黑底製作名單後的完成畫面，非重製既有大廳三人劇情收束。"
+}

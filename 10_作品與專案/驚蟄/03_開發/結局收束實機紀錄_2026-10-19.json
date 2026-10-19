@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-19",
+  "status": "implemented_pending_user_approval",
+  "process_id": 28244,
+  "launch": "development basedir; --warp script.rpy:2897; no custom review menu",
+  "observations": {
+    "credits": {
+      "observation": {
+        "timestamp": 1792388624.885693,
+        "basedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe",
+        "gamedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe\\game",
+        "location": [
+          "game/ending_flow.rpy",
+          131
+        ],
+        "music": "<loop 3.0>audio/music/bgm_dawn_together.ogg",
+        "music_position": 27.562,
+        "credits": true,
+        "ending": false
+      },
+      "screenshot": "02_素材/CG/測試/結局收束_製作名單_實機_v0.1.png"
+    },
+    "ending": {
+      "observation": {
+        "timestamp": 1792388648.7782872,
+        "basedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe",
+        "gamedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe\\game",
+        "location": [
+          "game/ending_flow.rpy",
+          135
+        ],
+        "music": "<loop 3.0>audio/music/bgm_dawn_together.ogg",
+        "music_position": 51.456,
+        "credits": false,
+        "ending": true
+      },
+      "screenshot": "02_素材/CG/測試/結局收束_完成畫面_實機_v0.1.png"
+    }
+  },
+  "script_change": "Only end_game body now jumps to jz_ending_flow; all prior story text and commands preserved.",
+  "image_source": "02_素材/CG/結局_月下庄清晨三人相伴CG_v0.1.png",
+  "image_sha256": "26ab328e33560f982d00a8815fea4694425941319709e193c0b922ebafc20fbd",
+  "music": "Existing BGM07 continues through credits and ending screen, fades on Return to main menu",
+  "tests_run": false,
+  "release_rebuilt": false,
+  "version_changed": false
+}
