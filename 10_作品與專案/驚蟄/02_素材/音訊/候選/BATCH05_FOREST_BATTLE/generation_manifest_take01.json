@@ -1,0 +1,437 @@
+{
+  "date": "2026-10-19",
+  "batch": "BATCH05_FOREST_BATTLE",
+  "primary_cues": 9,
+  "files": 11,
+  "candidates": [
+    {
+      "date": "2026-10-19",
+      "cue": "SFX05_FOOTSTEP_WET",
+      "label": "林道短段濕葉泥地行走，非循環雨聲",
+      "name": "world_footstep_wet",
+      "seed": 6005,
+      "status": "batch05 complete scene audition pending",
+      "formally_adopted": false,
+      "method": "original procedural short foley; no recording, external library, voice or model",
+      "duration_seconds": 1.62,
+      "loop": false,
+      "target_sample_peak_dbfs": -22,
+      "editable_source": "produce_batch05_take01.py",
+      "editable_source_sha256": "535d8818fb5c4861d42c450503d62410e47235b1c8b23b4f312abe5ec2fe01f0",
+      "wav": {
+        "file": "world_footstep_wet_take01.wav",
+        "sha256": "ae1b2dc7ba14f1bc564c6bdcaf988c5e5a1a263b9e110751f702cabe16cab348"
+      },
+      "ogg": {
+        "file": "world_footstep_wet_take01.ogg",
+        "sha256": "0cbbe3ceb52a6604fcdb21ee49e6988319ee96de81b69ae198a79081bb2d2031",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "1.620000"
+          }
+        },
+        "decoded_sample_peak_dbfs": -22.131787969946103,
+        "decoded_rms_dbfs": -39.06560103057565
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX21_INSECT_SUMMON",
+      "label": "式神召喚的短促暗色匯聚與離散蟲翼，無人聲或音樂",
+      "name": "magic_insect_summon",
+      "seed": 6021,
+      "status": "batch05 complete scene audition pending",
+      "formally_adopted": false,
+      "method": "original procedural short foley; no recording, external library, voice or model",
+      "duration_seconds": 1.72,
+      "loop": false,
+      "target_sample_peak_dbfs": -20.5,
+      "editable_source": "produce_batch05_take01.py",
+      "editable_source_sha256": "535d8818fb5c4861d42c450503d62410e47235b1c8b23b4f312abe5ec2fe01f0",
+      "wav": {
+        "file": "magic_insect_summon_take01.wav",
+        "sha256": "1147e7acf4cfe62878962de01dea6ef15e23dced392a3e25046d57facd2bbb47"
+      },
+      "ogg": {
+        "file": "magic_insect_summon_take01.ogg",
+        "sha256": "14f8ebd48874d9231a286447ae56ea5f9accacfcd82a1441fa47afda76d06b26",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "1.720000"
+          }
+        },
+        "decoded_sample_peak_dbfs": -20.82978138625789,
+        "decoded_rms_dbfs": -33.06516129635007
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX23_SILK_CUT",
+      "label": "細絲繃緊後切斷的短裂聲，非血肉音",
+      "name": "battle_silk_cut",
+      "seed": 6023,
+      "status": "batch05 complete scene audition pending",
+      "formally_adopted": false,
+      "method": "original procedural short foley; no recording, external library, voice or model",
+      "duration_seconds": 0.48,
+      "loop": false,
+      "target_sample_peak_dbfs": -21,
+      "editable_source": "produce_batch05_take01.py",
+      "editable_source_sha256": "535d8818fb5c4861d42c450503d62410e47235b1c8b23b4f312abe5ec2fe01f0",
+      "wav": {
+        "file": "battle_silk_cut_take01.wav",
+        "sha256": "65790b6460ada8af2f3ecf11494cab9266fd1195dd45a6c2d6dad1afbd195560"
+      },
+      "ogg": {
+        "file": "battle_silk_cut_take01.ogg",
+        "sha256": "c6aea7ca302586813719c110f2dacbe08e0f7daa568e32ef8288c182e28ac8c9",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "0.480000"
+          }
+        },
+        "decoded_sample_peak_dbfs": -20.98779071082923,
+        "decoded_rms_dbfs": -40.394142035505226
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX25_TSUCHIGUMO_HISS",
+      "label": "土蜘蛛短嘶聲，以氣流與甲殼顫動合成，不使用人聲",
+      "name": "battle_tsuchigumo_hiss",
+      "seed": 6025,
+      "status": "batch05 complete scene audition pending",
+      "formally_adopted": false,
+      "method": "original procedural short foley; no recording, external library, voice or model",
+      "duration_seconds": 0.86,
+      "loop": false,
+      "target_sample_peak_dbfs": -23,
+      "editable_source": "produce_batch05_take01.py",
+      "editable_source_sha256": "535d8818fb5c4861d42c450503d62410e47235b1c8b23b4f312abe5ec2fe01f0",
+      "wav": {
+        "file": "battle_tsuchigumo_hiss_take01.wav",
+        "sha256": "5114683e3582e0b0cb193cc8d32e193f903cfb9f07c0b91c28b8e6ceaf4db74b"
+      },
+      "ogg": {
+        "file": "battle_tsuchigumo_hiss_take01.ogg",
+        "sha256": "d0555cd78f66a4440d13ce7512edac81380f0e80df3c6af506630424a3b83492",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "0.860000"
+          }
+        },
+        "decoded_sample_peak_dbfs": -23.17556777517789,
+        "decoded_rms_dbfs": -39.56781089099554
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX26_NAGINATA_WHOOSH",
+      "label": "薙刀長刃揮過的短氣流",
+      "name": "battle_naginata_whoosh",
+      "seed": 6026,
+      "status": "batch05 complete scene audition pending",
+      "formally_adopted": false,
+      "method": "original procedural short foley; no recording, external library, voice or model",
+      "duration_seconds": 0.5,
+      "loop": false,
+      "target_sample_peak_dbfs": -20,
+      "editable_source": "produce_batch05_take01.py",
+      "editable_source_sha256": "535d8818fb5c4861d42c450503d62410e47235b1c8b23b4f312abe5ec2fe01f0",
+      "wav": {
+        "file": "battle_naginata_whoosh_take01.wav",
+        "sha256": "a38c86c885170fcf0f0f9969158dd28939c5fdcc8a23e804c790b30ecf261e5e"
+      },
+      "ogg": {
+        "file": "battle_naginata_whoosh_take01.ogg",
+        "sha256": "46be27bacb9c90510e08f749050e0916eb06a99746747eaf0fd6be10b1209215",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "0.500000"
+          }
+        },
+        "decoded_sample_peak_dbfs": -20.662548468835922,
+        "decoded_rms_dbfs": -36.45395932315675
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX27_NAGINATA_HIT",
+      "label": "薙刀命中甲殼，短硬殼撞擊，非血肉濺聲",
+      "name": "battle_naginata_armor_hit",
+      "seed": 6027,
+      "status": "batch05 complete scene audition pending",
+      "formally_adopted": false,
+      "method": "original procedural short foley; no recording, external library, voice or model",
+      "duration_seconds": 0.59,
+      "loop": false,
+      "target_sample_peak_dbfs": -18.5,
+      "editable_source": "produce_batch05_take01.py",
+      "editable_source_sha256": "535d8818fb5c4861d42c450503d62410e47235b1c8b23b4f312abe5ec2fe01f0",
+      "wav": {
+        "file": "battle_naginata_armor_hit_take01.wav",
+        "sha256": "55c852681a49350b1f9d8556449f1c86e4144f59ec611f798f6b881a7effb146"
+      },
+      "ogg": {
+        "file": "battle_naginata_armor_hit_take01.ogg",
+        "sha256": "724febb37fc8116fce7105b55af3410fa9de44cf0d796d8c7bb6baf7a92b4f8c",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "0.590000"
+          }
+        },
+        "decoded_sample_peak_dbfs": -18.433286634695097,
+        "decoded_rms_dbfs": -35.99530958261509
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX28_KAMIKIRI_BLADES",
+      "label": "髮切兩道鐮刃交錯與短刃風",
+      "name": "battle_kamikiri_blades",
+      "seed": 6028,
+      "status": "batch05 complete scene audition pending",
+      "formally_adopted": false,
+      "method": "original procedural short foley; no recording, external library, voice or model",
+      "duration_seconds": 0.7,
+      "loop": false,
+      "target_sample_peak_dbfs": -19.5,
+      "editable_source": "produce_batch05_take01.py",
+      "editable_source_sha256": "535d8818fb5c4861d42c450503d62410e47235b1c8b23b4f312abe5ec2fe01f0",
+      "wav": {
+        "file": "battle_kamikiri_blades_take01.wav",
+        "sha256": "3f74a76b4e5f4f769369ad8eec23414d452bab300a8eae43fe4ef7b44b4d996d"
+      },
+      "ogg": {
+        "file": "battle_kamikiri_blades_take01.ogg",
+        "sha256": "51a32bf9e73f41e1821cc993f771ced4989bcc023dd7d96421502e4c2a37985e",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "0.700000"
+          }
+        },
+        "decoded_sample_peak_dbfs": -19.88333832032211,
+        "decoded_rms_dbfs": -38.459904023265736
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX29_OMUKADE_ARMOR",
+      "label": "大百足厚重甲片移動與蓄力",
+      "name": "battle_omukade_armor_move",
+      "seed": 6029,
+      "status": "batch05 complete scene audition pending",
+      "formally_adopted": false,
+      "method": "original procedural short foley; no recording, external library, voice or model",
+      "duration_seconds": 0.86,
+      "loop": false,
+      "target_sample_peak_dbfs": -21.5,
+      "editable_source": "produce_batch05_take01.py",
+      "editable_source_sha256": "535d8818fb5c4861d42c450503d62410e47235b1c8b23b4f312abe5ec2fe01f0",
+      "wav": {
+        "file": "battle_omukade_armor_move_take01.wav",
+        "sha256": "2a985e1f9c4c6b04c19a2f1a2b9113be321c5e692e5ce799a27e13b2688ad672"
+      },
+      "ogg": {
+        "file": "battle_omukade_armor_move_take01.ogg",
+        "sha256": "e8f4fa2474870951385d1f3273e3e6e40d5ff88fe6f51cbf63ba2090ba0524d5",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "0.860000"
+          }
+        },
+        "decoded_sample_peak_dbfs": -21.409448767485152,
+        "decoded_rms_dbfs": -37.39742178439826
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX30_OMUKADE_IMPACT",
+      "label": "大百足撞擊的低沉甲殼衝量；可低音量共用於土蜘蛛倒下",
+      "name": "battle_omukade_impact",
+      "seed": 6030,
+      "status": "batch05 complete scene audition pending",
+      "formally_adopted": false,
+      "method": "original procedural short foley; no recording, external library, voice or model",
+      "duration_seconds": 0.88,
+      "loop": false,
+      "target_sample_peak_dbfs": -18.5,
+      "editable_source": "produce_batch05_take01.py",
+      "editable_source_sha256": "535d8818fb5c4861d42c450503d62410e47235b1c8b23b4f312abe5ec2fe01f0",
+      "wav": {
+        "file": "battle_omukade_impact_take01.wav",
+        "sha256": "818f0797d035c594d74d1638479a049b08c8c3ef827cbe2446b78e176349342c"
+      },
+      "ogg": {
+        "file": "battle_omukade_impact_take01.ogg",
+        "sha256": "a9cb8df6a9f868112d14c7ebebfc4e3f3adeb91d0fa9f6675ec239d105bd7b9b",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "0.880000"
+          }
+        },
+        "decoded_sample_peak_dbfs": -18.477218747979233,
+        "decoded_rms_dbfs": -33.77125317085119
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX24_SPIDER_STEPS",
+      "label": "交戰時巨大土蜘蛛兩次節肢落地變體，與門縫小蛛腳分開",
+      "name": "battle_spider_steps_heavy",
+      "seed": 6124,
+      "status": "batch05 complete scene audition pending",
+      "formally_adopted": false,
+      "method": "original procedural short foley; no recording, external library, voice or model",
+      "duration_seconds": 1.04,
+      "loop": false,
+      "target_sample_peak_dbfs": -21,
+      "editable_source": "produce_batch05_take01.py",
+      "editable_source_sha256": "535d8818fb5c4861d42c450503d62410e47235b1c8b23b4f312abe5ec2fe01f0",
+      "wav": {
+        "file": "battle_spider_steps_heavy_take01.wav",
+        "sha256": "4bff4d54e0f1f015b12df41d259ea2a5abc48799ba844ebbdc04aa1d8590f31c"
+      },
+      "ogg": {
+        "file": "battle_spider_steps_heavy_take01.ogg",
+        "sha256": "a403391cd7828b430861f058b894b0401a2a8346e025ee7b18132436c341857a",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "1.040000"
+          }
+        },
+        "decoded_sample_peak_dbfs": -20.973421100914415,
+        "decoded_rms_dbfs": -37.13730037128425
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX14_KISERU_DRAW",
+      "label": "吹起已燃煙草的短氣流變體，與吸菸分開",
+      "name": "magic_kiseru_blow",
+      "seed": 6114,
+      "status": "batch05 complete scene audition pending",
+      "formally_adopted": false,
+      "method": "original procedural short foley; no recording, external library, voice or model",
+      "duration_seconds": 0.76,
+      "loop": false,
+      "target_sample_peak_dbfs": -25,
+      "editable_source": "produce_batch05_take01.py",
+      "editable_source_sha256": "535d8818fb5c4861d42c450503d62410e47235b1c8b23b4f312abe5ec2fe01f0",
+      "wav": {
+        "file": "magic_kiseru_blow_take01.wav",
+        "sha256": "d55e830239e5e1a4d693a9b27847e2616b1ee6e13cc95ba17a7e885c7bcf5116"
+      },
+      "ogg": {
+        "file": "magic_kiseru_blow_take01.ogg",
+        "sha256": "751ec605d0a3396e25844776c81c93ba88da8d83dde651bcb5dfca8b38057161",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "0.760000"
+          }
+        },
+        "decoded_sample_peak_dbfs": -25.043240468928975,
+        "decoded_rms_dbfs": -40.15617302309973
+      }
+    }
+  ]
+}

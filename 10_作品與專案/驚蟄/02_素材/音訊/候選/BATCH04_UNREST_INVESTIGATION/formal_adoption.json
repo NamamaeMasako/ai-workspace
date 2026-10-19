@@ -1,0 +1,313 @@
+{
+  "date": "2026-10-19",
+  "batch": "BATCH04_UNREST_INVESTIGATION",
+  "status": "formally_adopted",
+  "user_feedback": "OK，繼續",
+  "assets": [
+    {
+      "cue": "SFX02_DOOR_KNOCK",
+      "source": "world_door_knock_soft_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/world/world_door_knock_soft.ogg",
+      "sha256": "a58c23a9fbee45ebf0451df3e3e8d6fa1034c02aa4c5472b5c8e780241a76814",
+      "matches_source": true,
+      "duration_seconds": 0.86,
+      "decoded_sample_peak_dbfs": -23.002570410915663
+    },
+    {
+      "cue": "SFX06_TABLE_TAP",
+      "source": "world_table_tap_double_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/world/world_table_tap_double.ogg",
+      "sha256": "edae562356ecbc05278679666206d279caf7e09852f70beba5180ee5e5ad5f8b",
+      "matches_source": true,
+      "duration_seconds": 0.63,
+      "decoded_sample_peak_dbfs": -22.847360089267358
+    },
+    {
+      "cue": "SFX11_LAMP_SWAY",
+      "source": "world_lamp_sway_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/world/world_lamp_sway.ogg",
+      "sha256": "4762652af3c4ae20d56491b0a55f81e9ad313571f291a1442750ae9e4a1c0cce",
+      "matches_source": true,
+      "duration_seconds": 0.88,
+      "decoded_sample_peak_dbfs": -28.0144046820406
+    },
+    {
+      "cue": "SFX22_SILK_WHISPER",
+      "source": "battle_silk_whisper_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/battle/battle_silk_whisper.ogg",
+      "sha256": "8197fbaa97f1a7d0a1a88bebc8be109af9c569bc11a9d9b28d2b387ec67bfa7f",
+      "matches_source": true,
+      "duration_seconds": 0.8,
+      "decoded_sample_peak_dbfs": -29.46891209278709
+    },
+    {
+      "cue": "SFX24_SPIDER_STEPS",
+      "source": "battle_spider_steps_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/battle/battle_spider_steps.ogg",
+      "sha256": "e99048c846167194599c465fe59755d0afdd4a927b6cbc9fec6267911f23b001",
+      "matches_source": true,
+      "duration_seconds": 1.05,
+      "decoded_sample_peak_dbfs": -30.755677362518377
+    },
+    {
+      "cue": "SFX23_SILK_CUT",
+      "source": "battle_silk_snap_fine_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/battle/battle_silk_snap_fine.ogg",
+      "sha256": "1ece8e8554a481e912fde7bd6015e8115dcab4e3775211150957835b0902bf02",
+      "matches_source": true,
+      "duration_seconds": 0.32,
+      "decoded_sample_peak_dbfs": -27.200020494459807
+    },
+    {
+      "cue": "SFX01_SLIDING_DOOR",
+      "source": "world_window_slide_soft_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/world/world_window_slide_soft.ogg",
+      "sha256": "27dd560cb8d30f9d7cfb3e44a6b2d9bd8d304712f602659a33ec474fb7b68785",
+      "matches_source": true,
+      "duration_seconds": 0.72,
+      "decoded_sample_peak_dbfs": -25.415590143584794
+    },
+    {
+      "cue": "SFX01_SLIDING_DOOR",
+      "source": "world_sliding_door_close_soft_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/world/world_sliding_door_close_soft.ogg",
+      "sha256": "2537b02da44afe0bd83dbf1e6d1e603b6467cbf994535ea7c2bea51697d895f5",
+      "matches_source": true,
+      "duration_seconds": 0.52,
+      "decoded_sample_peak_dbfs": -24.625365780800728
+    },
+    {
+      "cue": "SFX08_PAPER_FOLD",
+      "source": "world_dry_material_rub_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/world/world_dry_material_rub.ogg",
+      "sha256": "400807892c75d3287755e6f3bb3a8d1a7803be7656dc10a3b0861c8f2ee40ade",
+      "matches_source": true,
+      "duration_seconds": 0.73,
+      "decoded_sample_peak_dbfs": -27.702708183552467
+    },
+    {
+      "cue": "SFX08_PAPER_FOLD",
+      "source": "world_notebook_open_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/world/world_notebook_open.ogg",
+      "sha256": "4b567c1455a3211ff7801815d8cbb1dd7feb8fcd53e1e3166d406e704f8955ca",
+      "matches_source": true,
+      "duration_seconds": 0.69,
+      "decoded_sample_peak_dbfs": -24.770596792947345
+    },
+    {
+      "cue": "SFX17_MAILBOX_OPEN",
+      "source": "world_mailbox_stow_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/world/world_mailbox_stow.ogg",
+      "sha256": "bde1047170f1bbe6e0efa90e44da6dcff5a7fbec132a6988fbc53a39e957ce19",
+      "matches_source": true,
+      "duration_seconds": 0.95,
+      "decoded_sample_peak_dbfs": -24.31998703743517
+    }
+  ],
+  "full_cues_completed": [
+    "SFX02_DOOR_KNOCK",
+    "SFX06_TABLE_TAP",
+    "SFX11_LAMP_SWAY",
+    "SFX22_SILK_WHISPER",
+    "SFX24_SPIDER_STEPS"
+  ],
+  "partial_cues": {
+    "SFX23_SILK_CUT": "fine crack variation only; combat cutting base still pending batch05"
+  },
+  "formal_scene_approval": true,
+  "approval_basis": "User replied OK, continue after chapters 4-6 were prepared with an ordered 19-point checklist; user scene acceptance, not independent assistant hearing validation.",
+  "ordered_audition_checklist": [
+    {
+      "order": 1,
+      "chapter": 4,
+      "label": "燈具輕晃",
+      "trigger": "月下庄的燈在風裡輕晃，像是有人用指尖撥動。",
+      "script_line": 537,
+      "game_file": "audio/sfx/world/world_lamp_sway.ogg",
+      "relative_volume": 1,
+      "reused_from_adopted_batch": false
+    },
+    {
+      "order": 2,
+      "chapter": 4,
+      "label": "關窗",
+      "trigger": "回到房裡，他把窗關上。",
+      "script_line": 627,
+      "game_file": "audio/sfx/world/world_window_slide_soft.ogg",
+      "relative_volume": 1,
+      "reused_from_adopted_batch": false
+    },
+    {
+      "order": 3,
+      "chapter": 5,
+      "label": "敲桌兩下",
+      "trigger": "驚蟄的指尖輕輕敲了兩下桌面，像在確認某個節拍。",
+      "script_line": 689,
+      "game_file": "audio/sfx/world/world_table_tap_double.ogg",
+      "relative_volume": 1,
+      "reused_from_adopted_batch": false
+    },
+    {
+      "order": 4,
+      "chapter": 5,
+      "label": "敲房門",
+      "trigger": "夜裡，花見敲了他的門。",
+      "script_line": 704,
+      "game_file": "audio/sfx/world/world_door_knock_soft.ogg",
+      "relative_volume": 1,
+      "reused_from_adopted_batch": false
+    },
+    {
+      "order": 5,
+      "chapter": 5,
+      "label": "進房拉門",
+      "trigger": "她走進來時沒有先說話。",
+      "script_line": 713,
+      "game_file": "audio/sfx/world/world_sliding_door.ogg",
+      "relative_volume": 0.55,
+      "reused_from_adopted_batch": true
+    },
+    {
+      "order": 6,
+      "chapter": 5,
+      "label": "輕輕帶門",
+      "trigger": "只把門輕輕帶上。",
+      "script_line": 716,
+      "game_file": "audio/sfx/world/world_sliding_door_close_soft.ogg",
+      "relative_volume": 1,
+      "reused_from_adopted_batch": false
+    },
+    {
+      "order": 7,
+      "chapter": 5,
+      "label": "摩挲煙草",
+      "trigger": "只用指尖摩挲著煙草。",
+      "script_line": 761,
+      "game_file": "audio/sfx/world/world_dry_material_rub.ogg",
+      "relative_volume": 1,
+      "reused_from_adopted_batch": false
+    },
+    {
+      "order": 8,
+      "chapter": 5,
+      "label": "窗邊細裂響",
+      "trigger": "窗邊傳來一聲極細的裂響。",
+      "script_line": 779,
+      "game_file": "audio/sfx/battle/battle_silk_snap_fine.ogg",
+      "relative_volume": 1,
+      "reused_from_adopted_batch": false
+    },
+    {
+      "order": 9,
+      "chapter": 5,
+      "label": "開窗一線",
+      "trigger": "驚蟄沒有多說，只把窗開了一道縫，讓冷風進來。",
+      "script_line": 793,
+      "game_file": "audio/sfx/world/world_window_slide_soft.ogg",
+      "relative_volume": 0.8,
+      "reused_from_adopted_batch": false
+    },
+    {
+      "order": 10,
+      "chapter": 5,
+      "label": "再次摩挲煙草",
+      "trigger": "他再一次摩挲煙草。",
+      "script_line": 863,
+      "game_file": "audio/sfx/world/world_dry_material_rub.ogg",
+      "relative_volume": 1,
+      "reused_from_adopted_batch": false
+    },
+    {
+      "order": 11,
+      "chapter": 5,
+      "label": "門縫蛛腳細響",
+      "trigger": "驚蟄在門縫下看見一截細細的影子。",
+      "script_line": 896,
+      "game_file": "audio/sfx/battle/battle_spider_steps.ogg",
+      "relative_volume": 1,
+      "reused_from_adopted_batch": false
+    },
+    {
+      "order": 12,
+      "chapter": 5,
+      "label": "袖口細物縮回",
+      "trigger": "袖口深處，有什麼極細的東西輕輕縮了回去。",
+      "script_line": 915,
+      "game_file": "audio/sfx/battle/battle_silk_whisper.ogg",
+      "relative_volume": 1,
+      "reused_from_adopted_batch": false
+    },
+    {
+      "order": 13,
+      "chapter": 6,
+      "label": "灰殼掃入掌心",
+      "trigger": "他沒有驚動別人，只是把灰掃進掌心。",
+      "script_line": 988,
+      "game_file": "audio/sfx/world/world_dry_material_rub.ogg",
+      "relative_volume": 0.7,
+      "reused_from_adopted_batch": false
+    },
+    {
+      "order": 14,
+      "chapter": 6,
+      "label": "攤開筆記",
+      "trigger": "入夜前，他在桌上攤開筆記。",
+      "script_line": 1002,
+      "game_file": "audio/sfx/world/world_notebook_open.ogg",
+      "relative_volume": 1,
+      "reused_from_adopted_batch": false
+    },
+    {
+      "order": 15,
+      "chapter": 6,
+      "label": "畫地圖",
+      "trigger": "他把幾條路線畫得很慢。",
+      "script_line": 1011,
+      "game_file": "audio/sfx/world/world_writing_pen.ogg",
+      "relative_volume": 0.8,
+      "reused_from_adopted_batch": true
+    },
+    {
+      "order": 16,
+      "chapter": 6,
+      "label": "藏起郵箱",
+      "trigger": "畫完後，他把郵箱收進房梁的暗格。",
+      "script_line": 1019,
+      "game_file": "audio/sfx/world/world_mailbox_stow.ogg",
+      "relative_volume": 1,
+      "reused_from_adopted_batch": false
+    },
+    {
+      "order": 17,
+      "chapter": 6,
+      "label": "蟲香封味",
+      "trigger": "又用淡淡的蟲香封住氣味，像是把訊號埋進霧裡。",
+      "script_line": 1022,
+      "game_file": "audio/sfx/world/world_dry_material_rub.ogg",
+      "relative_volume": 0.65,
+      "reused_from_adopted_batch": false
+    },
+    {
+      "order": 18,
+      "chapter": 6,
+      "label": "取出薙刀",
+      "trigger": "她轉身回房，取出暮春大姊留下的薙刀。",
+      "script_line": 1068,
+      "game_file": "audio/sfx/world/world_cloth_wrapped_naginata.ogg",
+      "relative_volume": 0.8,
+      "reused_from_adopted_batch": true
+    },
+    {
+      "order": 19,
+      "chapter": 6,
+      "label": "黑卡貼上指尖",
+      "trigger": "但袖口中那張黑色卡片，似乎有意識地貼上了指尖。",
+      "script_line": 1078,
+      "game_file": "audio/sfx/magic/magic_black_card_pulse.ogg",
+      "relative_volume": 0.7,
+      "reused_from_adopted_batch": true
+    }
+  ],
+  "integration_record": "scene_integration_take01.json",
+  "release_rebuilt": false
+}

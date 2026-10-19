@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-19",
+  "cue": "SFX28_KAMIKIRI_BLADES",
+  "label": "髮切兩道鐮刃交錯與短刃風",
+  "name": "battle_kamikiri_blades",
+  "seed": 6028,
+  "status": "batch05 complete scene audition pending",
+  "formally_adopted": false,
+  "method": "original procedural short foley; no recording, external library, voice or model",
+  "duration_seconds": 0.7,
+  "loop": false,
+  "target_sample_peak_dbfs": -19.5,
+  "editable_source": "produce_batch05_take01.py",
+  "editable_source_sha256": "535d8818fb5c4861d42c450503d62410e47235b1c8b23b4f312abe5ec2fe01f0",
+  "wav": {
+    "file": "battle_kamikiri_blades_take01.wav",
+    "sha256": "3f74a76b4e5f4f769369ad8eec23414d452bab300a8eae43fe4ef7b44b4d996d"
+  },
+  "ogg": {
+    "file": "battle_kamikiri_blades_take01.ogg",
+    "sha256": "51a32bf9e73f41e1821cc993f771ced4989bcc023dd7d96421502e4c2a37985e",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "0.700000"
+      }
+    },
+    "decoded_sample_peak_dbfs": -19.88333832032211,
+    "decoded_rms_dbfs": -38.459904023265736
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-19",
+  "cue": "SFX21_INSECT_SUMMON",
+  "label": "式神召喚的短促暗色匯聚與離散蟲翼，無人聲或音樂",
+  "name": "magic_insect_summon",
+  "seed": 6021,
+  "status": "batch05 complete scene audition pending",
+  "formally_adopted": false,
+  "method": "original procedural short foley; no recording, external library, voice or model",
+  "duration_seconds": 1.72,
+  "loop": false,
+  "target_sample_peak_dbfs": -20.5,
+  "editable_source": "produce_batch05_take01.py",
+  "editable_source_sha256": "535d8818fb5c4861d42c450503d62410e47235b1c8b23b4f312abe5ec2fe01f0",
+  "wav": {
+    "file": "magic_insect_summon_take01.wav",
+    "sha256": "1147e7acf4cfe62878962de01dea6ef15e23dced392a3e25046d57facd2bbb47"
+  },
+  "ogg": {
+    "file": "magic_insect_summon_take01.ogg",
+    "sha256": "14f8ebd48874d9231a286447ae56ea5f9accacfcd82a1441fa47afda76d06b26",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "1.720000"
+      }
+    },
+    "decoded_sample_peak_dbfs": -20.82978138625789,
+    "decoded_rms_dbfs": -33.06516129635007
+  }
+}

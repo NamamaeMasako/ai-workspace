@@ -1,0 +1,23 @@
+{
+  "batch": "BATCH05_FOREST_BATTLE",
+  "status": "awaiting_user_whole_scene_confirmation",
+  "reviews": [
+    {
+      "date": "2026-10-19",
+      "stage": "take01_four_route_battles_prepared",
+      "new_files": 11,
+      "primary_cues": 9,
+      "variants": 2,
+      "integrated_routes": [
+        "chapter_7_hanami_1",
+        "chapter_7_yumemi_1",
+        "chapter_7_hanami_2",
+        "chapter_7_yumemi_2"
+      ],
+      "game_integrated": true,
+      "formally_adopted": false,
+      "integration": "scene_integration_take01.json",
+      "review_menu": "scene_review_take01.rpy"
+    }
+  ]
+}

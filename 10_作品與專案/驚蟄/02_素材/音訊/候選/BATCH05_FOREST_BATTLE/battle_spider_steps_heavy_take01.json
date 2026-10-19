@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-19",
+  "cue": "SFX24_SPIDER_STEPS",
+  "label": "交戰時巨大土蜘蛛兩次節肢落地變體，與門縫小蛛腳分開",
+  "name": "battle_spider_steps_heavy",
+  "seed": 6124,
+  "status": "batch05 complete scene audition pending",
+  "formally_adopted": false,
+  "method": "original procedural short foley; no recording, external library, voice or model",
+  "duration_seconds": 1.04,
+  "loop": false,
+  "target_sample_peak_dbfs": -21,
+  "editable_source": "produce_batch05_take01.py",
+  "editable_source_sha256": "535d8818fb5c4861d42c450503d62410e47235b1c8b23b4f312abe5ec2fe01f0",
+  "wav": {
+    "file": "battle_spider_steps_heavy_take01.wav",
+    "sha256": "4bff4d54e0f1f015b12df41d259ea2a5abc48799ba844ebbdc04aa1d8590f31c"
+  },
+  "ogg": {
+    "file": "battle_spider_steps_heavy_take01.ogg",
+    "sha256": "a403391cd7828b430861f058b894b0401a2a8346e025ee7b18132436c341857a",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "1.040000"
+      }
+    },
+    "decoded_sample_peak_dbfs": -20.973421100914415,
+    "decoded_rms_dbfs": -37.13730037128425
+  }
+}

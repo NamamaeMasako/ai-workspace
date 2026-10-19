@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-19",
+  "batch": "BATCH05_FOREST_BATTLE",
+  "method": "Temporary after_warp route menu; actual integrated battle prefixes copied without changing dialogue or audio commands.",
+  "excludes": "Inn attack, death, return, rewind and chapter 8 scenes remain for batches 06 and 07.",
+  "source_script_sha256": "2b1b94227e497b13fa1f44250f58aa7d7621eb9619697209e418144d4676b464",
+  "review_file": "scene_review_take01.rpy",
+  "review_sha256": "a7d7ff0cbee4507f45739e5b1b47531a3153e106d5ac0e86dc26b5dcbb69904a",
+  "routes": [
+    {
+      "route": "chapter_7_hanami_1",
+      "review_label": "_jz_b5_hanami_1",
+      "source_first_line": 1105,
+      "source_last_line": 1210,
+      "original_excerpt_sha256": "aac8a91af7fa9eb8cf5f208b4516018d16c18f88686fc6367f7a929b179b1a1a",
+      "source_dialogue_and_audio_unchanged": true
+    },
+    {
+      "route": "chapter_7_yumemi_1",
+      "review_label": "_jz_b5_yumemi_1",
+      "source_first_line": 1361,
+      "source_last_line": 1502,
+      "original_excerpt_sha256": "0e6394538b786c2cddebd9eab4f533ad330befad90ac8ff10dcce38e1d97774e",
+      "source_dialogue_and_audio_unchanged": true
+    },
+    {
+      "route": "chapter_7_hanami_2",
+      "review_label": "_jz_b5_hanami_2",
+      "source_first_line": 1609,
+      "source_last_line": 1739,
+      "original_excerpt_sha256": "08bd51fef7d7f157ee36212b64470f6ab29a1f975844273a231f0a76f1493511",
+      "source_dialogue_and_audio_unchanged": true
+    },
+    {
+      "route": "chapter_7_yumemi_2",
+      "review_label": "_jz_b5_yumemi_2",
+      "source_first_line": 1905,
+      "source_last_line": 2058,
+      "original_excerpt_sha256": "53509d02d4b3a3986b29a712e65935b6bf4a3010709f535553f9ea3d6784cf81",
+      "source_dialogue_and_audio_unchanged": true
+    }
+  ],
+  "producer": "prepare_scene_review_take01.py"
+}

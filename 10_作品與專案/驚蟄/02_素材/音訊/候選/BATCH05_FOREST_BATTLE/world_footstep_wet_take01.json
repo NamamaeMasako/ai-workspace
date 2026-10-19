@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-19",
+  "cue": "SFX05_FOOTSTEP_WET",
+  "label": "林道短段濕葉泥地行走，非循環雨聲",
+  "name": "world_footstep_wet",
+  "seed": 6005,
+  "status": "batch05 complete scene audition pending",
+  "formally_adopted": false,
+  "method": "original procedural short foley; no recording, external library, voice or model",
+  "duration_seconds": 1.62,
+  "loop": false,
+  "target_sample_peak_dbfs": -22,
+  "editable_source": "produce_batch05_take01.py",
+  "editable_source_sha256": "535d8818fb5c4861d42c450503d62410e47235b1c8b23b4f312abe5ec2fe01f0",
+  "wav": {
+    "file": "world_footstep_wet_take01.wav",
+    "sha256": "ae1b2dc7ba14f1bc564c6bdcaf988c5e5a1a263b9e110751f702cabe16cab348"
+  },
+  "ogg": {
+    "file": "world_footstep_wet_take01.ogg",
+    "sha256": "0cbbe3ceb52a6604fcdb21ee49e6988319ee96de81b69ae198a79081bb2d2031",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "1.620000"
+      }
+    },
+    "decoded_sample_peak_dbfs": -22.131787969946103,
+    "decoded_rms_dbfs": -39.06560103057565
+  }
+}

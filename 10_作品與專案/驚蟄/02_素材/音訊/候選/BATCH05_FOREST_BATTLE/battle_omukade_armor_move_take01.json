@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-19",
+  "cue": "SFX29_OMUKADE_ARMOR",
+  "label": "大百足厚重甲片移動與蓄力",
+  "name": "battle_omukade_armor_move",
+  "seed": 6029,
+  "status": "batch05 complete scene audition pending",
+  "formally_adopted": false,
+  "method": "original procedural short foley; no recording, external library, voice or model",
+  "duration_seconds": 0.86,
+  "loop": false,
+  "target_sample_peak_dbfs": -21.5,
+  "editable_source": "produce_batch05_take01.py",
+  "editable_source_sha256": "535d8818fb5c4861d42c450503d62410e47235b1c8b23b4f312abe5ec2fe01f0",
+  "wav": {
+    "file": "battle_omukade_armor_move_take01.wav",
+    "sha256": "2a985e1f9c4c6b04c19a2f1a2b9113be321c5e692e5ce799a27e13b2688ad672"
+  },
+  "ogg": {
+    "file": "battle_omukade_armor_move_take01.ogg",
+    "sha256": "e8f4fa2474870951385d1f3273e3e6e40d5ff88fe6f51cbf63ba2090ba0524d5",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "0.860000"
+      }
+    },
+    "decoded_sample_peak_dbfs": -21.409448767485152,
+    "decoded_rms_dbfs": -37.39742178439826
+  }
+}

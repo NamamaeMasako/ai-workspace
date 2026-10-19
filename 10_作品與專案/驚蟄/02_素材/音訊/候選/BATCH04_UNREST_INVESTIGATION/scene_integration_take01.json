@@ -1,8 +1,8 @@
 {
   "date": "2026-10-19",
   "batch": "BATCH04_UNREST_INVESTIGATION",
-  "status": "whole chapters 4-6 prepared; user scene audition pending",
-  "formally_adopted": false,
+  "status": "formally_adopted",
+  "formally_adopted": true,
   "user_instruction": "好，繼續ˋ；每個場景音效先全部完成，確認清單按出現順序",
   "primary_cues": [
     "SFX02_DOOR_KNOCK",
@@ -340,5 +340,8 @@
     "limitations": "Entry screen and files observed. Full chapters, naturalness, timing and music balance await user listening; not independent assistant hearing validation."
   },
   "release_rebuilt": false,
-  "version_changed": false
+  "version_changed": false,
+  "user_scene_feedback": "OK，繼續",
+  "approval_date": "2026-10-19",
+  "approval_basis": "User replied OK, continue after chapters 4-6 were prepared with an ordered 19-point checklist; user scene acceptance, not independent assistant hearing validation."
 }

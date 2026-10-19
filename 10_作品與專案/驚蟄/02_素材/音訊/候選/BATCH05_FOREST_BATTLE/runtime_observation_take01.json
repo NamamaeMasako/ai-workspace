@@ -1,0 +1,36 @@
+{
+  "timestamp": 1792382059.605494,
+  "basedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe",
+  "gamedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe\\game",
+  "location": [
+    "C:/Users/User/AppData/Local/Temp/jz_batch05_probe_20261019/_jz_batch05_review.rpy",
+    9
+  ],
+  "music": null,
+  "music_position": null,
+  "sound": null,
+  "sound_position": null,
+  "music_volume": 1.0,
+  "sfx_volume": 1.0,
+  "music_muted": false,
+  "sfx_muted": false,
+  "master_muted": false,
+  "ambience": null,
+  "asset_hashes": {
+    "world/world_footstep_wet.ogg": "0cbbe3ceb52a6604fcdb21ee49e6988319ee96de81b69ae198a79081bb2d2031",
+    "magic/magic_insect_summon.ogg": "14f8ebd48874d9231a286447ae56ea5f9accacfcd82a1441fa47afda76d06b26",
+    "battle/battle_silk_cut.ogg": "c6aea7ca302586813719c110f2dacbe08e0f7daa568e32ef8288c182e28ac8c9",
+    "battle/battle_tsuchigumo_hiss.ogg": "d0555cd78f66a4440d13ce7512edac81380f0e80df3c6af506630424a3b83492",
+    "battle/battle_naginata_whoosh.ogg": "46be27bacb9c90510e08f749050e0916eb06a99746747eaf0fd6be10b1209215",
+    "battle/battle_naginata_armor_hit.ogg": "724febb37fc8116fce7105b55af3410fa9de44cf0d796d8c7bb6baf7a92b4f8c",
+    "battle/battle_kamikiri_blades.ogg": "51a32bf9e73f41e1821cc993f771ced4989bcc023dd7d96421502e4c2a37985e",
+    "battle/battle_omukade_armor_move.ogg": "e8f4fa2474870951385d1f3273e3e6e40d5ff88fe6f51cbf63ba2090ba0524d5",
+    "battle/battle_omukade_impact.ogg": "a9cb8df6a9f868112d14c7ebebfc4e3f3adeb91d0fa9f6675ec239d105bd7b9b",
+    "battle/battle_spider_steps_heavy.ogg": "a403391cd7828b430861f058b894b0401a2a8346e025ee7b18132436c341857a",
+    "magic/magic_kiseru_blow.ogg": "751ec605d0a3396e25844776c81c93ba88da8d83dde651bcb5dfca8b38057161",
+    "world/world_black_card_stow.ogg": "1ff6060105f43e65a73172269cdf0951a465cffd249f4a4087e8c06308e8a94a",
+    "magic/magic_black_card_pulse.ogg": "1d96ec81e69b90d669972a85d8b1067e595a5271635a66f5b35958dae27da060",
+    "magic/magic_kiseru_ember.ogg": "116dfe5f4845e78210ce4822928fc1c3ffdd520a688698cdbfc706077ea2f8da",
+    "battle/battle_silk_whisper.ogg": "8197fbaa97f1a7d0a1a88bebc8be109af9c569bc11a9d9b28d2b387ec67bfa7f"
+  }
+}

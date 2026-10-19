@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-19",
+  "cue": "SFX25_TSUCHIGUMO_HISS",
+  "label": "土蜘蛛短嘶聲，以氣流與甲殼顫動合成，不使用人聲",
+  "name": "battle_tsuchigumo_hiss",
+  "seed": 6025,
+  "status": "batch05 complete scene audition pending",
+  "formally_adopted": false,
+  "method": "original procedural short foley; no recording, external library, voice or model",
+  "duration_seconds": 0.86,
+  "loop": false,
+  "target_sample_peak_dbfs": -23,
+  "editable_source": "produce_batch05_take01.py",
+  "editable_source_sha256": "535d8818fb5c4861d42c450503d62410e47235b1c8b23b4f312abe5ec2fe01f0",
+  "wav": {
+    "file": "battle_tsuchigumo_hiss_take01.wav",
+    "sha256": "5114683e3582e0b0cb193cc8d32e193f903cfb9f07c0b91c28b8e6ceaf4db74b"
+  },
+  "ogg": {
+    "file": "battle_tsuchigumo_hiss_take01.ogg",
+    "sha256": "d0555cd78f66a4440d13ce7512edac81380f0e80df3c6af506630424a3b83492",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "0.860000"
+      }
+    },
+    "decoded_sample_peak_dbfs": -23.17556777517789,
+    "decoded_rms_dbfs": -39.56781089099554
+  }
+}

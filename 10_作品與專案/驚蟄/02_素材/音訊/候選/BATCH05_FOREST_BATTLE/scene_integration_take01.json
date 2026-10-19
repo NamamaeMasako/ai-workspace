@@ -1,0 +1,803 @@
+{
+  "date": "2026-10-19",
+  "batch": "BATCH05_FOREST_BATTLE",
+  "status": "four forest battle route scenes integrated; user audition pending",
+  "formally_adopted": false,
+  "user_instruction": "OK，繼續；整批場景做好後一次檢查，附實際順序清單",
+  "primary_cues": [
+    "SFX05_FOOTSTEP_WET",
+    "SFX21_INSECT_SUMMON",
+    "SFX23_SILK_CUT",
+    "SFX25_TSUCHIGUMO_HISS",
+    "SFX26_NAGINATA_WHOOSH",
+    "SFX27_NAGINATA_HIT",
+    "SFX28_KAMIKIRI_BLADES",
+    "SFX29_OMUKADE_ARMOR",
+    "SFX30_OMUKADE_IMPACT"
+  ],
+  "variant_cues": [
+    "SFX24_SPIDER_STEPS heavy battle variant",
+    "SFX14_KISERU_DRAW outward blowing variant"
+  ],
+  "new_audio_files": 11,
+  "assets": [
+    {
+      "cue": "SFX05_FOOTSTEP_WET",
+      "source": "world_footstep_wet_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/world/world_footstep_wet.ogg",
+      "sha256": "0cbbe3ceb52a6604fcdb21ee49e6988319ee96de81b69ae198a79081bb2d2031",
+      "duration_seconds": 1.62,
+      "decoded_sample_peak_dbfs": -22.131787969946103,
+      "matches_source": true
+    },
+    {
+      "cue": "SFX21_INSECT_SUMMON",
+      "source": "magic_insect_summon_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/magic/magic_insect_summon.ogg",
+      "sha256": "14f8ebd48874d9231a286447ae56ea5f9accacfcd82a1441fa47afda76d06b26",
+      "duration_seconds": 1.72,
+      "decoded_sample_peak_dbfs": -20.82978138625789,
+      "matches_source": true
+    },
+    {
+      "cue": "SFX23_SILK_CUT",
+      "source": "battle_silk_cut_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/battle/battle_silk_cut.ogg",
+      "sha256": "c6aea7ca302586813719c110f2dacbe08e0f7daa568e32ef8288c182e28ac8c9",
+      "duration_seconds": 0.48,
+      "decoded_sample_peak_dbfs": -20.98779071082923,
+      "matches_source": true
+    },
+    {
+      "cue": "SFX25_TSUCHIGUMO_HISS",
+      "source": "battle_tsuchigumo_hiss_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/battle/battle_tsuchigumo_hiss.ogg",
+      "sha256": "d0555cd78f66a4440d13ce7512edac81380f0e80df3c6af506630424a3b83492",
+      "duration_seconds": 0.86,
+      "decoded_sample_peak_dbfs": -23.17556777517789,
+      "matches_source": true
+    },
+    {
+      "cue": "SFX26_NAGINATA_WHOOSH",
+      "source": "battle_naginata_whoosh_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/battle/battle_naginata_whoosh.ogg",
+      "sha256": "46be27bacb9c90510e08f749050e0916eb06a99746747eaf0fd6be10b1209215",
+      "duration_seconds": 0.5,
+      "decoded_sample_peak_dbfs": -20.662548468835922,
+      "matches_source": true
+    },
+    {
+      "cue": "SFX27_NAGINATA_HIT",
+      "source": "battle_naginata_armor_hit_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/battle/battle_naginata_armor_hit.ogg",
+      "sha256": "724febb37fc8116fce7105b55af3410fa9de44cf0d796d8c7bb6baf7a92b4f8c",
+      "duration_seconds": 0.59,
+      "decoded_sample_peak_dbfs": -18.433286634695097,
+      "matches_source": true
+    },
+    {
+      "cue": "SFX28_KAMIKIRI_BLADES",
+      "source": "battle_kamikiri_blades_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/battle/battle_kamikiri_blades.ogg",
+      "sha256": "51a32bf9e73f41e1821cc993f771ced4989bcc023dd7d96421502e4c2a37985e",
+      "duration_seconds": 0.7,
+      "decoded_sample_peak_dbfs": -19.88333832032211,
+      "matches_source": true
+    },
+    {
+      "cue": "SFX29_OMUKADE_ARMOR",
+      "source": "battle_omukade_armor_move_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/battle/battle_omukade_armor_move.ogg",
+      "sha256": "e8f4fa2474870951385d1f3273e3e6e40d5ff88fe6f51cbf63ba2090ba0524d5",
+      "duration_seconds": 0.86,
+      "decoded_sample_peak_dbfs": -21.409448767485152,
+      "matches_source": true
+    },
+    {
+      "cue": "SFX30_OMUKADE_IMPACT",
+      "source": "battle_omukade_impact_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/battle/battle_omukade_impact.ogg",
+      "sha256": "a9cb8df6a9f868112d14c7ebebfc4e3f3adeb91d0fa9f6675ec239d105bd7b9b",
+      "duration_seconds": 0.88,
+      "decoded_sample_peak_dbfs": -18.477218747979233,
+      "matches_source": true
+    },
+    {
+      "cue": "SFX24_SPIDER_STEPS",
+      "source": "battle_spider_steps_heavy_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/battle/battle_spider_steps_heavy.ogg",
+      "sha256": "a403391cd7828b430861f058b894b0401a2a8346e025ee7b18132436c341857a",
+      "duration_seconds": 1.04,
+      "decoded_sample_peak_dbfs": -20.973421100914415,
+      "matches_source": true
+    },
+    {
+      "cue": "SFX14_KISERU_DRAW",
+      "source": "magic_kiseru_blow_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/magic/magic_kiseru_blow.ogg",
+      "sha256": "751ec605d0a3396e25844776c81c93ba88da8d83dde651bcb5dfca8b38057161",
+      "duration_seconds": 0.76,
+      "decoded_sample_peak_dbfs": -25.043240468928975,
+      "matches_source": true
+    }
+  ],
+  "fully_integrated_route_prefixes": [
+    "chapter_7_hanami_1",
+    "chapter_7_yumemi_1",
+    "chapter_7_hanami_2",
+    "chapter_7_yumemi_2"
+  ],
+  "route_audio_triggers": {
+    "chapter_7_hanami_1": [
+      {
+        "script_line": 1112,
+        "command": "play",
+        "file": "audio/sfx/world/world_black_card_stow.ogg",
+        "relative_volume": 0.85,
+        "next_text": "narrator \"驚蟄從袖中取出那張黑色卡片，交到花見手裡。\""
+      },
+      {
+        "script_line": 1113,
+        "command": "queue",
+        "file": "audio/sfx/magic/magic_black_card_pulse.ogg",
+        "relative_volume": 0.7,
+        "next_text": "narrator \"驚蟄從袖中取出那張黑色卡片，交到花見手裡。\""
+      },
+      {
+        "script_line": 1131,
+        "command": "play",
+        "file": "audio/sfx/world/world_black_card_stow.ogg",
+        "relative_volume": 0.8,
+        "next_text": "narrator \"花見嘆了口氣，接著把卡片收進衣內，像是收下一種承諾。\""
+      },
+      {
+        "script_line": 1145,
+        "command": "play",
+        "file": "audio/sfx/world/world_footstep_wet.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"林道很黑，只有煙斗的火光在一點一點前行。\""
+      },
+      {
+        "script_line": 1146,
+        "command": "queue",
+        "file": "audio/sfx/magic/magic_kiseru_ember.ogg",
+        "relative_volume": 0.75,
+        "next_text": "narrator \"林道很黑，只有煙斗的火光在一點一點前行。\""
+      },
+      {
+        "script_line": 1150,
+        "command": "play",
+        "file": "audio/sfx/magic/magic_kiseru_blow.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"他吹起煙草。\""
+      },
+      {
+        "script_line": 1153,
+        "command": "play",
+        "file": "audio/sfx/magic/magic_insect_summon.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"髮切與大百足在黑暗中竄出，像是應召而來的影。\""
+      },
+      {
+        "script_line": 1178,
+        "command": "play",
+        "file": "audio/sfx/battle/battle_spider_steps_heavy.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"土蜘蛛先現身，像一堵牆，從樹影中慢慢逼近。\""
+      },
+      {
+        "script_line": 1181,
+        "command": "queue",
+        "file": "audio/sfx/battle/battle_tsuchigumo_hiss.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"牠每一步都讓地面微震，像在逼近判決。\""
+      },
+      {
+        "script_line": 1189,
+        "command": "play",
+        "file": "audio/sfx/battle/battle_kamikiri_blades.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"髮切先衝上去，鐮刃交錯，逼得牠抬頭防守。\""
+      },
+      {
+        "script_line": 1192,
+        "command": "play",
+        "file": "audio/sfx/battle/battle_spider_steps_heavy.ogg",
+        "relative_volume": 0.9,
+        "next_text": "narrator \"牠的節肢拍地，揚起一層灰。\""
+      },
+      {
+        "script_line": 1196,
+        "command": "play",
+        "file": "audio/sfx/battle/battle_omukade_armor_move.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"大百足自側面猛撞，震得地面一沉。\""
+      },
+      {
+        "script_line": 1197,
+        "command": "queue",
+        "file": "audio/sfx/battle/battle_omukade_impact.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"大百足自側面猛撞，震得地面一沉。\""
+      },
+      {
+        "script_line": 1200,
+        "command": "play",
+        "file": "audio/sfx/battle/battle_naginata_whoosh.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"花見趁空隙切入，薙刀的刃光在牠的節肢上割出白痕。\""
+      },
+      {
+        "script_line": 1201,
+        "command": "queue",
+        "file": "<silence 0.04>",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"花見趁空隙切入，薙刀的刃光在牠的節肢上割出白痕。\""
+      },
+      {
+        "script_line": 1202,
+        "command": "queue",
+        "file": "audio/sfx/battle/battle_naginata_armor_hit.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"花見趁空隙切入，薙刀的刃光在牠的節肢上割出白痕。\""
+      },
+      {
+        "script_line": 1207,
+        "command": "play",
+        "file": "audio/sfx/magic/magic_insect_summon.ogg",
+        "relative_volume": 0.45,
+        "next_text": "narrator \"驚蟄的蟲影纏住牠的視線，逼得土蜘蛛退到樹根間。\""
+      }
+    ],
+    "chapter_7_yumemi_1": [
+      {
+        "script_line": 1368,
+        "command": "play",
+        "file": "audio/sfx/world/world_black_card_stow.ogg",
+        "relative_volume": 0.85,
+        "next_text": "narrator \"驚蟄從袖中取出那張黑色卡片，交到夢見手裡。\""
+      },
+      {
+        "script_line": 1369,
+        "command": "queue",
+        "file": "audio/sfx/magic/magic_black_card_pulse.ogg",
+        "relative_volume": 0.7,
+        "next_text": "narrator \"驚蟄從袖中取出那張黑色卡片，交到夢見手裡。\""
+      },
+      {
+        "script_line": 1390,
+        "command": "play",
+        "file": "audio/sfx/world/world_black_card_stow.ogg",
+        "relative_volume": 0.8,
+        "next_text": "narrator \"她把卡片收進衣內，像是抱著一件不能說的祕密。\""
+      },
+      {
+        "script_line": 1405,
+        "command": "play",
+        "file": "audio/sfx/world/world_footstep_wet.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"林道很黑，只有煙斗的火光在一點一點前行。\""
+      },
+      {
+        "script_line": 1406,
+        "command": "queue",
+        "file": "audio/sfx/magic/magic_kiseru_ember.ogg",
+        "relative_volume": 0.75,
+        "next_text": "narrator \"林道很黑，只有煙斗的火光在一點一點前行。\""
+      },
+      {
+        "script_line": 1410,
+        "command": "play",
+        "file": "audio/sfx/magic/magic_kiseru_blow.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"他吹起煙草。\""
+      },
+      {
+        "script_line": 1413,
+        "command": "play",
+        "file": "audio/sfx/magic/magic_insect_summon.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"髮切與大百足在黑暗中竄出，像是應召而來的影。\""
+      },
+      {
+        "script_line": 1438,
+        "command": "play",
+        "file": "audio/sfx/battle/battle_spider_steps_heavy.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"土蜘蛛先現身，像一座移動的山。\""
+      },
+      {
+        "script_line": 1441,
+        "command": "queue",
+        "file": "audio/sfx/battle/battle_tsuchigumo_hiss.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"牠的影子蓋下來時，連空氣都變重。\""
+      },
+      {
+        "script_line": 1450,
+        "command": "play",
+        "file": "audio/sfx/battle/battle_kamikiri_blades.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"髮切牽住牠的正面，大百足自側面猛撞。\""
+      },
+      {
+        "script_line": 1451,
+        "command": "queue",
+        "file": "audio/sfx/battle/battle_omukade_armor_move.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"髮切牽住牠的正面，大百足自側面猛撞。\""
+      },
+      {
+        "script_line": 1452,
+        "command": "queue",
+        "file": "audio/sfx/battle/battle_omukade_impact.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"髮切牽住牠的正面，大百足自側面猛撞。\""
+      },
+      {
+        "script_line": 1457,
+        "command": "play",
+        "file": "audio/sfx/battle/battle_naginata_whoosh.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"她的攻勢猛烈，卻也留下空隙。\""
+      },
+      {
+        "script_line": 1462,
+        "command": "play",
+        "file": "audio/sfx/battle/battle_silk_whisper.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"絡新婦就在那道空隙裡出現。\""
+      },
+      {
+        "script_line": 1468,
+        "command": "play",
+        "file": "audio/sfx/battle/battle_silk_cut.ogg",
+        "relative_volume": 0.65,
+        "next_text": "narrator \"一抹細影掠過花見的肩。\""
+      },
+      {
+        "script_line": 1483,
+        "command": "play",
+        "file": "audio/sfx/battle/battle_spider_steps_heavy.ogg",
+        "relative_volume": 0.9,
+        "next_text": "narrator \"牠的節肢拍地，揚起一層灰，把視線切碎。\""
+      },
+      {
+        "script_line": 1488,
+        "command": "play",
+        "file": "audio/sfx/battle/battle_omukade_impact.ogg",
+        "relative_volume": 0.55,
+        "next_text": "narrator \"最後，土蜘蛛倒下。\""
+      },
+      {
+        "script_line": 1496,
+        "command": "play",
+        "file": "audio/sfx/battle/battle_kamikiri_blades.ogg",
+        "relative_volume": 0.85,
+        "next_text": "narrator \"髮切像被放出的刀光，追著那道細影竄上去。\""
+      },
+      {
+        "script_line": 1499,
+        "command": "play",
+        "file": "audio/sfx/battle/battle_silk_cut.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"鐮刃一閃，黑影斷成幾截，落地時只剩一圈散開的絲。\""
+      }
+    ],
+    "chapter_7_hanami_2": [
+      {
+        "script_line": 1616,
+        "command": "play",
+        "file": "audio/sfx/world/world_black_card_stow.ogg",
+        "relative_volume": 0.85,
+        "next_text": "narrator \"驚蟄從袖中取出那張黑色卡片，交到花見手裡。\""
+      },
+      {
+        "script_line": 1617,
+        "command": "queue",
+        "file": "audio/sfx/magic/magic_black_card_pulse.ogg",
+        "relative_volume": 0.7,
+        "next_text": "narrator \"驚蟄從袖中取出那張黑色卡片，交到花見手裡。\""
+      },
+      {
+        "script_line": 1639,
+        "command": "play",
+        "file": "audio/sfx/world/world_black_card_stow.ogg",
+        "relative_volume": 0.8,
+        "next_text": "narrator \"她低聲說完，還是把卡片收進衣內，像是收下一種承諾。\""
+      },
+      {
+        "script_line": 1666,
+        "command": "play",
+        "file": "audio/sfx/world/world_footstep_wet.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"林道很黑，只有煙斗的火光在一點一點前行。\""
+      },
+      {
+        "script_line": 1667,
+        "command": "queue",
+        "file": "audio/sfx/magic/magic_kiseru_ember.ogg",
+        "relative_volume": 0.75,
+        "next_text": "narrator \"林道很黑，只有煙斗的火光在一點一點前行。\""
+      },
+      {
+        "script_line": 1671,
+        "command": "play",
+        "file": "audio/sfx/magic/magic_kiseru_blow.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"他吹起煙草。\""
+      },
+      {
+        "script_line": 1674,
+        "command": "play",
+        "file": "audio/sfx/magic/magic_insect_summon.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"髮切與大百足在黑暗中竄出，像是應召而來的影。\""
+      },
+      {
+        "script_line": 1699,
+        "command": "play",
+        "file": "audio/sfx/battle/battle_spider_steps_heavy.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"土蜘蛛先現身，像一堵牆，從樹影中慢慢逼近。\""
+      },
+      {
+        "script_line": 1702,
+        "command": "queue",
+        "file": "audio/sfx/battle/battle_tsuchigumo_hiss.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"牠每一步都讓地面微震，像在逼近判決。\""
+      },
+      {
+        "script_line": 1710,
+        "command": "play",
+        "file": "audio/sfx/battle/battle_kamikiri_blades.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"髮切先衝上去，鐮刃交錯，逼得牠抬頭防守。\""
+      },
+      {
+        "script_line": 1713,
+        "command": "play",
+        "file": "audio/sfx/battle/battle_spider_steps_heavy.ogg",
+        "relative_volume": 0.9,
+        "next_text": "narrator \"牠的節肢拍地，揚起一層灰。\""
+      },
+      {
+        "script_line": 1717,
+        "command": "play",
+        "file": "audio/sfx/battle/battle_omukade_armor_move.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"大百足自側面猛撞，震得地面一沉。\""
+      },
+      {
+        "script_line": 1718,
+        "command": "queue",
+        "file": "audio/sfx/battle/battle_omukade_impact.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"大百足自側面猛撞，震得地面一沉。\""
+      },
+      {
+        "script_line": 1721,
+        "command": "play",
+        "file": "audio/sfx/battle/battle_naginata_whoosh.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"花見趁空隙切入，薙刀的刃光在牠的節肢上割出白痕。\""
+      },
+      {
+        "script_line": 1722,
+        "command": "queue",
+        "file": "<silence 0.04>",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"花見趁空隙切入，薙刀的刃光在牠的節肢上割出白痕。\""
+      },
+      {
+        "script_line": 1723,
+        "command": "queue",
+        "file": "audio/sfx/battle/battle_naginata_armor_hit.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"花見趁空隙切入，薙刀的刃光在牠的節肢上割出白痕。\""
+      },
+      {
+        "script_line": 1736,
+        "command": "play",
+        "file": "audio/sfx/magic/magic_insect_summon.ogg",
+        "relative_volume": 0.45,
+        "next_text": "narrator \"驚蟄的蟲影纏住牠的視線，逼得土蜘蛛退到樹根間。\""
+      }
+    ],
+    "chapter_7_yumemi_2": [
+      {
+        "script_line": 1912,
+        "command": "play",
+        "file": "audio/sfx/world/world_black_card_stow.ogg",
+        "relative_volume": 0.85,
+        "next_text": "narrator \"驚蟄從袖中取出那張黑色卡片，交到夢見手裡。\""
+      },
+      {
+        "script_line": 1913,
+        "command": "queue",
+        "file": "audio/sfx/magic/magic_black_card_pulse.ogg",
+        "relative_volume": 0.7,
+        "next_text": "narrator \"驚蟄從袖中取出那張黑色卡片，交到夢見手裡。\""
+      },
+      {
+        "script_line": 1936,
+        "command": "play",
+        "file": "audio/sfx/world/world_black_card_stow.ogg",
+        "relative_volume": 0.8,
+        "next_text": "narrator \"她把卡片收進衣內，像是抱著一件不能說的祕密。\""
+      },
+      {
+        "script_line": 1957,
+        "command": "play",
+        "file": "audio/sfx/world/world_footstep_wet.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"林道很黑，只有煙斗的火光在一點一點前行。\""
+      },
+      {
+        "script_line": 1958,
+        "command": "queue",
+        "file": "audio/sfx/magic/magic_kiseru_ember.ogg",
+        "relative_volume": 0.75,
+        "next_text": "narrator \"林道很黑，只有煙斗的火光在一點一點前行。\""
+      },
+      {
+        "script_line": 1962,
+        "command": "play",
+        "file": "audio/sfx/magic/magic_kiseru_blow.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"他吹起煙草。\""
+      },
+      {
+        "script_line": 1965,
+        "command": "play",
+        "file": "audio/sfx/magic/magic_insect_summon.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"髮切與大百足在黑暗中竄出，像是應召而來的影。\""
+      },
+      {
+        "script_line": 1990,
+        "command": "play",
+        "file": "audio/sfx/battle/battle_spider_steps_heavy.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"土蜘蛛先現身，像一座移動的山。\""
+      },
+      {
+        "script_line": 1993,
+        "command": "queue",
+        "file": "audio/sfx/battle/battle_tsuchigumo_hiss.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"牠的影子蓋下來時，連空氣都變重。\""
+      },
+      {
+        "script_line": 2002,
+        "command": "play",
+        "file": "audio/sfx/battle/battle_kamikiri_blades.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"髮切牽住牠的正面，大百足自側面猛撞。\""
+      },
+      {
+        "script_line": 2003,
+        "command": "queue",
+        "file": "audio/sfx/battle/battle_omukade_armor_move.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"髮切牽住牠的正面，大百足自側面猛撞。\""
+      },
+      {
+        "script_line": 2004,
+        "command": "queue",
+        "file": "audio/sfx/battle/battle_omukade_impact.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"髮切牽住牠的正面，大百足自側面猛撞。\""
+      },
+      {
+        "script_line": 2009,
+        "command": "play",
+        "file": "audio/sfx/battle/battle_naginata_whoosh.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"她的攻勢猛烈，卻也留下空隙。\""
+      },
+      {
+        "script_line": 2018,
+        "command": "play",
+        "file": "audio/sfx/battle/battle_silk_whisper.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"絡新婦就在那道空隙裡出現。\""
+      },
+      {
+        "script_line": 2024,
+        "command": "play",
+        "file": "audio/sfx/battle/battle_silk_cut.ogg",
+        "relative_volume": 0.65,
+        "next_text": "narrator \"一抹細影掠過花見的肩。\""
+      },
+      {
+        "script_line": 2039,
+        "command": "play",
+        "file": "audio/sfx/battle/battle_spider_steps_heavy.ogg",
+        "relative_volume": 0.9,
+        "next_text": "narrator \"牠的節肢拍地，揚起一層灰，把視線切碎。\""
+      },
+      {
+        "script_line": 2044,
+        "command": "play",
+        "file": "audio/sfx/battle/battle_omukade_impact.ogg",
+        "relative_volume": 0.55,
+        "next_text": "narrator \"最後，土蜘蛛倒下。\""
+      },
+      {
+        "script_line": 2052,
+        "command": "play",
+        "file": "audio/sfx/battle/battle_kamikiri_blades.ogg",
+        "relative_volume": 0.85,
+        "next_text": "narrator \"髮切像被放出的刀光，追著那道細影竄上去。\""
+      },
+      {
+        "script_line": 2055,
+        "command": "play",
+        "file": "audio/sfx/battle/battle_silk_cut.ogg",
+        "relative_volume": 1.0,
+        "next_text": "narrator \"鐮刃一閃，黑影斷成幾截，落地時只剩一圈散開的絲。\""
+      }
+    ]
+  },
+  "ordered_audition_checklist": {
+    "common": [
+      {
+        "order": 1,
+        "label": "交卡紙布與淡共鳴",
+        "trigger": "驚蟄從袖中取出那張黑色卡片，交到花見／夢見手裡。"
+      },
+      {
+        "order": 2,
+        "label": "收卡入衣",
+        "trigger": "收下卡片的句子"
+      },
+      {
+        "order": 3,
+        "label": "濕地腳步與餘燼",
+        "trigger": "林道很黑，只有煙斗的火光在一點一點前行。"
+      },
+      {
+        "order": 4,
+        "label": "吹起煙草",
+        "trigger": "他吹起煙草。"
+      },
+      {
+        "order": 5,
+        "label": "式神召喚",
+        "trigger": "chapter7_shikigami_summon CG"
+      },
+      {
+        "order": 6,
+        "label": "土蜘蛛重步與短嘶聲",
+        "trigger": "土蜘蛛現身，接下一句微震／影子壓下"
+      }
+    ],
+    "hanami": [
+      {
+        "order": 7,
+        "label": "髮切鐮刃交錯"
+      },
+      {
+        "order": 8,
+        "label": "蛛腳拍地"
+      },
+      {
+        "order": 9,
+        "label": "大百足甲殼移動及衝撞"
+      },
+      {
+        "order": 10,
+        "label": "薙刀揮動及命中甲殼"
+      },
+      {
+        "order": 11,
+        "label": "蟲影纏住視線"
+      }
+    ],
+    "yumemi": [
+      {
+        "order": 7,
+        "label": "髮切鐮刃、大百足甲殼及衝撞"
+      },
+      {
+        "order": 8,
+        "label": "薙刀揮動"
+      },
+      {
+        "order": 9,
+        "label": "蛛絲細響、肩側切割"
+      },
+      {
+        "order": 10,
+        "label": "蛛腳拍地"
+      },
+      {
+        "order": 11,
+        "label": "土蜘蛛倒下"
+      },
+      {
+        "order": 12,
+        "label": "髮切追擊、切斷絲影"
+      }
+    ]
+  },
+  "review_mode": {
+    "date": "2026-10-19",
+    "batch": "BATCH05_FOREST_BATTLE",
+    "method": "Temporary after_warp route menu; actual integrated battle prefixes copied without changing dialogue or audio commands.",
+    "excludes": "Inn attack, death, return, rewind and chapter 8 scenes remain for batches 06 and 07.",
+    "source_script_sha256": "2b1b94227e497b13fa1f44250f58aa7d7621eb9619697209e418144d4676b464",
+    "review_file": "scene_review_take01.rpy",
+    "review_sha256": "a7d7ff0cbee4507f45739e5b1b47531a3153e106d5ac0e86dc26b5dcbb69904a",
+    "routes": [
+      {
+        "route": "chapter_7_hanami_1",
+        "review_label": "_jz_b5_hanami_1",
+        "source_first_line": 1105,
+        "source_last_line": 1210,
+        "original_excerpt_sha256": "aac8a91af7fa9eb8cf5f208b4516018d16c18f88686fc6367f7a929b179b1a1a",
+        "source_dialogue_and_audio_unchanged": true
+      },
+      {
+        "route": "chapter_7_yumemi_1",
+        "review_label": "_jz_b5_yumemi_1",
+        "source_first_line": 1361,
+        "source_last_line": 1502,
+        "original_excerpt_sha256": "0e6394538b786c2cddebd9eab4f533ad330befad90ac8ff10dcce38e1d97774e",
+        "source_dialogue_and_audio_unchanged": true
+      },
+      {
+        "route": "chapter_7_hanami_2",
+        "review_label": "_jz_b5_hanami_2",
+        "source_first_line": 1609,
+        "source_last_line": 1739,
+        "original_excerpt_sha256": "08bd51fef7d7f157ee36212b64470f6ab29a1f975844273a231f0a76f1493511",
+        "source_dialogue_and_audio_unchanged": true
+      },
+      {
+        "route": "chapter_7_yumemi_2",
+        "review_label": "_jz_b5_yumemi_2",
+        "source_first_line": 1905,
+        "source_last_line": 2058,
+        "original_excerpt_sha256": "53509d02d4b3a3986b29a712e65935b6bf4a3010709f535553f9ea3d6784cf81",
+        "source_dialogue_and_audio_unchanged": true
+      }
+    ],
+    "producer": "prepare_scene_review_take01.py"
+  },
+  "placement_decisions": [
+    "Card handoff is hand to hand, so use existing paper/cloth handling, not the wood-table card slide.",
+    "Naginata armor hit only where the text describes cutting shell; the other branch has swing only.",
+    "Combined attacks use a single sound queue; no forced reading pause.",
+    "Descriptive character introductions do not repeat actual impact sounds before the attack occurs.",
+    "Tsuchigumo battle steps use a new heavy variation; quiet doorway spider asset stays unchanged.",
+    "Human body-fall, tear-card, inn assault and return are left for batches 06 and 07."
+  ],
+  "scene": {
+    "bgm": "existing BGM05 and BGM06 play commands unchanged",
+    "ambience": "retired; none added",
+    "forced_reading_pause_added": false,
+    "text_or_story_changed": false,
+    "review_only": "External temporary after_warp menu, battle prefixes copied from main script; no review menu in game source or release."
+  },
+  "runtime": {
+    "process_id": 38268,
+    "development_basedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe",
+    "menu_screenshot": "runtime_scene_take01.png",
+    "observation": "runtime_observation_take01.json",
+    "observed_location": [
+      "C:/Users/User/AppData/Local/Temp/jz_batch05_probe_20261019/_jz_batch05_review.rpy",
+      9
+    ],
+    "music_volume": 1.0,
+    "sfx_volume": 1.0,
+    "sfx_muted": false,
+    "ambience": null,
+    "all_new_game_assets_loaded_with_expected_hashes": true,
+    "limitations": "Menu displayed and game file hashes observed. Actual four-route timing, character sound and BGM balance await user listening; not independent assistant hearing validation."
+  },
+  "release_rebuilt": false,
+  "version_changed": false
+}

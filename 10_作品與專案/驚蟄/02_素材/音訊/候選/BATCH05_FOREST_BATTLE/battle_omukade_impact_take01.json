@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-19",
+  "cue": "SFX30_OMUKADE_IMPACT",
+  "label": "大百足撞擊的低沉甲殼衝量；可低音量共用於土蜘蛛倒下",
+  "name": "battle_omukade_impact",
+  "seed": 6030,
+  "status": "batch05 complete scene audition pending",
+  "formally_adopted": false,
+  "method": "original procedural short foley; no recording, external library, voice or model",
+  "duration_seconds": 0.88,
+  "loop": false,
+  "target_sample_peak_dbfs": -18.5,
+  "editable_source": "produce_batch05_take01.py",
+  "editable_source_sha256": "535d8818fb5c4861d42c450503d62410e47235b1c8b23b4f312abe5ec2fe01f0",
+  "wav": {
+    "file": "battle_omukade_impact_take01.wav",
+    "sha256": "818f0797d035c594d74d1638479a049b08c8c3ef827cbe2446b78e176349342c"
+  },
+  "ogg": {
+    "file": "battle_omukade_impact_take01.ogg",
+    "sha256": "a9cb8df6a9f868112d14c7ebebfc4e3f3adeb91d0fa9f6675ec239d105bd7b9b",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "0.880000"
+      }
+    },
+    "decoded_sample_peak_dbfs": -18.477218747979233,
+    "decoded_rms_dbfs": -33.77125317085119
+  }
+}
