@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-19",
+  "cue": "SFX24_SPIDER_STEPS",
+  "label": "門縫下蛛腳的極輕短促爬動提示；非巨大重步",
+  "name": "battle_spider_steps",
+  "seed": 5724,
+  "status": "batch04 complete scene audition pending",
+  "formally_adopted": false,
+  "method": "original procedural short foley; no recording, external library, voice or model",
+  "duration_seconds": 1.05,
+  "loop": false,
+  "target_sample_peak_dbfs": -30,
+  "editable_source": "produce_batch04_take01.py",
+  "editable_source_sha256": "a5010f44da480643b249a0c0b7303edbd90c06a6cd6488adb0bbb2be21eb0951",
+  "wav": {
+    "file": "battle_spider_steps_take01.wav",
+    "sha256": "e66ea6ae21404793f076a0e8b017d621d0e95513e4621974bc536da4b1044716"
+  },
+  "ogg": {
+    "file": "battle_spider_steps_take01.ogg",
+    "sha256": "e99048c846167194599c465fe59755d0afdd4a927b6cbc9fec6267911f23b001",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "1.050000"
+      }
+    },
+    "decoded_sample_peak_dbfs": -30.755677362518377,
+    "decoded_rms_dbfs": -52.03462670657465
+  }
+}

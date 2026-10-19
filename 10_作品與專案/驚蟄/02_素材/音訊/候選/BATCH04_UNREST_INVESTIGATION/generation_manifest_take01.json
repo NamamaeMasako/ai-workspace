@@ -1,0 +1,437 @@
+{
+  "date": "2026-10-19",
+  "batch": "BATCH04_UNREST_INVESTIGATION",
+  "primary_cues": 5,
+  "files": 11,
+  "candidates": [
+    {
+      "date": "2026-10-19",
+      "cue": "SFX02_DOOR_KNOCK",
+      "label": "花見房門外的兩下輕敲",
+      "name": "world_door_knock_soft",
+      "seed": 5702,
+      "status": "batch04 complete scene audition pending",
+      "formally_adopted": false,
+      "method": "original procedural short foley; no recording, external library, voice or model",
+      "duration_seconds": 0.86,
+      "loop": false,
+      "target_sample_peak_dbfs": -23,
+      "editable_source": "produce_batch04_take01.py",
+      "editable_source_sha256": "a5010f44da480643b249a0c0b7303edbd90c06a6cd6488adb0bbb2be21eb0951",
+      "wav": {
+        "file": "world_door_knock_soft_take01.wav",
+        "sha256": "bb553cb433e94367eec8bbf7143257fb4d8f9f8a12dfcb8b81fa700e40531bcb"
+      },
+      "ogg": {
+        "file": "world_door_knock_soft_take01.ogg",
+        "sha256": "a58c23a9fbee45ebf0451df3e3e8d6fa1034c02aa4c5472b5c8e780241a76814",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "0.860000"
+          }
+        },
+        "decoded_sample_peak_dbfs": -23.002570410915663,
+        "decoded_rms_dbfs": -40.15088099452835
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX06_TABLE_TAP",
+      "label": "驚蟄指尖兩下木桌敲擊",
+      "name": "world_table_tap_double",
+      "seed": 5706,
+      "status": "batch04 complete scene audition pending",
+      "formally_adopted": false,
+      "method": "original procedural short foley; no recording, external library, voice or model",
+      "duration_seconds": 0.63,
+      "loop": false,
+      "target_sample_peak_dbfs": -23,
+      "editable_source": "produce_batch04_take01.py",
+      "editable_source_sha256": "a5010f44da480643b249a0c0b7303edbd90c06a6cd6488adb0bbb2be21eb0951",
+      "wav": {
+        "file": "world_table_tap_double_take01.wav",
+        "sha256": "00bf9098dbb4cdab030a9ec0cf08020f203eb4c0c0531088f359447602662ece"
+      },
+      "ogg": {
+        "file": "world_table_tap_double_take01.ogg",
+        "sha256": "edae562356ecbc05278679666206d279caf7e09852f70beba5180ee5e5ad5f8b",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "0.630000"
+          }
+        },
+        "decoded_sample_peak_dbfs": -22.847360089267358,
+        "decoded_rms_dbfs": -39.19640050907055
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX11_LAMP_SWAY",
+      "label": "入夜前燈具實際輕晃的懸掛木結構細響",
+      "name": "world_lamp_sway",
+      "seed": 5711,
+      "status": "batch04 complete scene audition pending",
+      "formally_adopted": false,
+      "method": "original procedural short foley; no recording, external library, voice or model",
+      "duration_seconds": 0.88,
+      "loop": false,
+      "target_sample_peak_dbfs": -28,
+      "editable_source": "produce_batch04_take01.py",
+      "editable_source_sha256": "a5010f44da480643b249a0c0b7303edbd90c06a6cd6488adb0bbb2be21eb0951",
+      "wav": {
+        "file": "world_lamp_sway_take01.wav",
+        "sha256": "c1af86ce7044364cacbbe26577776b6676ff58a4f48472a73bf7d71a8a8f0f96"
+      },
+      "ogg": {
+        "file": "world_lamp_sway_take01.ogg",
+        "sha256": "4762652af3c4ae20d56491b0a55f81e9ad313571f291a1442750ae9e4a1c0cce",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "0.880000"
+          }
+        },
+        "decoded_sample_peak_dbfs": -28.0144046820406,
+        "decoded_rms_dbfs": -45.56996336079024
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX22_SILK_WHISPER",
+      "label": "袖口細物縮回的低聲纖維張力提示",
+      "name": "battle_silk_whisper",
+      "seed": 5722,
+      "status": "batch04 complete scene audition pending",
+      "formally_adopted": false,
+      "method": "original procedural short foley; no recording, external library, voice or model",
+      "duration_seconds": 0.8,
+      "loop": false,
+      "target_sample_peak_dbfs": -29,
+      "editable_source": "produce_batch04_take01.py",
+      "editable_source_sha256": "a5010f44da480643b249a0c0b7303edbd90c06a6cd6488adb0bbb2be21eb0951",
+      "wav": {
+        "file": "battle_silk_whisper_take01.wav",
+        "sha256": "ece3dd571ad6f19bef13054b6f13231b312f02ad53e599672416efd0015fc4ad"
+      },
+      "ogg": {
+        "file": "battle_silk_whisper_take01.ogg",
+        "sha256": "8197fbaa97f1a7d0a1a88bebc8be109af9c569bc11a9d9b28d2b387ec67bfa7f",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "0.800000"
+          }
+        },
+        "decoded_sample_peak_dbfs": -29.46891209278709,
+        "decoded_rms_dbfs": -47.95141367495803
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX24_SPIDER_STEPS",
+      "label": "門縫下蛛腳的極輕短促爬動提示；非巨大重步",
+      "name": "battle_spider_steps",
+      "seed": 5724,
+      "status": "batch04 complete scene audition pending",
+      "formally_adopted": false,
+      "method": "original procedural short foley; no recording, external library, voice or model",
+      "duration_seconds": 1.05,
+      "loop": false,
+      "target_sample_peak_dbfs": -30,
+      "editable_source": "produce_batch04_take01.py",
+      "editable_source_sha256": "a5010f44da480643b249a0c0b7303edbd90c06a6cd6488adb0bbb2be21eb0951",
+      "wav": {
+        "file": "battle_spider_steps_take01.wav",
+        "sha256": "e66ea6ae21404793f076a0e8b017d621d0e95513e4621974bc536da4b1044716"
+      },
+      "ogg": {
+        "file": "battle_spider_steps_take01.ogg",
+        "sha256": "e99048c846167194599c465fe59755d0afdd4a927b6cbc9fec6267911f23b001",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "1.050000"
+          }
+        },
+        "decoded_sample_peak_dbfs": -30.755677362518377,
+        "decoded_rms_dbfs": -52.03462670657465
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX23_SILK_CUT",
+      "label": "窗邊極細裂響變體；戰鬥切絲基礎音仍待第五批",
+      "name": "battle_silk_snap_fine",
+      "seed": 5823,
+      "status": "batch04 complete scene audition pending",
+      "formally_adopted": false,
+      "method": "original procedural short foley; no recording, external library, voice or model",
+      "duration_seconds": 0.32,
+      "loop": false,
+      "target_sample_peak_dbfs": -27,
+      "editable_source": "produce_batch04_take01.py",
+      "editable_source_sha256": "a5010f44da480643b249a0c0b7303edbd90c06a6cd6488adb0bbb2be21eb0951",
+      "wav": {
+        "file": "battle_silk_snap_fine_take01.wav",
+        "sha256": "d6949cdafa3a1f0f1d3a878ef88bd0c8d1c79e84a4fe316df98e5c2b083d560a"
+      },
+      "ogg": {
+        "file": "battle_silk_snap_fine_take01.ogg",
+        "sha256": "1ece8e8554a481e912fde7bd6015e8115dcab4e3775211150957835b0902bf02",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "0.320000"
+          }
+        },
+        "decoded_sample_peak_dbfs": -27.200020494459807,
+        "decoded_rms_dbfs": -47.00031665423466
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX01_SLIDING_DOOR",
+      "label": "窗扇在木軌輕移並停住的短變體",
+      "name": "world_window_slide_soft",
+      "seed": 5801,
+      "status": "batch04 complete scene audition pending",
+      "formally_adopted": false,
+      "method": "original procedural short foley; no recording, external library, voice or model",
+      "duration_seconds": 0.72,
+      "loop": false,
+      "target_sample_peak_dbfs": -25,
+      "editable_source": "produce_batch04_take01.py",
+      "editable_source_sha256": "a5010f44da480643b249a0c0b7303edbd90c06a6cd6488adb0bbb2be21eb0951",
+      "wav": {
+        "file": "world_window_slide_soft_take01.wav",
+        "sha256": "f7ac8739c3603b55006d035d006dafcb57e49c79acbb753fa0c49675d770cafe"
+      },
+      "ogg": {
+        "file": "world_window_slide_soft_take01.ogg",
+        "sha256": "27dd560cb8d30f9d7cfb3e44a6b2d9bd8d304712f602659a33ec474fb7b68785",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "0.720000"
+          }
+        },
+        "decoded_sample_peak_dbfs": -25.415590143584794,
+        "decoded_rms_dbfs": -41.68611627408393
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX01_SLIDING_DOOR",
+      "label": "房門輕輕帶上的短變體",
+      "name": "world_sliding_door_close_soft",
+      "seed": 5901,
+      "status": "batch04 complete scene audition pending",
+      "formally_adopted": false,
+      "method": "original procedural short foley; no recording, external library, voice or model",
+      "duration_seconds": 0.52,
+      "loop": false,
+      "target_sample_peak_dbfs": -25,
+      "editable_source": "produce_batch04_take01.py",
+      "editable_source_sha256": "a5010f44da480643b249a0c0b7303edbd90c06a6cd6488adb0bbb2be21eb0951",
+      "wav": {
+        "file": "world_sliding_door_close_soft_take01.wav",
+        "sha256": "b115a6a17bfe45bbaabaf368b3050866b178e5ee6a166986cf9172c24cf0fa6f"
+      },
+      "ogg": {
+        "file": "world_sliding_door_close_soft_take01.ogg",
+        "sha256": "2537b02da44afe0bd83dbf1e6d1e603b6467cbf994535ea7c2bea51697d895f5",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "0.520000"
+          }
+        },
+        "decoded_sample_peak_dbfs": -24.625365780800728,
+        "decoded_rms_dbfs": -41.734228496830035
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX08_PAPER_FOLD",
+      "label": "未點燃煙草摩挲／灰殼掃拂／未燃香封味的乾燥細物變體",
+      "name": "world_dry_material_rub",
+      "seed": 5808,
+      "status": "batch04 complete scene audition pending",
+      "formally_adopted": false,
+      "method": "original procedural short foley; no recording, external library, voice or model",
+      "duration_seconds": 0.73,
+      "loop": false,
+      "target_sample_peak_dbfs": -27,
+      "editable_source": "produce_batch04_take01.py",
+      "editable_source_sha256": "a5010f44da480643b249a0c0b7303edbd90c06a6cd6488adb0bbb2be21eb0951",
+      "wav": {
+        "file": "world_dry_material_rub_take01.wav",
+        "sha256": "bb5e98b51fce1af21327de87e0127f587af9e850de55bb6000e6a7d722f8d103"
+      },
+      "ogg": {
+        "file": "world_dry_material_rub_take01.ogg",
+        "sha256": "400807892c75d3287755e6f3bb3a8d1a7803be7656dc10a3b0861c8f2ee40ade",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "0.730000"
+          }
+        },
+        "decoded_sample_peak_dbfs": -27.702708183552467,
+        "decoded_rms_dbfs": -44.652025233783235
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX08_PAPER_FOLD",
+      "label": "攤開筆記的封面與紙頁變體",
+      "name": "world_notebook_open",
+      "seed": 5908,
+      "status": "batch04 complete scene audition pending",
+      "formally_adopted": false,
+      "method": "original procedural short foley; no recording, external library, voice or model",
+      "duration_seconds": 0.69,
+      "loop": false,
+      "target_sample_peak_dbfs": -24,
+      "editable_source": "produce_batch04_take01.py",
+      "editable_source_sha256": "a5010f44da480643b249a0c0b7303edbd90c06a6cd6488adb0bbb2be21eb0951",
+      "wav": {
+        "file": "world_notebook_open_take01.wav",
+        "sha256": "1c1802bca579d2be3d9e861b69df0076e80df61017ea0825bb847ffc51f85490"
+      },
+      "ogg": {
+        "file": "world_notebook_open_take01.ogg",
+        "sha256": "4b567c1455a3211ff7801815d8cbb1dd7feb8fcd53e1e3166d406e704f8955ca",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "0.690000"
+          }
+        },
+        "decoded_sample_peak_dbfs": -24.770596792947345,
+        "decoded_rms_dbfs": -40.92440827837997
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX17_MAILBOX_OPEN",
+      "label": "將完整郵箱收進房梁暗格的木盒接觸與暗格木件移動變體",
+      "name": "world_mailbox_stow",
+      "seed": 5817,
+      "status": "batch04 complete scene audition pending",
+      "formally_adopted": false,
+      "method": "original procedural short foley; no recording, external library, voice or model",
+      "duration_seconds": 0.95,
+      "loop": false,
+      "target_sample_peak_dbfs": -24,
+      "editable_source": "produce_batch04_take01.py",
+      "editable_source_sha256": "a5010f44da480643b249a0c0b7303edbd90c06a6cd6488adb0bbb2be21eb0951",
+      "wav": {
+        "file": "world_mailbox_stow_take01.wav",
+        "sha256": "13a613946eff920d231bae4678466fdf759881747cb253847147a5a0fa3c7791"
+      },
+      "ogg": {
+        "file": "world_mailbox_stow_take01.ogg",
+        "sha256": "bde1047170f1bbe6e0efa90e44da6dcff5a7fbec132a6988fbc53a39e957ce19",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "0.950000"
+          }
+        },
+        "decoded_sample_peak_dbfs": -24.31998703743517,
+        "decoded_rms_dbfs": -42.085471633806534
+      }
+    }
+  ]
+}

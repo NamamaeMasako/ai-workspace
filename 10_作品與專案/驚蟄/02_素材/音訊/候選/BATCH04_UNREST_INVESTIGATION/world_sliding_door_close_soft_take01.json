@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-19",
+  "cue": "SFX01_SLIDING_DOOR",
+  "label": "房門輕輕帶上的短變體",
+  "name": "world_sliding_door_close_soft",
+  "seed": 5901,
+  "status": "batch04 complete scene audition pending",
+  "formally_adopted": false,
+  "method": "original procedural short foley; no recording, external library, voice or model",
+  "duration_seconds": 0.52,
+  "loop": false,
+  "target_sample_peak_dbfs": -25,
+  "editable_source": "produce_batch04_take01.py",
+  "editable_source_sha256": "a5010f44da480643b249a0c0b7303edbd90c06a6cd6488adb0bbb2be21eb0951",
+  "wav": {
+    "file": "world_sliding_door_close_soft_take01.wav",
+    "sha256": "b115a6a17bfe45bbaabaf368b3050866b178e5ee6a166986cf9172c24cf0fa6f"
+  },
+  "ogg": {
+    "file": "world_sliding_door_close_soft_take01.ogg",
+    "sha256": "2537b02da44afe0bd83dbf1e6d1e603b6467cbf994535ea7c2bea51697d895f5",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "0.520000"
+      }
+    },
+    "decoded_sample_peak_dbfs": -24.625365780800728,
+    "decoded_rms_dbfs": -41.734228496830035
+  }
+}

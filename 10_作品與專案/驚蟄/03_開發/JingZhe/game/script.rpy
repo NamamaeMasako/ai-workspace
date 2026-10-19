@@ -533,6 +533,7 @@ label chapter_4:
 
     narrator "入夜前的風變得濕。"
 
+    play sound "audio/sfx/world/world_lamp_sway.ogg"
     narrator "月下庄的燈在風裡輕晃，像是有人用指尖撥動。"
 
     show jingzhe wary at zh_center
@@ -622,6 +623,7 @@ label chapter_4:
     scene bg inn_room_night
     with dissolve
 
+    play sound "audio/sfx/world/world_window_slide_soft.ogg"
     narrator "回到房裡，他把窗關上。"
 
     narrator "煙斗在掌心被握了一下，沒有點火。"
@@ -683,6 +685,7 @@ label chapter_5:
 
     narrator "回答太快，像背好的句子。"
 
+    play sound "audio/sfx/world/world_table_tap_double.ogg"
     narrator "驚蟄的指尖輕輕敲了兩下桌面，像在確認某個節拍。"
 
     narrator "他瞥見她袖口邊緣有一點極細的白絲。"
@@ -697,6 +700,7 @@ label chapter_5:
     scene bg inn_room_night
     with dissolve
 
+    play sound "audio/sfx/world/world_door_knock_soft.ogg"
     narrator "夜裡，花見敲了他的門。"
 
     show hanami possessed_sweet at zh_left
@@ -705,8 +709,10 @@ label chapter_5:
     jingzhe "……進來吧。"
     show jingzhe wary at zh_right
 
+    play sound "audio/sfx/world/world_sliding_door.ogg" volume 0.55
     narrator "她走進來時沒有先說話。"
 
+    queue sound "audio/sfx/world/world_sliding_door_close_soft.ogg"
     narrator "只把門輕輕帶上。"
 
     narrator "那個動作讓房裡忽然太安靜了。"
@@ -751,6 +757,7 @@ label chapter_5:
     show jingzhe battle at zh_right
     narrator "他把煙斗放到唇邊，沒有點燃。"
 
+    play sound "audio/sfx/world/world_dry_material_rub.ogg"
     narrator "只用指尖摩挲著煙草。"
 
     narrator "房間裡的氣味微微變了。"
@@ -768,6 +775,7 @@ label chapter_5:
 
     narrator "香味再重一點。"
 
+    play sound "audio/sfx/battle/battle_silk_snap_fine.ogg"
     narrator "窗邊傳來一聲極細的裂響。"
 
     narrator "像有什麼小東西從梁上掉下去。"
@@ -781,6 +789,7 @@ label chapter_5:
 
     jingzhe "不是妳。"
 
+    play sound "audio/sfx/world/world_window_slide_soft.ogg" volume 0.8
     narrator "驚蟄沒有多說，只把窗開了一道縫，讓冷風進來。"
 
     narrator "花見站在原地，像還沒從某場夢裡完全醒過來。"
@@ -850,6 +859,7 @@ label chapter_5:
 
     narrator "和昨晚花見袖口上的一模一樣。"
 
+    play sound "audio/sfx/world/world_dry_material_rub.ogg"
     narrator "他再一次摩挲煙草。"
 
     narrator "那股細尖的味道被壓下去。"
@@ -882,6 +892,7 @@ label chapter_5:
 
     narrator "那晚，走廊的燈滅了一盞。"
 
+    play sound "audio/sfx/battle/battle_spider_steps.ogg"
     narrator "驚蟄在門縫下看見一截細細的影子。"
 
     narrator "像是蜘蛛的腳，又像是被風拉長的黑線。"
@@ -900,6 +911,7 @@ label chapter_5:
 
     narrator "她像是在確認剛才那些身體說出的話，也像是在學習人的表情。"
 
+    play sound "audio/sfx/battle/battle_silk_whisper.ogg"
     narrator "袖口深處，有什麼極細的東西輕輕縮了回去。"
 
     narrator "她沒有失望。"
@@ -972,6 +984,7 @@ label chapter_6:
     narrator "灰裡混著極細的殼，像是小蜘蛛的遺骸。"
 
     show jingzhe stern at zh_center
+    play sound "audio/sfx/world/world_dry_material_rub.ogg" volume 0.7
     narrator "他沒有驚動別人，只是把灰掃進掌心。"
 
     narrator "那一刻，他明白了。"
@@ -985,12 +998,16 @@ label chapter_6:
     scene bg inn_room_evening
     with dissolve
 
+    play sound "audio/sfx/world/world_notebook_open.ogg"
     narrator "入夜前，他在桌上攤開筆記。"
 
     narrator "不是小說，而是簡單的地圖。"
 
     narrator "月下庄、附近林道、能躲藏的洞窟與斷崖。"
 
+    play sound "audio/sfx/world/world_writing_pen.ogg" volume 0.8
+    queue sound "<silence 0.12>"
+    queue sound "audio/sfx/world/world_writing_pen.ogg" volume 0.8
     narrator "他把幾條路線畫得很慢。"
 
     show jingzhe pensive at zh_center
@@ -998,8 +1015,10 @@ label chapter_6:
 
     narrator "每一條線，都像在計算他可能失去的人。"
 
+    play sound "audio/sfx/world/world_mailbox_stow.ogg"
     narrator "畫完後，他把郵箱收進房梁的暗格。"
 
+    queue sound "audio/sfx/world/world_dry_material_rub.ogg" volume 0.65
     narrator "又用淡淡的蟲香封住氣味，像是把訊號埋進霧裡。"
 
     play music "<loop 3.75>audio/music/bgm_silk_under_door.ogg" loop fadeout 1.5 fadein 1.5
@@ -1045,6 +1064,7 @@ label chapter_6:
 
     jingzhe "……"
 
+    play sound "audio/sfx/world/world_cloth_wrapped_naginata.ogg" volume 0.8
     narrator "她轉身回房，取出暮春大姊留下的薙刀。"
 
     show yumemi determined at zh_far_right
@@ -1054,6 +1074,7 @@ label chapter_6:
 
     narrator "他點頭。"
 
+    play sound "audio/sfx/magic/magic_black_card_pulse.ogg" volume 0.7
     narrator "但袖口中那張黑色卡片，似乎有意識地貼上了指尖。"
 
     narrator "卡片很冷，像是早已等著他把某個人推向安全的那一邊。"

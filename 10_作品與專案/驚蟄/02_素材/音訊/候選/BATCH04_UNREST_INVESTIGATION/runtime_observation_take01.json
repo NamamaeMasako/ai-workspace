@@ -1,0 +1,36 @@
+{
+  "timestamp": 1792381021.118985,
+  "basedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe",
+  "gamedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe\\game",
+  "location": [
+    "game/script.rpy",
+    534
+  ],
+  "music": "audio/music/bgm_moon_inn_night.ogg",
+  "music_position": 44.261,
+  "sound": null,
+  "sound_position": null,
+  "music_volume": 1.0,
+  "sfx_volume": 1.0,
+  "music_muted": false,
+  "sfx_muted": false,
+  "master_muted": false,
+  "ambience": null,
+  "asset_hashes": {
+    "world/world_door_knock_soft.ogg": "a58c23a9fbee45ebf0451df3e3e8d6fa1034c02aa4c5472b5c8e780241a76814",
+    "world/world_table_tap_double.ogg": "edae562356ecbc05278679666206d279caf7e09852f70beba5180ee5e5ad5f8b",
+    "world/world_lamp_sway.ogg": "4762652af3c4ae20d56491b0a55f81e9ad313571f291a1442750ae9e4a1c0cce",
+    "battle/battle_silk_whisper.ogg": "8197fbaa97f1a7d0a1a88bebc8be109af9c569bc11a9d9b28d2b387ec67bfa7f",
+    "battle/battle_spider_steps.ogg": "e99048c846167194599c465fe59755d0afdd4a927b6cbc9fec6267911f23b001",
+    "battle/battle_silk_snap_fine.ogg": "1ece8e8554a481e912fde7bd6015e8115dcab4e3775211150957835b0902bf02",
+    "world/world_window_slide_soft.ogg": "27dd560cb8d30f9d7cfb3e44a6b2d9bd8d304712f602659a33ec474fb7b68785",
+    "world/world_sliding_door_close_soft.ogg": "2537b02da44afe0bd83dbf1e6d1e603b6467cbf994535ea7c2bea51697d895f5",
+    "world/world_dry_material_rub.ogg": "400807892c75d3287755e6f3bb3a8d1a7803be7656dc10a3b0861c8f2ee40ade",
+    "world/world_notebook_open.ogg": "4b567c1455a3211ff7801815d8cbb1dd7feb8fcd53e1e3166d406e704f8955ca",
+    "world/world_mailbox_stow.ogg": "bde1047170f1bbe6e0efa90e44da6dcff5a7fbec132a6988fbc53a39e957ce19",
+    "world/world_sliding_door.ogg": "52c0de231ac0a4cd7fd42e669c12f3c56cf381d5db8edcf3b985ec0ba22b8947",
+    "world/world_writing_pen.ogg": "60ab6ce0954b9320c4fdd6142929ae88a8c25596cc47d8fd0fafb6196ecc7fd1",
+    "world/world_cloth_wrapped_naginata.ogg": "e538cf8ad4ac6cc5bd37ee59bd08586e758d2e9346a5d0cba810f2bb81b131ec",
+    "magic/magic_black_card_pulse.ogg": "1d96ec81e69b90d669972a85d8b1067e595a5271635a66f5b35958dae27da060"
+  }
+}

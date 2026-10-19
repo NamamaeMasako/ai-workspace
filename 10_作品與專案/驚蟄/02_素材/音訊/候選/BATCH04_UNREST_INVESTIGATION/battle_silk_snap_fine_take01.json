@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-19",
+  "cue": "SFX23_SILK_CUT",
+  "label": "窗邊極細裂響變體；戰鬥切絲基礎音仍待第五批",
+  "name": "battle_silk_snap_fine",
+  "seed": 5823,
+  "status": "batch04 complete scene audition pending",
+  "formally_adopted": false,
+  "method": "original procedural short foley; no recording, external library, voice or model",
+  "duration_seconds": 0.32,
+  "loop": false,
+  "target_sample_peak_dbfs": -27,
+  "editable_source": "produce_batch04_take01.py",
+  "editable_source_sha256": "a5010f44da480643b249a0c0b7303edbd90c06a6cd6488adb0bbb2be21eb0951",
+  "wav": {
+    "file": "battle_silk_snap_fine_take01.wav",
+    "sha256": "d6949cdafa3a1f0f1d3a878ef88bd0c8d1c79e84a4fe316df98e5c2b083d560a"
+  },
+  "ogg": {
+    "file": "battle_silk_snap_fine_take01.ogg",
+    "sha256": "1ece8e8554a481e912fde7bd6015e8115dcab4e3775211150957835b0902bf02",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "0.320000"
+      }
+    },
+    "decoded_sample_peak_dbfs": -27.200020494459807,
+    "decoded_rms_dbfs": -47.00031665423466
+  }
+}

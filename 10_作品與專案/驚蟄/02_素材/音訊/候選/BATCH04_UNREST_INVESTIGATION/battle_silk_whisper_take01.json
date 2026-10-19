@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-19",
+  "cue": "SFX22_SILK_WHISPER",
+  "label": "袖口細物縮回的低聲纖維張力提示",
+  "name": "battle_silk_whisper",
+  "seed": 5722,
+  "status": "batch04 complete scene audition pending",
+  "formally_adopted": false,
+  "method": "original procedural short foley; no recording, external library, voice or model",
+  "duration_seconds": 0.8,
+  "loop": false,
+  "target_sample_peak_dbfs": -29,
+  "editable_source": "produce_batch04_take01.py",
+  "editable_source_sha256": "a5010f44da480643b249a0c0b7303edbd90c06a6cd6488adb0bbb2be21eb0951",
+  "wav": {
+    "file": "battle_silk_whisper_take01.wav",
+    "sha256": "ece3dd571ad6f19bef13054b6f13231b312f02ad53e599672416efd0015fc4ad"
+  },
+  "ogg": {
+    "file": "battle_silk_whisper_take01.ogg",
+    "sha256": "8197fbaa97f1a7d0a1a88bebc8be109af9c569bc11a9d9b28d2b387ec67bfa7f",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "0.800000"
+      }
+    },
+    "decoded_sample_peak_dbfs": -29.46891209278709,
+    "decoded_rms_dbfs": -47.95141367495803
+  }
+}

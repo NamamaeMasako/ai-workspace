@@ -1,8 +1,8 @@
 {
   "date": "2026-10-19",
   "batch": "BATCH03_TAVERN_CARD",
-  "status": "whole chapter prepared; user scene audition pending",
-  "formally_adopted": false,
+  "status": "formally_adopted",
+  "formally_adopted": true,
   "user_instruction": "OK，繼續；確認清單需按場景實際出現順序",
   "primary_cues": [
     "SFX09_CARD_PLACE",
@@ -118,5 +118,8 @@
     "limitations": "Entry screen and files observed. Full scene, naturalness, trigger timing and BGM balance await user listening; not independent assistant hearing acceptance."
   },
   "release_rebuilt": false,
-  "version_changed": false
+  "version_changed": false,
+  "user_scene_feedback": "好，繼續ˋ",
+  "approval_date": "2026-10-19",
+  "approval_basis": "User approved and continued after receiving the complete third-chapter scene and ordered six-sound checklist; user acceptance, not independent assistant hearing validation."
 }
