@@ -11,6 +11,7 @@ label before_main_menu:
     return
 
 label start:
+    $ save_name = "故事開始"
     stop music fadeout 1.0
     stop ambience fadeout 1.0
     stop sound fadeout 0.2
@@ -1093,6 +1094,7 @@ label chapter_6:
     jump chapter_7_choice_1
 label chapter_7_choice_1:
     call jz_chapter_gate("chapter_7")
+    $ save_name = "第七章・錯路\n第一次交卡：選擇前"
     if renpy.music.get_playing(channel="music") != "<loop 3.75>audio/music/bgm_silk_under_door.ogg":
         play music "<loop 3.75>audio/music/bgm_silk_under_door.ogg" loop fadeout 1.5 fadein 1.5
 
@@ -1111,6 +1113,7 @@ label chapter_7_choice_1:
             jump chapter_7_yumemi_1
 
 label chapter_7_hanami_1:
+    $ save_name = "第七章・錯路\n第一次交卡：花見"
     if renpy.music.get_playing(channel="music") != "<loop 3.75>audio/music/bgm_silk_under_door.ogg":
         play music "<loop 3.75>audio/music/bgm_silk_under_door.ogg" loop fadeout 1.5 fadein 1.5
 
@@ -1383,6 +1386,7 @@ label chapter_7_hanami_1:
     $ second_route = "yumemi"
     jump chapter_7_transition_second
 label chapter_7_yumemi_1:
+    $ save_name = "第七章・錯路\n第一次交卡：夢見"
     if renpy.music.get_playing(channel="music") != "<loop 3.75>audio/music/bgm_silk_under_door.ogg":
         play music "<loop 3.75>audio/music/bgm_silk_under_door.ogg" loop fadeout 1.5 fadein 1.5
 
@@ -1629,6 +1633,7 @@ label chapter_7_yumemi_1:
     $ second_route = "hanami"
     jump chapter_7_transition_second
 label chapter_7_transition_second:
+    $ save_name = "第七章・錯路\n第二次交卡前"
     scene black
     with fade
 
@@ -1640,6 +1645,7 @@ label chapter_7_transition_second:
         jump chapter_7_yumemi_2
 
 label chapter_7_hanami_2:
+    $ save_name = "第七章・錯路\n第二次交卡：花見"
     if renpy.music.get_playing(channel="music") != "<loop 3.75>audio/music/bgm_silk_under_door.ogg":
         play music "<loop 3.75>audio/music/bgm_silk_under_door.ogg" loop fadeout 1.5 fadein 1.5
 
@@ -1952,6 +1958,7 @@ label chapter_7_hanami_2:
 
     jump chapter_8_choice
 label chapter_7_yumemi_2:
+    $ save_name = "第七章・錯路\n第二次交卡：夢見"
     if renpy.music.get_playing(channel="music") != "<loop 3.75>audio/music/bgm_silk_under_door.ogg":
         play music "<loop 3.75>audio/music/bgm_silk_under_door.ogg" loop fadeout 1.5 fadein 1.5
 
@@ -2226,6 +2233,7 @@ label chapter_7_yumemi_2:
     jump chapter_8_choice
 label chapter_8_choice:
     call jz_chapter_gate("chapter_8")
+    $ save_name = "第八章・春雷\n最後的選擇"
     stop music
 
     scene bg inn_hall_evening
@@ -2258,6 +2266,7 @@ label chapter_8_choice:
         "把卡留給自己":
             jump chapter_8_true_end
 label chapter_8_true_end:
+    $ save_name = "第八章・春雷\n把卡留給自己"
     play music "<loop 3.0>audio/music/bgm_choose_my_fate.ogg" loop fadeout 0.5 fadein 0.8
 
     play sound "audio/sfx/magic/magic_black_card_pulse.ogg" volume 0.7

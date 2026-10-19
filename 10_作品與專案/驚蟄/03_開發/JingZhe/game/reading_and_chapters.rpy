@@ -91,6 +91,7 @@ label jz_chapter_gate(chapter_key):
         $ renpy.end_replay()
 
     $ _jz_chapter_entry = next(e for e in jz_chapter_entries if e[0] == chapter_key)
+    $ save_name = "{}・{}".format(_jz_chapter_entry[1], _jz_chapter_entry[2])
     $ _jz_chapter_previous_quick_menu = quick_menu
     $ quick_menu = False
     window hide

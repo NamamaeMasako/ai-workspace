@@ -390,6 +390,10 @@ style slot_button_text is gui_button_text
 style slot_time_text is slot_button_text
 style slot_name_text is slot_button_text
 
+style slot_name_text:
+    xsize config.thumbnail_width
+    text_align 0.5
+
 screen preferences():
     tag menu
     use game_menu(_('設定'), scroll='viewport'):

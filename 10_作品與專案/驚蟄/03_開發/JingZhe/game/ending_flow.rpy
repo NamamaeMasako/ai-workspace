@@ -114,6 +114,7 @@ screen jz_ending_complete():
         action Return()
 
 label jz_ending_flow:
+    $ save_name = "第八章・春雷\n製作名單"
     $ _jz_ending_previous_quick_menu = quick_menu
     $ quick_menu = False
     window hide
@@ -125,6 +126,7 @@ label jz_ending_flow:
 
     scene cg ending_dawn_companions
     with Dissolve(1.5)
+    $ save_name = "第八章・春雷\n完"
     if not _in_replay:
         $ persistent.jz_completed = True
         $ renpy.save_persistent()
