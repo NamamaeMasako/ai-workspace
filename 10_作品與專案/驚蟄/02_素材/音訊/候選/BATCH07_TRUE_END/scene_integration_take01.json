@@ -1,8 +1,8 @@
 {
   "date": "2026-10-19",
   "batch": "BATCH07_TRUE_END",
-  "status": "awaiting_user_whole_scene_confirmation",
-  "formally_adopted": false,
+  "status": "formally_adopted",
+  "formally_adopted": true,
   "primary_cues": 2,
   "variants": 3,
   "new_files": 5,
@@ -591,5 +591,7 @@
     "sfx_volume": 1.0,
     "ambience": null,
     "note": "第八章選擇前無BGM，屬原配置。尚未宣稱完整人工聽驗。"
-  }
+  },
+  "formal_adoption": "formal_adoption.json",
+  "adoption_date": "2026-10-19"
 }

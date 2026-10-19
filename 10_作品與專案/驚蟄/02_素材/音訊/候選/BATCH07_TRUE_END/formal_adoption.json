@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-19",
+  "batch": "BATCH07_TRUE_END",
+  "status": "formally_adopted",
+  "user_feedback": "OK",
+  "primary_cues": 2,
+  "variants": 3,
+  "new_files": 5,
+  "assets": [
+    {
+      "cue": "SFX20_MAGIC_RIFT",
+      "name": "magic_night_rift",
+      "source": "magic_night_rift_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/magic/magic_night_rift.ogg",
+      "sha256": "10215b8f40643fdbb5800cd0254204fae4339d942cb1c5b96e25806704677a00",
+      "matches_source": true
+    },
+    {
+      "cue": "SFX32_COUGH_BLOOD",
+      "name": "battle_cough_blood",
+      "source": "battle_cough_blood_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/battle/battle_cough_blood.ogg",
+      "sha256": "6110b2e680e0bc277951c95f833ac32236bc3f3578df137df455b0e30ceca145",
+      "matches_source": true
+    },
+    {
+      "cue": "SFX08_HERB_VARIANT",
+      "name": "world_herb_crush",
+      "source": "world_herb_crush_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/world/world_herb_crush.ogg",
+      "sha256": "945b37205f708c434cfe705c878d442f00bd859903235349330df40db10b318c",
+      "matches_source": true
+    },
+    {
+      "cue": "SFX31_HIT_VARIANT",
+      "name": "battle_body_hit_dull",
+      "source": "battle_body_hit_dull_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/battle/battle_body_hit_dull.ogg",
+      "sha256": "24d5d2204edcd96b2ddac593e98c9db741d86ce4cb2eefb001e06e5b5209cb07",
+      "matches_source": true
+    },
+    {
+      "cue": "SFX18_HOLD_VARIANT",
+      "name": "magic_black_card_pulse_hold",
+      "source": "magic_black_card_pulse_hold_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/magic/magic_black_card_pulse_hold.ogg",
+      "sha256": "c3421492aed5b51beae8c4a362f0b0790e840486a02bb42117ac16031f7111c8",
+      "matches_source": true
+    }
+  ],
+  "ordered_checklist_points": 47,
+  "integration_record": "scene_integration_take01.json",
+  "scope": "生前已核可第八章從留卡、苦香決戰、負傷救援至清晨結局的現行音效與BGM搭配。本次只記錄核可、未修改遊戲文字或音訊，未將人工核可擴稱為全路線自動播放／快轉／存讀檔測試通過。",
+  "release_rebuilt": false,
+  "version_changed": false
+}
