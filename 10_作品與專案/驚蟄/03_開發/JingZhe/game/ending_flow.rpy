@@ -61,13 +61,6 @@ screen jz_ending_credits():
                     size 30
                     color "#F5F1E8"
 
-        null height 24
-        text "感謝遊玩":
-            xalign 0.5
-            text_align 0.5
-            size 28
-            color "#E4D7C2"
-
     timer 37.0 action Return()
 
     textbutton "略過製作名單":

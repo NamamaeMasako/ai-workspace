@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-19",
+  "id": "CG-END-01",
+  "status": "formally_adopted",
+  "user_feedback": "結局CG有感謝遊玩了製作名單那邊就不要再出現感謝遊玩了，其餘沒有問題",
+  "formal_source": "02_素材/CG/結局_月下庄清晨三人相伴CG_v1.0.png",
+  "game_file": "03_開發/JingZhe/game/images/cg/ending_dawn_companions.png",
+  "sha256": "26ab328e33560f982d00a8815fea4694425941319709e193c0b922ebafc20fbd",
+  "matches_game": true,
+  "candidate_preserved": "02_素材/CG/結局_月下庄清晨三人相伴CG_v0.1.png",
+  "generation_record": "結局_月下庄清晨三人相伴CG_v0.1_生成紀錄.json",
+  "correction": "移除黑底製作名單末尾感謝遊玩，只保留完成畫面上的一處。",
+  "unchanged": "CG圖像、署名、捲動時間、轉場、BGM與其餘介面保持原版。",
+  "tests_run": false,
+  "release_rebuilt": false,
+  "version_changed": false
+}

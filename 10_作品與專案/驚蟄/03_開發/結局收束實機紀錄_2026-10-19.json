@@ -1,6 +1,6 @@
 {
   "date": "2026-10-19",
-  "status": "implemented_pending_user_approval",
+  "status": "user_approved_with_duplicate_thanks_removed",
   "process_id": 28244,
   "launch": "development basedir; --warp script.rpy:2897; no custom review menu",
   "observations": {
@@ -43,5 +43,8 @@
   "music": "Existing BGM07 continues through credits and ending screen, fades on Return to main menu",
   "tests_run": false,
   "release_rebuilt": false,
-  "version_changed": false
+  "version_changed": false,
+  "user_feedback": "結局CG有感謝遊玩了製作名單那邊就不要再出現感謝遊玩了，其餘沒有問題",
+  "formal_adoption": "02_素材/CG/結局_月下庄清晨三人相伴CG_v1.0_採用紀錄.json",
+  "final_correction": "製作名單不顯示感謝遊玩，完成畫面保留。原觀察截圖為修正前歷程，未重新啟動遊戲。"
 }
