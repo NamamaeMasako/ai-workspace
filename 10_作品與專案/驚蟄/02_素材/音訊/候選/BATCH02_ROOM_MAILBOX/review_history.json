@@ -1,0 +1,16 @@
+{
+  "batch": "BATCH02_ROOM_MAILBOX",
+  "status": "awaiting_user_whole_scene_confirmation",
+  "reviews": [
+    {
+      "date": "2026-10-19",
+      "stage": "take01_whole_chapter_prepared",
+      "instruction": "先完成每個場景全部音效再一次檢查",
+      "assets": 7,
+      "primary_cues": 5,
+      "game_integrated": true,
+      "formally_adopted": false,
+      "integration": "scene_integration_take01.json"
+    }
+  ]
+}

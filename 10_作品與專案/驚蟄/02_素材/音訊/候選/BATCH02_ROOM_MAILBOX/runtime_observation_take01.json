@@ -1,0 +1,28 @@
+{
+  "timestamp": 1792379440.5394475,
+  "basedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe",
+  "gamedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe\\game",
+  "location": [
+    "game/script.rpy",
+    282
+  ],
+  "music": "audio/music/bgm_moon_inn_night.ogg",
+  "music_position": 10.57,
+  "sound": null,
+  "sound_position": null,
+  "music_volume": 1.0,
+  "sfx_volume": 1.0,
+  "music_muted": false,
+  "sfx_muted": false,
+  "master_muted": false,
+  "ambience": null,
+  "asset_hashes": {
+    "world/world_footstep_wood.ogg": "7839b4c3c76eb35efd28978e9037384ebc2ed0fbeaa20a48b3a952109eff817a",
+    "world/world_paper_fold.ogg": "962776bc5fcf1f7e93e9785f90816f95049ae32d621739481bcd0113fbe41661",
+    "world/world_notebook_close.ogg": "7c4b3bc5955caf428ebfb094527add5288153126a97342dda95daa4c52bac40a",
+    "magic/magic_kiseru_draw.ogg": "fad635ef060074ac0efda203c2e4a563b4348fbeeb99176e3673c815d52b25bf",
+    "magic/magic_mailbox_reveal.ogg": "919a1ad9da0b0c547eeafc965fb25981ce79883d7578a0216818ceeaf11a5c8c",
+    "magic/magic_mailbox_open.ogg": "9c5d3f5ebca77dba9132cd9e9e18608c70d95c378036c071b72d78836e47c01c",
+    "magic/magic_mailbox_close.ogg": "bd42f61140cbeff1b456bb4b63fa69e0c1fdbe91771b2c451f00e9e577937e0f"
+  }
+}

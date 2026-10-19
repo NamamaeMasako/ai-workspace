@@ -1,0 +1,281 @@
+{
+  "date": "2026-10-19",
+  "batch": "BATCH02_ROOM_MAILBOX",
+  "primary_cues": 5,
+  "files": 7,
+  "candidates": [
+    {
+      "date": "2026-10-19",
+      "cue": "SFX04_FOOTSTEP_WOOD",
+      "label": "門外四步漸近、停住；隔門的柔和木板落腳",
+      "name": "world_footstep_wood",
+      "seed": 5304,
+      "status": "batch02 complete scene audition pending",
+      "formally_adopted": false,
+      "method": "original procedural short foley; no recording, external library, voice or model",
+      "duration_seconds": 1.95,
+      "loop": false,
+      "target_sample_peak_dbfs": -22,
+      "editable_source": "produce_batch02_take01.py",
+      "editable_source_sha256": "9e09251c33bc03566d89985775ab31545c8749b636c3ee9cd7fdb75a31b5ee89",
+      "wav": {
+        "file": "world_footstep_wood_take01.wav",
+        "sha256": "f5cc6b4e13f9c1a7bdd83b2f10fdc9ad8d200baa21a9487159a30d014aa6f9bb"
+      },
+      "ogg": {
+        "file": "world_footstep_wood_take01.ogg",
+        "sha256": "7839b4c3c76eb35efd28978e9037384ebc2ed0fbeaa20a48b3a952109eff817a",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "1.950000"
+          }
+        },
+        "decoded_sample_peak_dbfs": -21.972473053664913,
+        "decoded_rms_dbfs": -40.047823218210034
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX08_PAPER_FOLD",
+      "label": "一頁稿紙拿起、折起、壓平",
+      "name": "world_paper_fold",
+      "seed": 5308,
+      "status": "batch02 complete scene audition pending",
+      "formally_adopted": false,
+      "method": "original procedural short foley; no recording, external library, voice or model",
+      "duration_seconds": 0.9,
+      "loop": false,
+      "target_sample_peak_dbfs": -21,
+      "editable_source": "produce_batch02_take01.py",
+      "editable_source_sha256": "9e09251c33bc03566d89985775ab31545c8749b636c3ee9cd7fdb75a31b5ee89",
+      "wav": {
+        "file": "world_paper_fold_take01.wav",
+        "sha256": "f38390e7ff23ca5fd9b2fe421e09bc2abd352221d96b51db476942d40a9657de"
+      },
+      "ogg": {
+        "file": "world_paper_fold_take01.ogg",
+        "sha256": "962776bc5fcf1f7e93e9785f90816f95049ae32d621739481bcd0113fbe41661",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "0.900000"
+          }
+        },
+        "decoded_sample_peak_dbfs": -20.59785768834371,
+        "decoded_rms_dbfs": -38.42586993311882
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX14_KISERU_DRAW",
+      "label": "點火後一口克制的菸斗抽吸，無人聲",
+      "name": "magic_kiseru_draw",
+      "seed": 5314,
+      "status": "batch02 complete scene audition pending",
+      "formally_adopted": false,
+      "method": "original procedural short foley; no recording, external library, voice or model",
+      "duration_seconds": 0.95,
+      "loop": false,
+      "target_sample_peak_dbfs": -27,
+      "editable_source": "produce_batch02_take01.py",
+      "editable_source_sha256": "9e09251c33bc03566d89985775ab31545c8749b636c3ee9cd7fdb75a31b5ee89",
+      "wav": {
+        "file": "magic_kiseru_draw_take01.wav",
+        "sha256": "9eccab7466c94911ef2d5708c0f2ef3caf094639ef087bf5976adbb038caddbf"
+      },
+      "ogg": {
+        "file": "magic_kiseru_draw_take01.ogg",
+        "sha256": "fad635ef060074ac0efda203c2e4a563b4348fbeeb99176e3673c815d52b25bf",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "0.950000"
+          }
+        },
+        "decoded_sample_peak_dbfs": -27.464347269201003,
+        "decoded_rms_dbfs": -43.112316227802566
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX16_MAILBOX_REVEAL",
+      "label": "黑色小盒子特寫的低聲魔法共鳴，無尖銳提示鈴",
+      "name": "magic_mailbox_reveal",
+      "seed": 5316,
+      "status": "batch02 complete scene audition pending",
+      "formally_adopted": false,
+      "method": "original procedural short foley; no recording, external library, voice or model",
+      "duration_seconds": 1.18,
+      "loop": false,
+      "target_sample_peak_dbfs": -23,
+      "editable_source": "produce_batch02_take01.py",
+      "editable_source_sha256": "9e09251c33bc03566d89985775ab31545c8749b636c3ee9cd7fdb75a31b5ee89",
+      "wav": {
+        "file": "magic_mailbox_reveal_take01.wav",
+        "sha256": "bb55eef7d39e6ddbb057e0958437063690e90e759886a5bd5479f4a63f257ee1"
+      },
+      "ogg": {
+        "file": "magic_mailbox_reveal_take01.ogg",
+        "sha256": "919a1ad9da0b0c547eeafc965fb25981ce79883d7578a0216818ceeaf11a5c8c",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "1.180000"
+          }
+        },
+        "decoded_sample_peak_dbfs": -22.787905676817267,
+        "decoded_rms_dbfs": -33.95206809558984
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX17_MAILBOX_OPEN",
+      "label": "小木盒蓋抬起、極輕鉸鏈與木材摩擦",
+      "name": "magic_mailbox_open",
+      "seed": 5317,
+      "status": "batch02 complete scene audition pending",
+      "formally_adopted": false,
+      "method": "original procedural short foley; no recording, external library, voice or model",
+      "duration_seconds": 0.48,
+      "loop": false,
+      "target_sample_peak_dbfs": -22,
+      "editable_source": "produce_batch02_take01.py",
+      "editable_source_sha256": "9e09251c33bc03566d89985775ab31545c8749b636c3ee9cd7fdb75a31b5ee89",
+      "wav": {
+        "file": "magic_mailbox_open_take01.wav",
+        "sha256": "00e982e53ff57c80cc632794ffaa2f5e3b5af340cdbe6b925157cd37f7ae8584"
+      },
+      "ogg": {
+        "file": "magic_mailbox_open_take01.ogg",
+        "sha256": "9c5d3f5ebca77dba9132cd9e9e18608c70d95c378036c071b72d78836e47c01c",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "0.480000"
+          }
+        },
+        "decoded_sample_peak_dbfs": -22.31384148740519,
+        "decoded_rms_dbfs": -38.21946619090169
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX17_MAILBOX_OPEN",
+      "label": "盒蓋闔上、輕木質接觸與短共鳴；同 cue 關蓋變體",
+      "name": "magic_mailbox_close",
+      "seed": 5417,
+      "status": "batch02 complete scene audition pending",
+      "formally_adopted": false,
+      "method": "original procedural short foley; no recording, external library, voice or model",
+      "duration_seconds": 0.58,
+      "loop": false,
+      "target_sample_peak_dbfs": -23,
+      "editable_source": "produce_batch02_take01.py",
+      "editable_source_sha256": "9e09251c33bc03566d89985775ab31545c8749b636c3ee9cd7fdb75a31b5ee89",
+      "wav": {
+        "file": "magic_mailbox_close_take01.wav",
+        "sha256": "db3c1f3649a82e514300f2f42ba2dbe3175fe21d3619345886288a5b032ae977"
+      },
+      "ogg": {
+        "file": "magic_mailbox_close_take01.ogg",
+        "sha256": "bd42f61140cbeff1b456bb4b63fa69e0c1fdbe91771b2c451f00e9e577937e0f",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "0.580000"
+          }
+        },
+        "decoded_sample_peak_dbfs": -22.968458382616586,
+        "decoded_rms_dbfs": -40.56707068094397
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX08_PAPER_FOLD",
+      "label": "筆記本闔起的紙頁與柔和封面接觸；同 cue 變體",
+      "name": "world_notebook_close",
+      "seed": 5408,
+      "status": "batch02 complete scene audition pending",
+      "formally_adopted": false,
+      "method": "original procedural short foley; no recording, external library, voice or model",
+      "duration_seconds": 0.55,
+      "loop": false,
+      "target_sample_peak_dbfs": -24,
+      "editable_source": "produce_batch02_take01.py",
+      "editable_source_sha256": "9e09251c33bc03566d89985775ab31545c8749b636c3ee9cd7fdb75a31b5ee89",
+      "wav": {
+        "file": "world_notebook_close_take01.wav",
+        "sha256": "e4fff04cb914ecf89afabcf711b1ece1009be63e60e822215e6ed8148bde52d4"
+      },
+      "ogg": {
+        "file": "world_notebook_close_take01.ogg",
+        "sha256": "7c4b3bc5955caf428ebfb094527add5288153126a97342dda95daa4c52bac40a",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "0.550000"
+          }
+        },
+        "decoded_sample_peak_dbfs": -24.65865072390331,
+        "decoded_rms_dbfs": -41.9286351105222
+      }
+    }
+  ]
+}

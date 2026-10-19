@@ -291,8 +291,10 @@ label chapter_2:
     narrator "只是因為他喜歡。"
 
     show jingzhe pensive at zh_center
+    play sound "audio/sfx/magic/magic_kiseru_ignite.ogg" volume 0.8
     narrator "煙草點燃時，房間裡的影子也跟著變深。"
 
+    queue sound "audio/sfx/magic/magic_kiseru_draw.ogg"
     narrator "他聞到那股熟悉的味道，像是能把所有人隔在門外。"
 
     narrator "隔在門外也好。"
@@ -319,6 +321,7 @@ label chapter_2:
     scene bg inn_room_late
     with fade
 
+    play sound "audio/sfx/magic/magic_mailbox_reveal.ogg"
     show event magic_mailbox
     with dissolve
 
@@ -340,8 +343,12 @@ label chapter_2:
     with dissolve
 
     show jingzhe pensive at zh_center
+    play sound "audio/sfx/world/world_paper_fold.ogg"
+    queue sound "<silence 0.10>"
+    queue sound "audio/sfx/magic/magic_mailbox_open.ogg"
     narrator "他把今天寫好的一頁紙折起，放進郵箱。"
 
+    queue sound "audio/sfx/magic/magic_mailbox_close.ogg"
     narrator "盒蓋闔上的瞬間，紙就消失了。"
 
     narrator "有時候，他會想："
@@ -361,6 +368,7 @@ label chapter_2:
     with dissolve
 
     show jingzhe pensive at zh_center
+    play sound "audio/sfx/world/world_notebook_close.ogg"
     narrator "他合上筆記本時，窗外傳來幾聲蟲鳴。"
 
     narrator "那聲音沒有惡意，反而像是在提醒他："
@@ -369,6 +377,7 @@ label chapter_2:
 
     jingzhe "……"
 
+    play sound "audio/sfx/world/world_footstep_wood.ogg"
     narrator "此時門外傳來很輕的腳步聲。"
 
     show jingzhe pensive at zh_right
@@ -400,6 +409,7 @@ label chapter_2:
 
     jump chapter_3
 label chapter_3:
+    stop sound fadeout 0.15
     play music "audio/music/bgm_black_card_memory.ogg" loop fadeout 1.5 fadein 1.5
 
     scene bg tavern_night

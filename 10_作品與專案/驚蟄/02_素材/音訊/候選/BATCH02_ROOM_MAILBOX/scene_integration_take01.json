@@ -1,0 +1,161 @@
+{
+  "date": "2026-10-19",
+  "batch": "BATCH02_ROOM_MAILBOX",
+  "status": "whole chapter prepared; user scene audition pending",
+  "formally_adopted": false,
+  "user_instruction": "每個場景所需音效先全部完成、套入調整，再一次檢查；好，開始",
+  "primary_cues": [
+    "SFX04_FOOTSTEP_WOOD",
+    "SFX08_PAPER_FOLD",
+    "SFX14_KISERU_DRAW",
+    "SFX16_MAILBOX_REVEAL",
+    "SFX17_MAILBOX_OPEN"
+  ],
+  "new_audio_files": 7,
+  "assets": [
+    {
+      "cue": "SFX04_FOOTSTEP_WOOD",
+      "source": "world_footstep_wood_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/world/world_footstep_wood.ogg",
+      "sha256": "7839b4c3c76eb35efd28978e9037384ebc2ed0fbeaa20a48b3a952109eff817a",
+      "matches_source": true,
+      "duration_seconds": 1.95,
+      "decoded_sample_peak_dbfs": -21.972473053664913
+    },
+    {
+      "cue": "SFX08_PAPER_FOLD",
+      "source": "world_paper_fold_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/world/world_paper_fold.ogg",
+      "sha256": "962776bc5fcf1f7e93e9785f90816f95049ae32d621739481bcd0113fbe41661",
+      "matches_source": true,
+      "duration_seconds": 0.9,
+      "decoded_sample_peak_dbfs": -20.59785768834371
+    },
+    {
+      "cue": "SFX14_KISERU_DRAW",
+      "source": "magic_kiseru_draw_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/magic/magic_kiseru_draw.ogg",
+      "sha256": "fad635ef060074ac0efda203c2e4a563b4348fbeeb99176e3673c815d52b25bf",
+      "matches_source": true,
+      "duration_seconds": 0.95,
+      "decoded_sample_peak_dbfs": -27.464347269201003
+    },
+    {
+      "cue": "SFX16_MAILBOX_REVEAL",
+      "source": "magic_mailbox_reveal_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/magic/magic_mailbox_reveal.ogg",
+      "sha256": "919a1ad9da0b0c547eeafc965fb25981ce79883d7578a0216818ceeaf11a5c8c",
+      "matches_source": true,
+      "duration_seconds": 1.18,
+      "decoded_sample_peak_dbfs": -22.787905676817267
+    },
+    {
+      "cue": "SFX17_MAILBOX_OPEN",
+      "source": "magic_mailbox_open_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/magic/magic_mailbox_open.ogg",
+      "sha256": "9c5d3f5ebca77dba9132cd9e9e18608c70d95c378036c071b72d78836e47c01c",
+      "matches_source": true,
+      "duration_seconds": 0.48,
+      "decoded_sample_peak_dbfs": -22.31384148740519
+    },
+    {
+      "cue": "SFX17_MAILBOX_OPEN",
+      "source": "magic_mailbox_close_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/magic/magic_mailbox_close.ogg",
+      "sha256": "bd42f61140cbeff1b456bb4b63fa69e0c1fdbe91771b2c451f00e9e577937e0f",
+      "matches_source": true,
+      "duration_seconds": 0.58,
+      "decoded_sample_peak_dbfs": -22.968458382616586
+    },
+    {
+      "cue": "SFX08_PAPER_FOLD",
+      "source": "world_notebook_close_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/world/world_notebook_close.ogg",
+      "sha256": "7c4b3bc5955caf428ebfb094527add5288153126a97342dda95daa4c52bac40a",
+      "matches_source": true,
+      "duration_seconds": 0.55,
+      "decoded_sample_peak_dbfs": -24.65865072390331
+    }
+  ],
+  "reused": {
+    "cue": "SFX13_KISERU_IGNITE",
+    "game_file": "audio/sfx/magic/magic_kiseru_ignite.ogg",
+    "relative_volume": 0.8
+  },
+  "scene": {
+    "entry_line": 282,
+    "entry_text": "夜更深時，月下庄的走廊會安靜得像一條沒有人的河。",
+    "exit": "第三章酒館回憶開始",
+    "bgm": "existing BGM03 throughout chapter2; existing BGM04 transition at chapter3",
+    "ambience": "retired; no continuous sound added",
+    "forced_reading_pause_added": false,
+    "text_or_story_changed": false
+  },
+  "triggers": [
+    {
+      "text": "煙草點燃時，房間裡的影子也跟著變深。",
+      "files": [
+        "magic_kiseru_ignite.ogg"
+      ],
+      "volume": 0.8
+    },
+    {
+      "text": "他聞到那股熟悉的味道，像是能把所有人隔在門外。",
+      "files": [
+        "magic_kiseru_draw.ogg"
+      ],
+      "method": "queue after ignition"
+    },
+    {
+      "text": "magic_mailbox event dissolve",
+      "files": [
+        "magic_mailbox_reveal.ogg"
+      ],
+      "interpretation": "presentation accent for an existing object, not a new appearance event"
+    },
+    {
+      "text": "他把今天寫好的一頁紙折起，放進郵箱。",
+      "files": [
+        "world_paper_fold.ogg",
+        "<silence 0.10>",
+        "magic_mailbox_open.ogg"
+      ],
+      "method": "one sound queue"
+    },
+    {
+      "text": "盒蓋闔上的瞬間，紙就消失了。",
+      "files": [
+        "magic_mailbox_close.ogg"
+      ],
+      "method": "append to same sound queue"
+    },
+    {
+      "text": "他合上筆記本時，窗外傳來幾聲蟲鳴。",
+      "files": [
+        "world_notebook_close.ogg"
+      ],
+      "insects": "text only"
+    },
+    {
+      "text": "此時門外傳來很輕的腳步聲。",
+      "files": [
+        "world_footstep_wood.ogg"
+      ]
+    }
+  ],
+  "runtime": {
+    "process_id": 34708,
+    "development_basedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe",
+    "entry_screenshot": "runtime_scene_take01.png",
+    "observation": "runtime_observation_take01.json",
+    "music_observed": "audio/music/bgm_moon_inn_night.ogg",
+    "music_volume": 1.0,
+    "sfx_volume": 1.0,
+    "sfx_muted": false,
+    "ambience": null,
+    "all_game_assets_loaded_with_expected_hashes": true,
+    "limitations": "Entry screen and file loading observed. Entire scene audio, timing, physical naturalness and BGM balance await user listening; no independent assistant hearing acceptance claimed."
+  },
+  "release_rebuilt": false,
+  "version_changed": false
+}
