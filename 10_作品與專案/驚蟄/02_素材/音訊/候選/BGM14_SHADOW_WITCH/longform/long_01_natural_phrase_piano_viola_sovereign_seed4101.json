@@ -1,0 +1,268 @@
+{
+  "date": "2026-10-19",
+  "cue": "BGM14_SHADOW_WITCH",
+  "label": "夜幕的主人・長版",
+  "status": "awaiting user long audition",
+  "formally_adopted": false,
+  "game_integrated": false,
+  "request": {
+    "prompt": "Soft dark piano and a restrained low viola, a deliberate three-note motif above sustained low open fifths with a quiet suspended minor second. Slow stately harmonic changes and an elegant low answering phrase suggest someone who needs no display of force. Cool controlled authority, no fragile dying motif or sorrowful piano ballad. Original instrumental character theme for a dark fantasy visual novel, 65 seconds. A powerful shadow witch steps into a forest clearing and quietly takes control of a crisis. She is an ancient high-ranking being with a young adult appearance, outwardly cold, composed, intelligent, elegant and slightly irritated by the trouble. Her power is effortless. She heals the wounded protagonist while scolding him, then asks for his next written chapter: a tiny concealed kindness beneath detached authority. Mysterious presence, restrained dignity, unreadable thoughts and the faint possibility of trust. A memorable compact musical identity, ambiguous minor harmony with suspended added tones, graceful measured phrases, low-to-middle register, small intimate chamber scale, quiet continuous musical resonance. Soft rounded attacks, gentle controlled dynamics, spacious connected note tails and understated forward movement. Remain cool and mysterious through the whole excerpt; any warmth stays subtle and unresolved. Leave room for dialogue. Continue naturally past 20 seconds, no early ending. No cheerful daily-life music, cute magical girl, whimsical comedy, bouncy staccato, dancing waltz, jazzy swing, sweet romance, sunny major cadence, epic orchestral entrance, heroic victory, funeral lament, horror villain menace, piercing high chimes, busy arpeggios, loud percussion or climax. Only instrumental music: no vocals, choir, spoken words, wind, rain, ambient noise or sound effects.  Extend this exact selected original short faithfully into a continuous 65-second character theme. Preserve its specific motif, instrumentation, tempo feel, soft attack envelope and restrained dynamics. Follow the supplied unfaded source map with subtle phrase variations and inner-voice development, including original notes and natural resonance after the 20-second preview ending. The shadow witch remains composed, powerful, mysterious and emotionally guarded as she heals the injured protagonist and speaks about fate. Keep the same character identity from beginning to end with a trace of unspoken care. Avoid cheerful comedy, horror villain music, grief ballad, romantic warmth, triumphant rescue, busy accompaniment or orchestral escalation. Use natural connected note releases, no abruptly gated notes or repeated preview fadeouts. No new percussion, vocals, choir or environmental sounds. Retain the soft dark piano and restrained low viola, deliberate compact motif, stately low harmony and cool effortless authority. The 64 BPM value is a prompt, not a measured tempo.",
+    "lyrics": "[Instrumental]",
+    "thinking": false,
+    "use_format": false,
+    "use_cot_caption": false,
+    "use_cot_language": false,
+    "bpm": 64,
+    "key_scale": "E minor",
+    "time_signature": "4",
+    "vocal_language": "unknown",
+    "audio_duration": 65,
+    "inference_steps": 8,
+    "batch_size": 1,
+    "use_random_seed": false,
+    "seed": 4101,
+    "model": "acestep-v15-turbo",
+    "task_type": "cover",
+    "audio_cover_strength": 1.0,
+    "audio_format": "wav",
+    "cover_noise_strength": 0.55
+  },
+  "reference": {
+    "file": "candidate_01_piano_viola_sovereign_seed4101_take01.ogg",
+    "sha256": "804f27496b31f10ce3759fad63319aee5e57ac0af041cff53a196affde5ac768",
+    "submission_method": "multipart reference_audio upload"
+  },
+  "natural_source": {
+    "file": "candidate_01_piano_viola_sovereign_seed4101_take01_raw.wav",
+    "sha256": "e5c2f3ced566b27a4db3ec1b347e970f0368e57fba0e0e63f50223e924527c23"
+  },
+  "source_template": {
+    "file": "long_01_natural_phrase_piano_viola_sovereign_seed4101_source_template.wav",
+    "structure": {
+      "duration_seconds": 65,
+      "phrase_starts_seconds": [
+        0.0,
+        22.25,
+        44.5
+      ],
+      "phrase_period_seconds": 22.25,
+      "source_excerpt_seconds": 23.0,
+      "overlap_seconds": 0.75,
+      "source_level_match_db": 0.042517976627352606,
+      "peak_gain_db": 0.0,
+      "period_basis": "Each selected unfaded 25-second mother was measured before assembly: candidate 01 decays below -52 dBFS at 22.5s; candidate 04 retains notes through 23.5s and decays below -55 dBFS at 24s. Excerpts are 23.0/24.5s respectively, with 0.75s crossfades. These are signal-based choices, not measured beat alignment or human listening approval."
+    },
+    "sha256": "d0a8ca9081c65d756d355afeda84bb43861aaa349a23eade8fd702e18adaf6e0"
+  },
+  "review_basis": "User requested take01 candidates 01 and 04 as separate long auditions. Actual selected OGG is uploaded as reference_audio; corresponding unfaded raw mother supplies src_audio, not a repeated faded preview.",
+  "leveled_source": {
+    "file": "long_01_natural_phrase_piano_viola_sovereign_seed4101_unfaded_leveled_source.wav",
+    "sha256": "62d45ef8441baaffa11bc64984793e93ed89360283305335fd4a316d9b825f6c",
+    "same_short_gain_db": -9.07,
+    "limiter_dbfs": -16
+  },
+  "task": {
+    "task_id": "35eb7fbd-2b65-47f2-9f13-66f03bf043f5",
+    "status": "queued",
+    "queue_position": 1
+  },
+  "result": {
+    "file": "/v1/audio?path=F%3A%5CAI%5CACE-Step-1.5%5C.cache%5Cacestep%5Ctmp%5Capi_audio%5C400f9540-4125-ae52-f652-954c6c6efb66.wav",
+    "wave": "",
+    "status": 1,
+    "create_time": 1792377143,
+    "env": "development",
+    "prompt": "Soft dark piano and a restrained low viola, a deliberate three-note motif above sustained low open fifths with a quiet suspended minor second. Slow stately harmonic changes and an elegant low answering phrase suggest someone who needs no display of force. Cool controlled authority, no fragile dying motif or sorrowful piano ballad. Original instrumental character theme for a dark fantasy visual novel, 65 seconds. A powerful shadow witch steps into a forest clearing and quietly takes control of a crisis. She is an ancient high-ranking being with a young adult appearance, outwardly cold, composed, intelligent, elegant and slightly irritated by the trouble. Her power is effortless. She heals the wounded protagonist while scolding him, then asks for his next written chapter: a tiny concealed kindness beneath detached authority. Mysterious presence, restrained dignity, unreadable thoughts and the faint possibility of trust. A memorable compact musical identity, ambiguous minor harmony with suspended added tones, graceful measured phrases, low-to-middle register, small intimate chamber scale, quiet continuous musical resonance. Soft rounded attacks, gentle controlled dynamics, spacious connected note tails and understated forward movement. Remain cool and mysterious through the whole excerpt; any warmth stays subtle and unresolved. Leave room for dialogue. Continue naturally past 20 seconds, no early ending. No cheerful daily-life music, cute magical girl, whimsical comedy, bouncy staccato, dancing waltz, jazzy swing, sweet romance, sunny major cadence, epic orchestral entrance, heroic victory, funeral lament, horror villain menace, piercing high chimes, busy arpeggios, loud percussion or climax. Only instrumental music: no vocals, choir, spoken words, wind, rain, ambient noise or sound effects.  Extend this exact selected original short faithfully into a continuous 65-second character theme. Preserve its specific motif, instrumentation, tempo feel, soft attack envelope and restrained dynamics. Follow the supplied unfaded source map with subtle phrase variations and inner-voice development, including original notes and natural resonance after the 20-second preview ending. The shadow witch remains composed, powerful, mysterious and emotionally guarded as she heals the injured protagonist and speaks about fate. Keep the same character identity from beginning to end with a trace of unspoken care. Avoid cheerful comedy, horror villain music, grief ballad, romantic warmth, triumphant rescue, busy accompaniment or orchestral escalation. Use natural connected note releases, no abruptly gated notes or repeated preview fadeouts. No new percussion, vocals, choir or environmental sounds. Retain the soft dark piano and restrained low viola, deliberate compact motif, stately low harmony and cool effortless authority. The 64 BPM value is a prompt, not a measured tempo.",
+    "lyrics": "[Instrumental]",
+    "metas": {
+      "bpm": 64,
+      "duration": 65.0,
+      "genres": "N/A",
+      "keyscale": "E minor",
+      "timesignature": "4",
+      "prompt": "Soft dark piano and a restrained low viola, a deliberate three-note motif above sustained low open fifths with a quiet suspended minor second. Slow stately harmonic changes and an elegant low answering phrase suggest someone who needs no display of force. Cool controlled authority, no fragile dying motif or sorrowful piano ballad. Original instrumental character theme for a dark fantasy visual novel, 65 seconds. A powerful shadow witch steps into a forest clearing and quietly takes control of a crisis. She is an ancient high-ranking being with a young adult appearance, outwardly cold, composed, intelligent, elegant and slightly irritated by the trouble. Her power is effortless. She heals the wounded protagonist while scolding him, then asks for his next written chapter: a tiny concealed kindness beneath detached authority. Mysterious presence, restrained dignity, unreadable thoughts and the faint possibility of trust. A memorable compact musical identity, ambiguous minor harmony with suspended added tones, graceful measured phrases, low-to-middle register, small intimate chamber scale, quiet continuous musical resonance. Soft rounded attacks, gentle controlled dynamics, spacious connected note tails and understated forward movement. Remain cool and mysterious through the whole excerpt; any warmth stays subtle and unresolved. Leave room for dialogue. Continue naturally past 20 seconds, no early ending. No cheerful daily-life music, cute magical girl, whimsical comedy, bouncy staccato, dancing waltz, jazzy swing, sweet romance, sunny major cadence, epic orchestral entrance, heroic victory, funeral lament, horror villain menace, piercing high chimes, busy arpeggios, loud percussion or climax. Only instrumental music: no vocals, choir, spoken words, wind, rain, ambient noise or sound effects.  Extend this exact selected original short faithfully into a continuous 65-second character theme. Preserve its specific motif, instrumentation, tempo feel, soft attack envelope and restrained dynamics. Follow the supplied unfaded source map with subtle phrase variations and inner-voice development, including original notes and natural resonance after the 20-second preview ending. The shadow witch remains composed, powerful, mysterious and emotionally guarded as she heals the injured protagonist and speaks about fate. Keep the same character identity from beginning to end with a trace of unspoken care. Avoid cheerful comedy, horror villain music, grief ballad, romantic warmth, triumphant rescue, busy accompaniment or orchestral escalation. Use natural connected note releases, no abruptly gated notes or repeated preview fadeouts. No new percussion, vocals, choir or environmental sounds. Retain the soft dark piano and restrained low viola, deliberate compact motif, stately low harmony and cool effortless authority. The 64 BPM value is a prompt, not a measured tempo.",
+      "lyrics": "[Instrumental]"
+    },
+    "generation_info": "**🎵 Total generation time (1 song): 10.01s**\n- 10.01s per song\n- DiT phase (1 song): 10.01s",
+    "seed_value": "4101",
+    "lm_model": "acestep-5Hz-lm-0.6B",
+    "dit_model": "acestep-v15-turbo",
+    "progress": 1.0,
+    "stage": "succeeded"
+  },
+  "processing": {
+    "preserved_selected_short_opening_seconds": 18,
+    "natural_unfaded_handoff_interval_seconds": [
+      18,
+      19
+    ],
+    "generated_continuation_crossfade_seconds": [
+      22.25,
+      23.0
+    ],
+    "natural_source_gain_db": 0.042517976627352606,
+    "continuation_gain_db": -14.99999970997726,
+    "uniform_master_gain_db": 0.0,
+    "opening_pcm_verified_before_mastering": true,
+    "fade_out_seconds": 0.5,
+    "duration_seconds": 65.0,
+    "ending_selection": {
+      "search_interval_seconds": [
+        60,
+        65
+      ],
+      "chosen_end_seconds": 65.0,
+      "raw_last_half_second_rms_dbfs": -40.097321193963246,
+      "low_energy_criterion_met": false,
+      "basis": "first half-second window 20dB below body RMS, otherwise quietest window; not human listening approval"
+    },
+    "loop_processed": false,
+    "method": "Carry unfaded mother tail through 20s and join at its natural ending, instead of repeating the faded audition clip.",
+    "audition_mastering": {
+      "fixed_gain_db": 0.0,
+      "limiter_dbfs": null,
+      "continuation_peak_ceiling_dbfs": -16,
+      "preserve_selected_short_level": true,
+      "latency_compensation": true,
+      "timestamps_rebuilt": true,
+      "composition_changed": false,
+      "premaster_measurement": {
+        "integrated_lufs": "-30.39",
+        "true_peak_dbtp": "-15.73",
+        "quiet_events": [
+          "[Parsed_silencedetect_0 @ 000001dbff6def00] silence_start: 24.434762",
+          "[Parsed_silencedetect_0 @ 000001dbff6def00] silence_end: 25.253401 | silence_duration: 0.818639",
+          "[Parsed_silencedetect_0 @ 000001dbff6def00] silence_start: 42.488141",
+          "[Parsed_silencedetect_0 @ 000001dbff6def00] silence_end: 43.287007 | silence_duration: 0.798866",
+          "[Parsed_silencedetect_0 @ 000001dbff6def00] silence_start: 43.878662",
+          "[Parsed_silencedetect_0 @ 000001dbff6def00] silence_end: 44.555034 | silence_duration: 0.676372",
+          "[Parsed_silencedetect_0 @ 000001dbff6def00] silence_start: 46.873878",
+          "[Parsed_silencedetect_0 @ 000001dbff6def00] silence_end: 47.504014 | silence_duration: 0.630136"
+        ]
+      }
+    }
+  },
+  "source_wav": {
+    "file": "long_01_natural_phrase_piano_viola_sovereign_seed4101_source_template.wav",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "65.000000"
+      }
+    },
+    "sha256": "d0a8ca9081c65d756d355afeda84bb43861aaa349a23eade8fd702e18adaf6e0"
+  },
+  "raw_wav": {
+    "file": "long_01_natural_phrase_piano_viola_sovereign_seed4101_raw.wav",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "65.000000"
+      }
+    },
+    "sha256": "55a1bffbc1423611d846dca6d37372affc1641971262eaf7a90d8bca4c458415"
+  },
+  "premaster_wav": {
+    "file": "long_01_natural_phrase_piano_viola_sovereign_seed4101_premaster.wav",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "65.000000"
+      }
+    },
+    "sha256": "5c8ecf315d73c1a56899d1b498ef0e21bd7a8b4c28856b9be2c9ae66c477a405"
+  },
+  "premaster_ogg": {
+    "file": "long_01_natural_phrase_piano_viola_sovereign_seed4101_premaster.ogg",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "65.000000"
+      }
+    },
+    "sha256": "0ddf8e8c9fc77436032aaac499df7ccf8bb8ab0c8e1ee21e0029f947f32c69c7"
+  },
+  "assembled_wav": {
+    "file": "long_01_natural_phrase_piano_viola_sovereign_seed4101.wav",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_f32le",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "65.000000"
+      }
+    },
+    "sha256": "5c8ecf315d73c1a56899d1b498ef0e21bd7a8b4c28856b9be2c9ae66c477a405"
+  },
+  "ogg": {
+    "file": "long_01_natural_phrase_piano_viola_sovereign_seed4101.ogg",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vorbis",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "65.000000"
+      }
+    },
+    "sha256": "a5b4de9b2f74fd536adc08ce9e1df71a09d0c0010b6c299fc9cdd3326c67b202"
+  },
+  "technical_check": {
+    "decode": "passed",
+    "integrated_lufs": "-30.39",
+    "true_peak_dbtp": "-15.73",
+    "quiet_events": [
+      "[Parsed_silencedetect_0 @ 000001c722d5b840] silence_start: 24.434762",
+      "[Parsed_silencedetect_0 @ 000001c722d5b840] silence_end: 25.253401 | silence_duration: 0.818639",
+      "[Parsed_silencedetect_0 @ 000001c722d5b840] silence_start: 42.488141",
+      "[Parsed_silencedetect_0 @ 000001c722d5b840] silence_end: 43.287007 | silence_duration: 0.798866",
+      "[Parsed_silencedetect_0 @ 000001c722d5b840] silence_start: 43.878662",
+      "[Parsed_silencedetect_0 @ 000001c722d5b840] silence_end: 44.555034 | silence_duration: 0.676372",
+      "[Parsed_silencedetect_0 @ 000001c722d5b840] silence_start: 46.873878",
+      "[Parsed_silencedetect_0 @ 000001c722d5b840] silence_end: 47.504014 | silence_duration: 0.630136"
+    ]
+  }
+}

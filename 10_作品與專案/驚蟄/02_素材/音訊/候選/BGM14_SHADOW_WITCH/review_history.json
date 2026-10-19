@@ -1,6 +1,6 @@
 {
   "cue": "BGM14_SHADOW_WITCH",
-  "status": "awaiting_user_short_selection",
+  "status": "awaiting_user_long_comparison",
   "reviews": [
     {
       "date": "2026-10-17",
@@ -15,6 +15,205 @@
       ],
       "scene": "第八章影之魔女現身、救治、卡片說明與催稿；離場後短暫林間重聚暫共用、降低音量，回庄接 BGM07。",
       "direction": "冷靜、優雅、神祕、有威勢，冷語下藏有關切；配器與情緒為生成意圖，實際聽感待生前判斷。",
+      "formally_adopted": false,
+      "game_integrated": false
+    },
+    {
+      "date": "2026-10-19",
+      "stage": "take01_short_selection",
+      "user_instruction": "把第一版跟第四版做成長板",
+      "selected_files": [
+        "candidate_01_piano_viola_sovereign_seed4101_take01.ogg",
+        "candidate_04_strings_hidden_care_seed4104_take01.ogg"
+      ],
+      "decision": "selected_for_separate_long_auditions",
+      "formally_adopted": false,
+      "game_integrated": false
+    },
+    {
+      "date": "2026-10-19",
+      "stage": "long01_ready",
+      "status": "two_long_candidates_ready",
+      "candidates": [
+        {
+          "label": "夜幕的主人・長版",
+          "file": "longform/long_01_natural_phrase_piano_viola_sovereign_seed4101.ogg",
+          "sha256": "a5b4de9b2f74fd536adc08ce9e1df71a09d0c0010b6c299fc9cdd3326c67b202",
+          "duration_seconds": 65.0,
+          "reference": {
+            "file": "candidate_01_piano_viola_sovereign_seed4101_take01.ogg",
+            "sha256": "804f27496b31f10ce3759fad63319aee5e57ac0af041cff53a196affde5ac768",
+            "submission_method": "multipart reference_audio upload"
+          },
+          "source_template": {
+            "duration_seconds": 65,
+            "phrase_starts_seconds": [
+              0.0,
+              22.25,
+              44.5
+            ],
+            "phrase_period_seconds": 22.25,
+            "source_excerpt_seconds": 23.0,
+            "overlap_seconds": 0.75,
+            "source_level_match_db": 0.042517976627352606,
+            "peak_gain_db": 0.0,
+            "period_basis": "Each selected unfaded 25-second mother was measured before assembly: candidate 01 decays below -52 dBFS at 22.5s; candidate 04 retains notes through 23.5s and decays below -55 dBFS at 24s. Excerpts are 23.0/24.5s respectively, with 0.75s crossfades. These are signal-based choices, not measured beat alignment or human listening approval."
+          },
+          "preserved_opening_seconds": 18,
+          "processing": {
+            "preserved_selected_short_opening_seconds": 18,
+            "natural_unfaded_handoff_interval_seconds": [
+              18,
+              19
+            ],
+            "generated_continuation_crossfade_seconds": [
+              22.25,
+              23.0
+            ],
+            "natural_source_gain_db": 0.042517976627352606,
+            "continuation_gain_db": -14.99999970997726,
+            "uniform_master_gain_db": 0.0,
+            "opening_pcm_verified_before_mastering": true,
+            "fade_out_seconds": 0.5,
+            "duration_seconds": 65.0,
+            "ending_selection": {
+              "search_interval_seconds": [
+                60,
+                65
+              ],
+              "chosen_end_seconds": 65.0,
+              "raw_last_half_second_rms_dbfs": -40.097321193963246,
+              "low_energy_criterion_met": false,
+              "basis": "first half-second window 20dB below body RMS, otherwise quietest window; not human listening approval"
+            },
+            "loop_processed": false,
+            "method": "Carry unfaded mother tail through 20s and join at its natural ending, instead of repeating the faded audition clip.",
+            "audition_mastering": {
+              "fixed_gain_db": 0.0,
+              "limiter_dbfs": null,
+              "continuation_peak_ceiling_dbfs": -16,
+              "preserve_selected_short_level": true,
+              "latency_compensation": true,
+              "timestamps_rebuilt": true,
+              "composition_changed": false,
+              "premaster_measurement": {
+                "integrated_lufs": "-30.39",
+                "true_peak_dbtp": "-15.73",
+                "quiet_events": [
+                  "[Parsed_silencedetect_0 @ 000001dbff6def00] silence_start: 24.434762",
+                  "[Parsed_silencedetect_0 @ 000001dbff6def00] silence_end: 25.253401 | silence_duration: 0.818639",
+                  "[Parsed_silencedetect_0 @ 000001dbff6def00] silence_start: 42.488141",
+                  "[Parsed_silencedetect_0 @ 000001dbff6def00] silence_end: 43.287007 | silence_duration: 0.798866",
+                  "[Parsed_silencedetect_0 @ 000001dbff6def00] silence_start: 43.878662",
+                  "[Parsed_silencedetect_0 @ 000001dbff6def00] silence_end: 44.555034 | silence_duration: 0.676372",
+                  "[Parsed_silencedetect_0 @ 000001dbff6def00] silence_start: 46.873878",
+                  "[Parsed_silencedetect_0 @ 000001dbff6def00] silence_end: 47.504014 | silence_duration: 0.630136"
+                ]
+              }
+            }
+          },
+          "technical_measurements": {
+            "decode": "passed",
+            "integrated_lufs": "-30.39",
+            "true_peak_dbtp": "-15.73",
+            "quiet_events": [
+              "[Parsed_silencedetect_0 @ 000001c722d5b840] silence_start: 24.434762",
+              "[Parsed_silencedetect_0 @ 000001c722d5b840] silence_end: 25.253401 | silence_duration: 0.818639",
+              "[Parsed_silencedetect_0 @ 000001c722d5b840] silence_start: 42.488141",
+              "[Parsed_silencedetect_0 @ 000001c722d5b840] silence_end: 43.287007 | silence_duration: 0.798866",
+              "[Parsed_silencedetect_0 @ 000001c722d5b840] silence_start: 43.878662",
+              "[Parsed_silencedetect_0 @ 000001c722d5b840] silence_end: 44.555034 | silence_duration: 0.676372",
+              "[Parsed_silencedetect_0 @ 000001c722d5b840] silence_start: 46.873878",
+              "[Parsed_silencedetect_0 @ 000001c722d5b840] silence_end: 47.504014 | silence_duration: 0.630136"
+            ]
+          }
+        },
+        {
+          "label": "冷語之下・長版",
+          "file": "longform/long_01_natural_phrase_strings_hidden_care_seed4104.ogg",
+          "sha256": "0210c3494d15047d17aee047490bded3b47b0b66759822fe2cf27ca7a3e7dd52",
+          "duration_seconds": 60.25,
+          "reference": {
+            "file": "candidate_04_strings_hidden_care_seed4104_take01.ogg",
+            "sha256": "b1125aa397485e7f924fa44ec257220e5829ae7d4db13782b1ed5ad031d89d91",
+            "submission_method": "multipart reference_audio upload"
+          },
+          "source_template": {
+            "duration_seconds": 65,
+            "phrase_starts_seconds": [
+              0.0,
+              23.75,
+              47.5
+            ],
+            "phrase_period_seconds": 23.75,
+            "source_excerpt_seconds": 24.5,
+            "overlap_seconds": 0.75,
+            "source_level_match_db": 0.02846696145974418,
+            "peak_gain_db": 0.0,
+            "period_basis": "Each selected unfaded 25-second mother was measured before assembly: candidate 01 decays below -52 dBFS at 22.5s; candidate 04 retains notes through 23.5s and decays below -55 dBFS at 24s. Excerpts are 23.0/24.5s respectively, with 0.75s crossfades. These are signal-based choices, not measured beat alignment or human listening approval."
+          },
+          "preserved_opening_seconds": 18,
+          "processing": {
+            "preserved_selected_short_opening_seconds": 18,
+            "natural_unfaded_handoff_interval_seconds": [
+              18,
+              19
+            ],
+            "generated_continuation_crossfade_seconds": [
+              23.75,
+              24.5
+            ],
+            "natural_source_gain_db": 0.02846696145974418,
+            "continuation_gain_db": -13.931113525983534,
+            "uniform_master_gain_db": 0.0,
+            "opening_pcm_verified_before_mastering": true,
+            "fade_out_seconds": 0.5,
+            "duration_seconds": 60.25,
+            "ending_selection": {
+              "search_interval_seconds": [
+                60,
+                65
+              ],
+              "chosen_end_seconds": 60.25,
+              "raw_last_half_second_rms_dbfs": -33.79175312214789,
+              "low_energy_criterion_met": false,
+              "basis": "first half-second window 20dB below body RMS, otherwise quietest window; not human listening approval"
+            },
+            "loop_processed": false,
+            "method": "Carry unfaded mother tail through 20s and join at its natural ending, instead of repeating the faded audition clip.",
+            "audition_mastering": {
+              "fixed_gain_db": 0.0,
+              "limiter_dbfs": null,
+              "continuation_peak_ceiling_dbfs": -16,
+              "preserve_selected_short_level": true,
+              "latency_compensation": true,
+              "timestamps_rebuilt": true,
+              "composition_changed": false,
+              "premaster_measurement": {
+                "integrated_lufs": "-29.68",
+                "true_peak_dbtp": "-15.58",
+                "quiet_events": [
+                  "[Parsed_silencedetect_0 @ 000002a3410481c0] silence_start: 24.500998",
+                  "[Parsed_silencedetect_0 @ 000002a3410481c0] silence_end: 25.012676 | silence_duration: 0.511678",
+                  "[Parsed_silencedetect_0 @ 000002a3410481c0] silence_start: 48.224059",
+                  "[Parsed_silencedetect_0 @ 000002a3410481c0] silence_end: 48.744739 | silence_duration: 0.52068"
+                ]
+              }
+            }
+          },
+          "technical_measurements": {
+            "decode": "passed",
+            "integrated_lufs": "-29.68",
+            "true_peak_dbtp": "-15.58",
+            "quiet_events": [
+              "[Parsed_silencedetect_0 @ 000001f947f9f440] silence_start: 24.500998",
+              "[Parsed_silencedetect_0 @ 000001f947f9f440] silence_end: 25.012676 | silence_duration: 0.511678",
+              "[Parsed_silencedetect_0 @ 000001f947f9f440] silence_start: 48.224059",
+              "[Parsed_silencedetect_0 @ 000001f947f9f440] silence_end: 48.744739 | silence_duration: 0.52068"
+            ]
+          }
+        }
+      ],
       "formally_adopted": false,
       "game_integrated": false
     }

@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-19",
+  "files": [
+    {
+      "file": "long_01_natural_phrase_piano_viola_sovereign_seed4101.ogg",
+      "decode": "passed",
+      "integrated_lufs": "-30.39",
+      "true_peak_dbtp": "-15.73",
+      "quiet_events": [
+        "[Parsed_silencedetect_0 @ 000001c722d5b840] silence_start: 24.434762",
+        "[Parsed_silencedetect_0 @ 000001c722d5b840] silence_end: 25.253401 | silence_duration: 0.818639",
+        "[Parsed_silencedetect_0 @ 000001c722d5b840] silence_start: 42.488141",
+        "[Parsed_silencedetect_0 @ 000001c722d5b840] silence_end: 43.287007 | silence_duration: 0.798866",
+        "[Parsed_silencedetect_0 @ 000001c722d5b840] silence_start: 43.878662",
+        "[Parsed_silencedetect_0 @ 000001c722d5b840] silence_end: 44.555034 | silence_duration: 0.676372",
+        "[Parsed_silencedetect_0 @ 000001c722d5b840] silence_start: 46.873878",
+        "[Parsed_silencedetect_0 @ 000001c722d5b840] silence_end: 47.504014 | silence_duration: 0.630136"
+      ]
+    },
+    {
+      "file": "long_01_natural_phrase_strings_hidden_care_seed4104.ogg",
+      "decode": "passed",
+      "integrated_lufs": "-29.68",
+      "true_peak_dbtp": "-15.58",
+      "quiet_events": [
+        "[Parsed_silencedetect_0 @ 000001f947f9f440] silence_start: 24.500998",
+        "[Parsed_silencedetect_0 @ 000001f947f9f440] silence_end: 25.012676 | silence_duration: 0.511678",
+        "[Parsed_silencedetect_0 @ 000001f947f9f440] silence_start: 48.224059",
+        "[Parsed_silencedetect_0 @ 000001f947f9f440] silence_end: 48.744739 | silence_duration: 0.52068"
+      ]
+    }
+  ]
+}
