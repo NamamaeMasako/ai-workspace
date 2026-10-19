@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-19",
+  "cue": "SFX24_HEAVY_VARIANT",
+  "name": "battle_spider_steps_heavy",
+  "take": "take02",
+  "intention": "巨物落地：寬頻低沉撞擊、短地面共振與碎土，保留兩次落地與原長度。",
+  "method": "original procedural synthesis; no external recording, voice or model",
+  "seed": 6224,
+  "status": "integrated_scene_audition_pending",
+  "formally_adopted": false,
+  "duration_seconds": 1.04,
+  "sample_peak_target_dbfs": -17.0,
+  "decoded_peak_dbfs": -17.04055344261919,
+  "decoded_rms_dbfs": -34.51971290792629,
+  "source": "revise_heavy_blades_take02.py",
+  "source_sha256": "e0b5d2ee0368cf9e1cded0598c0a25571c5e156750237e1f8626b50655c59434",
+  "wav": {
+    "file": "battle_spider_steps_heavy_take02.wav",
+    "sha256": "2767354ce36c318a5a20790fe0d5fae40122948df38d425fe87da7649ec2ea77",
+    "sample_rate": 48000,
+    "channels": 1,
+    "bits": 24
+  },
+  "ogg": {
+    "file": "battle_spider_steps_heavy_take02.ogg",
+    "sha256": "fad1bbca160d12c1e4a1b9d731ea88a6648b8dbfebb27f2da34384129afd72d7",
+    "sample_rate": 44100,
+    "channels": 1
+  },
+  "previous_ogg_sha256": "a403391cd7828b430861f058b894b0401a2a8346e025ee7b18132436c341857a",
+  "game_file": "03_開發/JingZhe/game/audio/sfx/battle/battle_spider_steps_heavy.ogg"
+}

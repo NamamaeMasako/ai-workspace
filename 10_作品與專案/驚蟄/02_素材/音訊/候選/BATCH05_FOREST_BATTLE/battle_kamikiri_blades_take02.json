@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-19",
+  "cue": "SFX28_KAMIKIRI_BLADES",
+  "name": "battle_kamikiri_blades",
+  "take": "take02",
+  "intention": "鐮刃交錯：兩次硬金屬接觸、不等間距金屬共鳴及短尾音，移除原布面般長摩擦。",
+  "method": "original procedural synthesis; no external recording, voice or model",
+  "seed": 6228,
+  "status": "integrated_scene_audition_pending",
+  "formally_adopted": false,
+  "duration_seconds": 0.7,
+  "sample_peak_target_dbfs": -18.5,
+  "decoded_peak_dbfs": -18.481824760794172,
+  "decoded_rms_dbfs": -33.0494818695656,
+  "source": "revise_heavy_blades_take02.py",
+  "source_sha256": "e0b5d2ee0368cf9e1cded0598c0a25571c5e156750237e1f8626b50655c59434",
+  "wav": {
+    "file": "battle_kamikiri_blades_take02.wav",
+    "sha256": "2f5158c54ef6226b780f7091a1cc65c88a149ce4c104a53347958a931ae05e92",
+    "sample_rate": 48000,
+    "channels": 1,
+    "bits": 24
+  },
+  "ogg": {
+    "file": "battle_kamikiri_blades_take02.ogg",
+    "sha256": "25b448c7a9f890a6489201c8ae1913c2a9bfc48b3a18472db66da513d6afb20b",
+    "sample_rate": 44100,
+    "channels": 1
+  },
+  "previous_ogg_sha256": "51a32bf9e73f41e1821cc993f771ced4989bcc023dd7d96421502e4c2a37985e",
+  "game_file": "03_開發/JingZhe/game/audio/sfx/battle/battle_kamikiri_blades.ogg"
+}

@@ -26,6 +26,20 @@
       "action": "停用助理自行增加的臨時選單，直接開實際開發版第一輪花見交卡場景，沿原流程檢查。",
       "script_entry": "script.rpy:1114",
       "formally_adopted": false
+    },
+    {
+      "date": "2026-10-19",
+      "stage": "take02_heavy_and_metal_integrated",
+      "user_feedback": [
+        "土蜘蛛重步不像重物落地、不夠重",
+        "鐮刀交錯應為金屬碰撞，現版像布面摩擦"
+      ],
+      "revised_assets": [
+        "battle_spider_steps_heavy",
+        "battle_kamikiri_blades"
+      ],
+      "integration": "scene_integration_take02.json",
+      "formally_adopted": false
     }
   ]
 }
