@@ -1,0 +1,195 @@
+{
+  "date": "2026-10-19",
+  "batch": "BATCH06_INN_LOSS_REWIND",
+  "primary_cues": 3,
+  "variants": 3,
+  "files": 6,
+  "candidates": [
+    {
+      "date": "2026-10-19",
+      "cue": "SFX12_LAMP_DROP",
+      "name": "world_lamp_drop",
+      "seed": 7012,
+      "intention": "燈盞穩落木地板：短鈍接觸、燈架輕顫；沒有破裂或翻滾",
+      "status": "scene_audition_pending",
+      "formally_adopted": false,
+      "loop": false,
+      "method": "original procedural synthesis; no external recordings, voice or model",
+      "duration_seconds": 0.69,
+      "target_peak_dbfs": -23,
+      "decoded_peak_dbfs": -23.081273849777027,
+      "decoded_rms_dbfs": -42.5702249134952,
+      "editable_source": "produce_batch06_take01.py",
+      "source_sha256": "35b319ce65d413545c9cf292e08e8a0ec606fdb19adbd43af3b4df3c629b9585",
+      "wav": {
+        "file": "world_lamp_drop_take01.wav",
+        "sha256": "a0efd69efffb1f7c73343e4772ca3a1882c775d795fdc2d4a1b92c969ebe04f4",
+        "sample_rate": 48000,
+        "bits": 24,
+        "channels": 1
+      },
+      "ogg": {
+        "file": "world_lamp_drop_take01.ogg",
+        "sha256": "0c2d75b66152d4c4fbc1a30bd516197c14307889cebc819011adc4162cf1541e",
+        "sample_rate": 44100,
+        "channels": 1
+      },
+      "game_file": "03_開發/JingZhe/game/audio/sfx/world/world_lamp_drop.ogg"
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX19_CARD_TEAR",
+      "name": "magic_black_card_tear",
+      "seed": 7019,
+      "intention": "厚卡片單次拉裂，短纖維斷裂與極淡尾響；不帶人聲或回退音樂",
+      "status": "scene_audition_pending",
+      "formally_adopted": false,
+      "loop": false,
+      "method": "original procedural synthesis; no external recordings, voice or model",
+      "duration_seconds": 0.78,
+      "target_peak_dbfs": -21,
+      "decoded_peak_dbfs": -20.984432002514765,
+      "decoded_rms_dbfs": -40.966648800702885,
+      "editable_source": "produce_batch06_take01.py",
+      "source_sha256": "35b319ce65d413545c9cf292e08e8a0ec606fdb19adbd43af3b4df3c629b9585",
+      "wav": {
+        "file": "magic_black_card_tear_take01.wav",
+        "sha256": "d84c361c1b3e910cab668faed1caa7744eefeedfada6cfb62312e6c81bf962a9",
+        "sample_rate": 48000,
+        "bits": 24,
+        "channels": 1
+      },
+      "ogg": {
+        "file": "magic_black_card_tear_take01.ogg",
+        "sha256": "05e7225e143a3de28eaeb1f2a5bedb30910c33c90a9fcdc666b13ba2c5c6f427",
+        "sample_rate": 44100,
+        "channels": 1
+      },
+      "game_file": "03_開發/JingZhe/game/audio/sfx/magic/magic_black_card_tear.ogg"
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX31_BODY_FALL",
+      "name": "battle_body_fall_soft",
+      "seed": 7031,
+      "intention": "柔和人體落地：衣料先擦過，身體短悶觸地，沒有骨裂或血肉聲",
+      "status": "scene_audition_pending",
+      "formally_adopted": false,
+      "loop": false,
+      "method": "original procedural synthesis; no external recordings, voice or model",
+      "duration_seconds": 0.72,
+      "target_peak_dbfs": -24,
+      "decoded_peak_dbfs": -24.014921965857244,
+      "decoded_rms_dbfs": -43.692625207781326,
+      "editable_source": "produce_batch06_take01.py",
+      "source_sha256": "35b319ce65d413545c9cf292e08e8a0ec606fdb19adbd43af3b4df3c629b9585",
+      "wav": {
+        "file": "battle_body_fall_soft_take01.wav",
+        "sha256": "a59b5340048ed9dd593312e4265ebd77369ac37689c52aa7652382a0ef898d61",
+        "sample_rate": 48000,
+        "bits": 24,
+        "channels": 1
+      },
+      "ogg": {
+        "file": "battle_body_fall_soft_take01.ogg",
+        "sha256": "fe685966b0de7f5ad40fe7348d0fbf964933205819a98bfa0fcaa7c169627253",
+        "sample_rate": 44100,
+        "channels": 1
+      },
+      "game_file": "03_開發/JingZhe/game/audio/sfx/battle/battle_body_fall_soft.ogg"
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX06_FRAME_VARIANT",
+      "name": "world_frame_thud_soft",
+      "seed": 7106,
+      "intention": "木框推回的一聲輕悶響，與無聲抽屜搜尋分開",
+      "status": "scene_audition_pending",
+      "formally_adopted": false,
+      "loop": false,
+      "method": "original procedural synthesis; no external recordings, voice or model",
+      "duration_seconds": 0.36,
+      "target_peak_dbfs": -26,
+      "decoded_peak_dbfs": -25.908326580919084,
+      "decoded_rms_dbfs": -42.555359274392416,
+      "editable_source": "produce_batch06_take01.py",
+      "source_sha256": "35b319ce65d413545c9cf292e08e8a0ec606fdb19adbd43af3b4df3c629b9585",
+      "wav": {
+        "file": "world_frame_thud_soft_take01.wav",
+        "sha256": "2f1833054031ffea11fce32ea73633b1f9e38c3d269f45a2a66423ec52577d3d",
+        "sample_rate": 48000,
+        "bits": 24,
+        "channels": 1
+      },
+      "ogg": {
+        "file": "world_frame_thud_soft_take01.ogg",
+        "sha256": "8328b83c8c02b4049e809fae80a21bc0b4e024021e2dbac46aadf22a5c968727",
+        "sample_rate": 44100,
+        "channels": 1
+      },
+      "game_file": "03_開發/JingZhe/game/audio/sfx/world/world_frame_thud_soft.ogg"
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX08_DRAG_VARIANT",
+      "name": "world_cloth_drag_soft",
+      "seed": 7108,
+      "intention": "衣料被短促拖動與掙動，不加入人聲或攻擊尖叫",
+      "status": "scene_audition_pending",
+      "formally_adopted": false,
+      "loop": false,
+      "method": "original procedural synthesis; no external recordings, voice or model",
+      "duration_seconds": 0.79,
+      "target_peak_dbfs": -25,
+      "decoded_peak_dbfs": -25.788209134935034,
+      "decoded_rms_dbfs": -41.29444908070547,
+      "editable_source": "produce_batch06_take01.py",
+      "source_sha256": "35b319ce65d413545c9cf292e08e8a0ec606fdb19adbd43af3b4df3c629b9585",
+      "wav": {
+        "file": "world_cloth_drag_soft_take01.wav",
+        "sha256": "11d292a429a4c3592eb55040c0195b33f48049560eda3c39b311cd785d38af1a",
+        "sample_rate": 48000,
+        "bits": 24,
+        "channels": 1
+      },
+      "ogg": {
+        "file": "world_cloth_drag_soft_take01.ogg",
+        "sha256": "a205db7d2eb5478c38f5dca6b6ef2b24a944c65272fa9ffce4d98f4e3ef9fda9",
+        "sample_rate": 44100,
+        "channels": 1
+      },
+      "game_file": "03_開發/JingZhe/game/audio/sfx/world/world_cloth_drag_soft.ogg"
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX08_CLOTH_VARIANT",
+      "name": "world_cloth_soft",
+      "seed": 7208,
+      "intention": "外衣蓋肩、抱起時柔軟衣料聲，低聲而短促",
+      "status": "scene_audition_pending",
+      "formally_adopted": false,
+      "loop": false,
+      "method": "original procedural synthesis; no external recordings, voice or model",
+      "duration_seconds": 0.62,
+      "target_peak_dbfs": -29,
+      "decoded_peak_dbfs": -29.132886187626198,
+      "decoded_rms_dbfs": -44.724438486484416,
+      "editable_source": "produce_batch06_take01.py",
+      "source_sha256": "35b319ce65d413545c9cf292e08e8a0ec606fdb19adbd43af3b4df3c629b9585",
+      "wav": {
+        "file": "world_cloth_soft_take01.wav",
+        "sha256": "0f899e194300d9f62df4663d1ef81098909e49f7f717ac4cb5fecc048cf6b364",
+        "sample_rate": 48000,
+        "bits": 24,
+        "channels": 1
+      },
+      "ogg": {
+        "file": "world_cloth_soft_take01.ogg",
+        "sha256": "20241907a5091d41ce479738abfdd6f09510e4b59b7051ef64ccdb97e73ab382",
+        "sample_rate": 44100,
+        "channels": 1
+      },
+      "game_file": "03_開發/JingZhe/game/audio/sfx/world/world_cloth_soft.ogg"
+    }
+  ]
+}

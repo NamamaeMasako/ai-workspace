@@ -1,0 +1,35 @@
+{
+  "timestamp": 1792384505.3214,
+  "basedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe",
+  "gamedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe\\game",
+  "location": [
+    "game/script.rpy",
+    1216
+  ],
+  "music": "<loop 3.0>audio/music/bgm_inn_hunted.ogg",
+  "music_position": 3.202,
+  "sound": null,
+  "sound_position": null,
+  "music_volume": 1.0,
+  "sfx_volume": 1.0,
+  "music_muted": false,
+  "sfx_muted": false,
+  "master_muted": false,
+  "ambience": null,
+  "asset_hashes": {
+    "battle/battle_body_fall_soft.ogg": "fe685966b0de7f5ad40fe7348d0fbf964933205819a98bfa0fcaa7c169627253",
+    "battle/battle_naginata_whoosh.ogg": "46be27bacb9c90510e08f749050e0916eb06a99746747eaf0fd6be10b1209215",
+    "battle/battle_omukade_impact.ogg": "2cb2dbe58d48ce28ece64aa6b4daefbee879f482bc4b1d4c7f661357bca72821",
+    "battle/battle_silk_cut.ogg": "c6aea7ca302586813719c110f2dacbe08e0f7daa568e32ef8288c182e28ac8c9",
+    "magic/magic_black_card_tear.ogg": "05e7225e143a3de28eaeb1f2a5bedb30910c33c90a9fcdc666b13ba2c5c6f427",
+    "magic/magic_insect_summon.ogg": "14f8ebd48874d9231a286447ae56ea5f9accacfcd82a1441fa47afda76d06b26",
+    "world/world_black_card_stow.ogg": "1ff6060105f43e65a73172269cdf0951a465cffd249f4a4087e8c06308e8a94a",
+    "world/world_cloth_drag_soft.ogg": "a205db7d2eb5478c38f5dca6b6ef2b24a944c65272fa9ffce4d98f4e3ef9fda9",
+    "world/world_cloth_soft.ogg": "20241907a5091d41ce479738abfdd6f09510e4b59b7051ef64ccdb97e73ab382",
+    "world/world_footstep_wet.ogg": "0cbbe3ceb52a6604fcdb21ee49e6988319ee96de81b69ae198a79081bb2d2031",
+    "world/world_footstep_wood.ogg": "7839b4c3c76eb35efd28978e9037384ebc2ed0fbeaa20a48b3a952109eff817a",
+    "world/world_frame_thud_soft.ogg": "8328b83c8c02b4049e809fae80a21bc0b4e024021e2dbac46aadf22a5c968727",
+    "world/world_lamp_drop.ogg": "0c2d75b66152d4c4fbc1a30bd516197c14307889cebc819011adc4162cf1541e",
+    "world/world_lamp_sway.ogg": "4762652af3c4ae20d56491b0a55f81e9ad313571f291a1442750ae9e4a1c0cce"
+  }
+}

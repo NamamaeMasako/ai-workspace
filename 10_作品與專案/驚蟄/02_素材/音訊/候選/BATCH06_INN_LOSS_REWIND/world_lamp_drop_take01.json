@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-19",
+  "cue": "SFX12_LAMP_DROP",
+  "name": "world_lamp_drop",
+  "seed": 7012,
+  "intention": "燈盞穩落木地板：短鈍接觸、燈架輕顫；沒有破裂或翻滾",
+  "status": "scene_audition_pending",
+  "formally_adopted": false,
+  "loop": false,
+  "method": "original procedural synthesis; no external recordings, voice or model",
+  "duration_seconds": 0.69,
+  "target_peak_dbfs": -23,
+  "decoded_peak_dbfs": -23.081273849777027,
+  "decoded_rms_dbfs": -42.5702249134952,
+  "editable_source": "produce_batch06_take01.py",
+  "source_sha256": "35b319ce65d413545c9cf292e08e8a0ec606fdb19adbd43af3b4df3c629b9585",
+  "wav": {
+    "file": "world_lamp_drop_take01.wav",
+    "sha256": "a0efd69efffb1f7c73343e4772ca3a1882c775d795fdc2d4a1b92c969ebe04f4",
+    "sample_rate": 48000,
+    "bits": 24,
+    "channels": 1
+  },
+  "ogg": {
+    "file": "world_lamp_drop_take01.ogg",
+    "sha256": "0c2d75b66152d4c4fbc1a30bd516197c14307889cebc819011adc4162cf1541e",
+    "sample_rate": 44100,
+    "channels": 1
+  },
+  "game_file": "03_開發/JingZhe/game/audio/sfx/world/world_lamp_drop.ogg"
+}

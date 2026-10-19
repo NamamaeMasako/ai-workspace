@@ -1,0 +1,17 @@
+{
+  "batch": "BATCH06_INN_LOSS_REWIND",
+  "status": "awaiting_user_whole_scene_confirmation",
+  "reviews": [
+    {
+      "date": "2026-10-19",
+      "stage": "take01_four_route_continuations_integrated",
+      "user_instruction": "好，繼續",
+      "previous_batch_formally_adopted": "BATCH05_FOREST_BATTLE",
+      "new_files": 6,
+      "primary_cues": 3,
+      "variants": 3,
+      "integration": "scene_integration_take01.json",
+      "formally_adopted": false
+    }
+  ]
+}

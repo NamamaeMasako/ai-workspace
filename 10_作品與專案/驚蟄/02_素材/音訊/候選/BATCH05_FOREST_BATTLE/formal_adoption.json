@@ -1,0 +1,112 @@
+{
+  "date": "2026-10-19",
+  "batch": "BATCH05_FOREST_BATTLE",
+  "status": "formally_adopted",
+  "user_feedback": "好，繼續",
+  "assets": [
+    {
+      "cue": "SFX05_FOOTSTEP_WET",
+      "name": "world_footstep_wet",
+      "source": "world_footstep_wet_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/world/world_footstep_wet.ogg",
+      "sha256": "0cbbe3ceb52a6604fcdb21ee49e6988319ee96de81b69ae198a79081bb2d2031",
+      "matches_source": true
+    },
+    {
+      "cue": "SFX21_INSECT_SUMMON",
+      "name": "magic_insect_summon",
+      "source": "magic_insect_summon_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/magic/magic_insect_summon.ogg",
+      "sha256": "14f8ebd48874d9231a286447ae56ea5f9accacfcd82a1441fa47afda76d06b26",
+      "matches_source": true
+    },
+    {
+      "cue": "SFX23_SILK_CUT",
+      "name": "battle_silk_cut",
+      "source": "battle_silk_cut_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/battle/battle_silk_cut.ogg",
+      "sha256": "c6aea7ca302586813719c110f2dacbe08e0f7daa568e32ef8288c182e28ac8c9",
+      "matches_source": true
+    },
+    {
+      "cue": "SFX25_TSUCHIGUMO_HISS",
+      "name": "battle_tsuchigumo_hiss",
+      "source": "battle_tsuchigumo_hiss_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/battle/battle_tsuchigumo_hiss.ogg",
+      "sha256": "d0555cd78f66a4440d13ce7512edac81380f0e80df3c6af506630424a3b83492",
+      "matches_source": true
+    },
+    {
+      "cue": "SFX26_NAGINATA_WHOOSH",
+      "name": "battle_naginata_whoosh",
+      "source": "battle_naginata_whoosh_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/battle/battle_naginata_whoosh.ogg",
+      "sha256": "46be27bacb9c90510e08f749050e0916eb06a99746747eaf0fd6be10b1209215",
+      "matches_source": true
+    },
+    {
+      "cue": "SFX27_NAGINATA_HIT",
+      "name": "battle_naginata_armor_hit",
+      "source": "battle_naginata_armor_hit_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/battle/battle_naginata_armor_hit.ogg",
+      "sha256": "724febb37fc8116fce7105b55af3410fa9de44cf0d796d8c7bb6baf7a92b4f8c",
+      "matches_source": true
+    },
+    {
+      "cue": "SFX28_KAMIKIRI_BLADES",
+      "name": "battle_kamikiri_blades",
+      "source": "battle_kamikiri_blades_take03.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/battle/battle_kamikiri_blades.ogg",
+      "sha256": "cbf3fe7b7e0530f93b5740c63394826a6c2159bcd3f348a28ee047b4ace517f4",
+      "matches_source": true
+    },
+    {
+      "cue": "SFX29_OMUKADE_ARMOR",
+      "name": "battle_omukade_armor_move",
+      "source": "battle_omukade_armor_move_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/battle/battle_omukade_armor_move.ogg",
+      "sha256": "e8f4fa2474870951385d1f3273e3e6e40d5ff88fe6f51cbf63ba2090ba0524d5",
+      "matches_source": true
+    },
+    {
+      "cue": "SFX30_OMUKADE_IMPACT",
+      "name": "battle_omukade_impact",
+      "source": "battle_omukade_impact_take03.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/battle/battle_omukade_impact.ogg",
+      "sha256": "2cb2dbe58d48ce28ece64aa6b4daefbee879f482bc4b1d4c7f661357bca72821",
+      "matches_source": true
+    },
+    {
+      "cue": "SFX24_HEAVY_VARIANT",
+      "name": "battle_spider_steps_heavy",
+      "source": "battle_spider_steps_heavy_take02.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/battle/battle_spider_steps_heavy.ogg",
+      "sha256": "fad1bbca160d12c1e4a1b9d731ea88a6648b8dbfebb27f2da34384129afd72d7",
+      "matches_source": true
+    },
+    {
+      "cue": "SFX14_KISERU_DRAW",
+      "name": "magic_kiseru_blow",
+      "source": "magic_kiseru_blow_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/magic/magic_kiseru_blow.ogg",
+      "sha256": "751ec605d0a3396e25844776c81c93ba88da8d83dde651bcb5dfca8b38057161",
+      "matches_source": true
+    }
+  ],
+  "primary_cues": 9,
+  "variants": 2,
+  "new_files": 11,
+  "selected_versions": {
+    "heavy_steps": "take02",
+    "kamikiri_blades": "take03",
+    "omukade_impact": "take03",
+    "remaining_eight": "take01"
+  },
+  "integration_records": [
+    "scene_integration_take01.json",
+    "scene_integration_take02.json",
+    "scene_integration_take03.json"
+  ],
+  "scope": "核可現行音檔與四路線整合；使用者本次直接檢查第一輪花見路線，不聲稱逐路線均經人工聽驗。",
+  "release_rebuilt": false
+}

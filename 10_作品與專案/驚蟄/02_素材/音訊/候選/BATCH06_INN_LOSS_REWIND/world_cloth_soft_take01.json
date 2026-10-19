@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-19",
+  "cue": "SFX08_CLOTH_VARIANT",
+  "name": "world_cloth_soft",
+  "seed": 7208,
+  "intention": "外衣蓋肩、抱起時柔軟衣料聲，低聲而短促",
+  "status": "scene_audition_pending",
+  "formally_adopted": false,
+  "loop": false,
+  "method": "original procedural synthesis; no external recordings, voice or model",
+  "duration_seconds": 0.62,
+  "target_peak_dbfs": -29,
+  "decoded_peak_dbfs": -29.132886187626198,
+  "decoded_rms_dbfs": -44.724438486484416,
+  "editable_source": "produce_batch06_take01.py",
+  "source_sha256": "35b319ce65d413545c9cf292e08e8a0ec606fdb19adbd43af3b4df3c629b9585",
+  "wav": {
+    "file": "world_cloth_soft_take01.wav",
+    "sha256": "0f899e194300d9f62df4663d1ef81098909e49f7f717ac4cb5fecc048cf6b364",
+    "sample_rate": 48000,
+    "bits": 24,
+    "channels": 1
+  },
+  "ogg": {
+    "file": "world_cloth_soft_take01.ogg",
+    "sha256": "20241907a5091d41ce479738abfdd6f09510e4b59b7051ef64ccdb97e73ab382",
+    "sample_rate": 44100,
+    "channels": 1
+  },
+  "game_file": "03_開發/JingZhe/game/audio/sfx/world/world_cloth_soft.ogg"
+}

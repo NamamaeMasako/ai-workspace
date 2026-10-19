@@ -1,0 +1,655 @@
+{
+  "date": "2026-10-19",
+  "batch": "BATCH06_INN_LOSS_REWIND",
+  "status": "awaiting_user_whole_scene_confirmation",
+  "formally_adopted": false,
+  "primary_cues": 3,
+  "variants": 3,
+  "new_files": 6,
+  "assets": [
+    {
+      "date": "2026-10-19",
+      "cue": "SFX12_LAMP_DROP",
+      "name": "world_lamp_drop",
+      "seed": 7012,
+      "intention": "燈盞穩落木地板：短鈍接觸、燈架輕顫；沒有破裂或翻滾",
+      "status": "scene_audition_pending",
+      "formally_adopted": false,
+      "loop": false,
+      "method": "original procedural synthesis; no external recordings, voice or model",
+      "duration_seconds": 0.69,
+      "target_peak_dbfs": -23,
+      "decoded_peak_dbfs": -23.081273849777027,
+      "decoded_rms_dbfs": -42.5702249134952,
+      "editable_source": "produce_batch06_take01.py",
+      "source_sha256": "35b319ce65d413545c9cf292e08e8a0ec606fdb19adbd43af3b4df3c629b9585",
+      "wav": {
+        "file": "world_lamp_drop_take01.wav",
+        "sha256": "a0efd69efffb1f7c73343e4772ca3a1882c775d795fdc2d4a1b92c969ebe04f4",
+        "sample_rate": 48000,
+        "bits": 24,
+        "channels": 1
+      },
+      "ogg": {
+        "file": "world_lamp_drop_take01.ogg",
+        "sha256": "0c2d75b66152d4c4fbc1a30bd516197c14307889cebc819011adc4162cf1541e",
+        "sample_rate": 44100,
+        "channels": 1
+      },
+      "game_file": "03_開發/JingZhe/game/audio/sfx/world/world_lamp_drop.ogg",
+      "game_sha256": "0c2d75b66152d4c4fbc1a30bd516197c14307889cebc819011adc4162cf1541e",
+      "matches_source": true,
+      "runtime_loaded_sha256": "0c2d75b66152d4c4fbc1a30bd516197c14307889cebc819011adc4162cf1541e"
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX19_CARD_TEAR",
+      "name": "magic_black_card_tear",
+      "seed": 7019,
+      "intention": "厚卡片單次拉裂，短纖維斷裂與極淡尾響；不帶人聲或回退音樂",
+      "status": "scene_audition_pending",
+      "formally_adopted": false,
+      "loop": false,
+      "method": "original procedural synthesis; no external recordings, voice or model",
+      "duration_seconds": 0.78,
+      "target_peak_dbfs": -21,
+      "decoded_peak_dbfs": -20.984432002514765,
+      "decoded_rms_dbfs": -40.966648800702885,
+      "editable_source": "produce_batch06_take01.py",
+      "source_sha256": "35b319ce65d413545c9cf292e08e8a0ec606fdb19adbd43af3b4df3c629b9585",
+      "wav": {
+        "file": "magic_black_card_tear_take01.wav",
+        "sha256": "d84c361c1b3e910cab668faed1caa7744eefeedfada6cfb62312e6c81bf962a9",
+        "sample_rate": 48000,
+        "bits": 24,
+        "channels": 1
+      },
+      "ogg": {
+        "file": "magic_black_card_tear_take01.ogg",
+        "sha256": "05e7225e143a3de28eaeb1f2a5bedb30910c33c90a9fcdc666b13ba2c5c6f427",
+        "sample_rate": 44100,
+        "channels": 1
+      },
+      "game_file": "03_開發/JingZhe/game/audio/sfx/magic/magic_black_card_tear.ogg",
+      "game_sha256": "05e7225e143a3de28eaeb1f2a5bedb30910c33c90a9fcdc666b13ba2c5c6f427",
+      "matches_source": true,
+      "runtime_loaded_sha256": "05e7225e143a3de28eaeb1f2a5bedb30910c33c90a9fcdc666b13ba2c5c6f427"
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX31_BODY_FALL",
+      "name": "battle_body_fall_soft",
+      "seed": 7031,
+      "intention": "柔和人體落地：衣料先擦過，身體短悶觸地，沒有骨裂或血肉聲",
+      "status": "scene_audition_pending",
+      "formally_adopted": false,
+      "loop": false,
+      "method": "original procedural synthesis; no external recordings, voice or model",
+      "duration_seconds": 0.72,
+      "target_peak_dbfs": -24,
+      "decoded_peak_dbfs": -24.014921965857244,
+      "decoded_rms_dbfs": -43.692625207781326,
+      "editable_source": "produce_batch06_take01.py",
+      "source_sha256": "35b319ce65d413545c9cf292e08e8a0ec606fdb19adbd43af3b4df3c629b9585",
+      "wav": {
+        "file": "battle_body_fall_soft_take01.wav",
+        "sha256": "a59b5340048ed9dd593312e4265ebd77369ac37689c52aa7652382a0ef898d61",
+        "sample_rate": 48000,
+        "bits": 24,
+        "channels": 1
+      },
+      "ogg": {
+        "file": "battle_body_fall_soft_take01.ogg",
+        "sha256": "fe685966b0de7f5ad40fe7348d0fbf964933205819a98bfa0fcaa7c169627253",
+        "sample_rate": 44100,
+        "channels": 1
+      },
+      "game_file": "03_開發/JingZhe/game/audio/sfx/battle/battle_body_fall_soft.ogg",
+      "game_sha256": "fe685966b0de7f5ad40fe7348d0fbf964933205819a98bfa0fcaa7c169627253",
+      "matches_source": true,
+      "runtime_loaded_sha256": "fe685966b0de7f5ad40fe7348d0fbf964933205819a98bfa0fcaa7c169627253"
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX06_FRAME_VARIANT",
+      "name": "world_frame_thud_soft",
+      "seed": 7106,
+      "intention": "木框推回的一聲輕悶響，與無聲抽屜搜尋分開",
+      "status": "scene_audition_pending",
+      "formally_adopted": false,
+      "loop": false,
+      "method": "original procedural synthesis; no external recordings, voice or model",
+      "duration_seconds": 0.36,
+      "target_peak_dbfs": -26,
+      "decoded_peak_dbfs": -25.908326580919084,
+      "decoded_rms_dbfs": -42.555359274392416,
+      "editable_source": "produce_batch06_take01.py",
+      "source_sha256": "35b319ce65d413545c9cf292e08e8a0ec606fdb19adbd43af3b4df3c629b9585",
+      "wav": {
+        "file": "world_frame_thud_soft_take01.wav",
+        "sha256": "2f1833054031ffea11fce32ea73633b1f9e38c3d269f45a2a66423ec52577d3d",
+        "sample_rate": 48000,
+        "bits": 24,
+        "channels": 1
+      },
+      "ogg": {
+        "file": "world_frame_thud_soft_take01.ogg",
+        "sha256": "8328b83c8c02b4049e809fae80a21bc0b4e024021e2dbac46aadf22a5c968727",
+        "sample_rate": 44100,
+        "channels": 1
+      },
+      "game_file": "03_開發/JingZhe/game/audio/sfx/world/world_frame_thud_soft.ogg",
+      "game_sha256": "8328b83c8c02b4049e809fae80a21bc0b4e024021e2dbac46aadf22a5c968727",
+      "matches_source": true,
+      "runtime_loaded_sha256": "8328b83c8c02b4049e809fae80a21bc0b4e024021e2dbac46aadf22a5c968727"
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX08_DRAG_VARIANT",
+      "name": "world_cloth_drag_soft",
+      "seed": 7108,
+      "intention": "衣料被短促拖動與掙動，不加入人聲或攻擊尖叫",
+      "status": "scene_audition_pending",
+      "formally_adopted": false,
+      "loop": false,
+      "method": "original procedural synthesis; no external recordings, voice or model",
+      "duration_seconds": 0.79,
+      "target_peak_dbfs": -25,
+      "decoded_peak_dbfs": -25.788209134935034,
+      "decoded_rms_dbfs": -41.29444908070547,
+      "editable_source": "produce_batch06_take01.py",
+      "source_sha256": "35b319ce65d413545c9cf292e08e8a0ec606fdb19adbd43af3b4df3c629b9585",
+      "wav": {
+        "file": "world_cloth_drag_soft_take01.wav",
+        "sha256": "11d292a429a4c3592eb55040c0195b33f48049560eda3c39b311cd785d38af1a",
+        "sample_rate": 48000,
+        "bits": 24,
+        "channels": 1
+      },
+      "ogg": {
+        "file": "world_cloth_drag_soft_take01.ogg",
+        "sha256": "a205db7d2eb5478c38f5dca6b6ef2b24a944c65272fa9ffce4d98f4e3ef9fda9",
+        "sample_rate": 44100,
+        "channels": 1
+      },
+      "game_file": "03_開發/JingZhe/game/audio/sfx/world/world_cloth_drag_soft.ogg",
+      "game_sha256": "a205db7d2eb5478c38f5dca6b6ef2b24a944c65272fa9ffce4d98f4e3ef9fda9",
+      "matches_source": true,
+      "runtime_loaded_sha256": "a205db7d2eb5478c38f5dca6b6ef2b24a944c65272fa9ffce4d98f4e3ef9fda9"
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX08_CLOTH_VARIANT",
+      "name": "world_cloth_soft",
+      "seed": 7208,
+      "intention": "外衣蓋肩、抱起時柔軟衣料聲，低聲而短促",
+      "status": "scene_audition_pending",
+      "formally_adopted": false,
+      "loop": false,
+      "method": "original procedural synthesis; no external recordings, voice or model",
+      "duration_seconds": 0.62,
+      "target_peak_dbfs": -29,
+      "decoded_peak_dbfs": -29.132886187626198,
+      "decoded_rms_dbfs": -44.724438486484416,
+      "editable_source": "produce_batch06_take01.py",
+      "source_sha256": "35b319ce65d413545c9cf292e08e8a0ec606fdb19adbd43af3b4df3c629b9585",
+      "wav": {
+        "file": "world_cloth_soft_take01.wav",
+        "sha256": "0f899e194300d9f62df4663d1ef81098909e49f7f717ac4cb5fecc048cf6b364",
+        "sample_rate": 48000,
+        "bits": 24,
+        "channels": 1
+      },
+      "ogg": {
+        "file": "world_cloth_soft_take01.ogg",
+        "sha256": "20241907a5091d41ce479738abfdd6f09510e4b59b7051ef64ccdb97e73ab382",
+        "sample_rate": 44100,
+        "channels": 1
+      },
+      "game_file": "03_開發/JingZhe/game/audio/sfx/world/world_cloth_soft.ogg",
+      "game_sha256": "20241907a5091d41ce479738abfdd6f09510e4b59b7051ef64ccdb97e73ab382",
+      "matches_source": true,
+      "runtime_loaded_sha256": "20241907a5091d41ce479738abfdd6f09510e4b59b7051ef64ccdb97e73ab382"
+    }
+  ],
+  "routes": {
+    "chapter_7_hanami_1": [
+      {
+        "label": "木框輕悶響",
+        "trigger": "木框被推回去時，發出一聲很輕的悶響。",
+        "commands": [
+          "play sound \"audio/sfx/world/world_frame_thud_soft.ogg\""
+        ],
+        "script_line": 1236
+      },
+      {
+        "label": "燈架晃動（沿用）",
+        "trigger": "夢見還來不及退後，燈火便猛地一晃。",
+        "commands": [
+          "play sound \"audio/sfx/world/world_lamp_sway.ogg\" volume 0.85"
+        ],
+        "script_line": 1257
+      },
+      {
+        "label": "拖動衣料",
+        "trigger": "絡新婦將她拖進房裡，手掌覆住她的口鼻。",
+        "commands": [
+          "play sound \"audio/sfx/world/world_cloth_drag_soft.ogg\""
+        ],
+        "script_line": 1261
+      },
+      {
+        "label": "輕微掙動衣料",
+        "trigger": "夢見的指尖抓住她的手腕，細微地掙動著。",
+        "commands": [
+          "play sound \"audio/sfx/world/world_cloth_soft.ogg\" volume 0.7"
+        ],
+        "script_line": 1264
+      },
+      {
+        "label": "燈盞落地、無碎裂",
+        "trigger": "燈盞落在地上，火光晃了晃，沒有翻倒。",
+        "commands": [
+          "play sound \"audio/sfx/world/world_lamp_drop.ogg\""
+        ],
+        "script_line": 1284
+      },
+      {
+        "label": "幾乎無聲的倒下",
+        "trigger": "夢見倒下時，幾乎沒有發出聲音。",
+        "commands": [
+          "play sound \"audio/sfx/battle/battle_body_fall_soft.ogg\" volume 0.18"
+        ],
+        "script_line": 1287
+      },
+      {
+        "label": "巨蛛倒下（沿用重物撞擊）",
+        "trigger": "土蜘蛛終於倒下。",
+        "commands": [
+          "play sound \"audio/sfx/battle/battle_omukade_impact.ogg\" volume 0.55"
+        ],
+        "script_line": 1295
+      },
+      {
+        "label": "趕回庄門（沿用濕地腳步）",
+        "trigger": "他們趕回月下庄。",
+        "commands": [
+          "play sound \"audio/sfx/world/world_footstep_wet.ogg\" volume 0.7"
+        ],
+        "script_line": 1308
+      },
+      {
+        "label": "庄門薙刀揮動",
+        "trigger": "花見的動作很大，很急，像把所有痛都甩出去。",
+        "commands": [
+          "play sound \"audio/sfx/battle/battle_naginata_whoosh.ogg\""
+        ],
+        "script_line": 1318
+      },
+      {
+        "label": "蟲影纏住退路",
+        "trigger": "驚蟄的蟲影從側面纏住她的腳。",
+        "commands": [
+          "play sound \"audio/sfx/magic/magic_insect_summon.ogg\" volume 0.45"
+        ],
+        "script_line": 1321
+      },
+      {
+        "label": "黑影斷裂",
+        "trigger": "一息之間，黑影碎成兩半。",
+        "commands": [
+          "play sound \"audio/sfx/battle/battle_silk_cut.ogg\" volume 0.8"
+        ],
+        "script_line": 1324
+      },
+      {
+        "label": "衝進屋裡的短腳步",
+        "trigger": "他們衝進屋裡。",
+        "commands": [
+          "play sound \"audio/sfx/world/world_footstep_wood.ogg\" volume 0.65"
+        ],
+        "script_line": 1336
+      },
+      {
+        "label": "跪地輕觸地面",
+        "trigger": "花見跪在地上，像被抽走了骨頭。",
+        "commands": [
+          "play sound \"audio/sfx/battle/battle_body_fall_soft.ogg\" volume 0.28"
+        ],
+        "script_line": 1344
+      },
+      {
+        "label": "取回黑卡的紙布聲",
+        "trigger": "他把卡片從花見身上取回。",
+        "commands": [
+          "play sound \"audio/sfx/world/world_black_card_stow.ogg\" volume 0.8"
+        ],
+        "script_line": 1358
+      },
+      {
+        "label": "撕開黑卡",
+        "trigger": "撕開。",
+        "commands": [
+          "play sound \"audio/sfx/magic/magic_black_card_tear.ogg\""
+        ],
+        "script_line": 1364
+      },
+      {
+        "label": "撕卡後停止短音、回退保留安靜",
+        "trigger": "風停了一瞬。",
+        "commands": [
+          "stop sound fadeout 0.10"
+        ],
+        "script_line": 1367
+      }
+    ],
+    "chapter_7_yumemi_1": [
+      {
+        "label": "花見輕輕倒地",
+        "trigger": "花見倒下的聲音很輕。",
+        "commands": [
+          "play sound \"audio/sfx/battle/battle_body_fall_soft.ogg\" volume 0.55"
+        ],
+        "script_line": 1532
+      },
+      {
+        "label": "外衣蓋肩",
+        "trigger": "他沒有多說，只把外衣蓋到她肩上。",
+        "commands": [
+          "play sound \"audio/sfx/world/world_cloth_soft.ogg\""
+        ],
+        "script_line": 1550
+      },
+      {
+        "label": "抱起時的衣料",
+        "trigger": "然後，他把她抱起來。",
+        "commands": [
+          "play sound \"audio/sfx/world/world_cloth_soft.ogg\" volume 0.8"
+        ],
+        "script_line": 1553
+      },
+      {
+        "label": "低聲返庄腳步、無雨底聲",
+        "trigger": "他抱著她走，木屐聲被雨吞得很低。",
+        "commands": [
+          "play sound \"audio/sfx/world/world_footstep_wet.ogg\" volume 0.35"
+        ],
+        "script_line": 1563
+      },
+      {
+        "label": "輕放在榻榻米、無重摔",
+        "trigger": "他把花見放在榻榻米上。",
+        "commands": [
+          "play sound \"audio/sfx/battle/battle_body_fall_soft.ogg\" volume 0.22"
+        ],
+        "script_line": 1585
+      },
+      {
+        "label": "夢見跪下的輕觸地面",
+        "trigger": "她跪下去，像是被抽走了力氣。",
+        "commands": [
+          "play sound \"audio/sfx/battle/battle_body_fall_soft.ogg\" volume 0.28"
+        ],
+        "script_line": 1591
+      },
+      {
+        "label": "遞出黑卡的紙布聲",
+        "trigger": "夢見抖著手，把卡片遞出去。",
+        "commands": [
+          "play sound \"audio/sfx/world/world_black_card_stow.ogg\" volume 0.8"
+        ],
+        "script_line": 1601
+      },
+      {
+        "label": "撕開黑卡",
+        "trigger": "撕開。",
+        "commands": [
+          "play sound \"audio/sfx/magic/magic_black_card_tear.ogg\""
+        ],
+        "script_line": 1608
+      },
+      {
+        "label": "撕卡後停止短音、回退保留安靜",
+        "trigger": "風停了一瞬。",
+        "commands": [
+          "stop sound fadeout 0.10"
+        ],
+        "script_line": 1611
+      }
+    ],
+    "chapter_7_hanami_2": [
+      {
+        "label": "木框輕悶響",
+        "trigger": "木框被推回去時，發出一聲很輕的悶響。",
+        "commands": [
+          "play sound \"audio/sfx/world/world_frame_thud_soft.ogg\""
+        ],
+        "script_line": 1790
+      },
+      {
+        "label": "燈架晃動（沿用）",
+        "trigger": "夢見還來不及退後，燈火便猛地一晃。",
+        "commands": [
+          "play sound \"audio/sfx/world/world_lamp_sway.ogg\" volume 0.85"
+        ],
+        "script_line": 1811
+      },
+      {
+        "label": "拖動衣料",
+        "trigger": "絡新婦將她拖進房裡，手掌覆住她的口鼻。",
+        "commands": [
+          "play sound \"audio/sfx/world/world_cloth_drag_soft.ogg\""
+        ],
+        "script_line": 1815
+      },
+      {
+        "label": "輕微掙動衣料",
+        "trigger": "夢見的指尖抓住她的手腕，細微地掙動著。",
+        "commands": [
+          "play sound \"audio/sfx/world/world_cloth_soft.ogg\" volume 0.7"
+        ],
+        "script_line": 1818
+      },
+      {
+        "label": "燈盞落地、無碎裂",
+        "trigger": "燈盞落在地上，火光晃了晃，沒有翻倒。",
+        "commands": [
+          "play sound \"audio/sfx/world/world_lamp_drop.ogg\""
+        ],
+        "script_line": 1838
+      },
+      {
+        "label": "幾乎無聲的倒下",
+        "trigger": "夢見倒下時，幾乎沒有發出聲音。",
+        "commands": [
+          "play sound \"audio/sfx/battle/battle_body_fall_soft.ogg\" volume 0.18"
+        ],
+        "script_line": 1841
+      },
+      {
+        "label": "巨蛛倒下（沿用重物撞擊）",
+        "trigger": "土蜘蛛終於倒下。",
+        "commands": [
+          "play sound \"audio/sfx/battle/battle_omukade_impact.ogg\" volume 0.55"
+        ],
+        "script_line": 1849
+      },
+      {
+        "label": "趕回庄門（沿用濕地腳步）",
+        "trigger": "他們趕回月下庄。",
+        "commands": [
+          "play sound \"audio/sfx/world/world_footstep_wet.ogg\" volume 0.7"
+        ],
+        "script_line": 1864
+      },
+      {
+        "label": "蟲影纏住退路",
+        "trigger": "他的蟲影先一步纏住黑影的退路。",
+        "commands": [
+          "play sound \"audio/sfx/magic/magic_insect_summon.ogg\" volume 0.45"
+        ],
+        "script_line": 1878
+      },
+      {
+        "label": "庄門薙刀落下",
+        "trigger": "花見的薙刀落下，乾淨得像切斷一根線。",
+        "commands": [
+          "play sound \"audio/sfx/battle/battle_naginata_whoosh.ogg\""
+        ],
+        "script_line": 1881
+      },
+      {
+        "label": "黑影斷裂",
+        "trigger": "黑影碎成兩半。",
+        "commands": [
+          "play sound \"audio/sfx/battle/battle_silk_cut.ogg\" volume 0.8"
+        ],
+        "script_line": 1884
+      },
+      {
+        "label": "衝進屋裡的短腳步",
+        "trigger": "他們衝進屋裡。",
+        "commands": [
+          "play sound \"audio/sfx/world/world_footstep_wood.ogg\" volume 0.65"
+        ],
+        "script_line": 1896
+      },
+      {
+        "label": "跪地輕觸地面",
+        "trigger": "花見跪在地上，像被抽走了骨頭。",
+        "commands": [
+          "play sound \"audio/sfx/battle/battle_body_fall_soft.ogg\" volume 0.28"
+        ],
+        "script_line": 1908
+      },
+      {
+        "label": "取回黑卡的紙布聲",
+        "trigger": "他把卡片從花見身上取回。",
+        "commands": [
+          "play sound \"audio/sfx/world/world_black_card_stow.ogg\" volume 0.8"
+        ],
+        "script_line": 1928
+      },
+      {
+        "label": "撕開黑卡",
+        "trigger": "撕開。",
+        "commands": [
+          "play sound \"audio/sfx/magic/magic_black_card_tear.ogg\""
+        ],
+        "script_line": 1934
+      },
+      {
+        "label": "撕卡後停止短音、回退保留安靜",
+        "trigger": "風停了一瞬。",
+        "commands": [
+          "stop sound fadeout 0.10"
+        ],
+        "script_line": 1937
+      }
+    ],
+    "chapter_7_yumemi_2": [
+      {
+        "label": "衝近花見的短腳步",
+        "trigger": "但這次，他幾乎是衝過去的。",
+        "commands": [
+          "play sound \"audio/sfx/world/world_footstep_wet.ogg\" volume 0.45"
+        ],
+        "script_line": 2118
+      },
+      {
+        "label": "外衣蓋肩",
+        "trigger": "他把外衣蓋到她肩上，又替她把臉側的雨抹開。",
+        "commands": [
+          "play sound \"audio/sfx/world/world_cloth_soft.ogg\""
+        ],
+        "script_line": 2137
+      },
+      {
+        "label": "抱起時的衣料",
+        "trigger": "然後，他把她抱起來。",
+        "commands": [
+          "play sound \"audio/sfx/world/world_cloth_soft.ogg\" volume 0.8"
+        ],
+        "script_line": 2144
+      },
+      {
+        "label": "低聲返庄腳步、無雨底聲",
+        "trigger": "回月下庄的路比想像中更長。",
+        "commands": [
+          "play sound \"audio/sfx/world/world_footstep_wet.ogg\" volume 0.35"
+        ],
+        "script_line": 2152
+      },
+      {
+        "label": "輕放在榻榻米、無重摔",
+        "trigger": "他把花見放在榻榻米上。",
+        "commands": [
+          "play sound \"audio/sfx/battle/battle_body_fall_soft.ogg\" volume 0.22"
+        ],
+        "script_line": 2180
+      },
+      {
+        "label": "夢見跪下的輕觸地面",
+        "trigger": "她跪下去，像是被抽走了力氣。",
+        "commands": [
+          "play sound \"audio/sfx/battle/battle_body_fall_soft.ogg\" volume 0.28"
+        ],
+        "script_line": 2186
+      },
+      {
+        "label": "遞出黑卡的紙布聲",
+        "trigger": "夢見抖著手，把卡片遞出去。",
+        "commands": [
+          "play sound \"audio/sfx/world/world_black_card_stow.ogg\" volume 0.8"
+        ],
+        "script_line": 2198
+      },
+      {
+        "label": "撕開黑卡",
+        "trigger": "撕開。",
+        "commands": [
+          "play sound \"audio/sfx/magic/magic_black_card_tear.ogg\""
+        ],
+        "script_line": 2205
+      },
+      {
+        "label": "撕卡後停止短音、回退保留安靜",
+        "trigger": "風停了一瞬。",
+        "commands": [
+          "stop sound fadeout 0.10"
+        ],
+        "script_line": 2208
+      }
+    ]
+  },
+  "added_sound_statements": 50,
+  "script_sha256_before": "2b1b94227e497b13fa1f44250f58aa7d7621eb9619697209e418144d4676b464",
+  "script_sha256_after": "fcd5dd98ddedb9387a3b86dc65da70b5d73b5e9edfdeb31f2073552490c8b8e3",
+  "text_staging_music_and_branches_unchanged": true,
+  "silence_preserved": [
+    "無聲穿過屋簷與抽屜搜尋",
+    "靜止細影與沒有回答",
+    "夢見倒下音量0.18",
+    "第二輪花見已倒在葉上、不重播倒地",
+    "耳語不製作人聲",
+    "回退不加入雨或風底聲"
+  ],
+  "review_entry": "script.rpy:1216",
+  "review_end": "第一輪撕卡後的黑底記憶倒流；第二輪到第八章留卡選項前",
+  "temporary_review_ui": false,
+  "release_rebuilt": false,
+  "version_changed": false,
+  "runtime": {
+    "observation": "runtime_observation_take01.json",
+    "screenshot": "runtime_scene_take01.png",
+    "process_id": 40768,
+    "location": [
+      "game/script.rpy",
+      1216
+    ],
+    "music": "<loop 3.0>audio/music/bgm_inn_hunted.ogg",
+    "music_volume": 1.0,
+    "sfx_volume": 1.0,
+    "ambience": null
+  }
+}

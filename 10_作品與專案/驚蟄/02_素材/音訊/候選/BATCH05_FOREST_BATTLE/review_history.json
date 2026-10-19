@@ -1,6 +1,6 @@
 {
   "batch": "BATCH05_FOREST_BATTLE",
-  "status": "awaiting_user_whole_scene_confirmation",
+  "status": "formally_adopted",
   "reviews": [
     {
       "date": "2026-10-19",
@@ -55,6 +55,13 @@
       "retained_heavy_steps": "take02",
       "integration": "scene_integration_take03.json",
       "formally_adopted": false
+    },
+    {
+      "date": "2026-10-19",
+      "stage": "formal_adoption",
+      "user_feedback": "好，繼續",
+      "formal_adoption": "formal_adoption.json",
+      "formally_adopted": true
     }
   ]
 }

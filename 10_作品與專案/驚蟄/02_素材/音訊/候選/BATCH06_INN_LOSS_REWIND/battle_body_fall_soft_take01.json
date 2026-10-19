@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-19",
+  "cue": "SFX31_BODY_FALL",
+  "name": "battle_body_fall_soft",
+  "seed": 7031,
+  "intention": "柔和人體落地：衣料先擦過，身體短悶觸地，沒有骨裂或血肉聲",
+  "status": "scene_audition_pending",
+  "formally_adopted": false,
+  "loop": false,
+  "method": "original procedural synthesis; no external recordings, voice or model",
+  "duration_seconds": 0.72,
+  "target_peak_dbfs": -24,
+  "decoded_peak_dbfs": -24.014921965857244,
+  "decoded_rms_dbfs": -43.692625207781326,
+  "editable_source": "produce_batch06_take01.py",
+  "source_sha256": "35b319ce65d413545c9cf292e08e8a0ec606fdb19adbd43af3b4df3c629b9585",
+  "wav": {
+    "file": "battle_body_fall_soft_take01.wav",
+    "sha256": "a59b5340048ed9dd593312e4265ebd77369ac37689c52aa7652382a0ef898d61",
+    "sample_rate": 48000,
+    "bits": 24,
+    "channels": 1
+  },
+  "ogg": {
+    "file": "battle_body_fall_soft_take01.ogg",
+    "sha256": "fe685966b0de7f5ad40fe7348d0fbf964933205819a98bfa0fcaa7c169627253",
+    "sample_rate": 44100,
+    "channels": 1
+  },
+  "game_file": "03_開發/JingZhe/game/audio/sfx/battle/battle_body_fall_soft.ogg"
+}

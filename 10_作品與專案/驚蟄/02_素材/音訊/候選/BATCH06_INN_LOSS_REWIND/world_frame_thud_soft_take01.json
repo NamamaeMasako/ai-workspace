@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-19",
+  "cue": "SFX06_FRAME_VARIANT",
+  "name": "world_frame_thud_soft",
+  "seed": 7106,
+  "intention": "木框推回的一聲輕悶響，與無聲抽屜搜尋分開",
+  "status": "scene_audition_pending",
+  "formally_adopted": false,
+  "loop": false,
+  "method": "original procedural synthesis; no external recordings, voice or model",
+  "duration_seconds": 0.36,
+  "target_peak_dbfs": -26,
+  "decoded_peak_dbfs": -25.908326580919084,
+  "decoded_rms_dbfs": -42.555359274392416,
+  "editable_source": "produce_batch06_take01.py",
+  "source_sha256": "35b319ce65d413545c9cf292e08e8a0ec606fdb19adbd43af3b4df3c629b9585",
+  "wav": {
+    "file": "world_frame_thud_soft_take01.wav",
+    "sha256": "2f1833054031ffea11fce32ea73633b1f9e38c3d269f45a2a66423ec52577d3d",
+    "sample_rate": 48000,
+    "bits": 24,
+    "channels": 1
+  },
+  "ogg": {
+    "file": "world_frame_thud_soft_take01.ogg",
+    "sha256": "8328b83c8c02b4049e809fae80a21bc0b4e024021e2dbac46aadf22a5c968727",
+    "sample_rate": 44100,
+    "channels": 1
+  },
+  "game_file": "03_開發/JingZhe/game/audio/sfx/world/world_frame_thud_soft.ogg"
+}

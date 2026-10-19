@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-19",
+  "cue": "SFX08_DRAG_VARIANT",
+  "name": "world_cloth_drag_soft",
+  "seed": 7108,
+  "intention": "衣料被短促拖動與掙動，不加入人聲或攻擊尖叫",
+  "status": "scene_audition_pending",
+  "formally_adopted": false,
+  "loop": false,
+  "method": "original procedural synthesis; no external recordings, voice or model",
+  "duration_seconds": 0.79,
+  "target_peak_dbfs": -25,
+  "decoded_peak_dbfs": -25.788209134935034,
+  "decoded_rms_dbfs": -41.29444908070547,
+  "editable_source": "produce_batch06_take01.py",
+  "source_sha256": "35b319ce65d413545c9cf292e08e8a0ec606fdb19adbd43af3b4df3c629b9585",
+  "wav": {
+    "file": "world_cloth_drag_soft_take01.wav",
+    "sha256": "11d292a429a4c3592eb55040c0195b33f48049560eda3c39b311cd785d38af1a",
+    "sample_rate": 48000,
+    "bits": 24,
+    "channels": 1
+  },
+  "ogg": {
+    "file": "world_cloth_drag_soft_take01.ogg",
+    "sha256": "a205db7d2eb5478c38f5dca6b6ef2b24a944c65272fa9ffce4d98f4e3ef9fda9",
+    "sample_rate": 44100,
+    "channels": 1
+  },
+  "game_file": "03_開發/JingZhe/game/audio/sfx/world/world_cloth_drag_soft.ogg"
+}

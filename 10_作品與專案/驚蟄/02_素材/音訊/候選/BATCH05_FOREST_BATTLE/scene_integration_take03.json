@@ -2,8 +2,8 @@
   "date": "2026-10-19",
   "batch": "BATCH05_FOREST_BATTLE",
   "revision": "take03_blade_contact_massive_collision",
-  "status": "awaiting_user_whole_scene_confirmation",
-  "formally_adopted": false,
+  "status": "formally_adopted",
+  "formally_adopted": true,
   "base_integration": "scene_integration_take01.json",
   "previous_revision": "scene_integration_take02.json",
   "revision_manifest": "revision_manifest_take03.json",
@@ -87,5 +87,6 @@
   "process_id": 9376,
   "entry": "script.rpy:1114",
   "stop_at": "另一邊，月下庄靜得像沒有住人。",
-  "scope": "替換兩個既有共用戰鬥音檔，四路線同名引用同步更新；夢見路線土蜘蛛倒下共用撞擊檔仍保留原0.55音量。"
+  "scope": "替換兩個既有共用戰鬥音檔，四路線同名引用同步更新；夢見路線土蜘蛛倒下共用撞擊檔仍保留原0.55音量。",
+  "formal_adoption": "formal_adoption.json"
 }

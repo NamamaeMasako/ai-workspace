@@ -1232,6 +1232,7 @@ label chapter_7_hanami_1:
 
     narrator "那份從容終於在沉默裡裂開一線。"
 
+    play sound "audio/sfx/world/world_frame_thud_soft.ogg"
     narrator "木框被推回去時，發出一聲很輕的悶響。"
 
     scene bg inn_corridor_night
@@ -1252,11 +1253,14 @@ label chapter_7_hanami_1:
     with dissolve
 
     show yumemi frightened at zh_left
+    play sound "audio/sfx/world/world_lamp_sway.ogg" volume 0.85
     narrator "夢見還來不及退後，燈火便猛地一晃。"
 
     show jorogumo attack at zh_right
+    play sound "audio/sfx/world/world_cloth_drag_soft.ogg"
     narrator "絡新婦將她拖進房裡，手掌覆住她的口鼻。"
 
+    play sound "audio/sfx/world/world_cloth_soft.ogg" volume 0.7
     narrator "夢見的指尖抓住她的手腕，細微地掙動著。"
 
     narrator "絡新婦貼近她，聲音低得像絲線勒進耳中。"
@@ -1276,8 +1280,10 @@ label chapter_7_hanami_1:
 
     narrator "但聲音還沒成形，就被截斷了。"
 
+    play sound "audio/sfx/world/world_lamp_drop.ogg"
     narrator "燈盞落在地上，火光晃了晃，沒有翻倒。"
 
+    play sound "audio/sfx/battle/battle_body_fall_soft.ogg" volume 0.18
     narrator "夢見倒下時，幾乎沒有發出聲音。"
 
     narrator "屋裡很安靜，像是什麼都沒有發生。"
@@ -1285,6 +1291,7 @@ label chapter_7_hanami_1:
     scene bg forest_path_night
     with dissolve
 
+    play sound "audio/sfx/battle/battle_omukade_impact.ogg" volume 0.55
     narrator "土蜘蛛終於倒下。"
 
     narrator "花見喘著氣，髮絲黏在臉側。"
@@ -1297,6 +1304,7 @@ label chapter_7_hanami_1:
     scene bg inn_gate_night
     with fade
 
+    play sound "audio/sfx/world/world_footstep_wet.ogg" volume 0.7
     narrator "他們趕回月下庄。"
 
     show jorogumo attack at zh_battle_monster_left
@@ -1306,10 +1314,13 @@ label chapter_7_hanami_1:
 
     play music "<loop 3.4285625>audio/music/bgm_forest_assault.ogg" loop fadeout 2.0 fadein 5.0 volume 0.35
 
+    play sound "audio/sfx/battle/battle_naginata_whoosh.ogg"
     narrator "花見的動作很大，很急，像把所有痛都甩出去。"
 
+    play sound "audio/sfx/magic/magic_insect_summon.ogg" volume 0.45
     narrator "驚蟄的蟲影從側面纏住她的腳。"
 
+    play sound "audio/sfx/battle/battle_silk_cut.ogg" volume 0.8
     narrator "一息之間，黑影碎成兩半。"
 
     stop music fadeout 1.5
@@ -1321,6 +1332,7 @@ label chapter_7_hanami_1:
     scene bg inn_hall_night
     with dissolve
 
+    play sound "audio/sfx/world/world_footstep_wood.ogg" volume 0.65
     narrator "他們衝進屋裡。"
 
     play music "<loop 3.0>audio/music/bgm_loss_and_rewind.ogg" loop fadeout 0.5 fadein 0.8
@@ -1328,6 +1340,7 @@ label chapter_7_hanami_1:
     narrator "看到的是夢見的身體。"
 
     show hanami grief at zh_left
+    play sound "audio/sfx/battle/battle_body_fall_soft.ogg" volume 0.28
     narrator "花見跪在地上，像被抽走了骨頭。"
 
     narrator "她的肩開始發抖，像在用力把聲音吞回去。"
@@ -1341,13 +1354,16 @@ label chapter_7_hanami_1:
 
     narrator "那一秒像是在告訴她：我在。"
 
+    play sound "audio/sfx/world/world_black_card_stow.ogg" volume 0.8
     narrator "他把卡片從花見身上取回。"
 
     show jingzhe stern at zh_right
     stop music fadeout 0.5
 
+    play sound "audio/sfx/magic/magic_black_card_tear.ogg"
     narrator "撕開。"
 
+    stop sound fadeout 0.10
     narrator "風停了一瞬。"
 
     narrator "他聽見了耳語，像從很遠的地方飄來。"
@@ -1512,6 +1528,7 @@ label chapter_7_yumemi_1:
     play music "<loop 3.0>audio/music/bgm_loss_and_rewind.ogg" loop fadeout 0.5 fadein 0.8
 
     show hanami injured at zh_center
+    play sound "audio/sfx/battle/battle_body_fall_soft.ogg" volume 0.55
     narrator "花見倒下的聲音很輕。"
 
     narrator "輕得像不該發生。"
@@ -1529,8 +1546,10 @@ label chapter_7_yumemi_1:
 
     jingzhe "……花見。"
 
+    play sound "audio/sfx/world/world_cloth_soft.ogg"
     narrator "他沒有多說，只把外衣蓋到她肩上。"
 
+    play sound "audio/sfx/world/world_cloth_soft.ogg" volume 0.8
     narrator "然後，他把她抱起來。"
 
     narrator "動作很穩，像是怕一鬆手，她就會被夜色帶走。"
@@ -1540,6 +1559,7 @@ label chapter_7_yumemi_1:
 
     narrator "回月下庄的路比想像中更長。"
 
+    play sound "audio/sfx/world/world_footstep_wet.ogg" volume 0.35
     narrator "他抱著她走，木屐聲被雨吞得很低。"
 
     scene bg inn_gate_night
@@ -1561,11 +1581,13 @@ label chapter_7_yumemi_1:
     scene bg inn_hall_night
     with dissolve
 
+    play sound "audio/sfx/battle/battle_body_fall_soft.ogg" volume 0.22
     narrator "他把花見放在榻榻米上。"
 
     narrator "那一刻，夢見的聲音才真正從喉間掉出來。"
 
     show yumemi grief at zh_left
+    play sound "audio/sfx/battle/battle_body_fall_soft.ogg" volume 0.28
     narrator "她跪下去，像是被抽走了力氣。"
 
     show jingzhe grief at zh_right
@@ -1575,14 +1597,17 @@ label chapter_7_yumemi_1:
 
     jingzhe "把卡給我。"
 
+    play sound "audio/sfx/world/world_black_card_stow.ogg" volume 0.8
     narrator "夢見抖著手，把卡片遞出去。"
 
     narrator "驚蟄接過時，指節白得發青。"
 
     stop music fadeout 0.5
 
+    play sound "audio/sfx/magic/magic_black_card_tear.ogg"
     narrator "撕開。"
 
+    stop sound fadeout 0.10
     narrator "風停了一瞬。"
 
     narrator "他聽見了耳語，像從很遠的地方飄來。"
@@ -1761,6 +1786,7 @@ label chapter_7_hanami_2:
 
     narrator "那份從容終於在沉默裡裂開一線。"
 
+    play sound "audio/sfx/world/world_frame_thud_soft.ogg"
     narrator "木框被推回去時，發出一聲很輕的悶響。"
 
     scene bg inn_corridor_night
@@ -1781,11 +1807,14 @@ label chapter_7_hanami_2:
     with dissolve
 
     show yumemi frightened at zh_left
+    play sound "audio/sfx/world/world_lamp_sway.ogg" volume 0.85
     narrator "夢見還來不及退後，燈火便猛地一晃。"
 
     show jorogumo attack at zh_right
+    play sound "audio/sfx/world/world_cloth_drag_soft.ogg"
     narrator "絡新婦將她拖進房裡，手掌覆住她的口鼻。"
 
+    play sound "audio/sfx/world/world_cloth_soft.ogg" volume 0.7
     narrator "夢見的指尖抓住她的手腕，細微地掙動著。"
 
     narrator "絡新婦貼近她，聲音低得像絲線勒進耳中。"
@@ -1805,8 +1834,10 @@ label chapter_7_hanami_2:
 
     narrator "但聲音還沒成形，就被截斷了。"
 
+    play sound "audio/sfx/world/world_lamp_drop.ogg"
     narrator "燈盞落在地上，火光晃了晃，沒有翻倒。"
 
+    play sound "audio/sfx/battle/battle_body_fall_soft.ogg" volume 0.18
     narrator "夢見倒下時，幾乎沒有發出聲音。"
 
     narrator "屋裡很安靜，像是什麼都沒有發生。"
@@ -1814,6 +1845,7 @@ label chapter_7_hanami_2:
     scene bg forest_path_night
     with dissolve
 
+    play sound "audio/sfx/battle/battle_omukade_impact.ogg" volume 0.55
     narrator "土蜘蛛終於倒下。"
 
     narrator "花見喘著氣，髮絲黏在臉側。"
@@ -1828,6 +1860,7 @@ label chapter_7_hanami_2:
     scene bg inn_gate_night
     with fade
 
+    play sound "audio/sfx/world/world_footstep_wet.ogg" volume 0.7
     narrator "他們趕回月下庄。"
 
     show jorogumo attack at zh_battle_monster_left
@@ -1841,10 +1874,13 @@ label chapter_7_hanami_2:
 
     jingzhe "這次不會。"
 
+    play sound "audio/sfx/magic/magic_insect_summon.ogg" volume 0.45
     narrator "他的蟲影先一步纏住黑影的退路。"
 
+    play sound "audio/sfx/battle/battle_naginata_whoosh.ogg"
     narrator "花見的薙刀落下，乾淨得像切斷一根線。"
 
+    play sound "audio/sfx/battle/battle_silk_cut.ogg" volume 0.8
     narrator "黑影碎成兩半。"
 
     stop music fadeout 1.5
@@ -1856,6 +1892,7 @@ label chapter_7_hanami_2:
     scene bg inn_hall_night
     with dissolve
 
+    play sound "audio/sfx/world/world_footstep_wood.ogg" volume 0.65
     narrator "他們衝進屋裡。"
 
     narrator "可還沒看清屋內，驚蟄的指尖就先發了冷。"
@@ -1867,6 +1904,7 @@ label chapter_7_hanami_2:
     narrator "看到的是夢見的身體。"
 
     show hanami grief at zh_left
+    play sound "audio/sfx/battle/battle_body_fall_soft.ogg" volume 0.28
     narrator "花見跪在地上，像被抽走了骨頭。"
 
     narrator "她的肩開始發抖，像在用力把聲音吞回去。"
@@ -1886,13 +1924,16 @@ label chapter_7_hanami_2:
 
     narrator "他把手放在花見背上，這次沒有只停一秒。"
 
+    play sound "audio/sfx/world/world_black_card_stow.ogg" volume 0.8
     narrator "他把卡片從花見身上取回。"
 
     show jingzhe stern at zh_right
     stop music fadeout 0.5
 
+    play sound "audio/sfx/magic/magic_black_card_tear.ogg"
     narrator "撕開。"
 
+    stop sound fadeout 0.10
     narrator "風停了一瞬。"
 
     narrator "他聽見了耳語，像從很遠的地方飄來。"
@@ -2073,6 +2114,7 @@ label chapter_7_yumemi_2:
 
     narrator "他不喜歡回頭。"
 
+    play sound "audio/sfx/world/world_footstep_wet.ogg" volume 0.45
     narrator "但這次，他幾乎是衝過去的。"
 
     play music "<loop 3.0>audio/music/bgm_loss_and_rewind.ogg" loop fadeout 0.5 fadein 0.8
@@ -2091,12 +2133,14 @@ label chapter_7_yumemi_2:
 
     narrator "他的聲音破了一下，像是他自己也沒預料到。"
 
+    play sound "audio/sfx/world/world_cloth_soft.ogg"
     narrator "他把外衣蓋到她肩上，又替她把臉側的雨抹開。"
 
     narrator "指尖在顫。"
 
     narrator "他深吸一口氣，硬把那點顫抹平。"
 
+    play sound "audio/sfx/world/world_cloth_soft.ogg" volume 0.8
     narrator "然後，他把她抱起來。"
 
     narrator "動作很輕，像是怕驚動她。"
@@ -2104,6 +2148,7 @@ label chapter_7_yumemi_2:
     scene bg forest_path_night
     with fade
 
+    play sound "audio/sfx/world/world_footstep_wet.ogg" volume 0.35
     narrator "回月下庄的路比想像中更長。"
 
     narrator "雨打在他手背上，冷得像提醒。"
@@ -2131,11 +2176,13 @@ label chapter_7_yumemi_2:
     scene bg inn_hall_night
     with dissolve
 
+    play sound "audio/sfx/battle/battle_body_fall_soft.ogg" volume 0.22
     narrator "他把花見放在榻榻米上。"
 
     narrator "那一刻，夢見的聲音才真正從喉間掉出來。"
 
     show yumemi grief at zh_left
+    play sound "audio/sfx/battle/battle_body_fall_soft.ogg" volume 0.28
     narrator "她跪下去，像是被抽走了力氣。"
 
     show jingzhe grief at zh_right
@@ -2147,14 +2194,17 @@ label chapter_7_yumemi_2:
 
     jingzhe "把卡給我。"
 
+    play sound "audio/sfx/world/world_black_card_stow.ogg" volume 0.8
     narrator "夢見抖著手，把卡片遞出去。"
 
     narrator "驚蟄接過時，指節白得發青。"
 
     stop music fadeout 0.5
 
+    play sound "audio/sfx/magic/magic_black_card_tear.ogg"
     narrator "撕開。"
 
+    stop sound fadeout 0.10
     narrator "風停了一瞬。"
 
     narrator "他聽見了耳語，像從很遠的地方飄來。"

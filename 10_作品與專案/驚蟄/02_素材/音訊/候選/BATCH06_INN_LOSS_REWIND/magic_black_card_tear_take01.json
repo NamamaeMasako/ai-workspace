@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-19",
+  "cue": "SFX19_CARD_TEAR",
+  "name": "magic_black_card_tear",
+  "seed": 7019,
+  "intention": "厚卡片單次拉裂，短纖維斷裂與極淡尾響；不帶人聲或回退音樂",
+  "status": "scene_audition_pending",
+  "formally_adopted": false,
+  "loop": false,
+  "method": "original procedural synthesis; no external recordings, voice or model",
+  "duration_seconds": 0.78,
+  "target_peak_dbfs": -21,
+  "decoded_peak_dbfs": -20.984432002514765,
+  "decoded_rms_dbfs": -40.966648800702885,
+  "editable_source": "produce_batch06_take01.py",
+  "source_sha256": "35b319ce65d413545c9cf292e08e8a0ec606fdb19adbd43af3b4df3c629b9585",
+  "wav": {
+    "file": "magic_black_card_tear_take01.wav",
+    "sha256": "d84c361c1b3e910cab668faed1caa7744eefeedfada6cfb62312e6c81bf962a9",
+    "sample_rate": 48000,
+    "bits": 24,
+    "channels": 1
+  },
+  "ogg": {
+    "file": "magic_black_card_tear_take01.ogg",
+    "sha256": "05e7225e143a3de28eaeb1f2a5bedb30910c33c90a9fcdc666b13ba2c5c6f427",
+    "sample_rate": 44100,
+    "channels": 1
+  },
+  "game_file": "03_開發/JingZhe/game/audio/sfx/magic/magic_black_card_tear.ogg"
+}
