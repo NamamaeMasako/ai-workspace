@@ -1,0 +1,595 @@
+{
+  "date": "2026-10-19",
+  "batch": "BATCH07_TRUE_END",
+  "status": "awaiting_user_whole_scene_confirmation",
+  "formally_adopted": false,
+  "primary_cues": 2,
+  "variants": 3,
+  "new_files": 5,
+  "assets": [
+    {
+      "date": "2026-10-19",
+      "cue": "SFX20_MAGIC_RIFT",
+      "name": "magic_night_rift",
+      "seed": 8020,
+      "intention": "夜色短暫撕開：暗色壓力、短裂響及收束氣流，非爆炸或音樂",
+      "status": "scene_audition_pending",
+      "formally_adopted": false,
+      "loop": false,
+      "method": "original procedural synthesis; no external recordings or generative model; non-verbal cough approximation",
+      "duration_seconds": 1.16,
+      "target_peak_dbfs": -25,
+      "decoded_peak_dbfs": -26.249728215027083,
+      "decoded_rms_dbfs": -43.92591958827669,
+      "editable_source": "produce_batch07_take01.py",
+      "source_sha256": "667473f54c26c1c3b1f61c6172941435b1e2acfab7ca7e5133b0af2a6b521755",
+      "wav": {
+        "file": "magic_night_rift_take01.wav",
+        "sha256": "7802d11895b8d18b343e3536c2869d78899c4530a6e16353d2479c2dbecde458",
+        "sample_rate": 48000,
+        "bits": 24,
+        "channels": 1
+      },
+      "ogg": {
+        "file": "magic_night_rift_take01.ogg",
+        "sha256": "10215b8f40643fdbb5800cd0254204fae4339d942cb1c5b96e25806704677a00",
+        "sample_rate": 44100,
+        "channels": 1
+      },
+      "game_file": "03_開發/JingZhe/game/audio/sfx/magic/magic_night_rift.ogg",
+      "game_sha256": "10215b8f40643fdbb5800cd0254204fae4339d942cb1c5b96e25806704677a00",
+      "matches_source": true,
+      "runtime_loaded_sha256": "10215b8f40643fdbb5800cd0254204fae4339d942cb1c5b96e25806704677a00"
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX32_COUGH_BLOOD",
+      "name": "battle_cough_blood",
+      "seed": 8032,
+      "intention": "一次壓抑咳血近似：合成喉部粗糙氣流與短弱餘咳，無語句、無真人錄音及血肉濺聲",
+      "status": "scene_audition_pending",
+      "formally_adopted": false,
+      "loop": false,
+      "method": "original procedural synthesis; no external recordings or generative model; non-verbal cough approximation",
+      "duration_seconds": 0.74,
+      "target_peak_dbfs": -26,
+      "decoded_peak_dbfs": -26.038843298013035,
+      "decoded_rms_dbfs": -47.54119347344256,
+      "editable_source": "produce_batch07_take01.py",
+      "source_sha256": "667473f54c26c1c3b1f61c6172941435b1e2acfab7ca7e5133b0af2a6b521755",
+      "wav": {
+        "file": "battle_cough_blood_take01.wav",
+        "sha256": "0629840e34c9ee9638ea79477def353df6caf20fd24289d47c4c1b7e266a0c33",
+        "sample_rate": 48000,
+        "bits": 24,
+        "channels": 1
+      },
+      "ogg": {
+        "file": "battle_cough_blood_take01.ogg",
+        "sha256": "6110b2e680e0bc277951c95f833ac32236bc3f3578df137df455b0e30ceca145",
+        "sample_rate": 44100,
+        "channels": 1
+      },
+      "game_file": "03_開發/JingZhe/game/audio/sfx/battle/battle_cough_blood.ogg",
+      "game_sha256": "6110b2e680e0bc277951c95f833ac32236bc3f3578df137df455b0e30ceca145",
+      "matches_source": true,
+      "runtime_loaded_sha256": "6110b2e680e0bc277951c95f833ac32236bc3f3578df137df455b0e30ceca145"
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX08_HERB_VARIANT",
+      "name": "world_herb_crush",
+      "seed": 8108,
+      "intention": "指間捏碎乾燥苦香的短纖維裂聲",
+      "status": "scene_audition_pending",
+      "formally_adopted": false,
+      "loop": false,
+      "method": "original procedural synthesis; no external recordings or generative model; non-verbal cough approximation",
+      "duration_seconds": 0.43,
+      "target_peak_dbfs": -26.5,
+      "decoded_peak_dbfs": -27.579899713792265,
+      "decoded_rms_dbfs": -43.462320089010234,
+      "editable_source": "produce_batch07_take01.py",
+      "source_sha256": "667473f54c26c1c3b1f61c6172941435b1e2acfab7ca7e5133b0af2a6b521755",
+      "wav": {
+        "file": "world_herb_crush_take01.wav",
+        "sha256": "086080b3144b5d69cc237b56a5d0349e7642a5c4870d8bf45fe23c46deb39e3f",
+        "sample_rate": 48000,
+        "bits": 24,
+        "channels": 1
+      },
+      "ogg": {
+        "file": "world_herb_crush_take01.ogg",
+        "sha256": "945b37205f708c434cfe705c878d442f00bd859903235349330df40db10b318c",
+        "sample_rate": 44100,
+        "channels": 1
+      },
+      "game_file": "03_開發/JingZhe/game/audio/sfx/world/world_herb_crush.ogg",
+      "game_sha256": "945b37205f708c434cfe705c878d442f00bd859903235349330df40db10b318c",
+      "matches_source": true,
+      "runtime_loaded_sha256": "945b37205f708c434cfe705c878d442f00bd859903235349330df40db10b318c"
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX31_HIT_VARIANT",
+      "name": "battle_body_hit_dull",
+      "seed": 8131,
+      "intention": "肋側、手腕、膝蓋的低聲鈍響變體，不作骨裂或重爆點",
+      "status": "scene_audition_pending",
+      "formally_adopted": false,
+      "loop": false,
+      "method": "original procedural synthesis; no external recordings or generative model; non-verbal cough approximation",
+      "duration_seconds": 0.39,
+      "target_peak_dbfs": -25,
+      "decoded_peak_dbfs": -24.955119400163785,
+      "decoded_rms_dbfs": -45.26686780000041,
+      "editable_source": "produce_batch07_take01.py",
+      "source_sha256": "667473f54c26c1c3b1f61c6172941435b1e2acfab7ca7e5133b0af2a6b521755",
+      "wav": {
+        "file": "battle_body_hit_dull_take01.wav",
+        "sha256": "5abc3d235acf994e994a15d77969d59d44ed46a5506abb44dd18002b19058937",
+        "sample_rate": 48000,
+        "bits": 24,
+        "channels": 1
+      },
+      "ogg": {
+        "file": "battle_body_hit_dull_take01.ogg",
+        "sha256": "24d5d2204edcd96b2ddac593e98c9db741d86ce4cb2eefb001e06e5b5209cb07",
+        "sample_rate": 44100,
+        "channels": 1
+      },
+      "game_file": "03_開發/JingZhe/game/audio/sfx/battle/battle_body_hit_dull.ogg",
+      "game_sha256": "24d5d2204edcd96b2ddac593e98c9db741d86ce4cb2eefb001e06e5b5209cb07",
+      "matches_source": true,
+      "runtime_loaded_sha256": "24d5d2204edcd96b2ddac593e98c9db741d86ce4cb2eefb001e06e5b5209cb07"
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX18_HOLD_VARIANT",
+      "name": "magic_black_card_pulse_hold",
+      "seed": 8118,
+      "intention": "依已採用黑卡共鳴同頻率配比延長，準備撕卡時起、抓腕時中止；非循環心跳",
+      "status": "scene_audition_pending",
+      "formally_adopted": false,
+      "loop": false,
+      "method": "original procedural synthesis; no external recordings or generative model; non-verbal cough approximation",
+      "duration_seconds": 1.85,
+      "target_peak_dbfs": -27,
+      "decoded_peak_dbfs": -26.971329070309483,
+      "decoded_rms_dbfs": -36.423121631455004,
+      "editable_source": "produce_batch07_take01.py",
+      "source_sha256": "667473f54c26c1c3b1f61c6172941435b1e2acfab7ca7e5133b0af2a6b521755",
+      "wav": {
+        "file": "magic_black_card_pulse_hold_take01.wav",
+        "sha256": "776eacda7bdba179969d4c4a7169318c7c1b4f1ab216d75d174d8877e9f83a74",
+        "sample_rate": 48000,
+        "bits": 24,
+        "channels": 1
+      },
+      "ogg": {
+        "file": "magic_black_card_pulse_hold_take01.ogg",
+        "sha256": "c3421492aed5b51beae8c4a362f0b0790e840486a02bb42117ac16031f7111c8",
+        "sample_rate": 44100,
+        "channels": 1
+      },
+      "game_file": "03_開發/JingZhe/game/audio/sfx/magic/magic_black_card_pulse_hold.ogg",
+      "game_sha256": "c3421492aed5b51beae8c4a362f0b0790e840486a02bb42117ac16031f7111c8",
+      "matches_source": true,
+      "runtime_loaded_sha256": "c3421492aed5b51beae8c4a362f0b0790e840486a02bb42117ac16031f7111c8"
+    }
+  ],
+  "ordered_checklist": [
+    {
+      "label": "選擇前清除殘留短音，保留無BGM",
+      "trigger": "同樣的走廊，同樣的燈。",
+      "commands": [
+        "stop sound fadeout 0.12"
+      ],
+      "script_line": 2226
+    },
+    {
+      "label": "留卡時淡共鳴",
+      "trigger": "選下「把卡留給自己」後",
+      "commands": [
+        "play sound \"audio/sfx/magic/magic_black_card_pulse.ogg\" volume 0.7"
+      ],
+      "script_line": 2255
+    },
+    {
+      "label": "黑卡收進袖口",
+      "trigger": "他把卡收進袖口，像把一把刀藏回鞘裡。",
+      "commands": [
+        "play sound \"audio/sfx/world/world_black_card_stow.ogg\" volume 0.8"
+      ],
+      "script_line": 2277
+    },
+    {
+      "label": "獨自進林道",
+      "trigger": "入夜後，驚蟄獨自來到林道。",
+      "commands": [
+        "play sound \"audio/sfx/world/world_footstep_wet.ogg\" volume 0.65"
+      ],
+      "script_line": 2369
+    },
+    {
+      "label": "點燃苦香",
+      "trigger": "他點燃煙斗。",
+      "commands": [
+        "play sound \"audio/sfx/magic/magic_kiseru_ignite.ogg\" volume 0.8"
+      ],
+      "script_line": 2373
+    },
+    {
+      "label": "第一口苦香",
+      "trigger": "第一口下去，他就覺得喉嚨像被砂紙磨過。",
+      "commands": [
+        "play sound \"audio/sfx/magic/magic_kiseru_draw.ogg\" volume 0.7"
+      ],
+      "script_line": 2385
+    },
+    {
+      "label": "第二口苦香",
+      "trigger": "第二口開始，胸腔會慢半拍，像心臟被人用指尖按住。",
+      "commands": [
+        "play sound \"audio/sfx/magic/magic_kiseru_draw.ogg\" volume 0.6"
+      ],
+      "script_line": 2388
+    },
+    {
+      "label": "苦香召出式神",
+      "trigger": "髮切與大百足在林道兩側的陰影裡醒來。",
+      "commands": [
+        "play sound \"audio/sfx/magic/magic_insect_summon.ogg\" volume 0.8"
+      ],
+      "script_line": 2398
+    },
+    {
+      "label": "踏入黑暗林道",
+      "trigger": "他踏進去時，連呼吸都被濕度磨鈍。",
+      "commands": [
+        "play sound \"audio/sfx/world/world_footstep_wet.ogg\" volume 0.65"
+      ],
+      "script_line": 2405
+    },
+    {
+      "label": "土蜘蛛重步現身",
+      "trigger": "土蜘蛛先現身。",
+      "commands": [
+        "play sound \"audio/sfx/battle/battle_spider_steps_heavy.ogg\""
+      ],
+      "script_line": 2416
+    },
+    {
+      "label": "交戰前吐煙",
+      "trigger": "驚蟄吐出一口煙。",
+      "commands": [
+        "play sound \"audio/sfx/magic/magic_kiseru_blow.ogg\" volume 0.8"
+      ],
+      "script_line": 2429
+    },
+    {
+      "label": "髮切先攻",
+      "trigger": "髮切的鐮光先到。",
+      "commands": [
+        "play sound \"audio/sfx/battle/battle_kamikiri_blades.ogg\""
+      ],
+      "script_line": 2437
+    },
+    {
+      "label": "百足甲片→撞擊",
+      "trigger": "大百足的撞擊緊跟其後。",
+      "commands": [
+        "play sound \"audio/sfx/battle/battle_omukade_armor_move.ogg\"",
+        "queue sound \"audio/sfx/battle/battle_omukade_impact.ogg\""
+      ],
+      "script_line": 2443
+    },
+    {
+      "label": "蛛腳拍地",
+      "trigger": "土蜘蛛迎上來，節肢拍地，震得泥土翻起。",
+      "commands": [
+        "play sound \"audio/sfx/battle/battle_spider_steps_heavy.ogg\" volume 0.95"
+      ],
+      "script_line": 2446
+    },
+    {
+      "label": "絡新婦移動細絲",
+      "trigger": "絡新婦在移動。",
+      "commands": [
+        "play sound \"audio/sfx/battle/battle_silk_whisper.ogg\" volume 0.7"
+      ],
+      "script_line": 2463
+    },
+    {
+      "label": "鐮刃掃向樹梢",
+      "trigger": "髮切忽然一折，像聽見了另一個命令，鐮刃往樹梢一掃。",
+      "commands": [
+        "play sound \"audio/sfx/battle/battle_kamikiri_blades.ogg\" volume 0.9"
+      ],
+      "script_line": 2476
+    },
+    {
+      "label": "絲線套住肩頭",
+      "trigger": "驚蟄的肩一沉。",
+      "commands": [
+        "play sound \"audio/sfx/battle/battle_silk_whisper.ogg\" volume 0.8"
+      ],
+      "script_line": 2493
+    },
+    {
+      "label": "百足回身撞開黑影",
+      "trigger": "大百足猛地回身，把那道影子撞開。",
+      "commands": [
+        "play sound \"audio/sfx/battle/battle_omukade_armor_move.ogg\" volume 0.85",
+        "queue sound \"audio/sfx/battle/battle_omukade_impact.ogg\" volume 0.9"
+      ],
+      "script_line": 2502
+    },
+    {
+      "label": "空隙吸煙",
+      "trigger": "他趁空隙把煙吸進肺裡。",
+      "commands": [
+        "play sound \"audio/sfx/magic/magic_kiseru_draw.ogg\" volume 0.75"
+      ],
+      "script_line": 2505
+    },
+    {
+      "label": "土蜘蛛重物撞擊",
+      "trigger": "土蜘蛛趁機衝撞。",
+      "commands": [
+        "play sound \"audio/sfx/battle/battle_omukade_impact.ogg\" volume 0.85"
+      ],
+      "script_line": 2510
+    },
+    {
+      "label": "退步踩濕石",
+      "trigger": "腳跟踩到一塊濕滑的石。",
+      "commands": [
+        "play sound \"audio/sfx/world/world_footstep_wet.ogg\" volume 0.35"
+      ],
+      "script_line": 2515
+    },
+    {
+      "label": "捏碎苦香",
+      "trigger": "他把香捏碎。",
+      "commands": [
+        "play sound \"audio/sfx/world/world_herb_crush.ogg\""
+      ],
+      "script_line": 2528
+    },
+    {
+      "label": "鐮刃刺入節肢縫",
+      "trigger": "髮切的鐮刃刺入土蜘蛛節肢的縫。",
+      "commands": [
+        "play sound \"audio/sfx/battle/battle_kamikiri_blades.ogg\" volume 0.9"
+      ],
+      "script_line": 2535
+    },
+    {
+      "label": "百足全身壓上",
+      "trigger": "大百足用整個身軀壓上去。",
+      "commands": [
+        "play sound \"audio/sfx/battle/battle_omukade_armor_move.ogg\"",
+        "queue sound \"audio/sfx/battle/battle_omukade_impact.ogg\" volume 0.9"
+      ],
+      "script_line": 2539
+    },
+    {
+      "label": "土蜘蛛短嘶聲",
+      "trigger": "土蜘蛛的嘶聲像碎木。",
+      "commands": [
+        "play sound \"audio/sfx/battle/battle_tsuchigumo_hiss.ogg\""
+      ],
+      "script_line": 2542
+    },
+    {
+      "label": "巨蛛倒下",
+      "trigger": "牠倒下時，地面像沉了一口氣。",
+      "commands": [
+        "play sound \"audio/sfx/battle/battle_omukade_impact.ogg\" volume 0.65"
+      ],
+      "script_line": 2545
+    },
+    {
+      "label": "毒性反噬時吐煙",
+      "trigger": "他吐出一口煙，胸口卻像被撕開一條細縫。",
+      "commands": [
+        "play sound \"audio/sfx/magic/magic_kiseru_blow.ogg\" volume 0.65"
+      ],
+      "script_line": 2555
+    },
+    {
+      "label": "絡新婦現形細絲",
+      "trigger": "絡新婦終於現形。",
+      "commands": [
+        "play sound \"audio/sfx/battle/battle_silk_whisper.ogg\" volume 0.8"
+      ],
+      "script_line": 2573
+    },
+    {
+      "label": "肋側受傷鈍響",
+      "trigger": "另一半落在他的肋側。",
+      "commands": [
+        "play sound \"audio/sfx/battle/battle_body_hit_dull.ogg\" volume 0.8"
+      ],
+      "script_line": 2585
+    },
+    {
+      "label": "手腕短鈍響",
+      "trigger": "那一下讓他的手腕也發出一聲鈍響。",
+      "commands": [
+        "play sound \"audio/sfx/battle/battle_body_hit_dull.ogg\" volume 0.6"
+      ],
+      "script_line": 2592
+    },
+    {
+      "label": "最後吐煙",
+      "trigger": "他吐出最後一口煙。",
+      "commands": [
+        "play sound \"audio/sfx/magic/magic_kiseru_blow.ogg\" volume 0.65"
+      ],
+      "script_line": 2599
+    },
+    {
+      "label": "髮切側面切入",
+      "trigger": "髮切從她側面切入。",
+      "commands": [
+        "play sound \"audio/sfx/battle/battle_kamikiri_blades.ogg\" volume 0.9"
+      ],
+      "script_line": 2603
+    },
+    {
+      "label": "切斷黑影",
+      "trigger": "黑影碎開，像被剪斷的絲。",
+      "commands": [
+        "play sound \"audio/sfx/battle/battle_silk_cut.ogg\" volume 0.9"
+      ],
+      "script_line": 2606
+    },
+    {
+      "label": "絡新婦倒地",
+      "trigger": "絡新婦倒下時，還在笑。",
+      "commands": [
+        "play sound \"audio/sfx/battle/battle_body_fall_soft.ogg\" volume 0.5"
+      ],
+      "script_line": 2609
+    },
+    {
+      "label": "跪下時衣料",
+      "trigger": "驚蟄跪下去。",
+      "commands": [
+        "stop sound fadeout 0.12",
+        "play sound \"audio/sfx/world/world_cloth_soft.ogg\" volume 0.8"
+      ],
+      "script_line": 2620
+    },
+    {
+      "label": "膝蓋碰石",
+      "trigger": "膝蓋撞到石頭，痛得他眼前發黑。",
+      "commands": [
+        "play sound \"audio/sfx/battle/battle_body_hit_dull.ogg\" volume 0.8"
+      ],
+      "script_line": 2623
+    },
+    {
+      "label": "兩人由遠而近趕到",
+      "trigger": "遠處有腳步聲。",
+      "commands": [
+        "play sound \"audio/sfx/world/world_footstep_wet.ogg\" volume 0.45",
+        "queue sound \"audio/sfx/world/world_footstep_wet.ogg\" volume 0.7"
+      ],
+      "script_line": 2643
+    },
+    {
+      "label": "花見摸袖口",
+      "trigger": "她伸手去摸他的袖口。",
+      "commands": [
+        "play sound \"audio/sfx/world/world_cloth_soft.ogg\""
+      ],
+      "script_line": 2665
+    },
+    {
+      "label": "準備撕卡、延長共鳴",
+      "trigger": "她要撕。",
+      "commands": [
+        "play sound \"audio/sfx/magic/magic_black_card_pulse_hold.ogg\" volume 0.8"
+      ],
+      "script_line": 2670
+    },
+    {
+      "label": "抓腕時中止共鳴、不撕卡",
+      "trigger": "驚蟄抓住她的手腕。",
+      "commands": [
+        "stop sound fadeout 0.08"
+      ],
+      "script_line": 2675
+    },
+    {
+      "label": "靠樹根的衣料",
+      "trigger": "他靠著樹根，眼皮沉下來。",
+      "commands": [
+        "play sound \"audio/sfx/world/world_cloth_soft.ogg\" volume 0.65"
+      ],
+      "script_line": 2715
+    },
+    {
+      "label": "卡片變輕的淡共鳴",
+      "trigger": "卡片忽然變輕。",
+      "commands": [
+        "play sound \"audio/sfx/magic/magic_black_card_pulse.ogg\" volume 0.45"
+      ],
+      "script_line": 2731
+    },
+    {
+      "label": "夜縫與影之魔女登場",
+      "trigger": "下一瞬，夜色被撕開一條縫。",
+      "commands": [
+        "play sound \"audio/sfx/magic/magic_night_rift.ogg\""
+      ],
+      "script_line": 2746
+    },
+    {
+      "label": "全段唯一一次咳血",
+      "trigger": "卻咳出一口血。",
+      "commands": [
+        "play sound \"audio/sfx/battle/battle_cough_blood.ogg\""
+      ],
+      "script_line": 2764
+    },
+    {
+      "label": "影之魔女收卡",
+      "trigger": "她把卡片收回袖中。",
+      "commands": [
+        "play sound \"audio/sfx/world/world_black_card_stow.ogg\" volume 0.7"
+      ],
+      "script_line": 2808
+    },
+    {
+      "label": "一起回去的短腳步",
+      "trigger": "回去吧。",
+      "commands": [
+        "play sound \"audio/sfx/world/world_footstep_wet.ogg\" volume 0.4"
+      ],
+      "script_line": 2863
+    },
+    {
+      "label": "結局清除短音",
+      "trigger": "結局淡出",
+      "commands": [
+        "stop sound fadeout 0.2"
+      ],
+      "script_line": 2900
+    }
+  ],
+  "added_sound_statements": 52,
+  "script_sha256_before": "fcd5dd98ddedb9387a3b86dc65da70b5d73b5e9edfdeb31f2073552490c8b8e3",
+  "script_sha256_after": "ad1373413157ed3af568f3b95cbaa4a836ba5b399369ee933fff3e80f130e4ab",
+  "text_staging_music_and_branches_unchanged": true,
+  "review_entry": "script.rpy:2226",
+  "review_end": "清晨桌上煙斗還留苦味，接原結局黑底",
+  "silence_preserved": [
+    "選項前無BGM",
+    "抓腕時中止共鳴、不播放撕卡",
+    "不加額外喘息哭聲或笑聲",
+    "咳血只在明寫句子一次",
+    "夜縫只用一次、治療與離場不加新魔法聲",
+    "風雨返回不加循環底聲"
+  ],
+  "temporary_review_ui": false,
+  "release_rebuilt": false,
+  "version_changed": false,
+  "runtime": {
+    "observation": "runtime_observation_take01.json",
+    "screenshot": "runtime_scene_take01.png",
+    "process_id": 5132,
+    "location": [
+      "game/script.rpy",
+      2226
+    ],
+    "music": null,
+    "music_volume": 1.0,
+    "sfx_volume": 1.0,
+    "ambience": null,
+    "note": "第八章選擇前無BGM，屬原配置。尚未宣稱完整人工聽驗。"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "timestamp": 1792385162.8911462,
+  "basedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe",
+  "gamedir": "C:\\Users\\User\\OneDrive\\Workspace\\10_作品與專案\\驚蟄\\03_開發\\JingZhe\\game",
+  "location": [
+    "game/script.rpy",
+    2226
+  ],
+  "music": null,
+  "music_position": null,
+  "sound": null,
+  "sound_position": null,
+  "music_volume": 1.0,
+  "sfx_volume": 1.0,
+  "music_muted": false,
+  "sfx_muted": false,
+  "master_muted": false,
+  "ambience": null,
+  "asset_hashes": {
+    "battle/battle_body_fall_soft.ogg": "fe685966b0de7f5ad40fe7348d0fbf964933205819a98bfa0fcaa7c169627253",
+    "battle/battle_body_hit_dull.ogg": "24d5d2204edcd96b2ddac593e98c9db741d86ce4cb2eefb001e06e5b5209cb07",
+    "battle/battle_cough_blood.ogg": "6110b2e680e0bc277951c95f833ac32236bc3f3578df137df455b0e30ceca145",
+    "battle/battle_kamikiri_blades.ogg": "cbf3fe7b7e0530f93b5740c63394826a6c2159bcd3f348a28ee047b4ace517f4",
+    "battle/battle_omukade_armor_move.ogg": "e8f4fa2474870951385d1f3273e3e6e40d5ff88fe6f51cbf63ba2090ba0524d5",
+    "battle/battle_omukade_impact.ogg": "2cb2dbe58d48ce28ece64aa6b4daefbee879f482bc4b1d4c7f661357bca72821",
+    "battle/battle_silk_cut.ogg": "c6aea7ca302586813719c110f2dacbe08e0f7daa568e32ef8288c182e28ac8c9",
+    "battle/battle_silk_whisper.ogg": "8197fbaa97f1a7d0a1a88bebc8be109af9c569bc11a9d9b28d2b387ec67bfa7f",
+    "battle/battle_spider_steps_heavy.ogg": "fad1bbca160d12c1e4a1b9d731ea88a6648b8dbfebb27f2da34384129afd72d7",
+    "battle/battle_tsuchigumo_hiss.ogg": "d0555cd78f66a4440d13ce7512edac81380f0e80df3c6af506630424a3b83492",
+    "magic/magic_black_card_pulse.ogg": "1d96ec81e69b90d669972a85d8b1067e595a5271635a66f5b35958dae27da060",
+    "magic/magic_black_card_pulse_hold.ogg": "c3421492aed5b51beae8c4a362f0b0790e840486a02bb42117ac16031f7111c8",
+    "magic/magic_insect_summon.ogg": "14f8ebd48874d9231a286447ae56ea5f9accacfcd82a1441fa47afda76d06b26",
+    "magic/magic_kiseru_blow.ogg": "751ec605d0a3396e25844776c81c93ba88da8d83dde651bcb5dfca8b38057161",
+    "magic/magic_kiseru_draw.ogg": "fad635ef060074ac0efda203c2e4a563b4348fbeeb99176e3673c815d52b25bf",
+    "magic/magic_kiseru_ignite.ogg": "0468ac1755468c39560946de877b3839d205bfbbd814cbd5d35ef0c76c2b0806",
+    "magic/magic_night_rift.ogg": "10215b8f40643fdbb5800cd0254204fae4339d942cb1c5b96e25806704677a00",
+    "world/world_black_card_stow.ogg": "1ff6060105f43e65a73172269cdf0951a465cffd249f4a4087e8c06308e8a94a",
+    "world/world_cloth_soft.ogg": "20241907a5091d41ce479738abfdd6f09510e4b59b7051ef64ccdb97e73ab382",
+    "world/world_footstep_wet.ogg": "0cbbe3ceb52a6604fcdb21ee49e6988319ee96de81b69ae198a79081bb2d2031",
+    "world/world_herb_crush.ogg": "945b37205f708c434cfe705c878d442f00bd859903235349330df40db10b318c"
+  }
+}

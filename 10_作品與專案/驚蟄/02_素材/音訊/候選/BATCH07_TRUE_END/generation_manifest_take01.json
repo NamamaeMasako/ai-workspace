@@ -1,0 +1,165 @@
+{
+  "date": "2026-10-19",
+  "batch": "BATCH07_TRUE_END",
+  "primary_cues": 2,
+  "variants": 3,
+  "files": 5,
+  "candidates": [
+    {
+      "date": "2026-10-19",
+      "cue": "SFX20_MAGIC_RIFT",
+      "name": "magic_night_rift",
+      "seed": 8020,
+      "intention": "夜色短暫撕開：暗色壓力、短裂響及收束氣流，非爆炸或音樂",
+      "status": "scene_audition_pending",
+      "formally_adopted": false,
+      "loop": false,
+      "method": "original procedural synthesis; no external recordings or generative model; non-verbal cough approximation",
+      "duration_seconds": 1.16,
+      "target_peak_dbfs": -25,
+      "decoded_peak_dbfs": -26.249728215027083,
+      "decoded_rms_dbfs": -43.92591958827669,
+      "editable_source": "produce_batch07_take01.py",
+      "source_sha256": "667473f54c26c1c3b1f61c6172941435b1e2acfab7ca7e5133b0af2a6b521755",
+      "wav": {
+        "file": "magic_night_rift_take01.wav",
+        "sha256": "7802d11895b8d18b343e3536c2869d78899c4530a6e16353d2479c2dbecde458",
+        "sample_rate": 48000,
+        "bits": 24,
+        "channels": 1
+      },
+      "ogg": {
+        "file": "magic_night_rift_take01.ogg",
+        "sha256": "10215b8f40643fdbb5800cd0254204fae4339d942cb1c5b96e25806704677a00",
+        "sample_rate": 44100,
+        "channels": 1
+      },
+      "game_file": "03_開發/JingZhe/game/audio/sfx/magic/magic_night_rift.ogg"
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX32_COUGH_BLOOD",
+      "name": "battle_cough_blood",
+      "seed": 8032,
+      "intention": "一次壓抑咳血近似：合成喉部粗糙氣流與短弱餘咳，無語句、無真人錄音及血肉濺聲",
+      "status": "scene_audition_pending",
+      "formally_adopted": false,
+      "loop": false,
+      "method": "original procedural synthesis; no external recordings or generative model; non-verbal cough approximation",
+      "duration_seconds": 0.74,
+      "target_peak_dbfs": -26,
+      "decoded_peak_dbfs": -26.038843298013035,
+      "decoded_rms_dbfs": -47.54119347344256,
+      "editable_source": "produce_batch07_take01.py",
+      "source_sha256": "667473f54c26c1c3b1f61c6172941435b1e2acfab7ca7e5133b0af2a6b521755",
+      "wav": {
+        "file": "battle_cough_blood_take01.wav",
+        "sha256": "0629840e34c9ee9638ea79477def353df6caf20fd24289d47c4c1b7e266a0c33",
+        "sample_rate": 48000,
+        "bits": 24,
+        "channels": 1
+      },
+      "ogg": {
+        "file": "battle_cough_blood_take01.ogg",
+        "sha256": "6110b2e680e0bc277951c95f833ac32236bc3f3578df137df455b0e30ceca145",
+        "sample_rate": 44100,
+        "channels": 1
+      },
+      "game_file": "03_開發/JingZhe/game/audio/sfx/battle/battle_cough_blood.ogg"
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX08_HERB_VARIANT",
+      "name": "world_herb_crush",
+      "seed": 8108,
+      "intention": "指間捏碎乾燥苦香的短纖維裂聲",
+      "status": "scene_audition_pending",
+      "formally_adopted": false,
+      "loop": false,
+      "method": "original procedural synthesis; no external recordings or generative model; non-verbal cough approximation",
+      "duration_seconds": 0.43,
+      "target_peak_dbfs": -26.5,
+      "decoded_peak_dbfs": -27.579899713792265,
+      "decoded_rms_dbfs": -43.462320089010234,
+      "editable_source": "produce_batch07_take01.py",
+      "source_sha256": "667473f54c26c1c3b1f61c6172941435b1e2acfab7ca7e5133b0af2a6b521755",
+      "wav": {
+        "file": "world_herb_crush_take01.wav",
+        "sha256": "086080b3144b5d69cc237b56a5d0349e7642a5c4870d8bf45fe23c46deb39e3f",
+        "sample_rate": 48000,
+        "bits": 24,
+        "channels": 1
+      },
+      "ogg": {
+        "file": "world_herb_crush_take01.ogg",
+        "sha256": "945b37205f708c434cfe705c878d442f00bd859903235349330df40db10b318c",
+        "sample_rate": 44100,
+        "channels": 1
+      },
+      "game_file": "03_開發/JingZhe/game/audio/sfx/world/world_herb_crush.ogg"
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX31_HIT_VARIANT",
+      "name": "battle_body_hit_dull",
+      "seed": 8131,
+      "intention": "肋側、手腕、膝蓋的低聲鈍響變體，不作骨裂或重爆點",
+      "status": "scene_audition_pending",
+      "formally_adopted": false,
+      "loop": false,
+      "method": "original procedural synthesis; no external recordings or generative model; non-verbal cough approximation",
+      "duration_seconds": 0.39,
+      "target_peak_dbfs": -25,
+      "decoded_peak_dbfs": -24.955119400163785,
+      "decoded_rms_dbfs": -45.26686780000041,
+      "editable_source": "produce_batch07_take01.py",
+      "source_sha256": "667473f54c26c1c3b1f61c6172941435b1e2acfab7ca7e5133b0af2a6b521755",
+      "wav": {
+        "file": "battle_body_hit_dull_take01.wav",
+        "sha256": "5abc3d235acf994e994a15d77969d59d44ed46a5506abb44dd18002b19058937",
+        "sample_rate": 48000,
+        "bits": 24,
+        "channels": 1
+      },
+      "ogg": {
+        "file": "battle_body_hit_dull_take01.ogg",
+        "sha256": "24d5d2204edcd96b2ddac593e98c9db741d86ce4cb2eefb001e06e5b5209cb07",
+        "sample_rate": 44100,
+        "channels": 1
+      },
+      "game_file": "03_開發/JingZhe/game/audio/sfx/battle/battle_body_hit_dull.ogg"
+    },
+    {
+      "date": "2026-10-19",
+      "cue": "SFX18_HOLD_VARIANT",
+      "name": "magic_black_card_pulse_hold",
+      "seed": 8118,
+      "intention": "依已採用黑卡共鳴同頻率配比延長，準備撕卡時起、抓腕時中止；非循環心跳",
+      "status": "scene_audition_pending",
+      "formally_adopted": false,
+      "loop": false,
+      "method": "original procedural synthesis; no external recordings or generative model; non-verbal cough approximation",
+      "duration_seconds": 1.85,
+      "target_peak_dbfs": -27,
+      "decoded_peak_dbfs": -26.971329070309483,
+      "decoded_rms_dbfs": -36.423121631455004,
+      "editable_source": "produce_batch07_take01.py",
+      "source_sha256": "667473f54c26c1c3b1f61c6172941435b1e2acfab7ca7e5133b0af2a6b521755",
+      "wav": {
+        "file": "magic_black_card_pulse_hold_take01.wav",
+        "sha256": "776eacda7bdba179969d4c4a7169318c7c1b4f1ab216d75d174d8877e9f83a74",
+        "sample_rate": 48000,
+        "bits": 24,
+        "channels": 1
+      },
+      "ogg": {
+        "file": "magic_black_card_pulse_hold_take01.ogg",
+        "sha256": "c3421492aed5b51beae8c4a362f0b0790e840486a02bb42117ac16031f7111c8",
+        "sample_rate": 44100,
+        "channels": 1
+      },
+      "game_file": "03_開發/JingZhe/game/audio/sfx/magic/magic_black_card_pulse_hold.ogg"
+    }
+  ],
+  "pulse_formula_source": "../BATCH03_TAVERN_CARD/produce_batch03_take01.py"
+}

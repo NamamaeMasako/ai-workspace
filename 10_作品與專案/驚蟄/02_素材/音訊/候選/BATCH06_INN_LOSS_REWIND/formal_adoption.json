@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-19",
+  "batch": "BATCH06_INN_LOSS_REWIND",
+  "status": "formally_adopted",
+  "user_feedback": "好，繼續",
+  "primary_cues": 3,
+  "variants": 3,
+  "new_files": 6,
+  "assets": [
+    {
+      "cue": "SFX12_LAMP_DROP",
+      "name": "world_lamp_drop",
+      "source": "world_lamp_drop_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/world/world_lamp_drop.ogg",
+      "sha256": "0c2d75b66152d4c4fbc1a30bd516197c14307889cebc819011adc4162cf1541e",
+      "matches_source": true
+    },
+    {
+      "cue": "SFX19_CARD_TEAR",
+      "name": "magic_black_card_tear",
+      "source": "magic_black_card_tear_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/magic/magic_black_card_tear.ogg",
+      "sha256": "05e7225e143a3de28eaeb1f2a5bedb30910c33c90a9fcdc666b13ba2c5c6f427",
+      "matches_source": true
+    },
+    {
+      "cue": "SFX31_BODY_FALL",
+      "name": "battle_body_fall_soft",
+      "source": "battle_body_fall_soft_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/battle/battle_body_fall_soft.ogg",
+      "sha256": "fe685966b0de7f5ad40fe7348d0fbf964933205819a98bfa0fcaa7c169627253",
+      "matches_source": true
+    },
+    {
+      "cue": "SFX06_FRAME_VARIANT",
+      "name": "world_frame_thud_soft",
+      "source": "world_frame_thud_soft_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/world/world_frame_thud_soft.ogg",
+      "sha256": "8328b83c8c02b4049e809fae80a21bc0b4e024021e2dbac46aadf22a5c968727",
+      "matches_source": true
+    },
+    {
+      "cue": "SFX08_DRAG_VARIANT",
+      "name": "world_cloth_drag_soft",
+      "source": "world_cloth_drag_soft_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/world/world_cloth_drag_soft.ogg",
+      "sha256": "a205db7d2eb5478c38f5dca6b6ef2b24a944c65272fa9ffce4d98f4e3ef9fda9",
+      "matches_source": true
+    },
+    {
+      "cue": "SFX08_CLOTH_VARIANT",
+      "name": "world_cloth_soft",
+      "source": "world_cloth_soft_take01.ogg",
+      "game_file": "03_開發/JingZhe/game/audio/sfx/world/world_cloth_soft.ogg",
+      "sha256": "20241907a5091d41ce479738abfdd6f09510e4b59b7051ef64ccdb97e73ab382",
+      "matches_source": true
+    }
+  ],
+  "integration_record": "scene_integration_take01.json",
+  "scope": "核可現行六檔與四路線整合；使用者直接檢查第一輪花見線，不宣稱其他路線皆經人工聽驗。",
+  "release_rebuilt": false
+}

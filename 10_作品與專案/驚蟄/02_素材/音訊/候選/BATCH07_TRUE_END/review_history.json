@@ -1,0 +1,18 @@
+{
+  "batch": "BATCH07_TRUE_END",
+  "status": "awaiting_user_whole_scene_confirmation",
+  "reviews": [
+    {
+      "date": "2026-10-19",
+      "stage": "take01_true_end_integrated",
+      "user_instruction": "好，繼續",
+      "previous_batch_formally_adopted": "BATCH06_INN_LOSS_REWIND",
+      "primary_cues": 2,
+      "variants": 3,
+      "new_files": 5,
+      "points": 47,
+      "integration": "scene_integration_take01.json",
+      "formally_adopted": false
+    }
+  ]
+}

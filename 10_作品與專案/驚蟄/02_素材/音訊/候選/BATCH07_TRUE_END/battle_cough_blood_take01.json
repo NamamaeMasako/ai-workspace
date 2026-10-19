@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-19",
+  "cue": "SFX32_COUGH_BLOOD",
+  "name": "battle_cough_blood",
+  "seed": 8032,
+  "intention": "一次壓抑咳血近似：合成喉部粗糙氣流與短弱餘咳，無語句、無真人錄音及血肉濺聲",
+  "status": "scene_audition_pending",
+  "formally_adopted": false,
+  "loop": false,
+  "method": "original procedural synthesis; no external recordings or generative model; non-verbal cough approximation",
+  "duration_seconds": 0.74,
+  "target_peak_dbfs": -26,
+  "decoded_peak_dbfs": -26.038843298013035,
+  "decoded_rms_dbfs": -47.54119347344256,
+  "editable_source": "produce_batch07_take01.py",
+  "source_sha256": "667473f54c26c1c3b1f61c6172941435b1e2acfab7ca7e5133b0af2a6b521755",
+  "wav": {
+    "file": "battle_cough_blood_take01.wav",
+    "sha256": "0629840e34c9ee9638ea79477def353df6caf20fd24289d47c4c1b7e266a0c33",
+    "sample_rate": 48000,
+    "bits": 24,
+    "channels": 1
+  },
+  "ogg": {
+    "file": "battle_cough_blood_take01.ogg",
+    "sha256": "6110b2e680e0bc277951c95f833ac32236bc3f3578df137df455b0e30ceca145",
+    "sample_rate": 44100,
+    "channels": 1
+  },
+  "game_file": "03_開發/JingZhe/game/audio/sfx/battle/battle_cough_blood.ogg"
+}

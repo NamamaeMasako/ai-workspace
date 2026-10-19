@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-19",
+  "cue": "SFX18_HOLD_VARIANT",
+  "name": "magic_black_card_pulse_hold",
+  "seed": 8118,
+  "intention": "依已採用黑卡共鳴同頻率配比延長，準備撕卡時起、抓腕時中止；非循環心跳",
+  "status": "scene_audition_pending",
+  "formally_adopted": false,
+  "loop": false,
+  "method": "original procedural synthesis; no external recordings or generative model; non-verbal cough approximation",
+  "duration_seconds": 1.85,
+  "target_peak_dbfs": -27,
+  "decoded_peak_dbfs": -26.971329070309483,
+  "decoded_rms_dbfs": -36.423121631455004,
+  "editable_source": "produce_batch07_take01.py",
+  "source_sha256": "667473f54c26c1c3b1f61c6172941435b1e2acfab7ca7e5133b0af2a6b521755",
+  "wav": {
+    "file": "magic_black_card_pulse_hold_take01.wav",
+    "sha256": "776eacda7bdba179969d4c4a7169318c7c1b4f1ab216d75d174d8877e9f83a74",
+    "sample_rate": 48000,
+    "bits": 24,
+    "channels": 1
+  },
+  "ogg": {
+    "file": "magic_black_card_pulse_hold_take01.ogg",
+    "sha256": "c3421492aed5b51beae8c4a362f0b0790e840486a02bb42117ac16031f7111c8",
+    "sample_rate": 44100,
+    "channels": 1
+  },
+  "game_file": "03_開發/JingZhe/game/audio/sfx/magic/magic_black_card_pulse_hold.ogg"
+}

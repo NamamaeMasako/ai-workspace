@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-19",
+  "cue": "SFX08_HERB_VARIANT",
+  "name": "world_herb_crush",
+  "seed": 8108,
+  "intention": "指間捏碎乾燥苦香的短纖維裂聲",
+  "status": "scene_audition_pending",
+  "formally_adopted": false,
+  "loop": false,
+  "method": "original procedural synthesis; no external recordings or generative model; non-verbal cough approximation",
+  "duration_seconds": 0.43,
+  "target_peak_dbfs": -26.5,
+  "decoded_peak_dbfs": -27.579899713792265,
+  "decoded_rms_dbfs": -43.462320089010234,
+  "editable_source": "produce_batch07_take01.py",
+  "source_sha256": "667473f54c26c1c3b1f61c6172941435b1e2acfab7ca7e5133b0af2a6b521755",
+  "wav": {
+    "file": "world_herb_crush_take01.wav",
+    "sha256": "086080b3144b5d69cc237b56a5d0349e7642a5c4870d8bf45fe23c46deb39e3f",
+    "sample_rate": 48000,
+    "bits": 24,
+    "channels": 1
+  },
+  "ogg": {
+    "file": "world_herb_crush_take01.ogg",
+    "sha256": "945b37205f708c434cfe705c878d442f00bd859903235349330df40db10b318c",
+    "sample_rate": 44100,
+    "channels": 1
+  },
+  "game_file": "03_開發/JingZhe/game/audio/sfx/world/world_herb_crush.ogg"
+}

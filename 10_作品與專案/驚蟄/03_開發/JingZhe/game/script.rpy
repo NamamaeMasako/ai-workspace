@@ -2222,6 +2222,7 @@ label chapter_8_choice:
     scene bg inn_hall_evening
     with dissolve
 
+    stop sound fadeout 0.12
     narrator "同樣的走廊，同樣的燈。"
 
     narrator "同樣的呼吸聲。"
@@ -2250,6 +2251,7 @@ label chapter_8_choice:
 label chapter_8_true_end:
     play music "<loop 3.0>audio/music/bgm_choose_my_fate.ogg" loop fadeout 0.5 fadein 0.8
 
+    play sound "audio/sfx/magic/magic_black_card_pulse.ogg" volume 0.7
     show hanami concerned at zh_far_left
     hanami "怎麼了？你臉色很差。"
 
@@ -2271,6 +2273,7 @@ label chapter_8_true_end:
     show yumemi worried at zh_far_right
     yumemi "是那、那張卡嗎？"
 
+    play sound "audio/sfx/world/world_black_card_stow.ogg" volume 0.8
     narrator "他把卡收進袖口，像把一把刀藏回鞘裡。"
 
     jingzhe "卡我自己留著。"
@@ -2362,9 +2365,11 @@ label chapter_8_true_end:
     scene bg forest_path_night
     with fade
 
+    play sound "audio/sfx/world/world_footstep_wet.ogg" volume 0.65
     narrator "入夜後，驚蟄獨自來到林道。"
 
     show jingzhe pensive at zh_center
+    play sound "audio/sfx/magic/magic_kiseru_ignite.ogg" volume 0.8
     narrator "他點燃煙斗。"
     show jingzhe smoking at zh_center
 
@@ -2376,8 +2381,10 @@ label chapter_8_true_end:
 
     narrator "代價是毒性。"
 
+    play sound "audio/sfx/magic/magic_kiseru_draw.ogg" volume 0.7
     narrator "第一口下去，他就覺得喉嚨像被砂紙磨過。"
 
+    play sound "audio/sfx/magic/magic_kiseru_draw.ogg" volume 0.6
     narrator "第二口開始，胸腔會慢半拍，像心臟被人用指尖按住。"
 
     narrator "他知道自己會變慢。"
@@ -2387,12 +2394,14 @@ label chapter_8_true_end:
     show omukade empowered at zh_empowered_omukade_back zorder 1
     show kamikiri empowered at zh_empowered_kamikiri_front zorder 2
     show jingzhe battle at zh_empowered_jingzhe_front zorder 3
+    play sound "audio/sfx/magic/magic_insect_summon.ogg" volume 0.8
     narrator "髮切與大百足在林道兩側的陰影裡醒來。"
 
     jingzhe "走。"
 
     narrator "林道的黑像一盆水。"
 
+    play sound "audio/sfx/world/world_footstep_wet.ogg" volume 0.65
     narrator "他踏進去時，連呼吸都被濕度磨鈍。"
 
     narrator "他知道牠們在等。"
@@ -2403,6 +2412,7 @@ label chapter_8_true_end:
     with fade
 
     show tsuchigumo attack at zh_left
+    play sound "audio/sfx/battle/battle_spider_steps_heavy.ogg"
     narrator "土蜘蛛先現身。"
 
     narrator "牠的身影像一座移動的丘，沉得讓樹枝都不敢搖。"
@@ -2415,6 +2425,7 @@ label chapter_8_true_end:
     show tsuchigumo attack at zh_battle_monster_left zorder 0
     show jorogumo watchful at zh_monster_cluster_mid zorder 0
     show jingzhe battle at zh_true_battle_jingzhe_right zorder 3
+    play sound "audio/sfx/magic/magic_kiseru_blow.ogg" volume 0.8
     narrator "驚蟄吐出一口煙。"
 
     play music "<loop 3.4285625>audio/music/bgm_forest_assault.ogg" loop fadeout 1.5 fadein 0.5
@@ -2422,12 +2433,16 @@ label chapter_8_true_end:
     scene cg chapter8_jingzhe_solo_battle
     with dissolve
 
+    play sound "audio/sfx/battle/battle_kamikiri_blades.ogg"
     narrator "髮切的鐮光先到。"
 
     narrator "比平常更快，更狠，像貼著他的呼吸在切。"
 
+    play sound "audio/sfx/battle/battle_omukade_armor_move.ogg"
+    queue sound "audio/sfx/battle/battle_omukade_impact.ogg"
     narrator "大百足的撞擊緊跟其後。"
 
+    play sound "audio/sfx/battle/battle_spider_steps_heavy.ogg" volume 0.95
     narrator "土蜘蛛迎上來，節肢拍地，震得泥土翻起。"
 
     scene bg forest_clearing_night
@@ -2444,6 +2459,7 @@ label chapter_8_true_end:
 
     narrator "他聞到了那股細尖的味道。"
 
+    play sound "audio/sfx/battle/battle_silk_whisper.ogg" volume 0.7
     narrator "絡新婦在移動。"
 
     jingzhe "……在上面。"
@@ -2456,6 +2472,7 @@ label chapter_8_true_end:
 
     narrator "香味變了。"
 
+    play sound "audio/sfx/battle/battle_kamikiri_blades.ogg" volume 0.9
     narrator "髮切忽然一折，像聽見了另一個命令，鐮刃往樹梢一掃。"
 
     show jorogumo attack at zh_monster_cluster_mid zorder 0
@@ -2472,6 +2489,7 @@ label chapter_8_true_end:
     narrator "下一瞬，細影已經在他背後。"
 
     show jingzhe pressured at zh_true_battle_jingzhe_right zorder 3
+    play sound "audio/sfx/battle/battle_silk_whisper.ogg" volume 0.8
     narrator "驚蟄的肩一沉。"
 
     narrator "像被絲線套住。"
@@ -2479,16 +2497,21 @@ label chapter_8_true_end:
     narrator "他咬住一口氣，沒讓自己發出聲音。"
 
     show omukade empowered_charge at zh_true_battle_omukade_back zorder 1
+    play sound "audio/sfx/battle/battle_omukade_armor_move.ogg" volume 0.85
+    queue sound "audio/sfx/battle/battle_omukade_impact.ogg" volume 0.9
     narrator "大百足猛地回身，把那道影子撞開。"
 
+    play sound "audio/sfx/magic/magic_kiseru_draw.ogg" volume 0.75
     narrator "他趁空隙把煙吸進肺裡。"
 
     narrator "苦到像把人拉回現實。"
 
+    play sound "audio/sfx/battle/battle_omukade_impact.ogg" volume 0.85
     narrator "土蜘蛛趁機衝撞。"
 
     narrator "他被逼退半步。"
 
+    play sound "audio/sfx/world/world_footstep_wet.ogg" volume 0.35
     narrator "腳跟踩到一塊濕滑的石。"
 
     narrator "那一瞬間，他第一次感覺到："
@@ -2501,18 +2524,24 @@ label chapter_8_true_end:
 
     narrator "像是在說服誰。"
 
+    play sound "audio/sfx/world/world_herb_crush.ogg"
     narrator "他把香捏碎。"
 
     narrator "味道陡然變烈。"
 
     show omukade empowered_charge at zh_true_battle_omukade_back zorder 1
     show kamikiri empowered_attack at zh_true_battle_kamikiri_attack_right zorder 2
+    play sound "audio/sfx/battle/battle_kamikiri_blades.ogg" volume 0.9
     narrator "髮切的鐮刃刺入土蜘蛛節肢的縫。"
 
+    play sound "audio/sfx/battle/battle_omukade_armor_move.ogg"
+    queue sound "audio/sfx/battle/battle_omukade_impact.ogg" volume 0.9
     narrator "大百足用整個身軀壓上去。"
 
+    play sound "audio/sfx/battle/battle_tsuchigumo_hiss.ogg"
     narrator "土蜘蛛的嘶聲像碎木。"
 
+    play sound "audio/sfx/battle/battle_omukade_impact.ogg" volume 0.65
     narrator "牠倒下時，地面像沉了一口氣。"
     hide tsuchigumo
 
@@ -2522,6 +2551,7 @@ label chapter_8_true_end:
 
     narrator "代價也同時回到驚蟄身上。"
 
+    play sound "audio/sfx/magic/magic_kiseru_blow.ogg" volume 0.65
     narrator "他吐出一口煙，胸口卻像被撕開一條細縫。"
 
     narrator "但驚蟄沒有鬆一口氣。"
@@ -2539,6 +2569,7 @@ label chapter_8_true_end:
     hide kamikiri
     hide omukade
     show jorogumo enraged at zh_true_duel_jorogumo_left zorder 1
+    play sound "audio/sfx/battle/battle_silk_whisper.ogg" volume 0.8
     narrator "絡新婦終於現形。"
 
     narrator "她的指尖像要去拿走他袖口裡的卡。"
@@ -2550,25 +2581,31 @@ label chapter_8_true_end:
     show jingzhe injured at zh_true_battle_jingzhe_right zorder 3
     narrator "他抬手擋住，卻只來得及擋掉一半。"
 
+    play sound "audio/sfx/battle/battle_body_hit_dull.ogg" volume 0.8
     narrator "另一半落在他的肋側。"
 
     narrator "鈍痛先到，溫熱才跟上。"
 
     narrator "他聽見自己呼吸裡有一聲很輕的破裂。"
 
+    play sound "audio/sfx/battle/battle_body_hit_dull.ogg" volume 0.6
     narrator "那一下讓他的手腕也發出一聲鈍響。"
 
     narrator "痛像白光。"
 
     narrator "他沒有退。"
 
+    play sound "audio/sfx/magic/magic_kiseru_blow.ogg" volume 0.65
     narrator "他吐出最後一口煙。"
 
     show kamikiri empowered_attack at zh_left zorder 2
+    play sound "audio/sfx/battle/battle_kamikiri_blades.ogg" volume 0.9
     narrator "髮切從她側面切入。"
 
+    play sound "audio/sfx/battle/battle_silk_cut.ogg" volume 0.9
     narrator "黑影碎開，像被剪斷的絲。"
 
+    play sound "audio/sfx/battle/battle_body_fall_soft.ogg" volume 0.5
     narrator "絡新婦倒下時，還在笑。"
 
     narrator "像是在說：你以為這樣就結束了嗎？"
@@ -2578,8 +2615,11 @@ label chapter_8_true_end:
 
     play music "<loop 1.0>audio/music/bgm_hold_on.ogg" loop fadeout 1.5 fadein 1.2
 
+    stop sound fadeout 0.12
+    play sound "audio/sfx/world/world_cloth_soft.ogg" volume 0.8
     narrator "驚蟄跪下去。"
 
+    play sound "audio/sfx/battle/battle_body_hit_dull.ogg" volume 0.8
     narrator "膝蓋撞到石頭，痛得他眼前發黑。"
 
     narrator "他摸到自己的肋側。"
@@ -2598,6 +2638,8 @@ label chapter_8_true_end:
     with dissolve
 
     show jingzhe injured at zh_center
+    play sound "audio/sfx/world/world_footstep_wet.ogg" volume 0.45
+    queue sound "audio/sfx/world/world_footstep_wet.ogg" volume 0.7
     narrator "遠處有腳步聲。"
 
     narrator "兩道。"
@@ -2619,14 +2661,17 @@ label chapter_8_true_end:
     show hanami tearful at zh_left
     narrator "花見看到他身上的血時，臉色瞬間白了。"
 
+    play sound "audio/sfx/world/world_cloth_soft.ogg"
     narrator "她伸手去摸他的袖口。"
 
     hanami "卡——！"
 
+    play sound "audio/sfx/magic/magic_black_card_pulse_hold.ogg" volume 0.8
     narrator "她要撕。"
 
     scene cg chapter8_jingzhe_stops_hanami_card
     with dissolve
+    stop sound fadeout 0.08
     narrator "驚蟄抓住她的手腕。"
 
     jingzhe "不要。"
@@ -2666,6 +2711,7 @@ label chapter_8_true_end:
     show yumemi tearful at zh_right
 
     camera at zh_vision_blur_1
+    play sound "audio/sfx/world/world_cloth_soft.ogg" volume 0.65
     narrator "他靠著樹根，眼皮沉下來。"
 
     camera at zh_vision_blur_2
@@ -2681,6 +2727,7 @@ label chapter_8_true_end:
     narrator "就在他準備把自己沉下去時——"
 
     camera
+    play sound "audio/sfx/magic/magic_black_card_pulse.ogg" volume 0.45
     narrator "卡片忽然變輕。"
 
     narrator "像是被誰抽走。"
@@ -2695,6 +2742,7 @@ label chapter_8_true_end:
     $ renpy.music.set_volume(1.0, channel="music")
     play music "<loop 1.0>audio/music/bgm_shadow_witch.ogg" loop fadeout 1.0 fadein 1.0
 
+    play sound "audio/sfx/magic/magic_night_rift.ogg"
     narrator "下一瞬，夜色被撕開一條縫。"
 
     scene bg forest_clearing_night
@@ -2712,6 +2760,7 @@ label chapter_8_true_end:
 
     narrator "驚蟄想笑。"
 
+    play sound "audio/sfx/battle/battle_cough_blood.ogg"
     narrator "卻咳出一口血。"
 
     shadow_witch "……真會添麻煩。"
@@ -2755,6 +2804,7 @@ label chapter_8_true_end:
 
     shadow_witch "是你把命運握回自己手裡的那一刻。"
 
+    play sound "audio/sfx/world/world_black_card_stow.ogg" volume 0.7
     narrator "她把卡片收回袖中。"
 
     shadow_witch "受傷這種事，不在它的仁慈裡。"
@@ -2809,6 +2859,7 @@ label chapter_8_true_end:
 
     narrator "這一次，他沒有把她們推開。"
 
+    play sound "audio/sfx/world/world_footstep_wet.ogg" volume 0.4
     jingzhe "回去吧。"
 
     narrator "他說得很輕。"
@@ -2847,6 +2898,7 @@ label chapter_8_true_end:
 
     jump end_game
 label end_game:
+    stop sound fadeout 0.2
     stop music fadeout 1.5
 
     scene black

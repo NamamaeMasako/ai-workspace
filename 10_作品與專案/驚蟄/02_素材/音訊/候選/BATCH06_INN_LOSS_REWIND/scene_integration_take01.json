@@ -1,8 +1,8 @@
 {
   "date": "2026-10-19",
   "batch": "BATCH06_INN_LOSS_REWIND",
-  "status": "awaiting_user_whole_scene_confirmation",
-  "formally_adopted": false,
+  "status": "formally_adopted",
+  "formally_adopted": true,
   "primary_cues": 3,
   "variants": 3,
   "new_files": 6,
@@ -651,5 +651,6 @@
     "music_volume": 1.0,
     "sfx_volume": 1.0,
     "ambience": null
-  }
+  },
+  "formal_adoption": "formal_adoption.json"
 }
