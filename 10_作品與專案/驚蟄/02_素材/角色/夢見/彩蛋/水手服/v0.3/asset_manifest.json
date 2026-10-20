@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-21",
+  "status": "costume_approved_pose_awaiting_user_review",
+  "non_canon": true,
+  "method": "built-in image_gen edit; original alpha preserved; no pixel postprocessing",
+  "reference": {
+    "file": "@/workspace/10_作品與專案/驚蟄/02_素材/角色/夢見/彩蛋/水手服/v0.2/夢見_彩蛋水手服溫柔自然站姿_四分之三側身全身構圖_無道具.png",
+    "sha256": "6215b7b6bb4f666f1190432a53eef2852e705618b259824288724d1205c49e4d"
+  },
+  "request": "Use preferred second stance as basis; align pelvis, skirt, knees and feet to the upper-body three-quarter view",
+  "files": [
+    {
+      "file": "夢見_彩蛋水手服溫柔轉向一致_四分之三側身全身構圖_無道具.png",
+      "sha256": "ce55acae504c731d1852b1c39397fe318e88d203c644042a50acff11d6f05ab4",
+      "bytes": 1508343,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ]
+    }
+  ],
+  "html_mirror": "@/workspace/10_作品與專案/驚蟄/03_開發/人物介紹介面草稿_rev.1/assets/bonus/yumemi_sailor_uniform_candidate_03.png",
+  "preview_label": "番外彩蛋・水手服 v0.3（候選）",
+  "local_generation_source": "C:\\Users\\User\\.codex\\generated_images\\01a11019-bbc2-7ce3-95d9-6d92fdaf3310\\exec-fb8170d6-e820-4411-8b11-6a3c5a7dddae.png",
+  "previous_versions_preserved": [
+    "v0.1",
+    "v0.2"
+  ],
+  "browser_visual_review": "Not performed because earlier browser security-policy denial was not circumvented"
+}

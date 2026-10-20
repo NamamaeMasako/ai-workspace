@@ -20,9 +20,9 @@ const bonusPortraitGallery = {
     status: 'adopted_art_and_composition'
   }],
   yumemi: [{
-    name: 'bonus yumemi sailor_uniform_candidate_02',
-    label: '番外彩蛋・水手服（修正版候選）',
-    src: 'assets/bonus/yumemi_sailor_uniform_candidate_02.png',
+    name: 'bonus yumemi sailor_uniform_candidate_03',
+    label: '番外彩蛋・水手服 v0.3（候選）',
+    src: 'assets/bonus/yumemi_sailor_uniform_candidate_03.png',
     status: 'candidate_awaiting_user_review'
   }]
 };
