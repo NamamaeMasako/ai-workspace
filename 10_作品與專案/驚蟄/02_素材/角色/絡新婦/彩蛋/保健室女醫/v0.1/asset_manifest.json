@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-21",
+  "character": "絡新婦",
+  "theme": "保健室女醫",
+  "status": "candidate_awaiting_user_review",
+  "non_canon": true,
+  "method": "built-in image_gen with official visual references; original RGBA preserved; no pixel postprocessing",
+  "references": [
+    {
+      "file": "@/workspace/10_作品與專案/驚蟄/02_素材/絡新婦/v2.0/絡新婦_暗處監視_正面全身構圖_無道具.png",
+      "sha256": "514a92c26c98c722e5f5b4d317a6952a31ef10759cf77ba78529a70a58ed05ae"
+    },
+    {
+      "file": "@/workspace/10_作品與專案/驚蟄/02_素材/絡新婦/v2.0/絡新婦_暴怒現形_四分之三側身全身構圖_無道具.png",
+      "sha256": "dd6266573dad4471d366e1603409daa8c686c379fc928b15dea08298de6e2480"
+    }
+  ],
+  "files": [
+    {
+      "file": "絡新婦_彩蛋保健室女醫陰險_四分之三側身全身構圖_白襯衫黑窄裙長白袍.png",
+      "bytes": 1611896,
+      "sha256": "61fba5392c1ecb5d7a5d4b17c9f585014327619e07640e2af3866ae3517d44c2",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ]
+    }
+  ],
+  "html_mirror": "@/workspace/10_作品與專案/驚蟄/03_開發/人物介紹介面草稿_rev.1/assets/bonus/jorogumo_school_doctor_candidate_01.png",
+  "local_generation_source": "C:\\Users\\User\\.codex\\generated_images\\01a11019-bbc2-7ce3-95d9-6d92fdaf3310\\exec-3dc3a7d0-1403-4d9f-bcbc-6eea4442732a.png"
+}

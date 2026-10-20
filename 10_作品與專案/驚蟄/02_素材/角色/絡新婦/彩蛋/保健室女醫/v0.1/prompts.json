@@ -1,0 +1,15 @@
+{
+  "mode": "built-in image_gen",
+  "intent": "non_canon_bonus_interpretation",
+  "references": [
+    {
+      "file": "@/workspace/10_作品與專案/驚蟄/02_素材/絡新婦/v2.0/絡新婦_暗處監視_正面全身構圖_無道具.png",
+      "sha256": "514a92c26c98c722e5f5b4d317a6952a31ef10759cf77ba78529a70a58ed05ae"
+    },
+    {
+      "file": "@/workspace/10_作品與專案/驚蟄/02_素材/絡新婦/v2.0/絡新婦_暴怒現形_四分之三側身全身構圖_無道具.png",
+      "sha256": "dd6266573dad4471d366e1603409daa8c686c379fc928b15dea08298de6e2480"
+    }
+  ],
+  "prompt": "Use case: character costume interpretation, non-canon human-form bonus art.\nAsset type: transparent full-body anime visual novel sprite for Jorogumo / 絡新婦 from 《驚蟄》.\nThe two reference images show the official spider-monster version and establish long straight black hair, pale restrained menace, a controlled uncanny smile and visual identity. The user's EXPLICIT bonus exception is to draw her as a NORMAL HUMAN ADULT WOMAN, not the monster anatomy.\nDraw her as a sinister school infirmary female doctor: a plain WHITE BUTTONED BLOUSE tucked into a fitted BLACK SHORT PENCIL SKIRT, BLACK HIGH HEELS, and a LONG WHITE LAB COAT worn open over the outfit. The skirt ends above the knee; the coat is much longer, around the calves, and has clean recognizable medical-coat lapels. Keep the outfit professional and coherent, with normal fabric folds and no exposed cleavage.\nAdult human appearance, mature and composed, long black hair, pale natural human skin, two normal human eyes with a sharp gray-dark gaze, a small calculating smile. The eye interpretation belongs only to this non-canon human bonus design. No glowing or extra eyes, no spider limbs, no claws, no chitin, no machinery, no spider ornaments, no bridal hood, no kimono and no nurse cap. Exactly two human arms and two human legs.\nStanding in a stable subtle three-quarter pose with torso, hips, knees, ankles and high-heeled shoes consistently oriented. One hand relaxed near a coat pocket, the other visible and natural, with five fingers. Sinister confidence expressed through the eyes and smile, not gore or exaggerated villain laughter. No syringe, weapon, patient or other character.\nPolished Japanese anime visual novel illustration, clean detailed linework and controlled cel shading with soft highlights, consistent with the project's character sprites. Not photorealistic, not 3D. One full-body figure, complete head and shoe soles visible, comfortable margin, portrait approximately 1024x1536.\nGenuinely transparent alpha background. No scenery, room, backdrop, glow, halo, floor shadow, text, labels or watermarks."
+}

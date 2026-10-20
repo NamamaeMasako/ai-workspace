@@ -1,0 +1,11 @@
+{
+  "mode": "built-in image_gen",
+  "intent": "non_canon_bonus_interpretation",
+  "references": [
+    {
+      "file": "@/workspace/10_作品與專案/驚蟄/02_素材/土蜘蛛/v1.0/土蜘蛛_逼近壓迫_全身構圖_無道具.png",
+      "sha256": "4e0ab8c20d559cc4783cab5b598c7e5b8f8c2078982abb95531d444040e77792"
+    }
+  ],
+  "prompt": "Use case: non-canon chibi creature bonus illustration.\nAsset type: transparent single-object character gallery sprite for Tsuchigumo / 土蜘蛛 from 《驚蟄》.\nThe reference image establishes a large huntsman-like spider with gray-brown mottled coloring, a pale forehead pattern, multiple dark eyes and eight articulated legs. The user's explicit bonus exception is a CUTE CHIBI VERSION KEPT INSIDE A SMALL INSECT-KEEPING ENCLOSURE.\nDraw one recognizable chibi spider INSIDE one clear rectangular plastic insect enclosure. The spider has a rounded compact gray-brown body with simplified cream forehead/mottled markings and EXACTLY EIGHT clearly countable rounded articulated legs, four on each side, all fitting comfortably inside the container. A few simple dark round eyes and small spider mouthparts; no human head, human body, hands, clothing or expressive human mouth. Cute stylization while remaining visibly a spider rather than an insect with six legs.\nThe enclosure has transparent walls, a dark simple ventilated lid, and a thin neutral brown substrate on its floor. Show the complete enclosure in a clean slightly elevated three-quarter front view so the spider and its legs are easy to see through the clear front wall. Keep reflections restrained and do not obscure the spider. No other animals, people, hands holding the box, labels, brand marks or text. No elaborate decorative habitat or external environment.\nPolished soft anime chibi illustration with clear linework and neat cel shading, coordinated with the visual novel's bonus gallery. Not realistic wildlife photography and not 3D.\nSingle complete composition, entire box and lid visible with margins, square canvas approximately 1024x1024. Genuine transparent alpha OUTSIDE the enclosure, no scene, backdrop, floor plane, ground shadow, glow or painted checkerboard."
+}

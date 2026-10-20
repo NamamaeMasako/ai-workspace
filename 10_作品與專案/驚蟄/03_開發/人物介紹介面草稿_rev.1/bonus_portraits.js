@@ -29,5 +29,17 @@ const bonusPortraitGallery = {
       src: 'assets/bonus/yumemi_sailor_uniform_glasses_head.png',
       status: 'adopted_art_and_composition'
     }]
+  }],
+  jorogumo: [{
+    name: 'bonus jorogumo school_doctor_candidate_01',
+    label: '番外彩蛋・保健室女醫（候選）',
+    src: 'assets/bonus/jorogumo_school_doctor_candidate_01.png',
+    status: 'candidate_awaiting_user_review'
+  }],
+  tsuchigumo: [{
+    name: 'bonus tsuchigumo chibi_enclosure_candidate_01',
+    label: '番外彩蛋・昆蟲箱Q版（候選）',
+    src: 'assets/bonus/tsuchigumo_chibi_enclosure_candidate_01.png',
+    status: 'candidate_awaiting_user_review'
   }]
 };
