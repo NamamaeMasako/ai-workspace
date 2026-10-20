@@ -1,6 +1,6 @@
 {
   "date": "2026-10-21",
-  "status": "costume_approved_pose_awaiting_user_review",
+  "status": "art_approved_as_v1_0",
   "non_canon": true,
   "method": "built-in image_gen edit; original alpha preserved; no pixel postprocessing",
   "reference": {
@@ -31,5 +31,7 @@
     "v0.1",
     "v0.2"
   ],
-  "browser_visual_review": "Not performed because earlier browser security-policy denial was not circumvented"
+  "browser_visual_review": "Not performed because earlier browser security-policy denial was not circumvented",
+  "approval_message": "OK，就這版，再多一個有戴眼鏡的差分，粗框眼鏡，顏色符合主題色即可",
+  "adopted_directory": "@/workspace/10_作品與專案/驚蟄/02_素材/角色/夢見/彩蛋/水手服/v1.0"
 }

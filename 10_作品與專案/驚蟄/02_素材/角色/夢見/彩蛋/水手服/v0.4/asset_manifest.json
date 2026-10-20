@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-21",
+  "status": "head_variant_awaiting_user_review",
+  "non_canon": true,
+  "base_art": "adopted_v1_0",
+  "method": "built-in image_gen; generated only head and upper neck; original alpha preserved, no pixel postprocessing",
+  "reference": {
+    "file": "@/workspace/10_作品與專案/驚蟄/02_素材/角色/夢見/彩蛋/水手服/v0.3/夢見_彩蛋水手服溫柔轉向一致_四分之三側身全身構圖_無道具.png",
+    "sha256": "ce55acae504c731d1852b1c39397fe318e88d203c644042a50acff11d6f05ab4"
+  },
+  "files": [
+    {
+      "file": "夢見_彩蛋水手服溫柔_四分之三側身頭部構圖_深紫粗框眼鏡.png",
+      "sha256": "fa07fcfe46c377a84b93a3cf1e2a7c7fed91f3a5935eca90772cf8d2869ebbe4",
+      "bytes": 1757236,
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    }
+  ],
+  "html_mirror": "@/workspace/10_作品與專案/驚蟄/03_開發/人物介紹介面草稿_rev.1/assets/bonus/yumemi_sailor_uniform_glasses_head_candidate_01.png",
+  "presentation": {
+    "location": "upper_left_of_main_portrait",
+    "main_width_px": 82,
+    "enlarged_width_px": 107,
+    "visible_caption": false,
+    "extra_gallery_entry": false
+  },
+  "local_generation_source": "C:\\Users\\User\\.codex\\generated_images\\01a11019-bbc2-7ce3-95d9-6d92fdaf3310\\exec-1a5eb8c6-f7ca-4972-832c-80615ff295b8.png"
+}
