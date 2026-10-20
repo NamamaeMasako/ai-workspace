@@ -1,0 +1,17 @@
+{
+  "prompt": "Use case: stylized-concept\nAsset type: full-body transparent PNG visual-novel bonus character candidate, Omukade (大百足) in a non-canon ordinary human female appearance.\nInput Image 1: original centipede creature, ONLY thematic and restrained black/brown palette reference, not a human anatomy reference. Input Image 2: approved human Jorogumo bonus sprite, ONLY the finely shaded anime illustration/linework quality reference; do NOT copy its woman's face, pose, clothing, white coat, proportions or expression.\nPrimary request: one very TALL-looking adult human woman with BLACK LONG STRAIGHT HAIR and a side-swept fringe completely covering HER OWN RIGHT EYE. Near-frontal view: her right eye is on the VIEWER'S LEFT; viewer-left eye must be hidden by opaque straight hair, viewer-right eye visible. The visible eye has a muted dark brown iris, reserved calm expression, human normal skin and features. Long straight hair flows beyond waist, clearly black. All these are non-canon costume design proposals, not a change to the original creature.\nClothing exactly as requested: BLACK SLEEVELESS TURTLENECK KNIT SWEATER with a clear high neck and subtle ribbed knitting texture; modest natural fit. BROWN LONG SKIRT to just above ankles, warm dark earthy brown, clean high waist and flowing restrained vertical folds. Simple dark brown flat closed shoes. No coat, no sleeves, no stockings, no jewelry, no handbag, no weapon. Arms uncovered, normal human hands with five fingers.\nTall silhouette: elegant long torso and long legs, proportionally small head, approximately eight-heads-tall adult fashion silhouette without exaggeration or anatomical distortion, narrow relaxed shoulders and elongated whole-body line. She must read noticeably tall. Long skirt emphasizes vertical lines rather than puffy volume. Calm dignified standing pose, arms relaxed at sides, slight weight on one leg but no crossed legs; torso pelvis knees and feet face the same near-frontal angle. Keep both arms, hands and shoe tips legible and complete.\nComposition: single complete full body, crown to soles including both feet, with small transparent margins, no panels, no extra heads, no inset, no other people. Refined anime visual novel sprite, quiet expression and restrained colors, crisp delicate linework, nuanced skin and cloth shading like the style reference. Transparent alpha background with clean edges. No environment, vignette, glow or ground shadow. No text or watermark. No horns, antennae, insect legs, armor, claws, fangs or any monster body part. CRITICAL: hair conceals the character's RIGHT eye = viewer LEFT eye, not the other way around.",
+  "mode": "built-in image_gen",
+  "transparent_background": true,
+  "references": [
+    {
+      "file": "@/workspace/10_作品與專案/驚蟄/02_素材/大百足/v1.0/大百足_盤踞待命_盤身抬首全身構圖_無道具.png",
+      "role": "creature theme and black/brown palette reference only",
+      "sha256": "52a0a5d6c60bd660f21fcc5ceb11645034deaf75c0738aa44c053f50b8aa97ae"
+    },
+    {
+      "file": "@/workspace/10_作品與專案/驚蟄/02_素材/角色/絡新婦/彩蛋/保健室女醫/v1.0/絡新婦_彩蛋保健室女醫陰險_四分之三側身全身構圖_白襯衫黑窄裙長白袍.png",
+      "role": "anime illustration style only; not identity or clothing",
+      "sha256": "61fba5392c1ecb5d7a5d4b17c9f585014327619e07640e2af3866ae3517d44c2"
+    }
+  ]
+}

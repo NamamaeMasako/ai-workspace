@@ -49,14 +49,14 @@ const bonusPortraitGallery = {
   }],
   kamikiri: [{
     name: 'bonus kamikiri long_white_tshirt_candidate_01',
-    label: '番外彩蛋・擋車長版T恤（候選）',
+    label: '番外彩蛋・擋車長版T恤',
     src: 'assets/bonus/kamikiri_long_white_tshirt_candidate_01.png',
-    status: 'candidate_awaiting_user_review'
+    status: 'adopted_art_and_composition'
   }],
   omukade: [{
     name: 'bonus omukade human_black_knit_brown_skirt_candidate_01',
-    label: '番外彩蛋・人形黑毛衣棕長裙（候選）',
+    label: '番外彩蛋・人形黑毛衣棕長裙',
     src: 'assets/bonus/omukade_human_black_knit_brown_skirt_candidate_01.png',
-    status: 'candidate_awaiting_user_review'
+    status: 'adopted_art_and_composition'
   }]
 };
