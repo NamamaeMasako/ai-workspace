@@ -4,11 +4,22 @@
   "theme": "保健室女醫",
   "status": "adopted_art_and_composition",
   "approval_message": "可以，再給絡新婦一個戴眼鏡的差分，下半框細邊眼鏡",
-  "scope": "approval of both main portraits in the previous reply; new Jorogumo glasses head is still a candidate",
+  "scope": "both main portraits approved previously; Jorogumo lower-half-rim glasses head approved in latest reply",
   "file": "絡新婦_彩蛋保健室女醫陰險_四分之三側身全身構圖_白襯衫黑窄裙長白袍.png",
   "sha256": "61fba5392c1ecb5d7a5d4b17c9f585014327619e07640e2af3866ae3517d44c2",
   "source": "@/workspace/10_作品與專案/驚蟄/02_素材/角色/絡新婦/彩蛋/保健室女醫/v0.1/絡新婦_彩蛋保健室女醫陰險_四分之三側身全身構圖_白襯衫黑窄裙長白袍.png",
   "pixel_changes": false,
   "non_canon": true,
-  "html_mirror": "@/workspace/10_作品與專案/驚蟄/03_開發/人物介紹介面草稿_rev.1/assets/bonus/jorogumo_school_doctor_candidate_01.png"
+  "html_mirror": "@/workspace/10_作品與專案/驚蟄/03_開發/人物介紹介面草稿_rev.1/assets/bonus/jorogumo_school_doctor_candidate_01.png",
+  "glasses_head_variant": {
+    "date": "2026-10-21",
+    "status": "adopted_art_and_composition",
+    "approval_message": "OK，這樣絡新婦跟土蜘蛛完成，接著處理髮切極大百足，目前髮切及大百足我看是已經更新，所以應該把彩蛋立會補上即可",
+    "file": "差分/絡新婦_彩蛋保健室女醫陰險_四分之三側身頭部構圖_下半框細邊眼鏡.png",
+    "sha256": "8284598fd40dade2bfd4b4c190b92eb4ba6942305be0da46324fa6ac73dddc5c",
+    "source": "@/workspace/10_作品與專案/驚蟄/02_素材/角色/絡新婦/彩蛋/保健室女醫/v0.2/絡新婦_彩蛋保健室女醫陰險_四分之三側身頭部構圖_下半框細邊眼鏡.png",
+    "html_mirror": "@/workspace/10_作品與專案/驚蟄/03_開發/人物介紹介面草稿_rev.1/assets/bonus/jorogumo_school_doctor_lower_half_rim_glasses_head.png",
+    "pixel_changes": false,
+    "presentation": "same slot; upper-left head inset, approximate main portrait head size, no visible caption"
+  }
 }

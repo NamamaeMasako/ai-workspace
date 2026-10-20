@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-21",
+  "character": "大百足",
+  "theme": "人形黑毛衣棕長裙",
+  "status": "candidate_awaiting_user_review",
+  "non_canon": true,
+  "method": "built-in image_gen with specified visual reference roles; original RGBA preserved; no pixel postprocessing",
+  "references": [
+    {
+      "file": "@/workspace/10_作品與專案/驚蟄/02_素材/大百足/v1.0/大百足_盤踞待命_盤身抬首全身構圖_無道具.png",
+      "role": "creature theme and black/brown palette reference only",
+      "sha256": "52a0a5d6c60bd660f21fcc5ceb11645034deaf75c0738aa44c053f50b8aa97ae"
+    },
+    {
+      "file": "@/workspace/10_作品與專案/驚蟄/02_素材/角色/絡新婦/彩蛋/保健室女醫/v1.0/絡新婦_彩蛋保健室女醫陰險_四分之三側身全身構圖_白襯衫黑窄裙長白袍.png",
+      "role": "anime illustration style only; not identity or clothing",
+      "sha256": "61fba5392c1ecb5d7a5d4b17c9f585014327619e07640e2af3866ae3517d44c2"
+    }
+  ],
+  "files": [
+    {
+      "file": "大百足_彩蛋人形沉靜_近正面全身構圖_黑色無袖高領毛衣棕長裙.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "bytes": 1500214,
+      "sha256": "924dbcfcc467d4c66d79beddb2178e35866c73a0290cac72a9320dc1e17b3b15",
+      "alpha_range": [
+        0,
+        254
+      ]
+    }
+  ],
+  "html_mirror": "@/workspace/10_作品與專案/驚蟄/03_開發/人物介紹介面草稿_rev.1/assets/bonus/omukade_human_black_knit_brown_skirt_candidate_01.png",
+  "local_generation_source": "C:\\Users\\User\\.codex\\generated_images\\01a11019-bbc2-7ce3-95d9-6d92fdaf3310\\exec-7cc72509-2185-44f1-9128-4108ea2eb51b.png"
+}

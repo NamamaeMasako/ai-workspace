@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-21",
+  "character": "髮切",
+  "theme": "擋車長版T恤",
+  "status": "candidate_awaiting_user_review",
+  "non_canon": true,
+  "method": "built-in image_gen with specified visual reference roles; original RGBA preserved; no pixel postprocessing",
+  "references": [
+    {
+      "file": "@/workspace/10_作品與專案/驚蟄/02_素材/髮切/v1.3/髮切_警戒待戰_螳螂架勢全身構圖_右手持忍者刀左臂直刃袖劍.png",
+      "role": "character identity and rendering reference",
+      "sha256": "b4432bf4e146d0adf3ac7e33a4be4462f536121e85ac211412230e8cc014e2f6"
+    }
+  ],
+  "files": [
+    {
+      "file": "髮切_彩蛋擋車長版白T恤淡漠_近正面全身構圖_無武器.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "bytes": 1395909,
+      "sha256": "5d4562d28f1b9ca198da0760c88666c8e64712464ef43167ee9be530ead88af0",
+      "alpha_range": [
+        0,
+        254
+      ]
+    }
+  ],
+  "html_mirror": "@/workspace/10_作品與專案/驚蟄/03_開發/人物介紹介面草稿_rev.1/assets/bonus/kamikiri_long_white_tshirt_candidate_01.png",
+  "local_generation_source": "C:\\Users\\User\\.codex\\generated_images\\01a11019-bbc2-7ce3-95d9-6d92fdaf3310\\exec-a05919d8-3ae6-4774-861e-310044078a86.png"
+}
