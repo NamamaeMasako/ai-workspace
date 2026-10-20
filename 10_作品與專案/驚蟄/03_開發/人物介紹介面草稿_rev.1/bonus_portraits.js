@@ -32,14 +32,19 @@ const bonusPortraitGallery = {
   }],
   jorogumo: [{
     name: 'bonus jorogumo school_doctor_candidate_01',
-    label: '番外彩蛋・保健室女醫（候選）',
+    label: '番外彩蛋・保健室女醫',
     src: 'assets/bonus/jorogumo_school_doctor_candidate_01.png',
-    status: 'candidate_awaiting_user_review'
+    status: 'adopted_art_and_composition',
+    variants: [{
+      label: '下半框細邊眼鏡',
+      src: 'assets/bonus/jorogumo_school_doctor_lower_half_rim_glasses_head_candidate_01.png',
+      status: 'candidate_awaiting_user_review'
+    }]
   }],
   tsuchigumo: [{
     name: 'bonus tsuchigumo chibi_enclosure_candidate_01',
-    label: '番外彩蛋・昆蟲箱Q版（候選）',
+    label: '番外彩蛋・昆蟲箱Q版',
     src: 'assets/bonus/tsuchigumo_chibi_enclosure_candidate_01.png',
-    status: 'candidate_awaiting_user_review'
+    status: 'adopted_art_and_composition'
   }]
 };

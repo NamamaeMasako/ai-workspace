@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-21",
+  "character": "絡新婦",
+  "theme": "保健室女醫下半框細邊眼鏡頭部",
+  "status": "candidate_awaiting_user_review",
+  "non_canon": true,
+  "method": "built-in image_gen identity-preserve edit; native transparent alpha preserved; no pixel postprocessing",
+  "reference": {
+    "role": "edit target and identity reference",
+    "file": "@/workspace/10_作品與專案/驚蟄/02_素材/角色/絡新婦/彩蛋/保健室女醫/v1.0/絡新婦_彩蛋保健室女醫陰險_四分之三側身全身構圖_白襯衫黑窄裙長白袍.png",
+    "sha256": "61fba5392c1ecb5d7a5d4b17c9f585014327619e07640e2af3866ae3517d44c2"
+  },
+  "files": [
+    {
+      "file": "絡新婦_彩蛋保健室女醫陰險_四分之三側身頭部構圖_下半框細邊眼鏡.png",
+      "bytes": 2068355,
+      "sha256": "8284598fd40dade2bfd4b4c190b92eb4ba6942305be0da46324fa6ac73dddc5c",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    }
+  ],
+  "local_generation_source": "C:\\Users\\User\\.codex\\generated_images\\01a11019-bbc2-7ce3-95d9-6d92fdaf3310\\exec-ab5b9ad2-8539-4a37-b11d-92b8e7550e19.png",
+  "html_mirror": "@/workspace/10_作品與專案/驚蟄/03_開發/人物介紹介面草稿_rev.1/assets/bonus/jorogumo_school_doctor_lower_half_rim_glasses_head_candidate_01.png",
+  "presentation": "same gallery slot as approved main portrait; upper-left head inset, no visible caption, approximate original head size; existing width 82 / enlarged 107"
+}

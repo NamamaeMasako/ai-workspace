@@ -1,0 +1,11 @@
+{
+  "prompt": "Use case: identity-preserve\nAsset type: transparent head-only visual-novel bonus portrait variant.\nInput image 1 is the edit target and identity reference: adult Jorogumo in human school-doctor bonus costume. Produce ONLY her head and a small neck/collar cutoff, not another full body.\nPrimary request: Add delicate thin-metal LOWER HALF-RIM glasses (under-rim / inverse half-rim). The slim charcoal-silver metal frame runs ONLY underneath each lens and around the lower outer lens corners, with a thin bridge and temples; TOP edges of the clear lenses have NO frame. These are specifically 下半框細邊眼鏡, NOT browline, NOT upper half-rim, NOT thick full-rim. Lenses are normal clear optical eyeglasses without tint or strong glare, and sit naturally on nose and ears.\nInvariants: exactly the same adult woman, long glossy black hair, hairline and bangs, pale face, narrow sly eyes, sinister subtle smile, same three-quarter head tilt and gaze, same finely shaded anime illustration style. Change only the eyewear. Hair strands may overlap parts of glasses naturally, but lower thin rims should be legible. Preserve adult age and human anatomy.\nComposition: closely framed single head cutout showing the COMPLETE crown, face, side hair and small neck/white blouse collar; keep hair to shoulder level only, no hands, no torso, no long hair tails extending below crop. Head fills most of the square canvas with modest transparent margin and enough room so crown and chin are not cut. This will be displayed as a small inset beside the existing full body, at approximately the same size as the original head, without a label.\nBackground: genuinely transparent alpha, clean isolated edges, no glow, no shadow backdrop, no text, no watermark. No other changes or accessories.",
+  "mode": "built-in image_gen",
+  "intent": "identity-preserve edit",
+  "transparent_background": true,
+  "reference": {
+    "role": "edit target and identity reference",
+    "file": "@/workspace/10_作品與專案/驚蟄/02_素材/角色/絡新婦/彩蛋/保健室女醫/v1.0/絡新婦_彩蛋保健室女醫陰險_四分之三側身全身構圖_白襯衫黑窄裙長白袍.png",
+    "sha256": "61fba5392c1ecb5d7a5d4b17c9f585014327619e07640e2af3866ae3517d44c2"
+  }
+}
