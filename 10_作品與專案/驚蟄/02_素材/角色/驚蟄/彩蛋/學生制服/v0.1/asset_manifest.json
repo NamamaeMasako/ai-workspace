@@ -1,6 +1,6 @@
 {
   "date": "2026-10-20",
-  "status": "awaiting_user_art_review",
+  "status": "art_approved_as_v1_0",
   "non_canon": true,
   "method": "built-in image_gen; no pixel postprocessing",
   "reference_files": {
@@ -55,5 +55,6 @@
     }
   ],
   "game_integrated": false,
-  "html_integrated": false
+  "html_integrated": false,
+  "adopted_to": "../v1.0"
 }

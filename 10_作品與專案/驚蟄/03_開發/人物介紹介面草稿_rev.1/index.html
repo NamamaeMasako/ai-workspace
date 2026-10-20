@@ -18,6 +18,7 @@
 .layout{grid-template-rows:minmax(0,1fr)}.details,.roster{min-height:0}
 .portrait img{height:calc(100% - 100px);object-position:center center}.portrait:after{bottom:100px;height:40px}.portrait-number{top:10px;bottom:auto;left:10px}.portrait-tools{position:absolute;left:12px;right:12px;bottom:0;height:94px;z-index:2;border-top:1px solid var(--line);padding-top:10px}.portrait-title{display:block;width:100%;height:34px;margin:0;padding:3px 9px;color:#e0cfac;font-size:16px;line-height:1.7;text-align:center;letter-spacing:.08em}.portrait-actions{display:flex;justify-content:space-between;align-items:center;margin-top:9px;gap:8px}.art-arrow{background:transparent;border:1px solid #b4a17540;color:#d9c296;min-width:34px;height:30px;font-size:19px}.art-arrow:hover,.enlarge:hover{color:#fff0ce;border-color:#d2b67c}.art-arrow:disabled{opacity:.35}.art-counter{color:#b6aa94;font-size:13px;font-variant-numeric:tabular-nums}.enlarge{background:transparent;border:0;border-bottom:1px solid #9f8c6357;color:#d0bb93;font-size:13px;padding:3px 0;letter-spacing:.07em}.portrait-modal{position:absolute;inset:0;z-index:10;background:#090e0df7;display:grid;grid-template-rows:64px minmax(0,1fr) 66px;padding:0 42px}.portrait-modal[hidden]{display:none}.art-view-header{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);color:#d5c3a0;font-size:20px;letter-spacing:.12em}.art-close{background:transparent;border:0;color:#c4bba9;font-size:18px;padding:9px}.art-view-image{width:100%;height:100%;object-fit:contain;min-height:0;padding:12px 0}.art-view-footer{border-top:1px solid var(--line);display:flex;align-items:center;justify-content:center;gap:28px}.art-view-label{color:#e2d3b6;font-size:19px;min-width:310px;text-align:center}.art-view-counter{font-size:14px;color:#998f7c;margin-left:17px;font-variant-numeric:tabular-nums}
 @media(prefers-reduced-motion:reduce){*{transition:none!important}}@media(max-width:700px){.preview{padding:18px 12px}.preview-tools{align-items:flex-start;flex-direction:column}.preview-title{font-size:13px}.preview-note{gap:4px;font-size:12px}.tool{font-size:12px;padding:7px 10px}}
+.variant-insets{position:absolute;left:3px;top:27px;z-index:3;display:flex;flex-direction:column;gap:15px}.variant-insets:empty{display:none}.variant-figure{margin:0;width:132px}.variant-cutout{position:relative;width:100%;aspect-ratio:1;overflow:hidden}.variant-cutout img,.portrait .variant-cutout img{position:relative;display:block;width:100%;height:100%;object-fit:contain;object-position:center;filter:none}.variant-cutout.is-cropped img,.portrait .variant-cutout.is-cropped img{position:absolute;max-width:none;width:var(--image-width);height:auto;left:var(--image-left);top:var(--image-top);object-fit:initial}.variant-figure figcaption{font-size:12px;letter-spacing:.12em;text-align:center;color:#c8b48e;line-height:1.7;margin-top:6px}.art-view-body{position:relative;min-height:0}.art-view-body .variant-insets{left:20px;top:22px}.art-view-body .variant-figure{width:200px}.art-view-body .variant-figure figcaption{font-size:16px;margin-top:10px}
 </style>
 </head>
 <body>
@@ -26,6 +27,7 @@
     <div class="preview-title">《驚蟄》人物介紹 <span class="revision">介面草稿 rev.1</span></div>
     <div class="preview-actions" aria-label="草稿預覽工具">
       <button class="tool" id="show-portrait" type="button">立繪版：驚蟄</button>
+      <button class="tool" id="show-bonus" type="button">彩蛋：驚蟄</button>
       <button class="tool" id="show-text" type="button">無立繪版：暮春</button>
       <button class="tool" id="fullscreen" type="button">全螢幕預覽</button>
     </div>
@@ -41,6 +43,7 @@
         <nav class="roster" id="roster" aria-label="人物清單"></nav>
         <div class="portrait" id="portrait-panel">
           <img id="portrait" alt="">
+          <div class="variant-insets" id="portrait-variants" aria-label="立繪局部差分"></div>
           <span class="portrait-inscription" aria-hidden="true">月下庄・人物誌</span>
           <span class="portrait-number" id="portrait-number" aria-hidden="true"></span>
           <div class="portrait-tools" aria-label="角色立繪瀏覽">
@@ -64,7 +67,7 @@
       <section class="entry" id="entry" aria-label="返回後的主選單示意" hidden><div class="entry-panel"><h2>驚蟄</h2><button id="reopen" type="button">人物介紹</button><p>主選單入口示意</p></div></section>
       <section class="portrait-modal" id="art-modal" role="dialog" aria-modal="true" aria-labelledby="art-view-title" hidden>
         <header class="art-view-header"><span id="art-view-title"></span><button class="art-close" id="art-close" type="button">關閉 ✕</button></header>
-        <img class="art-view-image" id="art-view-image" alt="">
+        <div class="art-view-body"><img class="art-view-image" id="art-view-image" alt=""><div class="variant-insets" id="art-view-variants" aria-label="放大檢視的局部差分"></div></div>
         <footer class="art-view-footer"><button class="art-arrow" id="art-view-previous" type="button" aria-label="放大檢視的上一張立繪">‹</button><span class="art-view-label"><span id="art-view-label"></span><span class="art-view-counter" id="art-view-counter"></span></span><button class="art-arrow" id="art-view-next" type="button" aria-label="放大檢視的下一張立繪">›</button></footer>
       </section>
     </section>
@@ -72,6 +75,7 @@
   <p class="preview-note"><span><strong>目前看版面與操作。</strong>文字為排版草稿，尚未核定為正式人物介紹。</span><span>逸聞內容依階段整理；通關鎖定於內容完成後加入。</span></p>
 </main>
 <script src="portraits.js"></script>
+<script src="bonus_portraits.js"></script>
 <script>
 // Source authority: Elo/02_角色與勢力/角色設定.txt and JingZhe/game/script.rpy.
 // Existing formal art is referenced directly; no new artwork or lore is created.
@@ -100,7 +104,18 @@ people.forEach((person,i)=>{
  const b=document.createElement('button');b.type='button';b.className='person'+(person.name.length>5?' long-name':'');b.textContent=person.name;b.dataset.index=i;b.addEventListener('click',()=>selectPerson(i));roster.append(b);
 });
 function el(tag,cls,text){const node=document.createElement(tag);if(cls)node.className=cls;if(text!==undefined)node.textContent=text;return node;}
-function currentGallery(){return portraitGallery[people[index].id]||[];}
+function currentGallery(){const id=people[index].id;return [...(portraitGallery[id]||[]),...(bonusPortraitGallery[id]||[])];}
+function renderHeadVariants(item){
+ for(const id of ['portrait-variants','art-view-variants']){
+  const container=byId(id);container.replaceChildren();
+  for(const variant of item.variants||[]){
+   const figure=el('figure','variant-figure'),cutout=el('div','variant-cutout'),image=el('img');
+   image.src=variant.src;image.alt=people[index].name+'・'+variant.label;
+   if(variant.crop){const [x,y,w,h]=variant.crop;cutout.classList.add('is-cropped');cutout.style.aspectRatio=w+'/'+h;cutout.style.setProperty('--image-width',100*variant.sourceSize[0]/w+'%');cutout.style.setProperty('--image-left',-100*x/w+'%');cutout.style.setProperty('--image-top',-100*y/h+'%');}
+   cutout.append(image);figure.append(cutout,el('figcaption','',variant.label));container.append(figure);
+  }
+ }
+}
 function renderPortrait(){
  const gallery=currentGallery();if(!gallery.length)return;
  artIndex=(artIndex+gallery.length)%gallery.length;const item=gallery[artIndex];
@@ -108,6 +123,7 @@ function renderPortrait(){
  byId('portrait-title').textContent=item.label;byId('art-counter').textContent=(artIndex+1)+' / '+gallery.length+' 張';
  byId('art-view-image').src=item.src;byId('art-view-image').alt=byId('portrait').alt;
  byId('art-view-title').textContent=people[index].name+'・立繪';byId('art-view-label').textContent=item.label;byId('art-view-counter').textContent=(artIndex+1)+' / '+gallery.length;
+ renderHeadVariants(item);
  ['art-previous','art-next','art-view-previous','art-view-next'].forEach(id=>byId(id).disabled=gallery.length<2);
 }
 function switchPortrait(step){artIndex+=step;renderPortrait();}
@@ -130,12 +146,13 @@ function selectPerson(i){
  document.querySelectorAll('.person').forEach((b,n)=>b.setAttribute('aria-current',String(n===index)));
  byId('layout').classList.toggle('text-only',!p.image);byId('category').textContent=p.group;byId('character-name').textContent=p.name;byId('character-name').classList.toggle('long',p.name.length>5);byId('identity').textContent=p.identity;
  const gallery=currentGallery();
- const image=byId('portrait');if(gallery.length){renderPortrait();}else{image.removeAttribute('src');image.alt='';byId('art-view-image').removeAttribute('src');}
+ const image=byId('portrait');if(gallery.length){renderPortrait();}else{image.removeAttribute('src');image.alt='';byId('art-view-image').removeAttribute('src');renderHeadVariants({});}
  byId('portrait-number').textContent='人物誌 / '+String(index+1).padStart(2,'0');byId('page-number').textContent=String(index+1).padStart(2,'0')+' / '+people.length;byId('footer-title').textContent=p.group+'　・　'+p.name;renderReading();
 }
 byId('tab-intro').addEventListener('click',()=>{tab='intro';renderReading();});byId('tab-notes').addEventListener('click',()=>{tab='notes';renderReading();});
 document.querySelector('.tabs').addEventListener('keydown',event=>{if(event.key==='ArrowLeft'||event.key==='ArrowRight'){event.preventDefault();event.stopPropagation();tab=tab==='intro'?'notes':'intro';renderReading();byId(tab==='intro'?'tab-intro':'tab-notes').focus();}});
 byId('previous').addEventListener('click',()=>selectPerson(index-1));byId('next').addEventListener('click',()=>selectPerson(index+1));byId('show-portrait').addEventListener('click',()=>selectPerson(0));byId('show-text').addEventListener('click',()=>selectPerson(9));
+byId('show-bonus').addEventListener('click',()=>{selectPerson(0);artIndex=currentGallery().length-1;renderPortrait();});
 ['art-previous','art-view-previous'].forEach(id=>byId(id).addEventListener('click',()=>switchPortrait(-1)));['art-next','art-view-next'].forEach(id=>byId(id).addEventListener('click',()=>switchPortrait(1)));
 byId('art-enlarge').addEventListener('click',()=>{artReturnFocus=document.activeElement;byId('art-modal').hidden=false;byId('art-close').focus();});byId('art-close').addEventListener('click',closePortrait);
 byId('art-modal').addEventListener('keydown',event=>{if(event.key==='Tab'){const focusable=[byId('art-close'),byId('art-view-previous'),byId('art-view-next')].filter(b=>!b.disabled);const pos=focusable.indexOf(document.activeElement);if(event.shiftKey&&pos===0){event.preventDefault();focusable.at(-1).focus();}else if(!event.shiftKey&&pos===focusable.length-1){event.preventDefault();focusable[0].focus();}}});

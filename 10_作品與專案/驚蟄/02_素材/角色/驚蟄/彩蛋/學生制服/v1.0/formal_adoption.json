@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-20",
+  "status": "art_approved_composition_pending_review",
+  "user_decision": "可以，但實際呈現時不用放兩張立繪，放無帽立繪就好，然後在立繪左上角放有帽的頭部即可",
+  "non_canon": true,
+  "gallery_entries": 1,
+  "main": "驚蟄_彩蛋學生制服平靜_四分之三側身全身構圖_無帽無菸斗.png",
+  "variant": {
+    "source": "差分來源/驚蟄_學生制服戴帽頭部來源_四分之三側身全身構圖_無菸斗.png",
+    "display": "head_only_at_upper_left",
+    "crop": [
+      360,
+      12,
+      290,
+      282
+    ],
+    "original_size": [
+      1024,
+      1536
+    ]
+  },
+  "files": [
+    {
+      "file": "驚蟄_彩蛋學生制服平靜_四分之三側身全身構圖_無帽無菸斗.png",
+      "kind": "main",
+      "sha256": "7b1ae6282fe8e32f78fc5952d90b2070c7619add4b74c82e69455aaef90e8f8a",
+      "prototype_mirror": "jingzhe_school_uniform_no_hat.png"
+    },
+    {
+      "file": "差分來源/驚蟄_學生制服戴帽頭部來源_四分之三側身全身構圖_無菸斗.png",
+      "kind": "head_variant_source",
+      "sha256": "2f53388aabd77171c19b912a47613c30c024e1f416bcceb88e5f44b7ec6886e2",
+      "prototype_mirror": "jingzhe_school_uniform_hat_source.png"
+    }
+  ],
+  "html_integrated": true,
+  "game_integrated": false
+}
