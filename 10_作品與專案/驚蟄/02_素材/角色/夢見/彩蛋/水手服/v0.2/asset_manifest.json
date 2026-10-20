@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-21",
+  "status": "costume_approved_pose_awaiting_user_review",
+  "non_canon": true,
+  "method": "built-in image_gen edit; original RGBA alpha preserved; no pixel postprocessing",
+  "change": "Leg stance, knees/ankles alignment, and feet separation",
+  "preservation_goal": "Approved sailor costume and upper body retained as closely as possible",
+  "reference": {
+    "file": "@/workspace/10_作品與專案/驚蟄/02_素材/角色/夢見/彩蛋/水手服/v0.1/夢見_彩蛋水手服溫柔_四分之三側身全身構圖_無道具.png",
+    "sha256": "ec4bce00d8b46a2ab805c5e463b3d8572f682910c473c36b146304aeecff5201"
+  },
+  "files": [
+    {
+      "file": "夢見_彩蛋水手服溫柔自然站姿_四分之三側身全身構圖_無道具.png",
+      "sha256": "6215b7b6bb4f666f1190432a53eef2852e705618b259824288724d1205c49e4d",
+      "bytes": 1434667,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ]
+    },
+    {
+      "file": "生成歷程/夢見_水手服腿部首輪修正_放鬆腿偏彎_全身.png",
+      "sha256": "c60f73f72199fd96f4f3c43127f7c3a922ebf9fadf417a69a5ae277a73dd1cfb",
+      "kind": "process_only"
+    }
+  ],
+  "html_mirror": "@/workspace/10_作品與專案/驚蟄/03_開發/人物介紹介面草稿_rev.1/assets/bonus/yumemi_sailor_uniform_candidate_02.png",
+  "supersedes_for_preview": "v0.1; original remains preserved"
+}

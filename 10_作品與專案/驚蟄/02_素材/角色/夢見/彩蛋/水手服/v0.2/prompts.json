@@ -1,0 +1,24 @@
+{
+  "mode": "built-in image_gen edit",
+  "date": "2026-10-21",
+  "reference": {
+    "file": "@/workspace/10_作品與專案/驚蟄/02_素材/角色/夢見/彩蛋/水手服/v0.1/夢見_彩蛋水手服溫柔_四分之三側身全身構圖_無道具.png",
+    "sha256": "ec4bce00d8b46a2ab805c5e463b3d8572f682910c473c36b146304aeecff5201"
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "prompt": "Use case: identity-preserve, precise anatomy correction.\nEdit target: the supplied transparent full-body image of Yumemi, an ADULT woman about 25 years old wearing a sailor-uniform costume. The user APPROVED THE COSTUME and requested correction of the awkward legs only.\nPreserve the existing character identity, exact face, expression, hair, hair ornament, earrings, upper body, hands, sailor blouse, collar, neckerchief, skirt design, colors, lighting, illustration style and transparent background. Keep everything above the bottom skirt hem as close to the original as possible.\nChange ONLY the anatomy and stance of the lower legs and feet visible below the skirt hem. Correct the knee-to-ankle alignment and natural weight bearing. Current knees pinch together, lower legs bulge and bend inconsistently, and overlapping shoes obscure the stance. Replace this with a gentle natural relaxed standing pose: one leg supports the body almost vertically beneath its hip, the other leg is relaxed with only a small knee bend and a slight forward offset. Knees and ankles follow clear anatomically continuous axes, no exaggerated inward knees and no corkscrew twisting. Both shoes rest plausibly on one ground level. Leave a small readable gap between the feet instead of overlapping them. The result should still be modest, reserved and softly feminine, not a wide-legged pose.\nKeep the same dark knee socks and brown loafers, changing only their pose and anatomical fit. Preserve the original adult softly fuller proportions, calf fullness and plausible leg lengths; do not stretch or slim the legs. Do not change the skirt length or add exposed skin.\nKeep the original full-body portrait framing, comparable character scale, all hair and both shoe soles in frame with margins, approximately 1024x1536. One character only. Clean anime visual novel cel shading matching the target. No duplicate panels, no diagrams, no labels or text.\nOutput a genuine transparent PNG alpha background. No painted background, halo, glow, checkerboard, ground or cast shadow. Preserve existing transparency.",
+      "local_output": "C:\\Users\\User\\.codex\\generated_images\\01a11019-bbc2-7ce3-95d9-6d92fdaf3310\\exec-eeeb85a8-4e60-44ab-bc8b-2069a97aa987.png",
+      "sha256": "c60f73f72199fd96f4f3c43127f7c3a922ebf9fadf417a69a5ae277a73dd1cfb",
+      "selection": "process_only; relaxed leg still too bent"
+    },
+    {
+      "round": 2,
+      "prompt": "Precise anatomy edit of the supplied transparent full-body adult Yumemi sailor-uniform portrait. User approves the clothes and upper body; fix legs only.\nKeep the same character, adult age about 25, softly fuller body, exact face, lavender hair, expression, hair ornament, earrings, hands, white blouse, violet neckerchief, navy sailor collar and pleated skirt. Preserve the pixels above the skirt hem as closely as possible. Keep original rendering, colors and framing.\nREDRAW ONLY THE LEGS BELOW THE SKIRT HEM AND SHOES. Use a plain, stable, comfortable near-symmetrical standing pose with BOTH LEGS MOSTLY STRAIGHT, knees facing forward and ankles directly beneath the knees. The knee-to-shin-to-ankle axes must be continuous and believable. Let the feet sit a small natural distance apart, near-parallel, with both soles firmly resting on a consistent ground plane. No crossing, no touching or pinched knees, no pronounced bent knee, no sideways bowing, no S-shaped lower legs, no twisted joints. Do not pose either foot on tiptoe. Preserve realistic soft adult calf volume without spherical bulges. Maintain original leg lengths and body height.\nKeep navy knee socks and the same brown loafers, repositioned to fit the corrected legs. No new clothing or accessories, no shortening the skirt or changing body type. Aim for a calm reserved standing posture; neither a fashion runway stance nor a stiff wide-legged stance.\nOne full-body character, both complete shoe soles in frame, approximate 1024x1536 portrait, original polished anime visual novel illustration. Genuine transparent alpha background with no background painting, halos, glow, floor, shadow, text or watermark.",
+      "local_output": "C:\\Users\\User\\.codex\\generated_images\\01a11019-bbc2-7ce3-95d9-6d92fdaf3310\\exec-4bb39454-3467-4f25-af6d-4fe1ac27a4e3.png",
+      "sha256": "6215b7b6bb4f666f1190432a53eef2852e705618b259824288724d1205c49e4d",
+      "selection": "current_review_candidate"
+    }
+  ]
+}
