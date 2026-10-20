@@ -1,6 +1,9 @@
 {
   "date": "2026-10-20",
-  "status": "art_approved_composition_pending_review",
+  "status": "adopted_art_and_composition",
+  "composition_approved": true,
+  "composition_confirmation": "阿，先確定驚蟄的彩蛋立繪，我認為這版OK",
+  "composition_confirmed_on": "2026-10-20",
   "user_decision": "可以，但實際呈現時不用放兩張立繪，放無帽立繪就好，然後在立繪左上角放有帽的頭部即可",
   "non_canon": true,
   "gallery_entries": 1,
