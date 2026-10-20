@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>驚蟄｜人物介紹介面草稿 rev.1</title>
+<style>
+@font-face{font-family:JZNoto;src:url('../JingZhe/game/NotoSansTC-VF.ttf') format('truetype');font-display:swap}
+:root{color-scheme:dark;--ink:#eee7da;--muted:#a29a8d;--gold:#cfb787;--rose:#c65b7c;--line:#c9b78e28}
+*{box-sizing:border-box}body{margin:0;background:#111313;color:var(--ink);font-family:JZNoto,'Microsoft JhengHei',sans-serif}button{font:inherit;cursor:pointer}button:focus-visible{outline:2px solid #eed6a5;outline-offset:4px}button:disabled{cursor:default}
+.preview{max-width:1360px;margin:0 auto;padding:26px 32px 22px}.preview-tools{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:18px}.preview-title{font-size:15px;color:#ccc5b9;letter-spacing:.08em}.revision{color:#8f8f86;font-size:12px;letter-spacing:.08em;margin-left:12px}.preview-actions{display:flex;gap:8px;flex-wrap:wrap}.tool{background:transparent;color:#bdb9ae;border:1px solid #45463e;border-radius:4px;padding:7px 13px;font-size:13px}.tool:hover{border-color:#a38e65;color:#f6e5c5}.preview-note{color:#93968e;font-size:13px;line-height:1.9;margin:17px 0 0;display:flex;gap:22px;flex-wrap:wrap}.preview-note strong{font-weight:400;color:#cbc3b3}
+.canvas-holder{position:relative;width:100%;background:#060909;overflow:hidden;box-shadow:0 18px 80px #0006}.canvas-holder:fullscreen{width:100vw;height:100vh!important;display:flex;align-items:center;justify-content:center;background:#060909}.stage{position:absolute;left:0;top:0;width:1280px;height:720px;transform:scale(var(--scale,1));transform-origin:top left;overflow:hidden;background:#0c1010;color:var(--ink)}.canvas-holder:fullscreen .stage{position:relative;flex:none;transform-origin:center;}
+.scene-bg{position:absolute;inset:0;background:linear-gradient(90deg,#0b1010f5 0%,#111716eb 44%,#0c1110f5 100%),url('../JingZhe/game/gui/main_menu.png') center/cover}.scene-bg:after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 43% 42%,#8d794513,transparent 54%);pointer-events:none}.header{position:absolute;left:42px;right:42px;top:26px;height:75px;display:flex;align-items:flex-start;justify-content:space-between;border-bottom:1px solid var(--line)}.heading{display:flex;gap:23px;align-items:center}.brand{font-size:27px;color:var(--rose);letter-spacing:.14em;line-height:1.3;padding-right:24px;border-right:1px solid var(--line)}h1{font-size:28px;letter-spacing:.18em;font-weight:400;margin:0}.header-subtitle{font-size:12px;color:#7f847b;letter-spacing:.2em;margin-top:6px}.return{background:transparent;border:0;color:#b5ad9e;font-size:19px;letter-spacing:.12em;padding:10px 1px 10px 15px;display:flex;align-items:center;gap:13px}.return:hover{color:#f6deb4}.return svg{width:21px;height:21px}
+.layout{position:absolute;left:42px;right:42px;top:123px;bottom:65px;display:grid;grid-template-columns:190px 354px minmax(0,1fr);gap:26px}.roster{border-right:1px solid var(--line);padding-right:18px;overflow-y:auto;scrollbar-width:thin;scrollbar-color:#756648 transparent}.group-title{color:#8b8c80;font-size:13px;letter-spacing:.14em;margin:0 0 8px 10px}.group-title:not(:first-child){margin-top:17px}.person{position:relative;display:flex;align-items:center;width:100%;height:34px;text-align:left;padding:0 12px 0 17px;margin:2px 0;background:transparent;border:1px solid transparent;color:#c0bbb1;font-size:19px;letter-spacing:.12em;transition:color .15s,background .15s}.person:hover{color:#f2e3c8;background:#d9bf8a08}.person[aria-current=true]{color:#f2d9a7;border-color:#c5a86c65;background:linear-gradient(90deg,#b89a5423,#b89a5408)}.person[aria-current=true]:before{content:'';position:absolute;left:-1px;top:7px;bottom:7px;width:2px;background:#ddbc7e}.person.long-name{font-size:16px;letter-spacing:.04em}.portrait{position:relative;min-width:0;background:radial-gradient(ellipse at 50% 50%,#bda46e0e,transparent 66%);overflow:hidden}.portrait:before{position:absolute;content:'';left:27px;right:27px;top:0;height:1px;background:linear-gradient(90deg,transparent,#b5a0764d,transparent)}.portrait:after{content:'';position:absolute;left:26px;right:26px;bottom:0;height:72px;background:linear-gradient(transparent,#0e1413d6);pointer-events:none}.portrait img{display:block;position:absolute;width:100%;height:100%;object-fit:contain;object-position:center bottom;filter:drop-shadow(0 14px 28px #0005)}.portrait-inscription{position:absolute;right:0;top:38px;writing-mode:vertical-rl;font-size:12px;letter-spacing:.35em;color:#c7b58854;z-index:1}.portrait-number{position:absolute;bottom:15px;left:14px;font-size:11px;letter-spacing:.2em;color:#af9c786b;z-index:1}
+.details{min-width:0;display:flex;flex-direction:column;padding:1px 0 0 8px}.eyebrow{color:#b19b72;font-size:12px;letter-spacing:.25em;margin:0 0 9px}.name{font-family:'PMingLiU',JZNoto,serif;font-weight:400;font-size:49px;letter-spacing:.18em;line-height:1.3;margin:0 0 12px}.name.long{font-size:39px}.identity{font-size:16px;color:#b2aa9c;letter-spacing:.12em;line-height:1.8;margin:0}.name-rule{width:51px;height:1px;background:#bea16b8c;margin-top:22px}.tabs{display:flex;gap:30px;margin-top:22px;border-bottom:1px solid var(--line)}.tab{position:relative;letter-spacing:.14em;color:#939488;background:transparent;border:0;padding:0 0 13px;font-size:18px}.tab[aria-selected=true]{color:#efd8ad}.tab[aria-selected=true]:after{position:absolute;content:'';height:2px;bottom:-1px;left:0;right:0;background:#d7b77b}.tab:hover{color:#f4e4c9}.reading{flex:1;min-height:0;overflow-y:auto;scrollbar-width:thin;scrollbar-color:#71644b transparent;padding:19px 12px 12px 0;line-height:1.95;font-size:20px;color:#d8d3c9;letter-spacing:.035em}.reading p{margin:0 0 16px}.facts{display:grid;grid-template-columns:1fr 1fr;gap:10px 24px;padding:0 0 17px;margin-bottom:17px;border-bottom:1px solid var(--line);font-size:16px;line-height:1.75}.fact-label{color:#918c7f;font-size:12px;letter-spacing:.16em;display:block;margin-bottom:3px}.section-title{color:#d5bf98;font-size:17px;letter-spacing:.12em;margin:3px 0 9px;font-weight:400}.relation{font-size:16px;color:#a5a194;margin-top:18px;padding-top:15px;border-top:1px solid var(--line)}.draft-label{display:inline-block;font-size:11px;letter-spacing:.1em;color:#afa286;border-bottom:1px solid #a48e5659;line-height:1.8;margin-bottom:13px}.pending{padding:12px 0;color:#b3afa3}.pending h3{font-size:22px;font-weight:400;color:#ddcfb6;letter-spacing:.12em;margin:0 0 14px}.pending p{font-size:18px}.anecdote + .anecdote{margin-top:24px;padding-top:20px;border-top:1px solid var(--line)}
+.layout.text-only{grid-template-columns:190px minmax(0,1fr);gap:64px}.text-only .portrait{display:none}.text-only .details{padding:10px 28px 0 0;max-width:860px}.text-only .name{font-size:57px}.text-only .tabs{margin-top:25px}.text-only .reading{max-width:810px;padding-right:24px}.text-only .reading p{max-width:740px}.text-only .facts{grid-template-columns:1fr 1fr;max-width:680px}.text-only .name-rule{width:72px}
+.footer{position:absolute;left:42px;right:42px;bottom:19px;height:28px;border-top:1px solid var(--line);padding-top:12px;display:flex;align-items:center;justify-content:space-between;color:#83877c;font-size:12px;letter-spacing:.12em}.footer-title{color:#9a9789}.paging{display:flex;align-items:center;gap:13px}.paging button{background:transparent;border:0;color:#b5a07a;font-size:17px;line-height:1;padding:0 7px}.paging button:hover{color:#f0d3a1}.paging span{min-width:56px;text-align:center;font-size:11px;font-variant-numeric:tabular-nums}.entry{position:absolute;inset:0;background:url('../JingZhe/game/gui/main_menu.png') center/cover;z-index:5}.entry[hidden]{display:none}.entry-panel{height:100%;width:310px;padding:60px 48px;background:linear-gradient(90deg,#090b0bf5,#090b0be8);border-right:1px solid #c7ae743b}.entry h2{font-size:48px;font-weight:400;letter-spacing:.12em;color:var(--rose);margin:0 0 85px}.entry button{border:0;background:none;color:#f1ddba;font-size:26px;letter-spacing:.12em;padding:13px 0}.entry button:hover{color:white}.entry p{font-size:15px;line-height:1.9;color:#938e82;margin-top:24px}
+.layout{grid-template-rows:minmax(0,1fr)}.details,.roster{min-height:0}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}@media(max-width:700px){.preview{padding:18px 12px}.preview-tools{align-items:flex-start;flex-direction:column}.preview-title{font-size:13px}.preview-note{gap:4px;font-size:12px}.tool{font-size:12px;padding:7px 10px}}
+</style>
+</head>
+<body>
+<main class="preview">
+  <div class="preview-tools">
+    <div class="preview-title">《驚蟄》人物介紹 <span class="revision">介面草稿 rev.1</span></div>
+    <div class="preview-actions" aria-label="草稿預覽工具">
+      <button class="tool" id="show-portrait" type="button">立繪版：驚蟄</button>
+      <button class="tool" id="show-text" type="button">無立繪版：暮春</button>
+      <button class="tool" id="fullscreen" type="button">全螢幕預覽</button>
+    </div>
+  </div>
+  <div class="canvas-holder" id="canvas-holder">
+    <section class="stage" id="stage" aria-label="人物介紹遊戲畫面草稿">
+      <div class="scene-bg" aria-hidden="true"></div>
+      <header class="header">
+        <div class="heading"><span class="brand">驚蟄</span><div><h1>人物介紹</h1><div class="header-subtitle">月下庄・人物誌</div></div></div>
+        <button type="button" class="return" id="return"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M10 5 3 12l7 7M3 12h18"/></svg>返回</button>
+      </header>
+      <div class="layout" id="layout">
+        <nav class="roster" id="roster" aria-label="人物清單"></nav>
+        <div class="portrait" id="portrait-panel">
+          <img id="portrait" alt="">
+          <span class="portrait-inscription" aria-hidden="true">月下庄・人物誌</span>
+          <span class="portrait-number" id="portrait-number" aria-hidden="true"></span>
+        </div>
+        <article class="details" aria-labelledby="character-name">
+          <p class="eyebrow" id="category"></p>
+          <h2 class="name" id="character-name"></h2>
+          <p class="identity" id="identity"></p>
+          <div class="name-rule" aria-hidden="true"></div>
+          <div class="tabs" role="tablist" aria-label="人物資料分類">
+            <button class="tab" role="tab" id="tab-intro" type="button" aria-controls="reading" aria-selected="true">人物介紹</button>
+            <button class="tab" role="tab" id="tab-notes" type="button" aria-controls="reading" aria-selected="false">人物逸聞</button>
+          </div>
+          <div class="reading" id="reading" role="tabpanel" aria-labelledby="tab-intro" aria-live="polite"></div>
+        </article>
+      </div>
+      <footer class="footer"><span class="footer-title" id="footer-title">人物誌</span><span>← → 切換人物　・　Esc 返回</span><div class="paging"><button type="button" id="previous" aria-label="上一位人物">〈</button><span id="page-number"></span><button type="button" id="next" aria-label="下一位人物">〉</button></div></footer>
+      <section class="entry" id="entry" aria-label="返回後的主選單示意" hidden><div class="entry-panel"><h2>驚蟄</h2><button id="reopen" type="button">人物介紹</button><p>主選單入口示意</p></div></section>
+    </section>
+  </div>
+  <p class="preview-note"><span><strong>目前看版面與操作。</strong>文字為排版草稿，尚未核定為正式人物介紹。</span><span>逸聞內容依階段整理；通關鎖定於內容完成後加入。</span></p>
+</main>
+<script>
+// Source authority: Elo/02_角色與勢力/角色設定.txt and JingZhe/game/script.rpy.
+// Existing formal art is referenced directly; no new artwork or lore is created.
+// Draft only. No save data, game files, preferences, audio or unlock state is read/written.
+const art='../JingZhe/game/images/characters/thigh/';
+const people=[
+ {id:'jingzhe',name:'驚蟄',group:'主要角色',identity:'小說家・操蟲使',image:'jingzhe_daily_calm_3q_thigh_no_kiseru.png',facts:[['身分','小說家'],['能力','血脈傳承的操蟲術']],paragraphs:['寡言而內斂的小說家。習慣將想法留在心裡，以書寫整理自己，也很少主動向人求助。','操蟲使的血脈讓他自幼受到畏懼與排擠。看似疲憊、疏離，卻會在重要時刻作出選擇，扛下自己認定的責任。'],relation:'與花見、夢見相遇於月下庄；影之魔女與亞奇里奇，則將另一種可能帶進了他的故事。',notes:[['母親留下的浴衣','那件長年穿在身上的浴衣，出自母親之手。對他而言，它也是一件捨不得放下的舊物。'],['父親買來的菸斗','隨身使用的細長菸斗，是父親買給他的。與母親留下的浴衣一樣，都是他一直保存、使用至今的物件。']]},
+ {id:'hanami',name:'花見',group:'主要角色',identity:'月下庄的女將',image:'hanami_bright_3q_full_unarmed.png',facts:[['生活舞台','月下庄'],['擅長','照料旅客・使用薙刀']],paragraphs:['爽朗、主動，擅長照顧人，也有直接表達情感的勇氣。她的親切與行動力，讓原本保持距離的驚蟄逐漸走進與人相處的日常。','她的勇氣並非不知道害怕，而是明白自己可能會輸，仍願意在真正有事時往前站。暮春的保護與教導，曾深深影響她。'],relation:'與夢見一同生活在月下庄；保管著暮春留下的薙刀。',notes:[['不常使用的薙刀','她平常仔細照料暮春留下的薙刀，避免生鏽。那句只會「一點」的回答，並不等於她對握起武器毫無把握。']]},
+ {id:'yumemi',name:'夢見',group:'主要角色',identity:'月下庄的溫柔身影',image:'yumemi_gentle_3q_full_unarmed.png',facts:[['生活舞台','月下庄'],['個性','溫柔・內斂・細膩']],paragraphs:['溫柔而靦腆，不習慣強烈表達自己，卻會留意細微的變化，以陪伴慢慢拉近與人的距離。','她的柔弱並不代表沒有想法。相較於花見的直接，她與驚蟄之間的情感，更多累積在細節與日常相處之中。'],relation:'與花見關係親近；也是驚蟄在月下庄逐漸建立連結的重要人物。',notes:[]},
+ {id:'jorogumo',name:'絡新婦',group:'次要角色',identity:'月下庄事件中的怪異',image:'jorogumo_watchful_front_full_no_prop.png'},
+ {id:'tsuchigumo',name:'土蜘蛛',group:'次要角色',identity:'與絡新婦同行的怪異',image:'tsuchigumo_looming_full_no_prop.png'},
+ {id:'kamikiri',name:'髮切',group:'次要角色',identity:'驚蟄應召作戰的蟲妖',image:'kamikiri_ready_3q_full_right_sword_left_forearm_blade.png'},
+ {id:'omukade',name:'大百足',group:'次要角色',identity:'驚蟄應召作戰的蟲妖',image:'omukade_ready_coiled_raised_full_no_prop.png'},
+ {id:'achirichi',name:'亞奇里奇',group:'次要角色',identity:'帶來黑卡的訪客',image:'achirichi_first_meeting_calm_3q_full_no_prop.png'},
+ {id:'shadow-witch',name:'影之魔女',group:'次要角色',identity:'驚蟄的讀者',image:'shadow_witch_cold_3q_full_holding_staff.png'},
+ {id:'muchun',name:'暮春',group:'被提及的人物',identity:'花見口中的暮春大姊',image:null,facts:[['與花見的關係','曾保護並教導她'],['留下的物件','花見保管的薙刀']],paragraphs:['暮春曾保護並教導花見，讓她逐漸明白，自己不能永遠躲在姊姊身後。','她留下的薙刀由花見保管。平常雖不常使用，花見仍仔細照料，直到必須取出它的時刻。'],relation:'這一頁示範無立繪人物的寬版文字配置。人物完整背景與逸聞將於第四階段整理。',notes:[]},
+ {id:'mother',name:'驚蟄的母親',group:'被提及的人物',identity:'親手製作浴衣的人',image:null},
+ {id:'father',name:'驚蟄的父親',group:'被提及的人物',identity:'期待著新稿的人',image:null}
+];
+const byId=id=>document.getElementById(id);
+let index=0,tab='intro';
+const roster=byId('roster');
+let lastGroup='';
+people.forEach((person,i)=>{
+ if(person.group!==lastGroup){const h=document.createElement('h2');h.className='group-title';h.textContent=person.group;roster.append(h);lastGroup=person.group;}
+ const b=document.createElement('button');b.type='button';b.className='person'+(person.name.length>5?' long-name':'');b.textContent=person.name;b.dataset.index=i;b.addEventListener('click',()=>selectPerson(i));roster.append(b);
+});
+function el(tag,cls,text){const node=document.createElement(tag);if(cls)node.className=cls;if(text!==undefined)node.textContent=text;return node;}
+function renderReading(){
+ const person=people[index],reading=byId('reading');reading.replaceChildren();
+ byId('tab-intro').setAttribute('aria-selected',String(tab==='intro'));byId('tab-notes').setAttribute('aria-selected',String(tab==='notes'));reading.setAttribute('aria-labelledby',tab==='intro'?'tab-intro':'tab-notes');
+ if(tab==='intro'){
+  if(person.facts){const facts=el('div','facts');person.facts.forEach(([label,value])=>{const item=el('div');item.append(el('span','fact-label',label),document.createTextNode(value));facts.append(item);});reading.append(facts);}
+  if(person.paragraphs){person.paragraphs.forEach(p=>reading.append(el('p','',p)));if(person.relation)reading.append(el('div','relation',person.relation));}
+  else{const box=el('div','pending');box.append(el('h3','','介紹文案待整理'),el('p','','此人物已列入完整收錄名單，將依處理順序整理基本介紹、人物關係與逸聞。'));reading.append(box);}
+ }else if(person.notes&&person.notes.length){
+  reading.append(el('span','draft-label','逸聞排版示意・內容待確認'));
+  person.notes.forEach(([title,body])=>{const section=el('section','anecdote');section.append(el('h3','section-title',title),el('p','',body));reading.append(section);});
+ }else{const box=el('div','pending');box.append(el('h3','','人物逸聞待補'),el('p','','此區預留人物往事、習慣與正文之外的補充。內容將依既定設定整理，新增逸聞經確認後收錄。'));reading.append(box);}
+ reading.scrollTop=0;
+}
+function selectPerson(i){
+ index=(i+people.length)%people.length;tab='intro';const p=people[index];byId('entry').hidden=true;
+ document.querySelectorAll('.person').forEach((b,n)=>b.setAttribute('aria-current',String(n===index)));
+ byId('layout').classList.toggle('text-only',!p.image);byId('category').textContent=p.group;byId('character-name').textContent=p.name;byId('character-name').classList.toggle('long',p.name.length>5);byId('identity').textContent=p.identity;
+ const image=byId('portrait');if(p.image){image.src=art+p.image;image.alt=p.name+'的既有正式立繪';}else{image.removeAttribute('src');image.alt='';}
+ byId('portrait-number').textContent='人物誌 / '+String(index+1).padStart(2,'0');byId('page-number').textContent=String(index+1).padStart(2,'0')+' / '+people.length;byId('footer-title').textContent=p.group+'　・　'+p.name;renderReading();
+}
+byId('tab-intro').addEventListener('click',()=>{tab='intro';renderReading();});byId('tab-notes').addEventListener('click',()=>{tab='notes';renderReading();});
+document.querySelector('.tabs').addEventListener('keydown',event=>{if(event.key==='ArrowLeft'||event.key==='ArrowRight'){event.preventDefault();event.stopPropagation();tab=tab==='intro'?'notes':'intro';renderReading();byId(tab==='intro'?'tab-intro':'tab-notes').focus();}});
+byId('previous').addEventListener('click',()=>selectPerson(index-1));byId('next').addEventListener('click',()=>selectPerson(index+1));byId('show-portrait').addEventListener('click',()=>selectPerson(0));byId('show-text').addEventListener('click',()=>selectPerson(9));
+byId('return').addEventListener('click',()=>{byId('entry').hidden=false;byId('reopen').focus();});byId('reopen').addEventListener('click',()=>{byId('entry').hidden=true;document.querySelector('[aria-current=true]').focus();});
+document.addEventListener('keydown',event=>{if(event.altKey||event.ctrlKey||event.metaKey)return;if(event.key==='Escape'){byId('entry').hidden=!byId('entry').hidden;}else if(byId('entry').hidden&&(event.key==='ArrowLeft'||event.key==='ArrowRight')){event.preventDefault();selectPerson(index+(event.key==='ArrowRight'?1:-1));}});
+const holder=byId('canvas-holder'),stage=byId('stage');
+function resize(){const full=!!document.fullscreenElement;const scale=full?Math.min(innerWidth/1280,innerHeight/720):Math.min(holder.clientWidth/1280,1);stage.style.setProperty('--scale',scale);if(!full){holder.style.height=(720*scale)+'px';stage.style.left=((holder.clientWidth-1280*scale)/2)+'px';}else stage.style.left='0';}
+new ResizeObserver(resize).observe(holder);window.addEventListener('resize',resize);document.addEventListener('fullscreenchange',resize);
+byId('fullscreen').addEventListener('click',async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else await holder.requestFullscreen();}catch{byId('fullscreen').textContent='請使用瀏覽器全螢幕';}});
+selectPerson(0);resize();
+</script>
+</body>
+</html>
