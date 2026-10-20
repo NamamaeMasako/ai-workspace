@@ -15,8 +15,14 @@ const bonusPortraitGallery = {
   }],
   hanami: [{
     name: 'bonus hanami modern_school_uniform_candidate_01',
-    label: '番外彩蛋・現代學生制服（候選）',
+    label: '番外彩蛋・現代學生制服',
     src: 'assets/bonus/hanami_modern_school_uniform_candidate_01.png',
+    status: 'adopted_art_and_composition'
+  }],
+  yumemi: [{
+    name: 'bonus yumemi sailor_uniform_candidate_01',
+    label: '番外彩蛋・水手服（候選）',
+    src: 'assets/bonus/yumemi_sailor_uniform_candidate_01.png',
     status: 'candidate_awaiting_user_review'
   }]
 };

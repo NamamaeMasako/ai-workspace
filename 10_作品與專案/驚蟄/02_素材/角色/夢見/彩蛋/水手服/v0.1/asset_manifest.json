@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-20",
+  "status": "candidate_awaiting_user_review",
+  "non_canon": true,
+  "method": "built-in image_gen; original RGBA preserved, no pixel postprocessing",
+  "reference_files": [
+    {
+      "file": "@/workspace/10_作品與專案/驚蟄/02_素材/夢見/v1.0/夢見_溫柔_四分之三側身全身構圖_無武器.png",
+      "sha256": "8fad7f3ef0cbdb7d82b228e54bd3fea8676899fb60758c7595695b0a151e72d3"
+    },
+    {
+      "file": "@/workspace/10_作品與專案/驚蟄/02_素材/夢見/v1.0/夢見_羞怯_四分之三側身全身構圖_無武器.png",
+      "sha256": "fd7f17f54684bae0da7ce8cda214736939fcda6bf0e818e61b89c43a7bf51453"
+    }
+  ],
+  "generation_source_on_this_local_device": "C:\\Users\\User\\.codex\\generated_images\\01a11019-bbc2-7ce3-95d9-6d92fdaf3310\\exec-f092502d-69f2-4a49-b212-026c5cc09da2.png",
+  "files": [
+    {
+      "file": "夢見_彩蛋水手服溫柔_四分之三側身全身構圖_無道具.png",
+      "bytes": 1420965,
+      "sha256": "ec4bce00d8b46a2ab805c5e463b3d8572f682910c473c36b146304aeecff5201",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ]
+    }
+  ],
+  "html_mirror": "@/workspace/10_作品與專案/驚蟄/03_開發/人物介紹介面草稿_rev.1/assets/bonus/yumemi_sailor_uniform_candidate_01.png",
+  "review": "User has not approved this image. Classic sailor uniform costume for the existing adult character."
+}

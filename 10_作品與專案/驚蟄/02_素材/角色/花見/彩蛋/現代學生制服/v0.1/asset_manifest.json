@@ -1,6 +1,6 @@
 {
   "date": "2026-10-20",
-  "status": "candidate_awaiting_user_review",
+  "status": "art_approved_as_v1_0",
   "non_canon": true,
   "method": "built-in image_gen; original RGBA preserved, no pixel postprocessing",
   "reference_files": [
@@ -31,5 +31,7 @@
     }
   ],
   "html_mirror": "@/workspace/10_作品與專案/驚蟄/03_開發/人物介紹介面草稿_rev.1/assets/bonus/hanami_modern_school_uniform_candidate_01.png",
-  "review": "User has not approved this image. Modern school uniform; necktie; track jacket tied at waist."
+  "review": "User has not approved this image. Modern school uniform; necktie; track jacket tied at waist.",
+  "adopted_directory": "@/workspace/10_作品與專案/驚蟄/02_素材/角色/花見/彩蛋/現代學生制服/v1.0",
+  "approval_message": "可以，接著進行夢見的更新"
 }
