@@ -1,0 +1,24 @@
+{
+  "scope": "formal story show statements, resolved through placeholders.rpy",
+  "source_sha256": {
+    "script.rpy": "fac423f6b39be426fdab9968a25a7f37451f957da5447897aa85c0fdbd365f7e",
+    "placeholders.rpy": "422f7e845c3185316493470ad068676de4f40a70f6cbf8641b3676e20d9c5079"
+  },
+  "counts": {
+    "jingzhe": 15,
+    "hanami": 16,
+    "yumemi": 12,
+    "jorogumo": 4,
+    "tsuchigumo": 2,
+    "kamikiri": 3,
+    "omukade": 3,
+    "achirichi": 2,
+    "shadow-witch": 3
+  },
+  "total": 60,
+  "excluded_defined_only": [
+    "jingzhe shocked",
+    "kamikiri ready",
+    "omukade charge"
+  ]
+}

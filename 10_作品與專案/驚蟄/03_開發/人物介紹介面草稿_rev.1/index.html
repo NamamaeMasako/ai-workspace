@@ -16,6 +16,7 @@
 .layout.text-only{grid-template-columns:190px minmax(0,1fr);gap:64px}.text-only .portrait{display:none}.text-only .details{padding:10px 28px 0 0;max-width:860px}.text-only .name{font-size:57px}.text-only .tabs{margin-top:25px}.text-only .reading{max-width:810px;padding-right:24px}.text-only .reading p{max-width:740px}.text-only .facts{grid-template-columns:1fr 1fr;max-width:680px}.text-only .name-rule{width:72px}
 .footer{position:absolute;left:42px;right:42px;bottom:19px;height:28px;border-top:1px solid var(--line);padding-top:12px;display:flex;align-items:center;justify-content:space-between;color:#83877c;font-size:12px;letter-spacing:.12em}.footer-title{color:#9a9789}.paging{display:flex;align-items:center;gap:13px}.paging button{background:transparent;border:0;color:#b5a07a;font-size:17px;line-height:1;padding:0 7px}.paging button:hover{color:#f0d3a1}.paging span{min-width:56px;text-align:center;font-size:11px;font-variant-numeric:tabular-nums}.entry{position:absolute;inset:0;background:url('../JingZhe/game/gui/main_menu.png') center/cover;z-index:5}.entry[hidden]{display:none}.entry-panel{height:100%;width:310px;padding:60px 48px;background:linear-gradient(90deg,#090b0bf5,#090b0be8);border-right:1px solid #c7ae743b}.entry h2{font-size:48px;font-weight:400;letter-spacing:.12em;color:var(--rose);margin:0 0 85px}.entry button{border:0;background:none;color:#f1ddba;font-size:26px;letter-spacing:.12em;padding:13px 0}.entry button:hover{color:white}.entry p{font-size:15px;line-height:1.9;color:#938e82;margin-top:24px}
 .layout{grid-template-rows:minmax(0,1fr)}.details,.roster{min-height:0}
+.portrait img{height:calc(100% - 100px);object-position:center center}.portrait:after{bottom:100px;height:40px}.portrait-number{top:10px;bottom:auto;left:10px}.portrait-tools{position:absolute;left:12px;right:12px;bottom:0;height:94px;z-index:2;border-top:1px solid var(--line);padding-top:10px}.portrait-select{display:block;width:100%;height:34px;background:#131a18;color:#e0cfac;border:1px solid #ad925640;border-radius:2px;padding:3px 9px;font:inherit;font-size:15px;text-align:center}.portrait-actions{display:flex;justify-content:space-between;align-items:center;margin-top:9px;gap:8px}.art-arrow{background:transparent;border:1px solid #b4a17540;color:#d9c296;min-width:34px;height:30px;font-size:19px}.art-arrow:hover,.enlarge:hover{color:#fff0ce;border-color:#d2b67c}.art-arrow:disabled{opacity:.35}.art-counter{color:#b6aa94;font-size:13px;font-variant-numeric:tabular-nums}.enlarge{background:transparent;border:0;border-bottom:1px solid #9f8c6357;color:#d0bb93;font-size:13px;padding:3px 0;letter-spacing:.07em}.portrait-modal{position:absolute;inset:0;z-index:10;background:#090e0df7;display:grid;grid-template-rows:64px minmax(0,1fr) 66px;padding:0 42px}.portrait-modal[hidden]{display:none}.art-view-header{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);color:#d5c3a0;font-size:20px;letter-spacing:.12em}.art-close{background:transparent;border:0;color:#c4bba9;font-size:18px;padding:9px}.art-view-image{width:100%;height:100%;object-fit:contain;min-height:0;padding:12px 0}.art-view-footer{border-top:1px solid var(--line);display:flex;align-items:center;justify-content:center;gap:28px}.art-view-label{color:#e2d3b6;font-size:19px;min-width:310px;text-align:center}.art-view-counter{font-size:14px;color:#998f7c;margin-left:17px;font-variant-numeric:tabular-nums}.portrait-select:focus-visible{outline:2px solid #eed6a5;outline-offset:3px}
 @media(prefers-reduced-motion:reduce){*{transition:none!important}}@media(max-width:700px){.preview{padding:18px 12px}.preview-tools{align-items:flex-start;flex-direction:column}.preview-title{font-size:13px}.preview-note{gap:4px;font-size:12px}.tool{font-size:12px;padding:7px 10px}}
 </style>
 </head>
@@ -42,6 +43,10 @@
           <img id="portrait" alt="">
           <span class="portrait-inscription" aria-hidden="true">月下庄・人物誌</span>
           <span class="portrait-number" id="portrait-number" aria-hidden="true"></span>
+          <div class="portrait-tools" aria-label="角色立繪瀏覽">
+            <select class="portrait-select" id="portrait-select" aria-label="選擇立繪狀態"></select>
+            <div class="portrait-actions"><button class="art-arrow" id="art-previous" type="button" aria-label="上一張立繪">‹</button><span class="art-counter" id="art-counter" aria-live="polite"></span><button class="art-arrow" id="art-next" type="button" aria-label="下一張立繪">›</button><button class="enlarge" id="art-enlarge" type="button">放大立繪 ↗</button></div>
+          </div>
         </div>
         <article class="details" aria-labelledby="character-name">
           <p class="eyebrow" id="category"></p>
@@ -57,15 +62,20 @@
       </div>
       <footer class="footer"><span class="footer-title" id="footer-title">人物誌</span><span>← → 切換人物　・　Esc 返回</span><div class="paging"><button type="button" id="previous" aria-label="上一位人物">〈</button><span id="page-number"></span><button type="button" id="next" aria-label="下一位人物">〉</button></div></footer>
       <section class="entry" id="entry" aria-label="返回後的主選單示意" hidden><div class="entry-panel"><h2>驚蟄</h2><button id="reopen" type="button">人物介紹</button><p>主選單入口示意</p></div></section>
+      <section class="portrait-modal" id="art-modal" role="dialog" aria-modal="true" aria-labelledby="art-view-title" hidden>
+        <header class="art-view-header"><span id="art-view-title"></span><button class="art-close" id="art-close" type="button">關閉 ✕</button></header>
+        <img class="art-view-image" id="art-view-image" alt="">
+        <footer class="art-view-footer"><button class="art-arrow" id="art-view-previous" type="button" aria-label="放大檢視的上一張立繪">‹</button><span class="art-view-label"><span id="art-view-label"></span><span class="art-view-counter" id="art-view-counter"></span></span><button class="art-arrow" id="art-view-next" type="button" aria-label="放大檢視的下一張立繪">›</button></footer>
+      </section>
     </section>
   </div>
   <p class="preview-note"><span><strong>目前看版面與操作。</strong>文字為排版草稿，尚未核定為正式人物介紹。</span><span>逸聞內容依階段整理；通關鎖定於內容完成後加入。</span></p>
 </main>
+<script src="portraits.js"></script>
 <script>
 // Source authority: Elo/02_角色與勢力/角色設定.txt and JingZhe/game/script.rpy.
 // Existing formal art is referenced directly; no new artwork or lore is created.
 // Draft only. No save data, game files, preferences, audio or unlock state is read/written.
-const art='../JingZhe/game/images/characters/thigh/';
 const people=[
  {id:'jingzhe',name:'驚蟄',group:'主要角色',identity:'小說家・操蟲使',image:'jingzhe_daily_calm_3q_thigh_no_kiseru.png',facts:[['身分','小說家'],['能力','血脈傳承的操蟲術']],paragraphs:['寡言而內斂的小說家。習慣將想法留在心裡，以書寫整理自己，也很少主動向人求助。','操蟲使的血脈讓他自幼受到畏懼與排擠。看似疲憊、疏離，卻會在重要時刻作出選擇，扛下自己認定的責任。'],relation:'與花見、夢見相遇於月下庄；影之魔女與亞奇里奇，則將另一種可能帶進了他的故事。',notes:[['母親留下的浴衣','那件長年穿在身上的浴衣，出自母親之手。對他而言，它也是一件捨不得放下的舊物。'],['父親買來的菸斗','隨身使用的細長菸斗，是父親買給他的。與母親留下的浴衣一樣，都是他一直保存、使用至今的物件。']]},
  {id:'hanami',name:'花見',group:'主要角色',identity:'月下庄的女將',image:'hanami_bright_3q_full_unarmed.png',facts:[['生活舞台','月下庄'],['擅長','照料旅客・使用薙刀']],paragraphs:['爽朗、主動，擅長照顧人，也有直接表達情感的勇氣。她的親切與行動力，讓原本保持距離的驚蟄逐漸走進與人相處的日常。','她的勇氣並非不知道害怕，而是明白自己可能會輸，仍願意在真正有事時往前站。暮春的保護與教導，曾深深影響她。'],relation:'與夢見一同生活在月下庄；保管著暮春留下的薙刀。',notes:[['不常使用的薙刀','她平常仔細照料暮春留下的薙刀，避免生鏽。那句只會「一點」的回答，並不等於她對握起武器毫無把握。']]},
@@ -81,7 +91,8 @@ const people=[
  {id:'father',name:'驚蟄的父親',group:'被提及的人物',identity:'期待著新稿的人',image:null}
 ];
 const byId=id=>document.getElementById(id);
-let index=0,tab='intro';
+let index=0,tab='intro',artIndex=0;
+let artReturnFocus=null;
 const roster=byId('roster');
 let lastGroup='';
 people.forEach((person,i)=>{
@@ -89,6 +100,18 @@ people.forEach((person,i)=>{
  const b=document.createElement('button');b.type='button';b.className='person'+(person.name.length>5?' long-name':'');b.textContent=person.name;b.dataset.index=i;b.addEventListener('click',()=>selectPerson(i));roster.append(b);
 });
 function el(tag,cls,text){const node=document.createElement(tag);if(cls)node.className=cls;if(text!==undefined)node.textContent=text;return node;}
+function currentGallery(){return portraitGallery[people[index].id]||[];}
+function renderPortrait(){
+ const gallery=currentGallery();if(!gallery.length)return;
+ artIndex=(artIndex+gallery.length)%gallery.length;const item=gallery[artIndex];
+ byId('portrait').src=item.src;byId('portrait').alt=people[index].name+'・'+item.label;
+ byId('portrait-select').value=String(artIndex);byId('art-counter').textContent=(artIndex+1)+' / '+gallery.length+' 張';
+ byId('art-view-image').src=item.src;byId('art-view-image').alt=byId('portrait').alt;
+ byId('art-view-title').textContent=people[index].name+'・立繪';byId('art-view-label').textContent=item.label;byId('art-view-counter').textContent=(artIndex+1)+' / '+gallery.length;
+ ['art-previous','art-next','art-view-previous','art-view-next'].forEach(id=>byId(id).disabled=gallery.length<2);
+}
+function switchPortrait(step){artIndex+=step;renderPortrait();}
+function closePortrait(){byId('art-modal').hidden=true;if(artReturnFocus)artReturnFocus.focus();}
 function renderReading(){
  const person=people[index],reading=byId('reading');reading.replaceChildren();
  byId('tab-intro').setAttribute('aria-selected',String(tab==='intro'));byId('tab-notes').setAttribute('aria-selected',String(tab==='notes'));reading.setAttribute('aria-labelledby',tab==='intro'?'tab-intro':'tab-notes');
@@ -103,17 +126,22 @@ function renderReading(){
  reading.scrollTop=0;
 }
 function selectPerson(i){
- index=(i+people.length)%people.length;tab='intro';const p=people[index];byId('entry').hidden=true;
+ index=(i+people.length)%people.length;tab='intro';artIndex=0;const p=people[index];byId('entry').hidden=true;byId('art-modal').hidden=true;
  document.querySelectorAll('.person').forEach((b,n)=>b.setAttribute('aria-current',String(n===index)));
  byId('layout').classList.toggle('text-only',!p.image);byId('category').textContent=p.group;byId('character-name').textContent=p.name;byId('character-name').classList.toggle('long',p.name.length>5);byId('identity').textContent=p.identity;
- const image=byId('portrait');if(p.image){image.src=art+p.image;image.alt=p.name+'的既有正式立繪';}else{image.removeAttribute('src');image.alt='';}
+ const gallery=currentGallery(),select=byId('portrait-select');select.replaceChildren();gallery.forEach((item,n)=>{const option=el('option','',item.label);option.value=String(n);select.append(option);});
+ const image=byId('portrait');if(gallery.length){renderPortrait();}else{image.removeAttribute('src');image.alt='';byId('art-view-image').removeAttribute('src');}
  byId('portrait-number').textContent='人物誌 / '+String(index+1).padStart(2,'0');byId('page-number').textContent=String(index+1).padStart(2,'0')+' / '+people.length;byId('footer-title').textContent=p.group+'　・　'+p.name;renderReading();
 }
 byId('tab-intro').addEventListener('click',()=>{tab='intro';renderReading();});byId('tab-notes').addEventListener('click',()=>{tab='notes';renderReading();});
 document.querySelector('.tabs').addEventListener('keydown',event=>{if(event.key==='ArrowLeft'||event.key==='ArrowRight'){event.preventDefault();event.stopPropagation();tab=tab==='intro'?'notes':'intro';renderReading();byId(tab==='intro'?'tab-intro':'tab-notes').focus();}});
 byId('previous').addEventListener('click',()=>selectPerson(index-1));byId('next').addEventListener('click',()=>selectPerson(index+1));byId('show-portrait').addEventListener('click',()=>selectPerson(0));byId('show-text').addEventListener('click',()=>selectPerson(9));
+byId('portrait-select').addEventListener('change',event=>{artIndex=Number(event.target.value);renderPortrait();});
+['art-previous','art-view-previous'].forEach(id=>byId(id).addEventListener('click',()=>switchPortrait(-1)));['art-next','art-view-next'].forEach(id=>byId(id).addEventListener('click',()=>switchPortrait(1)));
+byId('art-enlarge').addEventListener('click',()=>{artReturnFocus=document.activeElement;byId('art-modal').hidden=false;byId('art-close').focus();});byId('art-close').addEventListener('click',closePortrait);
+byId('art-modal').addEventListener('keydown',event=>{if(event.key==='Tab'){const focusable=[byId('art-close'),byId('art-view-previous'),byId('art-view-next')].filter(b=>!b.disabled);const pos=focusable.indexOf(document.activeElement);if(event.shiftKey&&pos===0){event.preventDefault();focusable.at(-1).focus();}else if(!event.shiftKey&&pos===focusable.length-1){event.preventDefault();focusable[0].focus();}}});
 byId('return').addEventListener('click',()=>{byId('entry').hidden=false;byId('reopen').focus();});byId('reopen').addEventListener('click',()=>{byId('entry').hidden=true;document.querySelector('[aria-current=true]').focus();});
-document.addEventListener('keydown',event=>{if(event.altKey||event.ctrlKey||event.metaKey)return;if(event.key==='Escape'){byId('entry').hidden=!byId('entry').hidden;}else if(byId('entry').hidden&&(event.key==='ArrowLeft'||event.key==='ArrowRight')){event.preventDefault();selectPerson(index+(event.key==='ArrowRight'?1:-1));}});
+document.addEventListener('keydown',event=>{if(event.altKey||event.ctrlKey||event.metaKey)return;if(!byId('art-modal').hidden){if(event.key==='Escape'){event.preventDefault();closePortrait();}else if(event.key==='ArrowLeft'||event.key==='ArrowRight'){event.preventDefault();switchPortrait(event.key==='ArrowRight'?1:-1);}return;}if(event.target.closest('.portrait-tools')){if(event.key==='Escape')byId('entry').hidden=false;return;}if(event.key==='Escape'){byId('entry').hidden=!byId('entry').hidden;}else if(byId('entry').hidden&&(event.key==='ArrowLeft'||event.key==='ArrowRight')){event.preventDefault();selectPerson(index+(event.key==='ArrowRight'?1:-1));}});
 const holder=byId('canvas-holder'),stage=byId('stage');
 function resize(){const full=!!document.fullscreenElement;const scale=full?Math.min(innerWidth/1280,innerHeight/720):Math.min(holder.clientWidth/1280,1);stage.style.setProperty('--scale',scale);if(!full){holder.style.height=(720*scale)+'px';stage.style.left=((holder.clientWidth-1280*scale)/2)+'px';}else stage.style.left='0';}
 new ResizeObserver(resize).observe(holder);window.addEventListener('resize',resize);document.addEventListener('fullscreenchange',resize);
