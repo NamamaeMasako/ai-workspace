@@ -1,0 +1,18 @@
+{
+  "tool": "built-in image_gen",
+  "status": "awaiting_user_art_review",
+  "prompts": [
+    {
+      "step": "initial_no_hat",
+      "prompt": "Use case: identity-preserve. Asset type: full-body transparent PNG character sprite for a non-canon bonus portrait in the Chinese visual novel 驚蟄. Input image 1: exact character identity, proportions and rendering reference (the full-body adult man). Input image 2: exact face, tired expression, glasses and messy hair reference; preserve these. Primary request: depict THIS SAME ADULT MAN, about 30 years old, wearing a Japanese black stand-collar gakuran student uniform, WITHOUT A HAT. This is an alternate-costume bonus, not an age regression. Replace the yukata/obi/sandals with a plain black fitted stand-collar gakuran jacket with small subdued brass buttons, matching black long trousers and plain black school loafers. Keep his narrow tired eyes, visible under-eye circles, slim fragile adult build, thin black glasses, dark messy long bangs and loosely tied low black hair with fine loose strands. Keep the reference's restrained expression and subdued visual novel anime painting style, delicate linework and soft textured shading. Full body, head and both complete shoes visible with a little transparent margin, relaxed standing three-quarter pose, arms comfortably at sides, natural hands; one character only, centered. Scene/backdrop: genuinely transparent alpha background, no floor, no cast shadow or setting. Match face and original adult age closely, no glamorous or handsome-idol restyling. No school bag, no smoking pipe, no weapon, no headwear, no text, no logos, no kimono details, no uniform coat tails. A single portrait, not a character sheet or a comparison layout."
+    },
+    {
+      "step": "transparent_edge_followup",
+      "prompt": "Use case: background-extraction. Input image 1 is the EDIT TARGET: the full-body adult anime man in the black gakuran uniform. Preserve the character drawing, face, eyeglasses, hair, body, hands, outfit, shoes, pose, exact framing and canvas dimensions unchanged. Remove ONLY all diffuse gray/brown haze, glow, fog, shadows and stray background pixels outside the man's silhouette, especially around his shoulder, left hand and shoes. The backdrop must be clean zero-alpha transparency right up to the silhouette with normal antialiased edges. No background fill, no halo, no vignette, no aura, no ground shadow. Retain all strands of hair and original character colors. One isolated full-body sprite. Do not restyle or reillustrate the character. No hat."
+    },
+    {
+      "step": "add_cap_variant",
+      "prompt": "Use case: precise-object-edit, identity-preserve. Input image 1 is the EDIT TARGET: the finished full-body Jingzhe black gakuran sprite with transparent background. Make ONE tightly controlled change: add a plain black classic Japanese student peaked cap / gakuseibo naturally worn on his head, with a modest short black brim. Adjust only the tiny part of hair hidden by the cap. Keep his complete face, expression, glasses, long bangs below the cap, low loose tied-back hair, adult age, body proportions, standing pose, both hands, uniform, every button and clothing fold, trouser legs, shoes, color rendering, subject placement, canvas framing and transparent background unchanged. The cap should sit above the glasses and leave his eyes visible. Same man and same image, now WITH HAT. No extra insignia, no text, no logos, no scenery, no new props, no glow, no shadow backdrop. Keep the entire cap and both feet inside the existing canvas. Output one isolated transparent PNG sprite; do not make a comparison sheet."
+    }
+  ]
+}

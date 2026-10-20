@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-20",
+  "status": "awaiting_user_art_review",
+  "non_canon": true,
+  "method": "built-in image_gen; no pixel postprocessing",
+  "reference_files": {
+    "02_素材/驚蟄/v1.0/驚蟄_柔和致謝_四分之三側身全身構圖_無菸斗.png": "af3919ed71101e81f4b1a8ff3b47f756b4beadb7025fb6f89e7bdd09e0b44143",
+    "02_素材/驚蟄/v1.0/驚蟄_日常平靜_四分之三側身大腿構圖_無菸斗.png": "04d434f99fe02278a5a96c8d558df30c5c84fae5aab99725f3b980dd93eb0f28"
+  },
+  "files": [
+    {
+      "file": "驚蟄_彩蛋學生制服平靜_四分之三側身全身構圖_無帽無菸斗.png",
+      "kind": "no_hat",
+      "bytes": 1119243,
+      "sha256": "7b1ae6282fe8e32f78fc5952d90b2070c7619add4b74c82e69455aaef90e8f8a",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ]
+    },
+    {
+      "file": "驚蟄_彩蛋學生制服平靜_四分之三側身全身構圖_戴帽無菸斗.png",
+      "kind": "with_hat",
+      "bytes": 1134868,
+      "sha256": "2f53388aabd77171c19b912a47613c30c024e1f416bcceb88e5f44b7ec6886e2",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ]
+    },
+    {
+      "file": "生成歷程/驚蟄_學生制服起始生成_四分之三側身全身構圖_無帽無菸斗.png",
+      "kind": "initial_process",
+      "bytes": 1142481,
+      "sha256": "be1dbf35ab4505881cc528a7bcf05f8dd25a7e734dd064413308688165106720",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ]
+    }
+  ],
+  "game_integrated": false,
+  "html_integrated": false
+}
