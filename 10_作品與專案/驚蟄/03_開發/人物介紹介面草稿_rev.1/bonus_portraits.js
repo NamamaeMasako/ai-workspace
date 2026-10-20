@@ -26,8 +26,8 @@ const bonusPortraitGallery = {
     status: 'adopted_art_and_composition',
     variants: [{
       label: '深紫粗框眼鏡',
-      src: 'assets/bonus/yumemi_sailor_uniform_glasses_head_candidate_01.png',
-      status: 'candidate_awaiting_user_review'
+      src: 'assets/bonus/yumemi_sailor_uniform_glasses_head.png',
+      status: 'adopted_art_and_composition'
     }]
   }]
 };

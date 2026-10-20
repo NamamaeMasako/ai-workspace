@@ -8,5 +8,15 @@
   "source": "@/workspace/10_作品與專案/驚蟄/02_素材/角色/夢見/彩蛋/水手服/v0.3/夢見_彩蛋水手服溫柔轉向一致_四分之三側身全身構圖_無道具.png",
   "pixel_changes": false,
   "html_mirror": "@/workspace/10_作品與專案/驚蟄/03_開發/人物介紹介面草稿_rev.1/assets/bonus/yumemi_sailor_uniform.png",
-  "glasses_head_variant": "separate candidate in ../v0.4; not yet approved"
+  "glasses_head_variant": {
+    "date": "2026-10-21",
+    "status": "adopted_art_and_composition",
+    "approval_message": "可以，更新進草稿",
+    "file": "差分/夢見_彩蛋水手服溫柔_四分之三側身頭部構圖_深紫粗框眼鏡.png",
+    "sha256": "fa07fcfe46c377a84b93a3cf1e2a7c7fed91f3a5935eca90772cf8d2869ebbe4",
+    "source": "@/workspace/10_作品與專案/驚蟄/02_素材/角色/夢見/彩蛋/水手服/v0.4/夢見_彩蛋水手服溫柔_四分之三側身頭部構圖_深紫粗框眼鏡.png",
+    "html_mirror": "@/workspace/10_作品與專案/驚蟄/03_開發/人物介紹介面草稿_rev.1/assets/bonus/yumemi_sailor_uniform_glasses_head.png",
+    "pixel_changes": false,
+    "presentation": "upper-left head inset; same approximate head size; no visible caption; no extra gallery entry"
+  }
 }
