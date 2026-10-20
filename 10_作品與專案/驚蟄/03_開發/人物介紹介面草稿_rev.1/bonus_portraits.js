@@ -1,4 +1,4 @@
-// Accepted bonus art is separate from the automatically generated story gallery.
+// Bonus art and review candidates are separate from the automatically generated story gallery.
 // A variant may be a head-only PNG, or a viewport crop of an existing source.
 // A head variant belongs to its base portrait and does not add a gallery entry.
 const bonusPortraitGallery = {
@@ -12,5 +12,11 @@ const bonusPortraitGallery = {
       sourceSize: [1024, 1536],
       crop: [360, 12, 290, 282]
     }]
+  }],
+  hanami: [{
+    name: 'bonus hanami modern_school_uniform_candidate_01',
+    label: '番外彩蛋・現代學生制服（候選）',
+    src: 'assets/bonus/hanami_modern_school_uniform_candidate_01.png',
+    status: 'candidate_awaiting_user_review'
   }]
 };

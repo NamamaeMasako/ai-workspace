@@ -1,0 +1,15 @@
+{
+  "mode": "built-in image_gen",
+  "intent": "identity-preserve outfit variant",
+  "prompt": "Use case: identity-preserve character outfit variant.\nAsset type: transparent full-body anime visual novel bonus character sprite for 《驚蟄》.\nPrimary request: Draw Hanami / 花見 in the previously approved non-canon modern Japanese gyaru-inspired school-uniform costume. This is the SAME ADULT WOMAN, about 25 years old, dressing for a bonus illustration; do not make her a teenager.\nReference image 1: authoritative Hanami face, pink bob haircut with small pink sakura hair clip, amber/golden-brown eyes, fair skin, adult healthy balanced body proportions, and polished anime rendering style.\nReference image 2: authoritative same character's cheerful open personality and matching facial identity. The kimono and apron in both references are NOT the requested costume.\nCostume: a modern white collared button-up shirt, a clearly visible slightly relaxed necktie, a contemporary plaid pleated skirt, and a sports TRACK JACKET TIED AROUND HER WAIST by its sleeves, with its body visibly hanging around the hips. The necktie and the tied athletic jacket must both read clearly. The track jacket is not worn on her shoulders. Casual fashionable gyaru styling; retain her natural fair complexion and original pink hair. Use a coordinated restrained dark navy / burgundy palette for the tie, skirt and track jacket, with recognizable athletic stripe details. School-style loafers and socks. Clothing should feel like a coherent modern outfit.\nIdentity invariants: preserve pink shoulder-length bob, pink sakura clip, amber eyes, original face and adult age, healthy proportionate figure and recognizable cheerful Hanami identity. No glasses. No hairstyle redesign. Do not exaggerate bust or alter body proportions.\nPose and framing: one character only, full body from hair tip to both shoe soles, relaxed friendly confident standing three-quarter view, natural hands with five fingers, warm bright smile looking toward viewer. Clear silhouette and comfortable margin all around, no cropped feet, no additional head inset or duplicates.\nStyle: match the official references: refined Japanese anime visual novel illustration, clean controlled linework, detailed but restrained cel shading, soft highlights, no 3D or photorealism. No scene, no scenery, no props, no weapon, no text, no watermark, no symbols floating around her.\nBackground: genuinely transparent alpha background with clean natural character edges, no solid color or painted checkerboard, no glow, no ground plane and no cast shadow on a background. Portrait canvas, approximately 1024 x 1536.",
+  "references": [
+    {
+      "file": "@/workspace/10_作品與專案/驚蟄/02_素材/花見/v1.0/花見_談及春妍驕傲_四分之三側身全身構圖_無武器.png",
+      "sha256": "6c44aa2760689b301e5400804cb966406b008ff9868efbbd343c57a5334b3e92"
+    },
+    {
+      "file": "@/workspace/10_作品與專案/驚蟄/03_開發/JingZhe/game/images/characters/hanami_bright_3q_full_unarmed.png",
+      "sha256": "61fb2a98e50a83804361938aa86b304993222c56b572adfc132122508f35559e"
+    }
+  ]
+}

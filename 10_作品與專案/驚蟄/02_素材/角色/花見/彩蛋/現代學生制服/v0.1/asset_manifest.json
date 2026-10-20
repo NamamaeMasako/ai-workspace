@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-20",
+  "status": "candidate_awaiting_user_review",
+  "non_canon": true,
+  "method": "built-in image_gen; original RGBA preserved, no pixel postprocessing",
+  "reference_files": [
+    {
+      "file": "@/workspace/10_作品與專案/驚蟄/02_素材/花見/v1.0/花見_談及春妍驕傲_四分之三側身全身構圖_無武器.png",
+      "sha256": "6c44aa2760689b301e5400804cb966406b008ff9868efbbd343c57a5334b3e92"
+    },
+    {
+      "file": "@/workspace/10_作品與專案/驚蟄/03_開發/JingZhe/game/images/characters/hanami_bright_3q_full_unarmed.png",
+      "sha256": "61fb2a98e50a83804361938aa86b304993222c56b572adfc132122508f35559e"
+    }
+  ],
+  "generation_source_on_this_local_device": "C:\\Users\\User\\.codex\\generated_images\\01a11019-bbc2-7ce3-95d9-6d92fdaf3310\\exec-ba619f50-e35b-4103-b13a-9e7a29309f0b.png",
+  "files": [
+    {
+      "file": "花見_彩蛋現代學生制服明朗_四分之三側身全身構圖_領帶腰綁運動外套.png",
+      "bytes": 1522604,
+      "sha256": "911815a4a0c9a9993c295713a74357f878da3e2e82c5c09c5cc6b1bc28051a4d",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ]
+    }
+  ],
+  "html_mirror": "@/workspace/10_作品與專案/驚蟄/03_開發/人物介紹介面草稿_rev.1/assets/bonus/hanami_modern_school_uniform_candidate_01.png",
+  "review": "User has not approved this image. Modern school uniform; necktie; track jacket tied at waist."
+}
