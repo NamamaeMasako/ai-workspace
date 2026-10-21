@@ -1,0 +1,13 @@
+{
+  "prompt": "Use case: identity-preserve\nAsset type: transparent full-body visual novel bonus costume candidate for adult male Arch-Lich / 亞奇里奇.\nInput image 1 is the approved identity and anime rendering reference. Preserve his recognizable face: man who looks in his thirties, pale living-looking skin, pronounced dark circles, pale gray eyes, swept-back WHITE hair, thin GOLD half-rim eyeglasses and an intelligent restrained smile. He is an ancient lich with a human-looking face; no skull or rotting skin.\nPrimary request: non-canon SCHOOL CHEMISTRY TEACHER who looks relaxed and easygoing, a modern alternative costume. White open laboratory coat with straightforward practical cut, not a tailcoat, over a charcoal rolled-sleeve button shirt, a loosened dark tie, dark tailored trousers and plain black shoes. Relaxed collar, subtly casual posture; one hand loosely in coat pocket and other hand holding a SINGLE simple Erlenmeyer flask containing a little pale blue liquid at about waist height, not drinking from it. Flask bottom and neck must be connected and hand grip anatomically natural. No goggles on head, no extra eyewear, no cartoon mad-scientist hair, no manic grin, no explosions, no lab machinery. Clothing reads like a casual capable teacher rather than a doctor or formal groom. Retain his quiet knowing slightly tired demeanor.\nComposition: a single complete full-body standing sprite, crown to both soles visible with small margin, slight three-quarter view with shoulders hips legs and feet coherent, natural relaxed stance, no crossed or twisted legs, five fingers on visible hand. Tall slender adult proportions.\nStyle: match reference's fine anime linework, shaded skin and layered cloth, muted colors, clean isolated edges. Transparent alpha background, no scenery, floor shadow, vignette, glow, lettering or watermark. Do not change his age, face, hair color, eyeglasses identity or human-looking anatomy.",
+  "mode": "built-in image_gen",
+  "intent": "identity-preserve",
+  "transparent_background": true,
+  "references": [
+    {
+      "file": "@/workspace/10_作品與專案/驚蟄/02_素材/亞奇里奇/v1.0/亞奇里奇_初見平靜_四分之三側身全身構圖_無道具.png",
+      "role": "identity and rendering reference",
+      "sha256": "988647f777b7e2d06dc6ac29a7546e4f0cf93128553afd3c430984611b72b2d1"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "prompt": "Use case: identity-preserve\nAsset type: transparent full-body visual-novel bonus costume candidate, Shadow Witch / 影之魔女 as a SCHOOL DISCIPLINE COMMITTEE MEMBER (風紀委員), a non-canon modern outfit.\nInput image 1 is the current v5 approved identity/face/hair/color/style master. Input image 2 is the approved game portrait supporting facial clarity and fine rendering. Preserve the SAME young ADULT woman, pale clean unmarked skin, RED irises, very long deep-purple hair down to waist/hips with the recognizable side-swept bangs (do not hide either eye), restrained cold slightly unimpressed expression and composed superior demeanor. Preserve her adult body and age appearance; the school outfit is a bonus costume, not de-aging.\nReplace the witch clothes with a neat charcoal-black school blazer, white collared shirt and a properly tied deep-purple necktie, a dark knee-length pleated skirt, opaque black tights and plain black loafers. Tailored clean silhouette with minimal deep-purple edging. A white discipline armband on one upper arm with exactly the traditional Chinese black characters \"風紀\" vertically. Armband should clearly sit around the blazer sleeve; do not add another badge or text. One arm holds a simple closed dark clipboard against her side, the other hand resting lightly on her hip in a calmly authoritative posture, keeping hands anatomically coherent and normal five fingers.\nNo witch hat, no cape, no staff, no magic, no weapons, no pointed ears or horns. Do NOT copy the original fantasy skirt opening or boots. This should read as the strict dignified discipline committee member who would silently stop an unruly corridor, not a cheerful idol or costume pinup.\nComposition: one single COMPLETE standing full-body figure from crown through both shoes, slight three-quarter view, shoulders waist pelvis knees and feet aligned, balanced weight without crossing legs, small transparent margin. Fine anime linework and shaded cloth/skin matching the references, nuanced folds, consistent adult anatomy. Genuinely transparent alpha backdrop with clean silhouette. No scenery, glow, ground shadow, panels, additional figures, labels, caption or watermark. Text ONLY \"風紀\" on the armband.",
+  "mode": "built-in image_gen",
+  "intent": "identity-preserve",
+  "transparent_background": true,
+  "references": [
+    {
+      "file": "@/workspace/10_作品與專案/驚蟄/02_素材/影之魔女/設計參考/影之魔女_西洋魔女形象_整片外裙結構修正測試立繪_v5_透明_2026-08-20.png",
+      "role": "hard identity/hair/color master",
+      "sha256": "f78268453a58ee2545641c52120225516273fa27378b10a4c7ce16795ed5b749"
+    },
+    {
+      "file": "@/workspace/10_作品與專案/驚蟄/02_素材/影之魔女/v2.0/影之魔女_冷淡命令_四分之三側身全身構圖_持法杖.png",
+      "role": "formal facial clarity and rendering reference",
+      "sha256": "4936b55b2bd9cea54d13205b33125f75be51fe198cef4310f4996dd1fe6d347b"
+    }
+  ]
+}

@@ -58,5 +58,17 @@ const bonusPortraitGallery = {
     label: '番外彩蛋・人形黑毛衣棕長裙',
     src: 'assets/bonus/omukade_human_black_knit_brown_skirt_candidate_01.png',
     status: 'adopted_art_and_composition'
+  }],
+  achirichi: [{
+    name: 'bonus achirichi casual_chemistry_teacher_candidate_01',
+    label: '番外彩蛋・隨興化學老師（候選）',
+    src: 'assets/bonus/achirichi_casual_chemistry_teacher_candidate_01.png',
+    status: 'candidate_awaiting_user_review'
+  }],
+  'shadow-witch': [{
+    name: 'bonus shadow_witch discipline_committee_candidate_01',
+    label: '番外彩蛋・風紀委員（候選）',
+    src: 'assets/bonus/shadow_witch_discipline_committee_candidate_01.png',
+    status: 'candidate_awaiting_user_review'
   }]
 };

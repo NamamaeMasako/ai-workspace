@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-21",
+  "character": "亞奇里奇",
+  "theme": "隨興化學老師",
+  "status": "candidate_awaiting_user_review",
+  "non_canon": true,
+  "method": "built-in image_gen identity-preserve; original RGBA alpha preserved; no pixel postprocessing",
+  "references": [
+    {
+      "file": "@/workspace/10_作品與專案/驚蟄/02_素材/亞奇里奇/v1.0/亞奇里奇_初見平靜_四分之三側身全身構圖_無道具.png",
+      "role": "identity and rendering reference",
+      "sha256": "988647f777b7e2d06dc6ac29a7546e4f0cf93128553afd3c430984611b72b2d1"
+    }
+  ],
+  "files": [
+    {
+      "file": "亞奇里奇_彩蛋化學老師從容_四分之三側身全身構圖_持錐形瓶.png",
+      "size": [
+        1023,
+        1538
+      ],
+      "mode": "RGBA",
+      "bytes": 789100,
+      "sha256": "03177e2e93bad89a38e7892e77be6eb33f040201b7f5d4ffbceedde438019d5f",
+      "alpha_range": [
+        0,
+        255
+      ]
+    }
+  ],
+  "html_mirror": "@/workspace/10_作品與專案/驚蟄/03_開發/人物介紹介面草稿_rev.1/assets/bonus/achirichi_casual_chemistry_teacher_candidate_01.png",
+  "local_generation_source": "C:\\Users\\User\\.codex\\generated_images\\01a11019-bbc2-7ce3-95d9-6d92fdaf3310\\exec-6490a8b1-bfc7-47c5-aca2-3f87cb1d9d84.png"
+}
