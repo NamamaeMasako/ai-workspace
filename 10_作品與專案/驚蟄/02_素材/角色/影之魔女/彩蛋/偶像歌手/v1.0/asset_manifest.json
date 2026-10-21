@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-21",
+  "character": "影之魔女",
+  "theme": "偶像歌手",
+  "status": "adopted_art_and_composition",
+  "non_canon": true,
+  "method": "built-in image_gen identity-preserve; original RGBA alpha preserved; no pixel postprocessing",
+  "references": [
+    {
+      "file": "@/workspace/10_作品與專案/驚蟄/02_素材/影之魔女/設計參考/影之魔女_西洋魔女形象_整片外裙結構修正測試立繪_v5_透明_2026-08-20.png",
+      "role": "hard identity/hair/color master",
+      "sha256": "f78268453a58ee2545641c52120225516273fa27378b10a4c7ce16795ed5b749"
+    },
+    {
+      "file": "@/workspace/10_作品與專案/驚蟄/02_素材/影之魔女/v2.0/影之魔女_冷淡命令_四分之三側身全身構圖_持法杖.png",
+      "role": "formal face and rendering reference",
+      "sha256": "4936b55b2bd9cea54d13205b33125f75be51fe198cef4310f4996dd1fe6d347b"
+    }
+  ],
+  "files": [
+    {
+      "file": "影之魔女_彩蛋偶像歌手從容_四分之三側身全身構圖_持麥克風月牙飾件.png",
+      "size": [
+        1023,
+        1537
+      ],
+      "mode": "RGBA",
+      "bytes": 1169650,
+      "sha256": "ecc9bc6e2807d18523ccd86de86d6e0707fdcf431575a85cadf18f47f377ca58",
+      "alpha_range": [
+        0,
+        255
+      ]
+    }
+  ],
+  "html_mirror": "@/workspace/10_作品與專案/驚蟄/03_開發/人物介紹介面草稿_rev.1/assets/bonus/shadow_witch_idol_singer_candidate_01.png",
+  "local_generation_source": "C:\\Users\\User\\.codex\\generated_images\\01a11019-bbc2-7ce3-95d9-6d92fdaf3310\\exec-4884ac94-3750-47f0-9fc8-0e6e29e640c9.png",
+  "source_candidate": "@/workspace/10_作品與專案/驚蟄/02_素材/角色/影之魔女/彩蛋/偶像歌手/v0.1/影之魔女_彩蛋偶像歌手從容_四分之三側身全身構圖_持麥克風月牙飾件.png"
+}

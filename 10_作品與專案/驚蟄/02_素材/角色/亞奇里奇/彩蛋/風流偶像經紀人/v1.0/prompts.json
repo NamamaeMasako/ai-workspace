@@ -1,0 +1,13 @@
+{
+  "prompt": "Use case: identity-preserve\nAsset type: transparent full-body visual novel alternative bonus-theme candidate for Arch-Lich / 亞奇里奇.\nInput Image 1 is the identity and anime rendering reference. SAME adult man in his thirties in appearance: swept-back white hair, pale living-looking skin, pale gray eyes, pronounced dark circles, thin gold half-rim eyeglasses, slender refined build, smart knowing expression. Do not age him down or make a different man.\nPrimary request: a FLIRTATIOUS, SUAVE IDOL TALENT MANAGER (風流的偶像經紀人) in the modern entertainment industry. Charming, socially adept and playfully confident with a subtle seductive smile and relaxed eyes, not leering, cruel or cartoonish. Stylish fitted charcoal-black blazer with understated satin lapels, wine-red silk shirt with a relaxed open collar, a fine small gold chain at the collar, slim black tailored trousers, polished dark leather shoes. Exactly one discreet backstage pass clipped near the waist, simple abstract mark without legible words or logos. He holds a slim modern smartphone casually at waist height in one hand, while the other hand lightly adjusts the temple of his existing gold glasses. Hands must be normal five-finger human anatomy and grip correctly. The smartphone and backstage pass make his role read as the person who manages idols rather than a performing singer. No microphone, no instrument, no stage costume, no teacher white coat, no flask.\nPose/composition: one single complete FULL BODY from crown to both soles, slight three-quarter stance, relaxed balanced weight, hips knees and shoes coherent, no legs crossed, no cropped limbs, small transparent margins. Keep recognizable white hair and glasses clearly visible. Adult sophistication, attractive but fully dressed.\nStyle: finely shaded anime character sprite matching reference with delicate clean linework, nuanced cloth textures, natural anatomy. Genuinely transparent background, clean cutout silhouette, no glow, ground shadow, scenery, extra people, words, watermark or collage.",
+  "mode": "built-in image_gen",
+  "intent": "identity-preserve",
+  "transparent_background": true,
+  "references": [
+    {
+      "file": "@/workspace/10_作品與專案/驚蟄/02_素材/亞奇里奇/v1.0/亞奇里奇_初見平靜_四分之三側身全身構圖_無道具.png",
+      "role": "identity and anime rendering reference",
+      "sha256": "988647f777b7e2d06dc6ac29a7546e4f0cf93128553afd3c430984611b72b2d1"
+    }
+  ]
+}
