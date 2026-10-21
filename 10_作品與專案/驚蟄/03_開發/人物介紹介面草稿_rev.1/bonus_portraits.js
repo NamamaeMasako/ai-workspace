@@ -64,11 +64,21 @@ const bonusPortraitGallery = {
     label: '番外彩蛋・隨興化學老師（候選）',
     src: 'assets/bonus/achirichi_casual_chemistry_teacher_candidate_01.png',
     status: 'candidate_awaiting_user_review'
+  }, {
+    name: 'bonus achirichi suave_idol_manager_candidate_01',
+    label: '番外彩蛋・風流偶像經紀人（候選）',
+    src: 'assets/bonus/achirichi_suave_idol_manager_candidate_01.png',
+    status: 'candidate_awaiting_user_review'
   }],
   'shadow-witch': [{
     name: 'bonus shadow_witch discipline_committee_candidate_01',
     label: '番外彩蛋・風紀委員（候選）',
     src: 'assets/bonus/shadow_witch_discipline_committee_candidate_01.png',
+    status: 'candidate_awaiting_user_review'
+  }, {
+    name: 'bonus shadow_witch idol_singer_candidate_01',
+    label: '番外彩蛋・偶像歌手（候選）',
+    src: 'assets/bonus/shadow_witch_idol_singer_candidate_01.png',
     status: 'candidate_awaiting_user_review'
   }]
 };
