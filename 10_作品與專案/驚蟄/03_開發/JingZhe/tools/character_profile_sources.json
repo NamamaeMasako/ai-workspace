@@ -1,0 +1,85 @@
+{
+  "approved_on": "2026-10-22",
+  "source": "03_開發/人物介紹介面草稿_rev.1",
+  "files": [
+    {
+      "source": "03_開發/人物介紹介面草稿_rev.1/assets/bonus/jingzhe_school_uniform_no_hat.png",
+      "game": "images/characters/bonus/jingzhe_school_uniform_no_hat.png",
+      "sha256": "7b1ae6282fe8e32f78fc5952d90b2070c7619add4b74c82e69455aaef90e8f8a"
+    },
+    {
+      "source": "03_開發/人物介紹介面草稿_rev.1/assets/bonus/jingzhe_school_uniform_hat_source.png",
+      "game": "images/characters/bonus/jingzhe_school_uniform_hat_source.png",
+      "sha256": "2f53388aabd77171c19b912a47613c30c024e1f416bcceb88e5f44b7ec6886e2"
+    },
+    {
+      "source": "03_開發/人物介紹介面草稿_rev.1/assets/bonus/hanami_modern_school_uniform_candidate_01.png",
+      "game": "images/characters/bonus/hanami_modern_school_uniform.png",
+      "sha256": "911815a4a0c9a9993c295713a74357f878da3e2e82c5c09c5cc6b1bc28051a4d"
+    },
+    {
+      "source": "03_開發/人物介紹介面草稿_rev.1/assets/bonus/yumemi_sailor_uniform.png",
+      "game": "images/characters/bonus/yumemi_sailor_uniform.png",
+      "sha256": "ce55acae504c731d1852b1c39397fe318e88d203c644042a50acff11d6f05ab4"
+    },
+    {
+      "source": "03_開發/人物介紹介面草稿_rev.1/assets/bonus/yumemi_sailor_uniform_glasses_head.png",
+      "game": "images/characters/bonus/yumemi_sailor_uniform_glasses_head.png",
+      "sha256": "fa07fcfe46c377a84b93a3cf1e2a7c7fed91f3a5935eca90772cf8d2869ebbe4"
+    },
+    {
+      "source": "03_開發/人物介紹介面草稿_rev.1/assets/bonus/jorogumo_school_doctor_candidate_01.png",
+      "game": "images/characters/bonus/jorogumo_school_doctor.png",
+      "sha256": "61fba5392c1ecb5d7a5d4b17c9f585014327619e07640e2af3866ae3517d44c2"
+    },
+    {
+      "source": "03_開發/人物介紹介面草稿_rev.1/assets/bonus/jorogumo_school_doctor_lower_half_rim_glasses_head.png",
+      "game": "images/characters/bonus/jorogumo_school_doctor_lower_half_rim_glasses_head.png",
+      "sha256": "8284598fd40dade2bfd4b4c190b92eb4ba6942305be0da46324fa6ac73dddc5c"
+    },
+    {
+      "source": "03_開發/人物介紹介面草稿_rev.1/assets/bonus/tsuchigumo_chibi_enclosure_candidate_01.png",
+      "game": "images/characters/bonus/tsuchigumo_chibi_enclosure.png",
+      "sha256": "ac3b3c1fb61f1aa6f1ba499a1010b93590cdca7365be3f4090766e2b7251c2ff"
+    },
+    {
+      "source": "03_開發/人物介紹介面草稿_rev.1/assets/bonus/kamikiri_long_white_tshirt_candidate_01.png",
+      "game": "images/characters/bonus/kamikiri_long_white_tshirt.png",
+      "sha256": "5d4562d28f1b9ca198da0760c88666c8e64712464ef43167ee9be530ead88af0"
+    },
+    {
+      "source": "03_開發/人物介紹介面草稿_rev.1/assets/bonus/omukade_human_black_knit_brown_skirt_candidate_01.png",
+      "game": "images/characters/bonus/omukade_human_black_knit_brown_skirt.png",
+      "sha256": "924dbcfcc467d4c66d79beddb2178e35866c73a0290cac72a9320dc1e17b3b15"
+    },
+    {
+      "source": "03_開發/人物介紹介面草稿_rev.1/assets/bonus/achirichi_suave_idol_manager_candidate_01.png",
+      "game": "images/characters/bonus/achirichi_suave_idol_manager.png",
+      "sha256": "d515d859ca1773f2dd0f0b14e3a76de221dee48b4e7a4438cebf8652be9d0bec"
+    },
+    {
+      "source": "03_開發/人物介紹介面草稿_rev.1/assets/bonus/shadow_witch_idol_singer_candidate_01.png",
+      "game": "images/characters/bonus/shadow_witch_idol_singer.png",
+      "sha256": "ecc9bc6e2807d18523ccd86de86d6e0707fdcf431575a85cadf18f47f377ca58"
+    }
+  ],
+  "draft_hashes": {
+    "index.html": "acd08300aae29e69257e48a10e80686fabac30718eb11a03c527fa39e6413521",
+    "portraits.js": "dbd4d5910c1265bb5a786dd7f2f8e850dbd1a182cb587159eb00e0d48cefc104",
+    "bonus_portraits.js": "3b62513b4a41d31f90b792d3ea0176b6d23823ed9f9b9e10ec87d4f66bc00cf6"
+  },
+  "counts": {
+    "jingzhe": 16,
+    "hanami": 17,
+    "yumemi": 13,
+    "jorogumo": 5,
+    "tsuchigumo": 3,
+    "kamikiri": 4,
+    "omukade": 4,
+    "achirichi": 3,
+    "shadow-witch": 4,
+    "muchun": 0,
+    "mother": 0,
+    "father": 0
+  }
+}

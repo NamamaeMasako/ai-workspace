@@ -178,6 +178,11 @@ screen navigation():
             textbutton _('章節回看'):
                 action ShowMenu('jz_chapter_replay')
                 sensitive jz_replay_unlocked()
+            textbutton _('人物介紹'):
+                action ShowMenu('jz_character_profiles')
+                sensitive jz_profiles_unlocked()
+            if not jz_profiles_unlocked():
+                text '通關後開放' size 16 color '#aaa397' xoffset 20
         else:
             textbutton _('歷史紀錄') action ShowMenu('history')
             textbutton _('存檔') action ShowMenu('save')

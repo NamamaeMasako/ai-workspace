@@ -60,3 +60,5 @@ sync_portraits.py產生portraits.js與portrait_sources.json，記錄來源SHA及
 
 此草稿不讀寫存檔／persistent、不播放音訊、不實作通關鎖定，未變更正式Ren'Py來源或v0.2.0成品。
 祖先AGENTS既有03_開發分類適用；入口在作品接續摘要記錄。
+
+2026-10-22：生前已確認整份草稿並授權實裝。正式開發版新增character_profiles.rpy／json及通關後人物介紹入口。實裝收錄12位、60劇情立繪＋9採用彩蛋共69格與3組附屬頭部差分；草稿71格含兩張舊比較稿，保留歷程，不加入本次遊戲。文字與既有圖像未修改，資料來源及SHA記錄於../JingZhe/tools/character_profile_sources.json。詳見../../00_導覽與規則/人物介紹實裝_rev.1.txt。原有草稿預覽註記屬當時工作歷程。
