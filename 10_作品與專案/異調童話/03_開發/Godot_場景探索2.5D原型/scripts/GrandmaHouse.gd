@@ -36,6 +36,7 @@ func _ready() -> void:
 			"name": "矮桌",
 			"kind": "table",
 			"foot": Vector2(430, 480),
+			"approach_point": Vector2(526, 480),
 			"hit_rect": Rect2(335, 384, 190, 112),
 			"block_rect": Rect2(365, 435, 130, 54),
 			"visits": 0,
@@ -44,6 +45,7 @@ func _ready() -> void:
 			"name": "舊櫃",
 			"kind": "cabinet",
 			"foot": Vector2(845, 438),
+			"approach_point": Vector2(931, 438),
 			"hit_rect": Rect2(790, 285, 118, 160),
 			"block_rect": Rect2(812, 408, 66, 38),
 			"visits": 0,
@@ -52,6 +54,7 @@ func _ready() -> void:
 			"name": "木箱",
 			"kind": "crate",
 			"foot": Vector2(700, 620),
+			"approach_point": Vector2(700, 530),
 			"hit_rect": Rect2(642, 545, 120, 82),
 			"block_rect": Rect2(660, 595, 82, 34),
 			"visits": 0,
@@ -81,6 +84,9 @@ func _process(delta: float) -> void:
 		var distance_vector := move_target - player_position
 		if distance_vector.length() < 5.0:
 			move_target = NO_TARGET
+			var nearby := _nearest_prop()
+			if not nearby.is_empty():
+				status_message = "%s 已進入互動範圍，可以按 E 或左鍵互動。" % nearby["name"]
 		else:
 			var old_position := player_position
 			var step: Vector2 = distance_vector.normalized() * min(PLAYER_SPEED * delta, distance_vector.length())
@@ -131,7 +137,12 @@ func _handle_left_click(point: Vector2) -> void:
 
 	var clicked_prop := _prop_at(point)
 	if not clicked_prop.is_empty():
-		_interact(clicked_prop)
+		if _is_prop_in_range(clicked_prop):
+			_interact(clicked_prop)
+		else:
+			move_target = clicked_prop["approach_point"]
+			status_message = "洛芙正在走近%s；進入範圍後再互動。" % clicked_prop["name"]
+			queue_redraw()
 		return
 
 	if Geometry2D.is_point_in_polygon(point, floor_polygon):
@@ -180,16 +191,24 @@ func _nearest_prop() -> Dictionary:
 	return nearest
 
 
+func _is_prop_in_range(prop: Dictionary) -> bool:
+	return player_position.distance_to(prop["foot"]) < INTERACT_DISTANCE
+
+
 func _interact_nearby() -> void:
 	var prop := _nearest_prop()
 	if prop.is_empty():
-		status_message = "先走近一個物件，再按 E。"
+		status_message = "走近物件；看到高亮提示後按 E。"
 	else:
 		_interact(prop)
 	queue_redraw()
 
 
 func _interact(prop: Dictionary) -> void:
+	if not _is_prop_in_range(prop):
+		status_message = "還需要再走近一點才能互動。"
+		queue_redraw()
+		return
 	prop["visits"] += 1
 	status_message = "%s：互動已觸發（測試回饋 %d）" % [prop["name"], prop["visits"]]
 	queue_redraw()
@@ -297,6 +316,9 @@ func _draw_prop(prop: Dictionary) -> void:
 	var foot: Vector2 = prop["foot"]
 	var highlighted: bool = _nearest_prop().get("name", "") == prop["name"]
 	var outline := Color("#f0d394") if highlighted else Color("#9e8970")
+	var hit_rect: Rect2 = prop["hit_rect"]
+	if highlighted:
+		draw_rect(hit_rect, Color(0.94, 0.81, 0.52, 0.10), true)
 	draw_ellipse_placeholder(Vector2(foot.x, foot.y - 2.0), Vector2(74, 15), Color(0.02, 0.03, 0.03, 0.28))
 
 	match prop["kind"]:
@@ -342,7 +364,8 @@ func _draw_prop(prop: Dictionary) -> void:
 			draw_line(Vector2(foot.x + 23, foot.y - 48), Vector2(foot.x - 23, foot.y - 7), Color("#b18a5e"), 3.0)
 
 	if highlighted:
-		draw_string(ui_font, Vector2(foot.x - 38, foot.y - 118), "E / 左鍵", HORIZONTAL_ALIGNMENT_LEFT, -1, 13, Color("#f2d89e"))
+		draw_rect(hit_rect, Color("#f0d394"), false, 2.5)
+		draw_string(ui_font, Vector2(foot.x - 52, foot.y - 118), "E / 左鍵互動", HORIZONTAL_ALIGNMENT_LEFT, -1, 13, Color("#f2d89e"))
 	if prop["visits"] > 0:
 		draw_circle(Vector2(foot.x + 60, foot.y - 94), 11.0, Color("#83aaa3"))
 		draw_string(ui_font, Vector2(foot.x + 56, foot.y - 90), str(prop["visits"]), HORIZONTAL_ALIGNMENT_LEFT, -1, 11, Color("#14201e"))
@@ -392,12 +415,12 @@ func _draw_hud() -> void:
 	draw_rect(Rect2(14, 680, 1252, 106), Color("#59635e"), false, 1.5)
 	if in_room:
 		var nearby := _nearest_prop()
-		var prompt := "附近：%s　（E 或左鍵互動）" % nearby["name"] if not nearby.is_empty() else "附近沒有可調查物件"
+		var prompt := "可互動：%s　（E 或左鍵）" % nearby["name"] if not nearby.is_empty() else "走近物件，進入範圍後會高亮提示"
 		draw_string(ui_font, Vector2(34, 715), prompt, HORIZONTAL_ALIGNMENT_LEFT, 760, 16, Color("#e3d2a9"))
 		draw_string(ui_font, Vector2(34, 750), status_message, HORIZONTAL_ALIGNMENT_LEFT, 790, 14, Color("#c2cbc5"))
 		_draw_button(RESET_BUTTON, "重設位置")
 		_draw_button(MAP_BUTTON, "回到城市地圖")
-		draw_string(ui_font, Vector2(34, 774), "WASD／方向鍵移動・點擊地板前往・點物件直接互動", HORIZONTAL_ALIGNMENT_LEFT, 790, 12, Color("#929d98"))
+		draw_string(ui_font, Vector2(34, 774), "WASD／方向鍵移動・點地板前往・點物件走近；高亮後按 E／左鍵互動", HORIZONTAL_ALIGNMENT_LEFT, 920, 12, Color("#929d98"))
 	else:
 		draw_string(ui_font, Vector2(34, 728), status_message, HORIZONTAL_ALIGNMENT_LEFT, 900, 15, Color("#d2c6a6"))
 		draw_string(ui_font, Vector2(34, 760), "點選地圖上的奶奶故居，進入可操作的 2.5D 測試室。", HORIZONTAL_ALIGNMENT_LEFT, 900, 13, Color("#aeb9b4"))
