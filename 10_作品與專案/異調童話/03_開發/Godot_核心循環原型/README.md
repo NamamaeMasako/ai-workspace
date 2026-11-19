@@ -19,4 +19,6 @@
 
 ## 驗證
 
+已接入固定版本 GUT 9.6.1。於本工程根目錄使用 Godot console 執行 `--headless --script res://addons/gut/gut_cmdln.gd -gexit`，會依 `.gutconfig.json` 執行 `tests/gut` 中的回歸測試。首次使用請先匯入工程。工具來源、skill 安裝狀態與驗證範圍見 [開發工具與驗證](開發工具與驗證.md)。
+
 使用 Godot console 執行 `--headless --path <本資料夾> --script res://tests/core_loop_test.gd`，測試進場、結算、進食、打工限制、同行線索與跨日。
