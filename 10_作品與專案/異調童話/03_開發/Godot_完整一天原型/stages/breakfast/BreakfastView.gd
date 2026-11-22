@@ -209,14 +209,14 @@ func draw_shopping() -> void:
 	label_at(Vector2(735, 193), "今天諾亞想吃茄子。" if game.eggplant_known else "沒有記下特別想吃的東西。", 20)
 	label_at(Vector2(735, 217), "從剛才成功聊過的內容留下的提示", 13, Color("#c3cbb5"))
 	label_at(Vector2(720, 270), "固定採購：米、雞蛋、日常蔬菜", 18)
-	label_at(Vector2(720, 300), "以上為佔位清單；本版不計價格或庫存。", 14, Color("#bdc7b7"))
+	label_at(Vector2(720, 300), "固定 10；茄子 5、蘋果 4、茶葉 3（測試價格）", 14, Color("#bdc7b7"))
 	label_at(Vector2(720, 331), "額外要買：", 18)
 	for index in range(EXTRA_ITEMS.size()):
 		var item: String = EXTRA_ITEMS[index]
 		var chosen := game.extras.has(item)
 		panel(Rect2(720, 345 + 59 * index, 495, 48), Color("#6b7c59") if chosen else Color("#48564b"))
 		label_at(Vector2(740, 376 + 59 * index), ("☑  " if chosen else "☐  ") + item, 20)
-	button(NEXT, "確認採購清單")
+	button(NEXT, "確認採購 $%d / 持有 $%d" % [game.shopping_total(), game.budget])
 
 func draw_summary() -> void:
 	label_at(Vector2(720, 148), "採購清單已記下", 25, Color("#cfdfbb"))
@@ -242,9 +242,9 @@ func draw_footer() -> void:
 	elif game.phase == Model.Phase.ROUND_RESULT:
 		message = game.outcome
 	elif game.phase == Model.Phase.SHOPPING:
-		message = "固定採購會照常安排；點選額外食材，再確認清單。"
+		message = game.outcome if game.shopping_total() > game.budget else "點選額外食材，再確認清單；採購後進入下午安排。"
 	elif game.phase == Model.Phase.DONE:
 		message = "此版只驗證早餐與清單，沒有接續下午、實際採購或晚間打工。"
 	label_at(Vector2(48, 678), message, 19)
 	label_at(Vector2(48, 717), "輸入進度會顯示在話題與下方。按錯或逾時，直接失去本輪機會。", 16, Color("#bdc9b9"))
-	label_at(Vector2(48, 750), "美術、台詞、固定品項皆為佔位 · 沒有每日總倒數 · R 隨時重置", 14, Color("#a8b4a3"))
+	label_at(Vector2(48, 750), "美術與台詞為佔位 · 右上可查看關係與跨日紀錄 · 新一輪需確認", 14, Color("#a8b4a3"))

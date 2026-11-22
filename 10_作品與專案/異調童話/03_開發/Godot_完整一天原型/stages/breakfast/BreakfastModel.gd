@@ -1,10 +1,13 @@
 extends RefCounted
 
 enum Phase { READY, QTE, DIALOGUE, ROUND_RESULT, SHOPPING, DONE }
+const Rules = preload("res://scripts/RelationshipRules.gd")
 const ROUND_COUNT := 2
 const ROUND_SECONDS := 10.0
 const RESULT_SECONDS := 1.4
 
+var budget := 100
+var emotional_topic := false
 var phase := Phase.READY
 var round_number := 0
 var seconds_left := ROUND_SECONDS
@@ -21,6 +24,7 @@ var extras: Array[String] = []
 
 func reset() -> void:
 	phase = Phase.READY
+	emotional_topic = false
 	round_number = 0
 	seconds_left = ROUND_SECONDS
 	input_buffer = ""
@@ -68,9 +72,9 @@ func begin_round() -> void:
 				["諾亞", "嗯，是奶奶家裡那台組織用的通訊器。"],
 				["洛芙", "值得去找找。先把這件事記下。"],
 			]},
-			{"opening": "這杯茶……", "code": "LUD", "effect": "chat", "lines": [
-				["諾亞", "這杯茶還熱熱的，拿著很舒服。"],
-				["洛芙", "慢點喝，別燙到。"],
+			{"opening": "今天能一起吃早餐……", "code": "LUD", "effect": "emotional", "lines": [
+				["諾亞", "有人一起吃早餐，感覺很好。"],
+				["洛芙", "那就慢慢吃，我還在這裡。"],
 			]},
 			{"opening": "剛才想到的那道菜……", "code": "RDR", "effect": "eggplant", "lines": [
 				["諾亞", "我想到的是茄子。今天有點想吃。"],
@@ -132,8 +136,10 @@ func next_line() -> void:
 		communicator_known = true
 	elif effect == "eggplant":
 		eggplant_known = true
+	elif effect == "emotional":
+		emotional_topic = true
 	history.append({"round": round_number, "success": true, "topic": topics[selected].opening})
-	outcome = "話題聊完了。" if effect == "chat" else ("已記下線索：奶奶家可能有組織通訊器。" if effect == "communicator" else "已記下：今天諾亞想吃茄子。")
+	outcome = "話題聊完了。" if effect in ["chat", "emotional"] else ("已記下線索：奶奶家可能有組織通訊器。" if effect == "communicator" else "已記下：今天諾亞想吃茄子。")
 	phase = Phase.ROUND_RESULT
 	result_seconds = RESULT_SECONDS
 
@@ -145,8 +151,17 @@ func toggle_extra(item: String) -> void:
 	else:
 		extras.append(item)
 
+func shopping_total() -> int:
+	var total := Rules.FIXED_COST
+	for item in extras:
+		total += Rules.EXTRA_COST[item]
+	return total
+
 func confirm_shopping() -> void:
 	if phase == Phase.SHOPPING:
+		if shopping_total() > budget:
+			outcome = "金錢不足：取消額外品項，或使用右上測試補款。"
+			return
 		phase = Phase.DONE
 
 func favorite_remembered() -> bool:

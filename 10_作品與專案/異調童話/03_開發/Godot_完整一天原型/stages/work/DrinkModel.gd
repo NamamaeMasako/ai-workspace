@@ -1,6 +1,7 @@
 extends RefCounted
 
 enum Phase { READY, MIXING, ORDER_RESULT, DONE }
+const Rules = preload("res://scripts/RelationshipRules.gd")
 const INGREDIENTS := ["tea", "milk", "pearls"]
 const LABELS := {"tea": "紅茶", "milk": "牛奶", "pearls": "珍珠"}
 const RECIPES := {
@@ -107,6 +108,4 @@ func simulated_pay() -> int:
 	return maxi(0, BASE_PAY + correct * CORRECT_PAY - wrong * WRONG_DEDUCTION)
 
 func simulated_relationship_change() -> int:
-	if wrong == 0:
-		return 3
-	return 1 if wrong <= 2 else -1
+	return Rules.work_gain(wrong)
