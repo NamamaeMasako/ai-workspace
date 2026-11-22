@@ -8,6 +8,8 @@ var game := Encounter.new()
 var font: SystemFont
 var walking: Array[Vector2] = []
 var show_sight := true
+var range_origin := Vector2(INF, INF)
+var range_polygon := PackedVector2Array()
 var enemy_index := -1
 var enemy_delay := 0.0
 var previous_message := ""
@@ -186,6 +188,8 @@ func _draw() -> void:
 		for index in range(game.guards.size()):
 			draw_cone(index)
 	if game.mode == Encounter.Mode.COMBAT and game.player_turn and walking.is_empty():
+		if game.actions > 0:
+			draw_attack_area()
 		for point in game.reachable():
 			tile(point, Color(0.2, 0.8, 0.76, 0.18))
 		var hovered := game.cell(world(get_global_mouse_position()))
@@ -213,12 +217,85 @@ func _draw() -> void:
 					draw_actor(guard.pos, Color("#ba8566"), guard.name, guard.hp, false)
 					var direction: Vector2 = (screen(guard.pos + guard.facing) - screen(guard.pos)).normalized()
 					draw_line(screen(guard.pos) + direction * 17, screen(guard.pos) + direction * 35, Color("#f0ba84"), 3)
+	draw_attack_targets()
 	var target: int = game.assassination_target()
 	if target >= 0:
 		var foot := screen(game.guards[target].pos)
 		draw_arc(foot, 25, 0, TAU, 32, Color("#9ce8ac"), 3)
 		text_at(foot + Vector2(-45, -83), "停下後 E 暗殺", 15, Color("#b7f1bc"))
 	draw_hud()
+
+func attack_area_polygon() -> PackedVector2Array:
+	if range_origin == game.player and not range_polygon.is_empty():
+		return range_polygon
+	range_origin = game.player
+	range_polygon = PackedVector2Array()
+	var angles: Array[float] = []
+	for step in range(128):
+		angles.append(-PI + TAU * step / 128.0)
+	# 加入牆角及場景邊角兩側射線，避免區域輪廓跨過遮擋邊緣。
+	for rect in [Encounter.WALL, Rect2(Vector2.ZERO, Vector2(Encounter.SIZE))]:
+		for corner in [rect.position, rect.position + Vector2(rect.size.x, 0), rect.end, rect.position + Vector2(0, rect.size.y)]:
+			var angle: float = (corner - game.player).angle()
+			for offset in [-0.0001, 0.0, 0.0001]:
+				angles.append(wrapf(angle + offset, -PI, PI))
+	angles.sort()
+	for angle in angles:
+		var direction := Vector2.from_angle(angle)
+		var low := 0.0
+		var high := Encounter.ATTACK_RANGE
+		# 取仍符合真正射擊判定的最遠點；只在站位改變後重算。
+		for iteration in range(16):
+			var middle := (low + high) / 2.0
+			if game.in_attack_area(game.player + direction * middle):
+				low = middle
+			else:
+				high = middle
+		range_polygon.append(screen(game.player + direction * low))
+	return range_polygon
+
+func draw_attack_area() -> void:
+	var polygon := attack_area_polygon()
+	draw_colored_polygon(polygon, Color(1.0, 0.65, 0.22, 0.14))
+	var outline := polygon.duplicate()
+	outline.append(outline[0])
+	draw_polyline(outline, Color("#ffc66f"), 2.5, true)
+
+func hovered_guard() -> int:
+	var point := get_global_mouse_position()
+	if point.y < 105 or point.y > 610:
+		return -1
+	for index in range(game.guards.size()):
+		var foot := screen(game.guards[index].pos)
+		if game.guards[index].hp > 0 and Rect2(foot - Vector2(22, 64), Vector2(44, 73)).has_point(point):
+			return index
+	return -1
+
+func draw_attack_targets() -> void:
+	if game.mode != Encounter.Mode.COMBAT:
+		return
+	if game.player_turn and game.actions > 0 and walking.is_empty():
+		for index in range(game.guards.size()):
+			if game.can_attack(index):
+				var foot := screen(game.guards[index].pos)
+				draw_arc(foot, 25, 0, TAU, 48, Color("#ffc66f"), 3, true)
+				text_at(foot + Vector2(-24, -89), "可攻擊", 15, Color("#ffdb9c"))
+	var target := hovered_guard()
+	if target >= 0 and walking.is_empty():
+		var color := Color("#ffc66f") if game.can_attack(target) else Color("#bd8991")
+		draw_line(screen(game.player) + Vector2(0, -26), screen(game.guards[target].pos) + Vector2(0, -26), color, 1.5, true)
+
+func attack_feedback() -> String:
+	if not walking.is_empty():
+		return "移動中：抵達後更新攻擊範圍。"
+	var target := hovered_guard()
+	if target >= 0:
+		return "%s：%s" % [game.guards[target].name, game.attack_status(target)]
+	if not game.player_turn:
+		return "敵方回合。"
+	if game.actions <= 0:
+		return "本回合攻擊已用完；仍可使用剩餘移動格數。"
+	return "橙色區域／外框：可射擊範圍（牆壁會遮擋）；橙圈：可攻擊敵人。"
 
 func draw_cone(index: int) -> void:
 	var guard: Dictionary = game.guards[index]
@@ -307,7 +384,10 @@ func draw_hud() -> void:
 		if game.mode == Encounter.Mode.EXPLORE:
 			button(END_TURN, "E  暗殺／調查")
 	text_at(Vector2(36, 674), game.message, 16, Color("#f1d2a8"), 1170)
-	text_at(Vector2(36, 708), "探索：WASD／方向鍵移動，左鍵點地面尋路；靠近背後停下後 E 暗殺。", 14, Color("#b6c4c6"), 950)
-	text_at(Vector2(36, 733), "戰鬥：左鍵地面移動，左鍵守衛射擊；綠色區域為可移動範圍。", 14, Color("#b6c4c6"), 950)
+	if game.mode == Encounter.Mode.COMBAT:
+		text_at(Vector2(36, 708), attack_feedback(), 14, Color("#ffcf86"), 950)
+	else:
+		text_at(Vector2(36, 708), "探索：WASD／方向鍵移動，左鍵點地面尋路；靠近背後停下後 E 暗殺。", 14, Color("#b6c4c6"), 950)
+	text_at(Vector2(36, 733), "戰鬥：左鍵地面移動，左鍵守衛射擊；青綠格為移動範圍，橙色為攻擊範圍。", 14, Color("#b6c4c6"), 950)
 	if history.size() > 1:
 		text_at(Vector2(36, 765), "上一則：" + history[1], 13, Color("#8e9fa6"), 1170)

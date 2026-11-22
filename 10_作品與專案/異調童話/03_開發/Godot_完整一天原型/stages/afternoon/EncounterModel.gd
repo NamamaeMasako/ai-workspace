@@ -154,13 +154,36 @@ func reachable() -> Dictionary:
 				queue.append(next)
 	return found
 
+func in_attack_area(point: Vector2) -> bool:
+	# 顯示區域與實際射擊共用此判定，不額外計算第二套射程。
+	return Rect2(Vector2.ZERO, Vector2(SIZE)).has_point(point) and player.distance_to(point) <= ATTACK_RANGE and line_clear(player, point)
+
+func attack_status(target: int) -> String:
+	# 純查詢：游標預覽不消耗攻擊次數，也不覆寫戰鬥訊息。
+	if target < 0 or target >= guards.size() or guards[target].hp <= 0:
+		return "無有效目標"
+	if mode != Mode.COMBAT:
+		return "尚未進入戰鬥"
+	if not player_turn:
+		return "敵方回合"
+	if actions <= 0:
+		return "本回合攻擊已用完"
+	if player.distance_to(guards[target].pos) > ATTACK_RANGE:
+		return "超出射程"
+	if not line_clear(player, guards[target].pos):
+		return "牆壁遮擋"
+	return "可攻擊" if in_attack_area(guards[target].pos) else "超出場景"
+
+func can_attack(target: int) -> bool:
+	return attack_status(target) == "可攻擊"
+
 func attack(target: int) -> bool:
 	if mode != Mode.COMBAT or not player_turn or actions <= 0:
 		message = "本回合沒有攻擊次數，按空白鍵結束回合。"
 		return false
 	if target < 0 or target >= guards.size() or guards[target].hp <= 0:
 		return false
-	if player.distance_to(guards[target].pos) > ATTACK_RANGE or not line_clear(player, guards[target].pos):
+	if not in_attack_area(guards[target].pos):
 		message = "目標超出射程或被牆擋住；先移動到可攻擊位置。"
 		return false
 	actions -= 1
