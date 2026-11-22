@@ -65,17 +65,17 @@ func test_information_alone_never_applies_communicator_bonus() -> void:
 	var encounter = Session.Encounter.new()
 	assert_true(day.finish_afternoon(encounter))
 	assert_false(day.communicator_acquired)
-	assert_eq(day.exposure_increase, 5)
+	assert_eq(day.exposures.ves, 10, "暴露只在跨日自然上升")
 
 func test_communicator_requires_hint_and_collected_object() -> void:
 	reach_evening(true)
 	assert_true(day.communicator_acquired)
-	assert_eq(day.exposure_increase, 3)
+	assert_eq(day.exposures.ves, 10, "通訊器目前只保留線索，不疊加舊示意數值")
 	day.reset()
 	reach_evening(false)
 	assert_true(day.evidence_found)
 	assert_false(day.communicator_acquired)
-	assert_eq(day.exposure_increase, 5)
+	assert_eq(day.exposures.ves, 10, "暴露只在跨日自然上升")
 
 func test_combat_blocks_exit_and_detection_is_retained_after_victory() -> void:
 	day.accept_breakfast(prepared_breakfast(true))
@@ -90,7 +90,7 @@ func test_combat_blocks_exit_and_detection_is_retained_after_victory() -> void:
 	encounter.finish_if_clear()
 	assert_true(day.finish_afternoon(encounter))
 	assert_true(day.detected)
-	assert_eq(day.exposure_increase, 8)
+	assert_eq(day.exposures.ves, 10, "偵測不疊加未核可的暴露增量")
 
 func test_work_carries_pay_relationship_and_favorite_lunch_once() -> void:
 	reach_evening()
@@ -261,7 +261,15 @@ func test_ten_home_days_reach_intimate_without_passive_npc_decay() -> void:
 func test_ten_good_work_days_with_lunch_have_expected_rate_and_money() -> void:
 	for index in range(10):
 		assert_true(day.accept_breakfast(prepared_breakfast(true)))
-		day.rest_afternoon()
+		if day.needs_breakthrough("ves"):
+			assert_true(day.begin_visit("ves", "route"))
+			var gate = Session.Encounter.new()
+			for guard in gate.guards:
+				guard.hp = 0
+			assert_true(day.finish_breakthrough(gate))
+			assert_true(day.finish_visit())
+		else:
+			day.rest_afternoon()
 		day.choose_work()
 		day.finish_work(completed_work())
 		if index < 9:
