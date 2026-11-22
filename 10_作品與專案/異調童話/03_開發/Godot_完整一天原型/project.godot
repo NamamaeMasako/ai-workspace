@@ -3,6 +3,8 @@ config_version=5
 [application]
 config/name="異調童話｜據點暴露原型"
 run/main_scene="res://Main.tscn"
+config/use_custom_user_dir=true
+config/custom_user_dir_name="YidiaoTonghuaPrototype"
 config/features=PackedStringArray("4.6")
 
 [display]

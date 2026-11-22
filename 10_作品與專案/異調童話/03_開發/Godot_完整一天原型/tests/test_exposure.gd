@@ -222,7 +222,7 @@ func test_no_unapproved_extra_rise_or_permanent_communicator_discount() -> void:
 	assert_eq(run.exposures.ves, 16)
 
 func test_gate_scene_flow_returns_to_original_action_and_cleans_up() -> void:
-	var flow = add_child_autofree(load("res://Main.tscn").instantiate())
+	var flow = new_flow()
 	flow.set_process(false)
 	flow.active_view.set_process(false)
 	flow.active_view.game = breakfast()
@@ -245,3 +245,8 @@ func test_gate_scene_flow_returns_to_original_action_and_cleans_up() -> void:
 	assert_string_contains(flow.report_text(), "暴露")
 	await get_tree().process_frame
 	assert_eq(flow.get_child_count(), 2)
+
+func new_flow():
+	var flow = load("res://Main.tscn").instantiate()
+	flow.persistence_enabled = false
+	return add_child_autofree(flow)

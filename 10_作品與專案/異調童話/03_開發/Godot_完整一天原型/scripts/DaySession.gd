@@ -349,3 +349,31 @@ func abandon_breakthrough() -> bool:
 	visit_result = "沒有進入據點，未收取費用、未領取獎勵；額外戰敗暴露數值尚未設定。"
 	phase = Phase.EVENING
 	return true
+
+# 存檔只包含可重建流程的純資料，不包含畫面、Node 或回呼。
+const SAFE_PHASES := [Phase.BREAKFAST, Phase.DEPARTURE, Phase.EVENING, Phase.SUMMARY]
+const SNAPSHOT_FIELDS := [
+	"phase", "day_number", "money", "relationships", "exposures", "lost_sites", "exposure_log",
+	"day_start_exposures", "cleared_routes", "exposure_notes", "overnight_notes", "visit_spent",
+	"completed_quests", "permanent_evidence", "permanent_communicator", "relationship_log", "day_history",
+	"day_start_money", "day_start_relationships", "shopping_cost", "extras", "communicator_known",
+	"eggplant_known", "evidence_found", "communicator_acquired", "detected", "retreated", "louve_hp",
+	"work_pay", "work_errors", "worked", "favorite_lunch", "activity", "visit_site", "visit_kind",
+	"visit_quest", "visit_result", "consumed_today", "day_notes", "debug_funds"
+]
+
+func to_snapshot() -> Dictionary:
+	var snapshot := {}
+	for field in SNAPSHOT_FIELDS:
+		var value = get(field)
+		snapshot[field] = value.duplicate(true) if value is Array or value is Dictionary else value
+	return snapshot
+
+func restore_validated(snapshot: Dictionary) -> void:
+	# 只由 SaveCodec 完整驗證後的新 Session 使用；不呼叫結算／獎勵方法。
+	for field in SNAPSHOT_FIELDS:
+		var value = snapshot[field]
+		if get(field) is Array:
+			get(field).assign(value.duplicate(true))
+		else:
+			set(field, value.duplicate(true) if value is Dictionary else value)

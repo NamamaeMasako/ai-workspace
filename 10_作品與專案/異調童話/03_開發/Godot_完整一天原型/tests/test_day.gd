@@ -138,7 +138,7 @@ func test_reset_restores_all_day_state() -> void:
 	assert_false(day.favorite_lunch)
 
 func test_scene_flow_replaces_view_and_preserves_session() -> void:
-	var flow = add_child_autofree(load("res://Main.tscn").instantiate())
+	var flow = new_flow()
 	flow.set_process(false)
 	flow.active_view.set_process(false)
 	flow.active_view.game = prepared_breakfast(true)
@@ -162,7 +162,7 @@ func test_scene_flow_replaces_view_and_preserves_session() -> void:
 	assert_null(flow.active_view)
 
 func test_return_confirmation_can_cancel_without_advancing_day() -> void:
-	var flow = add_child_autofree(load("res://Main.tscn").instantiate())
+	var flow = new_flow()
 	flow.set_process(false)
 	flow.active_view.game = prepared_breakfast(false)
 	flow.transfer_breakfast(flow.generation)
@@ -175,7 +175,7 @@ func test_return_confirmation_can_cancel_without_advancing_day() -> void:
 	assert_eq(flow.session.phase, Session.Phase.AFTERNOON)
 
 func test_reset_during_pending_transition_ignores_old_generation() -> void:
-	var flow = add_child_autofree(load("res://Main.tscn").instantiate())
+	var flow = new_flow()
 	flow.set_process(false)
 	var old_generation: int = flow.generation
 	flow.reset_day()
@@ -185,7 +185,7 @@ func test_reset_during_pending_transition_ignores_old_generation() -> void:
 	assert_true(is_instance_valid(flow.active_view))
 
 func test_home_scene_flow_and_repeated_restart_cleanup() -> void:
-	var flow = add_child_autofree(load("res://Main.tscn").instantiate())
+	var flow = new_flow()
 	flow.set_process(false)
 	flow.active_view.game = prepared_breakfast(false)
 	flow.transfer_breakfast(flow.generation)
@@ -388,7 +388,7 @@ func test_insufficient_funds_can_recover_without_replaying_breakfast() -> void:
 	assert_eq(day.money, 40)
 
 func test_modal_pauses_qte_and_restart_cancel_keeps_run() -> void:
-	var flow = add_child_autofree(load("res://Main.tscn").instantiate())
+	var flow = new_flow()
 	flow.active_view.game.start()
 	flow.show_relationships()
 	assert_true(is_instance_valid(flow.info_dialog))
@@ -405,7 +405,7 @@ func test_modal_pauses_qte_and_restart_cancel_keeps_run() -> void:
 	assert_true(flow.active_view.is_processing())
 
 func test_repeated_next_day_scene_changes_release_old_views() -> void:
-	var flow = add_child_autofree(load("res://Main.tscn").instantiate())
+	var flow = new_flow()
 	flow.set_process(false)
 	for index in range(5):
 		flow.active_view.set_process(false)
@@ -428,3 +428,8 @@ func test_repeated_next_day_scene_changes_release_old_views() -> void:
 	assert_eq(flow.session.day_number, 1)
 	assert_eq(flow.session.relationship_log.size(), 0)
 	assert_eq(flow.session.noa_closeness, 25)
+
+func new_flow():
+	var flow = load("res://Main.tscn").instantiate()
+	flow.persistence_enabled = false
+	return add_child_autofree(flow)

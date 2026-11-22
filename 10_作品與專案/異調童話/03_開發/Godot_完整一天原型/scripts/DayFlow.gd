@@ -1,5 +1,19 @@
 extends Node2D
 
+const SaveStore = preload("res://scripts/SaveStore.gd")
+@export var persistence_enabled := true
+var saves := SaveStore.new()
+var at_title := false
+var slot_data := {}
+var persistence_message := ""
+var save_dialog: AcceptDialog
+var load_dialog: ConfirmationDialog
+var storage_notice: AcceptDialog
+var save_description: Label
+var save_feedback: Label
+var manual_load_button: Button
+var pending_load_slot := ""
+
 const Session = preload("res://scripts/DaySession.gd")
 const Rules = preload("res://scripts/RelationshipRules.gd")
 const Exposure = preload("res://scripts/ExposureRules.gd")
@@ -30,20 +44,23 @@ func _ready() -> void:
 	ui = Control.new()
 	ui.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	overlay.add_child(ui)
+	if persistence_enabled:
+		at_title = true
+		refresh_slots()
 	show_stage()
 
 func modal_open() -> bool:
-	return is_instance_valid(info_dialog) or is_instance_valid(restart_dialog) or is_instance_valid(return_dialog)
+	return is_instance_valid(info_dialog) or is_instance_valid(restart_dialog) or is_instance_valid(return_dialog) or is_instance_valid(save_dialog) or is_instance_valid(load_dialog) or is_instance_valid(storage_notice)
 
 func _input(event: InputEvent) -> void:
 	if event is InputEventKey and event.pressed and not event.echo:
 		if event.keycode == KEY_R or event.physical_keycode == KEY_R or event.unicode in [82, 114]:
 			get_viewport().set_input_as_handled()
-			if not modal_open():
+			if not modal_open() and not at_title:
 				request_restart()
 
 func _process(_delta: float) -> void:
-	if modal_open():
+	if modal_open() or at_title:
 		return
 	if is_instance_valid(active_view) and not transition_pending:
 		if session.phase == Session.Phase.BREAKFAST and active_view.game.phase == Session.Breakfast.Phase.DONE:
@@ -62,6 +79,9 @@ func _process(_delta: float) -> void:
 			exit_button.disabled = not session.breakthrough_won(active_view.game)
 		if session.breakthrough_won(active_view.game):
 			active_view.game.message = "看守已清除，按上方「進入據點」繼續原本的下午行動。"
+	for child in ui.get_children():
+		if child is Button and child.text == "存讀檔":
+			child.disabled = not safe_to_save()
 	queue_redraw()
 
 func transfer_breakfast(expected_generation: int) -> void:
@@ -84,7 +104,9 @@ func reset_day() -> void:
 	transition_pending = false
 	home_line = 0
 	session.reset()
+	at_title = false
 	show_stage()
+	autosave_breakfast()
 
 func next_day() -> void:
 	if session.next_day():
@@ -92,6 +114,7 @@ func next_day() -> void:
 		transition_pending = false
 		home_line = 0
 		show_stage()
+		autosave_breakfast()
 
 func show_stage() -> void:
 	if is_instance_valid(active_view):
@@ -109,6 +132,13 @@ func show_stage() -> void:
 	return_dialog = null
 	info_dialog = null
 	restart_dialog = null
+	save_dialog = null
+	load_dialog = null
+	storage_notice = null
+	if at_title:
+		build_controls()
+		queue_redraw()
+		return
 	match session.phase:
 		Session.Phase.BREAKFAST:
 			active_view = BreakfastView.new()
@@ -146,6 +176,13 @@ func button(rect: Rect2, caption: String, callback: Callable, parent: Node = nul
 	return control
 
 func build_controls() -> void:
+	if at_title:
+		var auto := button(Rect2(80, 390, 505, 58), "繼續：早餐自動存檔", request_load.bind("auto"))
+		auto.disabled = not slot_data.get("auto", {}).get("ok", false)
+		var manual := button(Rect2(695, 390, 505, 58), "讀取：手動存檔", request_load.bind("manual"))
+		manual.disabled = not slot_data.get("manual", {}).get("ok", false)
+		button(Rect2(80, 565, 1120, 65), "開始新遊戲", request_new_game)
+		return
 	# 覆蓋並消耗舊原型各自的重置按鈕；避免只清空小遊戲。
 	var cap := ColorRect.new()
 	cap.position = Vector2(930, 8)
@@ -153,8 +190,12 @@ func build_controls() -> void:
 	cap.color = Color("#1f3430")
 	cap.mouse_filter = Control.MOUSE_FILTER_STOP
 	ui.add_child(cap)
-	button(Rect2(945, 18, 155, 40), "關係／暴露紀錄", show_relationships)
-	button(Rect2(1110, 18, 145, 40), "R 新一輪", request_restart)
+	button(Rect2(945, 18, 92, 40), "紀錄", show_relationships)
+	if persistence_enabled:
+		var storage := button(Rect2(1047, 18, 102, 40), "存讀檔", show_save_menu)
+		storage.disabled = not safe_to_save()
+		storage.tooltip_text = "可在早餐開始前、下午安排、晚上安排與當日結算使用。"
+	button(Rect2(1159, 18, 96, 40), "R 新一輪", request_restart)
 	var status := Label.new()
 	status.position = Vector2(945, 68)
 	status.add_theme_font_override("font", font)
@@ -255,7 +296,7 @@ func request_restart() -> void:
 	suspend_view()
 	restart_dialog = ConfirmationDialog.new()
 	restart_dialog.title = "開始新一輪？"
-	restart_dialog.dialog_text = "將清除本輪所有天數、金錢、關係及支線紀錄，回到第 1 天。\n如果只想繼續下一天，請取消並在當日結算選擇睡一覺。"
+	restart_dialog.dialog_text = "將回到第 1 天，早餐自動檔會更新為新遊戲；手動存檔保留。\n若要延續目前進度，請取消並選擇繼續遊玩或讀檔。"
 	restart_dialog.ok_button_text = "清除，開始新一輪"
 	restart_dialog.cancel_button_text = "保留，繼續玩"
 	restart_dialog.add_theme_font_override("font", font)
@@ -303,7 +344,7 @@ func report_text() -> String:
 	for row in session.exposure_log:
 		lines.append("第 %d 天｜%s %+d｜%d → %d｜%s" % [row.day, Rules.SITES[row.id], row.delta, row.before, row.after, row.reason])
 	lines.append("\n金錢與線索跨日保留；每日採購與便當喜好重置。無關係自然衰退。")
-	lines.append("本版沒有磁碟存檔；關閉後清除本輪。飽食度、失守後遠端補給與正式劇情尚未接入。")
+	lines.append("早餐前自動存檔；安全時點可手動存讀檔。飽食度、失守後補給與正式劇情尚未接入。")
 	return "\n".join(lines)
 
 func show_relationships() -> void:
@@ -424,6 +465,9 @@ func _draw() -> void:
 	if font == null:
 		return
 	draw_rect(Rect2(0, 0, 1280, 800), Color("#1c2b2b"))
+	if at_title:
+		draw_title()
+		return
 	if is_instance_valid(active_view):
 		return
 	text_at(Vector2(45, 53), "異調童話 / 第 %d 天" % session.day_number, 28)
@@ -434,7 +478,7 @@ func _draw() -> void:
 		Session.Phase.EVENING: draw_evening()
 		Session.Phase.HOME: draw_home()
 		Session.Phase.SUMMARY: draw_summary()
-	text_at(Vector2(45, 773), "關係與暴露測試 · 每晚暴露+6 · 60起需突破／100失守 · 關閉後本輪不保留", 14, Color("#94ad9e"))
+	text_at(Vector2(45, 773), "多日原型 · 早餐前自動保存 · 右上可在安全時點手動存讀檔", 14, Color("#94ad9e"))
 
 func draw_departure() -> void:
 	panel(Rect2(45, 135, 530, 575))
@@ -533,3 +577,187 @@ func exposure_color(value: int) -> Color:
 	if value >= 30:
 		return Color("#e3d698")
 	return Color("#b6d4b0")
+
+func safe_to_save() -> bool:
+	if at_title or transition_pending or not Session.SAFE_PHASES.has(session.phase):
+		return false
+	if session.phase == Session.Phase.BREAKFAST:
+		return is_instance_valid(active_view) and active_view.game.phase == Session.Breakfast.Phase.READY
+	return true
+
+func refresh_slots() -> void:
+	for slot in SaveStore.SLOTS:
+		slot_data[slot] = saves.load_slot(slot)
+
+func slot_description(slot: String) -> String:
+	var result: Dictionary = slot_data.get(slot, {"ok": false, "error": "尚無存檔。"})
+	if not result.ok:
+		return result.error
+	var data: Dictionary = result.snapshot
+	return "第 %d 天・%s\n金錢 $%d・諾亞關係 %d\n保存時間 %s%s" % [data.day_number,
+		SaveStore.Codec.PHASE_LABELS[int(data.phase)], data.money, data.relationships.noa,
+		result.saved_at.replace("T", " "), "\n主檔無法讀取，將使用上一份備份。" if result.get("recovered", false) else ""]
+
+func request_new_game() -> void:
+	if slot_data.get("auto", {}).get("ok", false):
+		request_restart()
+	else:
+		reset_day()
+
+func autosave_breakfast() -> void:
+	if not persistence_enabled:
+		return
+	var result := saves.save_slot("auto", session)
+	refresh_slots()
+	if result.ok:
+		persistence_message = "已自動保存第 %d 天早餐前的進度。" % session.day_number
+	else:
+		persistence_message = "自動存檔失敗：" + result.error
+		show_storage_error(persistence_message)
+
+func show_storage_error(message: String) -> void:
+	suspend_view()
+	storage_notice = AcceptDialog.new()
+	storage_notice.title = "未能保存進度"
+	storage_notice.dialog_text = message + "\n遊戲可以繼續，請在安全時點嘗試手動存檔。"
+	storage_notice.ok_button_text = "回到遊戲"
+	storage_notice.add_theme_font_override("font", font)
+	storage_notice.confirmed.connect(close_storage_error)
+	storage_notice.canceled.connect(close_storage_error)
+	ui.add_child(storage_notice)
+	storage_notice.popup_centered(Vector2i(720, 220))
+
+func close_storage_error() -> void:
+	storage_notice.hide()
+	storage_notice.queue_free()
+	storage_notice = null
+	resume_view()
+
+func show_save_menu() -> void:
+	if not safe_to_save() or modal_open():
+		return
+	refresh_slots()
+	suspend_view()
+	save_dialog = AcceptDialog.new()
+	save_dialog.title = "存檔與讀檔"
+	save_dialog.ok_button_text = "回到遊戲"
+	save_dialog.add_theme_font_override("font", font)
+	var content := Control.new()
+	content.custom_minimum_size = Vector2(740, 430)
+	save_dialog.add_child(content)
+	save_description = Label.new()
+	var description := save_description
+	description.position = Vector2(25, 20)
+	description.add_theme_font_override("font", font)
+	description.add_theme_font_size_override("font_size", 18)
+	description.text = save_menu_description()
+	content.add_child(description)
+	button(Rect2(25, 320, 220, 48), "保存到手動存檔", save_manual, content)
+	manual_load_button = button(Rect2(265, 320, 220, 48), "讀取手動存檔", request_load.bind("manual"), content)
+	manual_load_button.disabled = not slot_data.manual.ok
+	var auto := button(Rect2(505, 320, 220, 48), "讀取早餐自動檔", request_load.bind("auto"), content)
+	auto.disabled = not slot_data.auto.ok
+	save_feedback = Label.new()
+	save_feedback.position = Vector2(25, 390)
+	save_feedback.add_theme_font_override("font", font)
+	save_feedback.add_theme_font_size_override("font_size", 17)
+	save_feedback.text = persistence_message if not persistence_message.is_empty() else "手動檔獨立保存，跨日自動存檔不會覆蓋它。"
+	content.add_child(save_feedback)
+	save_dialog.confirmed.connect(close_save_menu)
+	save_dialog.canceled.connect(close_save_menu)
+	ui.add_child(save_dialog)
+	save_dialog.popup_centered(Vector2i(780, 485))
+
+func close_save_menu() -> void:
+	if is_instance_valid(save_dialog):
+		save_dialog.hide()
+		save_dialog.queue_free()
+	save_dialog = null
+	resume_view()
+
+func save_manual() -> void:
+	if not safe_to_save():
+		return
+	var result := saves.save_slot("manual", session)
+	refresh_slots()
+	persistence_message = "手動保存成功：第 %d 天・%s" % [session.day_number, SaveStore.Codec.PHASE_LABELS[session.phase]] if result.ok else "保存失敗：" + result.error
+	if is_instance_valid(save_description):
+		save_description.text = save_menu_description()
+	if is_instance_valid(save_feedback):
+		save_feedback.text = persistence_message
+	if is_instance_valid(manual_load_button):
+		manual_load_button.disabled = not slot_data.manual.ok
+
+func request_load(slot: String) -> void:
+	if not at_title and not safe_to_save():
+		return
+	if at_title:
+		load_saved_slot(slot)
+		return
+	if is_instance_valid(save_dialog):
+		close_save_menu()
+	if modal_open():
+		return
+	suspend_view()
+	pending_load_slot = slot
+	load_dialog = ConfirmationDialog.new()
+	load_dialog.title = "讀取存檔？"
+	load_dialog.dialog_text = "將回到所選存檔，取代目前尚未保存的進度。\n" + slot_description(slot)
+	load_dialog.ok_button_text = "讀取"
+	load_dialog.cancel_button_text = "保留目前進度"
+	load_dialog.add_theme_font_override("font", font)
+	load_dialog.confirmed.connect(load_saved_slot.bind(slot))
+	load_dialog.canceled.connect(cancel_load)
+	ui.add_child(load_dialog)
+	load_dialog.popup_centered(Vector2i(740, 260))
+
+func cancel_load() -> void:
+	load_dialog.hide()
+	load_dialog.queue_free()
+	load_dialog = null
+	pending_load_slot = ""
+	resume_view()
+
+func load_saved_slot(slot: String) -> void:
+	if not at_title and not safe_to_save():
+		return
+	var result := saves.load_slot(slot)
+	if not result.ok:
+		persistence_message = "讀檔失敗：" + result.error
+		if is_instance_valid(load_dialog):
+			cancel_load()
+		if not at_title:
+			show_storage_error(persistence_message)
+		queue_redraw()
+		return
+	var restored = saves.restored_session(result)
+	# 完整檢查及新 Session 建立成功後，才替換目前遊玩狀態。
+	generation += 1
+	transition_pending = false
+	home_line = 0
+	session = restored
+	at_title = false
+	persistence_message = result.get("notice", "讀檔成功，從保存的時點繼續。")
+	show_stage()
+	# 讀檔不觸發自然上升／扣款／獎勵，也不覆蓋原本自動檔。
+
+func draw_title() -> void:
+	text_at(Vector2(45, 58), "異調童話 / 多日原型", 30)
+	text_at(Vector2(45, 105), "選擇接續進度，或開始新的一輪。", 21)
+	panel(Rect2(45, 150, 575, 340))
+	panel(Rect2(660, 150, 575, 340))
+	text_at(Vector2(80, 198), "早餐自動存檔", 25)
+	text_at(Vector2(695, 198), "手動存檔", 25)
+	for slot in SaveStore.SLOTS:
+		var x := 80 if slot == "auto" else 695
+		var index := 0
+		for line in slot_description(slot).split("\n"):
+			text_at(Vector2(x, 255 + index * 35), line, 18)
+			index += 1
+	text_at(Vector2(80, 530), "每天早餐開始前自動保存；手動檔另存，保留你選擇的安全時點。", 19)
+	text_at(Vector2(80, 685), persistence_message, 18, Color("#e4bf92"))
+	text_at(Vector2(80, 750), "安全保存時點：早餐開始前、下午安排、晚上安排、當日結算。", 17)
+
+func save_menu_description() -> String:
+	return "目前：第 %d 天・%s\n\n自動檔：%s\n\n手動檔：%s" % [session.day_number,
+		SaveStore.Codec.PHASE_LABELS[session.phase], slot_description("auto"), slot_description("manual")]
