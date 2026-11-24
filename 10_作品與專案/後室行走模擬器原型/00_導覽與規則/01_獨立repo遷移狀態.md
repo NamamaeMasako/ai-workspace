@@ -2,17 +2,18 @@
 
 更新日期：2026-11-24
 
-- 新的澪主機工作副本：`G:/Workspace/10_ActiveProjects/backrooms-walking-prototype`
-- 本機獨立 Git repo、Git 忽略規則與資產清單已建立。
-- Godot 4.6.3 已從乾淨 clone 完成匯入與連續步行測試，exit code 0；測試後工作樹乾淨。
-- GitHub 私人遠端：`https://github.com/NamamaeMasako/backrooms-walking-prototype`
-- 最終驗證 commit：`253625ac743ad122ea9c956079bcff27b315c955`
-- GitHub 最終 commit 已由全新 clone 完成 HEAD、歷史、追蹤檔、忽略規則、乾淨狀態與 `git fsck` 驗證；未重跑可選的互動／體驗測試。
+## 已完成
+
+- 正式 GitHub 私人 repo：`https://github.com/NamamaeMasako/backrooms-walking-prototype`
+- 主要分支：`main`
+- 收尾時已驗證 commit：`253625ac743ad122ea9c956079bcff27b315c955`
+- GitHub 全新 clone 已完成 HEAD、4 筆提交、44 個追蹤檔、忽略規則、乾淨狀態與 `git fsck` 驗證。
+- 澪主機工作副本：`G:/Workspace/10_ActiveProjects/backrooms-walking-prototype`
+- 搬移前 OneDrive 完整本體已封存至：`D:/Workspace/10_ProjectVault/backrooms-walking-prototype/99_Archive/2026-11-24_legacy-onedrive-pre-lightweight`
 - 最新可恢復 Git bundle：`D:/Workspace/10_ProjectVault/backrooms-walking-prototype/99_Archive/2026-11-24_remote-linked.bundle`
-- 初始基準 bundle：`D:/Workspace/10_ProjectVault/backrooms-walking-prototype/99_Archive/2026-11-24_initial-repo.bundle`
+- OneDrive 原位置已縮為輕量入口，不再承載作品本體。
 
-## 目前規則
+## 驗證邊界
 
-- 新開發以 G 槽工作副本為試點入口。
-- 獨立 repo 建立、GitHub 推送與遠端重抓驗證已完成。
-- 本 OneDrive 舊本體暫時保留，不刪除、不改成捷徑；從 `ai-workspace` 停止追蹤本體並保留輕量入口，屬於後續清理階段，需另行確認。
+- 搬移前曾由本機乾淨 clone 完成 Godot 4.6.3 匯入與連續步行自動測試，exit code 0。
+- GitHub 收尾只重做 Git 完整性驗證，沒有重新執行可選的互動、畫面、音效或遊玩體驗測試。
