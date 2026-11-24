@@ -3,6 +3,8 @@
 適用對象：在自己設備上使用本 workspace 的每一位 AI（澪、沐晴、凜等）。
 規則本文見 `@/workspace/AGENTS.md` 第 8 節；本檔是實際操作步驟。
 
+> 2026-11-24 更新：本文件只處理共用控制層 `ai-workspace`。已在 `registry/projects.md` 標示完成遷移的作品，使用各自的獨立 repo；不得再把完整工程放回 OneDrive 或納入 `ai-workspace`。
+
 ## 架構（2026-07-10 定案）
 
 - **OneDrive**：負責工作檔案的即時同步（日常編輯照舊，不需理會 git）。
@@ -50,7 +52,14 @@
 - 做任何 git 操作前，先對齊帳本：`git fetch origin` → `git reset origin/main`。
 - 完成一批有意義的變動後 commit（中文訊息）並**隨即 push**。
 - push 被拒絕＝另一台先推了：`git fetch origin` → `git reset origin/main` → 重新 commit → push。這個流程不會弄壞任何東西，工作檔案永遠以 OneDrive 的現況為準。
-- 不要 force push、不要改寫已存在的歷史、不要在專案資料夾內另外 `git init`。
+- 不要 force push、不要改寫已存在的歷史、不要在 OneDrive 專案入口內另外 `git init`。
+
+## 獨立專案 repo
+
+- 先查 `@/workspace/registry/projects.md` 取得 GitHub repo、主要分支與驗證 commit。
+- 每台設備將 repo clone 到自己的 OneDrive 外本機工作區；不要跨設備同步同一個 `.git` 或工作樹。
+- 大型素材、模型、輸出與封存不因 clone 自動取得；依該 repo 的資產清單與本機路徑映射按需存取。
+- 各專案獨立 commit、push 與驗證；`ai-workspace` 只提交入口、登記及共用規則的變更。
 
 ## 疑難排解
 
