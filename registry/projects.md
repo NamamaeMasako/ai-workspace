@@ -6,16 +6,17 @@
 
 - 顯示名稱：後室行走模擬器原型
 - 類型：Godot 第一人稱純探索原型
-- 遷移狀態：本機獨立 repo 已建立並驗證；GitHub 私人遠端待連結
+- 遷移狀態：獨立 repo 已推送至 GitHub 並完成全新 clone 驗證；舊 OneDrive 本體待另行整理
 - 主要分支：`main`
-- 已驗證 commit：`fbcd6f6233028ca42c0f165bfb293ae42cacacee`
+- 已驗證 commit：`253625ac743ad122ea9c956079bcff27b315c955`
 - 澪主機工作副本：`G:/Workspace/10_ActiveProjects/backrooms-walking-prototype`
 - 澪主機 Vault：`D:/Workspace/10_ProjectVault/backrooms-walking-prototype`
-- Git bundle：`D:/Workspace/10_ProjectVault/backrooms-walking-prototype/99_Archive/2026-11-24_initial-repo.bundle`
-- GitHub repo：`<待建立 private repo>`
+- 最新 Git bundle：`D:/Workspace/10_ProjectVault/backrooms-walking-prototype/99_Archive/2026-11-24_remote-linked.bundle`
+- 初始基準 bundle：`D:/Workspace/10_ProjectVault/backrooms-walking-prototype/99_Archive/2026-11-24_initial-repo.bundle`
+- GitHub repo：`https://github.com/NamamaeMasako/backrooms-walking-prototype`（private）
 - 共用工作區舊入口：`@/workspace/10_作品與專案/後室行走模擬器原型`
-- 驗證：Godot 4.6.3 乾淨 clone 匯入成功；連續步行測試 exit 0；測試後 Git 工作樹乾淨
-- 注意：舊 OneDrive 本體尚未刪除；遠端與跨設備 clone 驗證前不得清理。
+- 驗證：Godot 4.6.3 本機乾淨 clone 匯入成功、連續步行測試 exit 0；GitHub 最終 commit 以全新 clone 完成 HEAD、4 筆提交、44 個追蹤檔、忽略規則、乾淨狀態與 `git fsck` 驗證
+- 注意：舊 OneDrive 本體尚未刪除；停止追蹤或改成輕量入口屬於後續清理階段，需另行確認。
 
 ## 尚未拆分的專案
 
